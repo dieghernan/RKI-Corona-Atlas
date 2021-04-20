@@ -9,18 +9,18 @@ repository: dieghernan/RKI-Corona-Atlas
 # Overall options for your site, would affect your site SEO
 # Default values are explained
 locale                  : en-US
-title                   : RKI Corona Atlas
+title                   : corona-atlas
 title_separator         :     #default [" | "]
-subtitle                : Chulapa Jekyll Theme starter pack    #default [your-repository-tagline]
-description             : Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
+subtitle                :     #default [your-repository-tagline]
+description             :  #default [your-repository-tagline]
 
 timezone                :  Europe/Madrid
 
 # SEO
-og_image                :     #default[author.avatar (see below)] or [github-avatar]
+og_image                :     ./assets/img/icon.png
 twitter_site            :     #Avoid @
 author:
-  name                  :  "HH-bros"
+  name                  :  "corona-atlas"
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Berlin, Germany"   # New York, USA
 #  links:
@@ -42,9 +42,9 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  always
   brand:
-    title   :  Home # Title in navbar
+    title   :  corona-atlas # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    img     :  ./assets/img/icon-small.png
   nav:
   - title   : English # Label
     url     : /en # url
