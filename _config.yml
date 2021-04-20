@@ -20,9 +20,9 @@ timezone                :  Europe/Madrid
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  Your Name   # Name Surname Company
+  name                  :  "HH-bros"
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Madrid, Spain"   # New York, USA
+  location              :  "Berlin, Germany"   # New York, USA
 #  links:
 #    - url:  #A link or email: https://twitter.com/jack, mail@example.com
 #      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
