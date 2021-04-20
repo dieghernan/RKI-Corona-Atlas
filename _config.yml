@@ -20,7 +20,7 @@ timezone                :  Europe/Madrid
 og_image                :     ./assets/img/icon.png
 twitter_site            :     #Avoid @
 author:
-  name                  :  "corona-atlas"
+  name                  :  "Diego & Rodrigo"
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Berlin, Germany"   # New York, USA
 #  links:
