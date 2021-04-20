@@ -17,7 +17,7 @@ description             :  #default [your-repository-tagline]
 timezone                :  Europe/Madrid
 
 # SEO
-og_image                :     ./assets/img/icon.png
+og_image                :     ./assets/img/corona-atlas-icon.png
 twitter_site            :     #Avoid @
 author:
   name                  :  "Diego & Rodrigo"
@@ -44,7 +44,7 @@ navbar:
   brand:
     title   :  corona-atlas # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  ./assets/img/icon-small.png
+    img     :  ./assets/img/corona-atlas-icon.svg
   nav:
   - title   : English # Label
     url     : /en # url
