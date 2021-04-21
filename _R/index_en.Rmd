@@ -218,7 +218,7 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   addLayersControl(
     baseGroups = c("Carto Voyager", "Esri World Imagery"),
     overlayGroups = labs,
-    options = layersControlOptions(collapsed = FALSE)
+    options = layersControlOptions(collapsed = TRUE)
   ) %>%
   addLegend(
     colors = c("red", "orange", "yellow", "#00FF00", "green"),
@@ -232,7 +232,7 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
     ") %>%  #RHH
       htmlwidgets::onRender("
         function() {
-            $('.leaflet-control-layers-overlays').prepend('<strong>Risk level</strong>');
+            $('.leaflet-control-layers-overlays').prepend('<strong style=\"text-align:right\">Risk level</strong>');
         }
     ")
 map
