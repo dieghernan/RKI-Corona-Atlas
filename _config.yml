@@ -39,7 +39,7 @@ gtag_id                 :
 #   "brand" options would be set on the left side of your navbar
 #   "nav" would be set on the right side. Two-level nav links available
 navbar:
-  style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
+  style     :  dual #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  always
   brand:
     title   :  corona-atlas # Title in navbar
