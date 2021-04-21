@@ -1,0 +1,6 @@
+risk_level_code,label_en,label_de
+0,NA,NA
+1,Variant of concern,Virusvarianten-Gebiete
+2,High incidence area,Hochinzidenzgebiete
+3,Risk area,Risikogebiete
+4,Not risk areas - Risk last 10 days,Keine Risikobereiche - Risiko dauert 10 Tage

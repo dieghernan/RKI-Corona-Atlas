@@ -1,0 +1,282 @@
+ISO3_CODE,NAME_ENGL,risk_level_code,region,NUTS_CODE
+Field date,"NA",16/04/2020,NA,NA
+XU,Abyei,0,NA,NA
+AFG,Afghanistan,3,NA,NA
+XC,Aksai Chin,0,NA,NA
+ALB,Albania,2,NA,NA
+DZA,Algeria,3,NA,NA
+ASM,American Samoa,0,NA,NA
+AND,Andorra,2,NA,NA
+AGO,Angola,3,NA,NA
+AIA,Anguilla,0,NA,NA
+ATA,Antarctica,0,NA,NA
+ATG,Antigua and Barbuda,3,NA,NA
+ARG,Argentina,2,NA,NA
+ARM,Armenia,2,NA,NA
+ABW,Aruba,0,NA,NA
+XD,Arunachal Pradesh,0,NA,NA
+AUS,Australia,0,NA,NA
+AUT,Austria,3,NA,NA
+AUT,Jungholz,0,TRUE,AT_70818
+AUT,Mittelberg,0,TRUE,AT_80228
+AZE,Azerbaijan,3,NA,NA
+BHS,Bahamas,0,NA,NA
+BHR,Bahrain,2,NA,NA
+BGD,Bangladesh,3,NA,NA
+BRB,Barbados,4,NA,NA
+XO,Bassas Da India,0,NA,NA
+BLR,Belarus,3,NA,NA
+BEL,Belgium,3,NA,NA
+BLZ,Belize,3,NA,NA
+BEN,Benin,3,NA,NA
+BMU,Bermuda,3,NA,NA
+BTN,Bhutan,3,NA,NA
+XV,Bir Tawil (Disputed Territory),0,NA,NA
+BOL,Bolivia,2,NA,NA
+BES,"Bonaire, Sint Eustatius and Saba",0,NA,NA
+BIH,Bosnia and Herzegovina,2,NA,NA
+BWA,Botswana,1,NA,NA
+BVT,Bouvet Island,0,NA,NA
+BRA,Brazil,1,NA,NA
+IOT,British Indian Ocean Territory,0,NA,NA
+VGB,British Virgin Islands,3,NA,NA
+BRN,Brunei,0,NA,NA
+BGR,Bulgaria,2,NA,NA
+BFA,Burkina Faso,3,NA,NA
+BDI,Burundi,3,NA,NA
+KHM,Cambodia,0,NA,NA
+CMR,Cameroon,3,NA,NA
+CAN,Canada,3,NA,NA
+CPV,Cape Verde,3,NA,NA
+CYM,Cayman Islands,0,NA,NA
+CAF,Central African Republic,3,NA,NA
+TCD,Chad,3,NA,NA
+CHL,Chile,2,NA,NA
+CHN,China,0,NA,NA
+XE,China/India,0,NA,NA
+CXR,Christmas Island,0,NA,NA
+CPT,Clipperton Island,0,NA,NA
+CCK,Cocos (Keeling) Islands,0,NA,NA
+COL,Colombia,2,NA,NA
+COM,Comoros,3,NA,NA
+COG,Congo,3,NA,NA
+COK,Cook Islands,0,NA,NA
+CRI,Costa Rica,3,NA,NA
+CIV,Cote D'Ivoire,3,NA,NA
+HRV,Croatia,2,NA,NA
+CUB,Cuba,3,NA,NA
+CUW,Curacao,0,NA,NA
+CYP,Cyprus,2,NA,NA
+CZE,Czechia,2,NA,NA
+COD,Democratic Republic of The Congo,3,NA,NA
+DNK,Denmark,3,NA,NA
+DJI,Djibouti,3,NA,NA
+DMA,Dominica,0,NA,NA
+DOM,Dominican Republic,3,NA,NA
+ECU,Ecuador,2,NA,NA
+EGY,Egypt,2,NA,NA
+SLV,El Salvador,3,NA,NA
+GNQ,Equatorial Guinea,3,NA,NA
+ERI,Eritrea,3,NA,NA
+EST,Estonia,2,NA,NA
+SWZ,Eswatini,1,NA,NA
+ETH,Ethiopia,3,NA,NA
+FLK,Falkland Islands,3,NA,NA
+FRO,Faroes,0,NA,NA
+FJI,Fiji,0,NA,NA
+FIN,Finland,0,NA,NA
+FIN,Uusimaa,3,TRUE,FI1B
+FIN,Varsinais-Suomi,3,TRUE,FI1C1
+FIN,South Karelia,3,TRUE,FI1C5
+FIN,Paijat-Hame,3,TRUE,FI1C3
+FIN,Kymenlaakso,3,TRUE,FI1C4
+FIN,Kanta-Hame,4,TRUE,FI1C2
+FIN,Pirkanmaa,4,TRUE,FI197
+FRA,France,2,NA,NA
+FRA,Moselle,1,TRUE,FRF33
+PYF,French Polynesia,2,NA,NA
+ATF,French Southern and Antarctic Lands,2,NA,NA
+GAB,Gabon,3,NA,NA
+GMB,Gambia,3,NA,NA
+GEO,Georgia,3,NA,NA
+DEU,Germany,0,NA,NA
+GHA,Ghana,3,NA,NA
+GIB,Gibraltar,0,NA,NA
+GRC,Greece,3,NA,NA
+GRL,Greenland,0,NA,NA
+GRD,Grenada,0,NA,NA
+GUM,Guam,0,NA,NA
+GTM,Guatemala,3,NA,NA
+GGY,Guernsey,0,NA,NA
+GIN,Guinea,3,NA,NA
+GNB,Guinea-Bissau,3,NA,NA
+GUY,Guyana,3,NA,NA
+HTI,Haiti,3,NA,NA
+XF,Hala'Ib Triangle,0,NA,NA
+HMD,Heard Island and Mcdonald Islands,0,NA,NA
+HND,Honduras,3,NA,NA
+HKG,Hong Kong,0,NA,NA
+HUN,Hungary,2,NA,NA
+ISL,Iceland,0,NA,NA
+XG,Ilemi Triangle,0,NA,NA
+IND,India,3,NA,NA
+IDN,Indonesia,3,NA,NA
+IRN,Iran,2,NA,NA
+IRQ,Iraq,3,NA,NA
+IRL,Ireland,3,NA,NA
+IRL,South-West,4,TRUE,IE053
+IRL,Mid-West,4,TRUE,IE051
+IRL,South-East,4,TRUE,IE052
+IMN,Isle of Man,0,NA,NA
+ISR,Israel,0,NA,NA
+ITA,Italy,3,NA,NA
+JAM,Jamaica,3,NA,NA
+XH,Jammu Kashmir,0,NA,NA
+JPN,Japan,0,NA,NA
+JEY,Jersey,0,NA,NA
+JOR,Jordan,2,NA,NA
+KAZ,Kazakhstan,3,NA,NA
+KEN,Kenya,3,NA,NA
+KIR,Kiribati,0,NA,NA
+XI,Kuril Islands,0,NA,NA
+KWT,Kuwait,2,NA,NA
+KGZ,Kyrgyzstan,3,NA,NA
+LAO,Laos,0,NA,NA
+LVA,Latvia,3,NA,NA
+LBN,Lebanon,2,NA,NA
+LSO,Lesotho,1,NA,NA
+LBR,Liberia,3,NA,NA
+LBY,Libya,3,NA,NA
+LIE,Liechtenstein,3,NA,NA
+LTU,Lithuania,3,NA,NA
+LUX,Luxembourg,3,NA,NA
+MAC,Macau,0,NA,NA
+MDG,Madagascar,3,NA,NA
+MWI,Malawi,1,NA,NA
+MYS,Malaysia,0,NA,NA
+MDV,Maldives,3,NA,NA
+MLI,Mali,3,NA,NA
+MLT,Malta,3,NA,NA
+MHL,Marshall Islands,0,NA,NA
+MRT,Mauritania,0,NA,NA
+MUS,Mauritius,0,NA,NA
+MEX,Mexico,2,NA,NA
+FSM,Micronesia,0,NA,NA
+MDA,Moldova,2,NA,NA
+MCO,Monaco,0,NA,NA
+MNG,Mongolia,3,NA,NA
+MNE,Montenegro,2,NA,NA
+MSR,Montserrat,0,NA,NA
+MAR,Morocco,3,NA,NA
+MOZ,Mozambique,1,NA,NA
+MMR,Myanmar/Burma,0,NA,NA
+NAM,Namibia,3,NA,NA
+NRU,Nauru,0,NA,NA
+XL,Navassa Island,0,NA,NA
+NPL,Nepal,3,NA,NA
+NLD,Netherlands,2,NA,NA
+NCL,New Caledonia,0,NA,NA
+NZL,New Zealand,0,NA,NA
+NIC,Nicaragua,3,NA,NA
+NER,Niger,3,NA,NA
+NGA,Nigeria,3,NA,NA
+NIU,Niue,0,NA,NA
+NFK,Norfolk Island,0,NA,NA
+PRK,North Korea,3,NA,NA
+MKD,North Macedonia,2,NA,NA
+MNP,Northern Mariana Islands,0,NA,NA
+NOR,Norway,0,NA,NA
+NOR,Oslo-Viken,3,TRUE,NO08
+NOR,Vestfold og Telemark,3,TRUE,NO091
+NOR,Rogaland,3,TRUE,NO0A1
+OMN,Oman,3,NA,NA
+PAK,Pakistan,3,NA,NA
+PLW,Palau,0,NA,NA
+PSE,Palestine,2,NA,NA
+PAN,Panama,3,NA,NA
+PNG,Papua New Guinea,3,NA,NA
+XA,Paracel Islands,0,NA,NA
+PRY,Paraguay,2,NA,NA
+PER,Peru,2,NA,NA
+PHL,Philippines,3,NA,NA
+PCN,Pitcairn Islands,0,NA,NA
+POL,Poland,2,NA,NA
+PRT,Portugal,3,NA,NA
+PRT,Madeira,3,TRUE,PT3
+PRT,Azores,3,TRUE,PT2
+PRT,Algarve,3,TRUE,PT15
+PRI,Puerto Rico,0,NA,NA
+QAT,Qatar,3,NA,NA
+ROU,Romania,3,NA,NA
+RUS,Russian Federation,3,NA,NA
+RWA,Rwanda,0,NA,NA
+BLM,Saint Barthelemy,0,NA,NA
+SHN,"Saint Helena, Ascension and Tristan Da Cunha",0,NA,NA
+KNA,Saint Kitts and Nevis,0,NA,NA
+LCA,Saint Lucia,3,NA,NA
+SPM,Saint Pierre and Miquelon,0,NA,NA
+VCT,Saint Vincent and The Grenadines,0,NA,NA
+WSM,Samoa,0,NA,NA
+SMR,San Marino,3,NA,NA
+STP,Sao Tome and Principe,3,NA,NA
+SAU,Saudi Arabia,3,NA,NA
+XM,Scarborough Reef,0,NA,NA
+SEN,Senegal,3,NA,NA
+XN,Senkaku Islands,0,NA,NA
+SRB,Serbia,2,NA,NA
+SYC,Seychelles,2,NA,NA
+SLE,Sierra Leone,3,NA,NA
+SGP,Singapore,0,NA,NA
+SXM,Sint-Maarten,0,NA,NA
+SVK,Slovakia,3,NA,NA
+SVN,Slovenia,2,NA,NA
+SLB,Solomon Islands,0,NA,NA
+SOM,Somalia,3,NA,NA
+ZAF,South Africa,1,NA,NA
+SGS,South Georgia and The South Sandwich Islands,0,NA,NA
+KOR,South Korea,0,NA,NA
+SSD,South Sudan,3,NA,NA
+ESP,Spain,3,NA,NA
+ESP,Valencia,0,TRUE,ES52
+ESP,Balearic Islands,0,TRUE,ES53
+ESP,Murcia,0,TRUE,ES62
+ESP,Galicia,0,TRUE,ES11
+XB,Spratly Islands,0,NA,NA
+LKA,Sri Lanka,0,NA,NA
+SDN,Sudan,2,NA,NA
+SUR,Suriname,3,NA,NA
+SJM,Svalbard and Jan Mayen,0,NA,NA
+SWE,Sweden,2,NA,NA
+CHE,Switzerland,3,NA,NA
+SYR,Syria,2,NA,NA
+TJK,Tajikistan,3,NA,NA
+THA,Thailand,0,NA,NA
+TLS,Timor-Leste,3,NA,NA
+TGO,Togo,3,NA,NA
+TKL,Tokelau,0,NA,NA
+TON,Tonga,0,NA,NA
+TTO,Trinidad and Tobago,3,NA,NA
+TUN,Tunisia,3,NA,NA
+TUR,Turkey,2,NA,NA
+TKM,Turkmenistan,3,NA,NA
+TCA,Turks and Caicos Islands,0,NA,NA
+TUV,Tuvalu,0,NA,NA
+UGA,Uganda,0,NA,NA
+UKR,Ukraine,2,NA,NA
+ARE,United Arab Emirates,3,NA,NA
+GBR,United Kingdom,4,NA,NA
+TZA,United Republic of Tanzania,2,NA,NA
+USA,United States,3,NA,NA
+UMI,United States Minor Outlying Islands,0,NA,NA
+URY,Uruguay,2,NA,NA
+VIR,Us Virgin Islands,0,NA,NA
+UZB,Uzbekistan,3,NA,NA
+VUT,Vanuatu,0,NA,NA
+VAT,Vatican City,3,NA,NA
+VEN,Venezuela,3,NA,NA
+VNM,Vietnam,0,NA,NA
+WLF,Wallis and Futuna,0,NA,NA
+ESH,Western Sahara,0,NA,NA
+YEM,Yemen,3,NA,NA
+ZMB,Zambia,1,NA,NA
+ZWE,Zimbabwe,1,NA,NA
