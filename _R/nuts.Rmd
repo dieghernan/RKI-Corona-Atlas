@@ -1,0 +1,50 @@
+---
+title: "NUTS Search"
+subtitle: 
+permalink: /nuts
+always_allow_html: yes
+output: 
+  md_document:
+    preserve_yaml: true
+---
+
+
+<!-- Modify _R/*.Rmd file instead -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+## Search by NUTS
+
+
+```{r nuts, echo=FALSE}
+
+library(giscoR)
+library(sf)
+library(dplyr)
+library(reactable)
+
+
+nuts_codes <- gisco_get_nuts(
+  year = 2021,
+  epsg = 4326,
+  cache_dir = "../assets/data/geojson",
+  resolution = 20
+) %>% st_drop_geometry()
+
+df <- nuts_codes %>% select(CNTR_CODE,NUTS_NAME, NAME_LATN, NUTS_ID)
+
+reactable(df,
+          filterable = TRUE,
+          searchable = TRUE,
+          showPageSizeOptions = TRUE,
+          striped = TRUE,
+          paginationType = "jump"
+          )
+
+```
+

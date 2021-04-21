@@ -5,7 +5,6 @@ permalink: /test
 always_allow_html: yes
 output: 
   md_document:
-    variant: gfm
     preserve_yaml: true
 ---
 
@@ -36,13 +35,15 @@ library(rmarkdown)
 library(leaflet.providers)
 
 data <- readr::read_csv("../assets/data/db_countries.csv")
+rl <- readr::read_csv("../assets/data/risk_level_code.csv")
+
 
 cntries_shape <-
   gisco_get_countries(
     year = 2020,
     epsg = 4326,
     cache_dir = "../assets/data/geojson",
-    resolution = 20
+    resolution = 10
   )
 
 # Get NUTS units
@@ -53,12 +54,20 @@ nuts_shape <- gisco_get_nuts(
   year = 2021,
   epsg = 4326,
   cache_dir = "../assets/data/geojson",
-  resolution = 20,
+  resolution = 10,
   nuts_id = data_units$NUTS_CODE
 )
 
+nuts_shape_end <- nuts_shape %>%
+  mutate(NUTS_CODE = NUTS_ID,
+         name.en = NAME_LATN,
+         name.de = NAME_LATN) %>%
+  select(NUTS_CODE, name.en, name.de) %>% inner_join(data_units) %>%
+  select(ISO3_CODE, name.en, name.de, risk_level_code)
+
 # Get LAU
-data_lau <- data_units %>% filter(!NUTS_CODE %in% nuts_shape$NUTS_ID)
+data_lau <-
+  data_units %>% filter(!NUTS_CODE %in% nuts_shape$NUTS_ID)
 
 lau_shape <- gisco_get_lau(
   year = 2019,
@@ -67,48 +76,76 @@ lau_shape <- gisco_get_lau(
   gisco_id = data_lau$NUTS_CODE
 )
 
-
-# Put all units together
-nuts_shape_end <- nuts_shape %>%
-  mutate(NUTS_CODE = NUTS_ID, name.en = NAME_LATN) %>%
-  select(NUTS_CODE, name.en)
-
 lau_shape_end <- lau_shape %>%
-  mutate(NUTS_CODE = GISCO_ID, name.en = LAU_NAME, name.de = LAU_NAME) %>%
-  select(NUTS_CODE, name.en)
+  mutate(NUTS_CODE = GISCO_ID,
+         name.en = LAU_NAME,
+         name.de = LAU_NAME) %>%
+  inner_join(data_units) %>%
+  select(ISO3_CODE, name.en, name.de, risk_level_code)
 
-regions_end <- bind_rows(nuts_shape_end, lau_shape_end) %>%
-  inner_join(data) %>%
-  select(NUTS_CODE, name.en, risk_level_code)
+regions_end <-
+  bind_rows(nuts_shape_end, lau_shape_end) %>% mutate(region = TRUE)
 
 
 # Substract regions from countries
 
-cntries_shape_reg <- st_difference(cntries_shape, st_union(regions_end))
+cntries_shape_reg <-
+  st_difference(cntries_shape, st_union(regions_end))
 
 data_cntries <- data %>% filter(is.na(region)) %>%
-  select(ISO3_CODE, risk_level_code) %>% distinct()
+  mutate(name.en = NAME_ENGL,
+         name.de = countrycode(ISO3_CODE, "iso3c", "cldr.name.de")) %>%
+  select(ISO3_CODE, name.en, name.de, risk_level_code) %>% distinct() %>%
+  mutate(name.de = ifelse(is.na(name.de),
+                          name.en,
+                          name.de))
+
+
 
 cntries_shape_reg2 <- cntries_shape_reg %>%
-  inner_join(data_cntries) %>%
-  mutate(
-    name.en = NAME_ENGL,
-    name.de = countrycode(ISO3_CODE, "iso3c", "cldr.name.de")
-  ) %>%
-  select(ISO3_CODE, name.en, name.de, risk_level_code)
+  select(ISO3_CODE) %>%
+  inner_join(data_cntries)
 
 all_shapes <- bind_rows(cntries_shape_reg2, regions_end)
 all_shapes <- st_make_valid(all_shapes)
+
+df_labels <- data_cntries %>% mutate(cntry.en = name.en,
+                                     cntry.de = name.de) %>%
+  select(ISO3_CODE, cntry.en, cntry.de)
+
+# Labels
+all_shapes <- all_shapes %>% left_join(df_labels)
+
+all_shapes$label_en <- ifelse(
+  !is.na(all_shapes$region),
+  paste0(all_shapes$cntry.en, " | ", all_shapes$name.en),
+  all_shapes$name.en
+)
+all_shapes$label_de <- ifelse(
+  !is.na(all_shapes$region),
+  paste0(all_shapes$cntry.de, " | ", all_shapes$name.de),
+  all_shapes$name.de
+)
+
+all_shapes <-
+  all_shapes %>% select(ISO3_CODE, label_en, label_de, risk_level_code) %>% mutate(risk_level_code = as.integer(risk_level_code)) %>% left_join(rl) 
 #------
 
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == "0",
-                                ISO3_CODE != "DEU" || !is.na(ISO3_CODE))
+                                ISO3_CODE != "DEU")
 level1 <- all_shapes %>% filter(risk_level_code == "1")
 level2 <- all_shapes %>% filter(risk_level_code == "2")
 level3 <- all_shapes %>% filter(risk_level_code == "3")
 level4 <- all_shapes %>% filter(risk_level_code == "4")
+
+```
+
+
+## This is the map
+```{r map, echo=FALSE, out.width = "100%", out.height="60vh"}
+
 
 map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   setMaxBounds(-180, -90, 180, 90) %>%
@@ -152,12 +189,6 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
                            )
                          ))
 
-
-```
-
-
-## This is the map
-```{r map, echo=FALSE, out.width = "100%"}
 map
 ```
 
