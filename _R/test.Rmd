@@ -164,7 +164,7 @@ map
 
 And this is the table
 
-<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/assets/js/reactable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
 
 
