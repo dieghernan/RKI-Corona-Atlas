@@ -95,15 +95,28 @@ cntries_shape_reg2 <- cntries_shape_reg %>%
   select(ISO3_CODE, name.en, name.de, risk_level_code)
 
 all_shapes <- bind_rows(cntries_shape_reg2, regions_end)
-
+all_shapes <- st_make_valid(all_shapes)
 #------
 
-level1 <- all_shapes %>% filter(risk_level_code=="1")
-level2 <- all_shapes %>% filter(risk_level_code=="2")
 
-leaflet(all_shapes) %>%
+DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
+level0 <- all_shapes %>% filter(risk_level_code == "0",
+                                ISO3_CODE != "DEU" || !is.na(ISO3_CODE))
+level1 <- all_shapes %>% filter(risk_level_code == "1")
+level2 <- all_shapes %>% filter(risk_level_code == "2")
+level3 <- all_shapes %>% filter(risk_level_code == "3")
+level4 <- all_shapes %>% filter(risk_level_code == "4")
+
+leaflet(options = leafletOptions(minZoom = 0.5)) %>%
+  setMaxBounds(-180, -90, 180, 90) %>%
   addProviderTiles("CartoDB.DarkMatter") %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
+  addPolygons(data = DEU, stroke = FALSE, smoothFactor = .3, 
+              fillColor = "blue") %>%
+  addPolygons(data = level0,
+              stroke = FALSE,
+              smoothFactor = 0.3,
+              fillColor = "green") %>%
   addPolygons(data = level1,
               stroke = FALSE,
               smoothFactor = 0.3,
@@ -111,7 +124,22 @@ leaflet(all_shapes) %>%
   addPolygons(data = level2,
               stroke = FALSE,
               smoothFactor = 0.3,
-              fillColor = "orange")
+              fillColor = "orange") %>%
+    addPolygons(data = level3,
+              stroke = FALSE,
+              smoothFactor = 0.3,
+              fillColor = "yellow") %>%
+    addPolygons(data = level4,
+              stroke = FALSE,
+              smoothFactor = 0.3,
+              fillColor = "#00FF00") %>%
+  addEasyButton(easyButton(
+                           icon = "fa-globe",
+                           title = "Zoom to Level 1",
+                           onClick = JS(
+                             "function(btn, map){ map.setView([ 51.705533,11.8124408],4); }"
+                           )
+                         ))
 
 
 ```
