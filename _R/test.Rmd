@@ -149,7 +149,7 @@ level4 <- all_shapes %>% filter(risk_level_code == "4")
 
 map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   setMaxBounds(-180, -90, 180, 90) %>%
-  addProviderTiles("CartoDB.Voyager") %>%
+  # addProviderTiles("CartoDB.Voyager") %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
   addPolygons(data = DEU, 
               stroke = FALSE,  
