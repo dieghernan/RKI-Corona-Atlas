@@ -5,9 +5,11 @@ permalink: /test
 always_allow_html: yes
 output: 
   md_document:
-    variant: gfm
     preserve_yaml: true
 ---
+
+
+<!-- Modify _R/*.Rmd file instead -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
@@ -18,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ## Including Code
 
-<!-- Modify _R/*.Rmd file instead -->
+
 
 ```{r test, echo=FALSE}
 
