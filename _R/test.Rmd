@@ -43,7 +43,7 @@ cntries_shape <-
     year = 2020,
     epsg = 4326,
     cache_dir = "../assets/data/geojson",
-    resolution = 10
+    resolution = 60
   )
 
 # Get NUTS units
@@ -54,7 +54,7 @@ nuts_shape <- gisco_get_nuts(
   year = 2021,
   epsg = 4326,
   cache_dir = "../assets/data/geojson",
-  resolution = 10,
+  resolution = 60,
   nuts_id = data_units$NUTS_CODE
 )
 
