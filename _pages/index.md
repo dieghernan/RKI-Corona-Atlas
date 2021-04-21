@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Main page
-subtitle: In german
+title: Hauptseite
+subtitle: auf Deutsch
 permalink: /
 ---
 
-
-Some content
+Hier steht der Inhalt
