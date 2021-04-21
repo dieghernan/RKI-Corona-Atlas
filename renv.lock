@@ -461,7 +461,7 @@
       "Package": "renv",
       "Version": "0.13.2",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "079cb1f03ff972b30401ed05623cbe92"
     },
     "rlang": {

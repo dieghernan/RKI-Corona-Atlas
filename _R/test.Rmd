@@ -107,32 +107,38 @@ level2 <- all_shapes %>% filter(risk_level_code == "2")
 level3 <- all_shapes %>% filter(risk_level_code == "3")
 level4 <- all_shapes %>% filter(risk_level_code == "4")
 
-leaflet(options = leafletOptions(minZoom = 0.5)) %>%
+map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   setMaxBounds(-180, -90, 180, 90) %>%
-  addProviderTiles("CartoDB.DarkMatter") %>%
+  addProviderTiles("CartoDB.Voyager") %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
   addPolygons(data = DEU, stroke = FALSE, smoothFactor = .3, 
-              fillColor = "blue") %>%
+              fillColor = "blue",
+              fillOpacity = 0.5) %>%
   addPolygons(data = level0,
               stroke = FALSE,
               smoothFactor = 0.3,
-              fillColor = "green") %>%
+              fillColor = "green",
+              fillOpacity = 0.5) %>%
   addPolygons(data = level1,
               stroke = FALSE,
               smoothFactor = 0.3,
-              fillColor = "red") %>%
+              fillColor = "red",
+              fillOpacity = 0.5) %>%
   addPolygons(data = level2,
               stroke = FALSE,
               smoothFactor = 0.3,
-              fillColor = "orange") %>%
+              fillColor = "orange",
+              fillOpacity = 0.5) %>%
     addPolygons(data = level3,
               stroke = FALSE,
               smoothFactor = 0.3,
-              fillColor = "yellow") %>%
+              fillColor = "yellow",
+              fillOpacity = 0.5) %>%
     addPolygons(data = level4,
               stroke = FALSE,
               smoothFactor = 0.3,
-              fillColor = "#00FF00") %>%
+              fillColor = "#00FF00",
+              fillOpacity = 0.5) %>%
   addEasyButton(easyButton(
                            icon = "fa-globe",
                            title = "Zoom to Level 1",
@@ -144,8 +150,19 @@ leaflet(options = leafletOptions(minZoom = 0.5)) %>%
 
 ```
 
+
+## This is the map
+```{r map, echo=FALSE}
+map
+```
+
+
+
 ## A Table
-<script src="./assets/js/reactable.js"></script>
+
+And this is the table
+
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/assets/js/reactable.min.js"></script>
 ```{r table , echo=FALSE}
 
 
