@@ -49,7 +49,7 @@ data_units <- data %>% filter(region == TRUE & !is.na(NUTS_CODE))
 nuts_shape <- gisco_get_nuts(
   year = 2021,
   epsg = 4326,
-  cache_dir = "..assets/data/geojson",
+  cache_dir = "../assets/data/geojson",
   resolution = 10,
   nuts_id = data_units$NUTS_CODE
 )
@@ -117,7 +117,7 @@ leaflet(all_shapes) %>%
 ```
 
 ## A Table
-
+<script src="./assets/js/reactable.js"></script>
 ```{r table , echo=FALSE}
 
 
