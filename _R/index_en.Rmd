@@ -1,7 +1,7 @@
 ---
-title: "Untitled"
-subtitle: aaa
-permalink: /test
+title: "Amazing title"
+subtitle: "Amazing subtitle"
+permalink: /en
 always_allow_html: yes
 output: 
   md_document:
@@ -9,7 +9,7 @@ output:
 ---
 
 
-<!-- Modify _R/*.Rmd file instead -->
+<!-- Modify _R/index_en.Rmd file instead -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
@@ -18,11 +18,8 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 
-## Including Code
 
-
-
-```{r test, echo=FALSE}
+```{r data_cleansing, echo=FALSE}
 
 library(giscoR)
 library(sf)
@@ -36,6 +33,9 @@ library(leaflet.providers)
 
 data <- readr::read_csv("../assets/data/db_countries.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv")
+
+date <- data %>% filter(ISO3_CODE == "Field date") %>%
+  select(risk_level_code) %>% as.character() %>% as.Date()
 
 
 cntries_shape <-
@@ -129,8 +129,6 @@ all_shapes$label_de <- ifelse(
 
 all_shapes <-
   all_shapes %>% select(ISO3_CODE, label_en, label_de, risk_level_code) %>% mutate(risk_level_code = as.integer(risk_level_code)) %>% left_join(rl) 
-#------
-
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == "0",
@@ -142,6 +140,9 @@ level4 <- all_shapes %>% filter(risk_level_code == "4")
 
 ```
 
+<!-- RHH - Review hard-coded labels -->
+
+<p class="text-right font-weight-bold">Updated: `r format(date, format="%d %B %Y")`</p>
 
 ## Map
 
@@ -223,12 +224,12 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
     colors = c("red", "orange", "yellow", "#00FF00", "green"),
     labels = labs,
     position = "bottomright"
-  ) %>%
+  ) %>% #RHH
       htmlwidgets::onRender("
         function() {
             $('.leaflet-control-layers-list').prepend('<strong>Base map</strong>');
         }
-    ") %>%  
+    ") %>%  #RHH
       htmlwidgets::onRender("
         function() {
             $('.leaflet-control-layers-overlays').prepend('<strong>Risk level</strong>');
@@ -247,20 +248,21 @@ Some text in English explaining whatever...
 ```{r table , echo=FALSE}
 
 
-df <- st_drop_geometry(all_shapes) %>% 
+df <- st_drop_geometry(all_shapes) %>%
   select(label_en, risk_level_en)
 
-names(df) <- c("Country/Region","Risk Level")
+names(df) <- c("Country/Region", "Risk Level") #RHH
 
-df <- df[order(df[,1]),]
+df <- df[order(df[, 1]), ]
 
-reactable(df,
-          filterable = TRUE,
-          searchable = TRUE,
-          showPageSizeOptions = TRUE,
-          striped = TRUE,
-          paginationType = "jump"
-          )
+reactable(
+  df,
+  filterable = TRUE,
+  searchable = TRUE,
+  showPageSizeOptions = TRUE,
+  striped = TRUE,
+  paginationType = "jump"
+)
 
 ```
 

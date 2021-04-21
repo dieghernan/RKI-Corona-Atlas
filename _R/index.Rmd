@@ -1,7 +1,7 @@
 ---
-title: "Untitled"
-subtitle: aaa
-permalink: /test
+title: Hauptseite
+subtitle: auf Deutsch
+permalink: /
 always_allow_html: yes
 output: 
   md_document:
@@ -9,7 +9,7 @@ output:
 ---
 
 
-<!-- Modify _R/*.Rmd file instead -->
+<!-- Modify _R/index.Rmd file instead -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
@@ -18,11 +18,8 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 
-## Including Code
 
-
-
-```{r test, echo=FALSE}
+```{r data_cleansing, echo=FALSE}
 
 library(giscoR)
 library(sf)
@@ -37,6 +34,8 @@ library(leaflet.providers)
 data <- readr::read_csv("../assets/data/db_countries.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv")
 
+date <- data %>% filter(ISO3_CODE == "Field date") %>%
+  select(risk_level_code) %>% as.character() %>% as.Date()
 
 cntries_shape <-
   gisco_get_countries(
@@ -129,8 +128,6 @@ all_shapes$label_de <- ifelse(
 
 all_shapes <-
   all_shapes %>% select(ISO3_CODE, label_en, label_de, risk_level_code) %>% mutate(risk_level_code = as.integer(risk_level_code)) %>% left_join(rl) 
-#------
-
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == "0",
@@ -142,14 +139,19 @@ level4 <- all_shapes %>% filter(risk_level_code == "4")
 
 ```
 
+<!-- RHH - Review hard-coded labels -->
 
-## Map
 
-Some text in English explaining whatever...
+<p class="text-right font-weight-bold">Updated in Deutsch: `r format(date, format="%d. %m %Y")`</p>
+
+
+## Mappend
+
+Some texten in Deutsch explaining whateveren...
 
 ```{r map, echo=FALSE, out.width = "100%", out.height="60vh"}
 
-labs <- rl$risk_level_en
+labs <- rl$risk_level_de
 labs <- labs[c(2:5,1)]
 
 
@@ -223,15 +225,15 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
     colors = c("red", "orange", "yellow", "#00FF00", "green"),
     labels = labs,
     position = "bottomright"
-  ) %>%
+  ) %>% #RHH
       htmlwidgets::onRender("
         function() {
-            $('.leaflet-control-layers-list').prepend('<strong>Base map</strong>');
+            $('.leaflet-control-layers-list').prepend('<strong>Base mappend</strong>');
         }
-    ") %>%  
+    ") %>%  #RHH
       htmlwidgets::onRender("
         function() {
-            $('.leaflet-control-layers-overlays').prepend('<strong>Risk level</strong>');
+            $('.leaflet-control-layers-overlays').prepend('<strong>Risk level in Deutsch</strong>');
         }
     ")
 map
@@ -239,28 +241,29 @@ map
 
 
 
-## Summary
+## Summarrien
 
-Some text in English explaining whatever...
+Some text in Deutsch explaining whatever...
 
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
 
 
-df <- st_drop_geometry(all_shapes) %>% 
-  select(label_en, risk_level_en)
+df <- st_drop_geometry(all_shapes) %>%
+  select(label_de, risk_level_de)
 
-names(df) <- c("Country/Region","Risk Level")
+names(df) <- c("Country/Region in Deutsch", "Risk Level in Deutsch") #RHH
 
-df <- df[order(df[,1]),]
+df <- df[order(df[, 1]), ]
 
-reactable(df,
-          filterable = TRUE,
-          searchable = TRUE,
-          showPageSizeOptions = TRUE,
-          striped = TRUE,
-          paginationType = "jump"
-          )
+reactable(
+  df,
+  filterable = TRUE,
+  searchable = TRUE,
+  showPageSizeOptions = TRUE,
+  striped = TRUE,
+  paginationType = "jump"
+)
 
 ```
 
