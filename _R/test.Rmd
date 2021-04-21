@@ -116,26 +116,32 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
   addPolygons(data = DEU, 
               stroke = FALSE,  
+              smoothFactor = 0.3,
               fillColor = "blue",
               fillOpacity = 0.5) %>%
   addPolygons(data = level0,
               stroke = FALSE,
+              smoothFactor = 0.3,
               fillColor = "green",
               fillOpacity = 0.5) %>%
   addPolygons(data = level1,
               stroke = FALSE,
+              smoothFactor = 0.3,
               fillColor = "red",
               fillOpacity = 0.5) %>%
   addPolygons(data = level2,
               stroke = FALSE,
+              smoothFactor = 0.3,
               fillColor = "orange",
               fillOpacity = 0.5) %>%
     addPolygons(data = level3,
               stroke = FALSE,
+              smoothFactor = 0.3,
               fillColor = "yellow",
               fillOpacity = 0.5) %>%
     addPolygons(data = level4,
               stroke = FALSE,
+              smoothFactor = 0.3,
               fillColor = "#00FF00",
               fillOpacity = 0.5) %>%
   addEasyButton(easyButton(
