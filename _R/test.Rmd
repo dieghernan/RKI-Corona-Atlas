@@ -5,6 +5,7 @@ permalink: /test
 always_allow_html: yes
 output: 
   md_document:
+    variant: gfm
     preserve_yaml: true
 ---
 
@@ -113,32 +114,28 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   setMaxBounds(-180, -90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager") %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
-  addPolygons(data = DEU, stroke = FALSE, smoothFactor = .3, 
+  addPolygons(data = DEU, 
+              stroke = FALSE,  
               fillColor = "blue",
               fillOpacity = 0.5) %>%
   addPolygons(data = level0,
               stroke = FALSE,
-              smoothFactor = 0.3,
               fillColor = "green",
               fillOpacity = 0.5) %>%
   addPolygons(data = level1,
               stroke = FALSE,
-              smoothFactor = 0.3,
               fillColor = "red",
               fillOpacity = 0.5) %>%
   addPolygons(data = level2,
               stroke = FALSE,
-              smoothFactor = 0.3,
               fillColor = "orange",
               fillOpacity = 0.5) %>%
     addPolygons(data = level3,
               stroke = FALSE,
-              smoothFactor = 0.3,
               fillColor = "yellow",
               fillOpacity = 0.5) %>%
     addPolygons(data = level4,
               stroke = FALSE,
-              smoothFactor = 0.3,
               fillColor = "#00FF00",
               fillOpacity = 0.5) %>%
   addEasyButton(easyButton(
