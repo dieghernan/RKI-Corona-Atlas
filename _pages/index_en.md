@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Secondary page
-subtitle: This is in english
+subtitle: This is in English
 permalink: /en
 ---
 
