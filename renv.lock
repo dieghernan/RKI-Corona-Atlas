@@ -436,6 +436,20 @@
       "Repository": "CRAN",
       "Hash": "a3ded548110163cf499d63c3932dd499"
     },
+    "reactR": {
+      "Package": "reactR",
+      "Version": "0.4.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "75389c8091eb14ee21c6bc87a88b3809"
+    },
+    "reactable": {
+      "Package": "reactable",
+      "Version": "0.2.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ac1afe50d1c77470a72971a07fd146b1"
+    },
     "readr": {
       "Package": "readr",
       "Version": "1.4.0",
@@ -447,7 +461,7 @@
       "Package": "renv",
       "Version": "0.13.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "079cb1f03ff972b30401ed05623cbe92"
     },
     "rlang": {

@@ -1,0 +1,135 @@
+---
+title: "Untitled"
+subtitle: aaa
+permalink: /test
+always_allow_html: yes
+output: 
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+## Including Code
+
+<!-- Modify _R/*.Rmd file instead -->
+
+```{r test, echo=FALSE}
+
+library(giscoR)
+library(sf)
+library(readr)
+library(dplyr)
+library(countrycode)
+library(leaflet)
+library(reactable)
+library(rmarkdown)
+library(leaflet.providers)
+
+data <- readr::read_csv("../assets/data/db_countries.csv")
+
+cntries_shape <-
+  gisco_get_countries(
+    year = 2020,
+    epsg = 4326,
+    cache_dir = "../assets/data/geojson",
+    resolution = 10
+  )
+
+# Get NUTS units
+data_units <- data %>% filter(region == TRUE & !is.na(NUTS_CODE))
+
+
+nuts_shape <- gisco_get_nuts(
+  year = 2021,
+  epsg = 4326,
+  cache_dir = "..assets/data/geojson",
+  resolution = 10,
+  nuts_id = data_units$NUTS_CODE
+)
+
+# Get LAU
+data_lau <- data_units %>% filter(!NUTS_CODE %in% nuts_shape$NUTS_ID)
+
+lau_shape <- gisco_get_lau(
+  year = 2019,
+  epsg = 4326,
+  cache_dir = "../assets/data/geojson",
+  gisco_id = data_lau$NUTS_CODE
+)
+
+
+# Put all units together
+nuts_shape_end <- nuts_shape %>%
+  mutate(NUTS_CODE = NUTS_ID, name.en = NAME_LATN) %>%
+  select(NUTS_CODE, name.en)
+
+lau_shape_end <- lau_shape %>%
+  mutate(NUTS_CODE = GISCO_ID, name.en = LAU_NAME, name.de = LAU_NAME) %>%
+  select(NUTS_CODE, name.en)
+
+regions_end <- bind_rows(nuts_shape_end, lau_shape_end) %>%
+  inner_join(data) %>%
+  select(NUTS_CODE, name.en, risk_level_code)
+
+
+# Substract regions from countries
+
+cntries_shape_reg <- st_difference(cntries_shape, st_union(regions_end))
+
+data_cntries <- data %>% filter(is.na(region)) %>%
+  select(ISO3_CODE, risk_level_code) %>% distinct()
+
+cntries_shape_reg2 <- cntries_shape_reg %>%
+  inner_join(data_cntries) %>%
+  mutate(
+    name.en = NAME_ENGL,
+    name.de = countrycode(ISO3_CODE, "iso3c", "cldr.name.de")
+  ) %>%
+  select(ISO3_CODE, name.en, name.de, risk_level_code)
+
+all_shapes <- bind_rows(cntries_shape_reg2, regions_end)
+
+#------
+
+level1 <- all_shapes %>% filter(risk_level_code=="1")
+level2 <- all_shapes %>% filter(risk_level_code=="2")
+
+leaflet(all_shapes) %>%
+  addProviderTiles("CartoDB.DarkMatter") %>%
+  setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
+  addPolygons(data = level1,
+              stroke = FALSE,
+              smoothFactor = 0.3,
+              fillColor = "red") %>%
+  addPolygons(data = level2,
+              stroke = FALSE,
+              smoothFactor = 0.3,
+              fillColor = "orange")
+
+
+```
+
+## A Table
+
+```{r table , echo=FALSE}
+
+
+df <- st_drop_geometry(all_shapes)
+
+reactable(df,
+          filterable = TRUE,
+          searchable = TRUE,
+          showPageSizeOptions = TRUE,
+          striped = TRUE,
+          paginationType = "jump"
+          )
+
+```
+
