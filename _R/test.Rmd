@@ -154,7 +154,7 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
 
 
 ## This is the map
-```{r map, echo=FALSE}
+```{r map, echo=FALSE, out.width = "100%"}
 map
 ```
 
