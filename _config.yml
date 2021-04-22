@@ -39,9 +39,8 @@ gtag_id                 :
 #   "brand" options would be set on the left side of your navbar
 #   "nav" would be set on the right side. Two-level nav links available
 navbar:
-  expand    :  always
   brand:
-    title   :  corona-atlas # Title in navbar
+    title   :  Corona Atlas # Title in navbar
     url     :  # default["url/baseurl"]
     img     :  ./assets/img/corona-atlas-icon.svg
   nav:
