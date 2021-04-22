@@ -16,8 +16,8 @@ final_shape <- st_sf(df, geometry=st_geometry(r_shp)) %>% st_make_valid()
 
 plot(st_geometry(final_shape))
 
-st_write(final_shape,"assets/data/geojson/kosovo.geojson")
+st_write(final_shape,"_R/geojson/kosovo.geojson")
 rm(list=ls())
 
-b <- st_read("assets/data/geojson/kosovo.geojson")
+b <- st_read("_R/geojson/kosovo.geojson")
 plot(st_geometry(b))

@@ -116,6 +116,7 @@ exclude:
   - README.md
   - Gemfile
   - vendor
+  - _R
   - '*.Rmd'
 
 include:

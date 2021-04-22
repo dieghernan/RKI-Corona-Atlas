@@ -44,8 +44,8 @@ cntries_shape <-
   gisco_get_countries(
     year = 2020,
     epsg = 4326,
-    cache_dir = "../assets/data/geojson",
-    resolution = 10
+    cache_dir = "./geojson",
+    resolution = 20
   )
 
 # Get NUTS units
@@ -55,8 +55,8 @@ if (nrow(data_units > 0)) {
   nuts_shape <- gisco_get_nuts(
     year = 2021,
     epsg = 4326,
-    cache_dir = "../assets/data/geojson",
-    resolution = 10,
+    cache_dir = "./geojson",
+    resolution = 20,
     nuts_id = c(data_units$NUTS_CODE, "ES") # Hack
   )
   
@@ -74,7 +74,7 @@ if (nrow(data_units > 0)) {
     lau_shape <- gisco_get_lau(
       year = 2019,
       epsg = 4326,
-      cache_dir = "../assets/data/geojson",
+      cache_dir = "./geojson",
       gisco_id = c(data_lau$NUTS_CODE, "AL_AL111") # Hack
     )
     
@@ -104,7 +104,7 @@ if (nrow(data_units > 0)) {
   regions_end <- NULL
 }
 # Add Kosovo
-K <- st_read("../assets/data/geojson/kosovo.geojson") %>% select(ISO3_CODE)
+K <- st_read("./geojson/kosovo.geojson") %>% select(ISO3_CODE)
 
 cntries_shape_reg <-
     st_difference(cntries_shape_reg, st_union(K))
