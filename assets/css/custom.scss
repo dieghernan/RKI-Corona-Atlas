@@ -4,6 +4,11 @@
 // Your custom css /scss here
 
 .leaflet-control{
-    font-size: .65rem;
-    font-weight: bold;
+    font-size:.65rem;
+    font-weight:bold
+}
+@media (max-height: 576px) {
+  .easy-button-container{
+    display: none
+  }
 }

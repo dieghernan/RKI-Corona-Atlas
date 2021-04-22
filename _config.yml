@@ -39,7 +39,6 @@ gtag_id                 :
 #   "brand" options would be set on the left side of your navbar
 #   "nav" would be set on the right side. Two-level nav links available
 navbar:
-  style     :  dual #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  always
   brand:
     title   :  corona-atlas # Title in navbar
@@ -60,16 +59,16 @@ googlefonts:
  - url : https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap
 
 # Theme and colors
-chulapa-skin: 
-  highlight     : 
-  vars          :    
+chulapa-skin:
+  highlight     :
+  vars          :
     font-family-base: Roboto, sans-serif
     headings-font-family: Montserrat, sans-serif
     font-family-monospace: Roboto Mono, monospace
     white: white
     primary: "#1565c0"
     body-bg: white
-    navbar-chulapa-bg-color: white 
+    navbar-chulapa-bg-color: white
     navbar-chulapa-active-color: "#2962ff"
     footer-chulapa-icon-color: "#1565c0"
     footer-chulapa-icon-hover-color: transparent

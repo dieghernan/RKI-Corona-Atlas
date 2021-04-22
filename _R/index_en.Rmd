@@ -34,6 +34,8 @@ library(leaflet.providers)
 data <- readr::read_csv("../assets/data/db_countries.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv")
 
+
+
 date <- data %>% filter(ISO3_CODE == "Field date") %>%
   select(risk_level_code) %>% as.character() %>% as.Date()
 
@@ -49,48 +51,60 @@ cntries_shape <-
 # Get NUTS units
 data_units <- data %>% filter(region == TRUE & !is.na(NUTS_CODE))
 
+if (nrow(data_units > 0)) {
+  nuts_shape <- gisco_get_nuts(
+    year = 2021,
+    epsg = 4326,
+    cache_dir = "../assets/data/geojson",
+    resolution = 10,
+    nuts_id = c(data_units$NUTS_CODE, "ES") # Hack
+  )
+  
+  nuts_shape_end <- nuts_shape %>%
+    mutate(NUTS_CODE = NUTS_ID,
+           name.en = NAME_LATN,
+           name.de = NAME_LATN) %>%
+    select(NUTS_CODE, name.en, name.de) %>% inner_join(data_units) %>%
+    select(ISO3_CODE, name.en, name.de, risk_level_code)
+  
+  # Get LAU
+  data_lau <-
+    data_units %>% filter(!NUTS_CODE %in% nuts_shape$NUTS_ID)
+  if (nrow(data_lau) > 0) {
+    lau_shape <- gisco_get_lau(
+      year = 2019,
+      epsg = 4326,
+      cache_dir = "../assets/data/geojson",
+      gisco_id = c(data_lau$NUTS_CODE, "AL_AL111") # Hack
+    )
+    
+    lau_shape_end <- lau_shape %>%
+      mutate(NUTS_CODE = GISCO_ID,
+             name.en = LAU_NAME,
+             name.de = LAU_NAME) %>%
+      inner_join(data_units) %>%
+      select(ISO3_CODE, name.en, name.de, risk_level_code)
+    
+  } else {
+    lau_shape_end <- NULL
+  }
+  
+  
+  regions_end <-
+    bind_rows(nuts_shape_end, lau_shape_end) %>% mutate(region = TRUE)
+  
+  
+  # Substract regions from countries
+  
+  cntries_shape_reg <-
+    st_difference(cntries_shape, st_union(regions_end))
+  
+} else {
+  cntries_shape_reg <- cntries_shape
+  regions_end <- NULL
+}
 
-nuts_shape <- gisco_get_nuts(
-  year = 2021,
-  epsg = 4326,
-  cache_dir = "../assets/data/geojson",
-  resolution = 10,
-  nuts_id = data_units$NUTS_CODE
-)
 
-nuts_shape_end <- nuts_shape %>%
-  mutate(NUTS_CODE = NUTS_ID,
-         name.en = NAME_LATN,
-         name.de = NAME_LATN) %>%
-  select(NUTS_CODE, name.en, name.de) %>% inner_join(data_units) %>%
-  select(ISO3_CODE, name.en, name.de, risk_level_code)
-
-# Get LAU
-data_lau <-
-  data_units %>% filter(!NUTS_CODE %in% nuts_shape$NUTS_ID)
-
-lau_shape <- gisco_get_lau(
-  year = 2019,
-  epsg = 4326,
-  cache_dir = "../assets/data/geojson",
-  gisco_id = data_lau$NUTS_CODE
-)
-
-lau_shape_end <- lau_shape %>%
-  mutate(NUTS_CODE = GISCO_ID,
-         name.en = LAU_NAME,
-         name.de = LAU_NAME) %>%
-  inner_join(data_units) %>%
-  select(ISO3_CODE, name.en, name.de, risk_level_code)
-
-regions_end <-
-  bind_rows(nuts_shape_end, lau_shape_end) %>% mutate(region = TRUE)
-
-
-# Substract regions from countries
-
-cntries_shape_reg <-
-  st_difference(cntries_shape, st_union(regions_end))
 
 data_cntries <- data %>% filter(is.na(region)) %>%
   mutate(name.en = NAME_ENGL,
@@ -128,7 +142,7 @@ all_shapes$label_de <- ifelse(
 )
 
 all_shapes <-
-  all_shapes %>% select(ISO3_CODE, label_en, label_de, risk_level_code) %>% mutate(risk_level_code = as.integer(risk_level_code)) %>% left_join(rl) 
+  all_shapes %>% select(ISO3_CODE, label_en, label_de, risk_level_code) %>% mutate(risk_level_code = as.integer(risk_level_code)) %>% left_join(rl)
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == "0",
@@ -137,7 +151,6 @@ level1 <- all_shapes %>% filter(risk_level_code == "1")
 level2 <- all_shapes %>% filter(risk_level_code == "2")
 level3 <- all_shapes %>% filter(risk_level_code == "3")
 level4 <- all_shapes %>% filter(risk_level_code == "4")
-
 ```
 
 <!-- RHH - Review hard-coded labels -->
@@ -148,16 +161,17 @@ level4 <- all_shapes %>% filter(risk_level_code == "4")
 
 Some text in English explaining whatever...
 
-```{r map, echo=FALSE, out.width = "100%", out.height="60vh"}
+```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
 labs <- rl$risk_level_en
-labs <- labs[c(2:5,1)]
+labs <- labs[c(2:5, 1)]
 
 
 
 map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
-  setMaxBounds(-180,-90, 180, 90) %>%
+  setMaxBounds(-180, -90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
+  addProviderTiles("CartoDB.DarkMatter", group = "Carto Dark Matter") %>%
   addProviderTiles("Esri.WorldImagery", group = "Esri World Imagery") %>%
   addTiles(urlTemplate = "", attribution = "© EuroGeographics for the administrative boundaries") %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
@@ -198,7 +212,7 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
     smoothFactor = 0.3,
     fillColor = "yellow",
     fillOpacity = 0.5,
-        group = labs[3]
+    group = labs[3]
   ) %>%
   addPolygons(
     data = level4,
@@ -206,7 +220,7 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
     smoothFactor = 0.3,
     fillColor = "#00FF00",
     fillOpacity = 0.5,
-        group = labs[4]
+    group = labs[4]
   ) %>%
   addEasyButton(easyButton(
     icon = "fa-globe",
@@ -216,25 +230,22 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
     )
   )) %>%
   addLayersControl(
-    baseGroups = c("Carto Voyager", "Esri World Imagery"),
+    baseGroups = c("Carto Voyager", "Carto Dark Matter", "Esri World Imagery"),
     overlayGroups = labs,
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
   addLegend(
     colors = c("red", "orange", "yellow", "#00FF00", "green"),
     labels = labs,
-    position = "bottomright"
+    position = "bottomleft"
   ) %>% #RHH
-      htmlwidgets::onRender("
+  htmlwidgets::onRender(
+    "
         function() {
-            $('.leaflet-control-layers-list').prepend('<strong>Base map</strong>');
+            $('.leaflet-control-layers-overlays').prepend('<strong>Risk level</strong>');
         }
-    ") %>%  #RHH
-      htmlwidgets::onRender("
-        function() {
-            $('.leaflet-control-layers-overlays').prepend('<strong style=\"text-align:right\">Risk level</strong>');
-        }
-    ")
+    "
+  )
 map
 ```
 
