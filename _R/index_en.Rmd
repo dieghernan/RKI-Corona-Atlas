@@ -104,6 +104,11 @@ if (nrow(data_units > 0)) {
   regions_end <- NULL
 }
 
+# Add Kosovo
+K <- st_read("../assets/data/geojson/kosovo.geojson")
+
+cntries_shape_reg <-
+    st_difference(cntries_shape_reg, st_union(K))
 
 
 data_cntries <- data %>% filter(is.na(region)) %>%
