@@ -104,7 +104,7 @@ if (nrow(data_units > 0)) {
   regions_end <- NULL
 }
 # Add Kosovo
-K <- st_read("./geojson/kosovo.geojson") %>% select(ISO3_CODE)
+K <- st_read("./geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
 
 cntries_shape_reg <-
     st_difference(cntries_shape_reg, st_union(K))
