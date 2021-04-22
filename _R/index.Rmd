@@ -168,10 +168,33 @@ Some texten in Deutsch explaining whateveren...
 labs <- rl$risk_level_de
 labs <- labs[c(2:5, 1)]
 
+labelsDEU <- sprintf("<strong>%s</strong><br/>%s",
+                     DEU$label_de,
+                     DEU$risk_level_de) %>% lapply(htmltools::HTML)
 
+label0 <- sprintf("<strong>%s</strong><br/>%s",
+                  level0$label_de,
+                  level0$risk_level_de) %>% lapply(htmltools::HTML)
+
+label1 <- sprintf("<strong>%s</strong><br/>%s",
+                  level1$label_de,
+                  level1$risk_level_de) %>% lapply(htmltools::HTML)
+
+
+label2 <- sprintf("<strong>%s</strong><br/>%s",
+                  level2$label_de,
+                  level2$risk_level_de) %>% lapply(htmltools::HTML)
+
+label3 <- sprintf("<strong>%s</strong><br/>%s",
+                  level3$label_de,
+                  level3$risk_level_de) %>% lapply(htmltools::HTML)
+
+label4 <- sprintf("<strong>%s</strong><br/>%s",
+                  level4$label_de,
+                  level4$risk_level_de) %>% lapply(htmltools::HTML)
 
 map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
-  setMaxBounds(-180, -90, 180, 90) %>%
+  setMaxBounds(-180,-90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
   addProviderTiles("CartoDB.DarkMatter", group = "Carto Dark Matter") %>%
   addProviderTiles("Esri.WorldImagery", group = "Esri World Imagery") %>%
@@ -179,50 +202,98 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
   addPolygons(
     data = DEU,
-    stroke = FALSE,
-    smoothFactor = 0.3,
+    color = "#44444",
+    weight = 0.5,
+    smoothFactor = .1,
+    opacity = 1,
     fillColor = "blue",
-    fillOpacity = 0.5
+    fillOpacity = 0.5,
+    highlightOptions = highlightOptions(
+      color = "white",
+      weight = 1,
+      bringToFront = TRUE
+    ),
+    popup = labelsDEU
   ) %>%
   addPolygons(
     data = level0,
-    stroke = FALSE,
-    smoothFactor = 0.3,
+    color = "#44444",
+    weight = 0.5,
+    smoothFactor = .1,
+    opacity = 1,
     fillColor = "green",
     fillOpacity = 0.5,
-    group = labs[5]
+    group = labs[5],
+    highlightOptions = highlightOptions(
+      color = "white",
+      weight = 1,
+      bringToFront = TRUE
+    ),
+    popup = label0
   ) %>%
   addPolygons(
     data = level1,
-    stroke = FALSE,
-    smoothFactor = 0.3,
+    color = "#44444",
+    weight = 0.5,
+    smoothFactor = .1,
+    opacity = 1,
     fillColor = "red",
     fillOpacity = 0.5,
-    group = labs[1]
+    group = labs[1],
+    highlightOptions = highlightOptions(
+      color = "white",
+      weight = 1,
+      bringToFront = TRUE
+    ),
+    popup = label1
   ) %>%
   addPolygons(
     data = level2,
-    stroke = FALSE,
-    smoothFactor = 0.3,
+    color = "#44444",
+    weight = 0.5,
+    smoothFactor = .1,
+    opacity = 1,
     fillColor = "orange",
     fillOpacity = 0.5,
-    group = labs[2]
+    group = labs[2],
+    highlightOptions = highlightOptions(
+      color = "white",
+      weight = 1,
+      bringToFront = TRUE
+    ),
+    popup = label2
   ) %>%
   addPolygons(
     data = level3,
-    stroke = FALSE,
-    smoothFactor = 0.3,
+    color = "#44444",
+    weight = 0.5,
+    smoothFactor = .1,
+    opacity = 1,
     fillColor = "yellow",
     fillOpacity = 0.5,
-    group = labs[3]
+    group = labs[3],
+    highlightOptions = highlightOptions(
+      color = "white",
+      weight = 1,
+      bringToFront = TRUE
+    ),
+    popup = label3
   ) %>%
   addPolygons(
     data = level4,
-    stroke = FALSE,
-    smoothFactor = 0.3,
+    color = "#44444",
+    weight = 0.5,
+    smoothFactor = .1,
+    opacity = 1,
     fillColor = "#00FF00",
     fillOpacity = 0.5,
-    group = labs[4]
+    group = labs[4],
+    highlightOptions = highlightOptions(
+      color = "white",
+      weight = 1,
+      bringToFront = TRUE
+    ),
+    popup = label4
   ) %>%
   addEasyButton(easyButton(
     icon = "fa-globe",
