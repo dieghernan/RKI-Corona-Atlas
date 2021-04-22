@@ -153,15 +153,13 @@ level3 <- all_shapes %>% filter(risk_level_code == "3")
 level4 <- all_shapes %>% filter(risk_level_code == "4")
 ```
 
-<!-- RHH - Review hard-coded labels -->
+
+<p class="text-right font-weight-bold">Stand: `r format(date, format="%d.%m.%Y")`</p>
 
 
-<p class="text-right font-weight-bold">Updated in Deutsch: `r format(date, format="%d.%m.%Y")`</p>
+## Risikokarte
 
-
-## Mappend
-
-Some texten in Deutsch explaining whateveren...
+Erklärungstext
 
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
@@ -311,11 +309,11 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
     colors = c("red", "orange", "yellow", "#00FF00", "green"),
     labels = labs,
     position = "bottomleft"
-  ) %>% #RHH
+  ) %>%
   htmlwidgets::onRender(
     "
         function() {
-            $('.leaflet-control-layers-overlays').prepend('<strong>Risk level in Deutsch</strong>');
+            $('.leaflet-control-layers-overlays').prepend('<strong>Risikoeinstufung</strong>');
         }
     "
   )
@@ -324,9 +322,9 @@ map
 
 
 
-## Summarrien
+## Überblick
 
-Some text in Deutsch explaining whatever...
+Erklärungstext
 
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
@@ -335,7 +333,7 @@ Some text in Deutsch explaining whatever...
 df <- st_drop_geometry(all_shapes) %>%
   select(label_de, risk_level_de)
 
-names(df) <- c("Country/Region in Deutsch", "Risk Level in Deutsch") #RHH
+names(df) <- c("Land/Region", "Risikoeinstufung")
 
 df <- df[order(df[, 1]), ]
 
