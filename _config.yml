@@ -9,7 +9,7 @@ repository: dieghernan/RKI-Corona-Atlas
 # Overall options for your site, would affect your site SEO
 # Default values are explained
 locale                  : en-US
-title                   : corona-atlas
+title                   : "Corona Atlas"
 title_separator         :     #default [" | "]
 subtitle                :     #default [your-repository-tagline]
 description             :  #default [your-repository-tagline]
@@ -44,10 +44,10 @@ navbar:
     url     :  # default["url/baseurl"]
     img     :  ./assets/img/corona-atlas-icon.svg
   nav:
-  - title   : English # Label
-    url     : /en # url
   - title   : Deutsch
     url     : /
+  - title   : English # Label
+    url     : /en # url
   - title   : <i class="fab fa-github" aria-hidden="true"></i>
     url     : https://github.com/dieghernan/RKI-Corona-Atlas
 
