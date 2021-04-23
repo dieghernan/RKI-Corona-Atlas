@@ -1,6 +1,9 @@
 /* @preserve
  * Leaflet 1.3.1, a JS library for interactive maps. http://leafletjs.com
  * (c) 2010-2017 Vladimir Agafonkin, (c) 2010-2011 CloudMade
+ * 
+ * Source code modified by D. Hernangomez (2021)
+ * Line 11747: default padding of renderer increased to avoid Polygon clipping on UI
  */
 
 (function (global, factory) {
