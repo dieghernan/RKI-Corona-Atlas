@@ -19,21 +19,22 @@ de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
 class RKISpider(scrapy.Spider):
     name = "rki"
 
-    hardcoded_de = {'BLR': 'Belarus',
-                    'COD': 'Kongo DR',
-                    'COG': 'Kongo Rep',
-                    'CZE': 'Tschechien',
-                    'MKD': 'Nordmazedonien',
-                    'PRK': 'Korea (Volksrepublik)',
-                    'PSE': 'Palästinensische Gebiete',
-                    'SUR': 'Surinam',
-                    'SYR': 'Syrische Arabische Republik',
-                    'TLS': 'Timor Leste',
-                    'TTO': 'Trinidad Tobago',
-                    'VAT': 'Vatikanstadt'}
+    alias = {'BLR': ('Belarus',),
+             'COD': ('Kongo DR',),
+             'COG': ('Kongo Rep',),
+             'CZE': ('Tschechien',),
+             'MKD': ('Nordmazedonien',),
+             'PRK': ('Korea (Volksrepublik)',),
+             'PSE': ('Palästinensische Gebiete',),
+             'SUR': ('Surinam',),
+             'SYR': ('Syrische Arabische Republik',),
+             'TLS': ('Timor Leste',),
+             'TTO': ('Trinidad Tobago',),
+             'VAT': ('Vatikanstadt',),
+             'USA': ('USA ', ' USA')}
 
     date_fmt = {'db': '%Y-%m-%d', 'de': {'dt': '%d.%m.%Y', 're': r'\d{1,2}\.\d{1,2}\.\d{4}'},
-                'start': {'dt': 'seit %d. %B %Y', 're': r'seit +\d{1,2}\. +[äa-z]+ +\d{4}',
+                'risk': {'dt': 'seit %d. %B %Y', 're': r'seit +\d{1,2}\. +[äa-z]+ +\d{4}',
                           'fallback': 'seit %d. %b %Y'}}
 
     header_xpath = "//div[contains(@class, 'text')]/h2"
@@ -100,7 +101,7 @@ class RKISpider(scrapy.Spider):
         if new_date > old_date:
             print(f"Current data from {old_date}. Newer data from {new_date} was found.\n")
 
-            iso3dict, iso3official = self.get_countries(german=True)
+            country_lut = self.country_names(german=True, lookup=True)
 
             name_err = []
             info_err = []
@@ -142,62 +143,50 @@ class RKISpider(scrapy.Spider):
                         msg = r.get()[4:-5]     # Remove <li></li>
                         msg = msg.replace("<p>", "").replace("</p>", "")
 
-                        name_de, info_de = self.strip_country(msg)
-                        if name_de in iso3_de_lut.keys():
-                            found = True
-                            iso3 = iso3_de_lut[name_de]
-                            name_df.append(name_de)
-                            info_df.append(info_de)
+                        name_scrapped, info_scrapped = self.strip_country(msg)
+                        if name_scrapped in iso3_de_lut.keys():
+                            iso3 = iso3_de_lut[name_scrapped]
+                            name_df.append(name_scrapped)
+                            info_df.append(info_scrapped)
                             iso3_df.append(iso3)
+                            found = True
                         if found:
                             continue
-                        for iso3, name in self.hardcoded_de.items():
+                        for name, iso3 in country_lut.items():
+                            if name in name_scrapped:
+                                name_df.append(name)
+                                info_df.append(info_scrapped)
+                                iso3_df.append(iso3)
+                                found = True
+                                break
+                        if found:
+                            continue
+                        for name, iso3 in country_lut.items():
                             if name in msg:
-                                found = True
+                                name_df.append(name)
                                 info_df.append(self.clean(msg.replace(name, "")))
-                                name_df.append(name)
                                 iso3_df.append(iso3)
-                        for iso3, name in iso3dict.items():
-                            if name in name_de:
                                 found = True
-                                info_df.append(msg)
-                                name_df.append(name)
-                                iso3_df.append(iso3)
-                                break
-                            if iso3 in name_de:
-                                found = True
-                                info_df.append(msg)
-                                name_df.append(name)
-                                iso3_df.append(iso3)
-                                break
-                        if found:
-                            continue
-                        for iso3, name in iso3official.items():
-                            if name in name_de:
-                                found = True
-                                info_df.append(msg)
-                                name_df.append(name)
-                                iso3_df.append(iso3)
                                 break
                         if not found:
-                            print(f"Unidentified region: {name_de}")
+                            print(f"Unidentified region: {name_scrapped}")
                             print(f"Risk level code:\n\t{code}")
                             print(f"Info:\n\t{msg}\n")
 
-                            name_err.append(name_de)
+                            name_err.append(name_scrapped)
                             info_err.append(msg)
                             risk_err.append(code)
 
                     risk_dates = []
                     for inf in info_df:
-                        date_match = re.search(self.date_fmt['start']['re'], inf, re.I)
+                        date_match = re.search(self.date_fmt['risk']['re'], inf, re.I)
                         if date_match:
                             date = date_match.group()
                             try:
-                                risk_dates.append(dt.strptime(date, self.date_fmt['start']['dt']).date())
+                                risk_dates.append(dt.strptime(date, self.date_fmt['risk']['dt']).date())
                             except ValueError:
                                 risk_dates.append(dt.strptime(date.replace('ä', ''),
-                                                               self.date_fmt['start']['fallback']).date())
+                                                              self.date_fmt['risk']['fallback']).date())
                         else:
                             risk_dates.append(None)
 
@@ -224,28 +213,46 @@ class RKISpider(scrapy.Spider):
             db_final = pd.concat([df_date, db_curated, df_duplicated, df_unknown]).set_index("ISO3_CODE")
             db_final.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
 
-    @staticmethod
-    def get_countries(german=True):
-        iso3 = {c.alpha_3: c.name for c in pycountry.countries}
-        iso3_official = {}
-        for k, v in iso3.items():
-            if ',' in v:
-                try:
-                    iso3[k] = pycountry.countries.get(alpha_3=k).common_name
-                except AttributeError:
-                    try:
-                        iso3[k] = pycountry.countries.get(alpha_3=k).official_name
-                    except AttributeError:
-                        if k == "COD":
-                            iso3[k] = "Congo DR"
-            try:
-                iso3_official[k] = pycountry.countries.get(alpha_3=k).official_name
-            except AttributeError:
-                pass
-        if german:
-            for k, v in iso3.items():
-                iso3[k] = de.gettext(v)
-            for k, v in iso3_official.items():
-                iso3_official[k] = de.gettext(v)
+    @classmethod
+    def country_names(cls, german=True, lookup=True):
 
-        return iso3, iso3_official
+        countries = {k: list(v) for k, v in cls.alias.items()}
+
+        for c in pycountry.countries:
+            iso3 = c.alpha_3
+            cname = c.name
+            comma = False
+            if ',' in cname:
+                try:
+                    cname = c.common_name
+                except AttributeError:
+                    comma = True
+            try:
+                cname_official = c.official_name
+                c_names = [cname, cname_official]
+                if comma:
+                    c_names = c_names[::-1]
+            except AttributeError:
+                c_names = [cname]
+
+            if german:
+                c_names = [de.gettext(cn) for cn in c_names]
+
+            try:
+                countries[iso3] += c_names
+            except KeyError:
+                countries[iso3] = c_names
+
+        if lookup:
+            c_lut = {}
+            while len(countries) > 0:
+                deleted_iso3 = []
+                for iso3 in countries.keys():
+                    c_lut[countries[iso3].pop(0)] = iso3
+                    if len(countries[iso3]) == 0:
+                        deleted_iso3.append(iso3)
+                for iso3 in deleted_iso3:
+                    del countries[iso3]
+            return c_lut
+        else:
+            return countries
