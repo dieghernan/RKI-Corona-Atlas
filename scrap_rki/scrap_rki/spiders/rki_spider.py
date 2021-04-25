@@ -1,3 +1,4 @@
+import locale
 import re
 from datetime import datetime as dt
 from pathlib import Path
@@ -7,6 +8,7 @@ import gettext
 
 import scrapy
 import pandas as pd
+locale.setlocale(locale.LC_TIME, "German")
 pd.options.mode.chained_assignment = None
 
 data_dir = Path("../assets/data")
@@ -30,15 +32,16 @@ class RKISpider(scrapy.Spider):
                     'TTO': 'Trinidad Tobago',
                     'VAT': 'Vatikanstadt'}
 
-    date_fmt = {'db': {'dt': '%Y-%m-%d', 'regex': r'\d{4}\-\d{1,2}\-\d{1,2}'},
-                'de': {'dt': '%d.%m.%Y', 'regex': r'\d{1,2}\.\d{1,2}\.\d{4}'},}
+    date_fmt = {'db': '%Y-%m-%d', 'de': {'dt': '%d.%m.%Y', 're': r'\d{1,2}\.\d{1,2}\.\d{4}'},
+                'start': {'dt': 'seit %d. %B %Y', 're': r'seit +\d{1,2}\. +[äa-z]+ +\d{4}',
+                          'fallback': 'seit %d. %b %Y'}}
 
     header_xpath = "//div[contains(@class, 'text')]/h2"
 
-    risk_levels = ({'code': 4, 'regex': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': 3, 'regex': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': 2, 'regex': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': 1, 'regex': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
+    risk_levels = ({'code': 4, 're': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': 3, 're': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': 2, 're': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': 1, 're': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
 
     separators = ("(", ":", "inkl", "–")
     deletable = ("(", ")", ":", "–")
@@ -84,13 +87,13 @@ class RKISpider(scrapy.Spider):
         filename = data_dir / 'scrapped/rki_de.html'
 
         stand = response.xpath("//div[contains(@class, 'subheadline')]/p/text()")
-        match = re.search(self.date_fmt['de']['regex'], stand.get())
+        match = re.search(self.date_fmt['de']['re'], stand.get())
         if not match:
             raise RuntimeError("Unable to find a date")
 
         db_old = pd.read_csv(data_dir / "db_countries.csv")
         old_date = dt.strptime(db_old[db_old["ISO3_CODE"] == "Field date"].at[0, "risk_level_code"],
-                               self.date_fmt['db']['dt']).date()
+                               self.date_fmt['db']).date()
 
         new_date = dt.strptime(match.group(), self.date_fmt['de']['dt']).date()
 
@@ -109,8 +112,7 @@ class RKISpider(scrapy.Spider):
             iso3_de = db_old[["NAME_DE", "ISO3_CODE"]]
             iso3_de_lut = iso3_de.set_index("NAME_DE")["ISO3_CODE"].to_dict()
 
-            df_date = pd.DataFrame({"ISO3_CODE": ["Field date"],
-                                    "risk_level_code": new_date.strftime(self.date_fmt['db']['dt'])})
+            df_date = pd.DataFrame({"ISO3_CODE": ["Field date"], "risk_level_code": new_date})
             with open(filename, 'wb') as f:
                 f.write(response.body)
 
@@ -122,10 +124,10 @@ class RKISpider(scrapy.Spider):
                 h_text = h.get()
                 code = -1
                 for rl in self.risk_levels:
-                    if re.search(rl['regex'], h_text, re.I):
+                    if re.search(rl['re'], h_text, re.I):
                         code = rl['code']
                         break
-                print(f"The following header has been assigned to risk_level_code {code}")
+                print(f"The following header has been assigned to risk_level_code {code}:")
                 print(f"{h_text}\n")
 
                 if code >= 0:
@@ -186,8 +188,22 @@ class RKISpider(scrapy.Spider):
                             info_err.append(msg)
                             risk_err.append(code)
 
+                    risk_dates = []
+                    for inf in info_df:
+                        date_match = re.search(self.date_fmt['start']['re'], inf, re.I)
+                        if date_match:
+                            date = date_match.group()
+                            try:
+                                risk_dates.append(dt.strptime(date, self.date_fmt['start']['dt']).date())
+                            except ValueError:
+                                risk_dates.append(dt.strptime(date.replace('ä', ''),
+                                                               self.date_fmt['start']['fallback']).date())
+                        else:
+                            risk_dates.append(None)
+
                     df = pd.DataFrame({"ISO3_CODE": iso3_df, "NAME_DE": name_df,
-                                       "risk_level_code": [code] * len(iso3_df), "INFO_DE": info_df})
+                                       "risk_level_code": [code] * len(iso3_df),
+                                       "risk_date": risk_dates, "INFO_DE": info_df})
                     df_collector[code] = df
 
             db_new = pd.concat([df_collector[i] for i in (3, 2, 1, 4)])
@@ -198,12 +214,15 @@ class RKISpider(scrapy.Spider):
             df_duplicated = pd.concat([db_curated, db_new]).drop_duplicates(keep=False)
             db_residual = pd.concat([df_date, df_duplicated, df_err])
 
-            db_curated = pd.concat([df_date, db_curated,
-                                    db_old.assign(risk_level_code=0)]).drop_duplicates(subset="ISO3_CODE")
-            db_curated = db_curated.sort_values("ISO3_CODE").set_index("ISO3_CODE")
+            db_norisk = db_old.assign(risk_level_code=0)
+            db_curated = pd.concat([db_curated,
+                                    db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
+                                               "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")
+            db_curated = db_curated.sort_values("ISO3_CODE")
+            db_curated = pd.concat([df_date, db_curated]).set_index("ISO3_CODE")
 
-            db_residual.to_csv(data_dir / f"db_residual.csv", encoding='utf-8-sig')
-            db_curated.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig')
+            db_residual.to_csv(data_dir / f"db_residual.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
+            db_curated.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
 
     @staticmethod
     def get_countries(german=True):
