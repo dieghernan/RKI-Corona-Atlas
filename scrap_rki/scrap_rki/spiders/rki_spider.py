@@ -209,20 +209,20 @@ class RKISpider(scrapy.Spider):
             db_new = pd.concat([df_collector[i] for i in (3, 2, 1, 4)])
             db_curated = db_new.drop_duplicates(subset="ISO3_CODE")
 
-            df_err = pd.DataFrame({"ISO3_CODE": [None] * len(risk_err), "NAME_DE": name_err,
-                                   "risk_level_code": risk_err, "INFO_DE": info_err})
+            df_unknown = pd.DataFrame({"ISO3_CODE": ["ERROR"] * len(risk_err), "NAME_DE": name_err,
+                                       "risk_level_code": risk_err, "INFO_DE": info_err,
+                                       "ERROR": ["UNKNOWN_AREA"] * len(risk_err)})
             df_duplicated = pd.concat([db_curated, db_new]).drop_duplicates(keep=False)
-            db_residual = pd.concat([df_date, df_duplicated, df_err])
+            df_duplicated = df_duplicated.assign(ISO3_CODE="ERROR", ERROR="DUPLICATED")
 
             db_norisk = db_old.assign(risk_level_code=0)
             db_curated = pd.concat([db_curated,
                                     db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
                                                "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")
             db_curated = db_curated.sort_values("ISO3_CODE")
-            db_curated = pd.concat([df_date, db_curated]).set_index("ISO3_CODE")
 
-            db_residual.to_csv(data_dir / f"db_residual.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
-            db_curated.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
+            db_final = pd.concat([df_date, db_curated, df_duplicated, df_unknown]).set_index("ISO3_CODE")
+            db_final.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
 
     @staticmethod
     def get_countries(german=True):
