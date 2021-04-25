@@ -110,8 +110,9 @@ class RKISpider(scrapy.Spider):
             db_old = db_old[~db_old['region'].notna()]  # TODO Drop regions for the moment
             db_old = db_old.assign(NAME_DE=db_old["NAME_ENGL"].apply(de.gettext))
 
-            iso3_de = db_old[["NAME_DE", "ISO3_CODE"]]
-            iso3_de_lut = iso3_de.set_index("NAME_DE")["ISO3_CODE"].to_dict()
+            iso3_names = db_old[["ISO3_CODE", "NAME_ENGL", "NAME_DE"]]
+            iso3_en = iso3_names.set_index("ISO3_CODE")["NAME_ENGL"].to_dict()
+            iso3_de_lut = iso3_names.set_index("NAME_DE")["ISO3_CODE"].to_dict()
 
             df_date = pd.DataFrame({"ISO3_CODE": ["Field date"], "risk_level_code": new_date})
             with open(filename, 'wb') as f:
@@ -134,9 +135,9 @@ class RKISpider(scrapy.Spider):
                 if code >= 0:
                     regions = response.xpath(f"({self.header_xpath})[{counter}]//following-sibling::ul[1]/li")
 
-                    name_df = []
-                    info_df = []
-                    iso3_df = []
+                    name_regions = []
+                    info_regions = []
+                    iso3_regions = []
 
                     for r in regions:
                         found = False
@@ -146,26 +147,26 @@ class RKISpider(scrapy.Spider):
                         name_scrapped, info_scrapped = self.strip_country(msg)
                         if name_scrapped in iso3_de_lut.keys():
                             iso3 = iso3_de_lut[name_scrapped]
-                            name_df.append(name_scrapped)
-                            info_df.append(info_scrapped)
-                            iso3_df.append(iso3)
+                            name_regions.append(name_scrapped)
+                            info_regions.append(info_scrapped)
+                            iso3_regions.append(iso3)
                             found = True
                         if found:
                             continue
                         for name, iso3 in country_lut.items():
                             if name in name_scrapped:
-                                name_df.append(name)
-                                info_df.append(info_scrapped)
-                                iso3_df.append(iso3)
+                                name_regions.append(name)
+                                info_regions.append(info_scrapped)
+                                iso3_regions.append(iso3)
                                 found = True
                                 break
                         if found:
                             continue
                         for name, iso3 in country_lut.items():
                             if name in msg:
-                                name_df.append(name)
-                                info_df.append(self.clean(msg.replace(name, "")))
-                                iso3_df.append(iso3)
+                                name_regions.append(name)
+                                info_regions.append(self.clean(msg.replace(name, "")))
+                                iso3_regions.append(iso3)
                                 found = True
                                 break
                         if not found:
@@ -178,7 +179,7 @@ class RKISpider(scrapy.Spider):
                             risk_err.append(code)
 
                     risk_dates = []
-                    for inf in info_df:
+                    for inf in info_regions:
                         date_match = re.search(self.date_fmt['risk']['re'], inf, re.I)
                         if date_match:
                             date = date_match.group()
@@ -190,9 +191,10 @@ class RKISpider(scrapy.Spider):
                         else:
                             risk_dates.append(None)
 
-                    df = pd.DataFrame({"ISO3_CODE": iso3_df, "NAME_DE": name_df,
-                                       "risk_level_code": [code] * len(iso3_df),
-                                       "risk_date": risk_dates, "INFO_DE": info_df})
+                    df = pd.DataFrame({"ISO3_CODE": iso3_regions, "NAME_DE": name_regions,
+                                       "NAME_ENGL": [iso3_en[i3r] for i3r in iso3_regions],
+                                       "risk_level_code": [code] * len(iso3_regions),
+                                       "risk_date": risk_dates, "INFO_DE": info_regions})
                     df_collector[code] = df
 
             db_new = pd.concat([df_collector[i] for i in (3, 2, 1, 4)])
@@ -203,6 +205,11 @@ class RKISpider(scrapy.Spider):
                                        "ERROR": ["UNKNOWN_AREA"] * len(risk_err)})
             df_duplicated = pd.concat([db_curated, db_new]).drop_duplicates(keep=False)
             df_duplicated = df_duplicated.assign(ISO3_CODE="ERROR", ERROR="DUPLICATED")
+
+            print(f"Process summary:")
+            print(f"\t- {len(db_curated)} regions have been succesfully processed")
+            print(f"\t- {len(df_duplicated)} regions are duplicated")
+            print(f"\t- {len(df_unknown)} regions could not be identified")
 
             db_norisk = db_old.assign(risk_level_code=0)
             db_curated = pd.concat([db_curated,
