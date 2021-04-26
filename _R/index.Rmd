@@ -247,7 +247,7 @@ map
 
 Alle Angaben ohne Gewähr automatisch vom Robert Koch Institut abgerufen.
 Für einen aktuellen vollständigen Überblick aller internationalen Risikogebiete
-und der geltenden Reißebeschränkungen jeder Risikostufe
+und der geltenden Reisebeschränkungen jeder Risikostufe
 empfiehlt sich
 ein Besuch der [RKI-Webseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html).
 
