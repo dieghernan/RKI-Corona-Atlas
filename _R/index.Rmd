@@ -40,13 +40,17 @@ data_cntries <- data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   left_join(rl)
 
 data_cntries$risk_date <- as.character(format(data_cntries$risk_date, format="%d.%m.%Y"))
-data_cntries$html_labels <- sprintf("<strong>%s</strong><br/>%s",
+data_cntries$html_labels <- sprintf("<strong>%s</strong>",
                                     data_cntries$NAME_DE,
                                     data_cntries$risk_level_de)
-data_cntries$html_labels <- ifelse(!is.na(data_cntries$risk_date),
-                                   paste0(data_cntries$html_labels,"<br />seit ",data_cntries$risk_date),
+data_cntries$html_labels <- ifelse(data_cntries$ISO3_CODE != "DEU",
+                                   paste0(data_cntries$html_labels,"<br />",data_cntries$risk_level_de),
                                    data_cntries$html_labels
                                    )
+#data_cntries$html_labels <- ifelse(!is.na(data_cntries$risk_date),
+#                                   paste0(data_cntries$html_labels," seit ",data_cntries$risk_date),
+#                                   data_cntries$html_labels
+#                                   )
 
 data_cntries$html_labels <- ifelse(!is.na(data_cntries$INFO_DE),
                                    paste0(data_cntries$html_labels,"<p class='infomap'><strong>Mehr Info</strong><br />",data_cntries$INFO_DE,"</p>"),
