@@ -35,7 +35,29 @@ Whether it is _Heimweh_ or _Fernweh_ what brought you here,
 we want you to help you count down the days until
 your next big journey. Stay safe.
 
-## Diego
+## About us
+
+<aside class="mt-lg-3 small">
+  <div class="row d-flex align-items-center mb-2">
+    <img src="https://github.com/dieghernan.png" alt="dieghernan" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
+    <div class="col-9 col-lg-12 text-lg-center">
+      <h3 id="diego">Diego</h3>
+    </div>
+  </div>
+  <div class="row mb-2 mb-lg-0">
+    <div class="col text-lg-center">
+      <address class="d-inline d-lg-block mr-2 mx-lg-auto mb-lg-2 small chulapa-links-hover-only">
+        <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&amp;query=Madrid%2C+Spain">
+        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Madrid 🇪🇸</a>
+      </address>
+      <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
+        <a class="mr-2 mx-lg-1" href="https://github.com/dieghernan/"><i class="fab fa-github fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://twitter.com/dhernangomez"><i class="fab fa-twitter fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://dieghernan.github.io/"><i class="fas fa-blog fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+</aside>
 
 Diego is an **R** geek and he is all about data
 and maps. He is also a fan of beautiful web design
@@ -51,7 +73,28 @@ or on his personal website:
 
 [https://dieghernan.github.io/](https://dieghernan.github.io/)
 
-## Rodrigo
+
+<aside class="mt-lg-3 small">
+  <div class="row d-flex align-items-center mb-2">
+    <img src="https://github.com/rodrihgh.png" alt="dieghernan" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
+    <div class="col-9 col-lg-12 text-lg-center">
+      <h3 id="rodrigo">Rodrigo</h3>
+    </div>
+  </div>
+  <div class="row mb-2 mb-lg-0">
+    <div class="col text-lg-center">
+      <address class="d-inline d-lg-block mr-2 mx-lg-auto mb-lg-2 small chulapa-links-hover-only">
+        <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&amp;query=Berlin%2C+Germany">
+        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Berlin 🇩🇪</a>
+      </address>
+      <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
+        <a class="mr-2 mx-lg-1" href="https://github.com/rodrihgh/"><i class="fab fa-github fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://twitter.com/rodrihgh"><i class="fab fa-twitter fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://uselessness.science/"><i class="fas fa-blog fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+</aside>
 
 The younger brother prefers to entertain himself
 with **Python**, which serves him very well to play around in
