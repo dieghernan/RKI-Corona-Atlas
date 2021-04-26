@@ -36,7 +36,7 @@ rl <- readr::read_csv("../assets/data/risk_level_code.csv") %>%
   mutate(risk_level_code = as.character(risk_level_code))
 
 data_cntries <- data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
-  filter(region != TRUE) %>%
+  filter(is.na(region)) %>%
   left_join(rl)
 
 data_cntries$risk_date <- as.character(format(data_cntries$risk_date, format="%d.%m.%Y"))
@@ -267,6 +267,7 @@ df <- st_drop_geometry(all_shapes)  %>%
   select(NAME_DE, risk_level_de, risk_date, INFO_DE)
 
 # Strip HTML on INFO
+df$INFO_DE <- gsub("<li>", "\n-", df$INFO_DE)
 df$INFO_DE <- gsub("<.*?>", "", df$INFO_DE)
 
 names(df) <- c("Land/Region", "Risikoeinstufung","Letzte Änderung am", "Details")
