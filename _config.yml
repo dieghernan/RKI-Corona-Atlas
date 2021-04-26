@@ -8,17 +8,17 @@ repository: dieghernan/RKI-Corona-Atlas
 # A. Site Settings /SEO options
 # Overall options for your site, would affect your site SEO
 # Default values are explained
-locale                  : en-US
+locale                  : de-DE
 title                   : "Corona Atlas"
 title_separator         :     #default [" | "]
 subtitle                :     #default [your-repository-tagline]
 description             :  #default [your-repository-tagline]
 
-timezone                :  Europe/Madrid
+timezone                :  Europe/Berlin
 
 # SEO
 og_image                :     ./assets/img/corona-atlas-icon.png
-twitter_site            :     #Avoid @
+twitter_site            : rodrihgh  #Avoid @
 author:
   name                  :  "Diego & Rodrigo"
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
@@ -118,6 +118,9 @@ exclude:
   - vendor
   - _R
   - '*.Rmd'
+  - scrap
+  - requirements.txt
+  - scrapy.cfg
 
 include:
  - _pages
