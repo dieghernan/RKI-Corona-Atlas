@@ -11,7 +11,7 @@ import pandas as pd
 locale.setlocale(locale.LC_TIME, "German")
 pd.options.mode.chained_assignment = None
 
-data_dir = Path("../assets/data")
+data_dir = Path("assets/data")
 
 de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
 
