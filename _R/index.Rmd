@@ -254,7 +254,8 @@ ein Besuch der [RKI-Webseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_C
 ## Datenbank
 
 Alternativerweise kann man auch die Risikoeinstufung
-eines Landes und die dazugehörigen Informationen
+und die dazugehörigen Informationen
+jedes Landes
 direkt auf der Datenbank nachschlagen.
 
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
