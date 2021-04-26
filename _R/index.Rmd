@@ -108,12 +108,13 @@ Erklärungstext
 labs <- rl$risk_level_de
 labs <- labs[c(2:5, 1)]
 
-
 map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
   setMaxBounds(-180,-90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
-  addProviderTiles("Stamen.Terrain", group = "Stamen Terrain") %>%
-  addTiles(urlTemplate = "", attribution = "© EuroGeographics for the administrative boundaries") %>%
+  addProviderTiles("Stamen.TerrainBackground", group = "Stamen Terrain") %>%
+  addTiles(urlTemplate = "", 
+           attribution = '&copy; <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units">EuroGeographics</a> for the administrative boundaries'
+  ) %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
   addPolygons(
     data = DEU,
