@@ -1,6 +1,6 @@
 ---
-title: Hauptseite
-subtitle: auf Deutsch
+title: Internationale COVID-19 Risikogebiete
+subtitle: ausgewiesen durch das deutsche Auswärtige Amt, BMG und BMI
 permalink: /
 always_allow_html: yes
 output: 
@@ -101,7 +101,14 @@ level4 <- all_shapes %>% filter(risk_level_code == "4")
 
 ## Risikokarte
 
-Erklärungstext
+Die folgende interaktive Weltkarte präsentiert die aktuelle
+Risikoeinstufung aller Staaten der Welt
+durch das deutsche Auswärtige Amt,
+das Bundesministerium für Gesundheit
+und das Bundesministerium des Innern, für Bau und Heimat.
+Durch das Anklicken eines beliebigen Landes erfolgt
+die Anzeige aller zutreffenden Informationen
+und ggfs. regionaler Ausnahmen.
 
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
@@ -238,11 +245,17 @@ map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
 map
 ```
 
+Alle Angaben ohne Gewähr automatisch vom Robert Koch Institut abgerufen.
+Für einen aktuellen vollständigen Überblick aller internationalen Risikogebiete
+und der geltenden Reißebeschränkungen jeder Risikostufe
+empfiehlt sich
+ein Besuch der [RKI-Webseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html).
 
+## Datenbank
 
-## Überblick
-
-Erklärungstext
+Alternativerweise kann man auch die Risikoeinstufung
+eines Landes und die dazugehörigen Informationen
+direkt auf der Datenbank nachschlagen.
 
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
@@ -269,3 +282,5 @@ reactable(
 
 ```
 
+<!-- DHH - Maybe style as button -->
+[Datenbank herunterladen (CSV-Datei)](assets/data/db_countries.csv)
