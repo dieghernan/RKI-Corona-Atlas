@@ -90,7 +90,8 @@ level0 <- all_shapes %>% filter(risk_level_code == "0",
                                 ISO3_CODE != "DEU")
 level1 <- all_shapes %>% filter(risk_level_code == "1")
 level2 <- all_shapes %>% filter(risk_level_code == "2")
-level3 <- all_shapes %>% filter(risk_level_code == "3")
+level3 <- all_shapes %>% filter(risk_level_code == "3",
+                                ! region)
 level4 <- all_shapes %>% filter(risk_level_code == "4")
 ```
 
