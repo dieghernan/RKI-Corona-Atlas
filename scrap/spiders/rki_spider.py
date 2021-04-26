@@ -106,7 +106,7 @@ class RKISpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        filename = data_dir / 'scrapped/rki_de.html'
+        filename = data_dir / 'scrapped/rki.html'
 
         stand = response.xpath("//div[contains(@class, 'subheadline')]/p/text()")
         match = re.search(self.date_fmt['de']['re'], stand.get())
