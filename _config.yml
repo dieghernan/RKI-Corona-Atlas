@@ -48,6 +48,8 @@ navbar:
     url     : /
   - title   : English # Label
     url     : /en # url
+  - title   : About # Label
+    url     : /about # url
   - title   : <i class="fab fa-github" aria-hidden="true"></i>
     url     : https://github.com/dieghernan/RKI-Corona-Atlas
 
