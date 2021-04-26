@@ -38,18 +38,17 @@ rl <- readr::read_csv("../assets/data/risk_level_code.csv") %>%
 data_cntries <- data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   left_join(rl)
 
-# labels (DE) RHH
 data_cntries$risk_date <- as.character(format(data_cntries$risk_date, format="%d.%m.%Y"))
 data_cntries$html_labels <- sprintf("<strong>%s</strong><br/>%s",
                                     data_cntries$NAME_DE,
                                     data_cntries$risk_level_de)
 data_cntries$html_labels <- ifelse(!is.na(data_cntries$risk_date),
-                                   paste0(data_cntries$html_labels,"<br />RHH DATE: ",data_cntries$risk_date),
+                                   paste0(data_cntries$html_labels,"<br />seit ",data_cntries$risk_date),
                                    data_cntries$html_labels
                                    )
 
 data_cntries$html_labels <- ifelse(!is.na(data_cntries$INFO_DE),
-                                   paste0(data_cntries$html_labels,"<p class='infomap'><strong>RHH INFO</strong><br />",data_cntries$INFO_DE,"</p>"),
+                                   paste0(data_cntries$html_labels,"<p class='infomap'><strong>Mehr Info</strong><br />",data_cntries$INFO_DE,"</p>"),
                                    data_cntries$html_labels
                                    )
 
@@ -106,6 +105,7 @@ Risikoeinstufung aller Staaten der Welt
 durch das deutsche Auswärtige Amt,
 das Bundesministerium für Gesundheit
 und das Bundesministerium des Innern, für Bau und Heimat.
+
 Durch das Anklicken eines beliebigen Landes erfolgt
 die Anzeige aller zutreffenden Informationen
 und ggfs. regionaler Ausnahmen.
@@ -267,7 +267,7 @@ df <- st_drop_geometry(all_shapes)  %>%
 # Strip HTML on INFO
 df$INFO_DE <- gsub("<.*?>", "", df$INFO_DE)
 
-names(df) <- c("Land/Region", "Risikoeinstufung","RHH DATE", "RHH INFO")
+names(df) <- c("Land/Region", "Risikoeinstufung","Letzte Änderung am", "Details")
 
 df <- df[order(df[, 1]), ]
 
