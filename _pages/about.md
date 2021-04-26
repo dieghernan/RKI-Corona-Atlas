@@ -46,9 +46,10 @@ his very own template,
 [Chulapa](https://dieghernan.github.io/chulapa/).
 
 You can check Diego's other awesome projects
-on [GitHub]() or on his personal website:
+on [GitHub](https://github.com/dieghernan)
+or on his personal website:
 
-https://dieghernan.github.io/
+[https://dieghernan.github.io/](https://dieghernan.github.io/)
 
 ## Rodrigo
 
@@ -66,4 +67,4 @@ Rodrigo also has a personal website where he
 explores some of his scientific interests
 and their connection to art:
 
-https://uselessness.science/
+[https://uselessness.science/](https://uselessness.science/)
