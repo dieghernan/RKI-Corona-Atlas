@@ -250,6 +250,9 @@ Erklärungstext
 df <- st_drop_geometry(all_shapes)  %>%
   select(NAME_DE, risk_level_de, risk_date, INFO_DE)
 
+# Strip HTML on INFO
+df$INFO_DE <- gsub("<.*?>", "", df$INFO_DE)
+
 names(df) <- c("Land/Region", "Risikoeinstufung","RHH DATE", "RHH INFO")
 
 df <- df[order(df[, 1]), ]

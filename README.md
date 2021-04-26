@@ -1,4 +1,4 @@
-# corona-atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
+# Corona Atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
 
 *Some text explaining the project...*
 
