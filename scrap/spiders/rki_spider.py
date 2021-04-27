@@ -120,7 +120,7 @@ class RKISpider(scrapy.Spider):
         if not match:
             raise RuntimeError("Unable to find a date")
 
-        db_old = pd.read_csv(data_dir / "db_countries.csv")
+        db_old = pd.read_csv(data_dir / "db_scrapped.csv")
         old_date = dt.strptime(db_old[db_old["ISO3_CODE"] == "Field date"].at[0, "risk_level_code"],
                                self.date_fmt['db']).date()
 
@@ -136,12 +136,12 @@ class RKISpider(scrapy.Spider):
             dates_err = []
             risk_err = []
 
+            db_old = db_old[db_old["ISO3_CODE"] != "ERROR"]
             db_regions = db_old[db_old['region'].notna()]
             db_regions = db_regions.assign(NAME_DE=db_regions["NAME_ENGL"].apply(de.gettext))
             reg_df = db_regions[["ISO3_CODE", "NAME_ENGL", "NAME_DE", "NUTS_CODE"]]
 
             db_old = db_old[~db_old['region'].notna()]
-            db_old = db_old.assign(NAME_DE=db_old["NAME_ENGL"].apply(de.gettext))   # TODO not necessary in future DBs
             iso3_names = db_old[["ISO3_CODE", "NAME_ENGL", "NAME_DE"]]
             iso3_en = iso3_names.set_index("ISO3_CODE")["NAME_ENGL"].to_dict()
             iso3_de_lut = iso3_names.set_index("NAME_DE")["ISO3_CODE"].to_dict()
@@ -276,6 +276,8 @@ class RKISpider(scrapy.Spider):
 
             db_final = pd.concat([df_date, db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
             db_final.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
+        else:
+            print("Database is up to date.")
 
     @classmethod
     def country_names(cls, german=True, lookup=True):
