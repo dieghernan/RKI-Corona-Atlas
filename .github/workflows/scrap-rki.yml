@@ -35,7 +35,21 @@ jobs:
         fi
         rm scrap/db.old
       id: scrapy
-      # TODO send log.out e-mail if new data
+    - name: Send mail
+      uses: dawidd6/action-send-mail@v3
+      # if: steps.scrapy.outputs.NEW_DB == 'true' # TODO
+      with:
+        server_address: smtp.gmail.com
+        server_port: 465
+        username: ${{secrets.MAIL_RH}}
+        password: ${{secrets.MAIL_PW}}
+        subject: RKI-Corona-Atlas new data
+        to: ${{secrets.MAIL_DH}},${{secrets.MAIL_RH}}
+        from: GitHub Actions
+        body: The database of the repository RKI-Corona-Atlas has been updated with the newest data from the RKI. More details in the attachment.
+        ignore_cert: true
+        # Optional attachments:
+        attachments: scrap/log.out,assets/data/db_scrapped.csv
     - name: Commit results
       if: steps.scrapy.outputs.NEW_DB == 'true'
       run: |
