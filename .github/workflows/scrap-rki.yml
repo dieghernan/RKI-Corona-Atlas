@@ -25,12 +25,37 @@ jobs:
     - name: Install German locale
       run: sudo apt-get update && sudo apt-get install language-pack-de
     - name: Execute scrap script
-      run: scrapy crawl rki > scrap/log.out
-      # TODO send log.out e-mail if new data
-    - name: Commit results
       run: |
+        cp assets/data/db_scrapped.csv scrap/db.old
+        scrapy crawl rki > scrap/log.out
+        if cmp --silent -- assets/data/db_scrapped.csv scrap/db.old; then
+          echo '::set-output name=NEW_DB::false'
+        else
+          echo '::set-output name=NEW_DB::true'
+        fi
+        rm scrap/db.old
+      id: scrapy
+    - name: Send mail
+      uses: dawidd6/action-send-mail@v3
+      # if: steps.scrapy.outputs.NEW_DB == 'true' # TODO
+      with:
+        server_address: smtp.gmail.com
+        server_port: 465
+        username: ${{secrets.MAIL_RH}}
+        password: ${{secrets.MAIL_PW}}
+        subject: RKI-Corona-Atlas new data
+        to: ${{secrets.MAIL_DH}},${{secrets.MAIL_RH}}
+        from: GitHub Actions
+        body: The database of the repository RKI-Corona-Atlas has been updated with the newest data from the RKI. More details in the attachment.
+        ignore_cert: true
+        # Optional attachments:
+        attachments: scrap/log.out,assets/data/db_scrapped.csv
+    - name: Commit results
+      if: steps.scrapy.outputs.NEW_DB == 'true'
+      run: |
+        echo "New database is ${{ steps.scrapy.outputs.NEW_DB }}"
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git add -A
+        git add assets
         git commit -m 'database updated' || echo "No changes to commit"
         git push origin || echo "No changes to commit"
