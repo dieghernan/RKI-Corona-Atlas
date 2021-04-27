@@ -28,7 +28,7 @@ jobs:
       run: |
         cp assets/data/db_scrapped.csv scrap/db.old
         scrapy crawl rki > scrap/log.out
-        if cmp --silent -- test.md test.md.old; then
+        if cmp --silent -- assets/data/db_scrapped.csv scrap/db.old; then
           echo '::set-output name=NEW_DB::false'
         else
           echo '::set-output name=NEW_DB::true'
@@ -38,7 +38,7 @@ jobs:
       # TODO send log.out e-mail if new data
     - name: Commit results
       run: |
-        echo"New database is ${{ steps.scrapy.outputs.NEW_DB }}"
+        echo "New database is ${{ steps.scrapy.outputs.NEW_DB }}"
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git add assets
