@@ -1,3 +1,4 @@
+import os
 import locale
 import re
 from datetime import datetime as dt
@@ -8,6 +9,8 @@ import gettext
 
 import scrapy
 import pandas as pd
+
+locale_de = "de_DE.UTF-8" if os.name == "posix" else "German"
 locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
 
 data_dir = Path("assets/data")
@@ -277,7 +280,7 @@ class RKISpider(scrapy.Spider):
             db_final = pd.concat([df_date, db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
             db_final.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
         else:
-            print("Database is up to date.")
+            print(f"Database is up to date ({old_date}).")
 
     @classmethod
     def country_names(cls, german=True, lookup=True):
