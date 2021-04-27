@@ -8,7 +8,7 @@ import gettext
 
 import scrapy
 import pandas as pd
-locale.setlocale(locale.LC_TIME, "German")
+locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
 
 data_dir = Path("assets/data")
 
