@@ -120,7 +120,8 @@ und ggfs. regionaler Ausnahmen.
 labs <- rl$risk_level_de
 labs <- labs[c(2:5, 1)]
 
-map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
+map <- leaflet(options = leafletOptions(minZoom = 1),
+  elementId= "leaflet") %>%
   setMaxBounds(-180,-90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
   addProviderTiles("Stamen.TerrainBackground", group = "Stamen Terrain") %>%

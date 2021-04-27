@@ -200,7 +200,8 @@ label4 <- sprintf("<strong>%s</strong><br/>%s",
                   level4$label_en,
                   level4$risk_level_en) %>% lapply(htmltools::HTML)
 
-map <- leaflet(options = leafletOptions(minZoom = 0.5)) %>%
+map <- leaflet(options = leafletOptions(minZoom = 1),
+  elementId= "leaflet") %>%
   setMaxBounds(-180,-90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
   addProviderTiles("CartoDB.DarkMatter", group = "Carto Dark Matter") %>%
