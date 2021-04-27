@@ -58,6 +58,9 @@ jobs:
       - name: Install German locale
         run: sudo apt-get update && sudo apt-get install language-pack-de
       
+      - name: Install libdunits
+        run: sudo apt-get install libudunits2-dev
+        
       - name: Scrap data
         run: scrapy crawl rki > scrap/log.out
       # TODO send log.out e-mail if new data
