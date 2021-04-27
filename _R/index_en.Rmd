@@ -352,6 +352,7 @@ df <- df[order(df[, 1]), ]
 
 reactable(
   df,
+  elementId = "reactable",
   filterable = TRUE,
   searchable = TRUE,
   showPageSizeOptions = TRUE,
