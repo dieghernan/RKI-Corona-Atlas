@@ -31,12 +31,84 @@ library(reactable)
 library(rmarkdown)
 library(leaflet.providers)
 
-data <- readr::read_csv("../assets/data/db_countries.csv")
-rl <- readr::read_csv("../assets/data/risk_level_code.csv")
+data <- readr::read_csv("../assets/data/db_scrapped.csv")
+rl <- readr::read_csv("../assets/data/risk_level_code.csv") %>% 
+  mutate(risk_level_code = as.character(risk_level_code))
 
 
 
-date <- data %>% filter(ISO3_CODE == "Field date") %>%
+data_cntries <-
+  data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
+  filter(is.na(region)) %>%
+  left_join(rl) %>%
+  select(ISO3_CODE, NAME_ENGL, risk_date, risk_level_code, risk_level_en)
+
+# EN - extract regions
+regions <- data %>%
+  filter(region == TRUE) %>%
+  group_by(ISO3_CODE) %>%
+  mutate(regs = paste0("<li>", NAME_ENGL, "</li>", collapse = "")) %>%
+  select(ISO3_CODE, regs) %>%
+  distinct_all() %>%
+  mutate(regs = paste0("<ul>", regs, "</ul>"))
+
+# Add info
+
+data_cntries <- data_cntries %>% left_join(regions)
+data_cntries$more_info <- ifelse(is.na(data_cntries$risk_date),
+                                 NA,
+                                 paste0("Since ",
+                                        format(data_cntries$risk_date, "%d %b %Y"),
+                                        "."))
+
+data_cntries$more_info <- ifelse(
+  is.na(data_cntries$regs),
+  data_cntries$more_info,
+  paste0(
+    data_cntries$more_info,
+    " A different risk level may apply for the following regions: ",
+    data_cntries$regs
+  )
+  
+)
+
+data_cntries$risk_date <-
+  as.character(format(data_cntries$risk_date, format = "%d/%m/%Y"))
+
+data_cntries$html_labels <- sprintf("<strong>%s</strong>",
+                                    data_cntries$NAME_ENGL,
+                                    data_cntries$risk_level_en)
+data_cntries$html_labels <- ifelse(
+  data_cntries$ISO3_CODE != "DEU",
+  paste0(
+    data_cntries$html_labels,
+    "<br />",
+    data_cntries$risk_level_en
+  ),
+  data_cntries$html_labels
+)
+#data_cntries$html_labels <- ifelse(!is.na(data_cntries$risk_date),
+#                                   paste0(data_cntries$html_labels," seit ",data_cntries$risk_date),
+#                                   data_cntries$html_labels
+#                                   )
+
+data_cntries$html_labels <- ifelse(
+  !is.na(data_cntries$more_info),
+  paste0(
+    data_cntries$html_labels,
+    "<p class='infomap'><strong>More information</strong><br />",
+    data_cntries$more_info,
+    "</p>"
+  ),
+  data_cntries$html_labels
+)
+
+data_cntries$html_labels <- data_cntries$html_labels %>% 
+  lapply(htmltools::HTML)
+
+date <-
+  data %>% filter(ISO3_CODE == "Field date" &
+                    !risk_level_code %in% c("0", "1", "2", "3")) %>%
   select(risk_level_code) %>% as.character() %>% as.Date()
 
 
@@ -48,107 +120,22 @@ cntries_shape <-
     resolution = 20
   )
 
-# Get NUTS units
-data_units <- data %>% filter(region == TRUE & !is.na(NUTS_CODE))
-
-if (nrow(data_units > 0)) {
-  nuts_shape <- gisco_get_nuts(
-    year = 2021,
-    epsg = 4326,
-    cache_dir = "./geojson",
-    resolution = 20,
-    nuts_id = c(data_units$NUTS_CODE, "ES") # Hack
-  )
-  
-  nuts_shape_end <- nuts_shape %>%
-    mutate(NUTS_CODE = NUTS_ID,
-           name.en = NAME_LATN,
-           name.de = NAME_LATN) %>%
-    select(NUTS_CODE, name.en, name.de) %>% inner_join(data_units) %>%
-    select(ISO3_CODE, name.en, name.de, risk_level_code)
-  
-  # Get LAU
-  data_lau <-
-    data_units %>% filter(!NUTS_CODE %in% nuts_shape$NUTS_ID)
-  if (nrow(data_lau) > 0) {
-    lau_shape <- gisco_get_lau(
-      year = 2019,
-      epsg = 4326,
-      cache_dir = "./geojson",
-      gisco_id = c(data_lau$NUTS_CODE, "AL_AL111") # Hack
-    )
-    
-    lau_shape_end <- lau_shape %>%
-      mutate(NUTS_CODE = GISCO_ID,
-             name.en = LAU_NAME,
-             name.de = LAU_NAME) %>%
-      inner_join(data_units) %>%
-      select(ISO3_CODE, name.en, name.de, risk_level_code)
-    
-  } else {
-    lau_shape_end <- NULL
-  }
-  
-  
-  regions_end <-
-    bind_rows(nuts_shape_end, lau_shape_end) %>% mutate(region = TRUE)
-  
-  
-  # Substract regions from countries
-  
-  cntries_shape_reg <-
-    st_difference(cntries_shape, st_union(regions_end))
-  
-} else {
-  cntries_shape_reg <- cntries_shape
-  regions_end <- NULL
-}
-
 # Add Kosovo
 K <- st_read("./geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
 
 cntries_shape_reg <-
-    st_difference(cntries_shape_reg, st_union(K))
+  st_difference(cntries_shape, st_union(K))
 
 cntries_shape_reg <- bind_rows(cntries_shape_reg, K)
-
-data_cntries <- data %>% filter(is.na(region)) %>%
-  mutate(name.en = NAME_ENGL,
-         name.de = countrycode(ISO3_CODE, "iso3c", "cldr.name.de")) %>%
-  select(ISO3_CODE, name.en, name.de, risk_level_code) %>% distinct() %>%
-  mutate(name.de = ifelse(is.na(name.de),
-                          name.en,
-                          name.de))
-
 
 
 cntries_shape_reg2 <- cntries_shape_reg %>%
   select(ISO3_CODE) %>%
   inner_join(data_cntries)
 
-all_shapes <- bind_rows(cntries_shape_reg2, regions_end)
-all_shapes <- st_make_valid(all_shapes)
+all_shapes <- st_make_valid(cntries_shape_reg2)
 
-df_labels <- data_cntries %>% mutate(cntry.en = name.en,
-                                     cntry.de = name.de) %>%
-  select(ISO3_CODE, cntry.en, cntry.de)
-
-# Labels
-all_shapes <- all_shapes %>% left_join(df_labels)
-
-all_shapes$label_en <- ifelse(
-  !is.na(all_shapes$region),
-  paste0(all_shapes$cntry.en, " | ", all_shapes$name.en),
-  all_shapes$name.en
-)
-all_shapes$label_de <- ifelse(
-  !is.na(all_shapes$region),
-  paste0(all_shapes$cntry.de, " | ", all_shapes$name.de),
-  all_shapes$name.de
-)
-
-all_shapes <-
-  all_shapes %>% select(ISO3_CODE, label_en, label_de, risk_level_code) %>% mutate(risk_level_code = as.integer(risk_level_code)) %>% left_join(rl)
+all_shapes <- all_shapes %>% select(ISO3_CODE) %>% left_join(data_cntries)
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == "0",
@@ -172,41 +159,17 @@ regarding traveling to Germany.
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
 labs <- rl$risk_level_en
+
 labs <- labs[c(2:5, 1)]
 
-
-labelsDEU <- sprintf("<strong>%s</strong><br/>%s",
-                     DEU$label_en,
-                     DEU$risk_level_en) %>% lapply(htmltools::HTML)
-
-label0 <- sprintf("<strong>%s</strong><br/>%s",
-                  level0$label_en,
-                  level0$risk_level_en) %>% lapply(htmltools::HTML)
-
-label1 <- sprintf("<strong>%s</strong><br/>%s",
-                  level1$label_en,
-                  level1$risk_level_en) %>% lapply(htmltools::HTML)
-
-
-label2 <- sprintf("<strong>%s</strong><br/>%s",
-                  level2$label_en,
-                  level2$risk_level_en) %>% lapply(htmltools::HTML)
-
-label3 <- sprintf("<strong>%s</strong><br/>%s",
-                  level3$label_en,
-                  level3$risk_level_en) %>% lapply(htmltools::HTML)
-
-label4 <- sprintf("<strong>%s</strong><br/>%s",
-                  level4$label_en,
-                  level4$risk_level_en) %>% lapply(htmltools::HTML)
-
 map <- leaflet(options = leafletOptions(minZoom = 1),
-  elementId= "leaflet") %>%
+  elementId = "leaflet") %>%
   setMaxBounds(-180,-90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
-  addProviderTiles("CartoDB.DarkMatter", group = "Carto Dark Matter") %>%
-  addProviderTiles("Esri.WorldImagery", group = "Esri World Imagery") %>%
-  addTiles(urlTemplate = "", attribution = "© EuroGeographics for the administrative boundaries") %>%
+  addProviderTiles("Stamen.TerrainBackground", group = "Stamen Terrain") %>%
+  addTiles(urlTemplate = "", 
+           attribution = '&copy; <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units">EuroGeographics</a> for the administrative boundaries'
+  ) %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
   addPolygons(
     data = DEU,
@@ -221,7 +184,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
       weight = 1,
       bringToFront = TRUE
     ),
-    popup = labelsDEU
+    popup = DEU$html_labels
   ) %>%
   addPolygons(
     data = level0,
@@ -237,7 +200,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
       weight = 1,
       bringToFront = TRUE
     ),
-    popup = label0
+    popup = level0$html_labels
   ) %>%
   addPolygons(
     data = level1,
@@ -253,7 +216,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
       weight = 1,
       bringToFront = TRUE
     ),
-    popup = label1
+    popup = level1$html_labels
   ) %>%
   addPolygons(
     data = level2,
@@ -269,7 +232,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
       weight = 1,
       bringToFront = TRUE
     ),
-    popup = label2
+    popup = level2$html_labels
   ) %>%
   addPolygons(
     data = level3,
@@ -285,7 +248,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
       weight = 1,
       bringToFront = TRUE
     ),
-    popup = label3
+    popup = level3$html_labels
   ) %>%
   addPolygons(
     data = level4,
@@ -301,7 +264,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
       weight = 1,
       bringToFront = TRUE
     ),
-    popup = label4
+    popup = level4$html_labels
   ) %>%
   addEasyButton(easyButton(
     icon = "fa-globe",
@@ -311,7 +274,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     )
   )) %>%
   addLayersControl(
-    baseGroups = c("Carto Voyager", "Carto Dark Matter", "Esri World Imagery"),
+    baseGroups = c("Carto Voyager", "Stamen Terrain"),
     overlayGroups = labs,
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
@@ -319,7 +282,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     colors = c("red", "orange", "yellow", "#00FF00", "green"),
     labels = labs,
     position = "bottomleft"
-  ) %>% #RHH
+  ) %>%
   htmlwidgets::onRender(
     "
         function() {
@@ -328,6 +291,8 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     "
   )
 map
+
+
 ```
 
 All information is directly fetched from the Robert Koch Institut and supplied without guarantee.
@@ -343,12 +308,22 @@ You can also browse the countries directly on the database.
 ```{r table , echo=FALSE}
 
 
-df <- st_drop_geometry(all_shapes) %>%
-  select(label_en, risk_level_en)
+df <- st_drop_geometry(all_shapes)  %>%
+  select(NAME_ENGL, risk_level_en, risk_date, more_info)
 
-names(df) <- c("Country/Region", "Risk Level") #RHH
+names(df) <- c("Country/Region", "Risk level","Last change at", "Details")
 
 df <- df[order(df[, 1]), ]
+
+
+readr::write_delim(df, "../assets/dist/db_countries_risk_en.csv",
+                  delim = ";",
+                  na = "")
+
+# Strip HTML on Details
+df$Details <- gsub("<li>", "-", df$Details)
+df$Details <- gsub("<.*?>", "", df$Details)
+df$Details <- gsub(",", ";", df$Details)
 
 reactable(
   df,
@@ -362,5 +337,6 @@ reactable(
 
 ```
 
-<!-- DHH - Maybe style as button -->
-[Download database (CSV)](assets/data/db_countries.csv)
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_en.csv" class="btn btn-primary">Download database (CSV)</a>
+</p>
