@@ -271,13 +271,21 @@ direkt auf der Datenbank nachschlagen.
 df <- st_drop_geometry(all_shapes)  %>%
   select(NAME_DE, risk_level_de, risk_date, INFO_DE)
 
-# Strip HTML on INFO
-df$INFO_DE <- gsub("<li>", "\n-", df$INFO_DE)
-df$INFO_DE <- gsub("<.*?>", "", df$INFO_DE)
+
+
 
 names(df) <- c("Land/Region", "Risikoeinstufung","Letzte Änderung am", "Details")
 
 df <- df[order(df[, 1]), ]
+
+readr::write_delim(df, "../assets/dist/db_countries_risk_de.csv",
+                  delim = ";",
+                  na = "")
+
+# Strip HTML on Details
+df$Details <- gsub("<li>", "-", df$Details)
+df$Details <- gsub("<.*?>", "", df$Details)
+df$Details <- gsub(",", ";", df$Details)
 
 reactable(
   df,
@@ -291,5 +299,9 @@ reactable(
 
 ```
 
-<!-- DHH - Maybe style as button -->
-[Datenbank herunterladen (CSV-Datei)](assets/data/db_countries.csv)
+
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_de.csv" class="btn btn-primary">Datenbank herunterladen (CSV-Datei)</a>
+</p>
+
+
