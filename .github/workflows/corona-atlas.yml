@@ -4,7 +4,7 @@ on: workflow_dispatch # TODO schedule
 
 jobs:
   corona-atlas:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         name: Checkout
