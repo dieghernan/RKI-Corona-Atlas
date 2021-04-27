@@ -25,12 +25,18 @@ jobs:
     - name: Install German locale
       run: sudo apt-get update && sudo apt-get install language-pack-de
     - name: Execute scrap script
-      run: scrapy crawl rki > scrap/log.out
+      run: |
+        cp assets/data/db_scrapped.csv scrap/db.old
+        scrapy crawl rki > scrap/log.out
+        echo '::set-output name=NEW_DB::$(cmp assets/data/db_scrapped.csv scrap/db.old)'
+        rm scrap/db.old
+      id: scrapy
       # TODO send log.out e-mail if new data
     - name: Commit results
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git add -A
+        git add assets
         git commit -m 'database updated' || echo "No changes to commit"
         git push origin || echo "No changes to commit"
+      if: ${{ steps.scrapy.outputs.NEW_DB }}
