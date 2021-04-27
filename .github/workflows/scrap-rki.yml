@@ -28,7 +28,11 @@ jobs:
       run: |
         cp assets/data/db_scrapped.csv scrap/db.old
         scrapy crawl rki > scrap/log.out
-        echo '::set-output name=NEW_DB::$(cmp --silent assets/data/db_scrapped.csv scrap/db.old; echo $?)'
+        if cmp --silent -- test.md test.md.old; then
+          echo '::set-output name=NEW_DB::false'
+        else
+          echo '::set-output name=NEW_DB::true'
+        fi
         rm scrap/db.old
       id: scrapy
       # TODO send log.out e-mail if new data
