@@ -37,7 +37,9 @@ your next big journey. Stay safe.
 
 ## About us
 
-<aside class="mt-lg-3 small">
+---
+
+<aside class="my-4 small">
   <div class="row d-flex align-items-center mb-2">
     <img src="https://github.com/dieghernan.png" alt="dieghernan" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
@@ -48,7 +50,7 @@ your next big journey. Stay safe.
     <div class="col text-lg-center">
       <address class="d-inline d-lg-block mr-2 mx-lg-auto mb-lg-2 small chulapa-links-hover-only">
         <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&amp;query=Madrid%2C+Spain">
-        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Madrid 🇪🇸</a>
+        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Madrid, Spain</a>
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
         <a class="mr-2 mx-lg-1" href="https://github.com/dieghernan/"><i class="fab fa-github fa-lg"></i></a>
@@ -75,7 +77,7 @@ or on his personal website:
 
 ---
 
-<aside class="mt-lg-3 small">
+<aside class="my-4 small">
   <div class="row d-flex align-items-center mb-2">
     <img src="https://github.com/rodrihgh.png" alt="rodri" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
@@ -86,7 +88,7 @@ or on his personal website:
     <div class="col text-lg-center">
       <address class="d-inline d-lg-block mr-2 mx-lg-auto mb-lg-2 small chulapa-links-hover-only">
         <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&amp;query=Berlin%2C+Germany">
-        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Berlin 🇩🇪</a>
+        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Berlin, Germany</a>
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
         <a class="mr-2 mx-lg-1" href="https://github.com/rodrihgh/"><i class="fab fa-github fa-lg"></i></a>
