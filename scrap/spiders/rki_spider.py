@@ -9,7 +9,6 @@ import gettext
 import scrapy
 import pandas as pd
 locale.setlocale(locale.LC_TIME, "German")
-pd.options.mode.chained_assignment = None
 
 data_dir = Path("assets/data")
 
@@ -71,13 +70,21 @@ class RKISpider(scrapy.Spider):
         name = " ".join(split_msg[:sep_index])
         info = " ".join(split_msg[sep_index:])
 
-        return cls.clean(name), cls.clean(info)
+        return cls.clean(name), cls.unwrap(info)
 
     @classmethod
     def clean(cls, message):
         for d in cls.deletable:
             message = message.replace(d, '')
         return message
+
+    @staticmethod
+    def unwrap(message):
+        match = re.search(r"^\([^()]+\)$", message)
+        if match:
+            return message[1:-1]
+        else:
+            return message
 
     @classmethod
     def extract_date(cls, info, preposition="seit"):
@@ -262,7 +269,8 @@ class RKISpider(scrapy.Spider):
             print(f"\t- {len(df_unknown)} states could not be identified")
 
             db_norisk = db_old.assign(risk_level_code=0)
-            db_curated = pd.concat([db_curated,
+            db_de = pd.DataFrame({"ISO3_CODE": "DEU", "risk_level_code": 5}, index=[0])
+            db_curated = pd.concat([db_de, db_curated,
                                     db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
                                                "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")
             db_curated = db_curated.sort_values("ISO3_CODE")

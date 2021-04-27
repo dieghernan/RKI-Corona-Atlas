@@ -4,4 +4,4 @@ risk_level_code,risk_level_en,risk_level_de
 2,High incidence area,Hochinzidenzgebiet
 3,Risk area,Risikogebiet
 4,Not risk area - was risk area on the last 10 days,Kein Risikogebiet mehr - seit weniger als 10 Tagen
-5,'',''
+5,,
