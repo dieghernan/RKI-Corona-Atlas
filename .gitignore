@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 project.Rproj
+__pycache__/
+*.py[cod]
