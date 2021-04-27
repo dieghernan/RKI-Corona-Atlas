@@ -280,7 +280,7 @@ class RKISpider(scrapy.Spider):
             db_final = pd.concat([df_date, db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
             db_final.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
         else:
-            print(f"Database is up to date ({old_date}).")
+            print(f"Database is up to date ({old_date.strftime('%d.%m.%Y')})")
 
     @classmethod
     def country_names(cls, german=True, lookup=True):
