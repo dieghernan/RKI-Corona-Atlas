@@ -61,6 +61,9 @@ jobs:
       - name: Install libdunits
         run: sudo apt-get install libudunits2-dev
         
+      - name: Install gdal
+        run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
+        
       - name: Scrap data
         run: scrapy crawl rki > scrap/log.out
       # TODO send log.out e-mail if new data
