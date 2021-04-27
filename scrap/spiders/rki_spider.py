@@ -268,9 +268,8 @@ class RKISpider(scrapy.Spider):
             print(f"\t- {len(df_duplicated)} states are duplicated")
             print(f"\t- {len(df_unknown)} states could not be identified")
 
-            db_norisk = db_old.assign(risk_level_code=0)
-            db_de = pd.DataFrame({"ISO3_CODE": "DEU", "risk_level_code": 5}, index=[0])
-            db_curated = pd.concat([db_de, db_curated,
+            db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU", 0)["risk_level_code"])
+            db_curated = pd.concat([db_curated,
                                     db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
                                                "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")
             db_curated = db_curated.sort_values("ISO3_CODE")
