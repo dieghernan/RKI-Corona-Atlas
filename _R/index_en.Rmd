@@ -53,7 +53,10 @@ regions <- data %>%
   mutate(regs = paste0("<li>", NAME_ENGL, since, "</li>", collapse = "")) %>%
   select(ISO3_CODE, regs) %>%
   distinct_all() %>%
-  mutate(regs = paste0("<ul>", regs, "</ul>"))
+  mutate(regs = paste0("<ul>", regs, "</ul>",
+                       "More details in German or at ",
+                       "<a href='https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html'>",
+                       "rki.de</a>."))
 
 # Add info
 
