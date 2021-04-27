@@ -314,9 +314,9 @@ You can also browse the countries directly on the database.
 
 
 df <- st_drop_geometry(all_shapes)  %>%
-  select(NAME_ENGL, risk_level_en, risk_date, more_info)
+  select(NAME_ENGL, risk_level_en, more_info)
 
-names(df) <- c("Country/Region", "Risk level","Last change at", "Details")
+names(df) <- c("Country/Region", "Risk level", "Details")
 
 df <- df[order(df[, 1]), ]
 

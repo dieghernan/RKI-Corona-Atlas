@@ -268,12 +268,12 @@ direkt auf der Datenbank nachschlagen.
 
 
 df <- st_drop_geometry(all_shapes)  %>%
-  select(NAME_DE, risk_level_de, risk_date, INFO_DE)
+  select(NAME_DE, risk_level_de, INFO_DE)
 
 
 
 
-names(df) <- c("Land/Region", "Risikoeinstufung","Letzte Änderung am", "Details")
+names(df) <- c("Land/Region", "Risikoeinstufung", "Details")
 
 df <- df[order(df[, 1]), ]
 
