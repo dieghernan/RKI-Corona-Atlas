@@ -59,10 +59,9 @@ data_cntries$html_labels <- ifelse(!is.na(data_cntries$INFO_DE),
 
 data_cntries$html_labels <- data_cntries$html_labels %>% lapply(htmltools::HTML)
 
-date <-
-  data %>% filter(ISO3_CODE == "Field date" &
-                    !risk_level_code %in% c("0", "1", "2", "3")) %>%
-  select(risk_level_code) %>% as.character() %>% as.Date()
+date <- readr::read_csv("../assets/data/report_date.csv") %>%
+  select(report_date) %>% as.character() %>% 
+  as.Date()
 
 
 cntries_shape <-
