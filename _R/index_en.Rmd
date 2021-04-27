@@ -46,8 +46,11 @@ data_cntries <-
 # EN - extract regions
 regions <- data %>%
   filter(region == TRUE) %>%
+  mutate(since = ifelse(is.na(risk_date),
+                        "", paste0(", since ",
+                       format(risk_date, "%d %b %Y")))) %>%
   group_by(ISO3_CODE) %>%
-  mutate(regs = paste0("<li>", NAME_ENGL, "</li>", collapse = "")) %>%
+  mutate(regs = paste0("<li>", NAME_ENGL, since, "</li>", collapse = "")) %>%
   select(ISO3_CODE, regs) %>%
   distinct_all() %>%
   mutate(regs = paste0("<ul>", regs, "</ul>"))
