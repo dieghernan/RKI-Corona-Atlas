@@ -32,8 +32,8 @@ library(rmarkdown)
 library(leaflet.providers)
 
 data <- readr::read_csv("../assets/data/db_scraped.csv")
-rl <- readr::read_csv("../assets/data/risk_level_code.csv") %>% 
-  mutate(risk_level_code = as.character(risk_level_code))
+rl <- readr::read_csv("../assets/data/risk_level_code.csv")
+# %>% mutate(risk_level_code = as.character(risk_level_code))
 
 data_cntries <- data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   filter(is.na(region)) %>%
@@ -90,12 +90,12 @@ all_shapes <- st_make_valid(cntries_shape_reg2)
 all_shapes <- all_shapes %>% select(ISO3_CODE) %>% left_join(data_cntries)
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
-level0 <- all_shapes %>% filter(risk_level_code == "0",
+level0 <- all_shapes %>% filter(risk_level_code == 0,
                                 ISO3_CODE != "DEU")
-level1 <- all_shapes %>% filter(risk_level_code == "1")
-level2 <- all_shapes %>% filter(risk_level_code == "2")
-level3 <- all_shapes %>% filter(risk_level_code == "3")
-level4 <- all_shapes %>% filter(risk_level_code == "4")
+level1 <- all_shapes %>% filter(risk_level_code == 1)
+level2 <- all_shapes %>% filter(risk_level_code == 2)
+level3 <- all_shapes %>% filter(risk_level_code == 3)
+level4 <- all_shapes %>% filter(risk_level_code == 4)
 ```
 
 
