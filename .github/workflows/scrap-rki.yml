@@ -44,7 +44,7 @@ jobs:
         from: GitHub Actions
         body: The database of the repository RKI-Corona-Atlas has been updated with the newest data from the RKI. More details in the attachment.
         ignore_cert: true
-        attachments: log/scrapy_report.txt,assets/data/db_scrapped.csv
+        attachments: log/scrapy_report.txt,assets/data/db_scraped.csv
     - name: Commit results
 #      if: steps.scrapy.outputs.DATABASE == 'NEW'
       run: |
