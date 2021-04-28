@@ -1,27 +1,32 @@
 name: corona-atlas
 
-on: workflow_dispatch # TODO schedule and pull/push
-#on:
-#  push:
-#    branches:
-#      - master
-#      - main
-#  pull_request:
-#    branches:
-#      - master
-#      - main
+on:
+ push:
+   branches:
+     - master
+     - main
+   paths:
+     - _R/**
+     - assets/data/**
+ pull_request:
+   branches:
+     - master
+     - main
+   paths:
+     - _R/**
+     - assets/data/**
+ schedule:
+   - cron: "0 5/6 * * *"
 
 jobs:
   corona-atlas:
     runs-on: ubuntu-latest
     env:
       RSPM: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"
-      
+
     steps:
       - uses: actions/checkout@v2
         name: Checkout
-        with:
-          ref: dev  # TODO master
 
       - uses: r-lib/actions/setup-r@v1
         name: Setup R
@@ -65,16 +70,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-        
+
       - name: Install German locale
         run: sudo apt-get update && sudo apt-get install language-pack-de
-      
+
       - name: Install libdunits
         run: sudo apt-get install libudunits2-dev
-        
+
       - name: Install gdal
         run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
-        
+
       - name: Scrap data
         run: |
           cp -R assets/data log/data
@@ -105,6 +110,7 @@ jobs:
           renv::restore()
 
       - name: Create maps
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         run: Rscript _R/trigger.R
 
       - name: Commit results
