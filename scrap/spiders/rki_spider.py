@@ -1,4 +1,3 @@
-import os
 import locale
 import re
 from datetime import datetime as dt
@@ -10,10 +9,11 @@ import gettext
 import scrapy
 import pandas as pd
 
-locale_de = "de_DE.UTF-8" if os.name == "posix" else "German"
 locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
 
 data_dir = Path("assets/data")
+db_path = data_dir/"db_scrapped.csv"
+date_path = data_dir/"report_date.csv"
 
 de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
 
@@ -123,9 +123,8 @@ class RKISpider(scrapy.Spider):
         if not match:
             raise RuntimeError("Unable to find a date")
 
-        db_old = pd.read_csv(data_dir / "db_scrapped.csv")
-        old_date = dt.strptime(db_old[db_old["ISO3_CODE"] == "Field date"].at[0, "risk_level_code"],
-                               self.date_fmt['db']).date()
+        old_date_df = pd.read_csv(date_path)
+        old_date = dt.strptime(old_date_df.at[0, "report_date"], self.date_fmt['db']).date()
 
         new_date = dt.strptime(match.group(), self.date_fmt['de']['dt']).date()
 
@@ -139,7 +138,9 @@ class RKISpider(scrapy.Spider):
             dates_err = []
             risk_err = []
 
+            db_old = pd.read_csv(db_path)
             db_old = db_old[db_old["ISO3_CODE"] != "ERROR"]
+
             db_regions = db_old[db_old['region'].notna()]
             db_regions = db_regions.assign(NAME_DE=db_regions["NAME_ENGL"].apply(de.gettext))
             reg_df = db_regions[["ISO3_CODE", "NAME_ENGL", "NAME_DE", "NUTS_CODE"]]
@@ -149,7 +150,6 @@ class RKISpider(scrapy.Spider):
             iso3_en = iso3_names.set_index("ISO3_CODE")["NAME_ENGL"].to_dict()
             iso3_de_lut = iso3_names.set_index("NAME_DE")["ISO3_CODE"].to_dict()
 
-            df_date = pd.DataFrame({"ISO3_CODE": ["Field date"], "risk_level_code": new_date})
             with open(filename, 'wb') as f:
                 f.write(response.body)
 
@@ -172,7 +172,7 @@ class RKISpider(scrapy.Spider):
                         code = rl['code']
                         break
                 print(f"The following header has been assigned to risk_level_code {code}:")
-                print(f"{h_text}\n")
+                print(f"\t{h_text}\n")
 
                 if code >= 0:
                     date_ppt = "bis" if code == 4 else "seit"
@@ -244,10 +244,10 @@ class RKISpider(scrapy.Spider):
                             iso3_regions.append(iso3_found)
                             nuts_regions.append(nuts)
 
-                    df = pd.DataFrame({"ISO3_CODE": iso3_states, "NAME_DE": name_states,
+                    df = pd.DataFrame({"ISO3_CODE": iso3_states, "risk_level_code": code, "NAME_DE": name_states,
                                        "NAME_ENGL": [iso3_en[i3r] for i3r in iso3_states],
-                                       "risk_date": risk_dates, "INFO_DE": info_states})
-                    df = df.assign(risk_level_code=code)
+                                       "risk_date": risk_dates, "region": None, "NUTS_CODE": None,
+                                       "INFO_DE": info_states})
                     df_collector[code] = df
 
             db_new = pd.concat([df_collector[i] for i in self.risk_priority])
@@ -255,9 +255,9 @@ class RKISpider(scrapy.Spider):
 
             df_regions = pd.DataFrame({"ISO3_CODE": iso3_regions, "risk_level_code": risk_regions,
                                        "NAME_DE": name_regions, "NAME_ENGL": name_regions,
-                                       "NUTS_CODE": nuts_regions,
+                                       "region": True, "NUTS_CODE": nuts_regions,
                                        "risk_date": dates_regions, "INFO_DE": info_regions})
-            df_regions = df_regions.assign(region=True).sort_values("ISO3_CODE")
+            df_regions = df_regions.sort_values("ISO3_CODE")
 
             df_unknown = pd.DataFrame({"NAME_DE": name_err, "risk_level_code": risk_err, "INFO_DE": info_err})
             df_unknown = df_unknown.assign(ISO3_CODE="ERROR", ERROR="UNKNOWN_AREA")
@@ -277,8 +277,12 @@ class RKISpider(scrapy.Spider):
                                                "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")
             db_curated = db_curated.sort_values("ISO3_CODE")
 
-            db_final = pd.concat([df_date, db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
-            db_final.to_csv(data_dir / f"db_scrapped.csv", encoding='utf-8-sig', date_format=self.date_fmt['db'])
+            db_final = pd.concat([db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
+            db_final.astype({"risk_level_code": int}).to_csv(db_path, encoding='utf-8-sig',
+                                                             date_format=self.date_fmt['db'])
+
+            pd.DataFrame({"report_date": [new_date]}).to_csv(date_path, index=False, date_format=self.date_fmt['db'])
+
         else:
             print(f"Database is up to date ({old_date.strftime('%d.%m.%Y')})")
 
