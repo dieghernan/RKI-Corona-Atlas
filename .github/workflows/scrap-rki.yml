@@ -26,18 +26,14 @@ jobs:
       run: sudo apt-get update && sudo apt-get install language-pack-de
     - name: Execute scrap script
       run: |
-        cp assets/data/db_scrapped.csv scrap/db.old
-        scrapy crawl rki > scrap/log.out
-        if cmp --silent -- assets/data/db_scrapped.csv scrap/db.old; then
-          echo '::set-output name=NEW_DB::false'
-        else
-          echo '::set-output name=NEW_DB::true'
-        fi
-        rm scrap/db.old
+        cp -R assets/data log/data
+        scrapy crawl rki > log/scrapy_report.txt
+        cat log/scrapy_report.txt
+        diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
       id: scrapy
     - name: Send mail
       uses: dawidd6/action-send-mail@v3
-      # if: steps.scrapy.outputs.NEW_DB == 'true' # TODO
+      if: steps.scrapy.outputs.DATABASE == 'NEW'
       with:
         server_address: smtp.gmail.com
         server_port: 465
@@ -48,10 +44,9 @@ jobs:
         from: GitHub Actions
         body: The database of the repository RKI-Corona-Atlas has been updated with the newest data from the RKI. More details in the attachment.
         ignore_cert: true
-        # Optional attachments:
-        attachments: scrap/log.out,assets/data/db_scrapped.csv
+        attachments: log/scrapy_report.txt,assets/data/db_scrapped.csv
     - name: Commit results
-      if: steps.scrapy.outputs.NEW_DB == 'true'
+      if: steps.scrapy.outputs.DATABASE == 'NEW'
       run: |
         echo "New database is ${{ steps.scrapy.outputs.NEW_DB }}"
         git config --local user.email "actions@github.com"
