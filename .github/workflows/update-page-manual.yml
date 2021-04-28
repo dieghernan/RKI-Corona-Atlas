@@ -1,0 +1,63 @@
+name: update-page
+
+on: workflow_dispatch 
+
+jobs:
+  update-page:
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout
+
+      - uses: r-lib/actions/setup-r@v1
+        name: Setup R
+
+      - uses: r-lib/actions/setup-pandoc@master
+        name: Setup Pandoc
+
+      - uses: actions/cache@v2
+        name: Cache for Linux
+        if: startsWith(runner.os, 'Linux')
+        with:
+          path: ~/.local/share/renv
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv2-
+
+      - uses: actions/cache@v2
+        name: Cache for macOS
+        if: startsWith(runner.os, 'macOS')
+        with:
+          path: ~/Library/Application Support/renv
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv2-
+
+      - uses: actions/cache@v2
+        name: Cache for Windows
+        if: startsWith(runner.os, 'Windows')
+        with:
+          path: ~\AppData\Local\renv
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+
+      - name: Restore packages
+        shell: Rscript {0}
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
+
+
+      - name: Run bot
+        run: Rscript _R/trigger.R
+
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -A
+          git commit -m 'Update page' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+
+
