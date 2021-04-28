@@ -10,15 +10,13 @@ The scraper also uses
 [**pandas**](https://pandas.pydata.org/) and
 [**pycountry**](https://pypi.org/project/pycountry/).
 
-Map visualization is based in **R** _(@dieghernan something to add here??)_
-
+Map visualization is created with **R** and generates a Leaflet map.
+ 
 The website uses [**Chulapa**](https://dieghernan.github.io/chulapa/)
 as its Jekyll theme.
 
 ## Additional resources
 
--   [NUTS finder](https://dieghernan.github.io/RKI-Corona-Atlas/nuts): Search NUTS codes.
--   [LAU finder](https://dieghernan.github.io/RKI-Corona-Atlas/lau): Search LAU (local urban areas) codes. Basically town codes over the whole EU.
 -   [RKI website][rki]: Data source.
 
 
