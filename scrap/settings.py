@@ -12,7 +12,7 @@ BOT_NAME = 'scrap'
 SPIDER_MODULES = ['scrap.spiders']
 NEWSPIDER_MODULE = 'scrap.spiders'
 
-LOG_ENABLED = False
+LOG_LEVEL = "WARNING"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrap (+http://www.yourdomain.com)'

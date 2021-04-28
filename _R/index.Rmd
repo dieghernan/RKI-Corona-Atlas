@@ -31,7 +31,7 @@ library(reactable)
 library(rmarkdown)
 library(leaflet.providers)
 
-data <- readr::read_csv("../assets/data/db_scrapped.csv")
+data <- readr::read_csv("../assets/data/db_scraped.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv") %>% 
   mutate(risk_level_code = as.character(risk_level_code))
 

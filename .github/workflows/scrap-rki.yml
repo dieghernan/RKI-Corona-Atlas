@@ -27,7 +27,7 @@ jobs:
     - name: Execute scrap script
       run: |
         cp -R assets/data log/data
-        scrapy crawl rki > log/scrapy_report.txt
+        scrapy crawl rki &> log/scrapy_report.txt
         cat log/scrapy_report.txt
         diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
       id: scrapy
@@ -46,11 +46,10 @@ jobs:
         ignore_cert: true
         attachments: log/scrapy_report.txt,assets/data/db_scrapped.csv
     - name: Commit results
-      if: steps.scrapy.outputs.DATABASE == 'NEW'
+#      if: steps.scrapy.outputs.DATABASE == 'NEW'
       run: |
-        echo "New database is ${{ steps.scrapy.outputs.NEW_DB }}"
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git add assets
+        git add assets/data
         git commit -m 'database updated' || echo "No changes to commit"
         git push origin || echo "No changes to commit"

@@ -12,7 +12,7 @@ import pandas as pd
 locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
 
 data_dir = Path("assets/data")
-db_path = data_dir/"db_scrapped.csv"
+db_path = data_dir/"db_scraped.csv"
 date_path = data_dir/"report_date.csv"
 
 de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
@@ -116,175 +116,167 @@ class RKISpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        filename = data_dir / 'scrapped/rki.html'
+        print(f"Scraping the following URL:\n{response.url}\n")
 
         stand = response.xpath("//div[contains(@class, 'subheadline')]/p/text()")
         match = re.search(self.date_fmt['de']['re'], stand.get())
         if not match:
             raise RuntimeError("Unable to find a date")
 
-        old_date_df = pd.read_csv(date_path)
-        old_date = dt.strptime(old_date_df.at[0, "report_date"], self.date_fmt['db']).date()
+        db_date_df = pd.read_csv(date_path)
+        db_date = dt.strptime(db_date_df.at[0, "report_date"], self.date_fmt['db']).date()
 
-        new_date = dt.strptime(match.group(), self.date_fmt['de']['dt']).date()
+        res_date = dt.strptime(match.group(), self.date_fmt['de']['dt']).date()
 
-        if new_date > old_date:
-            print(f"Current data from {old_date}. Newer data from {new_date} was found.\n")
+        print(f"Saved data is from {db_date}, response data from {res_date} was found.\n")
 
-            country_lut = self.country_names(german=True, lookup=True)
+        country_lut = self.country_names(german=True, lookup=True)
 
-            name_err = []
-            info_err = []
-            dates_err = []
-            risk_err = []
+        name_err = []
+        info_err = []
+        dates_err = []
+        risk_err = []
 
-            db_old = pd.read_csv(db_path)
-            db_old = db_old[db_old["ISO3_CODE"] != "ERROR"]
+        db_old = pd.read_csv(db_path)
+        db_old = db_old[db_old["ISO3_CODE"] != "ERROR"]
 
-            db_regions = db_old[db_old['region'].notna()]
-            db_regions = db_regions.assign(NAME_DE=db_regions["NAME_ENGL"].apply(de.gettext))
-            reg_df = db_regions[["ISO3_CODE", "NAME_ENGL", "NAME_DE", "NUTS_CODE"]]
+        db_regions = db_old[db_old['region'].notna()]
+        db_regions = db_regions.assign(NAME_DE=db_regions["NAME_ENGL"].apply(de.gettext))
+        reg_df = db_regions[["ISO3_CODE", "NAME_ENGL", "NAME_DE", "NUTS_CODE"]]
 
-            db_old = db_old[~db_old['region'].notna()]
-            iso3_names = db_old[["ISO3_CODE", "NAME_ENGL", "NAME_DE"]]
-            iso3_en = iso3_names.set_index("ISO3_CODE")["NAME_ENGL"].to_dict()
-            iso3_de_lut = iso3_names.set_index("NAME_DE")["ISO3_CODE"].to_dict()
+        db_old = db_old[~db_old['region'].notna()]
+        iso3_names = db_old[["ISO3_CODE", "NAME_ENGL", "NAME_DE"]]
+        iso3_en = iso3_names.set_index("ISO3_CODE")["NAME_ENGL"].to_dict()
+        iso3_de_lut = iso3_names.set_index("NAME_DE")["ISO3_CODE"].to_dict()
 
-            with open(filename, 'wb') as f:
-                f.write(response.body)
+        risk_headers = response.xpath(f"{self.h2_xpath}/text()")
+        df_collector = {1: None, 2: None, 3: None, 4: None}
 
-            self.log(f'Saved file {filename}')
-            risk_headers = response.xpath(f"{self.h2_xpath}/text()")
-            df_collector = {1: None, 2: None, 3: None, 4: None}
+        name_regions = []
+        info_regions = []
+        iso3_regions = []
+        nuts_regions = []
+        risk_regions = []
+        dates_regions = []
 
-            name_regions = []
-            info_regions = []
-            iso3_regions = []
-            nuts_regions = []
-            risk_regions = []
-            dates_regions = []
+        for i_h, h in enumerate(risk_headers, 1):
+            h_text = h.get()
+            code = -1
+            for rl in self.risk_levels:
+                if re.search(rl['re'], h_text, re.I):
+                    code = rl['code']
+                    break
+            print(f"The following header has been assigned to risk_level_code {code}:")
+            print(f"\t{h_text}\n")
 
-            for i_h, h in enumerate(risk_headers, 1):
-                h_text = h.get()
-                code = -1
-                for rl in self.risk_levels:
-                    if re.search(rl['re'], h_text, re.I):
-                        code = rl['code']
-                        break
-                print(f"The following header has been assigned to risk_level_code {code}:")
-                print(f"\t{h_text}\n")
+            if code >= 0:
+                date_ppt = "bis" if code == 4 else "seit"
 
-                if code >= 0:
-                    date_ppt = "bis" if code == 4 else "seit"
+                states = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}")
 
-                    states = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}")
+                risk_dates = []
 
-                    risk_dates = []
+                name_states = []
+                info_states = []
+                iso3_states = []
 
-                    name_states = []
-                    info_states = []
-                    iso3_states = []
+                for i_s, s in enumerate(states, 1):
+                    iso3_found = None
+                    regions = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}[{i_s}]/ul/li/text()")
+                    msg = s.get()[4:-5]     # Remove <li></li>
+                    msg = msg.replace("<p>", "").replace("</p>", "")
 
-                    for i_s, s in enumerate(states, 1):
-                        iso3_found = None
-                        regions = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}[{i_s}]/ul/li/text()")
-                        msg = s.get()[4:-5]     # Remove <li></li>
-                        msg = msg.replace("<p>", "").replace("</p>", "")
-
-                        name_scrapped, info_scrapped = self.strip_country(msg)
-                        if name_scrapped in iso3_de_lut.keys():     # Direct search from old DB
-                            iso3_found = iso3_de_lut[name_scrapped]
-                        else:
-                            for name, iso3 in country_lut.items():  # Exhaustive search with pycountry and alias
-                                if name in name_scrapped:
-                                    iso3_found = iso3
-                                    name_scrapped = name
-                                    break
-                        if not iso3_found:
-                            for name, iso3 in country_lut.items():  # Repeat exhaustive search in the whole message
-                                if name in msg:
-                                    name_scrapped = name
-                                    info_scrapped = self.clean(msg.replace(name, ""))
-                                    iso3_found = iso3
-                                    break
-                        if not iso3_found:                          # Last check among the regions
-                            region = db_regions[db_regions["NAME_DE"] == name_scrapped]
-                            if not region.empty:
-                                name_regions.append(name_scrapped)
-                                risk_regions.append(code)
-                                info_regions.append(info_scrapped)
-                                dates_regions.append(self.extract_date(info_scrapped, preposition=date_ppt))
-                                iso3_regions.append(region["ISO3_CODE"].iat[0])
-                                nuts_regions.append(region["NUTS_CODE"].iat[0])
-                                continue
-                        if iso3_found:
-                            name_states.append(name_scrapped)
-                            info_states.append(info_scrapped)
-                            risk_dates.append(self.extract_date(info_scrapped, preposition=date_ppt))
-                            iso3_states.append(iso3_found)
-                        else:
-                            print(f"Unidentified state: {name_scrapped}")
-                            print(f"Risk level code:\n\t{code}")
-                            print(f"Info:\n\t{msg}\n")
-
-                            name_err.append(name_scrapped)
-                            info_err.append(msg)
-                            dates_err.append(self.extract_date(msg, preposition=date_ppt))
-                            risk_err.append(code)
-                        country_regs = reg_df[reg_df["ISO3_CODE"] == iso3_found]
-                        for r in regions:
-                            name_sr, info_sr = self.strip_country(r.get())
-                            nuts = country_regs[country_regs["NAME_DE"] == name_sr]["NUTS_CODE"]
-                            nuts = None if nuts.empty else nuts.iloc[0]
-
-                            name_regions.append(name_sr)
+                    name_scraped, info_scraped = self.strip_country(msg)
+                    if name_scraped in iso3_de_lut.keys():      # Direct search from old DB
+                        iso3_found = iso3_de_lut[name_scraped]
+                    else:
+                        for name, iso3 in country_lut.items():  # Exhaustive search with pycountry and alias
+                            if name in name_scraped:
+                                iso3_found = iso3
+                                name_scraped = name
+                                break
+                    if not iso3_found:
+                        for name, iso3 in country_lut.items():  # Repeat exhaustive search in the whole message
+                            if name in msg:
+                                name_scraped = name
+                                info_scraped = self.clean(msg.replace(name, ""))
+                                iso3_found = iso3
+                                break
+                    if not iso3_found:                          # Last check among the regions
+                        region = db_regions[db_regions["NAME_DE"] == name_scraped]
+                        if not region.empty:
+                            name_regions.append(name_scraped)
                             risk_regions.append(code)
-                            info_regions.append(info_sr)
-                            dates_regions.append(self.extract_date(info_sr, preposition=date_ppt))
-                            iso3_regions.append(iso3_found)
-                            nuts_regions.append(nuts)
+                            info_regions.append(info_scraped)
+                            dates_regions.append(self.extract_date(info_scraped, preposition=date_ppt))
+                            iso3_regions.append(region["ISO3_CODE"].iat[0])
+                            nuts_regions.append(region["NUTS_CODE"].iat[0])
+                            continue
+                    if iso3_found:
+                        name_states.append(name_scraped)
+                        info_states.append(info_scraped)
+                        risk_dates.append(self.extract_date(info_scraped, preposition=date_ppt))
+                        iso3_states.append(iso3_found)
+                    else:
+                        print(f"Unidentified state: {name_scraped}")
+                        print(f"Risk level code:\n\t{code}")
+                        print(f"Info:\n\t{msg}\n")
 
-                    df = pd.DataFrame({"ISO3_CODE": iso3_states, "risk_level_code": code, "NAME_DE": name_states,
-                                       "NAME_ENGL": [iso3_en[i3r] for i3r in iso3_states],
-                                       "risk_date": risk_dates, "region": None, "NUTS_CODE": None,
-                                       "INFO_DE": info_states})
-                    df_collector[code] = df
+                        name_err.append(name_scraped)
+                        info_err.append(msg)
+                        dates_err.append(self.extract_date(msg, preposition=date_ppt))
+                        risk_err.append(code)
+                    country_regs = reg_df[reg_df["ISO3_CODE"] == iso3_found]
+                    for r in regions:
+                        name_sr, info_sr = self.strip_country(r.get())
+                        nuts = country_regs[country_regs["NAME_DE"] == name_sr]["NUTS_CODE"]
+                        nuts = None if nuts.empty else nuts.iloc[0]
 
-            db_new = pd.concat([df_collector[i] for i in self.risk_priority])
-            db_curated = db_new.drop_duplicates(subset="ISO3_CODE")
+                        name_regions.append(name_sr)
+                        risk_regions.append(code)
+                        info_regions.append(info_sr)
+                        dates_regions.append(self.extract_date(info_sr, preposition=date_ppt))
+                        iso3_regions.append(iso3_found)
+                        nuts_regions.append(nuts)
 
-            df_regions = pd.DataFrame({"ISO3_CODE": iso3_regions, "risk_level_code": risk_regions,
-                                       "NAME_DE": name_regions, "NAME_ENGL": name_regions,
-                                       "region": True, "NUTS_CODE": nuts_regions,
-                                       "risk_date": dates_regions, "INFO_DE": info_regions})
-            df_regions = df_regions.sort_values("ISO3_CODE")
+                df = pd.DataFrame({"ISO3_CODE": iso3_states, "risk_level_code": code, "NAME_DE": name_states,
+                                   "NAME_ENGL": [iso3_en[i3r] for i3r in iso3_states],
+                                   "risk_date": risk_dates, "region": None, "NUTS_CODE": None,
+                                   "INFO_DE": info_states})
+                df_collector[code] = df
 
-            df_unknown = pd.DataFrame({"NAME_DE": name_err, "risk_level_code": risk_err, "INFO_DE": info_err})
-            df_unknown = df_unknown.assign(ISO3_CODE="ERROR", ERROR="UNKNOWN_AREA")
+        db_new = pd.concat([df_collector[i] for i in self.risk_priority])
+        db_curated = db_new.drop_duplicates(subset="ISO3_CODE")
 
-            df_duplicated = pd.concat([db_curated, db_new]).drop_duplicates(keep=False)
-            df_duplicated = df_duplicated.assign(ISO3_CODE="ERROR", ERROR="DUPLICATED")
+        df_regions = pd.DataFrame({"ISO3_CODE": iso3_regions, "risk_level_code": risk_regions,
+                                   "NAME_DE": name_regions, "NAME_ENGL": name_regions,
+                                   "region": True, "NUTS_CODE": nuts_regions,
+                                   "risk_date": dates_regions, "INFO_DE": info_regions})
+        df_regions = df_regions.sort_values("ISO3_CODE")
 
-            print(f"Process summary:")
-            print(f"\t- {len(db_curated)} states have been succesfully processed")
-            print(f"\t- {len(df_regions)} regions have been identified")
-            print(f"\t- {len(df_duplicated)} states are duplicated")
-            print(f"\t- {len(df_unknown)} states could not be identified")
+        df_unknown = pd.DataFrame({"NAME_DE": name_err, "risk_level_code": risk_err, "INFO_DE": info_err})
+        df_unknown = df_unknown.assign(ISO3_CODE="ERROR", ERROR="UNKNOWN_AREA")
 
-            db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU", 0)["risk_level_code"])
-            db_curated = pd.concat([db_curated,
-                                    db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
-                                               "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")
-            db_curated = db_curated.sort_values("ISO3_CODE")
+        df_duplicated = pd.concat([db_curated, db_new]).drop_duplicates(keep=False)
+        df_duplicated = df_duplicated.assign(ISO3_CODE="ERROR", ERROR="DUPLICATED")
 
-            db_final = pd.concat([db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
-            db_final.astype({"risk_level_code": int}).to_csv(db_path, encoding='utf-8-sig',
-                                                             date_format=self.date_fmt['db'])
+        print(f"Process summary:")
+        print(f"\t- {len(db_curated)} states have been succesfully processed")
+        print(f"\t- {len(df_regions)} regions have been identified")
+        print(f"\t- {len(df_duplicated)} states are duplicated")
+        print(f"\t- {len(df_unknown)} states could not be identified")
 
-            pd.DataFrame({"report_date": [new_date]}).to_csv(date_path, index=False, date_format=self.date_fmt['db'])
+        db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU", 0)["risk_level_code"])
+        db_curated = pd.concat([db_curated,
+                                db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
+                                           "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")
+        db_curated = db_curated.sort_values("ISO3_CODE")
 
-        else:
-            print(f"Database is up to date ({old_date.strftime('%d.%m.%Y')})")
+        db_final = pd.concat([db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
+        db_final.astype({"risk_level_code": int}).to_csv(db_path, encoding='utf-8-sig',
+                                                         date_format=self.date_fmt['db'])
+
+        pd.DataFrame({"report_date": [res_date]}).to_csv(date_path, index=False, date_format=self.date_fmt['db'])
 
     @classmethod
     def country_names(cls, german=True, lookup=True):
