@@ -1,6 +1,15 @@
 name: corona-atlas
 
-on: workflow_dispatch # TODO schedule
+on: workflow_dispatch # TODO schedule and pull/push
+#on:
+#  push:
+#    branches:
+#      - master
+#      - main
+#  pull_request:
+#    branches:
+#      - master
+#      - main
 
 jobs:
   corona-atlas:
@@ -11,6 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         name: Checkout
+        with:
+          ref: dev  # TODO master
 
       - uses: r-lib/actions/setup-r@v1
         name: Setup R
@@ -65,8 +76,27 @@ jobs:
         run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
         
       - name: Scrap data
-        run: scrapy crawl rki > scrap/log.out
-      # TODO send log.out e-mail if new data
+        run: |
+          cp -R assets/data log/data
+          scrapy crawl rki &> log/scrapy_report.txt
+          cat log/scrapy_report.txt
+          diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
+        id: scrapy
+
+      - name: Send mail
+        uses: dawidd6/action-send-mail@v3
+        if: steps.scrapy.outputs.DATABASE == 'NEW'
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{secrets.MAIL_RH}}
+          password: ${{secrets.MAIL_PW}}
+          subject: RKI-Corona-Atlas new data
+          to: ${{secrets.MAIL_DH}},${{secrets.MAIL_RH}}
+          from: GitHub Actions
+          body: The database of the repository RKI-Corona-Atlas has been updated with the newest data from the RKI. More details in the attachment.
+          ignore_cert: true
+          attachments: log/scrapy_report.txt,assets/data/db_scraped.csv
 
       - name: Restore R packages
         shell: Rscript {0}
