@@ -112,10 +112,9 @@ data_cntries$html_labels <- ifelse(
 data_cntries$html_labels <- data_cntries$html_labels %>% 
   lapply(htmltools::HTML)
 
-date <-
-  data %>% filter(ISO3_CODE == "Field date" &
-                    !risk_level_code %in% c("0", "1", "2", "3")) %>%
-  select(risk_level_code) %>% as.character() %>% as.Date()
+date <- read.csv("../assets/data/report_date.csv") %>%
+  select(report_date) %>% as.character() %>% 
+  as.Date()
 
 
 cntries_shape <-
@@ -315,9 +314,9 @@ You can also browse the countries directly on the database.
 
 
 df <- st_drop_geometry(all_shapes)  %>%
-  select(NAME_ENGL, risk_level_en, risk_date, more_info)
+  select(NAME_ENGL, risk_level_en, more_info)
 
-names(df) <- c("Country/Region", "Risk level","Last change at", "Details")
+names(df) <- c("Country/Region", "Risk level", "Details")
 
 df <- df[order(df[, 1]), ]
 

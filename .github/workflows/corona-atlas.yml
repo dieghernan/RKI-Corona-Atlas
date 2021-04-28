@@ -1,0 +1,88 @@
+name: corona-atlas
+
+on: workflow_dispatch # TODO schedule
+
+jobs:
+  corona-atlas:
+    runs-on: ubuntu-latest
+    env:
+      RSPM: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"
+      
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout
+
+      - uses: r-lib/actions/setup-r@v1
+        name: Setup R
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - uses: r-lib/actions/setup-pandoc@master
+        name: Setup Pandoc
+
+      - uses: actions/cache@v2
+        name: Cache for Linux
+        if: startsWith(runner.os, 'Linux')
+        with:
+          path: ~/.local/share/renv
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv2-
+
+      - uses: actions/cache@v2
+        name: Cache for macOS
+        if: startsWith(runner.os, 'macOS')
+        with:
+          path: ~/Library/Application Support/renv
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv2-
+
+      - uses: actions/cache@v2
+        name: Cache for Windows
+        if: startsWith(runner.os, 'Windows')
+        with:
+          path: ~\AppData\Local\renv
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        
+      - name: Install German locale
+        run: sudo apt-get update && sudo apt-get install language-pack-de
+      
+      - name: Install libdunits
+        run: sudo apt-get install libudunits2-dev
+        
+      - name: Install gdal
+        run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
+        
+      - name: Scrap data
+        run: scrapy crawl rki > scrap/log.out
+      # TODO send log.out e-mail if new data
+
+      - name: Restore R packages
+        shell: Rscript {0}
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
+
+      - name: Create maps
+        run: Rscript _R/trigger.R
+
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -A
+          git commit -m 'corona-atlas update' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+
+
