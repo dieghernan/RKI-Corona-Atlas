@@ -145,7 +145,9 @@ Paraguay;Hochinzidenzgebiet;"Hochinzidenzgebiet seit 21. März 2021; bereits sei
 Peru;Hochinzidenzgebiet;"Hochinzidenzgebiet seit 3. April 2021; bereits seit 15. Juni 2020 als Risikogebiet ausgewiesen"
 Philippinen;Risikogebiet;seit 15. Juni 2020
 Polen;Hochinzidenzgebiet;"Hochinzidenzgebiet seit 21. März 2021; bereits seit 24. Oktober 2020 als Risikogebiet ausgewiesen"
-Portugal;Risikogebiet;"(seit 14. März 2021; Virusvarianten-Gebiet 27. Januar 2021 – 13. März 2021) – die folgenden Regionen gelten derzeit als Risikogebiete:"
+Portugal;Risikogebiet;"(seit 14. März 2021; Virusvarianten-Gebiet 27. Januar 2021 – 13. März 2021) – die folgenden Regionen gelten derzeit als Risikogebiete:
+<ul><li>Madeira (autonome Region) (seit 14. März 2021; Virusvarianten-Gebiet 27. Januar 2021 – 13. März 2021)</li><li>Azoren (autonome Region) (seit 18. April 2021)</li><li>Algarve (seit 18. April 2021)</li></ul>
+"
 Ruanda;Kein Risikogebiet;
 Rumänien;Risikogebiet;seit 7. Oktober 2020
 Russische Föderation;Risikogebiet;seit 15. Juni 2020
