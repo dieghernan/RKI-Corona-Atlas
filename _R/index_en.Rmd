@@ -42,7 +42,7 @@ data_cntries <-
   data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   filter(is.na(region)) %>%
   left_join(rl) %>%
-  select(ISO3_CODE, NAME_ENGL, risk_date, risk_level_code, risk_level_en)
+  select(ISO3_CODE, NAME_ENGL, REG_EXCLUDED, risk_date, risk_level_code, risk_level_en)
 
 # EN - extract regions
 regions <- data %>%
