@@ -1,0 +1,25 @@
+name: mail-test
+
+on: workflow_dispatch
+
+jobs:
+  corona-atlas:
+    runs-on: ubuntu-latest
+    env:
+      RSPM: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"
+
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout
+
+      - name: Send mail
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.ionos.de
+          server_port: 465
+          username: info@corona-atlas.de # ${{secrets.MAIL_CA}}
+          password: ${{secrets.MAIL_PW}}
+          subject: RKI-Corona-Atlas new data
+          to: ${{secrets.MAIL_RH}}
+          from: Corona Atlas
+          body: Test
