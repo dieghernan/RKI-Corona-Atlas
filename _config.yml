@@ -43,7 +43,7 @@ footer:
   links:
     - label: "E-Mail"
       icon: "far fa-envelope"
-      url:  "mailto:info@corona-atlas.de"
+      url:  "info@corona-atlas.de"
     - label: "GitHub"
       icon: "fab fa-github"
       url:  "https://github.com/dieghernan/RKI-Corona-Atlas"
