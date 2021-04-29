@@ -20,6 +20,7 @@ de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
 
 class RKISpider(scrapy.Spider):
     name = "rki"
+    handle_httpstatus_list = [200, 404, 500]
 
     alias = {'BLR': ('Belarus',),
              'COD': ('Kongo DR',),
@@ -110,12 +111,15 @@ class RKISpider(scrapy.Spider):
 
     def start_requests(self):
         urls = [
-            'https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html',
+            'https://www.rki.de/risikogebiete',
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
+        if response.status in (404, 500):
+            raise RuntimeError(f"Site {response.url} not found")
+
         print(f"Scraping the following URL:\n{response.url}\n")
 
         stand = response.xpath("//div[contains(@class, 'subheadline')]/p/text()")
