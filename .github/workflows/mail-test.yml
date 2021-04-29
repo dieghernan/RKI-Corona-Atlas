@@ -22,11 +22,5 @@ jobs:
           subject: RKI-Corona-Atlas new data
           to: ${{secrets.MAIL_RH}}
           from: Corona Atlas
-          body: |
-            The database of [Corona Atlas](https://corona-atlas.de)
-            has been updated with the newest data from <https://rki.de/risikogebiete>.
-
-            More details in the attachment.
-          ignore_cert: true
-          convert_markdown: true
+          body: Test
           attachments: assets/data/db_scraped.csv
