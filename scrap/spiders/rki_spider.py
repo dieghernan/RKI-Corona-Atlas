@@ -51,6 +51,7 @@ class RKISpider(scrapy.Spider):
     HI_INC = 2
     RISK = 3
     PARTIAL = 4
+    IGNORE = 5
 
     risk_levels = ({'code': NO_RISK, 're': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
                    {'code': RISK, 're': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
@@ -155,7 +156,6 @@ class RKISpider(scrapy.Spider):
         db_old = db_old[db_old["ISO3_CODE"] != "ERROR"]
 
         db_regions = db_old[db_old['region'].notna()]
-        db_regions = db_regions.assign(NAME_DE=db_regions["NAME_ENGL"].apply(de.gettext))
         reg_df = db_regions[["ISO3_CODE", "NAME_ENGL", "NAME_DE", "NUTS_CODE"]]
 
         db_old = db_old[~db_old['region'].notna()]
@@ -167,6 +167,7 @@ class RKISpider(scrapy.Spider):
         df_collector = {self.NO_RISK: None, self.RISK: None, self.HI_INC: None, self.VARIANT: None}
 
         name_regions = []
+        name_en_regions = []
         info_regions = []
         iso3_regions = []
         nuts_regions = []
@@ -255,10 +256,21 @@ class RKISpider(scrapy.Spider):
                     reg_code = self.NO_RISK if reg_excluded else code
                     for r in regions:
                         name_sr, info_sr = self.strip_country(r.get())
-                        nuts = country_regs[country_regs["NAME_DE"] == name_sr]["NUTS_CODE"]
-                        nuts = None if nuts.empty else nuts.iloc[0]
+                        reg_hit = country_regs[country_regs["NAME_DE"] == name_sr]
+                        name_en = name_sr
+                        if reg_hit.empty:
+                            nuts = None
+                            for reg_de, iso3 in country_lut.items():
+                                if reg_de in name_sr:
+                                    name_en = pycountry.countries.get(alpha_3=iso3).name
+                                    break
+                        else:
+                            reg_hit = reg_hit.iloc[0]
+                            name_en = reg_hit["NAME_ENGL"]
+                            nuts = reg_hit["NUTS_CODE"]
 
                         name_regions.append(name_sr)
+                        name_en_regions.append(name_en)
                         risk_regions.append(reg_code)
                         info_regions.append(info_sr)
                         dates_regions.append(self.extract_date(info_sr, preposition=date_ppt))
@@ -275,7 +287,7 @@ class RKISpider(scrapy.Spider):
         db_curated = db_new.drop_duplicates(subset="ISO3_CODE")
 
         df_regions = pd.DataFrame({"ISO3_CODE": iso3_regions, "risk_level_code": risk_regions,
-                                   "NAME_DE": name_regions, "NAME_ENGL": name_regions,
+                                   "NAME_DE": name_regions, "NAME_ENGL": name_en_regions,
                                    "region": True, "NUTS_CODE": nuts_regions,
                                    "risk_date": dates_regions, "INFO_DE": info_regions})
         df_regions = df_regions.sort_values("ISO3_CODE")
@@ -295,6 +307,9 @@ class RKISpider(scrapy.Spider):
 
         db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU",
                                                                     self.NO_RISK)["risk_level_code"])
+        hidden_regions = db_regions.assign(risk_level_code=self.IGNORE)
+        df_regions = pd.concat([df_regions, hidden_regions]).drop_duplicates(subset="NAME_DE")
+
         db_curated = pd.concat([db_curated,
                                 db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
                                            "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")

@@ -34,7 +34,6 @@ library(leaflet.extras)
 
 data <- readr::read_csv("../assets/data/db_scraped.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv")
-# %>%   mutate(risk_level_code = as.character(risk_level_code))
 
 
 
@@ -46,7 +45,7 @@ data_cntries <-
 
 # EN - extract regions
 regions <- data %>%
-  filter(region == TRUE) %>%
+  filter(region == TRUE & risk_level_code != 5) %>%
   mutate(since = ifelse(is.na(risk_date),
                         "", paste0(", since ",
                        format(risk_date, "%d %b %Y")))) %>%
