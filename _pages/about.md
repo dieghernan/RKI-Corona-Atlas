@@ -2,6 +2,7 @@
 title: About Corona Atlas
 subtitle: von Heimweh getrieben | driven by homesickness 
 permalink: /about
+excerpt_separator: <!--more-->
 leaflet: false
 ---
 
@@ -14,6 +15,7 @@ restrictions within the EU thanks to the vaccination
 campaign, everyone in Germany is looking forward to travelling abroad
 again safely and we follow closer than ever the current restrictions
 applying to foreign countries near and far.
+<!--more-->
 
 That is the moment we saw
 the need of a friendly and automated interface to the meticulous and ever-changing

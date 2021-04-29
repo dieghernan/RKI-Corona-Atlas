@@ -2,6 +2,7 @@
 title: Internationale COVID-19 Risikogebiete
 subtitle: ausgewiesen durch das deutsche Auswärtige Amt, BMG und BMI
 permalink: /
+excerpt_separator: <!--more-->
 always_allow_html: yes
 output: 
   md_document:
@@ -110,6 +111,8 @@ Risikoeinstufung aller Staaten der Welt
 durch das deutsche Auswärtige Amt,
 das Bundesministerium für Gesundheit
 und das Bundesministerium des Innern.
+
+<!--more-->
 
 Durch das Anklicken eines beliebigen Landes erfolgt
 die Anzeige aller zutreffenden Informationen
