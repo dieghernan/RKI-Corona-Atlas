@@ -12,7 +12,7 @@ The scraper also uses
 [**pandas**](https://pandas.pydata.org/) and
 [**pycountry**](https://pypi.org/project/pycountry/).
 
-Map visualization is created with **R** and generates a map via [{rmarkdown}](https://rmarkdown.rstudio.com/). The map is created using [{leaflet}](http://rstudio.github.io/leaflet/), [{giscoR}](https://dieghernan.github.io/giscoR/) and the of the packages included on the [tidyverse](https://www.tidyverse.org/).
+Map visualization is created with **R** and generates a map via [{rmarkdown}](https://rmarkdown.rstudio.com/). The map is created using [{leaflet}](http://rstudio.github.io/leaflet/), [{giscoR}](https://dieghernan.github.io/giscoR/) and some packages included on the [tidyverse](https://www.tidyverse.org/).
  
 The website uses [**Chulapa**](https://dieghernan.github.io/chulapa/)
 as its Jekyll theme.
