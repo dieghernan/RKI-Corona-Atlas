@@ -10,7 +10,7 @@ repository: dieghernan/RKI-Corona-Atlas
 # Default values are explained
 locale                  : de-DE
 title                   : "Corona Atlas"
-subtitle                :  "Internationale COVID-19 Risikogebiete laut RKI
+subtitle                :  "Internationale COVID-19 Risikogebiete laut RKI"
 description             :  #default [your-repository-tagline]
 
 timezone                :  Europe/Berlin
