@@ -28,43 +28,24 @@ jobs:
       - uses: actions/checkout@v2
         name: Checkout
 
-      - uses: r-lib/actions/setup-r@v1
-        name: Setup R
-
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-
-      - uses: r-lib/actions/setup-pandoc@master
-        name: Setup Pandoc
-
+            
       - uses: actions/cache@v2
-        name: Cache for Linux
-        if: startsWith(runner.os, 'Linux')
+        name: Cache Locales
         with:
-          path: ~/.local/share/renv
-          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv2-
-
+          path: /usr/lib/locale
+          key: ${{ runner.os }}-locale
+          
       - uses: actions/cache@v2
-        name: Cache for macOS
-        if: startsWith(runner.os, 'macOS')
+        name: Cache Python dependencies
         with:
-          path: ~/Library/Application Support/renv
-          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
-            ${{ runner.os }}-renv2-
-
-      - uses: actions/cache@v2
-        name: Cache for Windows
-        if: startsWith(runner.os, 'Windows')
-        with:
-          path: ~\AppData\Local\renv
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-
+            ${{ runner.os }}-pip-
 
       - name: Install Python dependencies
         run: |
@@ -74,12 +55,6 @@ jobs:
       - name: Install German locale
         run: sudo apt-get update && sudo apt-get install language-pack-de
 
-      - name: Install libdunits
-        run: sudo apt-get install libudunits2-dev
-
-      - name: Install gdal
-        run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
-
       - name: Scrap data
         run: |
           cp -R assets/data log/data
@@ -87,6 +62,31 @@ jobs:
           cat log/scrapy_report.txt
           diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
         id: scrapy
+        
+      - uses: r-lib/actions/setup-r@v1
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        name: Setup R
+        
+      - uses: r-lib/actions/setup-pandoc@master
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        name: Setup Pandoc
+        
+      - uses: actions/cache@v2
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        name: Cache R dependencies
+        with:
+          path: ~/.local/share/renv
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv2-
+            
+      - name: Install libdunits
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        run: sudo apt-get install libudunits2-dev
+
+      - name: Install gdal
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
 
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
@@ -104,6 +104,7 @@ jobs:
           attachments: log/scrapy_report.txt,assets/data/db_scraped.csv
 
       - name: Restore R packages
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
