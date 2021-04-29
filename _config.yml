@@ -16,11 +16,11 @@ description             :  #default [your-repository-tagline]
 timezone                :  Europe/Berlin
 
 # SEO
-og_image                :     ./assets/img/corona-atlas-icon.png
-twitter_site            : rodrihgh  
+og_image                :     ./assets/img/og_corona_atlas.png
+twitter_site            : rodrihgh
 author:
   name                  :  "Diego & Rodrigo"
-  location              :  "Berlin, Germany"  
+  location              :  "Berlin, Germany"
 
 gtag_id                 : "G-N81B7N0WSC"
 
@@ -83,7 +83,7 @@ defaults:
       header_type: "base"
       include_on_search   : false
       show_sociallinks  : true
-      og_image: ./assets/img/corona-atlas-og.jpeg
+
 
 # XX. Other settings - no need to modify
 # HTML Compression
