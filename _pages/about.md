@@ -2,6 +2,7 @@
 title: About Corona Atlas
 subtitle: von Heimweh getrieben | driven by homesickness 
 permalink: /about
+leaflet: false
 ---
 
 April 2021. More than one year has passed since

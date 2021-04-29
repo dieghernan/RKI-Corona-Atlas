@@ -2,6 +2,7 @@
 title: "Corona Atlas Labs"
 subtitle: "Heatmap"
 permalink: /labs/heatmap
+labs: true
 always_allow_html: yes
 output: 
   md_document:
