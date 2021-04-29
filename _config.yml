@@ -83,6 +83,7 @@ defaults:
       header_type: "base"
       include_on_search   : false
       show_sociallinks  : true
+      og_image: ./assets/img/corona-atlas-og.jpeg
 
 # XX. Other settings - no need to modify
 # HTML Compression
