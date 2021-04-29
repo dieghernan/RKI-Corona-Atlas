@@ -86,15 +86,23 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         if: steps.scrapy.outputs.DATABASE == 'NEW'
         with:
-          server_address: smtp.gmail.com
+#           server_address: smtp.gmail.com
+#           username: ${{secrets.MAIL_RH}}
+#           password: ${{secrets.MAIL_PW}}
+          server_address: smtp.ionos.de
           server_port: 465
-          username: ${{secrets.MAIL_RH}}
-          password: ${{secrets.MAIL_PW}}
+          username: ${{secrets.MAIL_CA}}
+          password: ${{secrets.MAIL_PW}} 
           subject: RKI-Corona-Atlas new data
           to: ${{secrets.MAIL_DH}},${{secrets.MAIL_RH}}
           from: GitHub Actions
-          body: The database of the repository RKI-Corona-Atlas has been updated with the newest data from the RKI. More details in the attachment.
+          body: |
+            The database of [Corona Atlas](https://corona-atlas.de)
+            has been updated with the newest data from <https://rki.de/risikogebiete>.
+            
+            More details in the attachment.
           ignore_cert: true
+          convert_markdown: true
           attachments: log/scrapy_report.txt,assets/data/db_scraped.csv
 
       - name: Restore R packages
