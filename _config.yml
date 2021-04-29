@@ -10,34 +10,22 @@ repository: dieghernan/RKI-Corona-Atlas
 # Default values are explained
 locale                  : de-DE
 title                   : "Corona Atlas"
-title_separator         :     #default [" | "]
-subtitle                :     #default [your-repository-tagline]
+subtitle                :  "Internationale COVID-19 Risikogebiete - ausgewiesen durch das deutsche Auswärtige Amt, BMG und BMI"
 description             :  #default [your-repository-tagline]
 
 timezone                :  Europe/Berlin
 
 # SEO
 og_image                :     ./assets/img/corona-atlas-icon.png
-twitter_site            : rodrihgh  #Avoid @
+twitter_site            : rodrihgh  
 author:
   name                  :  "Diego & Rodrigo"
-  avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Berlin, Germany"   # New York, USA
-#  links:
-#    - url:  #A link or email: https://twitter.com/jack, mail@example.com
-#      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
-#    - url:  # Another link
-#      icon: # Anothet FontAwesome code
+  location              :  "Berlin, Germany"  
 
 gtag_id                 :
 
 
 # B. Navigation
-# Configure your navbar and the footer of your site
-
-# Navbar:
-#   "brand" options would be set on the left side of your navbar
-#   "nav" would be set on the right side. Two-level nav links available
 navbar:
   brand:
     title   :  Corona Atlas # Title in navbar
@@ -55,7 +43,6 @@ navbar:
 
 
 # C. Theme Settings
-# Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
  - url : https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap
 
@@ -81,12 +68,6 @@ chulapa-skin:
     h6-font-size: 1rem
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
-
-
-
-
-
-# Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
   -
     scope:
