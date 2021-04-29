@@ -4,7 +4,10 @@ on: workflow_dispatch
 
 jobs:
   update-page:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
+    env:
+      RSPM: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"
+
     steps:
       - uses: actions/checkout@v2
         name: Checkout
@@ -41,6 +44,14 @@ jobs:
           key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
+            
+      - name: Install libdunits
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        run: sudo apt-get install libudunits2-dev
+
+      - name: Install gdal
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
 
       - name: Restore packages
         shell: Rscript {0}
