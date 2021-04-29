@@ -1,15 +1,15 @@
 ---
-title: "International COVID-19 risk areas"
-subtitle: "as designated by the German government"
-permalink: /en
+title: Internationale COVID-19 Risikogebiete
+subtitle: ausgewiesen durch das deutsche Auswärtige Amt, BMG und BMI
+permalink: /
 always_allow_html: yes
 output: 
-  md_document:
-    preserve_yaml: true
+  html_document:
+    self_contained: false
 ---
 
 
-<!-- Modify _R/index_en.Rmd file instead -->
+<!-- Modify _R/index.Rmd file instead -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
@@ -34,84 +34,31 @@ library(leaflet.extras)
 
 data <- readr::read_csv("../assets/data/db_scraped.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv")
-# %>%   mutate(risk_level_code = as.character(risk_level_code))
+# %>% mutate(risk_level_code = as.character(risk_level_code))
 
-
-
-data_cntries <-
-  data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
+data_cntries <- data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   filter(is.na(region)) %>%
-  left_join(rl) %>%
-  select(ISO3_CODE, NAME_ENGL, risk_date, risk_level_code, risk_level_en)
+  left_join(rl)
 
-# EN - extract regions
-regions <- data %>%
-  filter(region == TRUE) %>%
-  mutate(since = ifelse(is.na(risk_date),
-                        "", paste0(", since ",
-                       format(risk_date, "%d %b %Y")))) %>%
-  group_by(ISO3_CODE) %>%
-  mutate(regs = paste0("<li>", NAME_ENGL, since, "</li>", collapse = "")) %>%
-  select(ISO3_CODE, regs) %>%
-  distinct_all() %>%
-  mutate(regs = paste0("<ul>", regs, "</ul>",
-                       "More details in German or at ",
-                       "<a href='https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html'>",
-                       "rki.de</a>."))
-
-# Add info
-
-data_cntries <- data_cntries %>% left_join(regions)
-data_cntries$more_info <- ifelse(is.na(data_cntries$risk_date),
-                                 NA,
-                                 paste0("Since ",
-                                        format(data_cntries$risk_date, "%d %b %Y"),
-                                        "."))
-
-data_cntries$more_info <- ifelse(
-  is.na(data_cntries$regs),
-  data_cntries$more_info,
-  paste0(
-    data_cntries$more_info,
-    " A different risk level may apply for the following regions: ",
-    data_cntries$regs
-  )
-  
-)
-
-data_cntries$risk_date <-
-  as.character(format(data_cntries$risk_date, format = "%d/%m/%Y"))
-
+data_cntries$risk_date <- as.character(format(data_cntries$risk_date, format="%d.%m.%Y"))
 data_cntries$html_labels <- sprintf("<strong>%s</strong>",
-                                    data_cntries$NAME_ENGL,
-                                    data_cntries$risk_level_en)
-data_cntries$html_labels <- ifelse(
-  data_cntries$ISO3_CODE != "DEU",
-  paste0(
-    data_cntries$html_labels,
-    "<br />",
-    data_cntries$risk_level_en
-  ),
-  data_cntries$html_labels
-)
+                                    data_cntries$NAME_DE,
+                                    data_cntries$risk_level_de)
+data_cntries$html_labels <- ifelse(data_cntries$ISO3_CODE != "DEU",
+                                   paste0(data_cntries$html_labels,"<br />",data_cntries$risk_level_de),
+                                   data_cntries$html_labels
+                                   )
 #data_cntries$html_labels <- ifelse(!is.na(data_cntries$risk_date),
 #                                   paste0(data_cntries$html_labels," seit ",data_cntries$risk_date),
 #                                   data_cntries$html_labels
 #                                   )
 
-data_cntries$html_labels <- ifelse(
-  !is.na(data_cntries$more_info),
-  paste0(
-    data_cntries$html_labels,
-    "<p class='infomap'><strong>More information</strong><br />",
-    data_cntries$more_info,
-    "</p>"
-  ),
-  data_cntries$html_labels
-)
+data_cntries$html_labels <- ifelse(!is.na(data_cntries$INFO_DE),
+                                   paste0(data_cntries$html_labels,"<p class='infomap'><strong>Mehr Info</strong><br />",data_cntries$INFO_DE,"</p>"),
+                                   data_cntries$html_labels
+                                   )
 
-data_cntries$html_labels <- data_cntries$html_labels %>% 
-  lapply(htmltools::HTML)
+data_cntries$html_labels <- data_cntries$html_labels %>% lapply(htmltools::HTML)
 
 date <- read.csv("../assets/data/report_date.csv") %>%
   select(report_date) %>% as.character() %>% 
@@ -130,7 +77,7 @@ cntries_shape <-
 K <- st_read("./geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
 
 cntries_shape_reg <-
-  st_difference(cntries_shape, st_union(K))
+    st_difference(cntries_shape, st_union(K))
 
 cntries_shape_reg <- bind_rows(cntries_shape_reg, K)
 
@@ -152,25 +99,30 @@ level3 <- all_shapes %>% filter(risk_level_code == 3)
 level4 <- all_shapes %>% filter(risk_level_code == 4)
 ```
 
-<p class="text-right font-weight-bold">Updated on `r format(date, format="%d %B %Y")`</p>
 
-## Risk map
+<p class="text-right font-weight-bold">Stand: `r format(date, format="%d.%m.%Y")`</p>
 
-The interactive map allows you to explore
-Germany's current risk designation worldwide.
-Click in a specific country to read more details
-about that country and its regions
-regarding traveling to Germany.
+
+## Risikokarte
+
+Die folgende interaktive Weltkarte präsentiert die aktuelle
+Risikoeinstufung aller Staaten der Welt
+durch das deutsche Auswärtige Amt,
+das Bundesministerium für Gesundheit
+und das Bundesministerium des Innern, für Bau und Heimat.
+
+Durch das Anklicken eines beliebigen Landes erfolgt
+die Anzeige aller zutreffenden Informationen
+und ggfs. regionaler Ausnahmen.
 
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
-labs <- rl$risk_level_en
-
+labs <- rl$risk_level_de
 labs <- labs[c(2:5, 1)]
 
-map <- leaflet(options = leafletOptions(minZoom = 1),
-  elementId = "leaflet") %>%
-  setMaxBounds(-180,-90, 180, 90) %>%
+map <- leaflet(options = leafletOptions(minZoom = 1.5),
+  elementId= "leaflet") %>%
+  setMaxBounds(-180,-80, 180, 80) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
   addProviderTiles("Stamen.TerrainBackground", group = "Stamen Terrain") %>%
   addTiles(urlTemplate = "", 
@@ -292,38 +244,42 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
   htmlwidgets::onRender(
     "
         function() {
-            $('.leaflet-control-layers-overlays').prepend('<strong>Risk level</strong>');
+            $('.leaflet-control-layers-overlays').prepend('<strong>Risikoeinstufung</strong>');
         }
     "
   ) %>%
   addSearchOSM()
 map
-
-
 ```
 
-All information is directly fetched from the Robert Koch Institut and supplied without guarantee.
-For a complete up-to-date overview on all international risk areas and the travel restrictions that apply to them
-based on their risk designation,
-visit the [website of the RKI](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html).
+Alle Angaben ohne Gewähr automatisch vom Robert Koch Institut abgerufen.
+Für einen aktuellen vollständigen Überblick aller internationalen Risikogebiete
+und der geltenden Reisebeschränkungen jeder Risikostufe
+empfiehlt sich
+ein Besuch der [RKI-Webseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html).
 
-## Database
+## Datenbank
 
-You can also browse the countries directly on the database.
+Alternativerweise kann man auch die Risikoeinstufung
+und die dazugehörigen Informationen
+jedes Landes
+direkt auf der Datenbank nachschlagen.
 
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
 
 
 df <- st_drop_geometry(all_shapes)  %>%
-  select(NAME_ENGL, risk_level_en, more_info)
+  select(NAME_DE, risk_level_de, INFO_DE)
 
-names(df) <- c("Country/Region", "Risk level", "Details")
+
+
+
+names(df) <- c("Land/Region", "Risikoeinstufung", "Details")
 
 df <- df[order(df[, 1]), ]
 
-
-readr::write_delim(df, "../assets/dist/db_countries_risk_en.csv",
+readr::write_delim(df, "../assets/dist/db_countries_risk_de.csv",
                   delim = ";",
                   na = "")
 
@@ -344,6 +300,9 @@ reactable(
 
 ```
 
+
 <p class="text-center my-5">
-  <a href="assets/dist/db_countries_risk_en.csv" class="btn btn-primary">Download database (CSV)</a>
+  <a href="assets/dist/db_countries_risk_de.csv" class="btn btn-primary">Datenbank herunterladen (CSV-Datei)</a>
 </p>
+
+
