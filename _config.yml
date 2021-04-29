@@ -38,9 +38,15 @@ navbar:
     url     : /en # url
   - title   : About # Label
     url     : /about # url
-  - title   : <i class="fab fa-github" aria-hidden="true"></i>
-    url     : https://github.com/dieghernan/RKI-Corona-Atlas
 
+footer:
+  links:
+    - label: "E-Mail"
+      icon: "far fa-envelope"
+      url:  "mailto:info@corona-atlas.de"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url:  "https://github.com/dieghernan/RKI-Corona-Atlas"
 
 # C. Theme Settings
 googlefonts:

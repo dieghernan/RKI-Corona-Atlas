@@ -1,6 +1,9 @@
 # Corona Atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
 
-<https://corona-atlas.de/>
+
+<http://corona-atlas.de/>
+<info@corona-atlas.de>
+
 
 Interactive map of the international COVID-19 risk areas as designated by the German authorities.
 
