@@ -109,7 +109,7 @@ Die folgende interaktive Weltkarte präsentiert die aktuelle
 Risikoeinstufung aller Staaten der Welt
 durch das deutsche Auswärtige Amt,
 das Bundesministerium für Gesundheit
-und das Bundesministerium des Innern, für Bau und Heimat.
+und das Bundesministerium des Innern.
 
 Durch das Anklicken eines beliebigen Landes erfolgt
 die Anzeige aller zutreffenden Informationen
@@ -252,18 +252,18 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
 map
 ```
 
-Alle Angaben ohne Gewähr automatisch vom Robert Koch Institut abgerufen.
-Für einen aktuellen vollständigen Überblick aller internationalen Risikogebiete
+Alle Angaben sind ohne Gewähr und werden automatisch vom Robert Koch Institut mehrmals täglich abgerufen.
+Einen aktuellen vollständigen Überblick aller internationalen Risikogebiete
 und der geltenden Reisebeschränkungen jeder Risikostufe
-empfiehlt sich
-ein Besuch der [RKI-Webseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html).
+kann man auf der Webseite des
+[RKI](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html)
+finden.
 
 ## Datenbank
 
-Alternativerweise kann man auch die Risikoeinstufung
+Alternativ können auch alle Risikogebiete
 und die dazugehörigen Informationen
-jedes Landes
-direkt auf der Datenbank nachschlagen.
+direkt in der Datenbank nachgeschlagen werden.
 
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
