@@ -43,13 +43,22 @@ class RKISpider(scrapy.Spider):
     h2_xpath = "//div[contains(@class, 'text')]/h2"
     li_xpath = "//following-sibling::ul[1]/li"
 
-    risk_levels = ({'code': 4, 're': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': 3, 're': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': 2, 're': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': 1, 're': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
-    risk_priority = (3, 2, 1, 4)    # Used to resolve duplicates
+    regex_exclude = r'ausgenommen'
 
-    separators = ("(", "inkl", "–")
+    NO_MATCH = -1
+    NO_RISK = 0
+    VARIANT = 1
+    HI_INC = 2
+    RISK = 3
+    PARTIAL = 4
+
+    risk_levels = ({'code': NO_RISK, 're': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': RISK, 're': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': HI_INC, 're': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': VARIANT, 're': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
+    risk_priority = (RISK, HI_INC, VARIANT, NO_RISK)    # Used to resolve duplicates
+
+    separators = ("(", "inkl", "–", "-")
     deletable = ("(", ")", ":", "–")
 
     @classmethod
@@ -140,6 +149,7 @@ class RKISpider(scrapy.Spider):
         info_err = []
         dates_err = []
         risk_err = []
+        exc_err = []
 
         db_old = pd.read_csv(db_path)
         db_old = db_old[db_old["ISO3_CODE"] != "ERROR"]
@@ -154,7 +164,7 @@ class RKISpider(scrapy.Spider):
         iso3_de_lut = iso3_names.set_index("NAME_DE")["ISO3_CODE"].to_dict()
 
         risk_headers = response.xpath(f"{self.h2_xpath}/text()")
-        df_collector = {1: None, 2: None, 3: None, 4: None}
+        df_collector = {self.NO_RISK: None, self.RISK: None, self.HI_INC: None, self.VARIANT: None}
 
         name_regions = []
         info_regions = []
@@ -165,7 +175,7 @@ class RKISpider(scrapy.Spider):
 
         for i_h, h in enumerate(risk_headers, 1):
             h_text = h.get()
-            code = -1
+            code = self.NO_MATCH
             for rl in self.risk_levels:
                 if re.search(rl['re'], h_text, re.I):
                     code = rl['code']
@@ -173,8 +183,8 @@ class RKISpider(scrapy.Spider):
             print(f"The following header has been assigned to risk_level_code {code}:")
             print(f"\t{h_text}\n")
 
-            if code >= 0:
-                date_ppt = "bis" if code == 4 else "seit"
+            if code != self.NO_MATCH:
+                date_ppt = "bis" if code == self.NO_RISK else "seit"
 
                 states = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}")
 
@@ -183,12 +193,20 @@ class RKISpider(scrapy.Spider):
                 name_states = []
                 info_states = []
                 iso3_states = []
+                risk_states = []
+                exc_states = []
 
                 for i_s, s in enumerate(states, 1):
                     iso3_found = None
                     regions = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}[{i_s}]/ul/li/text()")
                     msg = s.get()[4:-5]     # Remove <li></li>
                     msg = msg.replace("<p>", "").replace("</p>", "")
+
+                    reg_excluded = None
+                    country_code = code
+                    if code == self.RISK and len(regions) > 0:
+                        country_code = self.PARTIAL
+                        reg_excluded = bool(re.search(self.regex_exclude, msg, re.I))
 
                     name_scraped, info_scraped = self.strip_country(msg)
                     if name_scraped in iso3_de_lut.keys():      # Direct search from old DB
@@ -210,7 +228,7 @@ class RKISpider(scrapy.Spider):
                         region = db_regions[db_regions["NAME_DE"] == name_scraped]
                         if not region.empty:
                             name_regions.append(name_scraped)
-                            risk_regions.append(code)
+                            risk_regions.append(country_code)
                             info_regions.append(info_scraped)
                             dates_regions.append(self.extract_date(info_scraped, preposition=date_ppt))
                             iso3_regions.append(region["ISO3_CODE"].iat[0])
@@ -221,32 +239,36 @@ class RKISpider(scrapy.Spider):
                         info_states.append(info_scraped)
                         risk_dates.append(self.extract_date(info_scraped, preposition=date_ppt))
                         iso3_states.append(iso3_found)
+                        risk_states.append(country_code)
+                        exc_states.append(reg_excluded)
                     else:
                         print(f"Unidentified state: {name_scraped}")
-                        print(f"Risk level code:\n\t{code}")
+                        print(f"Risk level code:\n\t{country_code}")
                         print(f"Info:\n\t{msg}\n")
 
                         name_err.append(name_scraped)
                         info_err.append(msg)
                         dates_err.append(self.extract_date(msg, preposition=date_ppt))
-                        risk_err.append(code)
+                        risk_err.append(country_code)
+                        exc_err.append(reg_excluded)
                     country_regs = reg_df[reg_df["ISO3_CODE"] == iso3_found]
+                    reg_code = self.NO_RISK if reg_excluded else code
                     for r in regions:
                         name_sr, info_sr = self.strip_country(r.get())
                         nuts = country_regs[country_regs["NAME_DE"] == name_sr]["NUTS_CODE"]
                         nuts = None if nuts.empty else nuts.iloc[0]
 
                         name_regions.append(name_sr)
-                        risk_regions.append(code)
+                        risk_regions.append(reg_code)
                         info_regions.append(info_sr)
                         dates_regions.append(self.extract_date(info_sr, preposition=date_ppt))
                         iso3_regions.append(iso3_found)
                         nuts_regions.append(nuts)
 
-                df = pd.DataFrame({"ISO3_CODE": iso3_states, "risk_level_code": code, "NAME_DE": name_states,
+                df = pd.DataFrame({"ISO3_CODE": iso3_states, "risk_level_code": risk_states, "NAME_DE": name_states,
                                    "NAME_ENGL": [iso3_en[i3r] for i3r in iso3_states],
-                                   "risk_date": risk_dates, "region": None, "NUTS_CODE": None,
-                                   "INFO_DE": info_states})
+                                   "risk_date": risk_dates, "region": None, "REG_EXCLUDED": exc_states,
+                                   "NUTS_CODE": None, "INFO_DE": info_states})
                 df_collector[code] = df
 
         db_new = pd.concat([df_collector[i] for i in self.risk_priority])
@@ -258,7 +280,8 @@ class RKISpider(scrapy.Spider):
                                    "risk_date": dates_regions, "INFO_DE": info_regions})
         df_regions = df_regions.sort_values("ISO3_CODE")
 
-        df_unknown = pd.DataFrame({"NAME_DE": name_err, "risk_level_code": risk_err, "INFO_DE": info_err})
+        df_unknown = pd.DataFrame({"NAME_DE": name_err, "risk_level_code": risk_err, "INFO_DE": info_err,
+                                   "risk_date": dates_err, "REG_EXCLUDED": exc_err})
         df_unknown = df_unknown.assign(ISO3_CODE="ERROR", ERROR="UNKNOWN_AREA")
 
         df_duplicated = pd.concat([db_curated, db_new]).drop_duplicates(keep=False)
@@ -270,7 +293,8 @@ class RKISpider(scrapy.Spider):
         print(f"\t- {len(df_duplicated)} states are duplicated")
         print(f"\t- {len(df_unknown)} states could not be identified")
 
-        db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU", 0)["risk_level_code"])
+        db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU",
+                                                                    self.NO_RISK)["risk_level_code"])
         db_curated = pd.concat([db_curated,
                                 db_norisk[["ISO3_CODE", "NAME_ENGL", "NAME_DE",
                                            "risk_level_code"]]]).drop_duplicates(subset="ISO3_CODE")

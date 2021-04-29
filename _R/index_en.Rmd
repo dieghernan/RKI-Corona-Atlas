@@ -71,12 +71,15 @@ data_cntries$more_info <- ifelse(is.na(data_cntries$risk_date),
 data_cntries$more_info <- ifelse(
   is.na(data_cntries$regs),
   data_cntries$more_info,
-  paste0(
-    data_cntries$more_info,
-    " A different risk level may apply for the following regions: ",
-    data_cntries$regs
-  )
-  
+  ifelse(data_cntries$REG_EXCLUDED,
+        paste0(
+            data_cntries$more_info,
+            " The following regions are excluded: ",
+            data_cntries$regs),
+        paste0(
+            data_cntries$more_info,
+            "The risk designation applies for the following regions: ",
+            data_cntries$regs))
 )
 
 data_cntries$risk_date <-
