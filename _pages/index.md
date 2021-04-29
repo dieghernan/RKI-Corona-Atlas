@@ -30,9 +30,8 @@ zutreffenden Informationen und ggfs. regionaler Ausnahmen.
 Alle Angaben sind ohne Gewähr und werden automatisch vom Robert Koch
 Institut mehrmals täglich abgerufen. Einen aktuellen vollständigen
 Überblick aller internationalen Risikogebiete und der geltenden
-Reisebeschränkungen jeder Risikostufe kann man auf der Webseite des
-[RKI](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html)
-finden.
+Reisebeschränkungen jeder Risikostufe kann man auf
+[rki.de/risikogebiete](https://rki.de/risikogebiete) finden.
 
 Datenbank
 ---------
