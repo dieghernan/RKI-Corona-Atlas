@@ -2,7 +2,16 @@
 title: About Corona Atlas
 subtitle: von Heimweh getrieben | driven by homesickness 
 permalink: /about
-excerpt_separator: <!--more-->
+excerpt: |
+  April 2021. More than one year has passed since
+  this Corona nightmare put all our lives upside down
+  and things are only slowly changing
+  for the better in Europe.
+  Hopefully on the verge of a turning point for travel
+  restrictions within the EU thanks to the vaccination
+  campaign, everyone in Germany is looking forward to travelling abroad
+  again safely and we follow closer than ever the current restrictions
+  applying to foreign countries near and far.
 leaflet: false
 ---
 
@@ -15,7 +24,6 @@ restrictions within the EU thanks to the vaccination
 campaign, everyone in Germany is looking forward to travelling abroad
 again safely and we follow closer than ever the current restrictions
 applying to foreign countries near and far.
-<!--more-->
 
 That is the moment we saw
 the need of a friendly and automated interface to the meticulous and ever-changing
