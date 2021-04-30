@@ -46,6 +46,8 @@
 	margin-top:6px;
 	margin-bottom:3px;
 	margin-left:3px;
+	margin-right:7px;
+	min-width: 15vw;
 }
 
 .leaflet-control-search.search-load .search-input {
@@ -61,7 +63,7 @@
 	width: 22px;
 	height: 18px;
 	position: absolute;
-	right: 22px;
+	right: 30px;
 	margin-top: 8px;
 	text-decoration: none;
 	filter: alpha(opacity=80);
