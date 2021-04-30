@@ -8,7 +8,7 @@
 "Argentina","High incidence area","Since 18 Apr 2021."
 "Armenia","High incidence area","Since 11 Apr 2021."
 "Australia","Not risk area",
-"Austria","Risk area","Since 01 Nov 2020."
+"Austria","Risk area (partially)","Since 01 Nov 2020. The following regions are excluded: Jungholz; Mittelberg"
 "Azerbaijan","Risk area","Since 15 Jun 2020."
 "Bahamas","Risk area","Since 25 Apr 2021."
 "Bahrain","High incidence area","Since 14 Feb 2021."
@@ -45,7 +45,7 @@
 "Cyprus","High incidence area","Since 21 Mar 2021."
 "Czechia","Risk area","Since 02 May 2021."
 "Democratic Republic of The Congo","Risk area","Since 15 Jun 2020."
-"Denmark","Risk area","Since 28 Mar 2021."
+"Denmark","Risk area (partially)","Since 28 Mar 2021. The following regions are excluded: Faroes; Greenland"
 "Djibouti","Risk area","Since 15 Jun 2020."
 "Dominica","Not risk area",
 "Dominican Republic","Not risk area","Since 24 Apr 2021."
@@ -131,7 +131,7 @@
 "Niue","Not risk area",
 "North Korea","Risk area","Since 15 Jun 2020."
 "North Macedonia","High incidence area","Since 24 Jan 2021."
-"Norway","Risk area (partially)","Since 08 Nov 2020.The risk designation applies for the following regions: Oslo, since 08 Nov 2020; Agder, since 02 May 2021; Viken, since 15 Nov 2020; Rogaland, since 28 Mar 2021"
+"Norway","Risk area (partially)","Since 08 Nov 2020.The risk designation applies for the following regions: Agder, since 02 May 2021; Viken, since 15 Nov 2020; Oslo, since 08 Nov 2020; Rogaland, since 28 Mar 2021"
 "Oman","High incidence area","Since 25 Apr 2021."
 "Pakistan","Risk area","Since 15 Jun 2020."
 "Palau","Not risk area",
@@ -186,7 +186,7 @@
 "Uganda","Not risk area",
 "Ukraine","High incidence area","Since 11 Apr 2021."
 "United Arab Emirates","Risk area","Since 18 Apr 2021."
-"United Kingdom","Risk area (partially)","Since 21 Mar 2021.The risk designation applies for the following regions: Bermuda, since 21 Mar 2021; Falkland Islands (Malvines), since 21 Mar 2021"
+"United Kingdom","Risk area (partially)","Since 21 Mar 2021.The risk designation applies for the following regions: Falkland Islands (Malvines), since 21 Mar 2021; Bermuda, since 21 Mar 2021"
 "United Republic of Tanzania","High incidence area","Since 14 Mar 2021."
 "United States","Risk area","Since 07 Mar 2021."
 "Uruguay","High incidence area","Since 21 Mar 2021."
