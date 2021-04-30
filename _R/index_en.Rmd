@@ -3,7 +3,6 @@ title: "International COVID-19 risk areas"
 subtitle: "as designated by the German government"
 permalink: /en
 header_type: hero
-header_img : ./assets/img/og_corona_atlas.png
 excerpt: |
   The interactive map allows you to explore
   Germany's current risk designation worldwide.
