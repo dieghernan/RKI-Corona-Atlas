@@ -340,7 +340,13 @@ df <- df[order(df[, 1]), ]
 df$Details <- gsub("</li><li>", "; ", df$Details)
 df$Details <- gsub("<.*?>", "", df$Details)
 
-write.csv(df, "../assets/dist/db_countries_risk_en.csv", quote = TRUE, row.names = FALSE)
+write.csv(
+  df,
+  "../assets/dist/db_countries_risk_en.csv",
+  quote = TRUE,
+  row.names = FALSE,
+  na = ""
+)
 
 
 reactable(
