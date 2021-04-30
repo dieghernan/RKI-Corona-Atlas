@@ -74,15 +74,15 @@ og_map <-
   tm_shape(DEU) +
   tm_fill(col = "blue", alpha = .5) +
   tm_shape(level0) +
-  tm_fill(col = "green", alpha = .5) +
+  tm_fill(col = "#00FF00", alpha = .5) +
   tm_shape(level1) +
   tm_fill(col = "red", alpha = .5) +
   tm_shape(level2) +
-  tm_fill(col = "orange", alpha = .5) +
+  tm_fill(col = "chocolate", alpha = .5) +
   tm_shape(level3) +
-  tm_fill(col = "yellow", alpha = .5) +
+  tm_fill(col = "orange", alpha = .5) +
   tm_shape(level4) +
-  tm_fill(col = "#00FF00", alpha = .5) +
+  tm_fill(col = "yellow", alpha = .5) +
   tm_layout(outer.margins = FALSE, frame = FALSE)
 
 tmap_save(og_map, "assets/img/og_corona_atlas.png", dpi = 90)
