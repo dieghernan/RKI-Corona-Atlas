@@ -3,7 +3,6 @@ title: Internationale COVID-19 Risikogebiete
 subtitle: ausgewiesen durch das deutsche Auswärtige Amt, BMG und BMI
 permalink: /
 header_type: hero
-header_img : ./assets/img/og_corona_atlas.png
 excerpt: |
   Die folgende interaktive Weltkarte präsentiert die aktuelle
   Risikoeinstufung aller Staaten der Welt
