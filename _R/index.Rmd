@@ -279,8 +279,6 @@ direkt in der Datenbank nachgeschlagen werden.
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
 
-Sys.setlocale(locale = "de_DE.UTF-8")
-
 
 df <- st_drop_geometry(all_shapes)  %>%
   select(NAME_DE, risk_level_de, INFO_DE)
