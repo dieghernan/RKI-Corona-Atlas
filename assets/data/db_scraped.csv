@@ -232,7 +232,7 @@ NOR,3,Rogaland,Rogaland,2021-03-28,True,,NO0A1,seit 28. März 2021,
 PRT,3,Madeira,Madeira,2021-03-14,True,,PT3,(autonome Region) (seit 14. März 2021; Virusvarianten-Gebiet 27. Januar 2021 – 13. März 2021),
 PRT,3,Azoren,Azores,2021-04-18,True,,,(autonome Region) (seit 18. April 2021),
 PRT,3,Algarve,Algarve,2021-04-18,True,,PT15,seit 18. April 2021,
-ESP,0,Madrid,Madrid,,True,,ES30,,
+ESP,5,Madrid,Madrid,,True,,ES30,,
 ERROR,1,Frankreich,France,2021-03-02,,,,das Département Moselle (Virusvarianten-Gebiet seit 2. März 2021; bereits seit 9. Januar 2021 Risikogebiet),DUPLICATED
 ERROR,0,Finnland,Finland,2021-04-17,,,,(Risikogebiet bis einschl. 17. April 2021) sowie Etelä-Karjala und Kymenlaakso (Risikogebiete bis einschl. 24. April 2021),DUPLICATED
 ERROR,0,Irland,Ireland,2021-04-17,,,,und South-East (Risikogebiete bis einschl. 17. April 2021) sowie West (Risikogebiet bis einschl. 24. April 2021),DUPLICATED
