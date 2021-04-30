@@ -2,7 +2,12 @@
 title: "International COVID-19 risk areas"
 subtitle: "as designated by the German government"
 permalink: /en
-excerpt_separator: <!--more-->
+excerpt: |
+  The interactive map allows you to explore
+  Germany's current risk designation worldwide.
+  Click in a specific country to read more details
+  about that country and its regions
+  regarding traveling to Germany.
 always_allow_html: yes
 output: 
   md_document:
@@ -162,7 +167,7 @@ Click in a specific country to read more details
 about that country and its regions
 regarding traveling to Germany.
 
-<!--more-->
+
 
 
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
