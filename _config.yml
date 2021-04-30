@@ -27,7 +27,6 @@ gtag_id                 : "G-N81B7N0WSC"
 
 # B. Navigation
 navbar:
-  style: dual
   brand:
     title   :  Corona Atlas # Title in navbar
     url     :  # default["url/baseurl"]
