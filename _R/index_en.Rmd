@@ -340,9 +340,8 @@ readr::write_delim(df, "../assets/dist/db_countries_risk_en.csv",
                   na = "")
 
 # Strip HTML on Details
-df$Details <- gsub("</li>", "; ", df$Details)
+df$Details <- gsub("</li><li>", "; ", df$Details)
 df$Details <- gsub("<.*?>", "", df$Details)
-# df$Details <- gsub(",", ";", df$Details)
 
 reactable(
   df,
