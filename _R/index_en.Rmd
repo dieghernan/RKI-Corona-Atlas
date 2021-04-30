@@ -330,18 +330,18 @@ You can also browse the countries directly on the database.
 df <- st_drop_geometry(all_shapes)  %>%
   select(NAME_ENGL, risk_level_en, more_info)
 
+df[,3] <- gsub("\r?\n|\r", " ", df[,3])
+
 names(df) <- c("Country/Region", "Risk level", "Details")
 
 df <- df[order(df[, 1]), ]
 
-
-readr::write_delim(df, "../assets/dist/db_countries_risk_en.csv",
-                  delim = ";",
-                  na = "")
-
 # Strip HTML on Details
 df$Details <- gsub("</li><li>", "; ", df$Details)
 df$Details <- gsub("<.*?>", "", df$Details)
+
+write.csv(df, "../assets/dist/db_countries_risk_en.csv", quote = TRUE, row.names = FALSE)
+
 
 reactable(
   df,

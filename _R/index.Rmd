@@ -279,24 +279,24 @@ direkt in der Datenbank nachgeschlagen werden.
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
 ```{r table , echo=FALSE}
 
+#Sys.setlocale(locale = "de_DE.UTF-8")
 
 df <- st_drop_geometry(all_shapes)  %>%
   select(NAME_DE, risk_level_de, INFO_DE)
 
-
+df[,3] <- gsub("\r?\n|\r", " ", df[,3])
 
 
 names(df) <- c("Land/Region", "Risikoeinstufung", "Details")
 
 df <- df[order(df[, 1]), ]
 
-readr::write_delim(df, "../assets/dist/db_countries_risk_de.csv",
-                  delim = ";",
-                  na = "")
-
 # Strip HTML on Details
 df$Details <- gsub("</li><li>", "; ", df$Details)
 df$Details <- gsub("<.*?>", "", df$Details)
+
+write.csv(df, "../assets/dist/db_countries_risk_de.csv", quote = TRUE, row.names = FALSE)
+
 
 reactable(
   df,
