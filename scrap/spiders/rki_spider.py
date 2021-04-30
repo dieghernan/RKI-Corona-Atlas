@@ -9,7 +9,10 @@ import gettext
 import scrapy
 import pandas as pd
 
-locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
+try:
+    locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
+except locale.Error:
+    locale.setlocale(locale.LC_TIME, "German")
 
 data_dir = Path("assets/data")
 db_path = data_dir/"db_scraped.csv"
@@ -53,6 +56,7 @@ class RKISpider(scrapy.Spider):
     PARTIAL = 4
     IGNORE = 5
 
+    risk_labels = pd.read_csv(data_dir/"risk_level_code.csv", index_col="risk_level_code")["risk_level_en"]
     risk_levels = ({'code': NO_RISK, 're': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
                    {'code': RISK, 're': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
                    {'code': HI_INC, 're': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
@@ -181,10 +185,10 @@ class RKISpider(scrapy.Spider):
                 if re.search(rl['re'], h_text, re.I):
                     code = rl['code']
                     break
-            print(f"The following header has been assigned to risk_level_code {code}:")
-            print(f"\t{h_text}\n")
 
             if code != self.NO_MATCH:
+                print(f"The following header has been assigned risk level '{self.risk_labels[code]}':")
+                print(f"\t{h_text}\n")
                 date_ppt = "bis" if code == self.NO_RISK else "seit"
 
                 states = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}")
@@ -226,14 +230,15 @@ class RKISpider(scrapy.Spider):
                                 iso3_found = iso3
                                 break
                     if not iso3_found:                          # Last check among the regions
-                        region = db_regions[db_regions["NAME_DE"] == name_scraped]
+                        region = db_regions.query("NAME_DE == @name_scraped")
                         if not region.empty:
+                            region = region.iloc[0]
                             name_regions.append(name_scraped)
                             risk_regions.append(country_code)
                             info_regions.append(info_scraped)
                             dates_regions.append(self.extract_date(info_scraped, preposition=date_ppt))
-                            iso3_regions.append(region["ISO3_CODE"].iat[0])
-                            nuts_regions.append(region["NUTS_CODE"].iat[0])
+                            iso3_regions.append(region["ISO3_CODE"])
+                            nuts_regions.append(region["NUTS_CODE"])
                             continue
                     if iso3_found:
                         name_states.append(name_scraped)
@@ -256,7 +261,7 @@ class RKISpider(scrapy.Spider):
                     reg_code = self.NO_RISK if reg_excluded else code
                     for r in regions:
                         name_sr, info_sr = self.strip_country(r.get())
-                        reg_hit = country_regs[country_regs["NAME_DE"] == name_sr]
+                        reg_hit = country_regs.query("NAME_DE == @name_sr")
                         name_en = name_sr
                         if reg_hit.empty:
                             nuts = None
@@ -282,6 +287,9 @@ class RKISpider(scrapy.Spider):
                                    "risk_date": risk_dates, "region": None, "REG_EXCLUDED": exc_states,
                                    "NUTS_CODE": None, "INFO_DE": info_states})
                 df_collector[code] = df
+            else:
+                print(f"The following header was not assigned a risk level:")
+                print(f"\t{h_text}\n")
 
         db_new = pd.concat([df_collector[i] for i in self.risk_priority])
         db_curated = db_new.drop_duplicates(subset="ISO3_CODE")
