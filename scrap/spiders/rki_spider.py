@@ -46,7 +46,7 @@ class RKISpider(scrapy.Spider):
     h2_xpath = "//div[contains(@class, 'text')]/h2"
     li_xpath = "//following-sibling::ul[1]/li"
 
-    regex_exclude = r'ausgenommen'
+    excluded_tags = (r'ausgenommen', r'ausnahme')
 
     NO_MATCH = -1
     NO_RISK = 0
@@ -205,13 +205,24 @@ class RKISpider(scrapy.Spider):
                     iso3_found = None
                     regions = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}[{i_s}]/ul/li/text()")
                     msg = s.get()[4:-5]     # Remove <li></li>
-                    msg = msg.replace("<p>", "").replace("</p>", "")
+                    msg = msg.replace("<p>", "").replace("</p>", "").replace("\n", "")
 
-                    reg_excluded = None
                     country_code = code
-                    if code == self.RISK and len(regions) > 0:
-                        country_code = self.PARTIAL
-                        reg_excluded = bool(re.search(self.regex_exclude, msg, re.I))
+
+                    excluded_msg = None
+                    reg_excluded = None
+                    for tag in self.excluded_tags:
+                        search = re.compile(rf".*{tag}[ ]+(.*)$", re.I).search(msg)
+                        if search:
+                            excluded_msg = search.group(1)
+                            break
+                    if code == self.RISK:
+                        if excluded_msg:
+                            country_code = self.PARTIAL
+                            reg_excluded = True
+                        elif len(regions) > 0:
+                            country_code = self.PARTIAL
+                            reg_excluded = False
 
                     name_scraped, info_scraped = self.strip_country(msg)
                     if name_scraped in iso3_de_lut.keys():      # Direct search from old DB
@@ -257,8 +268,18 @@ class RKISpider(scrapy.Spider):
                         dates_err.append(self.extract_date(msg, preposition=date_ppt))
                         risk_err.append(country_code)
                         exc_err.append(reg_excluded)
-                    country_regs = reg_df[reg_df["ISO3_CODE"] == iso3_found]
+                    country_regs = reg_df.query("ISO3_CODE == @iso3_found")
                     reg_code = self.NO_RISK if reg_excluded else code
+                    if country_code == self.PARTIAL and len(regions) == 0:
+                        for _, cr in country_regs.iterrows():
+                            if cr["NAME_DE"] in excluded_msg:
+                                name_regions.append(cr["NAME_DE"])
+                                name_en_regions.append(cr["NAME_ENGL"])
+                                risk_regions.append(reg_code)
+                                info_regions.append(None)
+                                dates_regions.append(None)
+                                iso3_regions.append(iso3_found)
+                                nuts_regions.append(cr["NUTS_CODE"])
                     for r in regions:
                         name_sr, info_sr = self.strip_country(r.get())
                         reg_hit = country_regs.query("NAME_DE == @name_sr")
@@ -268,6 +289,7 @@ class RKISpider(scrapy.Spider):
                             for reg_de, iso3 in country_lut.items():
                                 if reg_de in name_sr:
                                     name_en = pycountry.countries.get(alpha_3=iso3).name
+                                    nuts = iso3
                                     break
                         else:
                             reg_hit = reg_hit.iloc[0]
