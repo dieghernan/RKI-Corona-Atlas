@@ -13,7 +13,7 @@ Azerbaijan;Risk area;Since 15 Jun 2020.
 Bahamas;Risk area;Since 25 Apr 2021.
 Bahrain;High incidence area;Since 14 Feb 2021.
 Bangladesh;Risk area;Since 15 Jun 2020.
-Barbados;Not risk area;Since 17 Apr 2021.
+Barbados;Not risk area;
 Belarus;Risk area;Since 15 Jun 2020.
 Belgium;Risk area;Since 30 Sep 2020.
 Belize;Risk area;Since 15 Jun 2020.
@@ -24,7 +24,7 @@ Bosnia and Herzegovina;High incidence area;Since 24 Jan 2021.
 Botswana;Variant of concern;Since 07 Feb 2021.
 Brazil;Variant of concern;Since 19 Jan 2021.
 Brunei;Not risk area;
-Bulgaria;High incidence area;Since 21 Mar 2021.
+Bulgaria;Risk area;Since 02 May 2021.
 Burkina Faso;Risk area;Since 15 Jun 2020.
 Burundi;Risk area;Since 15 Jun 2020.
 Cambodia;Not risk area;
@@ -43,7 +43,7 @@ Cote D'Ivoire;Risk area;Since 15 Jun 2020.
 Croatia;High incidence area;Since 11 Apr 2021.
 Cuba;Risk area;Since 28 Feb 2021.
 Cyprus;High incidence area;Since 21 Mar 2021.
-Czechia;High incidence area;Since 28 Mar 2021.
+Czechia;Risk area;Since 02 May 2021.
 Democratic Republic of The Congo;Risk area;Since 15 Jun 2020.
 Denmark;Risk area;Since 28 Mar 2021.
 Djibouti;Risk area;Since 15 Jun 2020.
@@ -99,7 +99,7 @@ Lesotho;Variant of concern;Since 31 Jan 2021.
 Liberia;Risk area;Since 15 Jun 2020.
 Libya;Risk area;Since 15 Jun 2020.
 Liechtenstein;Risk area;Since 24 Oct 2020.
-Lithuania;Risk area;Since 21 Feb 2021.
+Lithuania;High incidence area;Since 02 May 2021.
 Luxembourg;Risk area;Since 25 Sep 2020.
 Madagascar;Risk area;Since 15 Jun 2020.
 Malawi;Variant of concern;Since 07 Feb 2021.
@@ -114,7 +114,7 @@ Mexico;High incidence area;Since 24 Jan 2021.
 Micronesia;Not risk area;
 Moldova;Risk area;Since 25 Apr 2021.
 Monaco;Risk area;Since 01 Nov 2020.
-Mongolia;Risk area;Since 15 Jun 2020.
+Mongolia;High incidence area;Since 02 May 2021.
 Montenegro;High incidence area;Since 24 Jan 2021.
 Morocco;Risk area;Since 15 Jun 2020.
 Mozambique;Variant of concern;Since 07 Feb 2021.
@@ -131,7 +131,7 @@ Nigeria;Risk area;Since 15 Jun 2020.
 Niue;Not risk area;
 North Korea;Risk area;Since 15 Jun 2020.
 North Macedonia;High incidence area;Since 24 Jan 2021.
-Norway;Risk area (partially);Since 08 Nov 2020.The risk designation applies for the following regions: <ul><li>Oslo, since 08 Nov 2020</li><li>Viken, since 15 Nov 2020</li><li>Rogaland, since 28 Mar 2021</li></ul>
+Norway;Risk area (partially);Since 08 Nov 2020.The risk designation applies for the following regions: <ul><li>Oslo, since 08 Nov 2020</li><li>Agder, since 02 May 2021</li><li>Viken, since 15 Nov 2020</li><li>Rogaland, since 28 Mar 2021</li></ul>
 Oman;High incidence area;Since 25 Apr 2021.
 Pakistan;Risk area;Since 15 Jun 2020.
 Palau;Not risk area;
@@ -186,7 +186,7 @@ Tuvalu;Not risk area;
 Uganda;Not risk area;
 Ukraine;High incidence area;Since 11 Apr 2021.
 United Arab Emirates;Risk area;Since 18 Apr 2021.
-United Kingdom;Risk area (partially);Since 21 Mar 2021.The risk designation applies for the following regions: <ul><li>Bermuda, since 21 Mar 2021</li><li>Virgin Islands, British, since 21 Mar 2021</li><li>Falkland Islands (Malvines), since 21 Mar 2021</li></ul>
+United Kingdom;Risk area (partially);Since 21 Mar 2021.The risk designation applies for the following regions: <ul><li>Bermuda, since 21 Mar 2021</li><li>Falkland Islands (Malvines), since 21 Mar 2021</li></ul>
 United Republic of Tanzania;High incidence area;Since 14 Mar 2021.
 United States;Risk area;Since 07 Mar 2021.
 Uruguay;High incidence area;Since 21 Mar 2021.
