@@ -233,7 +233,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "orange",
+    fillColor = "brown",
     fillOpacity = 0.5,
     group = labs[2],
     highlightOptions = highlightOptions(
@@ -249,7 +249,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "yellow",
+    fillColor = "orange",
     fillOpacity = 0.5,
     group = labs[3],
     highlightOptions = highlightOptions(
@@ -261,7 +261,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
   ) %>%
   addPolygons(
     data = level4,
-    color = "#44444",
+    color = "yellow",
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
@@ -288,7 +288,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
   addLegend(
-    colors = c("red", "orange", "yellow", "#00FF00", "green"),
+    colors = c("red", "brown", "orange", "yellow", "green"),
     labels = labs,
     position = "bottomleft"
   ) %>%
@@ -306,9 +306,12 @@ map
 ```
 
 All information is directly fetched from the Robert Koch Institut and supplied without guarantee.
-For a complete up-to-date overview on all international risk areas and the travel restrictions that apply to them
-based on their risk designation,
+For a complete up-to-date overview on all international risk areas
 visit [rki.de/risikogebiete](https://rki.de/risikogebiete).
+
+The current travel restrictions for risk areas
+are published on
+[the website of the German Federal Ministry of Health](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers).
 
 ## Database
 

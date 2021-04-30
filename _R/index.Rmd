@@ -185,7 +185,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "orange",
+    fillColor = "brown",
     fillOpacity = 0.5,
     group = labs[2],
     highlightOptions = highlightOptions(
@@ -201,7 +201,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "yellow",
+    fillColor = "orange",
     fillOpacity = 0.5,
     group = labs[3],
     highlightOptions = highlightOptions(
@@ -217,7 +217,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "#00FF00",
+    fillColor = "yellow",
     fillOpacity = 0.5,
     group = labs[4],
     highlightOptions = highlightOptions(
@@ -240,7 +240,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
   addLegend(
-    colors = c("red", "orange", "yellow", "#00FF00", "green"),
+    colors = c("red", "brown", "orange", "yellow", "green"),
     labels = labs,
     position = "bottomleft"
   ) %>%
@@ -257,10 +257,12 @@ map
 
 Alle Angaben sind ohne Gewähr und werden automatisch vom Robert Koch Institut mehrmals täglich abgerufen.
 Einen aktuellen vollständigen Überblick aller internationalen Risikogebiete
-und der geltenden Reisebeschränkungen jeder Risikostufe
-kann man auf 
-[rki.de/risikogebiete](https://rki.de/risikogebiete)
-finden.
+gibt es auf
+[rki.de/risikogebiete](https://rki.de/risikogebiete).
+
+Die geltenden Reisebeschränkungen werden auf der
+[Internetseite des Bundesministeriums für Gesundheit](https://www.bundesgesundheitsministerium.de/coronavirus-infos-reisende)
+bekanntgegeben.
 
 ## Datenbank
 
