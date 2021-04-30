@@ -153,7 +153,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "green",
+    fillColor = "#00FF00",
     fillOpacity = 0.5,
     group = labs[5],
     highlightOptions = highlightOptions(
@@ -185,7 +185,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "brown",
+    fillColor = "chocolate",
     fillOpacity = 0.5,
     group = labs[2],
     highlightOptions = highlightOptions(
@@ -240,7 +240,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1.5),
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
   addLegend(
-    colors = c("red", "brown", "orange", "yellow", "green"),
+    colors = c("red", "chocolate", "orange", "yellow", "#00FF00"),
     labels = labs,
     position = "bottomleft"
   ) %>%
