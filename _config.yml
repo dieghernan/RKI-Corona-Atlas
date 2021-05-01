@@ -40,6 +40,8 @@ navbar:
     url     : /
   - title   : English # Label
     url     : /en # url
+  - title   : Español # Label
+    url     : /es # url
   - title   : About # Label
     url     : /about # url
 

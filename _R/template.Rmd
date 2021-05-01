@@ -331,13 +331,13 @@ df <- st_drop_geometry(all_shapes)  %>%
 
 df[, 3] <- gsub("\r?\n|\r", " ", df[, 3])
 
+# Strip HTML on Details
+df$more_info <- gsub("</li><li>", "; ", df$more_info)
+df$more_info <- gsub("<.*?>", "", df$more_info)
+
 names(df) <- idioms %>% select(country, risk, details)
 
 df <- df[order(df[, 1]),]
-
-# Strip HTML on Details
-df$Details <- gsub("</li><li>", "; ", df$Details)
-df$Details <- gsub("<.*?>", "", df$Details)
 
 write.csv(
   df,
