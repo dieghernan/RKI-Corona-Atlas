@@ -50,9 +50,10 @@ jobs:
         run: sudo apt-get update && sudo apt-get install language-pack-de
 
       - name: Scrap data
+        if: 0 == 1
         run: |
           cp -R assets/data log/data
-#          scrapy crawl rki &> log/scrapy_report.txt  todo
+          scrapy crawl rki &> log/scrapy_report.txt
           cat log/scrapy_report.txt
           diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
         id: scrapy
