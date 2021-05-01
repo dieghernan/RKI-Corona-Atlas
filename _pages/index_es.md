@@ -20,7 +20,7 @@ params:
 
 <!-- Modify _R/index_es.Rmd file instead -->
 <p class="text-right font-weight-bold">
-Actualizado el 30/00/2021
+Actualizado el 30/04/2021
 </p>
 
 Mapa de zonas de riesgo
