@@ -223,7 +223,7 @@ PRT,3,Algarve,Algarve,Algarve,2021-04-18,True,,PT15,seit 18. April 2021,
 PRT,3,Azoren,Azores,Azores,2021-04-18,True,,PT2,(autonome Region) (seit 18. April 2021),
 PRT,3,Madeira,Madeira,Madeira,2021-03-14,True,,PT3,(autonome Region) (seit 14. März 2021),
 ESP,5,Madrid,Madrid,Madrid,,True,,ES30,,
-GBR,5,Überseegebiet Britische Jungferninseln,"Virgin Islands, British","Islas Vírgenes, Británicas",21.03.2021,True,,,seit 21. März 2021; Virusvarianten-Gebiet vom 13. Januar 2021 – 20. März 2021,
+GBR,5,Überseegebiet Britische Jungferninseln,"Virgin Islands, British","Islas Vírgenes, Británicas",,True,,,seit 21. März 2021; Virusvarianten-Gebiet vom 13. Januar 2021 – 20. März 2021,
 ERROR,0,Finnland,Finland,Finlandia,2021-04-24,,,,Risikogebiet bis einschl. 24. April 2021,DUPLICATED
 ERROR,0,Irland,Ireland,Irlanda,2021-04-24,,,,Risikogebiet bis einschl. 24. April 2021,DUPLICATED
 ERROR,0,Vereinigtes Königreich,United Kingdom,Reino Unido,2021-05-01,,,,Risikogebiet bis einschl. 1. Mai 2021,DUPLICATED

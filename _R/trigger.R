@@ -17,12 +17,12 @@ rmarkdown::render(
 )
 
 message("----Render heatmap\n\n")
-#rmarkdown::render(
-#  "_R/labs_heatmap.Rmd",
-#  output_dir = "_pages/",
-#  output_format = "md_document",
-#  quiet = TRUE
-#)
+rmarkdown::render(
+  "_R/labs_heatmap.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
+)
 
 message("----Render og_image\n\n")
 # Dinamic og image
