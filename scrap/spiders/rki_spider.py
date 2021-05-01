@@ -320,7 +320,7 @@ class RKISpider(scrapy.Spider):
                                    "NAME_DE": name_regions, "NAME_ENGL": name_en_regions,
                                    "region": True, "NUTS_CODE": nuts_regions,
                                    "risk_date": dates_regions, "INFO_DE": info_regions})
-        df_regions = df_regions.sort_values("ISO3_CODE")
+        df_regions = df_regions.sort_values(["ISO3_CODE", "NAME_DE"])
 
         df_unknown = pd.DataFrame({"NAME_DE": name_err, "risk_level_code": risk_err, "INFO_DE": info_err,
                                    "risk_date": dates_err, "REG_EXCLUDED": exc_err})
@@ -337,7 +337,7 @@ class RKISpider(scrapy.Spider):
 
         db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU",
                                                                     self.NO_RISK)["risk_level_code"])
-        hidden_regions = db_regions.assign(risk_level_code=self.IGNORE)
+        hidden_regions = db_regions.assign(risk_level_code=self.IGNORE).sort_values(["ISO3_CODE", "NAME_DE"])
         df_regions = pd.concat([df_regions, hidden_regions]).drop_duplicates(subset="NAME_DE")
 
         db_curated = pd.concat([db_curated,
