@@ -155,7 +155,7 @@ level3 <- all_shapes %>% filter(risk_level_code == 3)
 level4 <- all_shapes %>% filter(risk_level_code == 4)
 ```
 
-```{r, child='_R/en/top_text.Rmd'}
+```{r, child='en/top_text.Rmd'}
 
 ```
 
@@ -300,7 +300,7 @@ map
 
 ```
 
-```{r, child='_R/en/mid_text.Rmd'}
+```{r, child='en/mid_text.Rmd'}
 
 ```
 
@@ -342,6 +342,6 @@ reactable(
 
 ```
 
-```{r, child='_R/en/bottom_text.Rmd'}
+```{r, child='en/bottom_text.Rmd'}
 
 ```
