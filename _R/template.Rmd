@@ -25,9 +25,8 @@ rl <- readr::read_csv("../assets/data/risk_level_code.csv")
 
 data$NAME <-
   switch(params$lang,
-         "en" = data$NAME_ENGL,
+         "en" = data$NAME_EN,
          "de" = data$NAME_DE)
-#data$risk_level <- switch(params$lang, "en"=data$risk_level_en, "de"=data$risk_level_de)
 rl$risk_level <-
   switch(params$lang,
          "en" = rl$risk_level_en,
