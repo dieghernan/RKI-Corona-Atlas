@@ -1,0 +1,26 @@
+---
+title: "Áreas internacioneales de riesgo COVID-19"
+subtitle: "según las autoridades alemanas"
+permalink: /es
+header_type: hero
+excerpt: |
+    En este mapa interactivo puedes explorar
+    las áreas de riesgo internacionales que establece
+    el gobierno alemán para todo el mundo.
+    Haz clic en un país en concreto
+    para leer más detalles sobre
+    su estado actual.
+always_allow_html: yes
+output: 
+  md_document:
+    preserve_yaml: true
+params:
+  lang: es
+---
+
+
+<!-- Modify _R/index_es.Rmd file instead -->
+
+```{r, child='template.Rmd'}
+
+```

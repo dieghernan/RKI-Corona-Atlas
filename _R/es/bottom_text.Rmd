@@ -1,0 +1,3 @@
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_es.csv" class="btn btn-primary">Descargar base de datos (CSV)</a>
+</p>

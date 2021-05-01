@@ -1,0 +1,10 @@
+<p class="text-right font-weight-bold">Actualizado el `r format(date, format="%d/%M/%Y")`</p>
+
+## Mapa de zonas de riesgo
+
+En este mapa interactivo puedes explorar
+las áreas de riesgo internacionales que establece
+el gobierno alemán para todo el mundo.
+Haz clic en un país en concreto
+para leer más detalles sobre
+su estado actual.

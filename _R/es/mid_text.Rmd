@@ -1,0 +1,14 @@
+Toda los datos han sido recopilados automáticamente de la web del Robert Koch Institut,
+por lo que no podemos garantizar su veracidad.
+Visita [rki.de/risikogebiete](https://rki.de/risikogebiete)
+para obtener la información completa sobre todas
+las áreas de riesgo.
+
+Las restricciones actuales para la entrada a Alemania
+desde el extranjero están recogidas en
+[la página web del Ministerio Alemán de Salud](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers).
+
+## Base de datos
+
+También puedes consultar la información por países
+directamente en la base de datos.
