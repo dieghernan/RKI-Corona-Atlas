@@ -23,18 +23,30 @@ library(leaflet.extras)
 data <- readr::read_csv("../assets/data/db_scraped.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv")
 
-data$NAME <- switch(params$lang, "en"=data$NAME_ENGL, "de"=data$NAME_DE)
-data$risk_level <- switch(params$lang, "en"=data$risk_level_en, "de"=data$risk_level_de)
-rl$risk_level <- switch(params$lang, "en"=rl$risk_level_en, "de"=rl$risk_level_de)
+data$NAME <-
+  switch(params$lang,
+         "en" = data$NAME_ENGL,
+         "de" = data$NAME_DE)
+#data$risk_level <- switch(params$lang, "en"=data$risk_level_en, "de"=data$risk_level_de)
+rl$risk_level <-
+  switch(params$lang,
+         "en" = rl$risk_level_en,
+         "de" = rl$risk_level_de)
 
 idioms <- readr::read_csv("../assets/data/idioms.csv") %>%
-          filter(lang == params$lang)
+  filter(lang == params$lang)
 
 data_cntries <-
   data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   filter(is.na(region)) %>%
   left_join(rl) %>%
-  select(ISO3_CODE, NAME, REG_EXCLUDED, risk_date, risk_level_code, risk_level, INFO_DE)
+  select(ISO3_CODE,
+         NAME,
+         REG_EXCLUDED,
+         risk_date,
+         risk_level_code,
+         risk_level,
+         INFO_DE)
 
 if (params$lang == "de") {
   data_cntries$more_info <- data_cntries$INFO_DE
@@ -42,37 +54,53 @@ if (params$lang == "de") {
   # Extract regions
   regions <- data %>%
     filter(region == TRUE & risk_level_code != 5) %>%
-    mutate(since = ifelse(is.na(risk_date),
-                          "", paste0(", ",idioms$date_prefix," ",
-                         format(risk_date, idioms$date_format)))) %>%
+    mutate(since = ifelse(
+      is.na(risk_date),
+      "",
+      paste0(
+        ", ",
+        idioms$date_prefix,
+        " ",
+        format(risk_date, idioms$date_format)
+      )
+    )) %>%
     group_by(ISO3_CODE) %>%
     mutate(regs = paste0("<li>", NAME, since, "</li>", collapse = "")) %>%
     select(ISO3_CODE, regs) %>%
     distinct_all() %>%
     mutate(regs = paste0("<ul>", regs, "</ul>"))
-
+  
   # Add info
-
+  
   data_cntries <- data_cntries %>% left_join(regions)
   data_cntries$more_info <- ifelse(is.na(data_cntries$risk_date),
                                    NA,
-                                   paste0(idioms$date_prefix," ",
-                                          format(data_cntries$risk_date,
-                                                 idioms$date_format),
-                                          "."))
-
+                                   paste0(
+                                     idioms$date_prefix,
+                                     " ",
+                                     format(data_cntries$risk_date,
+                                            idioms$date_format),
+                                     "."
+                                   ))
+  
   data_cntries$more_info <- ifelse(
     is.na(data_cntries$regs),
     data_cntries$more_info,
-    ifelse(data_cntries$REG_EXCLUDED,
-          paste(
-              data_cntries$more_info,
-              idioms$excluded,
-              data_cntries$regs, sep=" "),
-          paste(
-              data_cntries$more_info,
-              idioms$applying,
-              data_cntries$regs, sep=" "))
+    ifelse(
+      data_cntries$REG_EXCLUDED,
+      paste(
+        data_cntries$more_info,
+        idioms$excluded,
+        data_cntries$regs,
+        sep = " "
+      ),
+      paste(
+        data_cntries$more_info,
+        idioms$applying,
+        data_cntries$regs,
+        sep = " "
+      )
+    )
   )
 }
 
@@ -81,11 +109,9 @@ data_cntries$html_labels <- sprintf("<strong>%s</strong>",
                                     data_cntries$risk_level)
 data_cntries$html_labels <- ifelse(
   data_cntries$ISO3_CODE != "DEU",
-  paste0(
-    data_cntries$html_labels,
-    "<br />",
-    data_cntries$risk_level
-  ),
+  paste0(data_cntries$html_labels,
+         "<br />",
+         data_cntries$risk_level),
   data_cntries$html_labels
 )
 
@@ -93,18 +119,20 @@ data_cntries$html_labels <- ifelse(
   !is.na(data_cntries$more_info),
   paste0(
     data_cntries$html_labels,
-    "<p class='infomap'><strong>",idioms$more_info,"</strong><br />",
+    "<p class='infomap'><strong>",
+    idioms$more_info,
+    "</strong><br />",
     data_cntries$more_info,
     "</p>"
   ),
   data_cntries$html_labels
 )
 
-data_cntries$html_labels <- data_cntries$html_labels %>% 
+data_cntries$html_labels <- data_cntries$html_labels %>%
   lapply(htmltools::HTML)
 
 date <- read.csv("../assets/data/report_date.csv") %>%
-  select(report_date) %>% as.character() %>% 
+  select(report_date) %>% as.character() %>%
   as.Date()
 
 
@@ -117,7 +145,8 @@ cntries_shape <-
   )
 
 # Add Kosovo
-K <- st_read("./geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
+K <-
+  st_read("./geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
 
 cntries_shape_reg <-
   st_difference(cntries_shape, st_union(K))
@@ -131,7 +160,8 @@ cntries_shape_reg2 <- cntries_shape_reg %>%
 
 all_shapes <- st_make_valid(cntries_shape_reg2)
 
-all_shapes <- all_shapes %>% select(ISO3_CODE) %>% left_join(data_cntries)
+all_shapes <-
+  all_shapes %>% select(ISO3_CODE) %>% left_join(data_cntries)
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == 0,
@@ -150,20 +180,19 @@ level4 <- all_shapes %>% filter(risk_level_code == 4)
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
 labs <- rl$risk_level
-colors<-rl$color
+colors <- rl$color
 
-color_deu<-colors[6]
+color_deu <- colors[6]
 labs <- labs[c(2:5, 1)]
 colors <- colors[c(2:5, 1)]
 
 map <- leaflet(options = leafletOptions(minZoom = 1),
-  elementId = "leaflet") %>%
-  setMaxBounds(-180,-90, 180, 90) %>%
+               elementId = "leaflet") %>%
+  setMaxBounds(-180, -90, 180, 90) %>%
   addProviderTiles("CartoDB.Voyager", group = "Carto Voyager") %>%
   addProviderTiles("Stamen.TerrainBackground", group = "Stamen Terrain") %>%
-  addTiles(urlTemplate = "", 
-           attribution = '&copy; <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units">EuroGeographics</a> for the administrative boundaries'
-  ) %>%
+  addTiles(urlTemplate = "",
+           attribution = '&copy; <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units">EuroGeographics</a> for the administrative boundaries') %>%
   setView(lat = 51.705533, lng = 11.8124408, zoom = 4) %>%
   addPolygons(
     data = DEU,
@@ -272,11 +301,9 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     overlayGroups = labs,
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
-  addLegend(
-    colors = colors,
-    labels = labs,
-    position = "bottomleft"
-  ) %>%
+  addLegend(colors = colors,
+            labels = labs,
+            position = "bottomleft") %>%
   htmlwidgets::onRender(
     "
         function() {
@@ -286,7 +313,6 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
   ) %>%
   addSearchOSM()
 map
-
 
 ```
 
@@ -298,14 +324,15 @@ map
 ```{r table , echo=FALSE}
 
 
+
 df <- st_drop_geometry(all_shapes)  %>%
   select(NAME, risk_level, more_info)
 
-df[,3] <- gsub("\r?\n|\r", " ", df[,3])
+df[, 3] <- gsub("\r?\n|\r", " ", df[, 3])
 
-names(df) <- idioms %>% select(country,risk,details)
+names(df) <- idioms %>% select(country, risk, details)
 
-df <- df[order(df[, 1]), ]
+df <- df[order(df[, 1]),]
 
 # Strip HTML on Details
 df$Details <- gsub("</li><li>", "; ", df$Details)
@@ -313,7 +340,7 @@ df$Details <- gsub("<.*?>", "", df$Details)
 
 write.csv(
   df,
-  paste0("../assets/dist/db_countries_risk_",params$lang,".csv"),
+  paste0("../assets/dist/db_countries_risk_", params$lang, ".csv"),
   quote = TRUE,
   row.names = FALSE,
   na = ""

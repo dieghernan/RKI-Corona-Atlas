@@ -1,17 +1,30 @@
 
-message("Render index_en")
-rmarkdown::render("_R/index_en.Rmd", output_dir = "_pages/",
-                  output_format = "md_document", quiet = TRUE)
 
-message("Render index")
-rmarkdown::render("_R/index.Rmd", output_dir = "_pages/",
-                  output_format = "md_document", quiet = TRUE)
+message("----Render index_en\n\n")
+rmarkdown::render(
+  "_R/index_en.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
+)
 
-message("Render heatmap")
-rmarkdown::render("_R/labs_heatmap.Rmd", output_dir = "_pages/",
-                  output_format = "md_document", quiet = TRUE)
+message("----Render index\n\n")
+rmarkdown::render(
+  "_R/index.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
+)
 
-message("Render og_image")
+message("----Render heatmap\n\n")
+rmarkdown::render(
+  "_R/labs_heatmap.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
+)
+
+message("----Render og_image\n\n")
 # Dinamic og image
 source("_R/og_image.R")
 
