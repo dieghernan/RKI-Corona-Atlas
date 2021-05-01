@@ -1,0 +1,3 @@
+lang,date_prefix,date_format,more_info,country,risk,details,excluded,applying
+en,"since","%d %b %Y",More information,"Country/Region", "Risk level", "Details"," The following regions are excluded: "," The risk designation applies to the following regions: ",
+de,"seit","%d.%M.%Y",More information,"Country/Region", "Risk level", "Details"," The following regions are excluded: "," The risk designation applies to the following regions: ",

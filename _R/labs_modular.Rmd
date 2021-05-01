@@ -14,6 +14,8 @@ always_allow_html: yes
 output: 
   md_document:
     preserve_yaml: true
+params:
+  lang: en
 ---
 
 
@@ -43,22 +45,25 @@ library(leaflet.extras)
 data <- readr::read_csv("../assets/data/db_scraped.csv")
 rl <- readr::read_csv("../assets/data/risk_level_code.csv")
 
-
+idioms <- readr::read_csv("../assets/data/idioms.csv") %>%
+          filter(lang == params$lang)
 
 data_cntries <-
   data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   filter(is.na(region)) %>%
   left_join(rl) %>%
-  select(ISO3_CODE, NAME_ENGL, REG_EXCLUDED, risk_date, risk_level_code, risk_level_en)
+  mutate(NAME = switch(params$lang, "en"=NAME_ENGL, "de"=NAME_DE)) %>%
+  mutate(risk_level = switch(params$lang, "en"=risk_level_en, "de"=risk_level_de)) %>%
+  select(ISO3_CODE, NAME, REG_EXCLUDED, risk_date, risk_level_code, risk_level)
 
 # EN - extract regions
 regions <- data %>%
   filter(region == TRUE & risk_level_code != 5) %>%
   mutate(since = ifelse(is.na(risk_date),
-                        "", paste0(", since ",
-                       format(risk_date, "%d %b %Y")))) %>%
+                        "", paste0(", ",idioms$date_prefix," ",
+                       format(risk_date, idioms$date_format)))) %>%
   group_by(ISO3_CODE) %>%
-  mutate(regs = paste0("<li>", NAME_ENGL, since, "</li>", collapse = "")) %>%
+  mutate(regs = paste0("<li>", NAME, since, "</li>", collapse = "")) %>%
   select(ISO3_CODE, regs) %>%
   distinct_all() %>%
   mutate(regs = paste0("<ul>", regs, "</ul>"))
@@ -68,8 +73,9 @@ regions <- data %>%
 data_cntries <- data_cntries %>% left_join(regions)
 data_cntries$more_info <- ifelse(is.na(data_cntries$risk_date),
                                  NA,
-                                 paste0("Since ",
-                                        format(data_cntries$risk_date, "%d %b %Y"),
+                                 paste0(idioms$date_prefix," ",
+                                        format(data_cntries$risk_date,
+                                               idioms$date_format),
                                         "."))
 
 data_cntries$more_info <- ifelse(
@@ -78,26 +84,23 @@ data_cntries$more_info <- ifelse(
   ifelse(data_cntries$REG_EXCLUDED,
         paste0(
             data_cntries$more_info,
-            " The following regions are excluded: ",
+            idioms$excluded,
             data_cntries$regs),
         paste0(
             data_cntries$more_info,
-            "The risk designation applies for the following regions: ",
+            idioms$applying,
             data_cntries$regs))
 )
 
-data_cntries$risk_date <-
-  as.character(format(data_cntries$risk_date, format = "%d/%m/%Y"))
-
 data_cntries$html_labels <- sprintf("<strong>%s</strong>",
-                                    data_cntries$NAME_ENGL,
-                                    data_cntries$risk_level_en)
+                                    data_cntries$NAME,
+                                    data_cntries$risk_level)
 data_cntries$html_labels <- ifelse(
   data_cntries$ISO3_CODE != "DEU",
   paste0(
     data_cntries$html_labels,
     "<br />",
-    data_cntries$risk_level_en
+    data_cntries$risk_level
   ),
   data_cntries$html_labels
 )
@@ -106,7 +109,7 @@ data_cntries$html_labels <- ifelse(
   !is.na(data_cntries$more_info),
   paste0(
     data_cntries$html_labels,
-    "<p class='infomap'><strong>More information</strong><br />",
+    "<p class='infomap'><strong>",idioms$more_info,"</strong><br />",
     data_cntries$more_info,
     "</p>"
   ),
@@ -162,7 +165,7 @@ level4 <- all_shapes %>% filter(risk_level_code == 4)
 
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
-labs <- rl$risk_level_en
+labs <- rl$risk_level
 
 labs <- labs[c(2:5, 1)]
 
@@ -309,11 +312,11 @@ map
 
 
 df <- st_drop_geometry(all_shapes)  %>%
-  select(NAME_ENGL, risk_level_en, more_info)
+  select(NAME, risk_level, more_info)
 
 df[,3] <- gsub("\r?\n|\r", " ", df[,3])
 
-names(df) <- c("Country/Region", "Risk level", "Details")
+names(df) <- idioms %>% select(country,risk,details)
 
 df <- df[order(df[, 1]), ]
 
@@ -323,7 +326,7 @@ df$Details <- gsub("<.*?>", "", df$Details)
 
 write.csv(
   df,
-  "../assets/dist/db_countries_risk_en.csv",
+  paste0("../assets/dist/db_countries_risk_",params$lang,".csv"),
   quote = TRUE,
   row.names = FALSE,
   na = ""
