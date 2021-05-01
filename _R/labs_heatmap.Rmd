@@ -44,7 +44,7 @@ data_cntries <-
   data %>% filter(ISO3_CODE != "ERROR" & is.na(ERROR)) %>%
   filter(is.na(region)) %>%
   left_join(rl) %>%
-  select(ISO3_CODE, NAME_ENGL, risk_date, risk_level_code, risk_level_en)
+  select(ISO3_CODE, NAME_EN, risk_date, risk_level_code, risk_level_en)
 
 # EN - extract regions
 regions <- data %>%
@@ -53,7 +53,7 @@ regions <- data %>%
                         "", paste0(", since ",
                        format(risk_date, "%d %b %Y")))) %>%
   group_by(ISO3_CODE) %>%
-  mutate(regs = paste0("<li>", NAME_ENGL, since, "</li>", collapse = "")) %>%
+  mutate(regs = paste0("<li>", NAME_EN, since, "</li>", collapse = "")) %>%
   select(ISO3_CODE, regs) %>%
   distinct_all() %>%
   mutate(regs = paste0("<ul>", regs, "</ul>",
@@ -85,7 +85,7 @@ data_cntries$risk_date <-
   as.character(format(data_cntries$risk_date, format = "%d/%m/%Y"))
 
 data_cntries$html_labels <- sprintf("<strong>%s</strong>",
-                                    data_cntries$NAME_ENGL,
+                                    data_cntries$NAME_EN,
                                     data_cntries$risk_level_en)
 data_cntries$html_labels <- ifelse(
   data_cntries$ISO3_CODE != "DEU",
