@@ -1,0 +1,10 @@
+<p class="text-right font-weight-bold">Stand: `r format(date, format="%d.%m.%Y")`</p>
+
+
+## Risikokarte
+
+Die folgende interaktive Weltkarte präsentiert die aktuelle
+Risikoeinstufung aller Staaten der Welt
+durch das deutsche Auswärtige Amt,
+das Bundesministerium für Gesundheit
+und das Bundesministerium des Innern.
