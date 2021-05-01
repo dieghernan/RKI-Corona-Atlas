@@ -8,3 +8,9 @@ Risikoeinstufung aller Staaten der Welt
 durch das deutsche Auswärtige Amt,
 das Bundesministerium für Gesundheit
 und das Bundesministerium des Innern.
+
+<!--more-->
+
+Durch das Anklicken eines beliebigen Landes erfolgt
+die Anzeige aller zutreffenden Informationen
+und ggfs. regionaler Ausnahmen.

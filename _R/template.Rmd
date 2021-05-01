@@ -65,14 +65,14 @@ if (params$lang == "de") {
     is.na(data_cntries$regs),
     data_cntries$more_info,
     ifelse(data_cntries$REG_EXCLUDED,
-          paste0(
+          paste(
               data_cntries$more_info,
               idioms$excluded,
-              data_cntries$regs),
-          paste0(
+              data_cntries$regs, sep=" "),
+          paste(
               data_cntries$more_info,
               idioms$applying,
-              data_cntries$regs))
+              data_cntries$regs, sep=" "))
   )
 }
 
