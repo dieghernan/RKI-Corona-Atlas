@@ -10,6 +10,9 @@ rmarkdown::render("_R/labs_heatmap.Rmd", output_dir = "_pages/",
 rmarkdown::render("_R/labs_modular.Rmd", output_dir = "_pages/",
                   output_format = "md_document", quiet = TRUE)
 
+rmarkdown::render("_R/labs_modular_de.Rmd", output_dir = "_pages/",
+                  output_format = "md_document", quiet = TRUE)
+
 # Dinamic og image
 source("_R/og_image.R")
 

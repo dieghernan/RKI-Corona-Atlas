@@ -150,8 +150,11 @@ level4 <- all_shapes %>% filter(risk_level_code == 4)
 ```{r map, echo=FALSE, out.width = "100%", out.height="75vh"}
 
 labs <- rl$risk_level
+colors<-rl$color
 
+color_deu<-colors[6]
 labs <- labs[c(2:5, 1)]
+colors <- colors[c(2:5, 1)]
 
 map <- leaflet(options = leafletOptions(minZoom = 1),
   elementId = "leaflet") %>%
@@ -168,7 +171,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "blue",
+    fillColor = color_deu,
     fillOpacity = 0.5,
     highlightOptions = highlightOptions(
       color = "white",
@@ -183,7 +186,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "#00FF00",
+    fillColor = colors[5],
     fillOpacity = 0.5,
     group = labs[5],
     highlightOptions = highlightOptions(
@@ -199,7 +202,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "red",
+    fillColor = colors[1],
     fillOpacity = 0.5,
     group = labs[1],
     highlightOptions = highlightOptions(
@@ -215,7 +218,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "chocolate",
+    fillColor = colors[2],
     fillOpacity = 0.5,
     group = labs[2],
     highlightOptions = highlightOptions(
@@ -231,7 +234,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "orange",
+    fillColor = colors[3],
     fillOpacity = 0.5,
     group = labs[3],
     highlightOptions = highlightOptions(
@@ -247,7 +250,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     weight = 0.5,
     smoothFactor = .1,
     opacity = 1,
-    fillColor = "yellow",
+    fillColor = colors[4],
     fillOpacity = 0.5,
     group = labs[4],
     highlightOptions = highlightOptions(
@@ -270,7 +273,7 @@ map <- leaflet(options = leafletOptions(minZoom = 1),
     options = layersControlOptions(collapsed = TRUE)
   ) %>%
   addLegend(
-    colors = c("red", "chocolate", "orange", "yellow", "#00FF00"),
+    colors = colors,
     labels = labs,
     position = "bottomleft"
   ) %>%
