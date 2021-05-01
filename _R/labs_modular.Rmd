@@ -42,11 +42,12 @@ library(rmarkdown)
 library(leaflet.providers)
 library(leaflet.extras)
 
-data <- readr::read_csv("../assets/data/db_scraped.csv") %>%
-        mutate(NAME = switch(params$lang, "en"=NAME_ENGL, "de"=NAME_DE)) %>%
-        mutate(risk_level = switch(params$lang, "en"=risk_level_en, "de"=risk_level_de))
-rl <- readr::read_csv("../assets/data/risk_level_code.csv") %>%
-      mutate(risk_level = switch(params$lang, "en"=risk_level_en, "de"=risk_level_de))
+data <- readr::read_csv("../assets/data/db_scraped.csv")
+rl <- readr::read_csv("../assets/data/risk_level_code.csv")
+
+data$NAME <- switch(params$lang, "en"=data$NAME_ENGL, "de"=data$NAME_DE)
+data$risk_level <- switch(params$lang, "en"=data$risk_level_en, "de"=data$risk_level_de)
+rl$risk_level <- switch(params$lang, "en"=rl$risk_level_en, "de"=rl$risk_level_de)
 
 idioms <- readr::read_csv("../assets/data/idioms.csv") %>%
           filter(lang == params$lang)
