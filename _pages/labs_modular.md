@@ -1,7 +1,7 @@
 ---
 title: "International COVID-19 risk areas"
 subtitle: "as designated by the German government"
-permalink: /labs/modular
+permalink: /labs/modular/en
 header_type: hero
 excerpt: |
   The interactive map allows you to explore
