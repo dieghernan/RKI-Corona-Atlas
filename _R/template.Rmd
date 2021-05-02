@@ -3,6 +3,7 @@
 knitr::opts_chunk$set(echo = TRUE,
                       warning = FALSE,
                       message = FALSE)
+
 ```
 
 
@@ -144,23 +145,26 @@ cntries_shape <-
     cache_dir = "./geojson",
     resolution = 20
   )
+# Merge overseas and disputed territories to their administrations
+overseas <- readr::read_csv("../assets/data/overseas.csv")
+overseas_shp <- inner_join(cntries_shape, overseas) %>% select(ISO3_ADMIN) %>%
+  mutate(ISO3_CODE = ISO3_ADMIN)
+
+cntries_shape_overseas <- bind_rows(cntries_shape,overseas_shp) %>%
+  group_by(ISO3_CODE) %>%
+  summarise(n=n())
+
 
 # Add Kosovo
 K <-
   st_read("./geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
 
 cntries_shape_reg <-
-  st_difference(cntries_shape, st_union(K))
+  st_difference(cntries_shape_overseas, st_union(K))
 
 cntries_shape_reg <- bind_rows(cntries_shape_reg, K)
 
-# Merge overseas and disputed territories to their administrations
-overseas <- readr::read_csv("../assets/data/overseas.csv")
-cntries_shape_reg <- cntries_shape_reg %>%
-  left_join(overseas) %>% mutate(ISO3_CODE = ifelse(is.na(ISO3_ADMIN),
-                                                    ISO3_CODE,
-                                                    ISO3_ADMIN)) %>%
-  group_by(ISO3_CODE) %>% summarise()
+
 
 
 cntries_shape_reg2 <- cntries_shape_reg %>%
@@ -335,7 +339,7 @@ map
 
 
 df <- st_drop_geometry(all_shapes)  %>%
-  select(NAME, risk_level, more_info)
+  select(NAME, risk_level, more_info) %>% as.data.frame()
 
 df[, 3] <- gsub("\r?\n|\r", " ", df[, 3])
 
@@ -343,7 +347,8 @@ df[, 3] <- gsub("\r?\n|\r", " ", df[, 3])
 df$more_info <- gsub("</li><li>", "; ", df$more_info)
 df$more_info <- gsub("<.*?>", "", df$more_info)
 
-names(df) <- idioms %>% select(country, risk, details)
+
+names(df) <- as.character(idioms[ ,c("country","risk","details")])
 
 df <- df[order(df[, 1]),]
 
