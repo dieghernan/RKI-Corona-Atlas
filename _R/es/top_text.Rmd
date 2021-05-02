@@ -1,4 +1,4 @@
-<p class="text-right font-weight-bold">Actualizado el `r format(date, format="%d/%M/%Y")`</p>
+<p class="text-right font-weight-bold">Actualizado el `r format(date, format="%d/%m/%Y")`</p>
 
 ## Mapa de áreas de riesgo
 
