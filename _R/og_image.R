@@ -23,18 +23,36 @@ cntries_shape <-
     cache_dir = "./_R/geojson",
     resolution = 3
   )
+# Merge overseas and disputed territories to their administrations
+overseas <- readr::read_csv("./assets/data/overseas.csv")
+overseas_shp <- inner_join(cntries_shape, overseas) %>% select(ISO3_ADMIN) %>%
+  mutate(ISO3_CODE = ISO3_ADMIN)
 
-crop <- c(-90,-25, 120, 70)
-names(crop) <- c("xmin", "ymin", "xmax", "ymax")
+cntries_shape_overseas <- bind_rows(cntries_shape,overseas_shp) %>%
+  group_by(ISO3_CODE) %>%
+  summarise(n=n())
+
 
 # Add Kosovo
 K <-
   st_read("./_R/geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
 
 cntries_shape_reg <-
-  st_difference(cntries_shape, st_union(K))
+  st_difference(cntries_shape_overseas, st_union(K))
 
 cntries_shape_reg <- bind_rows(cntries_shape_reg, K)
+
+
+
+
+cntries_shape_reg2 <- cntries_shape_reg %>%
+  select(ISO3_CODE) %>%
+  inner_join(data_cntries)
+
+all_shapes <- st_make_valid(cntries_shape_reg2)
+crop <- c(-90,-25, 120, 70)
+names(crop) <- c("xmin", "ymin", "xmax", "ymax")
+
 
 
 cntries_shape_reg <- st_crop(cntries_shape_reg, crop)
@@ -84,6 +102,7 @@ og_map <-
   tm_shape(level4) +
   tm_fill(col = "yellow", alpha = .5) +
   tm_layout(outer.margins = FALSE, frame = FALSE)
+
 
 tmap_save(og_map, "assets/img/og_corona_atlas.png", dpi = 90)
 
