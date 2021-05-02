@@ -36,12 +36,15 @@ navbar:
     url     :  # default["url/baseurl"]
     img     :  ./assets/img/corona-atlas-icon.svg
   nav:
-  - title   : Deutsch
-    url     : /
-  - title   : English # Label
-    url     : /en # url
-  - title   : Español # Label
-    url     : /es # url
+  - title: Language
+    img: ./assets/img/globe.svg
+    child:
+    - title   : Deutsch
+      url     : /
+    - title   : English # Label
+      url     : /en # url
+    - title   : Español # Label
+      url     : /es # url
   - title   : About # Label
     url     : /about # url
 
