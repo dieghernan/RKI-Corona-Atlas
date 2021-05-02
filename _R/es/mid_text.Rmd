@@ -1,5 +1,5 @@
-Toda los datos han sido recopilados automáticamente de la web del Robert Koch Institut,
-por lo que no podemos garantizar su veracidad.
+Todos los datos se recogen automáticamente de la web del Robert Koch Institut,
+por lo que no puede garantizarse su veracidad.
 Visita [rki.de/risikogebiete](https://rki.de/risikogebiete)
 para obtener la información completa sobre todas
 las áreas de riesgo.
