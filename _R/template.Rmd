@@ -154,6 +154,14 @@ cntries_shape_reg <-
 
 cntries_shape_reg <- bind_rows(cntries_shape_reg, K)
 
+# Merge overseas and disputed territories to their administrations
+overseas <- readr::read_csv("../assets/data/overseas.csv")
+cntries_shape_reg <- cntries_shape_reg %>%
+  left_join(overseas) %>% mutate(ISO3_CODE = ifelse(is.na(ISO3_ADMIN),
+                                                    ISO3_CODE,
+                                                    ISO3_ADMIN)) %>%
+  group_by(ISO3_CODE) %>% summarise()
+
 
 cntries_shape_reg2 <- cntries_shape_reg %>%
   select(ISO3_CODE) %>%
