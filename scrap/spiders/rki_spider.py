@@ -20,9 +20,9 @@ date_path = data_dir/"report_date.csv"
 
 de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
 
-names = ["NAME_DE", "NAME_EN", "NAME_ES", "NAME_FR"]
+names = ["NAME_DE", "NAME_EN", "NAME_ES", "NAME_FR", "NAME_PL"]
 translate = {f"NAME_{loc.upper()}":
-             gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=[loc]) for loc in ('es', 'fr')}
+             gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=[loc]) for loc in ('es', 'fr', 'pl')}
 
 
 class RKISpider(scrapy.Spider):
@@ -167,8 +167,8 @@ class RKISpider(scrapy.Spider):
             db_regions = db_old[db_old['region'].notna()]
             reg_df = db_regions[["ISO3_CODE", "NUTS_CODE"] + names]
         except KeyError as e:
-            print("Catching exception")
             key_name = re.search("'([^']*)'", str(e)).group(1)
+            print(f"Adding new language {key_name}\n")
             db_old = db_old.assign(**{key_name: db_old["NAME_EN"].apply(translate[key_name].gettext)})
 
             db_regions = db_old[db_old['region'].notna()]
