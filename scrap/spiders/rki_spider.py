@@ -162,11 +162,17 @@ class RKISpider(scrapy.Spider):
 
         db_old = pd.read_csv(db_path)
         db_old = db_old[db_old["ISO3_CODE"] != "ERROR"]
-        # db_old = db_old.assign(NAME_FR=db_old["NAME_EN"].apply(translate["NAME_FR"].gettext))
-        # Run the previous line once to add new languages (and review the names, especially the `alias` ones)
 
-        db_regions = db_old[db_old['region'].notna()]
-        reg_df = db_regions[["ISO3_CODE", "NUTS_CODE"] + names]
+        try:
+            db_regions = db_old[db_old['region'].notna()]
+            reg_df = db_regions[["ISO3_CODE", "NUTS_CODE"] + names]
+        except KeyError as e:
+            print("Catching exception")
+            key_name = re.search("'([^']*)'", str(e)).group(1)
+            db_old = db_old.assign(**{key_name: db_old["NAME_EN"].apply(translate[key_name].gettext)})
+
+            db_regions = db_old[db_old['region'].notna()]
+            reg_df = db_regions[["ISO3_CODE", "NUTS_CODE"] + names]
 
         db_old = db_old[~db_old['region'].notna()]
 
