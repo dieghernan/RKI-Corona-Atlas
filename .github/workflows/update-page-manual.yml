@@ -11,8 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         name: Checkout
-        with:
-          ref: hotfix
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
@@ -38,7 +36,7 @@ jobs:
       - name: Scrap data
         run: |
           cp -R assets/data log/data
-          scrapy crawl rki
+          scrapy crawl rki &> log/report.txt
           diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
         id: scrapy
 
