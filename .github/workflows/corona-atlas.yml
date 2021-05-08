@@ -52,7 +52,8 @@ jobs:
       - name: Scrap data
         run: |
           cp -R assets/data log/data
-          scrapy crawl rki |& tee log/scrapy_report.txt
+          scrapy crawl rki > log/scrapy_report.txt
+          cat log/scrapy_report.txt
           diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
         id: scrapy
         
