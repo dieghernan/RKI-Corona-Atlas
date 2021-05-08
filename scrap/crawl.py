@@ -22,6 +22,6 @@ class Command(ExistingCrawlCommand):
             if (
                 self.crawler_process.bootstrap_failed
                 or hasattr(self.crawler_process, 'has_exception') and self.crawler_process.has_exception
-                or log_error > 0
+                or log_error
             ):
                 self.exitcode = 1
