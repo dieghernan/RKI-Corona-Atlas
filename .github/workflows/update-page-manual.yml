@@ -12,38 +12,63 @@ jobs:
       - uses: actions/checkout@v2
         name: Checkout
 
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
+      - uses: r-lib/actions/setup-r@v1
+        name: Setup R
+
+      - uses: r-lib/actions/setup-pandoc@master
+        name: Setup Pandoc
 
       - uses: actions/cache@v2
-        name: Cache Python dependencies
+        name: Cache for Linux
+        if: startsWith(runner.os, 'Linux')
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          path: ~/.local/share/renv
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-renv2-
 
-      - name: Install Python dependencies
+      - uses: actions/cache@v2
+        name: Cache for macOS
+        if: startsWith(runner.os, 'macOS')
+        with:
+          path: ~/Library/Application Support/renv
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv2-
+
+      - uses: actions/cache@v2
+        name: Cache for Windows
+        if: startsWith(runner.os, 'Windows')
+        with:
+          path: ~\AppData\Local\renv
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+            
+      - name: Install libdunits
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        run: sudo apt-get install libudunits2-dev
+
+      - name: Install gdal
+        if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
+        run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
+
+      - name: Restore packages
+        shell: Rscript {0}
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
 
-      - name: Install German locale
-        run: sudo apt-get update && sudo apt-get install language-pack-de
 
-      - name: Scrap data
-        run: |
-          cp -R assets/data log/data
-          scrapy crawl rki &> log/report.txt
-          diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
-        id: scrapy
+      - name: Run bot
+        run: Rscript _R/trigger.R
 
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add -A
-          git commit -m 'hotfix-test' || echo "No changes to commit"
+          git commit -m 'Update page' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
+
+
