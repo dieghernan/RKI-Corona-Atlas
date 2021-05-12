@@ -1,6 +1,6 @@
 "Country/Region","Risk level","Details"
 "Afghanistan","Risk area","since 21 Feb 2021."
-"Albania","Not risk area","since 08 May 2021."
+"Albania","Not risk area",
 "Algeria","Risk area","since 15 Jun 2020."
 "Andorra","High incidence area","since 24 Jan 2021."
 "Angola","Risk area","since 15 Jun 2020."
@@ -106,7 +106,7 @@
 "Malaysia","Risk area","since 09 May 2021."
 "Maldives","High incidence area","since 09 May 2021."
 "Mali","Risk area","since 15 Jun 2020."
-"Malta","Not risk area","since 08 May 2021."
+"Malta","Not risk area",
 "Marshall Islands","Not risk area",
 "Mauritania","Risk area","since 15 Jun 2020."
 "Mauritius","Not risk area",

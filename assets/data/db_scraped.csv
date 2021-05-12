@@ -1,7 +1,7 @@
 ﻿ISO3_CODE,risk_level_code,NAME_DE,NAME_EN,NAME_ES,risk_date,region,REG_EXCLUDED,NUTS_CODE,INFO_DE,ERROR
 AFG,3,Afghanistan,Afghanistan,Afganistán,2021-02-21,,,,seit 21. Februar 2021,
 AGO,3,Angola,Angola,Angola,2020-06-15,,,,seit 15. Juni 2020,
-ALB,0,Albanien,Albania,Albania,2021-05-08,,,,Risikogebiet bis einschl. 8 Mai 2021,
+ALB,0,Albanien,Albania,Albania,,,,,,
 AND,2,Andorra,Andorra,Andorra,2021-01-24,,,,(Fürstentum Andorra) (Hochinzidenzgebiet seit 24. Januar 2021),
 ARE,3,Vereinigte Arabische Emirate,United Arab Emirates,Emiratos Árabes Unidos,2021-04-18,,,,seit 18. April 2021,
 ARG,2,Argentinien,Argentina,Argentina,2021-04-18,,,,Hochinzidenzgebiet seit 18. April 2021,
@@ -115,7 +115,7 @@ MEX,2,Mexiko,Mexico,México,2021-01-24,,,,Hochinzidenzgebiet seit 24. Januar 202
 MHL,0,Marshallinseln,Marshall Islands,Islas Marshall,,,,,,
 MKD,2,Nordmazedonien,North Macedonia,North Macedonia,2021-01-24,,,,Hochinzidenzgebiet seit 24. Januar 2021,
 MLI,3,Mali,Mali,Mali,2020-06-15,,,,seit 15. Juni 2020,
-MLT,0,Malta,Malta,Malta,2021-05-08,,,,Risikogebiet bis einschl. 8 Mai 2021,
+MLT,0,Malta,Malta,Malta,,,,,,
 MMR,0,Myanmar/Burma,Myanmar/Burma,Myanmar/Burma,,,,,,
 MNE,3,Montenegro,Montenegro,Montenegro,2021-05-09,,,,"seit 9. Mai 2021, Hochinzidenzgebiet vom 24. Januar 2021 – 8. Mai 2021",
 MNG,2,Mongolei,Mongolia,Mongolia,2021-05-02,,,,Hochinzidenzgebiet seit 2. Mai 2021,
@@ -244,7 +244,3 @@ IRL,5,South-West,South-West,South-West,2021-04-03,True,,IE053,seit 3. April 2021
 IRL,5,West,West,West,2021-04-25,True,,IE042,seit 25. April 2021,
 NOR,5,Rogaland,Rogaland,Rogaland,2021-03-28,True,,NO0A1,seit 28. März 2021,
 PRT,5,Algarve,Algarve,Algarve,2021-04-18,True,,PT15,seit 18. April 2021,
-ERROR,0,Finnland,Finland,Finlandia,2021-05-08,,,,(hierzu gehört auch die Stadt Helsinki) und Varsinais-Suomi (Risikogebiet bis einschl. 8 Mai 2021),DUPLICATED
-ERROR,0,Vereinigtes Königreich,United Kingdom,Reino Unido,2021-05-01,,,,(Risikogebiet bis einschl. 1. Mai 2021) und Falklandinseln (Risikogebiet bis einschl. 8 Mai 2021),DUPLICATED
-ERROR,0,Norwegen,Norway,Noruega,2021-05-08,,,,Risikogebiet bis einschl. 8 Mai 2021,DUPLICATED
-ERROR,0,Portugal,Portugal,Portugal,2021-05-08,,,,Risikogebiet bis einschl. 8 Mai 2021,DUPLICATED
