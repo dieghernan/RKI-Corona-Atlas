@@ -17,7 +17,7 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Standard usage
-    - uses:  helaili/jekyll-action@v2
+    - uses:  helaili/jekyll-action@v2.2.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -25,8 +25,7 @@ jobs:
     - uses: helaili/jekyll-action@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        jekyll_src: 'sample_site'
-
+ 
     # Specify the target branch (optional)
     - uses: helaili/jekyll-action@v2
       with:
