@@ -22,7 +22,7 @@
 "Bhután","Área de riesgo","desde el 15/06/2020."
 "Bielorrusia","Área de riesgo","desde el 15/06/2020."
 "Bolivia","Área de alta incidencia","desde el 24/01/2021."
-"Bosnia y Herzegovina","Área de alta incidencia","desde el 24/01/2021."
+"Bosnia y Herzegovina","Área de riesgo","desde el 16/05/2021."
 "Botsuana","Área de variante viral","desde el 07/02/2021."
 "Brasil","Área de variante viral","desde el 19/01/2021."
 "Brunei","No es área de riesgo",
@@ -56,9 +56,9 @@
 "Eritrea","Área de riesgo","desde el 15/06/2020."
 "Eslovaquia","Área de riesgo","desde el 11/04/2021."
 "Eslovenia","Área de alta incidencia","desde el 24/01/2021."
-"España","Área de riesgo (parcial)","desde el 14/08/2020. El nivel de riesgo afecta a las siguientes regiones: Andalucía, desde el 14/08/2020; Aragón, desde el 31/07/2020; Asturias, desde el 14/08/2020; País Vasco, desde el 14/08/2020; Ceuta, desde el 14/08/2020; Extremadura, desde el 11/04/2021; Islas Canarias, desde el 21/02/2021; Cantabria, desde el 14/08/2020; Castilla y León, desde el 14/08/2020; Castilla-La Mancha, desde el 18/04/2021; Cataluña, desde el 31/07/2020; La Rioja, desde el 03/04/2021; Madrid, desde el 14/08/2020; Melilla, desde el 14/08/2020; Navarra, desde el 31/07/2020"
+"España","Área de riesgo (parcial)","desde el 14/08/2020. El nivel de riesgo afecta a las siguientes regiones: Andalucía, desde el 14/08/2020; Aragón, desde el 31/07/2020; Asturias, desde el 14/08/2020; País Vasco, desde el 14/08/2020; Extremadura, desde el 11/04/2021; Cantabria, desde el 14/08/2020; Castilla y León, desde el 14/08/2020; Castilla-La Mancha, desde el 18/04/2021; Cataluña, desde el 31/07/2020; La Rioja, desde el 03/04/2021; Madrid, desde el 14/08/2020; Melilla, desde el 14/08/2020; Navarra, desde el 31/07/2020"
 "Estados Unidos","Área de riesgo","desde el 07/03/2021."
-"Estonia","Área de alta incidencia","desde el 24/01/2021."
+"Estonia","Área de riesgo","desde el 16/05/2021."
 "Eswatini","Área de variante viral","desde el 31/01/2021."
 "Etiopía","Área de riesgo","desde el 15/06/2020."
 "Federación Rusa","Área de riesgo","desde el 15/06/2020."
@@ -94,17 +94,17 @@
 "Italia","Área de riesgo","desde el 08/11/2020."
 "Jamaica","Área de riesgo","desde el 15/06/2020."
 "Japón","No es área de riesgo",
-"Jordania","Área de alta incidencia","desde el 07/03/2021."
+"Jordania","Área de riesgo","desde el 16/05/2021."
 "Kazajistán","Área de riesgo","desde el 15/06/2020."
 "Kenia","Área de riesgo","desde el 15/06/2020."
 "Kirgizstán","Área de riesgo","desde el 15/06/2020."
 "Kiribati","No es área de riesgo",
-"Kosovo","Área de alta incidencia","desde el 24/01/2021."
+"Kosovo","Área de riesgo","desde el 16/05/2021."
 "Kuwait","Área de alta incidencia","desde el 21/03/2021."
 "Laos","No es área de riesgo",
 "Lesoto","Área de variante viral","desde el 31/01/2021."
 "Letonia","Área de riesgo","desde el 11/04/2021."
-"Líbano","Área de alta incidencia","desde el 24/01/2021."
+"Líbano","Área de riesgo","desde el 16/05/2021."
 "Liberia","Área de riesgo","desde el 15/06/2020."
 "Libia","Área de riesgo","desde el 15/06/2020."
 "Liechtenstein","Área de riesgo","desde el 24/10/2020."
@@ -128,12 +128,12 @@
 "Myanmar/Burma","No es área de riesgo",
 "Namibia","Área de riesgo","desde el 14/02/2021."
 "Nauru","No es área de riesgo",
-"Nepal","Área de alta incidencia","desde el 09/05/2021."
+"Nepal","Área de variante viral","desde el 16/05/2021."
 "Nicaragua","Área de riesgo","desde el 15/06/2020."
 "Niger","Área de riesgo","desde el 15/06/2020."
 "Nigeria","Área de riesgo","desde el 15/06/2020."
 "Niue","No es área de riesgo",
-"North Macedonia","Área de alta incidencia","desde el 24/01/2021."
+"North Macedonia","Área de riesgo","desde el 16/05/2021."
 "Noruega","Área de riesgo (parcial)","desde el 08/11/2020. El nivel de riesgo afecta a las siguientes regiones: Agder, desde el 02/05/2021; Oslo, desde el 08/11/2020; Vestfold og Telemark, desde el 09/05/2021; Viken, desde el 15/11/2020"
 "Nueva Caledonia","No es área de riesgo",
 "Nueva Zelanda","No es área de riesgo",
@@ -141,7 +141,7 @@
 "Países Bajos","Área de alta incidencia","desde el 06/04/2021."
 "Pakistán","Área de riesgo","desde el 15/06/2020."
 "Palau","No es área de riesgo",
-"Palestina","Área de alta incidencia","desde el 24/01/2021."
+"Palestina","Área de riesgo","desde el 16/05/2021."
 "Panamá","Área de riesgo","desde el 28/02/2021."
 "Papúa Nueva Guinea","Área de riesgo","desde el 17/06/2020."
 "Paraguay","Área de alta incidencia","desde el 21/03/2021."
@@ -149,7 +149,7 @@
 "Polonia","Área de riesgo","desde el 09/05/2021."
 "Portugal","Área de riesgo (parcial)","desde el 14/03/2021. El nivel de riesgo afecta a las siguientes regiones: Azores, desde el 18/04/2021; Madeira, desde el 14/03/2021"
 "Qatar","Área de alta incidencia","desde el 25/04/2021."
-"Reino Unido","Área de riesgo (parcial)","desde el 21/03/2021. El nivel de riesgo afecta a las siguientes regiones: Anguila, desde el 09/05/2021; Islas Bermudas, desde el 21/03/2021"
+"Reino Unido","Área de riesgo","desde el 16/05/2021."
 "República Centro-africana","Área de riesgo","desde el 15/06/2020."
 "República Checa","Área de riesgo","desde el 02/05/2021."
 "República Democráctica del Congo","Área de riesgo","desde el 15/06/2020."
@@ -164,12 +164,12 @@
 "Santa Lucía","No es área de riesgo",
 "Santo Tomé y Príncipe","Área de riesgo","desde el 16/06/2020."
 "Senegal","Área de riesgo","desde el 15/06/2020."
-"Serbia","Área de alta incidencia","desde el 24/01/2021."
+"Serbia","Área de riesgo","desde el 16/05/2021."
 "Seychelles","Área de alta incidencia","desde el 14/02/2021."
 "Sierra Leona","Área de riesgo","desde el 15/06/2020."
 "Singapur","No es área de riesgo",
 "Somalia","Área de riesgo","desde el 15/06/2020."
-"Sri Lanka","No es área de riesgo",
+"Sri Lanka","Área de riesgo","desde el 16/05/2021."
 "Sudán","Área de alta incidencia","desde el 31/01/2021."
 "Sudán del Sur","Área de riesgo","desde el 15/06/2020."
 "Suecia","Área de alta incidencia","desde el 07/03/2021."
@@ -187,7 +187,7 @@
 "Turkmenistán","Área de riesgo","desde el 17/06/2020."
 "Turquía","Área de alta incidencia","desde el 11/04/2021."
 "Tuvalu","No es área de riesgo",
-"Ucrania","Área de alta incidencia","desde el 11/04/2021."
+"Ucrania","Área de riesgo","desde el 16/05/2021."
 "Uganda","No es área de riesgo",
 "Uruguay","Área de alta incidencia","desde el 21/03/2021."
 "Uzbekistán","Área de riesgo","desde el 15/06/2020."
