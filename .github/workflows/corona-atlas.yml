@@ -120,17 +120,17 @@ jobs:
           git commit -m 'corona-atlas update' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
           
-        # Use GitHub Actions' cache to shorten build times and decrease load on servers
+          
       - uses: actions/cache@v2
-        name: Jekyll cache
+        name: Cache Jekyll dependencies
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-        restore-keys: |
+          restore-keys: |
           ${{ runner.os }}-gems-
- 
+          
       - uses: helaili/jekyll-action@2.2.0
-        name: Build page - source code on branch gh-pages
+        name: Build page on branch gh-pages
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
