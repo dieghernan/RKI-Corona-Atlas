@@ -1,9 +1,9 @@
-name: update-page
+name: run-R
 
 on: workflow_dispatch 
 
 jobs:
-  update-page:
+  run-R:
     runs-on: ubuntu-latest
     env:
       RSPM: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"
