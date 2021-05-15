@@ -12,9 +12,9 @@ on:
    branches:
      - master
      - main
-   paths:
-     - _R/**
-     - assets/data/**
+   #paths:
+   #  - _R/**
+   #  - assets/data/**
  schedule:
    - cron: "0 5/6 * * *"
 
@@ -124,7 +124,7 @@ jobs:
   build-page:     
     needs: corona-atlas
     runs-on: ubuntu-latest
-      steps:
+    steps:
       - uses: actions/checkout@v2
       
       - uses: actions/cache@v2
