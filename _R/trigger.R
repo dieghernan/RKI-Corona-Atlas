@@ -24,7 +24,6 @@ rmarkdown::render(
   quiet = TRUE
 )
 
-
 message("----Render og_image\n\n")
 # Dinamic og image
 source("_R/og_image.R")
