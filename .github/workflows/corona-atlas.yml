@@ -5,9 +5,9 @@ on:
    branches:
      - master
      - main
-   #paths:
-   #  - _R/**
-   #  - assets/data/**
+   paths:
+     - _R/**
+     - assets/data/**
  pull_request:
    branches:
      - master
