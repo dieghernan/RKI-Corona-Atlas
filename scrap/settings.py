@@ -14,6 +14,8 @@ NEWSPIDER_MODULE = 'scrap.spiders'
 
 LOG_LEVEL = "WARNING"
 
+COMMANDS_MODULE = 'scrap.crawl'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrap (+http://www.yourdomain.com)'
 

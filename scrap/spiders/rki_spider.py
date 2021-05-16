@@ -44,8 +44,8 @@ class RKISpider(scrapy.Spider):
              'USA': ('USA ', ' USA')}
 
     date_fmt = {'db': '%Y-%m-%d', 'de': {'dt': '%d.%m.%Y', 're': r'\d{1,2}\.\d{1,2}\.\d{4}'},
-                'risk': {'dt': '%d. %B %Y', 're': r'\d{1,2}\. +[äa-z]+ +\d{4}',
-                         'fallback': '%d. %b %Y'}}
+                'risk': {'dt': '%d %B %Y', 're': r'\d{1,2}\.? +[äa-z]+\.? +\d{4}',
+                         'fallback': '%d %b %Y'}}
 
     h2_xpath = "//div[contains(@class, 'text')]/h2"
     li_xpath = "//following-sibling::ul[1]/li"
@@ -71,12 +71,14 @@ class RKISpider(scrapy.Spider):
     deletable = ("(", ")", ":", "–")
 
     @classmethod
-    def strip_country(cls, message):
+    def strip_country(cls, message, separators=None):
+        if separators is None:
+            separators = cls.separators
         split_msg = message.split(" ")
         sep_index = len(split_msg)
         found = False
         for i, s in enumerate(split_msg):
-            for sep in cls.separators:
+            for sep in separators:
                 index = s.find(sep)
                 if index == 0:
                     sep_index = i
@@ -117,7 +119,7 @@ class RKISpider(scrapy.Spider):
 
         date_match = re.search(ppt_fmt, info, re.I)
         if date_match:
-            prep_date = date_match.group()
+            prep_date = date_match.group().replace('.', '')     # Remove dots to handle typos
             date = re.search(cls.date_fmt["risk"]["re"], prep_date, re.I).group()
             try:
                 date_dt = dt.strptime(date, dt_fmt).date()
@@ -295,7 +297,7 @@ class RKISpider(scrapy.Spider):
                                 iso3_regions.append(iso3_found)
                                 nuts_regions.append(cr["NUTS_CODE"])
                     for r in regions:
-                        name_sr, info_sr = self.strip_country(r.get())
+                        name_sr, info_sr = self.strip_country(r.get(), separators=("(",))
                         reg_hit = country_regs.query("NAME_DE == @name_sr")
                         name_translate = {n: loc.gettext(name_sr) for n, loc in translate.items()}
                         name_translate["NAME_EN"] = name_sr
