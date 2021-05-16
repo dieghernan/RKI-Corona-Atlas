@@ -1,0 +1,17 @@
+<p class="text-right font-weight-bold">mis à jour le `r format(date, format="%d/%m/%Y")`</p>
+
+
+## Carte du risque Covid-19
+
+La carte interactive suivante présente 
+les zones à risque actuelles dans le monde
+à partir des informations données par
+le ministère allemand des Affaires étrangères,
+le ministère allemand de la santé
+et le ministère allemand de l'intérieur.
+
+
+<!--more-->
+Cliquez sur un pays spécifique 
+pour lire plus de détails sur son statut actuel 
+ainsi que celui de ses régions.

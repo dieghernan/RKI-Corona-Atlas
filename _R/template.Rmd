@@ -27,12 +27,14 @@ data$NAME <-
   switch(params$lang,
          "en" = data$NAME_EN,
          "de" = data$NAME_DE,
-         "es" = data$NAME_ES)
+         "es" = data$NAME_ES,
+         "fr" = data$NAME_FR)
 rl$risk_level <-
   switch(params$lang,
          "en" = rl$risk_level_en,
          "de" = rl$risk_level_de,
-         "es" = rl$risk_level_es)
+         "es" = rl$risk_level_es,
+         "fr" = rl$risk_level_fr)
 
 idioms <- readr::read_csv("../assets/data/idioms.csv") %>%
   filter(lang == params$lang)
