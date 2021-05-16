@@ -1,0 +1,22 @@
+---
+title: Informations sur les zones à risque d'exposition au COVID-19 internationales
+subtitle: établies par le gouvernement allemand
+permalink: /fr
+header_type: hero
+excerpt: |
+  La carte interactive suivante présente les zones à risque
+  actuelles dans le monde pour chaque pays selon le gouvernement allemand.
+always_allow_html: yes
+output: 
+  md_document:
+    preserve_yaml: true
+params:
+  lang: fr
+---
+
+
+<!-- Modify _R/index_fr.Rmd file instead -->
+
+```{r, child='template.Rmd'}
+
+```
