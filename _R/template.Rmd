@@ -181,7 +181,7 @@ all_shapes <-
 
 
 
-st_write(all_shapes, paste0("../assets/dist/countries_", params$lang, ".geojson")
+st_write(all_shapes, paste0("../assets/dist/countries_", params$lang, ".geojson"))
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == 0,
