@@ -146,7 +146,7 @@ cntries_shape <-
     year = 2020,
     epsg = 4326,
     cache_dir = "./geojson",
-    resolution = 20
+    resolution = 60
   )
 # Merge overseas and disputed territories to their administrations
 overseas <- readr::read_csv("../assets/data/overseas.csv")
