@@ -47,10 +47,10 @@ navbar:
       url     : /en # url
     - title   : Español # Label
       url     : /es # url
-    - title: Français
-      url: /fr
-    - title: Polski
-      url: /pl
+#    - title: Français
+#      url: /fr
+#    - title: Polski
+#      url: /pl
   - title   : About # Label
     url     : /about # url
 
