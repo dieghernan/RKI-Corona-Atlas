@@ -194,15 +194,6 @@ level2 <- all_shapes %>% filter(risk_level_code == 2)
 level3 <- all_shapes %>% filter(risk_level_code == 3)
 level4 <- all_shapes %>% filter(risk_level_code == 4)
 
-st_write(DEU, paste0("../assets/dist/DEU_", params$lang, ".geojson"))
-
-st_write(level1, paste0("../assets/dist/level1_", params$lang, ".geojson"))
-
-st_write(level2, paste0("../assets/dist/level2_", params$lang, ".geojson"))
-
-st_write(level3, paste0("../assets/dist/level3_", params$lang, ".geojson"))
-
-st_write(level4, paste0("../assets/dist/level4_", params$lang, ".geojson"))
 
 ```
 
