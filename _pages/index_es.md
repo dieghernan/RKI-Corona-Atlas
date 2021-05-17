@@ -19,22 +19,6 @@ params:
 ---
 
 <!-- Modify _R/index_es.Rmd file instead -->
-
-    ## Writing layer `DEU_es' to data source `../assets/dist/DEU_es.geojson' using driver `GeoJSON'
-    ## Writing 1 features with 10 fields and geometry type Multi Polygon.
-
-    ## Writing layer `level1_es' to data source `../assets/dist/level1_es.geojson' using driver `GeoJSON'
-    ## Writing 11 features with 10 fields and geometry type Unknown (any).
-
-    ## Writing layer `level2_es' to data source `../assets/dist/level2_es.geojson' using driver `GeoJSON'
-    ## Writing 34 features with 10 fields and geometry type Unknown (any).
-
-    ## Writing layer `level3_es' to data source `../assets/dist/level3_es.geojson' using driver `GeoJSON'
-    ## Writing 105 features with 10 fields and geometry type Unknown (any).
-
-    ## Writing layer `level4_es' to data source `../assets/dist/level4_es.geojson' using driver `GeoJSON'
-    ## Writing 7 features with 10 fields and geometry type Unknown (any).
-
 <p class="text-right font-weight-bold">
 Actualizado el 14/05/2021
 </p>
