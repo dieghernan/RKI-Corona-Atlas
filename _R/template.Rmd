@@ -133,6 +133,9 @@ data_cntries$html_labels <- ifelse(
   data_cntries$html_labels
 )
 
+
+data_cntries$html_labelsraw <- data_cntries$html_labels
+
 data_cntries$html_labels <- data_cntries$html_labels %>%
   lapply(htmltools::HTML)
 
@@ -181,7 +184,7 @@ all_shapes <-
 
 
 
-st_write(all_shapes, paste0("../assets/dist/countries_", params$lang, ".geojson"))
+
 
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == 0,
@@ -190,6 +193,17 @@ level1 <- all_shapes %>% filter(risk_level_code == 1)
 level2 <- all_shapes %>% filter(risk_level_code == 2)
 level3 <- all_shapes %>% filter(risk_level_code == 3)
 level4 <- all_shapes %>% filter(risk_level_code == 4)
+
+st_write(DEU, paste0("../assets/dist/DEU_", params$lang, ".geojson"))
+
+st_write(level1, paste0("../assets/dist/level1_", params$lang, ".geojson"))
+
+st_write(level2, paste0("../assets/dist/level2_", params$lang, ".geojson"))
+
+st_write(level3, paste0("../assets/dist/level3_", params$lang, ".geojson"))
+
+st_write(level4, paste0("../assets/dist/level4_", params$lang, ".geojson"))
+
 ```
 
 ```{r, child=paste0(params$lang, '/top_text.Rmd')}
