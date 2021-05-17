@@ -107,6 +107,9 @@ exclude:
   - scrap
   - requirements.txt
   - scrapy.cfg
+  - renv
+  - renv.lock
+  - '*.Rproj'
 
 include:
  - _pages
