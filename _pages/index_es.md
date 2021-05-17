@@ -19,6 +19,10 @@ params:
 ---
 
 <!-- Modify _R/index_es.Rmd file instead -->
+
+    ## Writing layer `countries_es' to data source `../assets/dist/countries_es.geojson' using driver `GeoJSON'
+    ## Writing 199 features with 9 fields and geometry type Unknown (any).
+
 <p class="text-right font-weight-bold">
 Actualizado el 14/05/2021
 </p>
