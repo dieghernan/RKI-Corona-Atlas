@@ -179,6 +179,10 @@ all_shapes <- st_make_valid(cntries_shape_reg2)
 all_shapes <-
   all_shapes %>% select(ISO3_CODE) %>% left_join(data_cntries)
 
+
+
+st_write(all_shapes, paste0("../assets/dist/countries_", params$lang, ".geojson")
+
 DEU <- all_shapes %>% filter(ISO3_CODE == "DEU")
 level0 <- all_shapes %>% filter(risk_level_code == 0,
                                 ISO3_CODE != "DEU")
