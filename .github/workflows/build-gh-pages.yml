@@ -1,6 +1,9 @@
 name: build-gh-pages
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  schedule:
+   - cron: "15 5/6 * * *"
 
 jobs:
   build-gh-pages:
