@@ -3,12 +3,12 @@
 "Ägypten","Hochinzidenzgebiet","Hochinzidenzgebiet seit 24. Januar 2021"
 "Albanien","Kein Risikogebiet",
 "Algerien","Risikogebiet","seit 15. Juni 2020"
-"Andorra","Hochinzidenzgebiet","(Fürstentum Andorra) (Hochinzidenzgebiet seit 24. Januar 2021)"
+"Andorra","Risikogebiet","seit 23. Mai 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 22. Mai 2021"
 "Angola","Risikogebiet","seit 15. Juni 2020"
 "Antigua und Barbuda","Kein Risikogebiet",
 "Äquatorialguinea","Risikogebiet","seit 15. Juni 2020"
 "Argentinien","Hochinzidenzgebiet","Hochinzidenzgebiet seit 18. April 2021"
-"Armenien","Risikogebiet","seit 9. Mai 2021; Hochinzidenzgebiet vom 11. April 2021 – 8. Mai 2021"
+"Armenien","Risikogebiet","seit 9. Mai 2021"
 "Aserbaidschan","Risikogebiet","seit 15. Juni 2020"
 "Äthiopien","Risikogebiet","seit 15. Juni 2020"
 "Australien","Kein Risikogebiet",
@@ -32,7 +32,7 @@
 "Cabo Verde","Hochinzidenzgebiet","Hochinzidenzgebiet seit 25. April 2021"
 "Chile","Hochinzidenzgebiet","Hochinzidenzgebiet seit 3. April 2021"
 "China","Kein Risikogebiet",
-"Costa Rica","Hochinzidenzgebiet","Hochinzidenzgebiet seit 9. Mai 2021; bereits seit 15. Juni 2020 als Risikogebiet ausgewiesen"
+"Costa Rica","Hochinzidenzgebiet","Hochinzidenzgebiet seit 9. Mai 2021"
 "Côte d'Ivoire","Risikogebiet","seit 15. Juni 2020"
 "Dänemark","Teilweise Risikogebiet","– das gesamte Land (seit 28. März 2021); Ausgenommen sind die Färöer und Grönland"
 "Deutschland",,
@@ -45,11 +45,11 @@
 "Estland","Risikogebiet","seit 16. Mai 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 15. Mai 2021"
 "Eswatini","Virusvarianten-Gebiet","Virusvarianten-Gebiet seit 31. Januar 2021; bereits seit 15. Juni 2020 Risikogebiet"
 "Fidschi","Kein Risikogebiet",
-"Finnland","Teilweise Risikogebiet","– die folgenden Regionen gelten derzeit als Risikogebiete:Päijät-Häme (seit 28. März 2021)"
-"Frankreich","Hochinzidenzgebiet","inkl. aller Übersee-Departments (Hochinzidenzgebiet seit 28. März 2021) sowie das Département Moselle (Hochinzidenzgebiet seit 2. Mai 2021; Virusvarianten-Gebiet vom 2. März 2021 – 1. Mai 2021)"
+"Finnland","Kein Risikogebiet",
+"Frankreich","Risikogebiet","inkl. aller Übersee-Departments (seit 23. Mai 2021; Hochinzidenzgebiet vom 2. Mai 2021 – 22. Mai 2021)"
 "Gabun","Risikogebiet","seit 15. Juni 2020"
 "Gambia","Risikogebiet","seit 15. Juni 2020"
-"Georgien","Hochinzidenzgebiet","Hochinzidenzgebiet seit 9. Mai 2021; bereits seit 7. Oktober 2020 als Risikogebiet ausgewiesen"
+"Georgien","Hochinzidenzgebiet","Hochinzidenzgebiet seit 9. Mai 2021"
 "Ghana","Risikogebiet","seit 15. Juni 2020"
 "Grenada","Kein Risikogebiet",
 "Griechenland","Risikogebiet","seit 7. März 2021"
@@ -64,11 +64,11 @@
 "Indonesien","Risikogebiet","seit 15. Juni 2020"
 "Irak","Risikogebiet","seit 15. Juni 2020"
 "Iran","Hochinzidenzgebiet","Hochinzidenzgebiet seit 24. Januar 2021"
-"Irland","Teilweise Risikogebiet","(seit 21. März 2021), die folgenden Regionen gelten derzeit als RisikogebieteBorder (seit 21. März 2021); Dublin (seit 21. März 2021); Mid-East (seit 21. März 2021); Midland (seit 21. März 2021)"
+"Irland","Teilweise Risikogebiet","(seit 21. März 2021), die folgenden Regionen gelten derzeit als RisikogebieteBorder (seit 21. März 2021); Dublin (seit 21. März 2021); Mid-East (seit 21. März 2021)"
 "Island","Kein Risikogebiet",
 "Israel","Kein Risikogebiet",
 "Italien","Risikogebiet","seit 8. November 2020"
-"Jamaika","Risikogebiet","seit 15. Juni 2020"
+"Jamaika","Kein Risikogebiet",
 "Japan","Kein Risikogebiet",
 "Jemen","Risikogebiet","seit 15. Juni 2020"
 "Jordanien","Risikogebiet","seit 16. Mai 2021; Hochinzidenzgebiet vom 7. März 2021 – 15. Mai 2021"
@@ -86,7 +86,7 @@
 "Kongo Rep","Risikogebiet","seit 15. Juni 2020"
 "Korea (Volksrepublik)","Risikogebiet","seit 15. Juni 2020"
 "Kosovo","Risikogebiet","seit 16. Mai 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 15. Mai 2021"
-"Kroatien","Hochinzidenzgebiet","Hochinzidenzgebiet seit 11. April 2021"
+"Kroatien","Risikogebiet","seit 23. Mai 2021; Hochinzidenzgebiet vom 11. April 2021 – 22. Mai 2021"
 "Kuba","Risikogebiet","seit 28. Februar 2021"
 "Kuwait","Hochinzidenzgebiet","Hochinzidenzgebiet seit 21. März 2021"
 "Laos","Kein Risikogebiet",
@@ -101,7 +101,7 @@
 "Madagaskar","Risikogebiet","seit 15. Juni 2020"
 "Malawi","Virusvarianten-Gebiet","Virusvarianten-Gebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 Risikogebiet"
 "Malaysia","Risikogebiet","seit 9. Mai 2021"
-"Malediven","Hochinzidenzgebiet","Hochinzidenzgebiet seit 9. Mai 2021; bereits seit 17. Juli 2020 als Risikogebiet ausgewiesen"
+"Malediven","Hochinzidenzgebiet","Hochinzidenzgebiet seit 9. Mai 2021"
 "Mali","Risikogebiet","seit 15. Juni 2020"
 "Malta","Kein Risikogebiet",
 "Marokko","Risikogebiet","seit 15. Juni 2020"
@@ -112,7 +112,7 @@
 "Micronesia","Kein Risikogebiet",
 "Moldau","Risikogebiet","seit 25. April 2021"
 "Monaco","Risikogebiet","seit 1. November 2020"
-"Mongolei","Hochinzidenzgebiet","Hochinzidenzgebiet seit 2. Mai 2021"
+"Mongolei","Risikogebiet","seit 23. Mai 2021; Hochinzidenzgebiet vom 2. Mai 2021 – 22. Mai 2021"
 "Montenegro","Risikogebiet","seit 9. Mai 2021, Hochinzidenzgebiet vom 24. Januar 2021 – 8. Mai 2021"
 "Mosambik","Virusvarianten-Gebiet","Virusvarianten-Gebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 Risikogebiet"
 "Myanmar/Burma","Kein Risikogebiet",
@@ -128,7 +128,7 @@
 "Niue","Kein Risikogebiet",
 "Nordmazedonien","Risikogebiet","seit 16. Mai 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 15. Mai 2021"
 "Norwegen","Teilweise Risikogebiet","- die folgenden Provinzen gelten derzeit als Risikogebiete:Oslo (seit 8. November 2020); Viken (seit 15. November 2020); Agder (seit 2. Mai 2021); Vestfold og Telemark (seit 9. Mai 2021)"
-"Oman","Hochinzidenzgebiet","Hochinzidenzgebiet seit 25. April 2021"
+"Oman","Risikogebiet","seit 23. Mai 2021; Hochinzidenzgebiet vom 25. April 2021 – 22. Mai 2021"
 "Österreich","Teilweise Risikogebiet","– das gesamte Land mit Ausnahme der Gemeinden Jungholz und Mittelberg / Kleinwalsertal (seit 1. November 2020)"
 "Pakistan","Risikogebiet","seit 15. Juni 2020"
 "Palästinensische Gebiete","Risikogebiet","seit 16. Mai 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 15. Mai 2021"
@@ -141,13 +141,13 @@
 "Polen","Risikogebiet","seit 9. Mai 2021; Hochinzidenzgebiet vom 21. März 2021 – 8. Mai 2021"
 "Portugal","Teilweise Risikogebiet","– die folgenden Regionen gelten derzeit als Risikogebiete:Madeira (autonome Region) (seit 14. März 2021); Azoren (autonome Region) (seit 18. April 2021)"
 "Ruanda","Kein Risikogebiet",
-"Rumänien","Risikogebiet","seit 7. Oktober 2020"
+"Rumänien","Kein Risikogebiet",
 "Russische Föderation","Risikogebiet","seit 15. Juni 2020"
 "Saint Vincent and The Grenadines","Kein Risikogebiet",
 "Salomoninseln","Kein Risikogebiet",
 "Sambia","Virusvarianten-Gebiet","Virusvarianten-Gebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 Risikogebiet"
 "Samoa","Kein Risikogebiet",
-"San Marino","Risikogebiet","seit 1. November 2020"
+"San Marino","Kein Risikogebiet",
 "São Tomé und Príncipe","Risikogebiet","seit 16. Juni 2020"
 "Saudi-Arabien","Risikogebiet","seit 15. Juni 2020"
 "Schweden","Hochinzidenzgebiet","Hochinzidenzgebiet seit 7. März 2021"
@@ -158,18 +158,18 @@
 "Sierra Leone","Risikogebiet","seit 15. Juni 2020"
 "Simbabwe","Virusvarianten-Gebiet","Virusvarianten-Gebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 Risikogebiet"
 "Singapur","Kein Risikogebiet",
-"Slowakei","Risikogebiet","seit 11. April 2021"
-"Slowenien","Hochinzidenzgebiet","Hochinzidenzgebiet seit 24. Januar 2021"
+"Slowakei","Kein Risikogebiet",
+"Slowenien","Risikogebiet","seit 23. Mai 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 22. Mai 2021"
 "Somalia","Risikogebiet","seit 15. Juni 2020"
-"Spanien","Teilweise Risikogebiet","– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als Risikogebiete:Andalusien (seit 14. August 2020); Aragon (seit 31. Juli 2020); Asturien (seit 14. August 2020); Kantabrien (seit 14. August 2020); Kastilien-La Mancha (seit 18. April 2021); Kastilien und León (seit 14. August 2020); Katalonien (seit 31. Juli 2020); Extremadura (seit 11. April 2021); Madrid (seit 14. August 2020); Melilla (seit 14. August 2020); Navarra (seit 31. Juli 2020); Baskenland (seit 14. August 2020); La Rioja (seit 3. April. 2021)"
+"Spanien","Teilweise Risikogebiet","– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als Risikogebiete:Andalusien (seit 14. August 2020); Aragon (seit 31. Juli 2020); Kantabrien (seit 14. August 2020); Kastilien-La Mancha (seit 18. April 2021); Kastilien und León (seit 14. August 2020); Katalonien (seit 31. Juli 2020); Madrid (seit 14. August 2020); Melilla (seit 14. August 2020); Navarra (seit 31. Juli 2020); Baskenland (seit 14. August 2020); La Rioja (seit 3. April. 2021)"
 "Sri Lanka","Risikogebiet","seit 16. Mai 2021"
 "St. Kitts und Nevis","Kein Risikogebiet",
-"St. Lucia","Kein Risikogebiet",
+"St. Lucia","Risikogebiet","seit 23. Mai 2021"
 "Südafrika","Virusvarianten-Gebiet","Virusvarianten-Gebiet seit 13. Januar 2021; bereits seit 15. Juni 2020 Risikogebiet"
 "Sudan","Hochinzidenzgebiet","Hochinzidenzgebiet seit 31. Januar 2021"
 "Südkorea","Kein Risikogebiet",
 "Südsudan","Risikogebiet","seit 15. Juni 2020"
-"Surinam","Risikogebiet","seit 15. Juni 2020"
+"Surinam","Hochinzidenzgebiet","Hochinzidenzgebiet seit 23. Mai 2021; bereits seit 15. Juni 2020 als Risikogebiet ausgewiesen"
 "Syrische Arabische Republik","Hochinzidenzgebiet","Hochinzidenzgebiet seit 31. Januar 2021"
 "Tadschikistan","Risikogebiet","seit 15. Juni 2020"
 "Tansania","Hochinzidenzgebiet","Hochinzidenzgebiet seit 14. März 2021"
@@ -177,7 +177,7 @@
 "Timor Leste","Risikogebiet","(Osttimor) (seit 17. Juni 2020)"
 "Togo","Risikogebiet","seit 15. Juni 2020"
 "Tonga","Kein Risikogebiet",
-"Trinidad Tobago","Risikogebiet","seit 15. Juni 2020"
+"Trinidad und Tobago","Hochinzidenzgebiet","Hochinzidenzgebiet seit 23. Mai 2021; bereits seit 15. Juni 2020 als Risikogebiet ausgewiesen"
 "Tschad","Risikogebiet","seit 15. Juni 2020"
 "Tschechien","Risikogebiet","seit 2. Mai 2021"
 "Tunesien","Hochinzidenzgebiet","Hochinzidenzgebiet seit 25. April 2021"
@@ -194,7 +194,7 @@
 "Vatikanstadt","Risikogebiet","seit 1. November 2020"
 "Venezuela","Risikogebiet","seit 15. Juni 2020"
 "Vereinigte Arabische Emirate","Risikogebiet","seit 18. April 2021"
-"Vereinigtes Königreich","Risikogebiet","inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (seit 16. Mai 2021)"
+"Vereinigtes Königreich","Virusvarianten-Gebiet","Virusvarianten-Gebiet seit 23. Mai 2021, seit 16. Mai 2021 bereits als Risikogebiet ausgewiesen"
 "Vietnam","Kein Risikogebiet",
 "Zentralafrikanische Republik","Risikogebiet","seit 15. Juni 2020"
 "Zypern","Hochinzidenzgebiet","Hochinzidenzgebiet seit 21. März 2021"
