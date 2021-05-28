@@ -24,7 +24,7 @@
 "Botswana","Variant of concern","since 07 Feb 2021."
 "Brazil","Variant of concern","since 19 Jan 2021."
 "Brunei","Not risk area",
-"Bulgaria","Risk area","since 02 May 2021."
+"Bulgaria","Not risk area",
 "Burkina Faso","Risk area","since 15 Jun 2020."
 "Burundi","Risk area","since 15 Jun 2020."
 "Cambodia","Not risk area",
@@ -42,13 +42,13 @@
 "Cote D'Ivoire","Risk area","since 15 Jun 2020."
 "Croatia","Risk area","since 23 May 2021."
 "Cuba","Risk area","since 28 Feb 2021."
-"Cyprus","High incidence area","since 21 Mar 2021."
+"Cyprus","Risk area","since 30 May 2021."
 "Czechia","Risk area","since 02 May 2021."
 "Democratic Republic of The Congo","Risk area","since 15 Jun 2020."
 "Denmark","Risk area (partially)","since 28 Mar 2021. The following regions are excluded: Faroes; Greenland"
 "Djibouti","Risk area","since 15 Jun 2020."
 "Dominica","Not risk area",
-"Dominican Republic","Not risk area",
+"Dominican Republic","Risk area","since 30 May 2021."
 "Ecuador","High incidence area","since 31 Jan 2021."
 "Egypt","High incidence area","since 24 Jan 2021."
 "El Salvador","Risk area","since 15 Jun 2020."
@@ -74,7 +74,7 @@
 "Haiti","Risk area","since 15 Jun 2020."
 "Honduras","Risk area","since 15 Jun 2020."
 "Hong Kong","Not risk area",
-"Hungary","Risk area","since 09 May 2021."
+"Hungary","Not risk area",
 "Iceland","Not risk area",
 "India","Variant of concern","since 26 Apr 2021."
 "Indonesia","Risk area","since 15 Jun 2020."
@@ -98,7 +98,7 @@
 "Lesotho","Variant of concern","since 31 Jan 2021."
 "Liberia","Risk area","since 15 Jun 2020."
 "Libya","Risk area","since 15 Jun 2020."
-"Liechtenstein","Risk area","since 24 Oct 2020."
+"Liechtenstein","Not risk area",
 "Lithuania","High incidence area","since 02 May 2021."
 "Luxembourg","Risk area","since 25 Sep 2020."
 "Madagascar","Risk area","since 15 Jun 2020."
@@ -113,7 +113,7 @@
 "Mexico","High incidence area","since 24 Jan 2021."
 "Micronesia","Not risk area",
 "Moldova","Risk area","since 25 Apr 2021."
-"Monaco","Risk area","since 01 Nov 2020."
+"Monaco","Not risk area",
 "Mongolia","Risk area","since 23 May 2021."
 "Montenegro","Risk area","since 09 May 2021."
 "Morocco","Risk area","since 15 Jun 2020."
@@ -122,7 +122,7 @@
 "Namibia","Risk area","since 14 Feb 2021."
 "Nauru","Not risk area",
 "Nepal","Variant of concern","since 16 May 2021."
-"Netherlands","High incidence area","since 06 Apr 2021."
+"Netherlands","Risk area","since 30 May 2021."
 "New Caledonia","Not risk area",
 "New Zealand","Not risk area",
 "Nicaragua","Risk area","since 15 Jun 2020."
@@ -131,7 +131,7 @@
 "Niue","Not risk area",
 "North Korea","Risk area","since 15 Jun 2020."
 "North Macedonia","Risk area","since 16 May 2021."
-"Norway","Risk area (partially)","since 08 Nov 2020. The risk designation applies to the following regions: Agder, since 02 May 2021; Oslo, since 08 Nov 2020; Vestfold og Telemark, since 09 May 2021; Viken, since 15 Nov 2020"
+"Norway","Risk area (partially)","since 08 Nov 2020. The risk designation applies to the following regions: Agder, since 02 May 2021; Innlandet, since 30 May 2021; Oslo, since 08 Nov 2020; Vestfold og Telemark, since 09 May 2021; Viken, since 15 Nov 2020"
 "Oman","Risk area","since 23 May 2021."
 "Pakistan","Risk area","since 15 Jun 2020."
 "Palau","Not risk area",
@@ -141,7 +141,7 @@
 "Paraguay","High incidence area","since 21 Mar 2021."
 "Peru","High incidence area","since 03 Apr 2021."
 "Philippines","Risk area","since 15 Jun 2020."
-"Poland","Risk area","since 09 May 2021."
+"Poland","Not risk area",
 "Portugal","Risk area (partially)","since 14 Mar 2021. The risk designation applies to the following regions: Azores, since 18 Apr 2021; Madeira, since 14 Mar 2021"
 "Qatar","High incidence area","since 25 Apr 2021."
 "Romania","Not risk area",
@@ -152,7 +152,7 @@
 "Saint Vincent and The Grenadines","Not risk area",
 "Samoa","Not risk area",
 "San Marino","Not risk area",
-"Sao Tome and Principe","Risk area","since 16 Jun 2020."
+"Sao Tome and Principe","Not risk area",
 "Saudi Arabia","Risk area","since 15 Jun 2020."
 "Senegal","Risk area","since 15 Jun 2020."
 "Serbia","Risk area","since 16 May 2021."
@@ -166,7 +166,7 @@
 "South Africa","Variant of concern","since 13 Jan 2021."
 "South Korea","Not risk area",
 "South Sudan","Risk area","since 15 Jun 2020."
-"Spain","Risk area (partially)","since 14 Aug 2020. The risk designation applies to the following regions: Andalusia, since 14 Aug 2020; Aragon, since 31 Jul 2020; Basque Country, since 14 Aug 2020; Cantabria, since 14 Aug 2020; Castile and Leon, since 14 Aug 2020; Castile-La Mancha, since 18 Apr 2021; Catalonia, since 31 Jul 2020; La Rioja, since 03 Apr 2021; Madrid, since 14 Aug 2020; Melilla, since 14 Aug 2020; Navarre, since 31 Jul 2020"
+"Spain","Risk area (partially)","since 14 Aug 2020. The risk designation applies to the following regions: Andalusia, since 14 Aug 2020; Aragon, since 31 Jul 2020; Basque Country, since 14 Aug 2020; Castile and Leon, since 14 Aug 2020; Catalonia, since 31 Jul 2020; La Rioja, since 03 Apr 2021; Madrid, since 14 Aug 2020; Melilla, since 14 Aug 2020; Navarre, since 31 Jul 2020"
 "Sri Lanka","Risk area","since 16 May 2021."
 "Sudan","High incidence area","since 31 Jan 2021."
 "Suriname","High incidence area","since 23 May 2021."
