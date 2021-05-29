@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Load GeoJSON</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style>
+		html,
+		body,
+		.leaflet-map,
+		.elevation-div {
+			height: 100%;
+			width: 100%;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.leaflet-map {
+			height: 55%;
+			max-height: 100vh;
+		}
+
+		.elevation-div {
+			height: 25%;
+			font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+		}
+	</style>
+
+	<!-- DHH adapt scripts -->
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+	<script src="https://unpkg.com/leaflet-ui@0.5.0/dist/leaflet-ui.js"></script>
+
+	<link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation@1.6.7/dist/leaflet-elevation.min.css" />
+	<script src="https://unpkg.com/@raruto/leaflet-elevation@1.6.7/dist/leaflet-elevation.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script src="./risk.js"></script>
+	<script src="./country_names.js"></script>
+
+
+</head>
+
+<body>
+
+	<div id="map" class="leaflet-map"></div>
+
+	<script>
+
+		var map_opts = {
+				center: [41.4583, 12.7059],
+				zoom: 4,
+				fullscreenControl: false,
+				resizerControl: true,
+				minZoom: 1,
+			};
+
+		var map = new L.Map('map', map_opts);
+		<!-- DHH tune the map style and the legend -->
+
+		// loading GeoJSON file
+		$.getJSON("country_shapes.geojson",function(data){
+		// L.geoJson function is used to parse geojson file and load on to map
+			let level = L.geoJson(data,
+					{color: "#44444",
+					weight: 0.5,
+					smoothFactor: .1,
+					opacity: 1,
+					fillOpacity: 0.5,
+					highlightOptions: {
+						color: "white",
+						weight: 1,
+						bringToFront: true,
+					},
+					onEachFeature: function (feature, layer) {
+						var risk_level = '';
+						if (feature.properties.ISO3_CODE === "DEU")
+							layer.setStyle({fillColor: "blue"});
+						else switch (risk[feature.properties.ISO3_CODE]) {
+							case 0:
+								risk_level = "Not risk area";
+								layer.setStyle({fillColor: "#00FF00", group: risk_level});
+								break;
+							case 1:
+								risk_level = "Variant of concern";
+								layer.setStyle({fillColor: "red", group: risk_level});
+								break;
+							case 2:
+								risk_level = "High incidence area";
+								layer.setStyle({fillColor: "chocolate", group: risk_level});
+								break;
+							case 3:
+								risk_level = "Risk area";
+								layer.setStyle({fillColor: "orange", group: risk_level});
+								break;
+							case 4:
+								risk_level = "Risk area (partially)";
+								layer.setStyle({fillColor: "yellow", group: risk_level});
+								break;
+						}
+						layer.bindPopup('<strong>'+country_names[feature.properties.ISO3_CODE]+
+										'</strong></br>'+risk_level);}
+					}).addTo(map);
+		});
+	</script>
+
+</body>
+
+</html>
