@@ -35,8 +35,8 @@
 	<script src="https://unpkg.com/@raruto/leaflet-elevation@1.6.7/dist/leaflet-elevation.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-	<script src="./risk.js"></script>
-	<script src="./country_names.js"></script>
+	<script src="../js/risk.js"></script>
+	<script src="../js/locale_en.js"></script>
 
 
 </head>
@@ -61,6 +61,8 @@
 		// loading GeoJSON file
 		$.getJSON("country_shapes.geojson",function(data){
 		// L.geoJson function is used to parse geojson file and load on to map
+			let risk_labels = locale["risk_labels"];
+			let more_info = locale["more_info"];
 			let level = L.geoJson(data,
 					{color: "#44444",
 					weight: 0.5,
@@ -73,33 +75,35 @@
 						bringToFront: true,
 					},
 					onEachFeature: function (feature, layer) {
-						var risk_level = '';
-						if (feature.properties.ISO3_CODE === "DEU")
+						let iso3_code = feature.properties.ISO3_CODE;
+						let risk_code = risk[iso3_code];
+						let risk_level = risk_labels[risk_code];
+						if (iso3_code === "DEU")
 							layer.setStyle({fillColor: "blue"});
-						else switch (risk[feature.properties.ISO3_CODE]) {
+						else switch (risk_code) {
 							case 0:
-								risk_level = "Not risk area";
 								layer.setStyle({fillColor: "#00FF00", group: risk_level});
 								break;
 							case 1:
-								risk_level = "Variant of concern";
 								layer.setStyle({fillColor: "red", group: risk_level});
 								break;
 							case 2:
-								risk_level = "High incidence area";
 								layer.setStyle({fillColor: "chocolate", group: risk_level});
 								break;
 							case 3:
-								risk_level = "Risk area";
 								layer.setStyle({fillColor: "orange", group: risk_level});
 								break;
 							case 4:
-								risk_level = "Risk area (partially)";
 								layer.setStyle({fillColor: "yellow", group: risk_level});
 								break;
 						}
-						layer.bindPopup('<strong>'+country_names[feature.properties.ISO3_CODE]+
-										'</strong></br>'+risk_level);}
+						let info_country = info_rki[feature.properties.ISO3_CODE];
+						let country_name = info_country['name'];
+						let country_info = info_country["info"];
+						let msg = '<strong>'+country_name+'</strong></br>'+risk_level;
+						if (country_info.length > 0)
+							msg += '</br></br><strong>'+more_info+'</strong></br>'+country_info;
+						layer.bindPopup(msg);}
 					}).addTo(map);
 		});
 	</script>

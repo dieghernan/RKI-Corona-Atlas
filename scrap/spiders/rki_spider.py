@@ -14,7 +14,11 @@ try:
 except locale.Error:
     locale.setlocale(locale.LC_TIME, "German")
 
-data_dir = Path("assets/data")
+assets = Path("assets")
+dist_dir = assets / "dist"
+js_dir = assets / "js"
+
+data_dir = assets / "data"
 db_path = data_dir/"db_scraped.csv"
 date_path = data_dir/"report_date.csv"
 
@@ -362,17 +366,83 @@ class RKISpider(scrapy.Spider):
         db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU",
                                                                     self.NO_RISK)["risk_level_code"])
         hidden_regions = db_regions.assign(risk_level_code=self.IGNORE).sort_values(["ISO3_CODE", "NAME_DE"])
-        df_regions = pd.concat([df_regions, hidden_regions]).drop_duplicates(subset="NAME_DE")
+        df_regions_full = pd.concat([df_regions, hidden_regions]).drop_duplicates(subset="NAME_DE")
 
         db_curated = pd.concat([db_curated, db_norisk[["ISO3_CODE", "risk_level_code"] +
                                                       names]]).drop_duplicates(subset="ISO3_CODE")
         db_curated = db_curated.sort_values("ISO3_CODE")
 
-        db_final = pd.concat([db_curated, df_regions, df_duplicated, df_unknown]).set_index("ISO3_CODE")
+        db_final = pd.concat([db_curated, df_regions_full, df_duplicated, df_unknown]).set_index("ISO3_CODE")
         db_final.astype({"risk_level_code": int}).to_csv(db_path, encoding='utf-8-sig',
                                                          date_format=self.date_fmt['db'])
 
         pd.DataFrame({"report_date": [res_date]}).to_csv(date_path, index=False, date_format=self.date_fmt['db'])
+
+        # Build local databases and jsons
+        try:
+            locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
+        except locale.Error:
+            locale.setlocale(locale.LC_TIME, "English")
+
+        db_curated = db_curated.assign(risk_date=pd.to_datetime(db_curated["risk_date"])).set_index("ISO3_CODE")
+        df_regions = df_regions.assign(risk_date=pd.to_datetime(df_regions["risk_date"]))
+
+        risk_json = db_curated['risk_level_code'].to_json(force_ascii=False, indent=1)
+        with open(js_dir / "risk.js", "w") as f:
+            f.write(f"var risk = {risk_json};")
+
+        idioms = pd.read_csv(data_dir / "idioms.csv", index_col=0)
+        risk_levels = pd.read_csv(data_dir / "risk_level_code.csv", index_col=0)
+        region_exc = db_curated["REG_EXCLUDED"]
+        for lang, idiom in idioms.iterrows():
+            name_lang = f"NAME_{lang.upper()}"
+            risk_labels = risk_levels[f"risk_level_{lang}"]
+
+            locale_json = {'more_info': idiom['more_info'], 'risk_labels': risk_labels.fillna('').to_dict()}
+
+            db_lang = db_curated[[name_lang, "risk_level_code"]]
+            db_lang = db_lang.assign(
+                risk_level=db_lang.apply(lambda df: risk_labels[df["risk_level_code"]],axis=1)
+            ).rename(columns={name_lang: "name"})
+
+            if lang == 'de':
+                info_lang = db_curated["INFO_DE"].fillna('')
+            else:
+                date_format = f"{idiom['date_prefix']} {idiom['date_format']}"
+
+                info_lang = db_curated["risk_date"].dt.strftime(date_format).fillna('').rename("info")
+
+                regions_lang = df_regions[["ISO3_CODE", name_lang, 'risk_date']]
+                regions_lang = regions_lang.assign(risk_date=regions_lang["risk_date"].dt.strftime(f", {date_format}"))
+                regions_lang = regions_lang.assign(reg_list="<li>" + regions_lang[name_lang])
+                regions_lang["reg_list"] += regions_lang["risk_date"].fillna('')
+                regions_lang["reg_list"] += "</li>"
+                region_infos = regions_lang.groupby("ISO3_CODE")["reg_list"].apply(''.join)
+                region_infos = "<ul>" + region_infos + "</ul>"
+                region_infos = pd.concat([region_infos, region_exc], axis=1, join="inner")
+                region_infos["reg_prefix"] = idiom["excluded"]
+                region_infos["reg_prefix"] = region_infos["reg_prefix"].where(
+                    region_infos["REG_EXCLUDED"],
+                    idiom["applying"]
+                )
+                region_infos["info_reg"] = ". " + region_infos["reg_prefix"] + region_infos["reg_list"]
+
+                info_lang = pd.concat([info_lang, region_infos], axis=1)
+                info_lang = info_lang["info"] + info_lang["info_reg"].fillna('')
+
+            db_lang = db_lang.assign(info=info_lang)
+
+            info_json = db_lang[["name", "info"]].T.to_json(force_ascii=False, indent=1)
+            with open(js_dir / f"locale_{lang}.js", "w", encoding='utf-8') as f:
+                f.write(f"var locale = {locale_json};\n")
+                f.write(f"var info_rki = {info_json};\n")
+
+            csv_lang = db_lang.reset_index()[['name', 'risk_level', 'info']]
+            csv_lang['info'] = csv_lang['info'].\
+                str.replace("<ul><li>", " -").str.replace("</li><li>", "; -").str.replace("<.*?>","", regex=True)
+
+            csv_lang.columns = [idiom[col] for col in ("country", "risk", "details")]
+            csv_lang.to_csv(dist_dir / f"db_countries_risk_{lang}.csv", encoding='utf-8-sig', index=False)
 
     @classmethod
     def country_names(cls, german=True, lookup=True):
