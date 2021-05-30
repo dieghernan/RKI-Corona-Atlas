@@ -1,4 +1,4 @@
-var locale = {'more_info': "Plus d'informations", 'risk_labels': {0: 'Zone sans risque', 1: 'Zone de variantes du virus', 2: 'Zone à forte incidence', 3: 'Zone à risque', 4: 'Zone à risque (partiel)', 5: ''}};
+var locale = {'more_info': "Plus d'informations", 'risk_level': 'Niveau de risque', 'risk_labels': {0: 'Zone sans risque', 1: 'Zone de variantes du virus', 2: 'Zone à forte incidence', 3: 'Zone à risque', 4: 'Zone à risque (partiel)', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afghanistan",

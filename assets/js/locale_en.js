@@ -1,4 +1,4 @@
-var locale = {'more_info': 'More information', 'risk_labels': {0: 'Not risk area', 1: 'Variant of concern', 2: 'High incidence area', 3: 'Risk area', 4: 'Risk area (partially)', 5: ''}};
+var locale = {'more_info': 'More information', 'risk_level': 'Risk level', 'risk_labels': {0: 'Not risk area', 1: 'Variant of concern', 2: 'High incidence area', 3: 'Risk area', 4: 'Risk area (partially)', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afghanistan",

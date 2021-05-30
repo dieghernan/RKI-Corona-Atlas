@@ -1,4 +1,4 @@
-var locale = {'more_info': 'Więcej informacji', 'risk_labels': {0: 'Nie jest to obszar ryzyka', 1: 'Obszar ze szczególnie niebezpiecznymi mutacjami', 2: 'Obszar o wysokiej częstości występowania', 3: 'Obszar ryzyka', 4: 'Obszar ryzyka (częściowy)', 5: ''}};
+var locale = {'more_info': 'Więcej informacji', 'risk_level': 'Poziom ryzyka', 'risk_labels': {0: 'Nie jest to obszar ryzyka', 1: 'Obszar ze szczególnie niebezpiecznymi mutacjami', 2: 'Obszar o wysokiej częstości występowania', 3: 'Obszar ryzyka', 4: 'Obszar ryzyka (częściowy)', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afganistan",

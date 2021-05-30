@@ -398,7 +398,8 @@ class RKISpider(scrapy.Spider):
             name_lang = f"NAME_{lang.upper()}"
             risk_labels = risk_levels[f"risk_level_{lang}"]
 
-            locale_json = {'more_info': idiom['more_info'], 'risk_labels': risk_labels.fillna('').to_dict()}
+            locale_json = {'more_info': idiom['more_info'], 'risk_level': idiom['risk'],
+                           'risk_labels': risk_labels.fillna('').to_dict()}
 
             db_lang = db_curated[[name_lang, "risk_level_code"]]
             db_lang = db_lang.assign(
