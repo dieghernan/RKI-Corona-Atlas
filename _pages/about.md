@@ -126,3 +126,49 @@ explores some of his scientific interests
 and their connection to art:
 
 [https://uselessness.science/](https://uselessness.science/)
+
+## Collaborators
+
+We thank the following people from the bottom of our heart for their help with
+the translation of the site:
+
+<aside class="my-4 small">
+  <div class="row d-flex align-items-center mb-2">
+    <img src="https://corona-atlas.de/assets/img/people/emmanuel.jpg" alt="Emmanuel" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
+    <div class="col-9 col-lg-12 text-lg-center">
+      <h3 id="emmanuel">Emmanuel</h3>
+    </div>
+  </div>
+  <div class="row mb-2 mb-lg-0">
+    <div class="col text-lg-center">
+      <address class="d-inline d-lg-block mr-2 mx-lg-auto mb-lg-2 small chulapa-links-hover-only">
+        <img src="https://flagcdn.com/16x12/fr.png" srcset="https://flagcdn.com/32x24/fr.png 2x, https://flagcdn.com/48x36/fr.png 3x" width="16" height="12" alt="France">
+        <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&amp;query=Berlin%2C+Germany">
+        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Berlin, Germany</a>
+      </address>
+      <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
+        <a class="mr-2 mx-lg-1" href="https://www.linkedin.com/in/emmanuel-de-bourmont/"><i class="fab fa-linkedin fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+</aside>
+<aside class="my-4 small">
+  <div class="row d-flex align-items-center mb-2">
+    <img src="https://corona-atlas.de/assets/img/people/natalia.jpg" alt="Natalia" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
+    <div class="col-9 col-lg-12 text-lg-center">
+      <h3 id="natalia">Natalia</h3>
+    </div>
+  </div>
+  <div class="row mb-2 mb-lg-0">
+    <div class="col text-lg-center">
+      <address class="d-inline d-lg-block mr-2 mx-lg-auto mb-lg-2 small chulapa-links-hover-only">
+        <img src="https://flagcdn.com/16x12/pl.png" srcset="https://flagcdn.com/32x24/pl.png 2x, https://flagcdn.com/48x36/pl.png 3x" width="16" height="12" alt="France">
+        <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&query=Wroclaw%2C+Poland">
+        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Wroc?aw, Poland</a>
+      </address>
+      <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
+        <a class="mr-2 mx-lg-1" href="https://www.instagram.com/natalia.jedlikowska/"><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+</aside>
