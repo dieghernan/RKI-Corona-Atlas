@@ -13,13 +13,51 @@ always_allow_html: yes
 output: 
   md_document:
     preserve_yaml: true
-params:
-  lang: en
+    variant: gfm
 ---
 
 
-<!-- Modify _R/index_en.Rmd file instead -->
+<!-- Modify _R/index_es.Rmd file instead -->
 
-```{r, child='template.Rmd'}
+```{r, child='snippets/setup.Rmd'}
 
 ```
+
+```{r load_table, echo=FALSE}
+db_table <- readr::read_csv("../assets/dist/db_countries_risk_en.csv")
+
+```
+
+<p class="text-right font-weight-bold">Updated on `r format(date, format="%d %B %Y")`</p>
+
+## Risk map
+
+The interactive map allows you to explore
+Germany's current risk designation worldwide.
+Click in a specific country to read more details
+about that country and its regions
+regarding traveling to Germany.
+
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
+<script src="https://corona-atlas.de/assets/data/locale_en.js"></script> 
+<script src="https://corona-atlas.de/assets/js/map.js"></script>
+
+All information is directly fetched from the Robert Koch Institut and supplied without guarantee.
+For a complete up-to-date overview on all international risk areas
+visit [rki.de/risikogebiete](https://rki.de/risikogebiete).
+
+The current travel restrictions for risk areas
+are published on
+[the website of the German Federal Ministry of Health](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers).
+
+## Database
+
+You can also browse the countries directly on the database.
+
+```{r, child='snippets/table.Rmd'}
+
+```
+
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_en.csv" class="btn btn-primary">Download database (CSV)</a>
+</p>

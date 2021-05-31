@@ -14,13 +14,55 @@ always_allow_html: yes
 output: 
   md_document:
     preserve_yaml: true
-params:
-  lang: es
+    variant: gfm
 ---
 
 
 <!-- Modify _R/index_es.Rmd file instead -->
 
-```{r, child='template.Rmd'}
+```{r, child='snippets/setup.Rmd'}
 
 ```
+
+```{r load_table, echo=FALSE}
+db_table <- readr::read_csv("../assets/dist/db_countries_risk_es.csv")
+
+```
+
+<p class="text-right font-weight-bold">Actualizado el `r format(date, format="%d/%m/%Y")`</p>
+
+## Mapa de áreas de riesgo
+
+En este mapa interactivo puedes explorar
+las áreas de riesgo internacionales fijadas
+por el gobierno alemán para todo el mundo.
+Haz clic en un país en concreto
+para leer más detalles sobre
+su estado actual.
+
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
+<script src="https://corona-atlas.de/assets/data/locale_es.js"></script> 
+<script src="https://corona-atlas.de/assets/js/map.js"></script>
+
+Todos los datos se recogen automáticamente de la web del Robert Koch Institut,
+por lo que no puede garantizarse su veracidad.
+Visita [rki.de/risikogebiete](https://rki.de/risikogebiete)
+para obtener la información completa sobre todas
+las áreas de riesgo.
+
+Las restricciones actuales para la entrada a Alemania
+desde el extranjero están recogidas en
+[la página web del Ministerio Alemán de Salud](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers).
+
+## Base de datos
+
+También puedes consultar la información por países
+directamente en la base de datos.
+
+```{r, child='snippets/table.Rmd'}
+
+```
+
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_es.csv" class="btn btn-primary">Descargar base de datos (CSV)</a>
+</p>

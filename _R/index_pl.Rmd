@@ -13,13 +13,52 @@ always_allow_html: yes
 output: 
   md_document:
     preserve_yaml: true
-params:
-  lang: pl
+    variant: gfm
 ---
 
 
 <!-- Modify _R/index_pl.Rmd file instead -->
 
-```{r, child='template.Rmd'}
+```{r, child='snippets/setup.Rmd'}
 
 ```
+
+```{r load_table, echo=FALSE}
+db_table <- readr::read_csv("../assets/dist/db_countries_risk_pl.csv")
+```
+
+<p class="text-right font-weight-bold">Zaktualizowano `r format(date, format="%d.%m.%Y")`</p>
+
+## Mapa obszarów ryzyka
+
+Interaktywna mapa umożliwia zapoznanie się z aktualnymi
+międzynarodowymi obszarami ryzyka na całym Świecie,
+wyznaczonymi przez rząd niemiecki. Kliknij w wybrany kraj,
+aby poznać szczegóły na jego temat w związku z możliwością
+podróży do Niemiec.
+
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
+<script src="https://corona-atlas.de/assets/data/locale_pl.js"></script> 
+<script src="https://corona-atlas.de/assets/js/map.js"></script>
+
+Wszystkie dane zbierane są automatycznie ze strony internetowej Instytutu Roberta Kocha,
+dlatego nie można zagwarantować ich wiarygodności.
+Pełne, aktualne informacje na temat wszystkich międzynarodowych
+obszarów ryzyka znajdziesz na stronie: [rki.de/risikogebiete](rki.de/risikogebiete).
+
+Aktualne ograniczenia w podróżowaniu do
+Niemiec z zagranicy są opublikowane na
+[stronie internetowej Federalnego Ministerstwa Zdrowia Niemiec](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers).
+
+## Baza danych
+
+Informacje dla danego kraju możesz również sprawdzić bezpośrednio w bazie danych.
+
+```{r, child='snippets/table.Rmd'}
+
+```
+
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_pl.csv" class="btn btn-primary">Pobierz bazę danych (CSV)</a>
+</p>
+

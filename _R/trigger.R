@@ -1,28 +1,28 @@
-#
-#
-# message("----Render index_en\n\n")
-# rmarkdown::render(
-#   "_R/index_en.Rmd",
-#   output_dir = "_pages/",
-#   output_format = "md_document",
-#   quiet = TRUE
-# )
-#
-# message("----Render index\n\n")
-# rmarkdown::render(
-#   "_R/index.Rmd",
-#   output_dir = "_pages/",
-#   output_format = "md_document",
-#   quiet = TRUE
-# )
-#
-# message("----Render index_es\n\n")
-# rmarkdown::render(
-#   "_R/index_es.Rmd",
-#   output_dir = "_pages/",
-#   output_format = "md_document",
-#   quiet = TRUE
-# )
+
+
+message("----Render index_en\n\n")
+rmarkdown::render(
+  "_R/index_en.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
+)
+
+message("----Render index\n\n")
+rmarkdown::render(
+  "_R/index.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
+)
+
+message("----Render index_es\n\n")
+rmarkdown::render(
+  "_R/index_es.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
+)
 
 message("----Render index_fr\n\n")
 rmarkdown::render(
@@ -32,13 +32,13 @@ rmarkdown::render(
  quiet = TRUE
 )
 
-#message("----Render index_pl\n\n")
-#rmarkdown::render(
-#  "_R/index_pl.Rmd",
-#  output_dir = "_pages/",
-#  output_format = "md_document",
-#  quiet = TRUE
-#)
+message("----Render index_pl\n\n")
+rmarkdown::render(
+ "_R/index_pl.Rmd",
+ output_dir = "_pages/",
+ output_format = "md_document",
+ quiet = TRUE
+)
 
 message("----Render og_image\n\n")
 # Dinamic og image

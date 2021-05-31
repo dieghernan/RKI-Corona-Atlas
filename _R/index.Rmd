@@ -13,13 +13,62 @@ always_allow_html: yes
 output: 
   md_document:
     preserve_yaml: true
-params:
-  lang: de
+    variant: gfm
 ---
 
 
-<!-- Modify _R/index.Rmd file instead -->
+<!-- Modify _R/index_es.Rmd file instead -->
 
-```{r, child='template.Rmd'}
+```{r, child='snippets/setup.Rmd'}
 
 ```
+
+```{r load_table, echo=FALSE}
+db_table <- readr::read_csv("../assets/dist/db_countries_risk_de.csv")
+
+```
+
+<p class="text-right font-weight-bold">Stand: `r format(date, format="%d.%m.%Y")`</p>
+
+
+## Risikokarte
+
+Die folgende interaktive Weltkarte präsentiert die aktuelle
+Risikoeinstufung aller Staaten der Welt
+durch das deutsche Auswärtige Amt,
+das Bundesministerium für Gesundheit
+und das Bundesministerium des Innern.
+
+<!--more-->
+
+Durch das Anklicken eines beliebigen Landes erfolgt
+die Anzeige aller zutreffenden Informationen
+und ggfs. regionaler Ausnahmen.
+
+
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
+<script src="https://corona-atlas.de/assets/data/locale_de.js"></script> 
+<script src="https://corona-atlas.de/assets/js/map.js"></script>
+
+Alle Angaben sind ohne Gewähr und werden automatisch vom Robert Koch Institut mehrmals täglich abgerufen.
+Einen aktuellen vollständigen Überblick aller internationalen Risikogebiete
+gibt es auf
+[rki.de/risikogebiete](https://rki.de/risikogebiete).
+
+Die geltenden Reisebeschränkungen werden auf der
+[Internetseite des Bundesministeriums für Gesundheit](https://www.bundesgesundheitsministerium.de/coronavirus-infos-reisende)
+bekanntgegeben.
+
+## Datenbank
+
+Alternativ können auch alle Risikogebiete
+und die dazugehörigen Informationen
+direkt in der Datenbank nachgeschlagen werden.
+
+```{r, child='snippets/table.Rmd'}
+
+```
+
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_de.csv" class="btn btn-primary">Datenbank herunterladen (CSV-Datei)</a>
+</p>
