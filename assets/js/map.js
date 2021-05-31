@@ -32,7 +32,7 @@ var risk_labels = locale["risk_labels"];
 var risk_colors = ["#00FF00", "red", "chocolate", "orange", "yellow"];
 
 // loading GeoJSON file
-$.getJSON("../geo/country_shapes.geojson",function(data){
+$.getJSON("https://corona-atlas.de/assets/geo/country_shapes.geojson",function(data){
 // L.geoJson function is used to parse geojson file and load on to map
     let more_info = locale["more_info"];
     L.geoJson(data,
