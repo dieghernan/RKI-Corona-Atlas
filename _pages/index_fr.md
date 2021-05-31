@@ -33,12 +33,9 @@ allemand de l’intérieur.
 Cliquez sur un pays spécifique pour lire plus de détails sur son statut
 actuel ainsi que celui de ses régions.
 
-<div id="leaflet" class="leaflet html-widget" style="width:100%;height:75vh;">
 
-</div>
-
-<script src="https://corona-atlas.de/assets/data/locale_fr.js"></script>
-
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
+<script src="https://corona-atlas.de/assets/data/locale_fr.js"></script> 
 <script src="https://corona-atlas.de/assets/js/map.js"></script>
 
 Toutes les indications sont données sans garantie car elles sont
