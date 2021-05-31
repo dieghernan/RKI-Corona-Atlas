@@ -1,9 +1,0 @@
-<p class="text-right font-weight-bold">Updated on `r format(date, format="%d %B %Y")`</p>
-
-## Risk map
-
-The interactive map allows you to explore
-Germany's current risk designation worldwide.
-Click in a specific country to read more details
-about that country and its regions
-regarding traveling to Germany.

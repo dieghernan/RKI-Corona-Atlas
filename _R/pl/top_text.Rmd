@@ -1,9 +1,0 @@
-<p class="text-right font-weight-bold">Zaktualizowano `r format(date, format="%d.%m.%Y")`</p>
-
-## Mapa obszarów ryzyka
-
-Interaktywna mapa umożliwia zapoznanie się z aktualnymi
-międzynarodowymi obszarami ryzyka na całym Świecie,
-wyznaczonymi przez rząd niemiecki. Kliknij w wybrany kraj,
-aby poznać szczegóły na jego temat w związku z możliwością
-podróży do Niemiec.
