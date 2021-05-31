@@ -1,0 +1,19 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+
+```
+
+```{r data_cleansing, echo=FALSE}
+
+library(sf)
+library(readr)
+library(dplyr)
+library(reactable)
+library(rmarkdown)
+
+date <- read.csv("../../assets/data/report_date.csv") %>%
+  select(report_date) %>% as.character() %>%
+  as.Date()
+```

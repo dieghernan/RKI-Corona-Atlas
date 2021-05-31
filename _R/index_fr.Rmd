@@ -10,13 +10,62 @@ always_allow_html: yes
 output: 
   md_document:
     preserve_yaml: true
-params:
-  lang: fr
 ---
 
+```{r, child='snippets/setup.Rmd'}
+
+```
+
+```{r load_table, echo=FALSE}
+db_table <- readr::read_csv("../assets/dist/db_countries_risk_fr.csv")
+
+```
 
 <!-- Modify _R/index_fr.Rmd file instead -->
 
-```{r, child='template.Rmd'}
+<p class="text-right font-weight-bold">mis à jour le `r format(date, format="%d/%m/%Y")`</p>
+
+<!-- new paragraph -->
+   
+## Carte du risque Covid-19
+
+La carte interactive suivante présente 
+les zones à risque actuelles dans le monde
+à partir des informations données par
+le ministère allemand des Affaires étrangères,
+le ministère allemand de la santé
+et le ministère allemand de l'intérieur.
+
+
+<!--more-->
+Cliquez sur un pays spécifique 
+pour lire plus de détails sur son statut actuel 
+ainsi que celui de ses régions.
+
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
+<script src="assets/data/locale_fr.js"></script> 
+<script src="assets/js/map.js"></script>
+
+
+Toutes les indications sont données sans garantie
+car elles sont récupérées automatiquement 
+sur la page web de l'institut Robert Koch plusieurs fois par jour. 
+Vous retrouverez l'intégralité des informations concernant les zones à risque sur [leur site web](https://rki.de/risikogebiete).
+
+Les restrictions liées aux voyages vers l'Allemagne depuis l'étranger sont récupérées sur
+[le site internet du ministère allemand de la santé](https://www.bundesgesundheitsministerium.de/coronavirus-infos-reisende).
+
+## Banque de donnée
+
+Vous pouvez aussi télécharger les informations concernant 
+toutes les zones définies comme étant à risque dans le monde depuis notre banque de donnée.
+
+```{r, child='snippets/table.Rmd'}
 
 ```
+
+
+
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_fr.csv" class="btn btn-primary">Télécharger les informations (Fichier CSV)</a>
+</p>

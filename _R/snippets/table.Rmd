@@ -1,0 +1,13 @@
+```{r table , echo=FALSE}
+
+reactable(
+  db_table,
+  elementId = "reactable",
+  filterable = TRUE,
+  searchable = TRUE,
+  showPageSizeOptions = TRUE,
+  striped = TRUE,
+  paginationType = "jump"
+)
+
+```
