@@ -1,6 +1,6 @@
 name: run-R
 
-on: workflow_dispatch 
+on: workflow_dispatch
 
 jobs:
   run-R:
@@ -46,7 +46,7 @@ jobs:
           key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
-            
+
       - name: Install libdunits
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         run: sudo apt-get install libudunits2-dev
@@ -62,8 +62,8 @@ jobs:
           renv::restore()
 
 
-      #- name: Run bot
-      #  run: Rscript _R/trigger.R
+      - name: Run bot
+        run: Rscript _R/trigger_fr.R
 
       - name: Commit results
         run: |
