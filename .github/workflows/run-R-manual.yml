@@ -63,7 +63,7 @@ jobs:
 
 
       - name: Run bot
-        run: Rscript _R/trigger_fr.R
+        run: Rscript _R/trigger.R
 
       - name: Commit results
         run: |
