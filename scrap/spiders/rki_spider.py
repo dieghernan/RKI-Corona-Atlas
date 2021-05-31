@@ -16,7 +16,6 @@ except locale.Error:
 
 assets = Path("assets")
 dist_dir = assets / "dist"
-js_dir = assets / "js"
 
 data_dir = assets / "data"
 db_path = data_dir/"db_scraped.csv"
@@ -388,7 +387,7 @@ class RKISpider(scrapy.Spider):
         df_regions = df_regions.assign(risk_date=pd.to_datetime(df_regions["risk_date"]))
 
         risk_json = db_curated['risk_level_code'].to_json(force_ascii=False, indent=1)
-        with open(js_dir / "risk.js", "w") as f:
+        with open(data_dir / "risk.js", "w") as f:
             f.write(f"var risk = {risk_json};")
 
         idioms = pd.read_csv(data_dir / "idioms.csv", index_col=0)
@@ -434,7 +433,7 @@ class RKISpider(scrapy.Spider):
             db_lang = db_lang.assign(info=info_lang)
 
             info_json = db_lang[["name", "info"]].T.to_json(force_ascii=False, indent=1)
-            with open(js_dir / f"locale_{lang}.js", "w", encoding='utf-8') as f:
+            with open(data_dir / f"locale_{lang}.js", "w", encoding='utf-8') as f:
                 f.write(f"var locale = {locale_json};\n")
                 f.write(f"var info_rki = {info_json};\n")
 
