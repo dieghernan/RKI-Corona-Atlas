@@ -372,6 +372,7 @@ class RKISpider(scrapy.Spider):
         db_curated = db_curated.sort_values("ISO3_CODE")
 
         db_final = pd.concat([db_curated, df_regions_full, df_duplicated, df_unknown]).set_index("ISO3_CODE")
+        db_final = db_final[names + ["risk_level_code", "risk_date", "region", "NUTS_CODE", "ERROR"]]
         db_final.astype({"risk_level_code": int}).to_csv(db_path, encoding='utf-8-sig',
                                                          date_format=self.date_fmt['db'])
 
