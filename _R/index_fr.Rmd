@@ -10,6 +10,7 @@ always_allow_html: yes
 output: 
   md_document:
     preserve_yaml: true
+    variant: gfm
 ---
 
 ```{r, child='snippets/setup.Rmd'}
@@ -25,7 +26,7 @@ db_table <- readr::read_csv("../assets/dist/db_countries_risk_fr.csv")
 
 <p class="text-right font-weight-bold">mis à jour le `r format(date, format="%d/%m/%Y")`</p>
 
-<!-- new paragraph -->
+
    
 ## Carte du risque Covid-19
 
