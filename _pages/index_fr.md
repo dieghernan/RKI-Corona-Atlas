@@ -29,6 +29,7 @@ allemand de l’intérieur.
 Cliquez sur un pays spécifique pour lire plus de détails sur son statut
 actuel ainsi que celui de ses régions.
 
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
 <script src="assets/data/locale_fr.js"></script>
 <script src="assets/js/map.js"></script>
 Toutes les indications sont données sans garantie car elles sont
