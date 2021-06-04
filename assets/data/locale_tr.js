@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Avusturya",
-  "info":"01.11.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Jungholz<\/li><li>Mittelberg<\/li><\/ul>"
+  "info":"01.11.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Tirol, 01.11.2020'den beri<\/li><li>Vorarlberg, 01.11.2020'den beri<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaycan",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"İsviçre",
-  "info":"24.10.2020'den beri"
+  "info":"24.10.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Zug<\/li><li>Zürich<\/li><\/ul>"
  },
  "CHL":{
   "name":"Şili",
@@ -174,7 +174,7 @@ var info_rki = {
  },
  "CZE":{
   "name":"Çekya",
-  "info":"02.05.2021'den beri"
+  "info":""
  },
  "DEU":{
   "name":"Almanya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"23.05.2021'den beri"
+  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Korsika<\/li><li>Mayotte<\/li><li>Yeni Kaledonya<\/li><li>Polynesien<\/li><li>Saint-Pierre ve Miquelon<\/li><li>Wallis ve Futuna<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Hırvatistan",
-  "info":"23.05.2021'den beri"
+  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Dubrovnik-Neretva<\/li><li>Istria<\/li><li>Karlovac<\/li><li>Krapina-Zagorje<\/li><li>Požega-Slavonya<\/li><li>Split-Dalmaçya<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"İtalya",
-  "info":"08.11.2020'den beri"
+  "info":""
  },
  "JAM":{
   "name":"Jamaika",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Litvanya",
-  "info":"02.05.2021'den beri"
+  "info":"06.06.2021'den beri"
  },
  "LUX":{
   "name":"Lüksemburg",
@@ -504,10 +504,6 @@ var info_rki = {
   "name":"Namibya",
   "info":"14.02.2021'den beri"
  },
- "NCL":{
-  "name":"Yeni Kaledonya",
-  "info":""
- },
  "NER":{
   "name":"Nijer",
   "info":"15.06.2020'den beri"
@@ -526,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"30.05.2021'den beri"
+  "info":"30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Sint Eustatius ve Saba<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
-  "info":"08.11.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Agder, 02.05.2021'den beri<\/li><li>Innlandet, 30.05.2021'den beri<\/li><li>Oslo, 08.11.2020'den beri<\/li><li>Vestfold og Telemark, 09.05.2021'den beri<\/li><li>Viken, 15.11.2020'den beri<\/li><\/ul>"
+  "info":"08.11.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Agder, 02.05.2021'den beri<\/li><li>Innlandet, 30.05.2021'den beri<\/li><li>Oslo, 08.11.2020'den beri<\/li><li>Troms og Finnmark, 06.06.2021'den beri<\/li><li>Trøndelag, 06.06.2021'den beri<\/li><li>Vestfold og Telemark, 09.05.2021'den beri<\/li><li>Viken, 15.11.2020'den beri<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -670,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"İsveç",
-  "info":"07.03.2021'den beri"
+  "info":"06.06.2021'den beri"
  },
  "SWZ":{
   "name":"Esvatini",
@@ -722,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Türkiye",
-  "info":"11.04.2021'den beri"
+  "info":"06.06.2021'den beri"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -742,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":"21.03.2021'den beri"
+  "info":"06.06.2021'den beri"
  },
  "USA":{
   "name":"Birleşik Devletler",
@@ -754,7 +750,7 @@ var info_rki = {
  },
  "VAT":{
   "name":"Vatikan",
-  "info":"01.11.2020'den beri"
+  "info":""
  },
  "VCT":{
   "name":"Saint Vincent ve Grenadinler",

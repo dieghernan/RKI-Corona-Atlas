@@ -55,6 +55,7 @@ class RKISpider(scrapy.Spider):
     li_xpath = "//following-sibling::ul[1]/li"
 
     excluded_tags = (r'ausgenommen', r'ausnahme')
+    included_pattern = r"die folgenden .+ gelten .*als"
 
     NO_MATCH = -1
     NO_RISK = 0
@@ -196,6 +197,7 @@ class RKISpider(scrapy.Spider):
         nuts_regions = []
         risk_regions = []
         dates_regions = []
+        no_regions = []
 
         for i_h, h in enumerate(risk_headers, 1):
             h_text = h.get()
@@ -240,6 +242,9 @@ class RKISpider(scrapy.Spider):
                             country_code = self.PARTIAL
                             reg_excluded = True
                         elif len(regions) > 0:
+                            country_code = self.PARTIAL
+                            reg_excluded = False
+                        if re.search(self.included_pattern, msg):
                             country_code = self.PARTIAL
                             reg_excluded = False
 
@@ -290,8 +295,10 @@ class RKISpider(scrapy.Spider):
                     country_regs = reg_df.query("ISO3_CODE == @iso3_found")
                     reg_code = self.NO_RISK if reg_excluded else code
                     if country_code == self.PARTIAL and len(regions) == 0:
+                        regions_found = False
                         for _, cr in country_regs.iterrows():
                             if cr["NAME_DE"] in excluded_msg:
+                                regions_found = True
                                 name_regions.append(cr["NAME_DE"])
                                 for name_k in regions_translated.keys():
                                     regions_translated[name_k].append(cr[name_k])
@@ -300,6 +307,12 @@ class RKISpider(scrapy.Spider):
                                 dates_regions.append(None)
                                 iso3_regions.append(iso3_found)
                                 nuts_regions.append(cr["NUTS_CODE"])
+                        if not regions_found:
+                            print(f"No regions identified for: {name_scraped}")
+                            print(f"Risk level code:\n\t{country_code}")
+                            print(f"Info:\n\t{msg}\n")
+                            no_regions.append(name_scraped)
+
                     for r in regions:
                         name_sr, info_sr = self.strip_country(r.get(), separators=("(",))
                         reg_hit = country_regs.query("NAME_DE == @name_sr")
@@ -357,10 +370,14 @@ class RKISpider(scrapy.Spider):
         df_duplicated = pd.concat([db_curated, db_new]).drop_duplicates(keep=False)
         df_duplicated = df_duplicated.assign(ISO3_CODE="ERROR", ERROR="DUPLICATED")
 
+        df_no_regions = pd.DataFrame({"ISO3_CODE": "ERROR", "NAME_DE": no_regions,
+                                      "risk_level_code": self.IGNORE, "ERROR": "NO_REGIONS_FOUND"})
+
         print(f"Process summary:")
         print(f"\t- {len(db_curated)} states have been succesfully processed")
         print(f"\t- {len(df_regions)} regions have been identified")
         print(f"\t- {len(df_duplicated)} states are duplicated")
+        print(f"\t- {len(df_no_regions)} states have unidentified regions")
         print(f"\t- {len(df_unknown)} states could not be identified")
 
         db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU",
@@ -372,7 +389,8 @@ class RKISpider(scrapy.Spider):
                                                       names]]).drop_duplicates(subset="ISO3_CODE")
         db_curated = db_curated.sort_values("ISO3_CODE")
 
-        db_final = pd.concat([db_curated, df_regions_full, df_duplicated, df_unknown]).set_index("ISO3_CODE")
+        db_final = pd.concat([db_curated, df_regions_full, df_duplicated,
+                              df_no_regions, df_unknown]).set_index("ISO3_CODE")
         db_final = db_final[names + ["risk_level_code", "risk_date", "region", "NUTS_CODE", "ERROR"]]
         db_final.astype({"risk_level_code": int}).to_csv(db_path, encoding='utf-8-sig',
                                                          date_format=self.date_fmt['db'])

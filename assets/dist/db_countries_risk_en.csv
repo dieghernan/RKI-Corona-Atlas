@@ -8,7 +8,7 @@ Argentina,High incidence area,since 18 Apr 2021
 Armenia,Risk area,since 09 May 2021
 Antigua and Barbuda,Not risk area,
 Australia,Not risk area,
-Austria,Risk area (partially),since 01 Nov 2020. The following regions are excluded: -Jungholz; -Mittelberg
+Austria,Risk area (partially),"since 01 Nov 2020. The risk designation applies to the following regions: -Tirol, since 01 Nov 2020; -Vorarlberg, since 01 Nov 2020"
 Azerbaijan,Risk area,since 15 Jun 2020
 Burundi,Risk area,since 15 Jun 2020
 Belgium,Risk area,since 30 Sep 2020
@@ -29,7 +29,7 @@ Bhutan,Risk area,since 15 Jun 2020
 Botswana,Variant of concern,since 07 Feb 2021
 Central African Republic,Risk area,since 15 Jun 2020
 Canada,Risk area,since 15 Nov 2020
-Switzerland,Risk area,since 24 Oct 2020
+Switzerland,Risk area (partially),since 24 Oct 2020. The following regions are excluded: -Aargau; -Basel-Land; -Basel-Stadt; -Graubünden; -Solothurn; -Tessin; -Zug; -Zürich
 Chile,High incidence area,since 03 Apr 2021
 China,Not risk area,
 Cote D'Ivoire,Risk area,since 15 Jun 2020
@@ -42,7 +42,7 @@ Cape Verde,High incidence area,since 25 Apr 2021
 Costa Rica,High incidence area,since 09 May 2021
 Cuba,Risk area,since 28 Feb 2021
 Cyprus,Risk area,since 30 May 2021
-Czechia,Risk area,since 02 May 2021
+Czechia,Not risk area,
 Germany,,
 Djibouti,Risk area,since 15 Jun 2020
 Dominica,Not risk area,
@@ -57,7 +57,7 @@ Estonia,Risk area,since 16 May 2021
 Ethiopia,Risk area,since 15 Jun 2020
 Finland,Not risk area,
 Fiji,Not risk area,
-France,Risk area,since 23 May 2021
+France,Risk area (partially),since 23 May 2021. The following regions are excluded: -Corsica; -Mayotte; -New Caledonia; -Polynesien; -Saint-Pierre and Miquelon; -Wallis and Futuna
 Micronesia,Not risk area,
 Gabon,Risk area,since 15 Jun 2020
 United Kingdom,Variant of concern,since 23 May 2021
@@ -73,7 +73,7 @@ Guatemala,Risk area,since 15 Jun 2020
 Guyana,Risk area,since 15 Jun 2020
 Hong Kong,Not risk area,
 Honduras,Risk area,since 15 Jun 2020
-Croatia,Risk area,since 23 May 2021
+Croatia,Risk area (partially),since 23 May 2021. The following regions are excluded: -Dubrovnik-Neretva; -Istria; -Karlovac; -Krapina-Zagorje; -Požega-Slavonia; -Split-Dalmatia
 Haiti,Risk area,since 15 Jun 2020
 Hungary,Not risk area,
 Indonesia,Risk area,since 15 Jun 2020
@@ -83,7 +83,7 @@ Iran,High incidence area,since 24 Jan 2021
 Iraq,Risk area,since 15 Jun 2020
 Iceland,Not risk area,
 Israel,Not risk area,
-Italy,Risk area,since 08 Nov 2020
+Italy,Not risk area,
 Jamaica,Not risk area,
 Jordan,Risk area,since 16 May 2021
 Japan,Not risk area,
@@ -103,7 +103,7 @@ Saint Lucia,Risk area,since 23 May 2021
 Liechtenstein,Not risk area,
 Sri Lanka,Risk area,since 16 May 2021
 Lesotho,Variant of concern,since 31 Jan 2021
-Lithuania,High incidence area,since 02 May 2021
+Lithuania,Risk area,since 06 Jun 2021
 Luxembourg,Risk area,since 25 Sep 2020
 Latvia,Risk area,since 11 Apr 2021
 Morocco,Risk area,since 15 Jun 2020
@@ -125,13 +125,12 @@ Mauritius,Not risk area,
 Malawi,Variant of concern,since 07 Feb 2021
 Malaysia,Risk area,since 09 May 2021
 Namibia,Risk area,since 14 Feb 2021
-New Caledonia,Not risk area,
 Niger,Risk area,since 15 Jun 2020
 Nigeria,Risk area,since 15 Jun 2020
 Nicaragua,Risk area,since 15 Jun 2020
 Niue,Not risk area,
-Netherlands,Risk area,since 30 May 2021
-Norway,Risk area (partially),"since 08 Nov 2020. The risk designation applies to the following regions: -Agder, since 02 May 2021; -Innlandet, since 30 May 2021; -Oslo, since 08 Nov 2020; -Vestfold og Telemark, since 09 May 2021; -Viken, since 15 Nov 2020"
+Netherlands,Risk area (partially),since 30 May 2021. The following regions are excluded: -Bonaire; -Curaçao; -Sint Eustatius and Saba
+Norway,Risk area (partially),"since 08 Nov 2020. The risk designation applies to the following regions: -Agder, since 02 May 2021; -Innlandet, since 30 May 2021; -Oslo, since 08 Nov 2020; -Troms og Finnmark, since 06 Jun 2021; -Trøndelag, since 06 Jun 2021; -Vestfold og Telemark, since 09 May 2021; -Viken, since 15 Nov 2020"
 Nepal,Variant of concern,since 16 May 2021
 Nauru,Not risk area,
 New Zealand,Not risk area,
@@ -166,7 +165,7 @@ Sao Tome and Principe,Not risk area,
 Suriname,High incidence area,since 23 May 2021
 Slovakia,Not risk area,
 Slovenia,Risk area,since 23 May 2021
-Sweden,High incidence area,since 07 Mar 2021
+Sweden,Risk area,since 06 Jun 2021
 Eswatini,Variant of concern,since 31 Jan 2021
 Seychelles,High incidence area,since 14 Feb 2021
 Syria,High incidence area,since 31 Jan 2021
@@ -179,15 +178,15 @@ Timor-Leste,Risk area,since 17 Jun 2020
 Tonga,Not risk area,
 Trinidad and Tobago,High incidence area,since 23 May 2021
 Tunisia,High incidence area,since 25 Apr 2021
-Turkey,High incidence area,since 11 Apr 2021
+Turkey,Risk area,since 06 Jun 2021
 Tuvalu,Not risk area,
 United Republic of Tanzania,High incidence area,since 14 Mar 2021
 Uganda,Not risk area,
 Ukraine,Risk area,since 16 May 2021
-Uruguay,High incidence area,since 21 Mar 2021
+Uruguay,Variant of concern,since 06 Jun 2021
 United States,Risk area,since 07 Mar 2021
 Uzbekistan,Risk area,since 15 Jun 2020
-Vatican City,Risk area,since 01 Nov 2020
+Vatican City,Not risk area,
 Saint Vincent and The Grenadines,Not risk area,
 Venezuela,Risk area,since 15 Jun 2020
 Vietnam,Not risk area,

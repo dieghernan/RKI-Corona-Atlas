@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Autriche",
-  "info":"depuis le 01\/11\/2020. Les régions suivantes sont exclues:<ul><li>Jungholz<\/li><li>Mittelberg<\/li><\/ul>"
+  "info":"depuis le 01\/11\/2020. Le niveau de risque concerne les régions suivantes:<ul><li>Tirol, depuis le 01\/11\/2020<\/li><li>Vorarlberg, depuis le 01\/11\/2020<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaïdjan",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Suisse",
-  "info":"depuis le 24\/10\/2020"
+  "info":"depuis le 24\/10\/2020. Les régions suivantes sont exclues:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Zug<\/li><li>Zürich<\/li><\/ul>"
  },
  "CHL":{
   "name":"Chili",
@@ -174,7 +174,7 @@ var info_rki = {
  },
  "CZE":{
   "name":"Tchéquie",
-  "info":"depuis le 02\/05\/2021"
+  "info":""
  },
  "DEU":{
   "name":"Allemagne",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 23\/05\/2021"
+  "info":"depuis le 23\/05\/2021. Les régions suivantes sont exclues:<ul><li>La Corse<\/li><li>Mayotte<\/li><li>Nouvelle-Calédonie<\/li><li>Polynesien<\/li><li>Saint-Pierre et Miquelon<\/li><li>Wallis et Futuna<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croatie",
-  "info":"depuis le 23\/05\/2021"
+  "info":"depuis le 23\/05\/2021. Les régions suivantes sont exclues:<ul><li>Dubrovnik-Neretva<\/li><li>Istrie<\/li><li>Karlovac<\/li><li>Krapina-Zagorje<\/li><li>Požega-Slavonie<\/li><li>Split-Dalmatie<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haïti",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italie",
-  "info":"depuis le 08\/11\/2020"
+  "info":""
  },
  "JAM":{
   "name":"Jamaïque",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Lituanie",
-  "info":"depuis le 02\/05\/2021"
+  "info":"depuis le 06\/06\/2021"
  },
  "LUX":{
   "name":"Luxembourg",
@@ -504,10 +504,6 @@ var info_rki = {
   "name":"Namibie",
   "info":"depuis le 14\/02\/2021"
  },
- "NCL":{
-  "name":"Nouvelle-Calédonie",
-  "info":""
- },
  "NER":{
   "name":"Niger",
   "info":"depuis le 15\/06\/2020"
@@ -526,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 30\/05\/2021"
+  "info":"depuis le 30\/05\/2021. Les régions suivantes sont exclues:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Sint Eustatius et Saba<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norvège",
-  "info":"depuis le 08\/11\/2020. Le niveau de risque concerne les régions suivantes:<ul><li>Agder, depuis le 02\/05\/2021<\/li><li>Innlandet, depuis le 30\/05\/2021<\/li><li>Oslo, depuis le 08\/11\/2020<\/li><li>Vestfold og Telemark, depuis le 09\/05\/2021<\/li><li>Viken, depuis le 15\/11\/2020<\/li><\/ul>"
+  "info":"depuis le 08\/11\/2020. Le niveau de risque concerne les régions suivantes:<ul><li>Agder, depuis le 02\/05\/2021<\/li><li>Innlandet, depuis le 30\/05\/2021<\/li><li>Oslo, depuis le 08\/11\/2020<\/li><li>Troms og Finnmark, depuis le 06\/06\/2021<\/li><li>Trøndelag, depuis le 06\/06\/2021<\/li><li>Vestfold og Telemark, depuis le 09\/05\/2021<\/li><li>Viken, depuis le 15\/11\/2020<\/li><\/ul>"
  },
  "NPL":{
   "name":"Népal",
@@ -670,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Suède",
-  "info":"depuis le 07\/03\/2021"
+  "info":"depuis le 06\/06\/2021"
  },
  "SWZ":{
   "name":"Eswatini",
@@ -722,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turquie",
-  "info":"depuis le 11\/04\/2021"
+  "info":"depuis le 06\/06\/2021"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -742,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":"depuis le 21\/03\/2021"
+  "info":"depuis le 06\/06\/2021"
  },
  "USA":{
   "name":"États-Unis",
@@ -754,7 +750,7 @@ var info_rki = {
  },
  "VAT":{
   "name":"Vatican",
-  "info":"depuis le 01\/11\/2020"
+  "info":""
  },
  "VCT":{
   "name":"Saint-Vincent-et-les-Grenadines",

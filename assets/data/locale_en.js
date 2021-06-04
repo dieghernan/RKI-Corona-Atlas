@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":"since 01 Nov 2020. The following regions are excluded:<ul><li>Jungholz<\/li><li>Mittelberg<\/li><\/ul>"
+  "info":"since 01 Nov 2020. The risk designation applies to the following regions:<ul><li>Tirol, since 01 Nov 2020<\/li><li>Vorarlberg, since 01 Nov 2020<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaijan",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Switzerland",
-  "info":"since 24 Oct 2020"
+  "info":"since 24 Oct 2020. The following regions are excluded:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Zug<\/li><li>Zürich<\/li><\/ul>"
  },
  "CHL":{
   "name":"Chile",
@@ -174,7 +174,7 @@ var info_rki = {
  },
  "CZE":{
   "name":"Czechia",
-  "info":"since 02 May 2021"
+  "info":""
  },
  "DEU":{
   "name":"Germany",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 23 May 2021"
+  "info":"since 23 May 2021. The following regions are excluded:<ul><li>Corsica<\/li><li>Mayotte<\/li><li>New Caledonia<\/li><li>Polynesien<\/li><li>Saint-Pierre and Miquelon<\/li><li>Wallis and Futuna<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croatia",
-  "info":"since 23 May 2021"
+  "info":"since 23 May 2021. The following regions are excluded:<ul><li>Dubrovnik-Neretva<\/li><li>Istria<\/li><li>Karlovac<\/li><li>Krapina-Zagorje<\/li><li>Požega-Slavonia<\/li><li>Split-Dalmatia<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italy",
-  "info":"since 08 Nov 2020"
+  "info":""
  },
  "JAM":{
   "name":"Jamaica",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Lithuania",
-  "info":"since 02 May 2021"
+  "info":"since 06 Jun 2021"
  },
  "LUX":{
   "name":"Luxembourg",
@@ -504,10 +504,6 @@ var info_rki = {
   "name":"Namibia",
   "info":"since 14 Feb 2021"
  },
- "NCL":{
-  "name":"New Caledonia",
-  "info":""
- },
  "NER":{
   "name":"Niger",
   "info":"since 15 Jun 2020"
@@ -526,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 30 May 2021"
+  "info":"since 30 May 2021. The following regions are excluded:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Sint Eustatius and Saba<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
-  "info":"since 08 Nov 2020. The risk designation applies to the following regions:<ul><li>Agder, since 02 May 2021<\/li><li>Innlandet, since 30 May 2021<\/li><li>Oslo, since 08 Nov 2020<\/li><li>Vestfold og Telemark, since 09 May 2021<\/li><li>Viken, since 15 Nov 2020<\/li><\/ul>"
+  "info":"since 08 Nov 2020. The risk designation applies to the following regions:<ul><li>Agder, since 02 May 2021<\/li><li>Innlandet, since 30 May 2021<\/li><li>Oslo, since 08 Nov 2020<\/li><li>Troms og Finnmark, since 06 Jun 2021<\/li><li>Trøndelag, since 06 Jun 2021<\/li><li>Vestfold og Telemark, since 09 May 2021<\/li><li>Viken, since 15 Nov 2020<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -670,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Sweden",
-  "info":"since 07 Mar 2021"
+  "info":"since 06 Jun 2021"
  },
  "SWZ":{
   "name":"Eswatini",
@@ -722,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turkey",
-  "info":"since 11 Apr 2021"
+  "info":"since 06 Jun 2021"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -742,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":"since 21 Mar 2021"
+  "info":"since 06 Jun 2021"
  },
  "USA":{
   "name":"United States",
@@ -754,7 +750,7 @@ var info_rki = {
  },
  "VAT":{
   "name":"Vatican City",
-  "info":"since 01 Nov 2020"
+  "info":""
  },
  "VCT":{
   "name":"Saint Vincent and The Grenadines",
