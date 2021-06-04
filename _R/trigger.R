@@ -40,6 +40,15 @@ rmarkdown::render(
  quiet = TRUE
 )
 
+message("----Render index_tr\n\n")
+rmarkdown::render(
+ "_R/index_tr.Rmd",
+ output_dir = "_pages/",
+ output_format = "md_document",
+ quiet = TRUE
+)
+
+
 message("----Render og_image\n\n")
 # Dinamic og image
 source("_R/og_image.R")
