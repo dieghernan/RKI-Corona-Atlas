@@ -41,17 +41,17 @@ navbar:
   - title: Language
     img: ./assets/img/globe.svg
     child:
-    - title   : Deutsch
+    - title   : Deutsch <img class="d-inline mb-1" src="https://flagcdn.com/16x12/de.png" width="16" height="12" alt="Germany">
       url     : /
-    - title   : English # Label
+    - title   : English <img class="d-inline mb-1" src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="United Kingdom"># Label
       url     : /en # url
-    - title   : Español # Label
+    - title   : Español <img class="d-inline mb-1" src="https://flagcdn.com/16x12/es.png" width="16" height="12" alt="Spain"> # Label
       url     : /es # url
-    - title: Français
+    - title: Français <img class="d-inline mb-1" src="https://flagcdn.com/16x12/fr.png" width="16" height="12" alt="France">
       url: /fr
-    - title: Polski
+    - title: Polski <img class="d-inline mb-1" src="https://flagcdn.com/16x12/pl.png" width="16" height="12" alt="Poland">
       url: /pl
-    - title: Türkçe
+    - title: Türkçe <img class="d-inline mb-1" src="https://flagcdn.com/16x12/tr.png" width="16" height="12" alt="Turkey">
       url: /tr
   - title   : About # Label
     url     : /about # url
