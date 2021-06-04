@@ -18,15 +18,19 @@ data_cntries <-
 
 
 
-cntries_shape_reg2 <-
-  st_read("./assets/geo/country_shapes.geojson") %>%
-  select(ISO3_CODE) %>%
+cntries_shape_reg <-  st_read("./assets/geo/country_shapes.geojson")
+
+message("Join map and data")
+cntries_shape_reg2 <- cntries_shape_reg %>%
   inner_join(data_cntries)
+
+
 
 all_shapes <- st_make_valid(cntries_shape_reg2)
 crop <- c(-90, -25, 120, 70)
 names(crop) <- c("xmin", "ymin", "xmax", "ymax")
 
+message("Crop")
 all_shapes <- st_crop(all_shapes, crop)
 
 
@@ -47,6 +51,9 @@ level1 <- all_shapes %>% filter(risk_level_code == 1)
 level2 <- all_shapes %>% filter(risk_level_code == 2)
 level3 <- all_shapes %>% filter(risk_level_code == 3)
 level4 <- all_shapes %>% filter(risk_level_code == 4)
+
+
+message("Plot")
 
 og_map <-
   tm_shape(tiles, raster.downsample = FALSE, bbox = all_shapes) +
