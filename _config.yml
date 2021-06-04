@@ -26,9 +26,6 @@ author:
 
 gtag_id                 : "G-N81B7N0WSC"
 
-comments:
-  provider: disqus
-  disqus_shortname: corona-atlas
 
 # B. Navigation
 navbar:
@@ -81,7 +78,7 @@ defaults:
       include_on_search   : false
       show_sociallinks  : true
       leaflet: true
-      show_comments: true
+      show_comments: false
 
 
 # XX. Other settings - no need to modify
