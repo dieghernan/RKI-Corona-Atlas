@@ -23,9 +23,10 @@ date_path = data_dir/"report_date.csv"
 
 de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
 
-names = ["NAME_DE", "NAME_EN", "NAME_ES", "NAME_FR", "NAME_PL"]
+names = ["NAME_DE", "NAME_EN", "NAME_ES", "NAME_FR", "NAME_PL", "NAME_TR"]
 translate = {f"NAME_{loc.upper()}":
-             gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=[loc]) for loc in ('es', 'fr', 'pl')}
+             gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=[loc])
+             for loc in ('es', 'fr', 'pl', 'tr')}
 
 
 class RKISpider(scrapy.Spider):

@@ -1,0 +1,65 @@
+---
+title: "Uluslararasi COVID-19 risk bölgeleri"
+subtitle: "Alman hükümeti tarafından belirlendiği şekilde"
+permalink: /tr
+header_type: hero
+excerpt: |
+  İnteraktif harita Almanya tarafından belirlenen Dünya 
+  çapındaki mevcut risk tanımlarını keşfetmenizi sağlar.
+  Bir ülke ve bölgelerinden Almanya'ya seyahat ile ilgili
+  kısıtlamalar hakkında daha fazla bilgi için 
+  o ülkeye tıklayın.
+always_allow_html: yes
+output: 
+  md_document:
+    preserve_yaml: true
+    variant: gfm
+---
+
+
+<!-- Modify _R/index_tr.Rmd file instead -->
+
+```{r, child='snippets/setup.Rmd'}
+
+```
+
+```{r load_table, echo=FALSE}
+db_table <- readr::read_csv("../assets/dist/db_countries_risk_tr.csv")
+
+```
+
+<p class="text-right font-weight-bold">Updated on `r format(date, format="%d %B %Y")`</p>
+
+## Risk map
+
+İnteraktif harita, Almanya tarafından belirlenen Dünya 
+çapındaki mevcut risk tanımlarını keşfetmenizi sağlar.
+Bir ülke ve bölgelerinden Almanya'ya seyahat ile ilgili
+kısıtlamalar hakkında daha fazla bilgi için 
+o ülkeye tıklayın.
+
+<div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
+<script src="https://corona-atlas.de/assets/data/locale_tr.js"></script> 
+<script src="https://corona-atlas.de/assets/js/map.js"></script>
+
+Tüm bilgiler doğrudan Robert Koch Enstitüsü'nden alınır 
+ve garanti olmaksızın sağlanmaktadır.
+Dünya genelindeki risk alanları hakkında, eksiksiz ve 
+güncel bir genel bakış için [rki.de/risikogebiete](https://rki.de/risikogebiete) 
+adresini ziyaret edin.
+
+Riskli bölgelere yönelik mevcut seyahat kısıtlamaları, [Alman
+ Federal Sağlık Bakanlığı'nın web sitesinde](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers)
+  yayınlanmaktadır.
+
+## Veritabanı
+
+Ayrıca, veritabanından ülkelere ait bilgilere doğrudan erişebilirsiniz.
+
+```{r, child='snippets/table.Rmd'}
+
+```
+
+<p class="text-center my-5">
+  <a href="assets/dist/db_countries_risk_tr.csv" class="btn btn-primary">Veritabanını İndir (CSV)</a>
+</p>

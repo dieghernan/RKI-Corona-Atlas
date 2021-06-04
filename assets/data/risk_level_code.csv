@@ -1,7 +1,7 @@
-risk_level_code,risk_level_en,risk_level_de,risk_level_es,risk_level_fr,risk_level_pl
-0,Not risk area,Kein Risikogebiet,No es área de riesgo,Zone sans risque,Nie jest to obszar ryzyka
-1,Variant of concern,Virusvarianten-Gebiet,Área de variante viral,Zone de variantes du virus,Obszar z niebezpiecznymi mutacjami
-2,High incidence area,Hochinzidenzgebiet,Área de alta incidencia,Zone à forte incidence,Obszar o wysokiej częstości występowania
-3,Risk area,Risikogebiet,Área de riesgo,Zone à risque,Obszar ryzyka
-4,Risk area (partially),Teilweise Risikogebiet,Área de riesgo (parcial),Zone à risque (partiel),Obszar ryzyka (częściowy)
-5,,,,,
+risk_level_code,risk_level_en,risk_level_de,risk_level_es,risk_level_fr,risk_level_pl,risk_level_tr
+0,Not risk area,Kein Risikogebiet,No es área de riesgo,Zone sans risque,Nie jest to obszar ryzyka,Risksiz Bölge
+1,Variant of concern,Virusvarianten-Gebiet,Área de variante viral,Zone de variantes du virus,Obszar z niebezpiecznymi mutacjami,Virüs çeşidi bölgesi
+2,High incidence area,Hochinzidenzgebiet,Área de alta incidencia,Zone à forte incidence,Obszar o wysokiej częstości występowania,Yüksek vaka sayılı bölge
+3,Risk area,Risikogebiet,Área de riesgo,Zone à risque,Obszar ryzyka,Riskli bölge
+4,Risk area (partially),Teilweise Risikogebiet,Área de riesgo (parcial),Zone à risque (partiel),Obszar ryzyka (częściowy),Kısmen riskli bölge
+5,,,,,,

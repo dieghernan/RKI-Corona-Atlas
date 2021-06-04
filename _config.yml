@@ -51,6 +51,8 @@ navbar:
       url: /fr
     - title: Polski
       url: /pl
+    - title: Türkçe
+      url: /tr
   - title   : About # Label
     url     : /about # url
 
