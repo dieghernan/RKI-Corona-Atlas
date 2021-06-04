@@ -410,7 +410,7 @@ class RKISpider(scrapy.Spider):
             if lang == 'de':
                 info_lang = db_curated["INFO_DE"].fillna('')
             else:
-                date_format = f"{idiom['date_prefix']} {idiom['date_format']}"
+                date_format = idiom['date_format']
 
                 info_lang = db_curated["risk_date"].dt.strftime(date_format).fillna('').rename("info")
 
