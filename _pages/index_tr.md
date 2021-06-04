@@ -20,7 +20,7 @@ output:
 
 <p class="text-right font-weight-bold">
 
-Updated on 28.05.2021’de güncellendi
+28.05.2021’de güncellendi
 
 </p>
 
