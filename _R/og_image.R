@@ -16,56 +16,18 @@ data_cntries <-
   left_join(rl)
 
 
-cntries_shape <-
-  gisco_get_countries(
-    year = 2020,
-    epsg = 4326,
-    cache_dir = "./_R/geojson",
-    resolution = 3
-  )
-# Merge overseas and disputed territories to their administrations
-overseas <- readr::read_csv("./assets/data/overseas.csv")
-overseas_shp <- inner_join(cntries_shape, overseas) %>% select(ISO3_ADMIN) %>%
-  mutate(ISO3_CODE = ISO3_ADMIN)
-
-cntries_shape_overseas <- bind_rows(cntries_shape,overseas_shp) %>%
-  group_by(ISO3_CODE) %>%
-  summarise(n=n())
 
 
-# Add Kosovo
-K <-
-  st_read("./_R/geojson/kosovo.geojson", quiet = TRUE) %>% select(ISO3_CODE)
-
-cntries_shape_reg <-
-  st_difference(cntries_shape_overseas, st_union(K))
-
-cntries_shape_reg <- bind_rows(cntries_shape_reg, K)
-
-
-
-
-cntries_shape_reg2 <- cntries_shape_reg %>%
+cntries_shape_reg2 <-
+  st_read("./assets/geo/country_shapes.geojson") %>%
   select(ISO3_CODE) %>%
   inner_join(data_cntries)
 
 all_shapes <- st_make_valid(cntries_shape_reg2)
-crop <- c(-90,-25, 120, 70)
+crop <- c(-90, -25, 120, 70)
 names(crop) <- c("xmin", "ymin", "xmax", "ymax")
 
-
-
-cntries_shape_reg <- st_crop(cntries_shape_reg, crop)
-
-
-cntries_shape_reg2 <- cntries_shape_reg %>%
-  select(ISO3_CODE) %>%
-  inner_join(data_cntries)
-
-all_shapes <- st_make_valid(cntries_shape_reg2)
-
-all_shapes <-
-  all_shapes %>% select(ISO3_CODE) %>% left_join(data_cntries)
+all_shapes <- st_crop(all_shapes, crop)
 
 
 all_shapes <- st_transform(all_shapes, 3857)
