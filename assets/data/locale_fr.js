@@ -237,7 +237,7 @@ var info_rki = {
   "info":"depuis le 23\/05\/2021"
  },
  "FSM":{
-  "name":"Micronesia",
+  "name":"Micronésie",
   "info":""
  },
  "GAB":{

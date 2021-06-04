@@ -673,7 +673,7 @@ var info_rki = {
   "info":"desde el 07\/03\/2021"
  },
  "SWZ":{
-  "name":"Eswatini",
+  "name":"Esuatini",
   "info":"desde el 31\/01\/2021"
  },
  "SYC":{

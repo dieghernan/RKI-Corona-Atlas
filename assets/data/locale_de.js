@@ -237,7 +237,7 @@ var info_rki = {
   "info":"inkl. aller Übersee-Departments (seit 23. Mai 2021; Hochinzidenzgebiet vom 2. Mai 2021 – 22. Mai 2021)"
  },
  "FSM":{
-  "name":"Micronesia",
+  "name":"Mikronesien",
   "info":""
  },
  "GAB":{

@@ -141,7 +141,7 @@ var info_rki = {
   "info":"od 15.06.2020"
  },
  "COD":{
-  "name":"Democratic Republic of The Congo",
+  "name":"Demokratyczna Republika Konga",
   "info":"od 15.06.2020"
  },
  "COG":{
@@ -237,7 +237,7 @@ var info_rki = {
   "info":"od 23.05.2021"
  },
  "FSM":{
-  "name":"Micronesia",
+  "name":"Mikronezja",
   "info":""
  },
  "GAB":{
