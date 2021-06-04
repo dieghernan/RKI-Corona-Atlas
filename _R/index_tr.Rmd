@@ -28,7 +28,7 @@ db_table <- readr::read_csv("../assets/dist/db_countries_risk_tr.csv")
 
 ```
 
-<p class="text-right font-weight-bold">Updated on `r format(date, format="%d.%m.%Y")'de güncellendi`</p>
+<p class="text-right font-weight-bold">Updated on `r format(date, format="%d.%m.%Y")`'de güncellendi</p>
 
 ## COVID-19 risk haritası
 
