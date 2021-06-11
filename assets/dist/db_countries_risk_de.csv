@@ -5,11 +5,11 @@ Albanien,Kein Risikogebiet,
 Andorra,Risikogebiet,seit 23. Mai 2021
 Vereinigte Arabische Emirate,Risikogebiet,seit 18. April 2021
 Argentinien,Hochinzidenzgebiet,Hochinzidenzgebiet seit 18. April 2021
-Armenien,Risikogebiet,seit 9. Mai 2021
+Armenien,Kein Risikogebiet,
 Antigua und Barbuda,Kein Risikogebiet,
 Australien,Kein Risikogebiet,
-Österreich,Teilweise Risikogebiet,"– die folgenden Bundesländer gelten als einfache Risikogebiete, mit Ausnahme der Gemeinden/Exklaven Jungholz und Mittelberg/ Kleinwalsertal: -Tirol (seit 1. November 2020); -Vorarlberg (seit 1. November 2020)"
-Aserbaidschan,Risikogebiet,seit 15. Juni 2020
+Österreich,Kein Risikogebiet,
+Aserbaidschan,Kein Risikogebiet,
 Burundi,Risikogebiet,seit 15. Juni 2020
 Belgien,Risikogebiet,seit 30. September 2020
 Benin,Risikogebiet,seit 15. Juni 2020
@@ -18,7 +18,7 @@ Bangladesch,Risikogebiet,seit 15. Juni 2020
 Bulgarien,Kein Risikogebiet,
 Bahrain,Hochinzidenzgebiet,Hochinzidenzgebiet seit 14. Februar 2021
 Bahamas,Risikogebiet,seit 25. April 2021
-Bosnien und Herzegowina,Risikogebiet,seit 16. Mai 2021
+Bosnien und Herzegowina,Kein Risikogebiet,
 Belarus,Risikogebiet,seit 15. Juni 2020
 Belize,Risikogebiet,seit 15. Juni 2020
 Bolivien,Hochinzidenzgebiet,Hochinzidenzgebiet seit 24. Januar 2021
@@ -28,8 +28,8 @@ Brunei,Kein Risikogebiet,
 Bhutan,Risikogebiet,seit 15. Juni 2020
 Botsuana,Virusvarianten-Gebiet,Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 22. November 2020 Risikogebiet
 Zentralafrikanische Republik,Risikogebiet,seit 15. Juni 2020
-Kanada,Risikogebiet,seit 15. November 2020
-Schweiz,Teilweise Risikogebiet,"(seit 24. Oktober 2020), ausgenommen sind die Kantone Aargau, Basel-Stadt, Basel-Land, Graubünden, Solothurn, Tessin, Zug und Zürich (seit 6. Juni 2021)"
+Kanada,Kein Risikogebiet,
+Schweiz,Teilweise Risikogebiet,"(seit 24. Oktober 2020), ausgenommen sind die Kantone Aargau, Basel-Stadt, Basel-Land, Graubünden, Solothurn, Tessin, Zug und Zürich (seit 6. Juni 2021) sowie Bern und Thurgau (seit 13. Juni 2021)"
 Chile,Hochinzidenzgebiet,Hochinzidenzgebiet seit 3. April 2021
 China,Kein Risikogebiet,
 Côte d'Ivoire,Risikogebiet,seit 15. Juni 2020
@@ -41,7 +41,7 @@ Komoren,Risikogebiet,seit 15. Juni 2020
 Cabo Verde,Hochinzidenzgebiet,Hochinzidenzgebiet seit 25. April 2021
 Costa Rica,Hochinzidenzgebiet,Hochinzidenzgebiet seit 9. Mai 2021
 Kuba,Risikogebiet,seit 28. Februar 2021
-Zypern,Risikogebiet,seit 30. Mai 2021; Hochinzidenzgebiet vom 21. März 2021 – 29. Mai 2021
+Zypern,Kein Risikogebiet,
 Tschechien,Kein Risikogebiet,
 Deutschland,,
 Dschibuti,Risikogebiet,seit 15. Juni 2020
@@ -52,7 +52,7 @@ Algerien,Risikogebiet,seit 15. Juni 2020
 Ecuador,Hochinzidenzgebiet,Hochinzidenzgebiet seit 31. Januar 2021
 Ägypten,Hochinzidenzgebiet,Hochinzidenzgebiet seit 24. Januar 2021
 Eritrea,Risikogebiet,seit 15. Juni 2020
-Spanien,Teilweise Risikogebiet,– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete: -Andalusien (seit 14. August 2020); -Aragon (seit 31. Juli 2020); -Kastilien und León (seit 14. August 2020); -Katalonien (seit 31. Juli 2020); -Madrid (seit 14. August 2020); -Melilla (seit 14. August 2020); -Navarra (seit 31. Juli 2020); -Baskenland (seit 14. August 2020); -La Rioja (seit 3. April. 2021)
+Spanien,Teilweise Risikogebiet,– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete: -Andalusien (seit 14. August 2020); -Aragon (seit 31. Juli 2020); -Kastilien und León (seit 14. August 2020); -Katalonien (seit 31. Juli 2020); -Madrid (seit 14. August 2020); -Melilla (seit 14. August 2020); -Navarra (seit 31. Juli 2020); -Baskenland (seit 14. August 2020); -La Rioja (seit 3. April. 2021); -Ceuta (seit 13. Juni 2021)
 Estland,Risikogebiet,seit 16. Mai 2021
 Äthiopien,Risikogebiet,seit 15. Juni 2020
 Finnland,Kein Risikogebiet,
@@ -61,24 +61,24 @@ Frankreich,Teilweise Risikogebiet,"(seit 23. Mai 2021), ausgenommen ist Korsika 
 Mikronesien,Kein Risikogebiet,
 Gabun,Risikogebiet,seit 15. Juni 2020
 Vereinigtes Königreich,Virusvarianten-Gebiet,"Virusvariantengebiet seit 23. Mai 2021, seit 16. Mai 2021 bereits als einfaches Risikogebiet ausgewiesen"
-Georgien,Hochinzidenzgebiet,Hochinzidenzgebiet seit 9. Mai 2021
+Georgien,Risikogebiet,seit 13. Juni 2021; Hochinzidenzgebiet vom 9. Mai 2021 – 12. Juni 2021
 Ghana,Risikogebiet,seit 15. Juni 2020
 Guinea,Risikogebiet,seit 15. Juni 2020
 Gambia,Risikogebiet,seit 15. Juni 2020
 Guinea-Bissau,Risikogebiet,seit 15. Juni 2020
 Äquatorialguinea,Risikogebiet,seit 15. Juni 2020
-Griechenland,Risikogebiet,seit 7. März 2021
+Griechenland,Teilweise Risikogebiet,"(seit 7. März 2021), ausgenommen sind die Regionen Berg Athos, die Nördliche Ägäis, Ostmakedonien und Thrakien sowie Peloponnes (seit 13. Juni 2021)"
 Grenada,Kein Risikogebiet,
 Guatemala,Risikogebiet,seit 15. Juni 2020
 Guyana,Risikogebiet,seit 15. Juni 2020
 Hongkong,Kein Risikogebiet,
 Honduras,Risikogebiet,seit 15. Juni 2020
-Kroatien,Teilweise Risikogebiet,"(seit 23. Mai 2021), ausgenommen sind die Gespanschaften Dubrovnik-Neretva, Istrien, Karlovac, Krapina-Zagorje, Požega-Slawonien, Split-Dalmatien (seit 6. Juni 2021)"
+Kroatien,Teilweise Risikogebiet,"(seit 23. Mai 2021), die folgenden Gespanschaften gelten als einfache Risikogebiete: -Medimurje (seit 23. Mai 2021); -Varazdin (seit 23. Mai 2021)"
 Haiti,Risikogebiet,seit 15. Juni 2020
 Ungarn,Kein Risikogebiet,
 Indonesien,Risikogebiet,seit 15. Juni 2020
 Indien,Virusvarianten-Gebiet,Virusvariantengebiet seit 26. April 2021; Hochinzidenzgebiet am 25. April 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet
-Irland,Teilweise Risikogebiet,"(seit 21. März 2021), die folgenden Regionen gelten derzeit als Risikogebiete -Border (seit 21. März 2021); -Dublin (seit 21. März 2021); -Mid-East (seit 21. März 2021)"
+Irland,Teilweise Risikogebiet,"(seit 21. März 2021), die folgenden Regionen gelten derzeit als einfache Risikogebiete -Border (seit 21. März 2021); -Dublin (seit 21. März 2021); -Mid-East (seit 21. März 2021)"
 Iran,Hochinzidenzgebiet,Hochinzidenzgebiet seit 24. Januar 2021
 Irak,Risikogebiet,seit 15. Juni 2020
 Island,Kein Risikogebiet,
@@ -96,41 +96,41 @@ St. Kitts und Nevis,Kein Risikogebiet,
 Südkorea,Kein Risikogebiet,
 Kuwait,Hochinzidenzgebiet,Hochinzidenzgebiet seit 21. März 2021
 Laos,Kein Risikogebiet,
-Libanon,Risikogebiet,seit 16. Mai 2021
+Libanon,Kein Risikogebiet,
 Liberia,Risikogebiet,seit 15. Juni 2020
 Libyen,Risikogebiet,seit 15. Juni 2020
 St. Lucia,Risikogebiet,seit 23. Mai 2021
 Liechtenstein,Kein Risikogebiet,
-Sri Lanka,Risikogebiet,seit 16. Mai 2021
+Sri Lanka,Hochinzidenzgebiet,Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 16. Mai 2021 als einfaches Risikogebiet ausgewiesen
 Lesotho,Virusvarianten-Gebiet,Virusvariantengebiet seit 31. Januar 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet
 Litauen,Risikogebiet,seit 6. Juni 2021; Hochinzidenzgebiet vom 2. Mai 2021 – 5. Juni 2021
 Luxemburg,Risikogebiet,seit 25. September 2020
 Lettland,Risikogebiet,seit 11. April 2021
 Marokko,Risikogebiet,seit 15. Juni 2020
 Monaco,Kein Risikogebiet,
-Moldau,Risikogebiet,seit 25. April 2021
+Moldau,Kein Risikogebiet,
 Madagaskar,Risikogebiet,seit 15. Juni 2020
 Malediven,Hochinzidenzgebiet,Hochinzidenzgebiet seit 9. Mai 2021
-Mexiko,Hochinzidenzgebiet,Hochinzidenzgebiet seit 24. Januar 2021
+Mexiko,Risikogebiet,seit 13. Juni 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 12. Juni 2021
 Marshallinseln,Kein Risikogebiet,
-Nordmazedonien,Risikogebiet,seit 16. Mai 2021
+Nordmazedonien,Kein Risikogebiet,
 Mali,Risikogebiet,seit 15. Juni 2020
 Malta,Kein Risikogebiet,
 Myanmar/Burma,Kein Risikogebiet,
-Montenegro,Risikogebiet,seit 9. Mai 2021
-Mongolei,Risikogebiet,seit 23. Mai 2021
+Montenegro,Kein Risikogebiet,
+Mongolei,Hochinzidenzgebiet,Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 23. Mai 2021 als einfaches Risikogebiet ausgewiesen
 Mosambik,Virusvarianten-Gebiet,Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet
 Mauretanien,Risikogebiet,seit 15. Juni 2020
 Mauritius,Kein Risikogebiet,
 Malawi,Virusvarianten-Gebiet,Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet
-Malaysia,Risikogebiet,seit 9. Mai 2021
-Namibia,Risikogebiet,(seit 14. Februar 2021
+Malaysia,Hochinzidenzgebiet,Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 9. Mai 2021 als einfaches Risikogebiet ausgewiesen
+Namibia,Hochinzidenzgebiet,Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 14. Februar 2021 als einfaches Risikogebiet ausgewiesen
 Niger,Risikogebiet,seit 15. Juni 2020
 Nigeria,Risikogebiet,seit 15. Juni 2020
 Nicaragua,Risikogebiet,seit 15. Juni 2020
 Niue,Kein Risikogebiet,
 Niederlande,Teilweise Risikogebiet,"(seit 30. Mai 2021; Hochinzidenzgebiet vom 6. April 2021 – 29. Mai 2021), ausgenommen sind die überseeischen Teile des Königreichs Niederlande Curaçao, Bonaire, Sint Eustatius und Saba (seit 6. Juni 2021)"
-Norwegen,Teilweise Risikogebiet,- die folgenden Provinzen gelten derzeit als Risikogebiete: -Oslo (seit 8. November 2020); -Viken (seit 15. November 2020); -Agder (seit 2. Mai 2021); -Vestfold og Telemark (seit 9. Mai 2021); -Innlandet (seit 30. Mai 2021); -Troms og Finnmark (seit 6. Juni 2021); -Trøndelag (seit 6. Juni 2021)
+Norwegen,Teilweise Risikogebiet,- die folgenden Provinzen gelten derzeit als einfache Risikogebiete: -Oslo (seit 8. November 2020); -Agder (seit 2. Mai 2021); -Vestfold og Telemark (seit 9. Mai 2021); -Troms og Finnmark (seit 6. Juni 2021); -Trøndelag (seit 6. Juni 2021)
 Nepal,Virusvarianten-Gebiet,Virusvariantengebiet seit 16. Mai 2021; bereits seit 9. Mai 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet
 Nauru,Kein Risikogebiet,
 Neuseeland,Kein Risikogebiet,
@@ -143,10 +143,10 @@ Palau,Kein Risikogebiet,
 Papua-Neuguinea,Risikogebiet,seit 17. Juni 2020
 Polen,Kein Risikogebiet,
 Korea (Volksrepublik),Risikogebiet, seit 15. Juni 2020
-Portugal,Teilweise Risikogebiet,– die folgenden Regionen gelten derzeit als Risikogebiete: -Madeira (autonome Region) (seit 14. März 2021); -Azoren (autonome Region) (seit 18. April 2021)
+Portugal,Teilweise Risikogebiet,– die folgenden Regionen gelten derzeit als einfache Risikogebiete: -Azoren (autonome Region) (seit 18. April 2021); -Lissabon (Metropolregion) (seit 13. Juni 2021)
 Paraguay,Hochinzidenzgebiet,Hochinzidenzgebiet seit 21. März 2021
 Palästinensische Gebiete,Risikogebiet,seit 16. Mai 2021
-Katar,Hochinzidenzgebiet,Hochinzidenzgebiet seit 25. April 2021
+Katar,Risikogebiet,seit 13. Juni 2021; Hochinzidenzgebiet vom 25. April 2021 – 12. Juni 2021
 Rumänien,Kein Risikogebiet,
 Russische Föderation,Risikogebiet,seit 15. Juni 2020
 Ruanda,Kein Risikogebiet,
@@ -159,13 +159,13 @@ Sierra Leone,Risikogebiet,seit 15. Juni 2020
 El Salvador,Risikogebiet,seit 15. Juni 2020
 San Marino,Kein Risikogebiet,
 Somalia,Risikogebiet,seit 15. Juni 2020
-Serbien,Risikogebiet,seit 16. Mai 2021
+Serbien,Kein Risikogebiet,
 Südsudan,Risikogebiet,seit 15. Juni 2020
 São Tomé und Príncipe,Kein Risikogebiet,
 Surinam,Hochinzidenzgebiet,Hochinzidenzgebiet seit 23. Mai 2021; bereits seit 15. Juni 2020 als einfaches Risikogebiet ausgewiesen
 Slowakei,Kein Risikogebiet,
 Slowenien,Risikogebiet,seit 23. Mai 2021
-Schweden,Risikogebiet,(seit 6. Juni 2021; Hochinzidenzgebiet vom 7. März 2021 – 5. Juni 2021) 
+Schweden,Risikogebiet,seit 6. Juni 2021; Hochinzidenzgebiet vom 7. März 2021 – 5. Juni 2021
 Eswatini,Virusvarianten-Gebiet,Virusvariantengebiet seit 31. Januar 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet
 Seychellen,Hochinzidenzgebiet,Hochinzidenzgebiet seit 14. Februar 2021
 Syrische Arabische Republik,Hochinzidenzgebiet,Hochinzidenzgebiet seit 31. Januar 2021
@@ -182,9 +182,9 @@ Türkei,Risikogebiet,seit 6. Juni 2021; Hochinzidenzgebiet vom 11. April 2021 �
 Tuvalu,Kein Risikogebiet,
 Tansania,Hochinzidenzgebiet,Hochinzidenzgebiet seit 14. März 2021
 Uganda,Kein Risikogebiet,
-Ukraine,Risikogebiet,seit 16. Mai 2021
+Ukraine,Kein Risikogebiet,
 Uruguay,Virusvarianten-Gebiet,Virusvariantengebiet seit 6. Juni 2021; bereit seit 21. März 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet
-USA,Risikogebiet,seit 7. März 2021
+USA,Kein Risikogebiet,
 Usbekistan,Risikogebiet,seit 15. Juni 2020
 Vatikanstadt,Kein Risikogebiet,
 Saint Vincent and The Grenadines,Kein Risikogebiet,
@@ -192,7 +192,7 @@ Venezuela,Risikogebiet,seit 15. Juni 2020
 Vietnam,Kein Risikogebiet,
 Vanuatu,Kein Risikogebiet,
 Samoa,Kein Risikogebiet,
-Kosovo,Risikogebiet,seit 16. Mai 2021
+Kosovo,Kein Risikogebiet,
 Jemen,Risikogebiet,seit 15. Juni 2020
 Südafrika,Virusvarianten-Gebiet,Virusvariantengebiet seit 13. Januar 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet
 Sambia,Virusvarianten-Gebiet,Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet

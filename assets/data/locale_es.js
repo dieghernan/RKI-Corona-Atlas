@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenia",
-  "info":"desde el 09\/05\/2021"
+  "info":""
  },
  "ATG":{
   "name":"Antigua y Barbuda",
@@ -38,11 +38,11 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":"desde el 01\/11\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Tirol, desde el 01\/11\/2020<\/li><li>Vorarlberg, desde el 01\/11\/2020<\/li><\/ul>"
+  "info":""
  },
  "AZE":{
   "name":"Azerbayán",
-  "info":"desde el 15\/06\/2020"
+  "info":""
  },
  "BDI":{
   "name":"Burundi",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnia y Herzegovina",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "BLR":{
   "name":"Bielorrusia",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Canadá",
-  "info":"desde el 15\/11\/2020"
+  "info":""
  },
  "CHE":{
   "name":"Suiza",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Chipre",
-  "info":"desde el 30\/05\/2021"
+  "info":""
  },
  "CZE":{
   "name":"República Checa",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"España",
-  "info":"desde el 14\/08\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Andalucía, desde el 14\/08\/2020<\/li><li>Aragón, desde el 31\/07\/2020<\/li><li>País Vasco, desde el 14\/08\/2020<\/li><li>Castilla y León, desde el 14\/08\/2020<\/li><li>Cataluña, desde el 31\/07\/2020<\/li><li>La Rioja, desde el 03\/04\/2021<\/li><li>Madrid, desde el 14\/08\/2020<\/li><li>Melilla, desde el 14\/08\/2020<\/li><li>Navarra, desde el 31\/07\/2020<\/li><\/ul>"
+  "info":"desde el 14\/08\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Andalucía, desde el 14\/08\/2020<\/li><li>Aragón, desde el 31\/07\/2020<\/li><li>País Vasco, desde el 14\/08\/2020<\/li><li>Ceuta, desde el 13\/06\/2021<\/li><li>Castilla y León, desde el 14\/08\/2020<\/li><li>Cataluña, desde el 31\/07\/2020<\/li><li>La Rioja, desde el 03\/04\/2021<\/li><li>Madrid, desde el 14\/08\/2020<\/li><li>Melilla, desde el 14\/08\/2020<\/li><li>Navarra, desde el 31\/07\/2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -250,7 +250,7 @@ var info_rki = {
  },
  "GEO":{
   "name":"Georgia",
-  "info":"desde el 09\/05\/2021"
+  "info":"desde el 13\/06\/2021"
  },
  "GHA":{
   "name":"Ghana",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croacia",
-  "info":"desde el 23\/05\/2021. A excepción de las siguientes regiones:<ul><li>Dubrovnik-Neretva<\/li><li>Istria<\/li><li>Karlovac<\/li><li>Krapina-Zagorje<\/li><li>Požega-Eslavonia<\/li><li>Split-Dalmacia<\/li><\/ul>"
+  "info":"desde el 23\/05\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Medimurje, desde el 23\/05\/2021<\/li><li>Varazdin, desde el 23\/05\/2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haití",
@@ -390,7 +390,7 @@ var info_rki = {
  },
  "LBN":{
   "name":"Líbano",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "LBR":{
   "name":"Liberia",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"desde el 16\/05\/2021"
+  "info":"desde el 13\/06\/2021"
  },
  "LSO":{
   "name":"Lesoto",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldavia",
-  "info":"desde el 25\/04\/2021"
+  "info":""
  },
  "MDG":{
   "name":"Madagascar",
@@ -450,7 +450,7 @@ var info_rki = {
  },
  "MEX":{
   "name":"México",
-  "info":"desde el 24\/01\/2021"
+  "info":"desde el 13\/06\/2021"
  },
  "MHL":{
   "name":"Islas Marshall",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Macedonia del Norte",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "MLI":{
   "name":"Mali",
@@ -474,11 +474,11 @@ var info_rki = {
  },
  "MNE":{
   "name":"Montenegro",
-  "info":"desde el 09\/05\/2021"
+  "info":""
  },
  "MNG":{
   "name":"Mongolia",
-  "info":"desde el 23\/05\/2021"
+  "info":"desde el 13\/06\/2021"
  },
  "MOZ":{
   "name":"Mozambique",
@@ -498,11 +498,11 @@ var info_rki = {
  },
  "MYS":{
   "name":"Malasia",
-  "info":"desde el 09\/05\/2021"
+  "info":"desde el 13\/06\/2021"
  },
  "NAM":{
   "name":"Namibia",
-  "info":"desde el 14\/02\/2021"
+  "info":"desde el 13\/06\/2021"
  },
  "NER":{
   "name":"Niger",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Noruega",
-  "info":"desde el 08\/11\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Agder, desde el 02\/05\/2021<\/li><li>Innlandet, desde el 30\/05\/2021<\/li><li>Oslo, desde el 08\/11\/2020<\/li><li>Troms og Finnmark, desde el 06\/06\/2021<\/li><li>Trøndelag, desde el 06\/06\/2021<\/li><li>Vestfold og Telemark, desde el 09\/05\/2021<\/li><li>Viken, desde el 15\/11\/2020<\/li><\/ul>"
+  "info":"desde el 08\/11\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Agder, desde el 02\/05\/2021<\/li><li>Oslo, desde el 08\/11\/2020<\/li><li>Troms og Finnmark, desde el 06\/06\/2021<\/li><li>Trøndelag, desde el 06\/06\/2021<\/li><li>Vestfold og Telemark, desde el 09\/05\/2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"desde el 14\/03\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Azores, desde el 18\/04\/2021<\/li><li>Madeira, desde el 14\/03\/2021<\/li><\/ul>"
+  "info":"desde el 18\/04\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Azores, desde el 18\/04\/2021<\/li><li>Lissabon, desde el 13\/06\/2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Qatar",
-  "info":"desde el 25\/04\/2021"
+  "info":"desde el 13\/06\/2021"
  },
  "ROU":{
   "name":"Rumanía",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbia",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "SSD":{
   "name":"Sudán del Sur",
@@ -734,7 +734,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ucrania",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "URY":{
   "name":"Uruguay",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Estados Unidos",
-  "info":"desde el 07\/03\/2021"
+  "info":""
  },
  "UZB":{
   "name":"Uzbekistán",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "YEM":{
   "name":"Yemen",

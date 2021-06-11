@@ -5,11 +5,11 @@ Arnavutluk,Risksiz Bölge,
 Andorra,Riskli bölge,23.05.2021'den beri
 Birleşik Arap Emirlikleri,Riskli bölge,18.04.2021'den beri
 Arjantin,Yüksek vaka sayılı bölge,18.04.2021'den beri
-Ermenistan,Riskli bölge,09.05.2021'den beri
+Ermenistan,Risksiz Bölge,
 Antigua-Barbuda,Risksiz Bölge,
 Avustralya,Risksiz Bölge,
-Avusturya,Kısmen riskli bölge,"01.11.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Tirol, 01.11.2020'den beri; -Vorarlberg, 01.11.2020'den beri"
-Azerbaycan,Riskli bölge,15.06.2020'den beri
+Avusturya,Risksiz Bölge,
+Azerbaycan,Risksiz Bölge,
 Burundi,Riskli bölge,15.06.2020'den beri
 Belçika,Riskli bölge,30.09.2020'den beri
 Benin,Riskli bölge,15.06.2020'den beri
@@ -18,7 +18,7 @@ Bangladeş,Riskli bölge,15.06.2020'den beri
 Bulgaristan,Risksiz Bölge,
 Bahreyn,Yüksek vaka sayılı bölge,14.02.2021'den beri
 Bahamalar,Riskli bölge,25.04.2021'den beri
-Bosna-Hersek,Riskli bölge,16.05.2021'den beri
+Bosna-Hersek,Risksiz Bölge,
 Beyaz Rusya,Riskli bölge,15.06.2020'den beri
 Belize,Riskli bölge,15.06.2020'den beri
 Bolivya,Yüksek vaka sayılı bölge,24.01.2021'den beri
@@ -28,7 +28,7 @@ Brunei,Risksiz Bölge,
 Butan,Riskli bölge,15.06.2020'den beri
 Botsvana,Virüs çeşidi bölgesi,07.02.2021'den beri
 Orta Afrika Cumhuriyeti,Riskli bölge,15.06.2020'den beri
-Kanada,Riskli bölge,15.11.2020'den beri
+Kanada,Risksiz Bölge,
 İsviçre,Kısmen riskli bölge,24.10.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Aargau; -Basel-Land; -Basel-Stadt; -Graubünden; -Solothurn; -Tessin; -Zug; -Zürich
 Şili,Yüksek vaka sayılı bölge,03.04.2021'den beri
 Çin,Risksiz Bölge,
@@ -41,7 +41,7 @@ Komorlar,Riskli bölge,15.06.2020'den beri
 Verde Burnu,Yüksek vaka sayılı bölge,25.04.2021'den beri
 Kosta Rika,Yüksek vaka sayılı bölge,09.05.2021'den beri
 Küba,Riskli bölge,28.02.2021'den beri
-Kıbrıs,Riskli bölge,30.05.2021'den beri
+Kıbrıs,Risksiz Bölge,
 Çekya,Risksiz Bölge,
 Almanya,,
 Cibuti,Riskli bölge,15.06.2020'den beri
@@ -52,7 +52,7 @@ Cezayir,Riskli bölge,15.06.2020'den beri
 Ekvator,Yüksek vaka sayılı bölge,31.01.2021'den beri
 Mısır,Yüksek vaka sayılı bölge,24.01.2021'den beri
 Eritre,Riskli bölge,15.06.2020'den beri
-İspanya,Kısmen riskli bölge,"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Endülüs, 14.08.2020'den beri; -Aragon, 31.07.2020'den beri; -Bask Bölgesi, 14.08.2020'den beri; -Kastilya ve Leon, 14.08.2020'den beri; -Katalonya, 31.07.2020'den beri; -La Rioja, 03.04.2021'den beri; -Madrid, 14.08.2020'den beri; -Melilla, 14.08.2020'den beri; -Navarra, 31.07.2020'den beri"
+İspanya,Kısmen riskli bölge,"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Endülüs, 14.08.2020'den beri; -Aragon, 31.07.2020'den beri; -Bask Bölgesi, 14.08.2020'den beri; -Ceuta, 13.06.2021'den beri; -Kastilya ve Leon, 14.08.2020'den beri; -Katalonya, 31.07.2020'den beri; -La Rioja, 03.04.2021'den beri; -Madrid, 14.08.2020'den beri; -Melilla, 14.08.2020'den beri; -Navarra, 31.07.2020'den beri"
 Estonya,Riskli bölge,16.05.2021'den beri
 Etiyopya,Riskli bölge,15.06.2020'den beri
 Finlandiya,Risksiz Bölge,
@@ -61,19 +61,19 @@ Fransa,Kısmen riskli bölge,23.05.2021'den beri. Aşağıdaki bölgeler dahil e
 Mikronezya,Risksiz Bölge,
 Gabon,Riskli bölge,15.06.2020'den beri
 Birleşik Krallık,Virüs çeşidi bölgesi,23.05.2021'den beri
-Gürcistan,Yüksek vaka sayılı bölge,09.05.2021'den beri
+Gürcistan,Riskli bölge,13.06.2021'den beri
 Gana,Riskli bölge,15.06.2020'den beri
 Gine,Riskli bölge,15.06.2020'den beri
 Gambiya,Riskli bölge,15.06.2020'den beri
 Gine-Bissau,Riskli bölge,15.06.2020'den beri
 Ekvatoral Gine,Riskli bölge,15.06.2020'den beri
-Yunanistan,Riskli bölge,07.03.2021'den beri
+Yunanistan,Kısmen riskli bölge,07.03.2021'den beri
 Granada,Risksiz Bölge,
 Guatemala,Riskli bölge,15.06.2020'den beri
 Guyana,Riskli bölge,15.06.2020'den beri
 Hong Kong,Risksiz Bölge,
 Honduras,Riskli bölge,15.06.2020'den beri
-Hırvatistan,Kısmen riskli bölge,23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Dubrovnik-Neretva; -Istria; -Karlovac; -Krapina-Zagorje; -Požega-Slavonya; -Split-Dalmaçya
+Hırvatistan,Kısmen riskli bölge,"23.05.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Medimurje, 23.05.2021'den beri; -Varazdin, 23.05.2021'den beri"
 Haiti,Riskli bölge,15.06.2020'den beri
 Macaristan,Risksiz Bölge,
 Endonezya,Riskli bölge,15.06.2020'den beri
@@ -96,41 +96,41 @@ Sen Kitts ve Nevis,Risksiz Bölge,
 Güney Kore,Risksiz Bölge,
 Kuveyt,Yüksek vaka sayılı bölge,21.03.2021'den beri
 Laos,Risksiz Bölge,
-Lübnan,Riskli bölge,16.05.2021'den beri
+Lübnan,Risksiz Bölge,
 Liberya,Riskli bölge,15.06.2020'den beri
 Libya,Riskli bölge,15.06.2020'den beri
 Sen Lucia,Riskli bölge,23.05.2021'den beri
 Lihtenştayn,Risksiz Bölge,
-Sri Lanka,Riskli bölge,16.05.2021'den beri
+Sri Lanka,Yüksek vaka sayılı bölge,13.06.2021'den beri
 Lesoto,Virüs çeşidi bölgesi,31.01.2021'den beri
 Litvanya,Riskli bölge,06.06.2021'den beri
 Lüksemburg,Riskli bölge,25.09.2020'den beri
 Latviya,Riskli bölge,11.04.2021'den beri
 Fas,Riskli bölge,15.06.2020'den beri
 Monako,Risksiz Bölge,
-Moldova,Riskli bölge,25.04.2021'den beri
+Moldova,Risksiz Bölge,
 Madagaskar,Riskli bölge,15.06.2020'den beri
 Maldivler,Yüksek vaka sayılı bölge,09.05.2021'den beri
-Meksika,Yüksek vaka sayılı bölge,24.01.2021'den beri
+Meksika,Riskli bölge,13.06.2021'den beri
 Marşal Adaları,Risksiz Bölge,
-Kuzey Makedonya,Riskli bölge,16.05.2021'den beri
+Kuzey Makedonya,Risksiz Bölge,
 Mali,Riskli bölge,15.06.2020'den beri
 Malta,Risksiz Bölge,
 Myanmar/Burma,Risksiz Bölge,
-Karadağ,Riskli bölge,09.05.2021'den beri
-Moğolistan,Riskli bölge,23.05.2021'den beri
+Karadağ,Risksiz Bölge,
+Moğolistan,Yüksek vaka sayılı bölge,13.06.2021'den beri
 Mozambik,Virüs çeşidi bölgesi,07.02.2021'den beri
 Moritanya,Riskli bölge,15.06.2020'den beri
 Mauritius,Risksiz Bölge,
 Malavi,Virüs çeşidi bölgesi,07.02.2021'den beri
-Malezya,Riskli bölge,09.05.2021'den beri
-Namibya,Riskli bölge,14.02.2021'den beri
+Malezya,Yüksek vaka sayılı bölge,13.06.2021'den beri
+Namibya,Yüksek vaka sayılı bölge,13.06.2021'den beri
 Nijer,Riskli bölge,15.06.2020'den beri
 Nijerya,Riskli bölge,15.06.2020'den beri
 Nikaragua,Riskli bölge,15.06.2020'den beri
 Nie,Risksiz Bölge,
 Hollanda,Kısmen riskli bölge,30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Bonaire; -Curaçao; -Sint Eustatius ve Saba
-Norveç,Kısmen riskli bölge,"08.11.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Agder, 02.05.2021'den beri; -Innlandet, 30.05.2021'den beri; -Oslo, 08.11.2020'den beri; -Troms og Finnmark, 06.06.2021'den beri; -Trøndelag, 06.06.2021'den beri; -Vestfold og Telemark, 09.05.2021'den beri; -Viken, 15.11.2020'den beri"
+Norveç,Kısmen riskli bölge,"08.11.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Agder, 02.05.2021'den beri; -Oslo, 08.11.2020'den beri; -Troms og Finnmark, 06.06.2021'den beri; -Trøndelag, 06.06.2021'den beri; -Vestfold og Telemark, 09.05.2021'den beri"
 Nepal,Virüs çeşidi bölgesi,16.05.2021'den beri
 Nauru,Risksiz Bölge,
 Yeni Zelanda,Risksiz Bölge,
@@ -143,10 +143,10 @@ Palau,Risksiz Bölge,
 Papua Yeni Gine,Riskli bölge,17.06.2020'den beri
 Polonya,Risksiz Bölge,
 Kuzey Kore,Riskli bölge,15.06.2020'den beri
-Portekiz,Kısmen riskli bölge,"14.03.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Azorlar, 18.04.2021'den beri; -Madeira, 14.03.2021'den beri"
+Portekiz,Kısmen riskli bölge,"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Azorlar, 18.04.2021'den beri; -Lissabon, 13.06.2021'den beri"
 Paraguay,Yüksek vaka sayılı bölge,21.03.2021'den beri
 Filistin,Riskli bölge,16.05.2021'den beri
-Katar,Yüksek vaka sayılı bölge,25.04.2021'den beri
+Katar,Riskli bölge,13.06.2021'den beri
 Romanya,Risksiz Bölge,
 Rusya Federasyonu,Riskli bölge,15.06.2020'den beri
 Ruanda,Risksiz Bölge,
@@ -159,7 +159,7 @@ Sierra Leone,Riskli bölge,15.06.2020'den beri
 El Salvador,Riskli bölge,15.06.2020'den beri
 San Marino,Risksiz Bölge,
 Somali,Riskli bölge,15.06.2020'den beri
-Sırbistan,Riskli bölge,16.05.2021'den beri
+Sırbistan,Risksiz Bölge,
 Güney Sudan,Riskli bölge,15.06.2020'den beri
 Sao Tome ve Principe,Risksiz Bölge,
 Surinam,Yüksek vaka sayılı bölge,23.05.2021'den beri
@@ -182,9 +182,9 @@ Türkiye,Riskli bölge,06.06.2021'den beri
 Tuvalu,Risksiz Bölge,
 Tanzanya Birleşik Cumhuriyeti,Yüksek vaka sayılı bölge,14.03.2021'den beri
 Uganda,Risksiz Bölge,
-Ukrayna,Riskli bölge,16.05.2021'den beri
+Ukrayna,Risksiz Bölge,
 Uruguay,Virüs çeşidi bölgesi,06.06.2021'den beri
-Birleşik Devletler,Riskli bölge,07.03.2021'den beri
+Birleşik Devletler,Risksiz Bölge,
 Özbekistan,Riskli bölge,15.06.2020'den beri
 Vatikan,Risksiz Bölge,
 Saint Vincent ve Grenadinler,Risksiz Bölge,
@@ -192,7 +192,7 @@ Venezuella,Riskli bölge,15.06.2020'den beri
 Vietnam,Risksiz Bölge,
 Vanuatu,Risksiz Bölge,
 Samoa,Risksiz Bölge,
-Kosova,Riskli bölge,16.05.2021'den beri
+Kosova,Risksiz Bölge,
 Yemen,Riskli bölge,15.06.2020'den beri
 Güney Afrika,Virüs çeşidi bölgesi,13.01.2021'den beri
 Zambiya,Virüs çeşidi bölgesi,07.02.2021'den beri
