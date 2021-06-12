@@ -29,7 +29,7 @@ Bhoutan,Zone à risque,depuis le 15/06/2020
 Botswana,Zone de variantes du virus,depuis le 07/02/2021
 République Centrafricaine,Zone à risque,depuis le 15/06/2020
 Canada,Zone sans risque,
-Suisse,Zone à risque (partiel),depuis le 24/10/2020. Les régions suivantes sont exclues: -Aargau; -Basel-Land; -Basel-Stadt; -Graubünden; -Solothurn; -Tessin; -Zug; -Zürich
+Suisse,Zone à risque (partiel),depuis le 24/10/2020. Les régions suivantes sont exclues: -Argovie; -Bâle-Campagne; -Bâle-Ville; -Berne; -Grisons; -Soleure; -Tessin; -Thurgovie; -Zoug; -Zurich
 Chili,Zone à forte incidence,depuis le 03/04/2021
 Chine,Zone sans risque,
 Côte d'Ivoire,Zone à risque,depuis le 15/06/2020
@@ -67,7 +67,7 @@ Guinée,Zone à risque,depuis le 15/06/2020
 Gambie,Zone à risque,depuis le 15/06/2020
 Guinée-Bissau,Zone à risque,depuis le 15/06/2020
 Guinée Équatoriale,Zone à risque,depuis le 15/06/2020
-Grèce,Zone à risque (partiel),depuis le 07/03/2021
+Grèce,Zone à risque (partiel),depuis le 07/03/2021. Les régions suivantes sont exclues: -Mont Athos; -Egée-Septentrionale; -Macédoine Orientale et Thrace; -Péloponnèse
 Grenade,Zone sans risque,
 Guatemala,Zone à risque,depuis le 15/06/2020
 Guyana,Zone à risque,depuis le 15/06/2020
@@ -143,7 +143,7 @@ Palaos,Zone sans risque,
 Papouasie-Nouvelle-Guinée,Zone à risque,depuis le 17/06/2020
 Pologne,Zone sans risque,
 Corée du Nord,Zone à risque,depuis le 15/06/2020
-Portugal,Zone à risque (partiel),"depuis le 18/04/2021. Le niveau de risque concerne les régions suivantes: -Azores, depuis le 18/04/2021; -Lissabon, depuis le 13/06/2021"
+Portugal,Zone à risque (partiel),"depuis le 18/04/2021. Le niveau de risque concerne les régions suivantes: -Azores, depuis le 18/04/2021; -Lisbonne, depuis le 13/06/2021"
 Paraguay,Zone à forte incidence,depuis le 21/03/2021
 Palestine,Zone à risque,depuis le 16/05/2021
 Qatar,Zone à risque,depuis le 13/06/2021

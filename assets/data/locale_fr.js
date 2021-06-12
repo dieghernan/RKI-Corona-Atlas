@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Suisse",
-  "info":"depuis le 24\/10\/2020. Les régions suivantes sont exclues:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Zug<\/li><li>Zürich<\/li><\/ul>"
+  "info":"depuis le 24\/10\/2020. Les régions suivantes sont exclues:<ul><li>Argovie<\/li><li>Bâle-Campagne<\/li><li>Bâle-Ville<\/li><li>Berne<\/li><li>Grisons<\/li><li>Soleure<\/li><li>Tessin<\/li><li>Thurgovie<\/li><li>Zoug<\/li><li>Zurich<\/li><\/ul>"
  },
  "CHL":{
   "name":"Chili",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grèce",
-  "info":"depuis le 07\/03\/2021"
+  "info":"depuis le 07\/03\/2021. Les régions suivantes sont exclues:<ul><li>Mont Athos<\/li><li>Egée-Septentrionale<\/li><li>Macédoine Orientale et Thrace<\/li><li>Péloponnèse<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenade",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"depuis le 18\/04\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Azores, depuis le 18\/04\/2021<\/li><li>Lissabon, depuis le 13\/06\/2021<\/li><\/ul>"
+  "info":"depuis le 18\/04\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Azores, depuis le 18\/04\/2021<\/li><li>Lisbonne, depuis le 13\/06\/2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",

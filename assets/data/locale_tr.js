@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"İsviçre",
-  "info":"24.10.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Zug<\/li><li>Zürich<\/li><\/ul>"
+  "info":"24.10.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Bern<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Ticino<\/li><li>Thurgau<\/li><li>Zug<\/li><li>Zürih<\/li><\/ul>"
  },
  "CHL":{
   "name":"Şili",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Yunanistan",
-  "info":"07.03.2021'den beri"
+  "info":"07.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Athos Dağı<\/li><li>Kuzey Ege<\/li><li>Doğu Makedonya ve Trakya<\/li><li>Mora<\/li><\/ul>"
  },
  "GRD":{
   "name":"Granada",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portekiz",
-  "info":"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Azorlar, 18.04.2021'den beri<\/li><li>Lissabon, 13.06.2021'den beri<\/li><\/ul>"
+  "info":"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Azorlar, 18.04.2021'den beri<\/li><li>Lizbon, 13.06.2021'den beri<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",

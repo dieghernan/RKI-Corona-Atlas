@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Switzerland",
-  "info":"since 24 Oct 2020. The following regions are excluded:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Zug<\/li><li>Zürich<\/li><\/ul>"
+  "info":"since 24 Oct 2020. The following regions are excluded:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Bern<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Ticino<\/li><li>Thurgau<\/li><li>Zug<\/li><li>Zurich<\/li><\/ul>"
  },
  "CHL":{
   "name":"Chile",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":"since 07 Mar 2021"
+  "info":"since 07 Mar 2021. The following regions are excluded:<ul><li>Mount Athos<\/li><li>North Aegean<\/li><li>East Macedonia and Thrace<\/li><li>Peloponnese<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"since 18 Apr 2021. The risk designation applies to the following regions:<ul><li>Azores, since 18 Apr 2021<\/li><li>Lissabon, since 13 Jun 2021<\/li><\/ul>"
+  "info":"since 18 Apr 2021. The risk designation applies to the following regions:<ul><li>Azores, since 18 Apr 2021<\/li><li>Lisbon, since 13 Jun 2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",

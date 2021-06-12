@@ -29,7 +29,7 @@ Butan,Riskli bölge,15.06.2020'den beri
 Botsvana,Virüs çeşidi bölgesi,07.02.2021'den beri
 Orta Afrika Cumhuriyeti,Riskli bölge,15.06.2020'den beri
 Kanada,Risksiz Bölge,
-İsviçre,Kısmen riskli bölge,24.10.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Aargau; -Basel-Land; -Basel-Stadt; -Graubünden; -Solothurn; -Tessin; -Zug; -Zürich
+İsviçre,Kısmen riskli bölge,24.10.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Aargau; -Basel-Land; -Basel-Stadt; -Bern; -Graubünden; -Solothurn; -Ticino; -Thurgau; -Zug; -Zürih
 Şili,Yüksek vaka sayılı bölge,03.04.2021'den beri
 Çin,Risksiz Bölge,
 Fildişi Sahili,Riskli bölge,15.06.2020'den beri
@@ -67,7 +67,7 @@ Gine,Riskli bölge,15.06.2020'den beri
 Gambiya,Riskli bölge,15.06.2020'den beri
 Gine-Bissau,Riskli bölge,15.06.2020'den beri
 Ekvatoral Gine,Riskli bölge,15.06.2020'den beri
-Yunanistan,Kısmen riskli bölge,07.03.2021'den beri
+Yunanistan,Kısmen riskli bölge,07.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Athos Dağı; -Kuzey Ege; -Doğu Makedonya ve Trakya; -Mora
 Granada,Risksiz Bölge,
 Guatemala,Riskli bölge,15.06.2020'den beri
 Guyana,Riskli bölge,15.06.2020'den beri
@@ -143,7 +143,7 @@ Palau,Risksiz Bölge,
 Papua Yeni Gine,Riskli bölge,17.06.2020'den beri
 Polonya,Risksiz Bölge,
 Kuzey Kore,Riskli bölge,15.06.2020'den beri
-Portekiz,Kısmen riskli bölge,"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Azorlar, 18.04.2021'den beri; -Lissabon, 13.06.2021'den beri"
+Portekiz,Kısmen riskli bölge,"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Azorlar, 18.04.2021'den beri; -Lizbon, 13.06.2021'den beri"
 Paraguay,Yüksek vaka sayılı bölge,21.03.2021'den beri
 Filistin,Riskli bölge,16.05.2021'den beri
 Katar,Riskli bölge,13.06.2021'den beri

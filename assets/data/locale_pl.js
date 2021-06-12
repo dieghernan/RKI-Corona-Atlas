@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Szwajcaria",
-  "info":"od 24.10.2020. Z wyjątkiem następujących regionów:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Zug<\/li><li>Zürich<\/li><\/ul>"
+  "info":"od 24.10.2020. Z wyjątkiem następujących regionów:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Berno<\/li><li>Gryzonia<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Thurgau<\/li><li>Zug<\/li><li>Zurych<\/li><\/ul>"
  },
  "CHL":{
   "name":"Chile",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":"od 07.03.2021"
+  "info":"od 07.03.2021. Z wyjątkiem następujących regionów:<ul><li>Góra Athos<\/li><li>Wyspy Egejskie Północne<\/li><li>Macedonia Wschodnia i Tracja<\/li><li>Peloponez<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugalia",
-  "info":"od 18.04.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Azores, od 18.04.2021<\/li><li>Lissabon, od 13.06.2021<\/li><\/ul>"
+  "info":"od 18.04.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Azores, od 18.04.2021<\/li><li>Lizbona, od 13.06.2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paragwaj",

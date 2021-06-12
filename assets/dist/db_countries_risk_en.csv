@@ -29,7 +29,7 @@ Bhutan,Risk area,since 15 Jun 2020
 Botswana,Variant of concern,since 07 Feb 2021
 Central African Republic,Risk area,since 15 Jun 2020
 Canada,Not risk area,
-Switzerland,Risk area (partially),since 24 Oct 2020. The following regions are excluded: -Aargau; -Basel-Land; -Basel-Stadt; -Graubünden; -Solothurn; -Tessin; -Zug; -Zürich
+Switzerland,Risk area (partially),since 24 Oct 2020. The following regions are excluded: -Aargau; -Basel-Land; -Basel-Stadt; -Bern; -Graubünden; -Solothurn; -Ticino; -Thurgau; -Zug; -Zurich
 Chile,High incidence area,since 03 Apr 2021
 China,Not risk area,
 Cote D'Ivoire,Risk area,since 15 Jun 2020
@@ -67,7 +67,7 @@ Guinea,Risk area,since 15 Jun 2020
 Gambia,Risk area,since 15 Jun 2020
 Guinea-Bissau,Risk area,since 15 Jun 2020
 Equatorial Guinea,Risk area,since 15 Jun 2020
-Greece,Risk area (partially),since 07 Mar 2021
+Greece,Risk area (partially),since 07 Mar 2021. The following regions are excluded: -Mount Athos; -North Aegean; -East Macedonia and Thrace; -Peloponnese
 Grenada,Not risk area,
 Guatemala,Risk area,since 15 Jun 2020
 Guyana,Risk area,since 15 Jun 2020
@@ -143,7 +143,7 @@ Palau,Not risk area,
 Papua New Guinea,Risk area,since 17 Jun 2020
 Poland,Not risk area,
 North Korea,Risk area,since 15 Jun 2020
-Portugal,Risk area (partially),"since 18 Apr 2021. The risk designation applies to the following regions: -Azores, since 18 Apr 2021; -Lissabon, since 13 Jun 2021"
+Portugal,Risk area (partially),"since 18 Apr 2021. The risk designation applies to the following regions: -Azores, since 18 Apr 2021; -Lisbon, since 13 Jun 2021"
 Paraguay,High incidence area,since 21 Mar 2021
 Palestine,Risk area,since 16 May 2021
 Qatar,Risk area,since 13 Jun 2021
