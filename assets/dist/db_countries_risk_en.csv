@@ -46,7 +46,7 @@ Czechia,Not risk area,
 Germany,,
 Djibouti,Risk area,since 15 Jun 2020
 Dominica,Not risk area,
-Denmark,Risk area (partially),since 28 Mar 2021. The following regions are excluded: -Faroes; -Greenland
+Denmark,Risk area (partially),since 28 Mar 2021. The following regions are excluded: -Faroes; -Greenland; -Souther Denmark
 Dominican Republic,Risk area,since 30 May 2021
 Algeria,Risk area,since 15 Jun 2020
 Ecuador,High incidence area,since 31 Jan 2021
@@ -57,7 +57,7 @@ Estonia,Not risk area,
 Ethiopia,Risk area,since 15 Jun 2020
 Finland,Not risk area,
 Fiji,Not risk area,
-France,Risk area (partially),since 23 May 2021. The following regions are excluded: -Corsica; -Mayotte; -New Caledonia; -Polynesien; -Saint-Pierre and Miquelon; -Wallis and Futuna
+France,Risk area (partially),since 23 May 2021. The following regions are excluded: -Continental France; -Corsica; -Martinique; -Mayotte; -New Caledonia; -Polynesien; -Saint-Barthélemy; -Saint-Pierre and Miquelon; -Wallis and Futuna
 Micronesia,Not risk area,
 Gabon,Risk area,since 15 Jun 2020
 United Kingdom,Variant of concern,since 23 May 2021
@@ -129,7 +129,7 @@ Niger,Risk area,since 15 Jun 2020
 Nigeria,Risk area,since 15 Jun 2020
 Nicaragua,Risk area,since 15 Jun 2020
 Niue,Not risk area,
-Netherlands,Risk area (partially),since 30 May 2021. The following regions are excluded: -Bonaire; -Curaçao; -Sint Eustatius and Saba
+Netherlands,Risk area (partially),since 30 May 2021. The following regions are excluded: -Bonaire; -Curaçao; -Friesland; -Groningen; -Sint Eustatius and Saba; -Zeeland
 Norway,Not risk area,
 Nepal,Variant of concern,since 16 May 2021
 Nauru,Not risk area,
@@ -164,7 +164,7 @@ South Sudan,Risk area,since 15 Jun 2020
 Sao Tome and Principe,Not risk area,
 Suriname,High incidence area,since 23 May 2021
 Slovakia,Not risk area,
-Slovenia,Risk area (partially),since 23 May 2021
+Slovenia,Risk area (partially),since 23 May 2021. The following regions are excluded: -Goriška; -Jugovzhodna Slovenija; -Koroška; -Pomurska; -Savinjska; -Zasavska
 Sweden,Risk area,since 06 Jun 2021
 Eswatini,Variant of concern,since 31 Jan 2021
 Seychelles,High incidence area,since 14 Feb 2021

@@ -46,7 +46,7 @@ Tchéquie,Zone sans risque,
 Allemagne,,
 Djibouti,Zone à risque,depuis le 15/06/2020
 Dominique,Zone sans risque,
-Danemark,Zone à risque (partiel),depuis le 28/03/2021. Les régions suivantes sont exclues: -Faroes; -Groënland
+Danemark,Zone à risque (partiel),depuis le 28/03/2021. Les régions suivantes sont exclues: -Faroes; -Groënland; -Danemark du Sud
 République Dominicaine,Zone à risque,depuis le 30/05/2021
 Algérie,Zone à risque,depuis le 15/06/2020
 Équateur,Zone à forte incidence,depuis le 31/01/2021
@@ -57,7 +57,7 @@ Estonie,Zone sans risque,
 Éthiopie,Zone à risque,depuis le 15/06/2020
 Finlande,Zone sans risque,
 Fidji,Zone sans risque,
-France,Zone à risque (partiel),depuis le 23/05/2021. Les régions suivantes sont exclues: -La Corse; -Mayotte; -Nouvelle-Calédonie; -Polynesien; -Saint-Pierre et Miquelon; -Wallis et Futuna
+France,Zone à risque (partiel),depuis le 23/05/2021. Les régions suivantes sont exclues: -France continental; -La Corse; -Martinique; -Mayotte; -Nouvelle-Calédonie; -Polynesien; -Saint-Barthélemy; -Saint-Pierre et Miquelon; -Wallis et Futuna
 Micronésie,Zone sans risque,
 Gabon,Zone à risque,depuis le 15/06/2020
 Royaume-Uni,Zone de variantes du virus,depuis le 23/05/2021
@@ -129,7 +129,7 @@ Niger,Zone à risque,depuis le 15/06/2020
 Nigeria,Zone à risque,depuis le 15/06/2020
 Nicaragua,Zone à risque,depuis le 15/06/2020
 Nioue,Zone sans risque,
-Pays-Bas,Zone à risque (partiel),depuis le 30/05/2021. Les régions suivantes sont exclues: -Bonaire; -Curaçao; -Sint Eustatius et Saba
+Pays-Bas,Zone à risque (partiel),depuis le 30/05/2021. Les régions suivantes sont exclues: -Bonaire; -Curaçao; -Frise; -Groningue; -Sint Eustatius et Saba; -Zélande
 Norvège,Zone sans risque,
 Népal,Zone de variantes du virus,depuis le 16/05/2021
 Nauru,Zone sans risque,
@@ -164,7 +164,7 @@ Soudan du Sud,Zone à risque,depuis le 15/06/2020
 Sao Tomé-et-Principe,Zone sans risque,
 Surinam,Zone à forte incidence,depuis le 23/05/2021
 Slovaquie,Zone sans risque,
-Slovénie,Zone à risque (partiel),depuis le 23/05/2021
+Slovénie,Zone à risque (partiel),depuis le 23/05/2021. Les régions suivantes sont exclues: -Goriška; -Jugovzhodna Slovenija; -Koroška; -Pomurska; -Savinjska; -Zasavska
 Suède,Zone à risque,depuis le 06/06/2021
 Eswatini,Zone de variantes du virus,depuis le 31/01/2021
 Seychelles,Zone à forte incidence,depuis le 14/02/2021

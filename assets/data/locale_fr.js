@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danemark",
-  "info":"depuis le 28\/03\/2021. Les régions suivantes sont exclues:<ul><li>Faroes<\/li><li>Groënland<\/li><\/ul>"
+  "info":"depuis le 28\/03\/2021. Les régions suivantes sont exclues:<ul><li>Faroes<\/li><li>Groënland<\/li><li>Danemark du Sud<\/li><\/ul>"
  },
  "DOM":{
   "name":"République Dominicaine",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 23\/05\/2021. Les régions suivantes sont exclues:<ul><li>La Corse<\/li><li>Mayotte<\/li><li>Nouvelle-Calédonie<\/li><li>Polynesien<\/li><li>Saint-Pierre et Miquelon<\/li><li>Wallis et Futuna<\/li><\/ul>"
+  "info":"depuis le 23\/05\/2021. Les régions suivantes sont exclues:<ul><li>France continental<\/li><li>La Corse<\/li><li>Martinique<\/li><li>Mayotte<\/li><li>Nouvelle-Calédonie<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre et Miquelon<\/li><li>Wallis et Futuna<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 30\/05\/2021. Les régions suivantes sont exclues:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Sint Eustatius et Saba<\/li><\/ul>"
+  "info":"depuis le 30\/05\/2021. Les régions suivantes sont exclues:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Frise<\/li><li>Groningue<\/li><li>Sint Eustatius et Saba<\/li><li>Zélande<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norvège",
@@ -662,7 +662,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovénie",
-  "info":"depuis le 23\/05\/2021"
+  "info":"depuis le 23\/05\/2021. Les régions suivantes sont exclues:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
  },
  "SWE":{
   "name":"Suède",

@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danimarka",
-  "info":"28.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Faroe Adaları<\/li><li>Grönland<\/li><\/ul>"
+  "info":"28.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Faroe Adaları<\/li><li>Grönland<\/li><li>Güney Danimarka<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Korsika<\/li><li>Mayotte<\/li><li>Yeni Kaledonya<\/li><li>Polynesien<\/li><li>Saint-Pierre ve Miquelon<\/li><li>Wallis ve Futuna<\/li><\/ul>"
+  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Kıta Fransası<\/li><li>Korsika<\/li><li>Martinik<\/li><li>Mayotte<\/li><li>Yeni Kaledonya<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre ve Miquelon<\/li><li>Wallis ve Futuna<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Sint Eustatius ve Saba<\/li><\/ul>"
+  "info":"30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Friesland<\/li><li>Groningen<\/li><li>Sint Eustatius ve Saba<\/li><li>Zeeland<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -662,7 +662,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovenya",
-  "info":"23.05.2021'den beri"
+  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
  },
  "SWE":{
   "name":"İsveç",

@@ -46,7 +46,7 @@ Kıbrıs,Risksiz Bölge,
 Almanya,,
 Cibuti,Riskli bölge,15.06.2020'den beri
 Dominik,Risksiz Bölge,
-Danimarka,Kısmen riskli bölge,28.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Faroe Adaları; -Grönland
+Danimarka,Kısmen riskli bölge,28.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Faroe Adaları; -Grönland; -Güney Danimarka
 Dominik Cumhuriyeti,Riskli bölge,30.05.2021'den beri
 Cezayir,Riskli bölge,15.06.2020'den beri
 Ekvator,Yüksek vaka sayılı bölge,31.01.2021'den beri
@@ -57,7 +57,7 @@ Estonya,Risksiz Bölge,
 Etiyopya,Riskli bölge,15.06.2020'den beri
 Finlandiya,Risksiz Bölge,
 Fiji,Risksiz Bölge,
-Fransa,Kısmen riskli bölge,23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Korsika; -Mayotte; -Yeni Kaledonya; -Polynesien; -Saint-Pierre ve Miquelon; -Wallis ve Futuna
+Fransa,Kısmen riskli bölge,23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Kıta Fransası; -Korsika; -Martinik; -Mayotte; -Yeni Kaledonya; -Polynesien; -Saint-Barthélemy; -Saint-Pierre ve Miquelon; -Wallis ve Futuna
 Mikronezya,Risksiz Bölge,
 Gabon,Riskli bölge,15.06.2020'den beri
 Birleşik Krallık,Virüs çeşidi bölgesi,23.05.2021'den beri
@@ -129,7 +129,7 @@ Nijer,Riskli bölge,15.06.2020'den beri
 Nijerya,Riskli bölge,15.06.2020'den beri
 Nikaragua,Riskli bölge,15.06.2020'den beri
 Nie,Risksiz Bölge,
-Hollanda,Kısmen riskli bölge,30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Bonaire; -Curaçao; -Sint Eustatius ve Saba
+Hollanda,Kısmen riskli bölge,30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Bonaire; -Curaçao; -Friesland; -Groningen; -Sint Eustatius ve Saba; -Zeeland
 Norveç,Risksiz Bölge,
 Nepal,Virüs çeşidi bölgesi,16.05.2021'den beri
 Nauru,Risksiz Bölge,
@@ -164,7 +164,7 @@ Güney Sudan,Riskli bölge,15.06.2020'den beri
 Sao Tome ve Principe,Risksiz Bölge,
 Surinam,Yüksek vaka sayılı bölge,23.05.2021'den beri
 Slovakya,Risksiz Bölge,
-Slovenya,Kısmen riskli bölge,23.05.2021'den beri
+Slovenya,Kısmen riskli bölge,23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Goriška; -Jugovzhodna Slovenija; -Koroška; -Pomurska; -Savinjska; -Zasavska
 İsveç,Riskli bölge,06.06.2021'den beri
 Esvatini,Virüs çeşidi bölgesi,31.01.2021'den beri
 Seyşeller,Yüksek vaka sayılı bölge,14.02.2021'den beri
