@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgien",
-  "info":"seit 30. September 2020"
+  "info":""
  },
  "BEN":{
   "name":"Benin",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":"Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 22. November 2020 Risikogebiet"
+  "info":"Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 22. November 2020 einfaches Risikogebiet"
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Schweiz",
-  "info":"(seit 24. Oktober 2020), ausgenommen sind die Kantone Aargau, Basel-Stadt, Basel-Land, Graubünden, Solothurn, Tessin, Zug und Zürich (seit 6. Juni 2021) sowie Bern und Thurgau (seit 13. Juni 2021)"
+  "info":""
  },
  "CHL":{
   "name":"Chile",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Cabo Verde",
-  "info":"Hochinzidenzgebiet seit 25. April 2021"
+  "info":"seit 20. Juni 2021; Hochinzidenzgebiet vom 25. April 2021 – 19. Juni 2021"
  },
  "CRI":{
   "name":"Costa Rica",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dänemark",
-  "info":"– das gesamte Land (seit 28. März 2021); ausgenommen sind die Färöer und Grönland"
+  "info":"– das gesamte Land (seit 28. März 2021); ausgenommen sind Süddänemark, die Färöer, und Grönland"
  },
  "DOM":{
   "name":"Dominikanische Republik",
@@ -214,11 +214,11 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":"– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete:<ul><li>Andalusien (seit 14. August 2020)<\/li><li>Aragon (seit 31. Juli 2020)<\/li><li>Kastilien und León (seit 14. August 2020)<\/li><li>Katalonien (seit 31. Juli 2020)<\/li><li>Madrid (seit 14. August 2020)<\/li><li>Melilla (seit 14. August 2020)<\/li><li>Navarra (seit 31. Juli 2020)<\/li><li>Baskenland (seit 14. August 2020)<\/li><li>La Rioja (seit 3. April. 2021)<\/li><li>Ceuta (seit 13. Juni 2021)<\/li><\/ul>"
+  "info":"– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete:<ul><li>Andalusien (seit 14. August 2020)<\/li><li>Navarra (seit 31. Juli 2020)<\/li><li>Baskenland (seit 14. August 2020)<\/li><li>La Rioja (seit 3. April. 2021)<\/li><li>Ceuta (seit 13. Juni 2021)<\/li><\/ul>"
  },
  "EST":{
   "name":"Estland",
-  "info":"seit 16. Mai 2021"
+  "info":""
  },
  "ETH":{
   "name":"Äthiopien",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Frankreich",
-  "info":"(seit 23. Mai 2021), ausgenommen ist Korsika sowie die französischen Übersee-Departments Mayotte, Saint-Pierre und Miquelon, Wallis und Futuna, Französisch-Polynesien, Neukaledonien (seit 6. Juni 2021)"
+  "info":"(seit 23. Mai 2021), ausgenommen ist gesamt Kontinentalfrankreich, Korsika sowie die französischen Übersee-Departments Martinique, Mayotte, Saint-Pierre und Miquelon, Wallis und Futuna, Französisch-Polynesien, Neukaledonien und Saint-Barthélemy (seit 6. Juni 2021)"
  },
  "FSM":{
   "name":"Mikronesien",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Griechenland",
-  "info":"(seit 7. März 2021), ausgenommen sind die Regionen Berg Athos, die Nördliche Ägäis, Ostmakedonien und Thrakien sowie Peloponnes (seit 13. Juni 2021)"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordanien",
-  "info":"seit 16. Mai 2021"
+  "info":""
  },
  "JPN":{
   "name":"Japan",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"St. Kitts und Nevis",
-  "info":""
+  "info":"seit 20. Juni 2021"
  },
  "KOR":{
   "name":"Südkorea",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"St. Lucia",
-  "info":"seit 23. Mai 2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Litauen",
-  "info":"seit 6. Juni 2021; Hochinzidenzgebiet vom 2. Mai 2021 – 5. Juni 2021"
+  "info":""
  },
  "LUX":{
   "name":"Luxemburg",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 14. Februar 2021 als einfaches Risikogebiet ausgewiesen"
+  "info":"Virusvariantengebiet seit 20. Juni 2021; Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 14. Februar 2021 einfaches Risikogebiet"
  },
  "NER":{
   "name":"Niger",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"(seit 30. Mai 2021; Hochinzidenzgebiet vom 6. April 2021 – 29. Mai 2021), ausgenommen sind die überseeischen Teile des Königreichs Niederlande Curaçao, Bonaire, Sint Eustatius und Saba (seit 6. Juni 2021)"
+  "info":"(seit 30. Mai 2021; Hochinzidenzgebiet vom 6. April 2021 – 29. Mai 2021), ausgenommen sind die Provinzen Friesland, Groningen und Zeeland (seit 20. Juni 2021) und die überseeischen Teile des Königreichs Niederlande Curaçao, Bonaire, Sint Eustatius und Saba (seit 6. Juni 2021)"
  },
  "NOR":{
   "name":"Norwegen",
-  "info":"- die folgenden Provinzen gelten derzeit als einfache Risikogebiete:<ul><li>Oslo (seit 8. November 2020)<\/li><li>Agder (seit 2. Mai 2021)<\/li><li>Vestfold og Telemark (seit 9. Mai 2021)<\/li><li>Troms og Finnmark (seit 6. Juni 2021)<\/li><li>Trøndelag (seit 6. Juni 2021)<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"seit 23. Mai 2021"
+  "info":"Hochinzidenzgebiet seit 20. Juni 2021; bereits seit 23. Mai 2021 als einfaches Risikogebiet ausgewiesen"
  },
  "PAK":{
   "name":"Pakistan",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "PSE":{
   "name":"Palästinensische Gebiete",
-  "info":"seit 16. Mai 2021"
+  "info":""
  },
  "QAT":{
   "name":"Katar",
@@ -662,7 +662,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slowenien",
-  "info":"seit 23. Mai 2021"
+  "info":"(seit 23. Mai 2021), ausgenommen sind die Regionen Goriška, Jugovzhodna Slovenija, Koroška, Pomurska, Savinjska und Zasavska (seit 20. Juni 2021)"
  },
  "SWE":{
   "name":"Schweden",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"seit 20. Juni 2021"
  },
  "UKR":{
   "name":"Ukraine",

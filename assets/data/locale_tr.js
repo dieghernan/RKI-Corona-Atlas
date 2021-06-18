@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belçika",
-  "info":"30.09.2020'den beri"
+  "info":""
  },
  "BEN":{
   "name":"Benin",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"İsviçre",
-  "info":"24.10.2020'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Bern<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Ticino<\/li><li>Thurgau<\/li><li>Zug<\/li><li>Zürih<\/li><\/ul>"
+  "info":""
  },
  "CHL":{
   "name":"Şili",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Verde Burnu",
-  "info":"25.04.2021'den beri"
+  "info":"20.06.2021'den beri"
  },
  "CRI":{
   "name":"Kosta Rika",
@@ -214,11 +214,11 @@ var info_rki = {
  },
  "ESP":{
   "name":"İspanya",
-  "info":"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Endülüs, 14.08.2020'den beri<\/li><li>Aragon, 31.07.2020'den beri<\/li><li>Bask Bölgesi, 14.08.2020'den beri<\/li><li>Ceuta, 13.06.2021'den beri<\/li><li>Kastilya ve Leon, 14.08.2020'den beri<\/li><li>Katalonya, 31.07.2020'den beri<\/li><li>La Rioja, 03.04.2021'den beri<\/li><li>Madrid, 14.08.2020'den beri<\/li><li>Melilla, 14.08.2020'den beri<\/li><li>Navarra, 31.07.2020'den beri<\/li><\/ul>"
+  "info":"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Endülüs, 14.08.2020'den beri<\/li><li>Bask Bölgesi, 14.08.2020'den beri<\/li><li>Ceuta, 13.06.2021'den beri<\/li><li>La Rioja, 03.04.2021'den beri<\/li><li>Navarra, 31.07.2020'den beri<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonya",
-  "info":"16.05.2021'den beri"
+  "info":""
  },
  "ETH":{
   "name":"Etiyopya",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Yunanistan",
-  "info":"07.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Athos Dağı<\/li><li>Kuzey Ege<\/li><li>Doğu Makedonya ve Trakya<\/li><li>Mora<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Granada",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Ürdün",
-  "info":"16.05.2021'den beri"
+  "info":""
  },
  "JPN":{
   "name":"Japonya",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Sen Kitts ve Nevis",
-  "info":""
+  "info":"20.06.2021'den beri"
  },
  "KOR":{
   "name":"Güney Kore",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Sen Lucia",
-  "info":"23.05.2021'den beri"
+  "info":""
  },
  "LIE":{
   "name":"Lihtenştayn",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Litvanya",
-  "info":"06.06.2021'den beri"
+  "info":""
  },
  "LUX":{
   "name":"Lüksemburg",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibya",
-  "info":"13.06.2021'den beri"
+  "info":"20.06.2021'den beri"
  },
  "NER":{
   "name":"Nijer",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norveç",
-  "info":"08.11.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Agder, 02.05.2021'den beri<\/li><li>Oslo, 08.11.2020'den beri<\/li><li>Troms og Finnmark, 06.06.2021'den beri<\/li><li>Trøndelag, 06.06.2021'den beri<\/li><li>Vestfold og Telemark, 09.05.2021'den beri<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Umman",
-  "info":"23.05.2021'den beri"
+  "info":"20.06.2021'den beri"
  },
  "PAK":{
   "name":"Pakistan",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "PSE":{
   "name":"Filistin",
-  "info":"16.05.2021'den beri"
+  "info":""
  },
  "QAT":{
   "name":"Katar",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"20.06.2021'den beri"
  },
  "UKR":{
   "name":"Ukrayna",

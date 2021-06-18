@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgia",
-  "info":"od 30.09.2020"
+  "info":""
  },
  "BEN":{
   "name":"Benin",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Szwajcaria",
-  "info":"od 24.10.2020. Z wyjątkiem następujących regionów:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Berno<\/li><li>Gryzonia<\/li><li>Solothurn<\/li><li>Tessin<\/li><li>Thurgau<\/li><li>Zug<\/li><li>Zurych<\/li><\/ul>"
+  "info":""
  },
  "CHL":{
   "name":"Chile",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Republika Zielonego Przylądka",
-  "info":"od 25.04.2021"
+  "info":"od 20.06.2021"
  },
  "CRI":{
   "name":"Kostaryka",
@@ -214,11 +214,11 @@ var info_rki = {
  },
  "ESP":{
   "name":"Hiszpania",
-  "info":"od 14.08.2020. Poziom ryzyka dotyczy następujących regionów:<ul><li>Andaluzja, od 14.08.2020<\/li><li>Aragon, od 31.07.2020<\/li><li>Kraj Basków, od 14.08.2020<\/li><li>Ceuta, od 13.06.2021<\/li><li>Kastylia i León, od 14.08.2020<\/li><li>Katalonia, od 31.07.2020<\/li><li>La Rioja, od 03.04.2021<\/li><li>Madrid, od 14.08.2020<\/li><li>Melilla, od 14.08.2020<\/li><li>Nawarra, od 31.07.2020<\/li><\/ul>"
+  "info":"od 14.08.2020. Poziom ryzyka dotyczy następujących regionów:<ul><li>Andaluzja, od 14.08.2020<\/li><li>Kraj Basków, od 14.08.2020<\/li><li>Ceuta, od 13.06.2021<\/li><li>La Rioja, od 03.04.2021<\/li><li>Nawarra, od 31.07.2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
-  "info":"od 16.05.2021"
+  "info":""
  },
  "ETH":{
   "name":"Etiopia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":"od 07.03.2021. Z wyjątkiem następujących regionów:<ul><li>Góra Athos<\/li><li>Wyspy Egejskie Północne<\/li><li>Macedonia Wschodnia i Tracja<\/li><li>Peloponez<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordania",
-  "info":"od 16.05.2021"
+  "info":""
  },
  "JPN":{
   "name":"Japonia",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts i Nevis",
-  "info":""
+  "info":"od 20.06.2021"
  },
  "KOR":{
   "name":"Korea Południowa",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":"od 23.05.2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Litwa",
-  "info":"od 06.06.2021"
+  "info":""
  },
  "LUX":{
   "name":"Luksemburg",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"od 13.06.2021"
+  "info":"od 20.06.2021"
  },
  "NER":{
   "name":"Niger",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norwegia",
-  "info":"od 08.11.2020. Poziom ryzyka dotyczy następujących regionów:<ul><li>Agder, od 02.05.2021<\/li><li>Oslo, od 08.11.2020<\/li><li>Troms og Finnmark, od 06.06.2021<\/li><li>Trøndelag, od 06.06.2021<\/li><li>Vestfold og Telemark, od 09.05.2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"od 23.05.2021"
+  "info":"od 20.06.2021"
  },
  "PAK":{
   "name":"Pakistan",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "PSE":{
   "name":"Palestyna",
-  "info":"od 16.05.2021"
+  "info":""
  },
  "QAT":{
   "name":"Katar",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"od 20.06.2021"
  },
  "UKR":{
   "name":"Ukraina",

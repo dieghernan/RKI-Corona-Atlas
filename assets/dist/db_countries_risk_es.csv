@@ -11,7 +11,7 @@ Australia,No es área de riesgo,
 Austria,No es área de riesgo,
 Azerbayán,No es área de riesgo,
 Burundi,Área de riesgo,desde el 15/06/2020
-Bélgica,Área de riesgo,desde el 30/09/2020
+Bélgica,No es área de riesgo,
 Benín,Área de riesgo,desde el 15/06/2020
 Burquina Faso,Área de riesgo,desde el 15/06/2020
 Bangladesh,Área de riesgo,desde el 15/06/2020
@@ -29,7 +29,7 @@ Bhután,Área de riesgo,desde el 15/06/2020
 Botsuana,Área de variante viral,desde el 07/02/2021
 República Centro-africana,Área de riesgo,desde el 15/06/2020
 Canadá,No es área de riesgo,
-Suiza,Área de riesgo (parcial),desde el 24/10/2020. A excepción de las siguientes regiones: -Aargau; -Basel-Land; -Basel-Stadt; -Berna; -Graubünden; -Solothurn; -Tesino; -Thurgau; -Zug; -Zurich
+Suiza,No es área de riesgo,
 Chile,Área de alta incidencia,desde el 03/04/2021
 China,No es área de riesgo,
 Costa de Marfil,Área de riesgo,desde el 15/06/2020
@@ -38,7 +38,7 @@ República Democráctica del Congo,Área de riesgo,desde el 15/06/2020
 Congo,Área de riesgo,desde el 15/06/2020
 Colombia,Área de alta incidencia,desde el 24/01/2021
 "Comores, Islas",Área de riesgo,desde el 15/06/2020
-Cabo Verde,Área de alta incidencia,desde el 25/04/2021
+Cabo Verde,Área de riesgo,desde el 20/06/2021
 Costa Rica,Área de alta incidencia,desde el 09/05/2021
 Cuba,Área de riesgo,desde el 28/02/2021
 Chipre,No es área de riesgo,
@@ -52,8 +52,8 @@ Algeria,Área de riesgo,desde el 15/06/2020
 Ecuador,Área de alta incidencia,desde el 31/01/2021
 Egipto,Área de alta incidencia,desde el 24/01/2021
 Eritrea,Área de riesgo,desde el 15/06/2020
-España,Área de riesgo (parcial),"desde el 14/08/2020. El nivel de riesgo afecta a las siguientes regiones: -Andalucía, desde el 14/08/2020; -Aragón, desde el 31/07/2020; -País Vasco, desde el 14/08/2020; -Ceuta, desde el 13/06/2021; -Castilla y León, desde el 14/08/2020; -Cataluña, desde el 31/07/2020; -La Rioja, desde el 03/04/2021; -Madrid, desde el 14/08/2020; -Melilla, desde el 14/08/2020; -Navarra, desde el 31/07/2020"
-Estonia,Área de riesgo,desde el 16/05/2021
+España,Área de riesgo (parcial),"desde el 14/08/2020. El nivel de riesgo afecta a las siguientes regiones: -Andalucía, desde el 14/08/2020; -País Vasco, desde el 14/08/2020; -Ceuta, desde el 13/06/2021; -La Rioja, desde el 03/04/2021; -Navarra, desde el 31/07/2020"
+Estonia,No es área de riesgo,
 Etiopía,Área de riesgo,desde el 15/06/2020
 Finlandia,No es área de riesgo,
 Fiyi,No es área de riesgo,
@@ -67,7 +67,7 @@ Guinea,Área de riesgo,desde el 15/06/2020
 Gambia,Área de riesgo,desde el 15/06/2020
 Guinea-Bissau,Área de riesgo,desde el 15/06/2020
 Guinea Ecuatorial,Área de riesgo,desde el 15/06/2020
-Grecia,Área de riesgo (parcial),desde el 07/03/2021. A excepción de las siguientes regiones: -Monte Athos; -Egeo Septentrional; -Macedonia Oriental y Tracia; -Peloponeso
+Grecia,No es área de riesgo,
 Granada,No es área de riesgo,
 Guatemala,Área de riesgo,desde el 15/06/2020
 Guyana,Área de riesgo,desde el 15/06/2020
@@ -85,25 +85,25 @@ Islandia,No es área de riesgo,
 Israel,No es área de riesgo,
 Italia,No es área de riesgo,
 Jamaica,No es área de riesgo,
-Jordania,Área de riesgo,desde el 16/05/2021
+Jordania,No es área de riesgo,
 Japón,No es área de riesgo,
 Kazajistán,Área de riesgo,desde el 15/06/2020
 Kenia,Área de riesgo,desde el 15/06/2020
 Kirgizstán,Área de riesgo,desde el 15/06/2020
 Camboya,No es área de riesgo,
 Kiribati,No es área de riesgo,
-San Cristobo y Nevis,No es área de riesgo,
+San Cristobo y Nevis,Área de riesgo,desde el 20/06/2021
 Corea del Sur,No es área de riesgo,
 Kuwait,Área de alta incidencia,desde el 21/03/2021
 Laos,No es área de riesgo,
 Líbano,No es área de riesgo,
 Liberia,Área de riesgo,desde el 15/06/2020
 Libia,Área de riesgo,desde el 15/06/2020
-Santa Lucía,Área de riesgo,desde el 23/05/2021
+Santa Lucía,No es área de riesgo,
 Liechtenstein,No es área de riesgo,
 Sri Lanka,Área de alta incidencia,desde el 13/06/2021
 Lesoto,Área de variante viral,desde el 31/01/2021
-Lituania,Área de riesgo,desde el 06/06/2021
+Lituania,No es área de riesgo,
 Luxemburgo,Área de riesgo,desde el 25/09/2020
 Letonia,Área de riesgo,desde el 11/04/2021
 Marruecos,Área de riesgo,desde el 15/06/2020
@@ -124,17 +124,17 @@ Mauritania,Área de riesgo,desde el 15/06/2020
 Mauricio,No es área de riesgo,
 Malawi,Área de variante viral,desde el 07/02/2021
 Malasia,Área de alta incidencia,desde el 13/06/2021
-Namibia,Área de alta incidencia,desde el 13/06/2021
+Namibia,Área de variante viral,desde el 20/06/2021
 Niger,Área de riesgo,desde el 15/06/2020
 Nigeria,Área de riesgo,desde el 15/06/2020
 Nicaragua,Área de riesgo,desde el 15/06/2020
 Niue,No es área de riesgo,
 Países Bajos,Área de riesgo (parcial),desde el 30/05/2021. A excepción de las siguientes regiones: -Bonaire; -Curaçao; -Sint Eustatius y Saba
-Noruega,Área de riesgo (parcial),"desde el 08/11/2020. El nivel de riesgo afecta a las siguientes regiones: -Agder, desde el 02/05/2021; -Oslo, desde el 08/11/2020; -Troms og Finnmark, desde el 06/06/2021; -Trøndelag, desde el 06/06/2021; -Vestfold og Telemark, desde el 09/05/2021"
+Noruega,No es área de riesgo,
 Nepal,Área de variante viral,desde el 16/05/2021
 Nauru,No es área de riesgo,
 Nueva Zelanda,No es área de riesgo,
-Omán,Área de riesgo,desde el 23/05/2021
+Omán,Área de alta incidencia,desde el 20/06/2021
 Pakistán,Área de riesgo,desde el 15/06/2020
 Panamá,Área de riesgo,desde el 28/02/2021
 Perú,Área de alta incidencia,desde el 03/04/2021
@@ -145,7 +145,7 @@ Polonia,No es área de riesgo,
 Corea del Norte,Área de riesgo,desde el 15/06/2020
 Portugal,Área de riesgo (parcial),"desde el 18/04/2021. El nivel de riesgo afecta a las siguientes regiones: -Azores, desde el 18/04/2021; -Lisboa, desde el 13/06/2021"
 Paraguay,Área de alta incidencia,desde el 21/03/2021
-Palestina,Área de riesgo,desde el 16/05/2021
+Palestina,No es área de riesgo,
 Qatar,Área de riesgo,desde el 13/06/2021
 Rumanía,No es área de riesgo,
 Federación Rusa,Área de riesgo,desde el 15/06/2020
@@ -164,7 +164,7 @@ Sudán del Sur,Área de riesgo,desde el 15/06/2020
 Santo Tomé y Príncipe,No es área de riesgo,
 Surinám,Área de alta incidencia,desde el 23/05/2021
 Eslovaquia,No es área de riesgo,
-Eslovenia,Área de riesgo,desde el 23/05/2021
+Eslovenia,Área de riesgo (parcial),desde el 23/05/2021
 Suecia,Área de riesgo,desde el 06/06/2021
 Esuatini,Área de variante viral,desde el 31/01/2021
 Seychelles,Área de alta incidencia,desde el 14/02/2021
@@ -181,7 +181,7 @@ Tunez,Área de alta incidencia,desde el 25/04/2021
 Turquía,Área de riesgo,desde el 06/06/2021
 Tuvalu,No es área de riesgo,
 República Unida de Tanzania,Área de alta incidencia,desde el 14/03/2021
-Uganda,No es área de riesgo,
+Uganda,Área de riesgo,desde el 20/06/2021
 Ucrania,No es área de riesgo,
 Uruguay,Área de variante viral,desde el 06/06/2021
 Estados Unidos,No es área de riesgo,

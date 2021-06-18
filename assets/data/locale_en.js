@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgium",
-  "info":"since 30 Sep 2020"
+  "info":""
  },
  "BEN":{
   "name":"Benin",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Switzerland",
-  "info":"since 24 Oct 2020. The following regions are excluded:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Bern<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Ticino<\/li><li>Thurgau<\/li><li>Zug<\/li><li>Zurich<\/li><\/ul>"
+  "info":""
  },
  "CHL":{
   "name":"Chile",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Cape Verde",
-  "info":"since 25 Apr 2021"
+  "info":"since 20 Jun 2021"
  },
  "CRI":{
   "name":"Costa Rica",
@@ -214,11 +214,11 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spain",
-  "info":"since 14 Aug 2020. The risk designation applies to the following regions:<ul><li>Andalusia, since 14 Aug 2020<\/li><li>Aragon, since 31 Jul 2020<\/li><li>Basque Country, since 14 Aug 2020<\/li><li>Ceuta, since 13 Jun 2021<\/li><li>Castile and Leon, since 14 Aug 2020<\/li><li>Catalonia, since 31 Jul 2020<\/li><li>La Rioja, since 03 Apr 2021<\/li><li>Madrid, since 14 Aug 2020<\/li><li>Melilla, since 14 Aug 2020<\/li><li>Navarre, since 31 Jul 2020<\/li><\/ul>"
+  "info":"since 14 Aug 2020. The risk designation applies to the following regions:<ul><li>Andalusia, since 14 Aug 2020<\/li><li>Basque Country, since 14 Aug 2020<\/li><li>Ceuta, since 13 Jun 2021<\/li><li>La Rioja, since 03 Apr 2021<\/li><li>Navarre, since 31 Jul 2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
-  "info":"since 16 May 2021"
+  "info":""
  },
  "ETH":{
   "name":"Ethiopia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":"since 07 Mar 2021. The following regions are excluded:<ul><li>Mount Athos<\/li><li>North Aegean<\/li><li>East Macedonia and Thrace<\/li><li>Peloponnese<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordan",
-  "info":"since 16 May 2021"
+  "info":""
  },
  "JPN":{
   "name":"Japan",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts and Nevis",
-  "info":""
+  "info":"since 20 Jun 2021"
  },
  "KOR":{
   "name":"South Korea",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":"since 23 May 2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Lithuania",
-  "info":"since 06 Jun 2021"
+  "info":""
  },
  "LUX":{
   "name":"Luxembourg",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"since 13 Jun 2021"
+  "info":"since 20 Jun 2021"
  },
  "NER":{
   "name":"Niger",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norway",
-  "info":"since 08 Nov 2020. The risk designation applies to the following regions:<ul><li>Agder, since 02 May 2021<\/li><li>Oslo, since 08 Nov 2020<\/li><li>Troms og Finnmark, since 06 Jun 2021<\/li><li>Trøndelag, since 06 Jun 2021<\/li><li>Vestfold og Telemark, since 09 May 2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"since 23 May 2021"
+  "info":"since 20 Jun 2021"
  },
  "PAK":{
   "name":"Pakistan",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "PSE":{
   "name":"Palestine",
-  "info":"since 16 May 2021"
+  "info":""
  },
  "QAT":{
   "name":"Qatar",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"since 20 Jun 2021"
  },
  "UKR":{
   "name":"Ukraine",

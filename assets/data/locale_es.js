@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Bélgica",
-  "info":"desde el 30\/09\/2020"
+  "info":""
  },
  "BEN":{
   "name":"Benín",
@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Suiza",
-  "info":"desde el 24\/10\/2020. A excepción de las siguientes regiones:<ul><li>Aargau<\/li><li>Basel-Land<\/li><li>Basel-Stadt<\/li><li>Berna<\/li><li>Graubünden<\/li><li>Solothurn<\/li><li>Tesino<\/li><li>Thurgau<\/li><li>Zug<\/li><li>Zurich<\/li><\/ul>"
+  "info":""
  },
  "CHL":{
   "name":"Chile",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Cabo Verde",
-  "info":"desde el 25\/04\/2021"
+  "info":"desde el 20\/06\/2021"
  },
  "CRI":{
   "name":"Costa Rica",
@@ -214,11 +214,11 @@ var info_rki = {
  },
  "ESP":{
   "name":"España",
-  "info":"desde el 14\/08\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Andalucía, desde el 14\/08\/2020<\/li><li>Aragón, desde el 31\/07\/2020<\/li><li>País Vasco, desde el 14\/08\/2020<\/li><li>Ceuta, desde el 13\/06\/2021<\/li><li>Castilla y León, desde el 14\/08\/2020<\/li><li>Cataluña, desde el 31\/07\/2020<\/li><li>La Rioja, desde el 03\/04\/2021<\/li><li>Madrid, desde el 14\/08\/2020<\/li><li>Melilla, desde el 14\/08\/2020<\/li><li>Navarra, desde el 31\/07\/2020<\/li><\/ul>"
+  "info":"desde el 14\/08\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Andalucía, desde el 14\/08\/2020<\/li><li>País Vasco, desde el 14\/08\/2020<\/li><li>Ceuta, desde el 13\/06\/2021<\/li><li>La Rioja, desde el 03\/04\/2021<\/li><li>Navarra, desde el 31\/07\/2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "ETH":{
   "name":"Etiopía",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecia",
-  "info":"desde el 07\/03\/2021. A excepción de las siguientes regiones:<ul><li>Monte Athos<\/li><li>Egeo Septentrional<\/li><li>Macedonia Oriental y Tracia<\/li><li>Peloponeso<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Granada",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordania",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "JPN":{
   "name":"Japón",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"San Cristobo y Nevis",
-  "info":""
+  "info":"desde el 20\/06\/2021"
  },
  "KOR":{
   "name":"Corea del Sur",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Santa Lucía",
-  "info":"desde el 23\/05\/2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Lituania",
-  "info":"desde el 06\/06\/2021"
+  "info":""
  },
  "LUX":{
   "name":"Luxemburgo",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"desde el 13\/06\/2021"
+  "info":"desde el 20\/06\/2021"
  },
  "NER":{
   "name":"Niger",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Noruega",
-  "info":"desde el 08\/11\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Agder, desde el 02\/05\/2021<\/li><li>Oslo, desde el 08\/11\/2020<\/li><li>Troms og Finnmark, desde el 06\/06\/2021<\/li><li>Trøndelag, desde el 06\/06\/2021<\/li><li>Vestfold og Telemark, desde el 09\/05\/2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Omán",
-  "info":"desde el 23\/05\/2021"
+  "info":"desde el 20\/06\/2021"
  },
  "PAK":{
   "name":"Pakistán",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "PSE":{
   "name":"Palestina",
-  "info":"desde el 16\/05\/2021"
+  "info":""
  },
  "QAT":{
   "name":"Qatar",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"desde el 20\/06\/2021"
  },
  "UKR":{
   "name":"Ucrania",
