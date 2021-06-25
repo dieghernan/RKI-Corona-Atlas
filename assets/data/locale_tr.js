@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danimarka",
-  "info":"28.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Faroe Adaları<\/li><li>Grönland<\/li><li>Güney Danimarka<\/li><\/ul>"
+  "info":""
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiji",
-  "info":""
+  "info":"27.06.2021'den beri"
  },
  "FRA":{
   "name":"Fransa",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Hırvatistan",
-  "info":"23.05.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Medimurje, 23.05.2021'den beri<\/li><li>Varazdin, 23.05.2021'den beri<\/li><\/ul>"
+  "info":"23.05.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Medimurje, 23.05.2021'den beri<\/li><li>Zadar, 27.06.2021'den beri<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -422,11 +422,11 @@ var info_rki = {
  },
  "LUX":{
   "name":"Lüksemburg",
-  "info":"25.09.2020'den beri"
+  "info":""
  },
  "LVA":{
   "name":"Latviya",
-  "info":"11.04.2021'den beri"
+  "info":""
  },
  "MAR":{
   "name":"Fas",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Friesland<\/li><li>Groningen<\/li><li>Sint Eustatius ve Saba<\/li><li>Zeeland<\/li><\/ul>"
+  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 06.06.2021'den beri<\/li><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portekiz",
-  "info":"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Azorlar, 18.04.2021'den beri<\/li><li>Lizbon, 13.06.2021'den beri<\/li><\/ul>"
+  "info":"29.06.2021'den beri"
  },
  "PRY":{
   "name":"Paraguay",
@@ -598,11 +598,11 @@ var info_rki = {
  },
  "RUS":{
   "name":"Rusya Federasyonu",
-  "info":"15.06.2020'den beri"
+  "info":"29.06.2021'den beri"
  },
  "RWA":{
   "name":"Ruanda",
-  "info":""
+  "info":"27.06.2021'den beri"
  },
  "SAU":{
   "name":"Suudi Arabistan",
@@ -662,11 +662,11 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovenya",
-  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
+  "info":""
  },
  "SWE":{
   "name":"İsveç",
-  "info":"06.06.2021'den beri"
+  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kronoberg, 06.06.2021'den beri<\/li><li>Norrbotten, 06.06.2021'den beri<\/li><li>Värmland, 06.06.2021'den beri<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Esvatini",

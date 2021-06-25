@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dänemark",
-  "info":"– das gesamte Land (seit 28. März 2021); ausgenommen sind Süddänemark, die Färöer, und Grönland"
+  "info":""
  },
  "DOM":{
   "name":"Dominikanische Republik",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidschi",
-  "info":""
+  "info":"seit 27. Juni 2021"
  },
  "FRA":{
   "name":"Frankreich",
@@ -250,7 +250,7 @@ var info_rki = {
  },
  "GEO":{
   "name":"Georgien",
-  "info":"seit 13. Juni 2021; Hochinzidenzgebiet vom 9. Mai 2021 – 12. Juni 2021"
+  "info":"seit 13. Juni 2021"
  },
  "GHA":{
   "name":"Ghana",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Kroatien",
-  "info":"(seit 23. Mai 2021), die folgenden Gespanschaften gelten als einfache Risikogebiete:<ul><li>Medimurje (seit 23. Mai 2021)<\/li><li>Varazdin (seit 23. Mai 2021)<\/li><\/ul>"
+  "info":"(seit 23. Mai 2021)<\/li><li>Zadar (seit 27. Juni 2021)<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 16. Mai 2021 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 13. Juni 2021"
  },
  "LSO":{
   "name":"Lesotho",
@@ -422,11 +422,11 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxemburg",
-  "info":"seit 25. September 2020"
+  "info":""
  },
  "LVA":{
   "name":"Lettland",
-  "info":"seit 11. April 2021"
+  "info":""
  },
  "MAR":{
   "name":"Marokko",
@@ -450,7 +450,7 @@ var info_rki = {
  },
  "MEX":{
   "name":"Mexiko",
-  "info":"seit 13. Juni 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 12. Juni 2021"
+  "info":"seit 13. Juni 2021"
  },
  "MHL":{
   "name":"Marshallinseln",
@@ -478,7 +478,7 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolei",
-  "info":"Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 23. Mai 2021 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 13. Juni 2021"
  },
  "MOZ":{
   "name":"Mosambik",
@@ -498,7 +498,7 @@ var info_rki = {
  },
  "MYS":{
   "name":"Malaysia",
-  "info":"Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 9. Mai 2021 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 13. Juni 2021"
  },
  "NAM":{
   "name":"Namibia",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"(seit 30. Mai 2021; Hochinzidenzgebiet vom 6. April 2021 – 29. Mai 2021), ausgenommen sind die Provinzen Friesland, Groningen und Zeeland (seit 20. Juni 2021) und die überseeischen Teile des Königreichs Niederlande Curaçao, Bonaire, Sint Eustatius und Saba (seit 6. Juni 2021)"
+  "info":"– die folgenden überseeischen Teile des Königreichs der Niederlande gelten als einfache Risikogebiete:<ul><li>Aruba (seit 6. Juni 2021)<\/li><li>Sint Maarten (seit 6. Juni 2021)<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegen",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"– die folgenden Regionen gelten derzeit als einfache Risikogebiete:<ul><li>Azoren (autonome Region) (seit 18. April 2021)<\/li><li>Lissabon (Metropolregion) (seit 13. Juni 2021)<\/li><\/ul>"
+  "info":"- (Virusvariantengebiet seit 29. Juni 2021; die Azoren (autonome Region) und Lissabon (Metropolregion) gelten bereits als einfaches Risikogebiet)"
  },
  "PRY":{
   "name":"Paraguay",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":"seit 13. Juni 2021; Hochinzidenzgebiet vom 25. April 2021 – 12. Juni 2021"
+  "info":"seit 13. Juni 2021"
  },
  "ROU":{
   "name":"Rumänien",
@@ -598,11 +598,11 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russische Föderation",
-  "info":"seit 15. Juni 2020"
+  "info":"Virusvariantengebiet seit 29. Juni 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "RWA":{
   "name":"Ruanda",
-  "info":""
+  "info":"seit 27. Juni 2021"
  },
  "SAU":{
   "name":"Saudi-Arabien",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":"Hochinzidenzgebiet seit 23. Mai 2021; bereits seit 15. Juni 2020 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 23. Mai 2021"
  },
  "SVK":{
   "name":"Slowakei",
@@ -662,11 +662,11 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slowenien",
-  "info":"(seit 23. Mai 2021), ausgenommen sind die Regionen Goriška, Jugovzhodna Slovenija, Koroška, Pomurska, Savinjska und Zasavska (seit 20. Juni 2021)"
+  "info":""
  },
  "SWE":{
   "name":"Schweden",
-  "info":"seit 6. Juni 2021; Hochinzidenzgebiet vom 7. März 2021 – 5. Juni 2021"
+  "info":"- die folgenden Provinzen gelten derzeit als einfache Risikogebiete:<ul><li>Kronoberg (seit 6. Juni 2021)<\/li><li>Norrbotten (seit 6. Juni 2021)sch<\/li><li>Värmland (seit 6. Juni 2021)<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Eswatini",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad und Tobago",
-  "info":"Hochinzidenzgebiet seit 23. Mai 2021; bereits seit 15. Juni 2020 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 23. Mai 2021"
  },
  "TUN":{
   "name":"Tunesien",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Türkei",
-  "info":"seit 6. Juni 2021; Hochinzidenzgebiet vom 11. April 2021 – 5. Juni 2021"
+  "info":"seit 6. Juni 2021"
  },
  "TUV":{
   "name":"Tuvalu",

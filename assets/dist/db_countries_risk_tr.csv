@@ -46,7 +46,7 @@ Kıbrıs,Risksiz Bölge,
 Almanya,,
 Cibuti,Riskli bölge,15.06.2020'den beri
 Dominik,Risksiz Bölge,
-Danimarka,Kısmen riskli bölge,28.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Faroe Adaları; -Grönland; -Güney Danimarka
+Danimarka,Risksiz Bölge,
 Dominik Cumhuriyeti,Riskli bölge,30.05.2021'den beri
 Cezayir,Riskli bölge,15.06.2020'den beri
 Ekvator,Yüksek vaka sayılı bölge,31.01.2021'den beri
@@ -56,7 +56,7 @@ Eritre,Riskli bölge,15.06.2020'den beri
 Estonya,Risksiz Bölge,
 Etiyopya,Riskli bölge,15.06.2020'den beri
 Finlandiya,Risksiz Bölge,
-Fiji,Risksiz Bölge,
+Fiji,Riskli bölge,27.06.2021'den beri
 Fransa,Kısmen riskli bölge,23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Kıta Fransası; -Korsika; -Martinik; -Mayotte; -Yeni Kaledonya; -Polynesien; -Saint-Barthélemy; -Saint-Pierre ve Miquelon; -Wallis ve Futuna
 Mikronezya,Risksiz Bölge,
 Gabon,Riskli bölge,15.06.2020'den beri
@@ -73,7 +73,7 @@ Guatemala,Riskli bölge,15.06.2020'den beri
 Guyana,Riskli bölge,15.06.2020'den beri
 Hong Kong,Risksiz Bölge,
 Honduras,Riskli bölge,15.06.2020'den beri
-Hırvatistan,Kısmen riskli bölge,"23.05.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Medimurje, 23.05.2021'den beri; -Varazdin, 23.05.2021'den beri"
+Hırvatistan,Kısmen riskli bölge,"23.05.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Medimurje, 23.05.2021'den beri; -Zadar, 27.06.2021'den beri"
 Haiti,Riskli bölge,15.06.2020'den beri
 Macaristan,Risksiz Bölge,
 Endonezya,Riskli bölge,15.06.2020'den beri
@@ -104,8 +104,8 @@ Lihtenştayn,Risksiz Bölge,
 Sri Lanka,Yüksek vaka sayılı bölge,13.06.2021'den beri
 Lesoto,Virüs çeşidi bölgesi,31.01.2021'den beri
 Litvanya,Risksiz Bölge,
-Lüksemburg,Riskli bölge,25.09.2020'den beri
-Latviya,Riskli bölge,11.04.2021'den beri
+Lüksemburg,Risksiz Bölge,
+Latviya,Risksiz Bölge,
 Fas,Riskli bölge,15.06.2020'den beri
 Monako,Risksiz Bölge,
 Moldova,Risksiz Bölge,
@@ -129,7 +129,7 @@ Nijer,Riskli bölge,15.06.2020'den beri
 Nijerya,Riskli bölge,15.06.2020'den beri
 Nikaragua,Riskli bölge,15.06.2020'den beri
 Nie,Risksiz Bölge,
-Hollanda,Kısmen riskli bölge,30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Bonaire; -Curaçao; -Friesland; -Groningen; -Sint Eustatius ve Saba; -Zeeland
+Hollanda,Kısmen riskli bölge,"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Aruba, 06.06.2021'den beri; -Sint Maarten, 06.06.2021'den beri"
 Norveç,Risksiz Bölge,
 Nepal,Virüs çeşidi bölgesi,16.05.2021'den beri
 Nauru,Risksiz Bölge,
@@ -143,13 +143,13 @@ Palau,Risksiz Bölge,
 Papua Yeni Gine,Riskli bölge,17.06.2020'den beri
 Polonya,Risksiz Bölge,
 Kuzey Kore,Riskli bölge,15.06.2020'den beri
-Portekiz,Kısmen riskli bölge,"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Azorlar, 18.04.2021'den beri; -Lizbon, 13.06.2021'den beri"
+Portekiz,Virüs çeşidi bölgesi,29.06.2021'den beri
 Paraguay,Yüksek vaka sayılı bölge,21.03.2021'den beri
 Filistin,Risksiz Bölge,
 Katar,Riskli bölge,13.06.2021'den beri
 Romanya,Risksiz Bölge,
-Rusya Federasyonu,Riskli bölge,15.06.2020'den beri
-Ruanda,Risksiz Bölge,
+Rusya Federasyonu,Virüs çeşidi bölgesi,29.06.2021'den beri
+Ruanda,Riskli bölge,27.06.2021'den beri
 Suudi Arabistan,Riskli bölge,15.06.2020'den beri
 Sudan,Yüksek vaka sayılı bölge,31.01.2021'den beri
 Senegal,Riskli bölge,15.06.2020'den beri
@@ -164,8 +164,8 @@ Güney Sudan,Riskli bölge,15.06.2020'den beri
 Sao Tome ve Principe,Risksiz Bölge,
 Surinam,Yüksek vaka sayılı bölge,23.05.2021'den beri
 Slovakya,Risksiz Bölge,
-Slovenya,Kısmen riskli bölge,23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Goriška; -Jugovzhodna Slovenija; -Koroška; -Pomurska; -Savinjska; -Zasavska
-İsveç,Riskli bölge,06.06.2021'den beri
+Slovenya,Risksiz Bölge,
+İsveç,Kısmen riskli bölge,"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Kronoberg, 06.06.2021'den beri; -Norrbotten, 06.06.2021'den beri; -Värmland, 06.06.2021'den beri"
 Esvatini,Virüs çeşidi bölgesi,31.01.2021'den beri
 Seyşeller,Yüksek vaka sayılı bölge,14.02.2021'den beri
 Suriye,Yüksek vaka sayılı bölge,31.01.2021'den beri

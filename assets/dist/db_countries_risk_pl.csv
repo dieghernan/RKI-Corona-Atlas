@@ -46,7 +46,7 @@ Czechy,Nie jest to obszar ryzyka,
 Niemcy,,
 Dżibuti,Obszar ryzyka,od 15.06.2020
 Dominika,Nie jest to obszar ryzyka,
-Dania,Obszar ryzyka (częściowy),od 28.03.2021. Z wyjątkiem następujących regionów: -Wyspy Owcze; -Grenlandia; -Południowa Dania
+Dania,Nie jest to obszar ryzyka,
 Dominikana,Obszar ryzyka,od 30.05.2021
 Algieria,Obszar ryzyka,od 15.06.2020
 Ekwador,Obszar o wysokiej częstości występowania,od 31.01.2021
@@ -56,7 +56,7 @@ Hiszpania,Obszar ryzyka (częściowy),"od 14.08.2020. Poziom ryzyka dotyczy nast
 Estonia,Nie jest to obszar ryzyka,
 Etiopia,Obszar ryzyka,od 15.06.2020
 Finlandia,Nie jest to obszar ryzyka,
-Fidżi,Nie jest to obszar ryzyka,
+Fidżi,Obszar ryzyka,od 27.06.2021
 Francja,Obszar ryzyka (częściowy),od 23.05.2021. Z wyjątkiem następujących regionów: -Francja kontynentalna; -Korsyka; -Martynika; -Mayotte; -Nowa Kaledonia; -Polynesien; -Saint-Barthélemy; -Saint-Pierre i Miquelon; -Wallis i Futuna
 Mikronezja,Nie jest to obszar ryzyka,
 Gabon,Obszar ryzyka,od 15.06.2020
@@ -73,7 +73,7 @@ Gwatemala,Obszar ryzyka,od 15.06.2020
 Gujana,Obszar ryzyka,od 15.06.2020
 Hongkong,Nie jest to obszar ryzyka,
 Honduras,Obszar ryzyka,od 15.06.2020
-Chorwacja,Obszar ryzyka (częściowy),"od 23.05.2021. Poziom ryzyka dotyczy następujących regionów: -Medimurje, od 23.05.2021; -Varazdin, od 23.05.2021"
+Chorwacja,Obszar ryzyka (częściowy),"od 23.05.2021. Poziom ryzyka dotyczy następujących regionów: -Medimurje, od 23.05.2021; -Zadar, od 27.06.2021"
 Haiti,Obszar ryzyka,od 15.06.2020
 Węgry,Nie jest to obszar ryzyka,
 Indonezja,Obszar ryzyka,od 15.06.2020
@@ -104,8 +104,8 @@ Liechtenstein,Nie jest to obszar ryzyka,
 Sri Lanka,Obszar o wysokiej częstości występowania,od 13.06.2021
 Lesoto,Obszar z niebezpiecznymi mutacjami,od 31.01.2021
 Litwa,Nie jest to obszar ryzyka,
-Luksemburg,Obszar ryzyka,od 25.09.2020
-Łotwa,Obszar ryzyka,od 11.04.2021
+Luksemburg,Nie jest to obszar ryzyka,
+Łotwa,Nie jest to obszar ryzyka,
 Maroko,Obszar ryzyka,od 15.06.2020
 Monako,Nie jest to obszar ryzyka,
 Mołdawia,Nie jest to obszar ryzyka,
@@ -129,7 +129,7 @@ Niger,Obszar ryzyka,od 15.06.2020
 Nigeria,Obszar ryzyka,od 15.06.2020
 Nikaragua,Obszar ryzyka,od 15.06.2020
 Niue,Nie jest to obszar ryzyka,
-Holandia,Obszar ryzyka (częściowy),od 30.05.2021. Z wyjątkiem następujących regionów: -Bonaire; -Curaçao; -Fryzja; -Groningen; -Sint Eustatius i Saba; -Zelandia
+Holandia,Obszar ryzyka (częściowy),"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów: -Aruba, od 06.06.2021; -Sint Maarten, od 06.06.2021"
 Norwegia,Nie jest to obszar ryzyka,
 Nepal,Obszar z niebezpiecznymi mutacjami,od 16.05.2021
 Nauru,Nie jest to obszar ryzyka,
@@ -143,13 +143,13 @@ Palau,Nie jest to obszar ryzyka,
 Papua-Nowa Gwinea,Obszar ryzyka,od 17.06.2020
 Polska,Nie jest to obszar ryzyka,
 Korea Północna,Obszar ryzyka,od 15.06.2020
-Portugalia,Obszar ryzyka (częściowy),"od 18.04.2021. Poziom ryzyka dotyczy następujących regionów: -Azores, od 18.04.2021; -Lizbona, od 13.06.2021"
+Portugalia,Obszar z niebezpiecznymi mutacjami,od 29.06.2021
 Paragwaj,Obszar o wysokiej częstości występowania,od 21.03.2021
 Palestyna,Nie jest to obszar ryzyka,
 Katar,Obszar ryzyka,od 13.06.2021
 Rumunia,Nie jest to obszar ryzyka,
-Federacja Rosyjska,Obszar ryzyka,od 15.06.2020
-Ruanda,Nie jest to obszar ryzyka,
+Federacja Rosyjska,Obszar z niebezpiecznymi mutacjami,od 29.06.2021
+Ruanda,Obszar ryzyka,od 27.06.2021
 Arabia Saudyjska,Obszar ryzyka,od 15.06.2020
 Sudan,Obszar o wysokiej częstości występowania,od 31.01.2021
 Senegal,Obszar ryzyka,od 15.06.2020
@@ -164,8 +164,8 @@ Sudan Południowy,Obszar ryzyka,od 15.06.2020
 Wyspy Świętego Tomasza i Książęca,Nie jest to obszar ryzyka,
 Surinam,Obszar o wysokiej częstości występowania,od 23.05.2021
 Słowacja,Nie jest to obszar ryzyka,
-Słowenia,Obszar ryzyka (częściowy),od 23.05.2021. Z wyjątkiem następujących regionów: -Goriška; -Jugovzhodna Slovenija; -Koroška; -Pomurska; -Savinjska; -Zasavska
-Szwecja,Obszar ryzyka,od 06.06.2021
+Słowenia,Nie jest to obszar ryzyka,
+Szwecja,Obszar ryzyka (częściowy),"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów: -Kronoberg, od 06.06.2021; -Norrbotten, od 06.06.2021; -Värmland, od 06.06.2021"
 Eswatini,Obszar z niebezpiecznymi mutacjami,od 31.01.2021
 Seszele,Obszar o wysokiej częstości występowania,od 14.02.2021
 Syria,Obszar o wysokiej częstości występowania,od 31.01.2021

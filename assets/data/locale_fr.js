@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danemark",
-  "info":"depuis le 28\/03\/2021. Les régions suivantes sont exclues:<ul><li>Faroes<\/li><li>Groënland<\/li><li>Danemark du Sud<\/li><\/ul>"
+  "info":""
  },
  "DOM":{
   "name":"République Dominicaine",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidji",
-  "info":""
+  "info":"depuis le 27\/06\/2021"
  },
  "FRA":{
   "name":"France",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croatie",
-  "info":"depuis le 23\/05\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Medimurje, depuis le 23\/05\/2021<\/li><li>Varazdin, depuis le 23\/05\/2021<\/li><\/ul>"
+  "info":"depuis le 23\/05\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Medimurje, depuis le 23\/05\/2021<\/li><li>Zadar, depuis le 27\/06\/2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haïti",
@@ -422,11 +422,11 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxembourg",
-  "info":"depuis le 25\/09\/2020"
+  "info":""
  },
  "LVA":{
   "name":"Lettonie",
-  "info":"depuis le 11\/04\/2021"
+  "info":""
  },
  "MAR":{
   "name":"Maroc",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 30\/05\/2021. Les régions suivantes sont exclues:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Frise<\/li><li>Groningue<\/li><li>Sint Eustatius et Saba<\/li><li>Zélande<\/li><\/ul>"
+  "info":"depuis le 06\/06\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Aruba, depuis le 06\/06\/2021<\/li><li>Sint Maarten, depuis le 06\/06\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norvège",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"depuis le 18\/04\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Azores, depuis le 18\/04\/2021<\/li><li>Lisbonne, depuis le 13\/06\/2021<\/li><\/ul>"
+  "info":"depuis le 29\/06\/2021"
  },
  "PRY":{
   "name":"Paraguay",
@@ -598,11 +598,11 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russie",
-  "info":"depuis le 15\/06\/2020"
+  "info":"depuis le 29\/06\/2021"
  },
  "RWA":{
   "name":"Rwanda",
-  "info":""
+  "info":"depuis le 27\/06\/2021"
  },
  "SAU":{
   "name":"Arabie saoudite",
@@ -662,11 +662,11 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovénie",
-  "info":"depuis le 23\/05\/2021. Les régions suivantes sont exclues:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
+  "info":""
  },
  "SWE":{
   "name":"Suède",
-  "info":"depuis le 06\/06\/2021"
+  "info":"depuis le 06\/06\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Kronoberg, depuis le 06\/06\/2021<\/li><li>Norrbotten, depuis le 06\/06\/2021<\/li><li>Värmland, depuis le 06\/06\/2021<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Eswatini",

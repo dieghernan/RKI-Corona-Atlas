@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dania",
-  "info":"od 28.03.2021. Z wyjątkiem następujących regionów:<ul><li>Wyspy Owcze<\/li><li>Grenlandia<\/li><li>Południowa Dania<\/li><\/ul>"
+  "info":""
  },
  "DOM":{
   "name":"Dominikana",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidżi",
-  "info":""
+  "info":"od 27.06.2021"
  },
  "FRA":{
   "name":"Francja",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Chorwacja",
-  "info":"od 23.05.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Medimurje, od 23.05.2021<\/li><li>Varazdin, od 23.05.2021<\/li><\/ul>"
+  "info":"od 23.05.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Medimurje, od 23.05.2021<\/li><li>Zadar, od 27.06.2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -422,11 +422,11 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luksemburg",
-  "info":"od 25.09.2020"
+  "info":""
  },
  "LVA":{
   "name":"Łotwa",
-  "info":"od 11.04.2021"
+  "info":""
  },
  "MAR":{
   "name":"Maroko",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 30.05.2021. Z wyjątkiem następujących regionów:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Fryzja<\/li><li>Groningen<\/li><li>Sint Eustatius i Saba<\/li><li>Zelandia<\/li><\/ul>"
+  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Aruba, od 06.06.2021<\/li><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugalia",
-  "info":"od 18.04.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Azores, od 18.04.2021<\/li><li>Lizbona, od 13.06.2021<\/li><\/ul>"
+  "info":"od 29.06.2021"
  },
  "PRY":{
   "name":"Paragwaj",
@@ -598,11 +598,11 @@ var info_rki = {
  },
  "RUS":{
   "name":"Federacja Rosyjska",
-  "info":"od 15.06.2020"
+  "info":"od 29.06.2021"
  },
  "RWA":{
   "name":"Ruanda",
-  "info":""
+  "info":"od 27.06.2021"
  },
  "SAU":{
   "name":"Arabia Saudyjska",
@@ -662,11 +662,11 @@ var info_rki = {
  },
  "SVN":{
   "name":"Słowenia",
-  "info":"od 23.05.2021. Z wyjątkiem następujących regionów:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
+  "info":""
  },
  "SWE":{
   "name":"Szwecja",
-  "info":"od 06.06.2021"
+  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Kronoberg, od 06.06.2021<\/li><li>Norrbotten, od 06.06.2021<\/li><li>Värmland, od 06.06.2021<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Eswatini",

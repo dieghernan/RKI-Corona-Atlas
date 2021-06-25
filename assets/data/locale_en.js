@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Denmark",
-  "info":"since 28 Mar 2021. The following regions are excluded:<ul><li>Faroes<\/li><li>Greenland<\/li><li>Souther Denmark<\/li><\/ul>"
+  "info":""
  },
  "DOM":{
   "name":"Dominican Republic",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiji",
-  "info":""
+  "info":"since 27 Jun 2021"
  },
  "FRA":{
   "name":"France",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croatia",
-  "info":"since 23 May 2021. The risk designation applies to the following regions:<ul><li>Medimurje, since 23 May 2021<\/li><li>Varazdin, since 23 May 2021<\/li><\/ul>"
+  "info":"since 23 May 2021. The risk designation applies to the following regions:<ul><li>Medimurje, since 23 May 2021<\/li><li>Zadar, since 27 Jun 2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -422,11 +422,11 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxembourg",
-  "info":"since 25 Sep 2020"
+  "info":""
  },
  "LVA":{
   "name":"Latvia",
-  "info":"since 11 Apr 2021"
+  "info":""
  },
  "MAR":{
   "name":"Morocco",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 30 May 2021. The following regions are excluded:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Friesland<\/li><li>Groningen<\/li><li>Sint Eustatius and Saba<\/li><li>Zeeland<\/li><\/ul>"
+  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 06 Jun 2021<\/li><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"since 18 Apr 2021. The risk designation applies to the following regions:<ul><li>Azores, since 18 Apr 2021<\/li><li>Lisbon, since 13 Jun 2021<\/li><\/ul>"
+  "info":"since 29 Jun 2021"
  },
  "PRY":{
   "name":"Paraguay",
@@ -598,11 +598,11 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russian Federation",
-  "info":"since 15 Jun 2020"
+  "info":"since 29 Jun 2021"
  },
  "RWA":{
   "name":"Rwanda",
-  "info":""
+  "info":"since 27 Jun 2021"
  },
  "SAU":{
   "name":"Saudi Arabia",
@@ -662,11 +662,11 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovenia",
-  "info":"since 23 May 2021. The following regions are excluded:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
+  "info":""
  },
  "SWE":{
   "name":"Sweden",
-  "info":"since 06 Jun 2021"
+  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Kronoberg, since 06 Jun 2021<\/li><li>Norrbotten, since 06 Jun 2021<\/li><li>Värmland, since 06 Jun 2021<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Eswatini",

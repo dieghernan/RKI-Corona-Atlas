@@ -46,7 +46,7 @@ Tchéquie,Zone sans risque,
 Allemagne,,
 Djibouti,Zone à risque,depuis le 15/06/2020
 Dominique,Zone sans risque,
-Danemark,Zone à risque (partiel),depuis le 28/03/2021. Les régions suivantes sont exclues: -Faroes; -Groënland; -Danemark du Sud
+Danemark,Zone sans risque,
 République Dominicaine,Zone à risque,depuis le 30/05/2021
 Algérie,Zone à risque,depuis le 15/06/2020
 Équateur,Zone à forte incidence,depuis le 31/01/2021
@@ -56,7 +56,7 @@ Espagne,Zone à risque (partiel),"depuis le 14/08/2020. Le niveau de risque conc
 Estonie,Zone sans risque,
 Éthiopie,Zone à risque,depuis le 15/06/2020
 Finlande,Zone sans risque,
-Fidji,Zone sans risque,
+Fidji,Zone à risque,depuis le 27/06/2021
 France,Zone à risque (partiel),depuis le 23/05/2021. Les régions suivantes sont exclues: -France continental; -La Corse; -Martinique; -Mayotte; -Nouvelle-Calédonie; -Polynesien; -Saint-Barthélemy; -Saint-Pierre et Miquelon; -Wallis et Futuna
 Micronésie,Zone sans risque,
 Gabon,Zone à risque,depuis le 15/06/2020
@@ -73,7 +73,7 @@ Guatemala,Zone à risque,depuis le 15/06/2020
 Guyana,Zone à risque,depuis le 15/06/2020
 Hong-Kong,Zone sans risque,
 Honduras,Zone à risque,depuis le 15/06/2020
-Croatie,Zone à risque (partiel),"depuis le 23/05/2021. Le niveau de risque concerne les régions suivantes: -Medimurje, depuis le 23/05/2021; -Varazdin, depuis le 23/05/2021"
+Croatie,Zone à risque (partiel),"depuis le 23/05/2021. Le niveau de risque concerne les régions suivantes: -Medimurje, depuis le 23/05/2021; -Zadar, depuis le 27/06/2021"
 Haïti,Zone à risque,depuis le 15/06/2020
 Hongrie,Zone sans risque,
 Indonésie,Zone à risque,depuis le 15/06/2020
@@ -104,8 +104,8 @@ Liechtenstein,Zone sans risque,
 Sri Lanka,Zone à forte incidence,depuis le 13/06/2021
 Lesotho,Zone de variantes du virus,depuis le 31/01/2021
 Lituanie,Zone sans risque,
-Luxembourg,Zone à risque,depuis le 25/09/2020
-Lettonie,Zone à risque,depuis le 11/04/2021
+Luxembourg,Zone sans risque,
+Lettonie,Zone sans risque,
 Maroc,Zone à risque,depuis le 15/06/2020
 Monaco,Zone sans risque,
 Moldavie,Zone sans risque,
@@ -129,7 +129,7 @@ Niger,Zone à risque,depuis le 15/06/2020
 Nigeria,Zone à risque,depuis le 15/06/2020
 Nicaragua,Zone à risque,depuis le 15/06/2020
 Nioue,Zone sans risque,
-Pays-Bas,Zone à risque (partiel),depuis le 30/05/2021. Les régions suivantes sont exclues: -Bonaire; -Curaçao; -Frise; -Groningue; -Sint Eustatius et Saba; -Zélande
+Pays-Bas,Zone à risque (partiel),"depuis le 06/06/2021. Le niveau de risque concerne les régions suivantes: -Aruba, depuis le 06/06/2021; -Sint Maarten, depuis le 06/06/2021"
 Norvège,Zone sans risque,
 Népal,Zone de variantes du virus,depuis le 16/05/2021
 Nauru,Zone sans risque,
@@ -143,13 +143,13 @@ Palaos,Zone sans risque,
 Papouasie-Nouvelle-Guinée,Zone à risque,depuis le 17/06/2020
 Pologne,Zone sans risque,
 Corée du Nord,Zone à risque,depuis le 15/06/2020
-Portugal,Zone à risque (partiel),"depuis le 18/04/2021. Le niveau de risque concerne les régions suivantes: -Azores, depuis le 18/04/2021; -Lisbonne, depuis le 13/06/2021"
+Portugal,Zone de variantes du virus,depuis le 29/06/2021
 Paraguay,Zone à forte incidence,depuis le 21/03/2021
 Palestine,Zone sans risque,
 Qatar,Zone à risque,depuis le 13/06/2021
 Roumanie,Zone sans risque,
-Russie,Zone à risque,depuis le 15/06/2020
-Rwanda,Zone sans risque,
+Russie,Zone de variantes du virus,depuis le 29/06/2021
+Rwanda,Zone à risque,depuis le 27/06/2021
 Arabie saoudite,Zone à risque,depuis le 15/06/2020
 Soudan,Zone à forte incidence,depuis le 31/01/2021
 Sénégal,Zone à risque,depuis le 15/06/2020
@@ -164,8 +164,8 @@ Soudan du Sud,Zone à risque,depuis le 15/06/2020
 Sao Tomé-et-Principe,Zone sans risque,
 Surinam,Zone à forte incidence,depuis le 23/05/2021
 Slovaquie,Zone sans risque,
-Slovénie,Zone à risque (partiel),depuis le 23/05/2021. Les régions suivantes sont exclues: -Goriška; -Jugovzhodna Slovenija; -Koroška; -Pomurska; -Savinjska; -Zasavska
-Suède,Zone à risque,depuis le 06/06/2021
+Slovénie,Zone sans risque,
+Suède,Zone à risque (partiel),"depuis le 06/06/2021. Le niveau de risque concerne les régions suivantes: -Kronoberg, depuis le 06/06/2021; -Norrbotten, depuis le 06/06/2021; -Värmland, depuis le 06/06/2021"
 Eswatini,Zone de variantes du virus,depuis le 31/01/2021
 Seychelles,Zone à forte incidence,depuis le 14/02/2021
 Syrie,Zone à forte incidence,depuis le 31/01/2021
