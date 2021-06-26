@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":"Virusvariantengebiet seit 23. Mai 2021, seit 16. Mai 2021 bereits als einfaches Risikogebiet ausgewiesen"
+  "info":"Großbritannien und Nordirland der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Virusvariantengebiet seit 23. Mai 2021, seit 16. Mai 2021 bereits als einfaches Risikogebiet ausgewiesen)"
  },
  "GEO":{
   "name":"Georgien",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Kroatien",
-  "info":"(seit 23. Mai 2021)<\/li><li>Zadar (seit 27. Juni 2021)<\/li><\/ul>"
+  "info":" die folgenden Gespanschaften gelten als einfache Risikogebiete:<ul><li>Medimurje (seit 23. Mai 2021)<\/li><li>Zadar (seit 27. Juni 2021)<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":"Hochinzidenzgebiet seit 23. Mai 2021"
+  "info":" (Hochinzidenzgebiet seit 23. Mai 2021)"
  },
  "SVK":{
   "name":"Slowakei",

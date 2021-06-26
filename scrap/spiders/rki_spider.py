@@ -256,6 +256,8 @@ class RKISpider(scrapy.Spider):
                             if name in name_scraped:
                                 iso3_found = iso3
                                 name_scraped = name
+                                if msg[:len(name)] == name:
+                                    info_scraped = msg[len(name)+1:]
                                 break
                     if not iso3_found:
                         for name, iso3 in country_lut.items():  # Repeat exhaustive search in the whole message
