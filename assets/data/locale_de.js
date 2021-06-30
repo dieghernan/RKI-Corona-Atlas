@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"- (Virusvariantengebiet seit 29. Juni 2021; die Azoren (autonome Region) und Lissabon (Metropolregion) gelten bereits als einfaches Risikogebiet)"
+  "info":"inkl. der autonomen Regionen Madeira und Azoren (Virusvariantengebiet seit 29. Juni 2021; die Azoren (autonome Region) und Lissabon (Metropolregion) gelten bereits als einfaches Risikogebiet)"
  },
  "PRY":{
   "name":"Paraguay",
