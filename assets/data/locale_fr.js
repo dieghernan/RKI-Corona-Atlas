@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 28\/02\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Französisch-Guayana, depuis le 21\/08\/2020<\/li><li>Réunion, Île de la, depuis le 28\/02\/2021<\/li><li>St. Martin, depuis le 26\/08\/2020<\/li><\/ul>"
+  "info":"depuis le 28\/02\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 21\/08\/2020<\/li><li>Réunion, Île de la, depuis le 28\/02\/2021<\/li><li>St. Martin, depuis le 26\/08\/2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",

@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 28 Feb 2021. The risk designation applies to the following regions:<ul><li>Französisch-Guayana, since 21 Aug 2020<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
+  "info":"since 28 Feb 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 21 Aug 2020<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",

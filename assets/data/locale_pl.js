@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 28.02.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Französisch-Guayana, od 21.08.2020<\/li><li>Reunion, od 28.02.2021<\/li><li>St. Martin, od 26.08.2020<\/li><\/ul>"
+  "info":"od 28.02.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 21.08.2020<\/li><li>Reunion, od 28.02.2021<\/li><li>St. Martin, od 26.08.2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
