@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cypr",
-  "info":""
+  "info":"od 04.07.2021"
  },
  "CZE":{
   "name":"Czechy",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Hiszpania",
-  "info":"od 14.08.2020. Poziom ryzyka dotyczy następujących regionów:<ul><li>Andaluzja, od 14.08.2020<\/li><li>Kraj Basków, od 14.08.2020<\/li><li>Ceuta, od 13.06.2021<\/li><li>La Rioja, od 03.04.2021<\/li><li>Nawarra, od 31.07.2020<\/li><\/ul>"
+  "info":"od 14.08.2020. Poziom ryzyka dotyczy następujących regionów:<ul><li>Andaluzja, od 14.08.2020<\/li><li>Kraj Basków, od 14.08.2020<\/li><li>Ceuta, od 13.06.2021<\/li><li>Kantabria, od 04.07.2021<\/li><li>Katalonia, od 04.07.2021<\/li><li>La Rioja, od 03.04.2021<\/li><li>Nawarra, od 31.07.2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 23.05.2021. Z wyjątkiem następujących regionów:<ul><li>Francja kontynentalna<\/li><li>Korsyka<\/li><li>Martynika<\/li><li>Mayotte<\/li><li>Nowa Kaledonia<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre i Miquelon<\/li><li>Wallis i Futuna<\/li><\/ul>"
+  "info":"od 28.02.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Französisch-Guayana, od 21.08.2020<\/li><li>Reunion, od 28.02.2021<\/li><li>St. Martin, od 26.08.2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Chorwacja",
-  "info":"od 23.05.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Medimurje, od 23.05.2021<\/li><li>Zadar, od 27.06.2021<\/li><\/ul>"
+  "info":"od 27.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Zadar, od 27.06.2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Aruba, od 06.06.2021<\/li><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
+  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
-  "info":""
+  "info":"od 04.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Agder, od 04.07.2021<\/li><li>Rogaland, od 04.07.2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":"od 13.06.2021"
+  "info":""
  },
  "ROU":{
   "name":"Rumunia",

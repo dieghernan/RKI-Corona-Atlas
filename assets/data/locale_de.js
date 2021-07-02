@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Zypern",
-  "info":""
+  "info":"seit 4. Juli 2021"
  },
  "CZE":{
   "name":"Tschechien",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":"– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete:<ul><li>Andalusien (seit 14. August 2020)<\/li><li>Navarra (seit 31. Juli 2020)<\/li><li>Baskenland (seit 14. August 2020)<\/li><li>La Rioja (seit 3. April. 2021)<\/li><li>Ceuta (seit 13. Juni 2021)<\/li><\/ul>"
+  "info":"– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete:<ul><li>Andalusien (seit 14. August 2020)<\/li><li>Navarra (seit 31. Juli 2020)<\/li><li>Baskenland (seit 14. August 2020)<\/li><li>La Rioja (seit 3. April. 2021)<\/li><li>Ceuta (seit 13. Juni 2021)<\/li><li>Kantabrien (seit 4. Juli 2021)<\/li><li>Katalonien (seit 4. Juli 2021)<\/li><\/ul>"
  },
  "EST":{
   "name":"Estland",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Frankreich",
-  "info":"(seit 23. Mai 2021), ausgenommen ist gesamt Kontinentalfrankreich, Korsika sowie die französischen Übersee-Departments Martinique, Mayotte, Saint-Pierre und Miquelon, Wallis und Futuna, Französisch-Polynesien, Neukaledonien und Saint-Barthélemy (seit 6. Juni 2021)"
+  "info":"– die folgenden Überseegebiete gelten derzeit als einfache Risikogebiete:<ul><li>Réunion (seit 28. Februar 2021)<\/li><li>Französisch-Guayana (seit 21. August 2020)<\/li><li>St. Martin (seit 26. August 2020)<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronesien",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Kroatien",
-  "info":" die folgenden Gespanschaften gelten als einfache Risikogebiete:<ul><li>Medimurje (seit 23. Mai 2021)<\/li><li>Zadar (seit 27. Juni 2021)<\/li><\/ul>"
+  "info":" die folgenden Gespanschaften gelten als einfache Risikogebiete:<ul><li>Zadar (seit 27. Juni 2021)<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"– die folgenden überseeischen Teile des Königreichs der Niederlande gelten als einfache Risikogebiete:<ul><li>Aruba (seit 6. Juni 2021)<\/li><li>Sint Maarten (seit 6. Juni 2021)<\/li><\/ul>"
+  "info":"– die folgenden überseeischen Teile des Königreichs der Niederlande gelten als einfache Risikogebiete:<ul><li>Sint Maarten (seit 6. Juni 2021)<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegen",
-  "info":""
+  "info":"- die folgenden Provinzen gelten derzeit als einfache Risikogebiete:<ul><li>Agder (seit 4. Juli 2021)<\/li><li>Rogaland (seit 4. Juli 2021)<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":"seit 13. Juni 2021"
+  "info":""
  },
  "ROU":{
   "name":"Rumänien",

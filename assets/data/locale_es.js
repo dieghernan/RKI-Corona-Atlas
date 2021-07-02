@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Chipre",
-  "info":""
+  "info":"desde el 04\/07\/2021"
  },
  "CZE":{
   "name":"República Checa",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"España",
-  "info":"desde el 14\/08\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Andalucía, desde el 14\/08\/2020<\/li><li>País Vasco, desde el 14\/08\/2020<\/li><li>Ceuta, desde el 13\/06\/2021<\/li><li>La Rioja, desde el 03\/04\/2021<\/li><li>Navarra, desde el 31\/07\/2020<\/li><\/ul>"
+  "info":"desde el 14\/08\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Andalucía, desde el 14\/08\/2020<\/li><li>País Vasco, desde el 14\/08\/2020<\/li><li>Ceuta, desde el 13\/06\/2021<\/li><li>Cantabria, desde el 04\/07\/2021<\/li><li>Cataluña, desde el 04\/07\/2021<\/li><li>La Rioja, desde el 03\/04\/2021<\/li><li>Navarra, desde el 31\/07\/2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 23\/05\/2021. A excepción de las siguientes regiones:<ul><li>Francia continental<\/li><li>Córcega<\/li><li>Martinica<\/li><li>Mayotte<\/li><li>Nueva Caledonia<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre y Miquelon<\/li><li>Wallis y Futuna<\/li><\/ul>"
+  "info":"desde el 28\/02\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Französisch-Guayana, desde el 21\/08\/2020<\/li><li>Reunión, desde el 28\/02\/2021<\/li><li>St. Martin, desde el 26\/08\/2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croacia",
-  "info":"desde el 23\/05\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Medimurje, desde el 23\/05\/2021<\/li><li>Zadar, desde el 27\/06\/2021<\/li><\/ul>"
+  "info":"desde el 27\/06\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Zadar, desde el 27\/06\/2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haití",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Países Bajos",
-  "info":"desde el 06\/06\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Aruba, desde el 06\/06\/2021<\/li><li>Sint Maarten, desde el 06\/06\/2021<\/li><\/ul>"
+  "info":"desde el 06\/06\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Sint Maarten, desde el 06\/06\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Noruega",
-  "info":""
+  "info":"desde el 04\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Agder, desde el 04\/07\/2021<\/li><li>Rogaland, desde el 04\/07\/2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Qatar",
-  "info":"desde el 13\/06\/2021"
+  "info":""
  },
  "ROU":{
   "name":"Rumanía",

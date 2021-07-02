@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Kıbrıs",
-  "info":""
+  "info":"04.07.2021'den beri"
  },
  "CZE":{
   "name":"Çekya",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"İspanya",
-  "info":"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Endülüs, 14.08.2020'den beri<\/li><li>Bask Bölgesi, 14.08.2020'den beri<\/li><li>Ceuta, 13.06.2021'den beri<\/li><li>La Rioja, 03.04.2021'den beri<\/li><li>Navarra, 31.07.2020'den beri<\/li><\/ul>"
+  "info":"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Endülüs, 14.08.2020'den beri<\/li><li>Bask Bölgesi, 14.08.2020'den beri<\/li><li>Ceuta, 13.06.2021'den beri<\/li><li>Kantabria, 04.07.2021'den beri<\/li><li>Katalonya, 04.07.2021'den beri<\/li><li>La Rioja, 03.04.2021'den beri<\/li><li>Navarra, 31.07.2020'den beri<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Kıta Fransası<\/li><li>Korsika<\/li><li>Martinik<\/li><li>Mayotte<\/li><li>Yeni Kaledonya<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre ve Miquelon<\/li><li>Wallis ve Futuna<\/li><\/ul>"
+  "info":"28.02.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Französisch-Guayana, 21.08.2020'den beri<\/li><li>Réunion, 28.02.2021'den beri<\/li><li>St. Martin, 26.08.2020'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Hırvatistan",
-  "info":"23.05.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Medimurje, 23.05.2021'den beri<\/li><li>Zadar, 27.06.2021'den beri<\/li><\/ul>"
+  "info":"27.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Zadar, 27.06.2021'den beri<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 06.06.2021'den beri<\/li><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
+  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
-  "info":""
+  "info":"04.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Agder, 04.07.2021'den beri<\/li><li>Rogaland, 04.07.2021'den beri<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":"13.06.2021'den beri"
+  "info":""
  },
  "ROU":{
   "name":"Romanya",

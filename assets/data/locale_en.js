@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cyprus",
-  "info":""
+  "info":"since 04 Jul 2021"
  },
  "CZE":{
   "name":"Czechia",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spain",
-  "info":"since 14 Aug 2020. The risk designation applies to the following regions:<ul><li>Andalusia, since 14 Aug 2020<\/li><li>Basque Country, since 14 Aug 2020<\/li><li>Ceuta, since 13 Jun 2021<\/li><li>La Rioja, since 03 Apr 2021<\/li><li>Navarre, since 31 Jul 2020<\/li><\/ul>"
+  "info":"since 14 Aug 2020. The risk designation applies to the following regions:<ul><li>Andalusia, since 14 Aug 2020<\/li><li>Basque Country, since 14 Aug 2020<\/li><li>Ceuta, since 13 Jun 2021<\/li><li>Cantabria, since 04 Jul 2021<\/li><li>Catalonia, since 04 Jul 2021<\/li><li>La Rioja, since 03 Apr 2021<\/li><li>Navarre, since 31 Jul 2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 23 May 2021. The following regions are excluded:<ul><li>Continental France<\/li><li>Corsica<\/li><li>Martinique<\/li><li>Mayotte<\/li><li>New Caledonia<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre and Miquelon<\/li><li>Wallis and Futuna<\/li><\/ul>"
+  "info":"since 28 Feb 2021. The risk designation applies to the following regions:<ul><li>Französisch-Guayana, since 21 Aug 2020<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croatia",
-  "info":"since 23 May 2021. The risk designation applies to the following regions:<ul><li>Medimurje, since 23 May 2021<\/li><li>Zadar, since 27 Jun 2021<\/li><\/ul>"
+  "info":"since 27 Jun 2021. The risk designation applies to the following regions:<ul><li>Zadar, since 27 Jun 2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 06 Jun 2021<\/li><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
+  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
-  "info":""
+  "info":"since 04 Jul 2021. The risk designation applies to the following regions:<ul><li>Agder, since 04 Jul 2021<\/li><li>Rogaland, since 04 Jul 2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Qatar",
-  "info":"since 13 Jun 2021"
+  "info":""
  },
  "ROU":{
   "name":"Romania",
