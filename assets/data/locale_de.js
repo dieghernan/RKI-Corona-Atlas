@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":"Großbritannien und Nordirland der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Virusvariantengebiet seit 23. Mai 2021, seit 16. Mai 2021 bereits als einfaches Risikogebiet ausgewiesen)"
+  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Hochinzidenzgebiet seit 7. Juli 2021, Virusvariantengebiet von 23. Mai 2021 bis 6. Juli 2021)"
  },
  "GEO":{
   "name":"Georgien",
@@ -314,7 +314,7 @@ var info_rki = {
  },
  "IND":{
   "name":"Indien",
-  "info":"Virusvariantengebiet seit 26. April 2021; Hochinzidenzgebiet am 25. April 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
+  "info":"Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 26. April 2021 bis 6. Juli 2021"
  },
  "IRL":{
   "name":"Irland",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"Virusvariantengebiet seit 16. Mai 2021; bereits seit 9. Mai 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet"
+  "info":"Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 16. Mai 2021 bis 6. Juli 2021"
  },
  "NRU":{
   "name":"Nauru",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"inkl. der autonomen Regionen Madeira und Azoren (Virusvariantengebiet seit 29. Juni 2021; die Azoren (autonome Region) und Lissabon (Metropolregion) gelten bereits als einfaches Risikogebiet)"
+  "info":"inkl. der autonomen Regionen Madeira und Azoren - (Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 29. Juni 2021 bis 6. Juli 2021)"
  },
  "PRY":{
   "name":"Paraguay",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russische Föderation",
-  "info":"Virusvariantengebiet seit 29. Juni 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
+  "info":"Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 29. Juni 2021 bis 6. Juli 2021"
  },
  "RWA":{
   "name":"Ruanda",

@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Royaume-Uni",
-  "info":"depuis le 23\/05\/2021"
+  "info":"depuis le 07\/07\/2021"
  },
  "GEO":{
   "name":"Géorgie",
@@ -314,7 +314,7 @@ var info_rki = {
  },
  "IND":{
   "name":"Inde",
-  "info":"depuis le 26\/04\/2021"
+  "info":"depuis le 07\/07\/2021"
  },
  "IRL":{
   "name":"Irlande",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Népal",
-  "info":"depuis le 16\/05\/2021"
+  "info":"depuis le 07\/07\/2021"
  },
  "NRU":{
   "name":"Nauru",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"depuis le 29\/06\/2021"
+  "info":"depuis le 07\/07\/2021"
  },
  "PRY":{
   "name":"Paraguay",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russie",
-  "info":"depuis le 29\/06\/2021"
+  "info":"depuis le 07\/07\/2021"
  },
  "RWA":{
   "name":"Rwanda",
