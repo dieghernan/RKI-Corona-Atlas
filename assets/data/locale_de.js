@@ -70,7 +70,7 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrain",
-  "info":"Hochinzidenzgebiet seit 14. Februar 2021"
+  "info":"seit 11. Juli 2021; Hochinzidenzgebiet von 14. Februar 2021 bis 10. Juli 2021"
  },
  "BHS":{
   "name":"Bahamas",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Cabo Verde",
-  "info":"seit 20. Juni 2021; Hochinzidenzgebiet vom 25. April 2021 – 19. Juni 2021"
+  "info":"seit 20. Juni 2021"
  },
  "CRI":{
   "name":"Costa Rica",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Zypern",
-  "info":"seit 4. Juli 2021"
+  "info":"Hochinzidenzgebiet seit 11. Juli 2021; einfaches Risikogebiet von 4. Juli 2021 bis 10. Juli 2021"
  },
  "CZE":{
   "name":"Tschechien",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":"– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete:<ul><li>Andalusien (seit 14. August 2020)<\/li><li>Navarra (seit 31. Juli 2020)<\/li><li>Baskenland (seit 14. August 2020)<\/li><li>La Rioja (seit 3. April. 2021)<\/li><li>Ceuta (seit 13. Juni 2021)<\/li><li>Kantabrien (seit 4. Juli 2021)<\/li><li>Katalonien (seit 4. Juli 2021)<\/li><\/ul>"
+  "info":"inkl. der Balearen und Kanaren (seit 11. Juli 2021)"
  },
  "EST":{
   "name":"Estland",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidschi",
-  "info":"seit 27. Juni 2021"
+  "info":"Hochinzidenzgebiet seit 11. Juli 2021; einfaches Risikogebiet von 27. Juni 2021 bis 10. Juli 2021"
  },
  "FRA":{
   "name":"Frankreich",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irland",
-  "info":"(seit 21. März 2021), die folgenden Regionen gelten derzeit als einfache Risikogebiete<ul><li>Border (seit 21. März 2021)<\/li><li>Dublin (seit 21. März 2021)<\/li><li>Mid-East (seit 21. März 2021)<\/li><\/ul>"
+  "info":"(seit 21. März 2021), die folgenden Regionen gelten derzeit als einfache Risikogebiete<ul><li>Border (seit 21. März 2021)<\/li><li>Dublin (seit 21. März 2021)<\/li><li>Mid-East (seit 21. März 2021)<\/li><li>Mid-West (seit 11. Juli 2021)<\/li><li>Midland (seit 11. Juli 2021)<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -606,7 +606,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Saudi-Arabien",
-  "info":"seit 15. Juni 2020"
+  "info":""
  },
  "SDN":{
   "name":"Sudan",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Schweden",
-  "info":"- die folgenden Provinzen gelten derzeit als einfache Risikogebiete:<ul><li>Kronoberg (seit 6. Juni 2021)<\/li><li>Norrbotten (seit 6. Juni 2021)sch<\/li><li>Värmland (seit 6. Juni 2021)<\/li><\/ul>"
+  "info":"- die folgenden Provinzen gelten derzeit als einfache Risikogebiete:<ul><li>Norrbotten (seit 6. Juni 2021)sch<\/li><li>Värmland (seit 6. Juni 2021)<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Eswatini",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad und Tobago",
-  "info":"Hochinzidenzgebiet seit 23. Mai 2021"
+  "info":"seit 11. Juli 2021; Hochinzidenzgebiet von 23. Mai 2021 bis 10. Juli 2021"
  },
  "TUN":{
   "name":"Tunesien",

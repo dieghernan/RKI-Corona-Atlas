@@ -16,7 +16,7 @@ Benín,Área de riesgo,desde el 15/06/2020
 Burquina Faso,Área de riesgo,desde el 15/06/2020
 Bangladesh,Área de riesgo,desde el 15/06/2020
 Bulgaria,No es área de riesgo,
-Bahrein,Área de alta incidencia,desde el 14/02/2021
+Bahrein,Área de riesgo,desde el 11/07/2021
 Bahamas,Área de riesgo,desde el 25/04/2021
 Bosnia y Herzegovina,No es área de riesgo,
 Bielorrusia,Área de riesgo,desde el 15/06/2020
@@ -41,7 +41,7 @@ Colombia,Área de alta incidencia,desde el 24/01/2021
 Cabo Verde,Área de riesgo,desde el 20/06/2021
 Costa Rica,Área de alta incidencia,desde el 09/05/2021
 Cuba,Área de riesgo,desde el 28/02/2021
-Chipre,Área de riesgo,desde el 04/07/2021
+Chipre,Área de alta incidencia,desde el 11/07/2021
 República Checa,No es área de riesgo,
 Alemania,,
 Yibuti,Área de riesgo,desde el 15/06/2020
@@ -52,11 +52,11 @@ Algeria,Área de riesgo,desde el 15/06/2020
 Ecuador,Área de alta incidencia,desde el 31/01/2021
 Egipto,Área de alta incidencia,desde el 24/01/2021
 Eritrea,Área de riesgo,desde el 15/06/2020
-España,Área de riesgo (parcial),"desde el 14/08/2020. El nivel de riesgo afecta a las siguientes regiones: -Andalucía, desde el 14/08/2020; -País Vasco, desde el 14/08/2020; -Ceuta, desde el 13/06/2021; -Cantabria, desde el 04/07/2021; -Cataluña, desde el 04/07/2021; -La Rioja, desde el 03/04/2021; -Navarra, desde el 31/07/2020"
+España,Área de riesgo,desde el 11/07/2021
 Estonia,No es área de riesgo,
 Etiopía,Área de riesgo,desde el 15/06/2020
 Finlandia,No es área de riesgo,
-Fiyi,Área de riesgo,desde el 27/06/2021
+Fiyi,Área de alta incidencia,desde el 11/07/2021
 Francia,Área de riesgo (parcial),"desde el 28/02/2021. El nivel de riesgo afecta a las siguientes regiones: -Guayana Francesa, desde el 21/08/2020; -Reunión, desde el 28/02/2021; -St. Martin, desde el 26/08/2020"
 Micronesia,No es área de riesgo,
 Gabón,Área de riesgo,desde el 15/06/2020
@@ -78,7 +78,7 @@ Haití,Área de riesgo,desde el 15/06/2020
 Hungría,No es área de riesgo,
 Indonesia,Área de riesgo,desde el 15/06/2020
 India,Área de alta incidencia,desde el 07/07/2021
-Irlanda,Área de riesgo (parcial),"desde el 21/03/2021. El nivel de riesgo afecta a las siguientes regiones: -Border, desde el 21/03/2021; -Dublin, desde el 21/03/2021; -Mid-East, desde el 21/03/2021"
+Irlanda,Área de riesgo (parcial),"desde el 21/03/2021. El nivel de riesgo afecta a las siguientes regiones: -Border, desde el 21/03/2021; -Dublin, desde el 21/03/2021; -Mid-East, desde el 21/03/2021; -Mid-West, desde el 11/07/2021; -Midland, desde el 11/07/2021"
 Irán,Área de alta incidencia,desde el 24/01/2021
 Iraq,Área de riesgo,desde el 15/06/2020
 Islandia,No es área de riesgo,
@@ -150,7 +150,7 @@ Qatar,No es área de riesgo,
 Rumanía,No es área de riesgo,
 Federación Rusa,Área de alta incidencia,desde el 07/07/2021
 Ruanda,Área de riesgo,desde el 27/06/2021
-Arabia Saudí,Área de riesgo,desde el 15/06/2020
+Arabia Saudí,No es área de riesgo,
 Sudán,Área de alta incidencia,desde el 31/01/2021
 Senegal,Área de riesgo,desde el 15/06/2020
 Singapur,No es área de riesgo,
@@ -165,7 +165,7 @@ Santo Tomé y Príncipe,No es área de riesgo,
 Surinám,Área de alta incidencia,desde el 23/05/2021
 Eslovaquia,No es área de riesgo,
 Eslovenia,No es área de riesgo,
-Suecia,Área de riesgo (parcial),"desde el 06/06/2021. El nivel de riesgo afecta a las siguientes regiones: -Kronoberg, desde el 06/06/2021; -Norrbotten, desde el 06/06/2021; -Värmland, desde el 06/06/2021"
+Suecia,Área de riesgo (parcial),"desde el 06/06/2021. El nivel de riesgo afecta a las siguientes regiones: -Norrbotten, desde el 06/06/2021; -Värmland, desde el 06/06/2021"
 Esuatini,Área de variante viral,desde el 31/01/2021
 Seychelles,Área de alta incidencia,desde el 14/02/2021
 Siria,Área de alta incidencia,desde el 31/01/2021
@@ -176,7 +176,7 @@ Tadjikistán,Área de riesgo,desde el 15/06/2020
 Turkmenistán,Área de riesgo,desde el 17/06/2020
 Timor Oriental,Área de riesgo,desde el 17/06/2020
 Tonga,No es área de riesgo,
-Trinidad y Tobago,Área de alta incidencia,desde el 23/05/2021
+Trinidad y Tobago,Área de riesgo,desde el 11/07/2021
 Tunez,Área de alta incidencia,desde el 25/04/2021
 Turquía,Área de riesgo,desde el 06/06/2021
 Tuvalu,No es área de riesgo,

@@ -70,7 +70,7 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrain",
-  "info":"since 14 Feb 2021"
+  "info":"since 11 Jul 2021"
  },
  "BHS":{
   "name":"Bahamas",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cyprus",
-  "info":"since 04 Jul 2021"
+  "info":"since 11 Jul 2021"
  },
  "CZE":{
   "name":"Czechia",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spain",
-  "info":"since 14 Aug 2020. The risk designation applies to the following regions:<ul><li>Andalusia, since 14 Aug 2020<\/li><li>Basque Country, since 14 Aug 2020<\/li><li>Ceuta, since 13 Jun 2021<\/li><li>Cantabria, since 04 Jul 2021<\/li><li>Catalonia, since 04 Jul 2021<\/li><li>La Rioja, since 03 Apr 2021<\/li><li>Navarre, since 31 Jul 2020<\/li><\/ul>"
+  "info":"since 11 Jul 2021"
  },
  "EST":{
   "name":"Estonia",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiji",
-  "info":"since 27 Jun 2021"
+  "info":"since 11 Jul 2021"
  },
  "FRA":{
   "name":"France",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Ireland",
-  "info":"since 21 Mar 2021. The risk designation applies to the following regions:<ul><li>Border, since 21 Mar 2021<\/li><li>Dublin, since 21 Mar 2021<\/li><li>Mid-East, since 21 Mar 2021<\/li><\/ul>"
+  "info":"since 21 Mar 2021. The risk designation applies to the following regions:<ul><li>Border, since 21 Mar 2021<\/li><li>Dublin, since 21 Mar 2021<\/li><li>Mid-East, since 21 Mar 2021<\/li><li>Mid-West, since 11 Jul 2021<\/li><li>Midland, since 11 Jul 2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -606,7 +606,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Saudi Arabia",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "SDN":{
   "name":"Sudan",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Sweden",
-  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Kronoberg, since 06 Jun 2021<\/li><li>Norrbotten, since 06 Jun 2021<\/li><li>Värmland, since 06 Jun 2021<\/li><\/ul>"
+  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Norrbotten, since 06 Jun 2021<\/li><li>Värmland, since 06 Jun 2021<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Eswatini",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad and Tobago",
-  "info":"since 23 May 2021"
+  "info":"since 11 Jul 2021"
  },
  "TUN":{
   "name":"Tunisia",

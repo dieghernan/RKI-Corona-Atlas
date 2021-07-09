@@ -70,7 +70,7 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahreyn",
-  "info":"14.02.2021'den beri"
+  "info":"11.07.2021'den beri"
  },
  "BHS":{
   "name":"Bahamalar",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Kıbrıs",
-  "info":"04.07.2021'den beri"
+  "info":"11.07.2021'den beri"
  },
  "CZE":{
   "name":"Çekya",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"İspanya",
-  "info":"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Endülüs, 14.08.2020'den beri<\/li><li>Bask Bölgesi, 14.08.2020'den beri<\/li><li>Ceuta, 13.06.2021'den beri<\/li><li>Kantabria, 04.07.2021'den beri<\/li><li>Katalonya, 04.07.2021'den beri<\/li><li>La Rioja, 03.04.2021'den beri<\/li><li>Navarra, 31.07.2020'den beri<\/li><\/ul>"
+  "info":"11.07.2021'den beri"
  },
  "EST":{
   "name":"Estonya",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiji",
-  "info":"27.06.2021'den beri"
+  "info":"11.07.2021'den beri"
  },
  "FRA":{
   "name":"Fransa",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"İrlanda",
-  "info":"21.03.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 21.03.2021'den beri<\/li><li>Dublin, 21.03.2021'den beri<\/li><li>Mid-East, 21.03.2021'den beri<\/li><\/ul>"
+  "info":"21.03.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 21.03.2021'den beri<\/li><li>Dublin, 21.03.2021'den beri<\/li><li>Mid-East, 21.03.2021'den beri<\/li><li>Mid-West, 11.07.2021'den beri<\/li><li>Midland, 11.07.2021'den beri<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -606,7 +606,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Suudi Arabistan",
-  "info":"15.06.2020'den beri"
+  "info":""
  },
  "SDN":{
   "name":"Sudan",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"İsveç",
-  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kronoberg, 06.06.2021'den beri<\/li><li>Norrbotten, 06.06.2021'den beri<\/li><li>Värmland, 06.06.2021'den beri<\/li><\/ul>"
+  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Norrbotten, 06.06.2021'den beri<\/li><li>Värmland, 06.06.2021'den beri<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Esvatini",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad ve Tobago",
-  "info":"23.05.2021'den beri"
+  "info":"11.07.2021'den beri"
  },
  "TUN":{
   "name":"Tunus",

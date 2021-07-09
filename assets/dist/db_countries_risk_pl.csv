@@ -16,7 +16,7 @@ Benin,Obszar ryzyka,od 15.06.2020
 Burkina Faso,Obszar ryzyka,od 15.06.2020
 Bangladesz,Obszar ryzyka,od 15.06.2020
 Bułgaria,Nie jest to obszar ryzyka,
-Bahrajn,Obszar o wysokiej częstości występowania,od 14.02.2021
+Bahrajn,Obszar ryzyka,od 11.07.2021
 Bahamy,Obszar ryzyka,od 25.04.2021
 Bośnia i Hercegowina,Nie jest to obszar ryzyka,
 Białoruś,Obszar ryzyka,od 15.06.2020
@@ -41,7 +41,7 @@ Komory,Obszar ryzyka,od 15.06.2020
 Republika Zielonego Przylądka,Obszar ryzyka,od 20.06.2021
 Kostaryka,Obszar o wysokiej częstości występowania,od 09.05.2021
 Kuba,Obszar ryzyka,od 28.02.2021
-Cypr,Obszar ryzyka,od 04.07.2021
+Cypr,Obszar o wysokiej częstości występowania,od 11.07.2021
 Czechy,Nie jest to obszar ryzyka,
 Niemcy,,
 Dżibuti,Obszar ryzyka,od 15.06.2020
@@ -52,11 +52,11 @@ Algieria,Obszar ryzyka,od 15.06.2020
 Ekwador,Obszar o wysokiej częstości występowania,od 31.01.2021
 Egipt,Obszar o wysokiej częstości występowania,od 24.01.2021
 Erytrea,Obszar ryzyka,od 15.06.2020
-Hiszpania,Obszar ryzyka (częściowy),"od 14.08.2020. Poziom ryzyka dotyczy następujących regionów: -Andaluzja, od 14.08.2020; -Kraj Basków, od 14.08.2020; -Ceuta, od 13.06.2021; -Kantabria, od 04.07.2021; -Katalonia, od 04.07.2021; -La Rioja, od 03.04.2021; -Nawarra, od 31.07.2020"
+Hiszpania,Obszar ryzyka,od 11.07.2021
 Estonia,Nie jest to obszar ryzyka,
 Etiopia,Obszar ryzyka,od 15.06.2020
 Finlandia,Nie jest to obszar ryzyka,
-Fidżi,Obszar ryzyka,od 27.06.2021
+Fidżi,Obszar o wysokiej częstości występowania,od 11.07.2021
 Francja,Obszar ryzyka (częściowy),"od 28.02.2021. Poziom ryzyka dotyczy następujących regionów: -Gujana Francuska, od 21.08.2020; -Reunion, od 28.02.2021; -St. Martin, od 26.08.2020"
 Mikronezja,Nie jest to obszar ryzyka,
 Gabon,Obszar ryzyka,od 15.06.2020
@@ -78,7 +78,7 @@ Haiti,Obszar ryzyka,od 15.06.2020
 Węgry,Nie jest to obszar ryzyka,
 Indonezja,Obszar ryzyka,od 15.06.2020
 Indie,Obszar o wysokiej częstości występowania,od 07.07.2021
-Irlandia,Obszar ryzyka (częściowy),"od 21.03.2021. Poziom ryzyka dotyczy następujących regionów: -Border, od 21.03.2021; -Dublin, od 21.03.2021; -Mid-East, od 21.03.2021"
+Irlandia,Obszar ryzyka (częściowy),"od 21.03.2021. Poziom ryzyka dotyczy następujących regionów: -Border, od 21.03.2021; -Dublin, od 21.03.2021; -Mid-East, od 21.03.2021; -Mid-West, od 11.07.2021; -Midland, od 11.07.2021"
 Iran,Obszar o wysokiej częstości występowania,od 24.01.2021
 Irak,Obszar ryzyka,od 15.06.2020
 Islandia,Nie jest to obszar ryzyka,
@@ -150,7 +150,7 @@ Katar,Nie jest to obszar ryzyka,
 Rumunia,Nie jest to obszar ryzyka,
 Federacja Rosyjska,Obszar o wysokiej częstości występowania,od 07.07.2021
 Ruanda,Obszar ryzyka,od 27.06.2021
-Arabia Saudyjska,Obszar ryzyka,od 15.06.2020
+Arabia Saudyjska,Nie jest to obszar ryzyka,
 Sudan,Obszar o wysokiej częstości występowania,od 31.01.2021
 Senegal,Obszar ryzyka,od 15.06.2020
 Singapur,Nie jest to obszar ryzyka,
@@ -165,7 +165,7 @@ Wyspy Świętego Tomasza i Książęca,Nie jest to obszar ryzyka,
 Surinam,Obszar o wysokiej częstości występowania,od 23.05.2021
 Słowacja,Nie jest to obszar ryzyka,
 Słowenia,Nie jest to obszar ryzyka,
-Szwecja,Obszar ryzyka (częściowy),"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów: -Kronoberg, od 06.06.2021; -Norrbotten, od 06.06.2021; -Värmland, od 06.06.2021"
+Szwecja,Obszar ryzyka (częściowy),"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów: -Norrbotten, od 06.06.2021; -Värmland, od 06.06.2021"
 Eswatini,Obszar z niebezpiecznymi mutacjami,od 31.01.2021
 Seszele,Obszar o wysokiej częstości występowania,od 14.02.2021
 Syria,Obszar o wysokiej częstości występowania,od 31.01.2021
@@ -176,7 +176,7 @@ Tadżykistan,Obszar ryzyka,od 15.06.2020
 Turkmenistan,Obszar ryzyka,od 17.06.2020
 Timor Wschodni,Obszar ryzyka,od 17.06.2020
 Tonga,Nie jest to obszar ryzyka,
-Trynidad i Tobago,Obszar o wysokiej częstości występowania,od 23.05.2021
+Trynidad i Tobago,Obszar ryzyka,od 11.07.2021
 Tunezja,Obszar o wysokiej częstości występowania,od 25.04.2021
 Turcja,Obszar ryzyka,od 06.06.2021
 Tuvalu,Nie jest to obszar ryzyka,

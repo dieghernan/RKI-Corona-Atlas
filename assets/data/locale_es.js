@@ -70,7 +70,7 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrein",
-  "info":"desde el 14\/02\/2021"
+  "info":"desde el 11\/07\/2021"
  },
  "BHS":{
   "name":"Bahamas",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Chipre",
-  "info":"desde el 04\/07\/2021"
+  "info":"desde el 11\/07\/2021"
  },
  "CZE":{
   "name":"República Checa",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"España",
-  "info":"desde el 14\/08\/2020. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Andalucía, desde el 14\/08\/2020<\/li><li>País Vasco, desde el 14\/08\/2020<\/li><li>Ceuta, desde el 13\/06\/2021<\/li><li>Cantabria, desde el 04\/07\/2021<\/li><li>Cataluña, desde el 04\/07\/2021<\/li><li>La Rioja, desde el 03\/04\/2021<\/li><li>Navarra, desde el 31\/07\/2020<\/li><\/ul>"
+  "info":"desde el 11\/07\/2021"
  },
  "EST":{
   "name":"Estonia",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiyi",
-  "info":"desde el 27\/06\/2021"
+  "info":"desde el 11\/07\/2021"
  },
  "FRA":{
   "name":"Francia",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlanda",
-  "info":"desde el 21\/03\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Border, desde el 21\/03\/2021<\/li><li>Dublin, desde el 21\/03\/2021<\/li><li>Mid-East, desde el 21\/03\/2021<\/li><\/ul>"
+  "info":"desde el 21\/03\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Border, desde el 21\/03\/2021<\/li><li>Dublin, desde el 21\/03\/2021<\/li><li>Mid-East, desde el 21\/03\/2021<\/li><li>Mid-West, desde el 11\/07\/2021<\/li><li>Midland, desde el 11\/07\/2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Irán",
@@ -606,7 +606,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Arabia Saudí",
-  "info":"desde el 15\/06\/2020"
+  "info":""
  },
  "SDN":{
   "name":"Sudán",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Suecia",
-  "info":"desde el 06\/06\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Kronoberg, desde el 06\/06\/2021<\/li><li>Norrbotten, desde el 06\/06\/2021<\/li><li>Värmland, desde el 06\/06\/2021<\/li><\/ul>"
+  "info":"desde el 06\/06\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Norrbotten, desde el 06\/06\/2021<\/li><li>Värmland, desde el 06\/06\/2021<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Esuatini",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad y Tobago",
-  "info":"desde el 23\/05\/2021"
+  "info":"desde el 11\/07\/2021"
  },
  "TUN":{
   "name":"Tunez",

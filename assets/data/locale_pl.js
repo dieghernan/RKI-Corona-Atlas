@@ -70,7 +70,7 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrajn",
-  "info":"od 14.02.2021"
+  "info":"od 11.07.2021"
  },
  "BHS":{
   "name":"Bahamy",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cypr",
-  "info":"od 04.07.2021"
+  "info":"od 11.07.2021"
  },
  "CZE":{
   "name":"Czechy",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Hiszpania",
-  "info":"od 14.08.2020. Poziom ryzyka dotyczy następujących regionów:<ul><li>Andaluzja, od 14.08.2020<\/li><li>Kraj Basków, od 14.08.2020<\/li><li>Ceuta, od 13.06.2021<\/li><li>Kantabria, od 04.07.2021<\/li><li>Katalonia, od 04.07.2021<\/li><li>La Rioja, od 03.04.2021<\/li><li>Nawarra, od 31.07.2020<\/li><\/ul>"
+  "info":"od 11.07.2021"
  },
  "EST":{
   "name":"Estonia",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidżi",
-  "info":"od 27.06.2021"
+  "info":"od 11.07.2021"
  },
  "FRA":{
   "name":"Francja",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlandia",
-  "info":"od 21.03.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 21.03.2021<\/li><li>Dublin, od 21.03.2021<\/li><li>Mid-East, od 21.03.2021<\/li><\/ul>"
+  "info":"od 21.03.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 21.03.2021<\/li><li>Dublin, od 21.03.2021<\/li><li>Mid-East, od 21.03.2021<\/li><li>Mid-West, od 11.07.2021<\/li><li>Midland, od 11.07.2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -606,7 +606,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Arabia Saudyjska",
-  "info":"od 15.06.2020"
+  "info":""
  },
  "SDN":{
   "name":"Sudan",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Szwecja",
-  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Kronoberg, od 06.06.2021<\/li><li>Norrbotten, od 06.06.2021<\/li><li>Värmland, od 06.06.2021<\/li><\/ul>"
+  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Norrbotten, od 06.06.2021<\/li><li>Värmland, od 06.06.2021<\/li><\/ul>"
  },
  "SWZ":{
   "name":"Eswatini",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trynidad i Tobago",
-  "info":"od 23.05.2021"
+  "info":"od 11.07.2021"
  },
  "TUN":{
   "name":"Tunezja",
