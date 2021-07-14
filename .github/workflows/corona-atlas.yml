@@ -85,7 +85,7 @@ jobs:
         run: sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
 
       - name: Send mail
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v3.4.0
         if: steps.scrapy.outputs.DATABASE == 'NEW'
         with:
           server_address: smtp.ionos.de
