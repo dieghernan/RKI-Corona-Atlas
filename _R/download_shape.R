@@ -2,7 +2,6 @@ library(sf)
 library(dplyr)
 
 
-
 tmp <- tempfile(fileext = ".geojson")
 download.file("https://nominatim.openstreetmap.org/search?q=Kosovo&format=geojson&polygon_geojson=1",
               tmp)
