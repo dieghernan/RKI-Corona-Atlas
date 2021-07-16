@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar",
-  "info":"(seit 18. Juli 2021)"
+  "info":"seit 18. Juli 2021"
  },
  "MNE":{
   "name":"Montenegro",
