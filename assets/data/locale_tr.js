@@ -154,7 +154,7 @@ var info_rki = {
  },
  "COM":{
   "name":"Komorlar",
-  "info":"15.06.2020'den beri"
+  "info":""
  },
  "CPV":{
   "name":"Verde Burnu",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Küba",
-  "info":"28.02.2021'den beri"
+  "info":"18.07.2021'den beri"
  },
  "CYP":{
   "name":"Kıbrıs",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danimarka",
-  "info":""
+  "info":"18.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Faroe Adaları, 18.07.2021'den beri<\/li><li>Hovedstaden, 18.07.2021'den beri<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Yunanistan",
-  "info":""
+  "info":"18.07.2021'den beri"
  },
  "GRD":{
   "name":"Granada",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Endonezya",
-  "info":"15.06.2020'den beri"
+  "info":"18.07.2021'den beri"
  },
  "IND":{
   "name":"Hindistan",
@@ -398,7 +398,7 @@ var info_rki = {
  },
  "LBY":{
   "name":"Libya",
-  "info":"15.06.2020'den beri"
+  "info":"18.07.2021'den beri"
  },
  "LCA":{
   "name":"Sen Lucia",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"13.06.2021'den beri"
+  "info":"18.07.2021'den beri"
  },
  "LSO":{
   "name":"Lesoto",
@@ -446,7 +446,7 @@ var info_rki = {
  },
  "MDV":{
   "name":"Maldivler",
-  "info":"09.05.2021'den beri"
+  "info":"18.07.2021'den beri"
  },
  "MEX":{
   "name":"Meksika",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":""
+  "info":"18.07.2021'den beri"
  },
  "MNE":{
   "name":"Karadağ",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
+  "info":"18.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
-  "info":"04.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Agder, 04.07.2021'den beri<\/li><li>Rogaland, 04.07.2021'den beri<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"İsveç",
-  "info":"06.06.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Norrbotten, 06.06.2021'den beri<\/li><li>Värmland, 06.06.2021'den beri<\/li><\/ul>"
+  "info":""
  },
  "SWZ":{
   "name":"Esvatini",
@@ -690,7 +690,7 @@ var info_rki = {
  },
  "THA":{
   "name":"Tayland",
-  "info":""
+  "info":"18.07.2021'den beri"
  },
  "TJK":{
   "name":"Tacikistan",

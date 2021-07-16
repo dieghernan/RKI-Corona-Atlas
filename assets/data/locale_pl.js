@@ -154,7 +154,7 @@ var info_rki = {
  },
  "COM":{
   "name":"Komory",
-  "info":"od 15.06.2020"
+  "info":""
  },
  "CPV":{
   "name":"Republika Zielonego Przylądka",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Kuba",
-  "info":"od 28.02.2021"
+  "info":"od 18.07.2021"
  },
  "CYP":{
   "name":"Cypr",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dania",
-  "info":""
+  "info":"od 18.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Wyspy Owcze, od 18.07.2021<\/li><li>Hovedstaden, od 18.07.2021<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominikana",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":""
+  "info":"od 18.07.2021"
  },
  "GRD":{
   "name":"Grenada",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonezja",
-  "info":"od 15.06.2020"
+  "info":"od 18.07.2021"
  },
  "IND":{
   "name":"Indie",
@@ -398,7 +398,7 @@ var info_rki = {
  },
  "LBY":{
   "name":"Libia",
-  "info":"od 15.06.2020"
+  "info":"od 18.07.2021"
  },
  "LCA":{
   "name":"Saint Lucia",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"od 13.06.2021"
+  "info":"od 18.07.2021"
  },
  "LSO":{
   "name":"Lesoto",
@@ -446,7 +446,7 @@ var info_rki = {
  },
  "MDV":{
   "name":"Malediwy",
-  "info":"od 09.05.2021"
+  "info":"od 18.07.2021"
  },
  "MEX":{
   "name":"Meksyk",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":""
+  "info":"od 18.07.2021"
  },
  "MNE":{
   "name":"Czarnogóra",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
+  "info":"od 18.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
-  "info":"od 04.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Agder, od 04.07.2021<\/li><li>Rogaland, od 04.07.2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Szwecja",
-  "info":"od 06.06.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Norrbotten, od 06.06.2021<\/li><li>Värmland, od 06.06.2021<\/li><\/ul>"
+  "info":""
  },
  "SWZ":{
   "name":"Eswatini",
@@ -690,7 +690,7 @@ var info_rki = {
  },
  "THA":{
   "name":"Tajlandia",
-  "info":""
+  "info":"od 18.07.2021"
  },
  "TJK":{
   "name":"Tadżykistan",

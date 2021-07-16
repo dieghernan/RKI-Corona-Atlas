@@ -154,7 +154,7 @@ var info_rki = {
  },
  "COM":{
   "name":"Comoros",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "CPV":{
   "name":"Cape Verde",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Cuba",
-  "info":"since 28 Feb 2021"
+  "info":"since 18 Jul 2021"
  },
  "CYP":{
   "name":"Cyprus",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Denmark",
-  "info":""
+  "info":"since 18 Jul 2021. The risk designation applies to the following regions:<ul><li>Faroes, since 18 Jul 2021<\/li><li>Hovedstaden, since 18 Jul 2021<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominican Republic",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":""
+  "info":"since 18 Jul 2021"
  },
  "GRD":{
   "name":"Grenada",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonesia",
-  "info":"since 15 Jun 2020"
+  "info":"since 18 Jul 2021"
  },
  "IND":{
   "name":"India",
@@ -398,7 +398,7 @@ var info_rki = {
  },
  "LBY":{
   "name":"Libya",
-  "info":"since 15 Jun 2020"
+  "info":"since 18 Jul 2021"
  },
  "LCA":{
   "name":"Saint Lucia",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"since 13 Jun 2021"
+  "info":"since 18 Jul 2021"
  },
  "LSO":{
   "name":"Lesotho",
@@ -446,7 +446,7 @@ var info_rki = {
  },
  "MDV":{
   "name":"Maldives",
-  "info":"since 09 May 2021"
+  "info":"since 18 Jul 2021"
  },
  "MEX":{
   "name":"Mexico",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":""
+  "info":"since 18 Jul 2021"
  },
  "MNE":{
   "name":"Montenegro",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
+  "info":"since 18 Jul 2021. The risk designation applies to the following regions:<ul><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
-  "info":"since 04 Jul 2021. The risk designation applies to the following regions:<ul><li>Agder, since 04 Jul 2021<\/li><li>Rogaland, since 04 Jul 2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Sweden",
-  "info":"since 06 Jun 2021. The risk designation applies to the following regions:<ul><li>Norrbotten, since 06 Jun 2021<\/li><li>Värmland, since 06 Jun 2021<\/li><\/ul>"
+  "info":""
  },
  "SWZ":{
   "name":"Eswatini",
@@ -690,7 +690,7 @@ var info_rki = {
  },
  "THA":{
   "name":"Thailand",
-  "info":""
+  "info":"since 18 Jul 2021"
  },
  "TJK":{
   "name":"Tajikistan",
