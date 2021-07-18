@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 18 Jul 2021. The risk designation applies to the following regions:<ul><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
+  "info":"since 18 Jul 2021. The risk designation applies to the following regions:<ul><li>Mainland Netherlands<\/li><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",

@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 18.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
+  "info":"od 18.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Holandia kontynentalna<\/li><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",

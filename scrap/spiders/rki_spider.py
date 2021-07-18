@@ -230,7 +230,8 @@ class RKISpider(scrapy.Spider):
 
                     country_code = code
 
-                    excluded_msg = None
+                    msg_nolist = msg[:msg.find("<ul>")]
+                    excluded_msg = msg_nolist
                     reg_excluded = None
                     for tag in self.excluded_tags:
                         search = re.compile(rf".*{tag}[ ]+(.*)$", re.I).search(msg)
@@ -238,7 +239,7 @@ class RKISpider(scrapy.Spider):
                             excluded_msg = search.group(1)
                             break
                     if code == self.RISK:
-                        if excluded_msg:
+                        if excluded_msg != msg_nolist:
                             country_code = self.PARTIAL
                             reg_excluded = True
                         elif len(regions) > 0:
@@ -296,8 +297,8 @@ class RKISpider(scrapy.Spider):
                         exc_err.append(reg_excluded)
                     country_regs = reg_df.query("ISO3_CODE == @iso3_found")
                     reg_code = self.NO_RISK if reg_excluded else code
-                    if country_code == self.PARTIAL and len(regions) == 0:
-                        regions_found = False
+                    if country_code == self.PARTIAL:
+                        regions_found = len(regions) > 0
                         for _, cr in country_regs.iterrows():
                             if cr["NAME_DE"] in excluded_msg:
                                 regions_found = True

@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"18.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
+  "info":"18.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kıta Hollanda<\/li><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",

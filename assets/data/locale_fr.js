@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 18\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Sint Maarten, depuis le 06\/06\/2021<\/li><\/ul>"
+  "info":"depuis le 18\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Pays-Bas continentaux<\/li><li>Sint Maarten, depuis le 06\/06\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norvège",
