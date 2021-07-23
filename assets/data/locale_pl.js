@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dania",
-  "info":"od 18.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Wyspy Owcze, od 18.07.2021<\/li><li>Hovedstaden, od 18.07.2021<\/li><\/ul>"
+  "info":"od 25.07.2021. Z wyjątkiem następujących regionów:<ul><li>Grenlandia<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominikana",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Hiszpania",
-  "info":"od 11.07.2021"
+  "info":"od 27.07.2021"
  },
  "EST":{
   "name":"Estonia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 28.02.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 21.08.2020<\/li><li>Reunion, od 28.02.2021<\/li><li>St. Martin, od 26.08.2020<\/li><\/ul>"
+  "info":"od 25.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 21.08.2020<\/li><li>Korsyka, od 25.07.2021<\/li><li>Martynika, od 25.07.2021<\/li><li>Okzitanien, od 25.07.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 25.07.2021<\/li><li>Reunion, od 28.02.2021<\/li><li>St. Martin, od 26.08.2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -250,7 +250,7 @@ var info_rki = {
  },
  "GEO":{
   "name":"Gruzja",
-  "info":"od 13.06.2021"
+  "info":"od 25.07.2021"
  },
  "GHA":{
   "name":"Ghana",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlandia",
-  "info":"od 21.03.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 21.03.2021<\/li><li>Dublin, od 21.03.2021<\/li><li>Mid-East, od 21.03.2021<\/li><li>Mid-West, od 11.07.2021<\/li><li>Midland, od 11.07.2021<\/li><\/ul>"
+  "info":"od 25.07.2021"
  },
  "IRN":{
   "name":"Iran",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monako",
-  "info":""
+  "info":"od 25.07.2021"
  },
  "MDA":{
   "name":"Mołdawia",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"od 25.07.2021"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 18.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Holandia kontynentalna<\/li><li>Sint Maarten, od 06.06.2021<\/li><\/ul>"
+  "info":"od 27.07.2021"
  },
  "NOR":{
   "name":"Norwegia",

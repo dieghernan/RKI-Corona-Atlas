@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danimarka",
-  "info":"18.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Faroe Adaları, 18.07.2021'den beri<\/li><li>Hovedstaden, 18.07.2021'den beri<\/li><\/ul>"
+  "info":"25.07.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Grönland<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"İspanya",
-  "info":"11.07.2021'den beri"
+  "info":"27.07.2021'den beri"
  },
  "EST":{
   "name":"Estonya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"28.02.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 21.08.2020'den beri<\/li><li>Réunion, 28.02.2021'den beri<\/li><li>St. Martin, 26.08.2020'den beri<\/li><\/ul>"
+  "info":"25.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 21.08.2020'den beri<\/li><li>Korsika, 25.07.2021'den beri<\/li><li>Martinik, 25.07.2021'den beri<\/li><li>Okzitanien, 25.07.2021'den beri<\/li><li>Provence-Alpes-Côte d'Azur, 25.07.2021'den beri<\/li><li>Réunion, 28.02.2021'den beri<\/li><li>St. Martin, 26.08.2020'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -250,7 +250,7 @@ var info_rki = {
  },
  "GEO":{
   "name":"Gürcistan",
-  "info":"13.06.2021'den beri"
+  "info":"25.07.2021'den beri"
  },
  "GHA":{
   "name":"Gana",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"İrlanda",
-  "info":"21.03.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 21.03.2021'den beri<\/li><li>Dublin, 21.03.2021'den beri<\/li><li>Mid-East, 21.03.2021'den beri<\/li><li>Mid-West, 11.07.2021'den beri<\/li><li>Midland, 11.07.2021'den beri<\/li><\/ul>"
+  "info":"25.07.2021'den beri"
  },
  "IRN":{
   "name":"Iran",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monako",
-  "info":""
+  "info":"25.07.2021'den beri"
  },
  "MDA":{
   "name":"Moldova",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"25.07.2021'den beri"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"18.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kıta Hollanda<\/li><li>Sint Maarten, 06.06.2021'den beri<\/li><\/ul>"
+  "info":"27.07.2021'den beri"
  },
  "NOR":{
   "name":"Norveç",

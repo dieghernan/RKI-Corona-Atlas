@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Denmark",
-  "info":"since 18 Jul 2021. The risk designation applies to the following regions:<ul><li>Faroes, since 18 Jul 2021<\/li><li>Hovedstaden, since 18 Jul 2021<\/li><\/ul>"
+  "info":"since 25 Jul 2021. The following regions are excluded:<ul><li>Greenland<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominican Republic",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spain",
-  "info":"since 11 Jul 2021"
+  "info":"since 27 Jul 2021"
  },
  "EST":{
   "name":"Estonia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 28 Feb 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 21 Aug 2020<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
+  "info":"since 25 Jul 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 21 Aug 2020<\/li><li>Corsica, since 25 Jul 2021<\/li><li>Martinique, since 25 Jul 2021<\/li><li>Okzitanien, since 25 Jul 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 25 Jul 2021<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -250,7 +250,7 @@ var info_rki = {
  },
  "GEO":{
   "name":"Georgia",
-  "info":"since 13 Jun 2021"
+  "info":"since 25 Jul 2021"
  },
  "GHA":{
   "name":"Ghana",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Ireland",
-  "info":"since 21 Mar 2021. The risk designation applies to the following regions:<ul><li>Border, since 21 Mar 2021<\/li><li>Dublin, since 21 Mar 2021<\/li><li>Mid-East, since 21 Mar 2021<\/li><li>Mid-West, since 11 Jul 2021<\/li><li>Midland, since 11 Jul 2021<\/li><\/ul>"
+  "info":"since 25 Jul 2021"
  },
  "IRN":{
   "name":"Iran",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monaco",
-  "info":""
+  "info":"since 25 Jul 2021"
  },
  "MDA":{
   "name":"Moldova",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"since 25 Jul 2021"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 18 Jul 2021. The risk designation applies to the following regions:<ul><li>Mainland Netherlands<\/li><li>Sint Maarten, since 06 Jun 2021<\/li><\/ul>"
+  "info":"since 27 Jul 2021"
  },
  "NOR":{
   "name":"Norway",

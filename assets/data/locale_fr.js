@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danemark",
-  "info":"depuis le 18\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Faroes, depuis le 18\/07\/2021<\/li><li>Hovedstaden, depuis le 18\/07\/2021<\/li><\/ul>"
+  "info":"depuis le 25\/07\/2021. Les régions suivantes sont exclues:<ul><li>Groënland<\/li><\/ul>"
  },
  "DOM":{
   "name":"République Dominicaine",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Espagne",
-  "info":"depuis le 11\/07\/2021"
+  "info":"depuis le 27\/07\/2021"
  },
  "EST":{
   "name":"Estonie",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 28\/02\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 21\/08\/2020<\/li><li>Réunion, Île de la, depuis le 28\/02\/2021<\/li><li>St. Martin, depuis le 26\/08\/2020<\/li><\/ul>"
+  "info":"depuis le 25\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 21\/08\/2020<\/li><li>La Corse, depuis le 25\/07\/2021<\/li><li>Martinique, depuis le 25\/07\/2021<\/li><li>Okzitanien, depuis le 25\/07\/2021<\/li><li>Provence-Alpes-Côte d'Azur, depuis le 25\/07\/2021<\/li><li>Réunion, Île de la, depuis le 28\/02\/2021<\/li><li>St. Martin, depuis le 26\/08\/2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -250,7 +250,7 @@ var info_rki = {
  },
  "GEO":{
   "name":"Géorgie",
-  "info":"depuis le 13\/06\/2021"
+  "info":"depuis le 25\/07\/2021"
  },
  "GHA":{
   "name":"Ghana",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlande",
-  "info":"depuis le 21\/03\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Border, depuis le 21\/03\/2021<\/li><li>Dublin, depuis le 21\/03\/2021<\/li><li>Mid-East, depuis le 21\/03\/2021<\/li><li>Mid-West, depuis le 11\/07\/2021<\/li><li>Midland, depuis le 11\/07\/2021<\/li><\/ul>"
+  "info":"depuis le 25\/07\/2021"
  },
  "IRN":{
   "name":"Iran",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monaco",
-  "info":""
+  "info":"depuis le 25\/07\/2021"
  },
  "MDA":{
   "name":"Moldavie",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malte",
-  "info":""
+  "info":"depuis le 25\/07\/2021"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 18\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Pays-Bas continentaux<\/li><li>Sint Maarten, depuis le 06\/06\/2021<\/li><\/ul>"
+  "info":"depuis le 27\/07\/2021"
  },
  "NOR":{
   "name":"Norvège",

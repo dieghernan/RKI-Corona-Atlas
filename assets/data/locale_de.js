@@ -70,7 +70,7 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrain",
-  "info":"seit 11. Juli 2021; Hochinzidenzgebiet von 14. Februar 2021 bis 10. Juli 2021"
+  "info":"seit 11. Juli 2021"
  },
  "BHS":{
   "name":"Bahamas",
@@ -166,11 +166,11 @@ var info_rki = {
  },
  "CUB":{
   "name":"Kuba",
-  "info":"Hochinzidenzgebiet seit 18. Juli 2021; bereits seit 28. Februar 2021 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 18. Juli 2021"
  },
  "CYP":{
   "name":"Zypern",
-  "info":"Hochinzidenzgebiet seit 11. Juli 2021; einfaches Risikogebiet von 4. Juli 2021 bis 10. Juli 2021"
+  "info":"Hochinzidenzgebiet seit 11. Juli 2021"
  },
  "CZE":{
   "name":"Tschechien",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dänemark",
-  "info":"- die folgenden Regionen gelten derzeit als einfache Risikogebiete<ul><li>Hovedstaden (seit 18. Juli 2021)<\/li><li>Färöer (seit 18. Juli 2021)<\/li><\/ul>"
+  "info":"– mit Ausnahme von Grönland (seit 25. Juli 2021)"
  },
  "DOM":{
   "name":"Dominikanische Republik",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":"inkl. der Balearen und Kanaren (seit 11. Juli 2021)"
+  "info":"inkl. der Balearen und Kanaren (Hochinzidenzgebiet seit 27. Juli 2021; einfaches Risikogebiet vom 11. Juli 2021 bis 26. Juli 2021)"
  },
  "EST":{
   "name":"Estland",
@@ -230,11 +230,11 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidschi",
-  "info":"Hochinzidenzgebiet seit 11. Juli 2021; einfaches Risikogebiet von 27. Juni 2021 bis 10. Juli 2021"
+  "info":"Hochinzidenzgebiet seit 11. Juli 2021"
  },
  "FRA":{
   "name":"Frankreich",
-  "info":"– die folgenden Überseegebiete gelten derzeit als einfache Risikogebiete:<ul><li>Réunion (seit 28. Februar 2021)<\/li><li>Französisch-Guayana (seit 21. August 2020)<\/li><li>St. Martin (seit 26. August 2020)<\/li><\/ul>"
+  "info":"– die folgenden Regionen und Überseegebiete gelten derzeit als einfache Risikogebiete:<ul><li>Korsika (seit 25. Juli 2021)<\/li><li>Okzitanien (seit 25. Juli 2021)<\/li><li>Provence-Alpes-Côte d'Azur (seit 25. Juli 2021)<\/li><li>Réunion (seit 28. Februar 2021)<\/li><li>Französisch-Guayana (seit 21. August 2020)<\/li><li>St. Martin (seit 26. August 2020)<\/li><li>Martinique (seit 25. Juli 2021)<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronesien",
@@ -246,11 +246,11 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Hochinzidenzgebiet seit 7. Juli 2021, Virusvariantengebiet von 23. Mai 2021 bis 6. Juli 2021)"
+  "info":"Großbritannien und Nordirland der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Hochinzidenzgebiet seit 7. Juli 2021)"
  },
  "GEO":{
   "name":"Georgien",
-  "info":"seit 13. Juni 2021"
+  "info":"Hochinzidenzgebiet seit 25. Juli 2021; einfaches Risikogebiet vom 13. Juni bis 24. Juli 2021"
  },
  "GHA":{
   "name":"Ghana",
@@ -310,15 +310,15 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonesien",
-  "info":"Hochinzidenzgebiet seit 18. Juli 2021; bereits seit 15. Juni 2020 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 18. Juli 2021"
  },
  "IND":{
   "name":"Indien",
-  "info":"Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 26. April 2021 bis 6. Juli 2021"
+  "info":"Hochinzidenzgebiet seit 7. Juli 2021"
  },
  "IRL":{
   "name":"Irland",
-  "info":"(seit 21. März 2021), die folgenden Regionen gelten derzeit als einfache Risikogebiete<ul><li>Border (seit 21. März 2021)<\/li><li>Dublin (seit 21. März 2021)<\/li><li>Mid-East (seit 21. März 2021)<\/li><li>Mid-West (seit 11. Juli 2021)<\/li><li>Midland (seit 11. Juli 2021)<\/li><\/ul>"
+  "info":"seit 25. Juli 2021"
  },
  "IRN":{
   "name":"Iran",
@@ -398,7 +398,7 @@ var info_rki = {
  },
  "LBY":{
   "name":"Libyen",
-  "info":"Hochinzidenzgebiet seit 18. Juli 2021; bereits seit 15. Juni 2020 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 18. Juli 2021"
  },
  "LCA":{
   "name":"St. Lucia",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monaco",
-  "info":""
+  "info":"seit 25. Juli 2021"
  },
  "MDA":{
   "name":"Moldau",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"seit 25. Juli 2021"
  },
  "MMR":{
   "name":"Myanmar",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"– gesamt Festland Niederlande (seit 18. Juli 2021) und die folgenden überseeischen Teile des Königreichs der Niederlande gelten als einfache Risikogebiete:<ul><li>Sint Maarten (seit 6. Juni 2021)<\/li><\/ul>"
+  "info":"- inkl. der autonomen Länder und der karibischen Teile des Königreichs der Niederlande (Hochinzidenzgebiet seit 27. Juli 2021; gesamt Festland Niederlande (18. Juli 2021) und Sint Maarten (6. Juli 2021) gelten als einfache Risikogebiete bis 26. Juli 2021)"
  },
  "NOR":{
   "name":"Norwegen",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 16. Mai 2021 bis 6. Juli 2021"
+  "info":"Hochinzidenzgebiet seit 7. Juli 2021"
  },
  "NRU":{
   "name":"Nauru",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"Hochinzidenzgebiet seit 20. Juni 2021; bereits seit 23. Mai 2021 als einfaches Risikogebiet ausgewiesen"
+  "info":"Hochinzidenzgebiet seit 20. Juni 2021"
  },
  "PAK":{
   "name":"Pakistan",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"inkl. der autonomen Regionen Madeira und Azoren (Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 29. Juni 2021 bis 6. Juli 2021)"
+  "info":"inkl. der autonomen Regionen Madeira und Azoren - (Hochinzidenzgebiet seit 7. Juli 2021)"
  },
  "PRY":{
   "name":"Paraguay",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russische Föderation",
-  "info":"Hochinzidenzgebiet seit 7. Juli 2021; Virusvariantengebiet von 29. Juni 2021 bis 6. Juli 2021"
+  "info":"Hochinzidenzgebiet seit 7. Juli 2021"
  },
  "RWA":{
   "name":"Ruanda",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad und Tobago",
-  "info":"seit 11. Juli 2021; Hochinzidenzgebiet von 23. Mai 2021 bis 10. Juli 2021"
+  "info":"seit 11. Juli 2021"
  },
  "TUN":{
   "name":"Tunesien",

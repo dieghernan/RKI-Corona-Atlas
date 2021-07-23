@@ -46,22 +46,22 @@ Czechia,Not risk area,
 Germany,,
 Djibouti,Risk area,since 15 Jun 2020
 Dominica,Not risk area,
-Denmark,Risk area (partially),"since 18 Jul 2021. The risk designation applies to the following regions: -Faroes, since 18 Jul 2021; -Hovedstaden, since 18 Jul 2021"
+Denmark,Risk area (partially),since 25 Jul 2021. The following regions are excluded: -Greenland
 Dominican Republic,Risk area,since 30 May 2021
 Algeria,Risk area,since 15 Jun 2020
 Ecuador,High incidence area,since 31 Jan 2021
 Egypt,High incidence area,since 24 Jan 2021
 Eritrea,Risk area,since 15 Jun 2020
-Spain,Risk area,since 11 Jul 2021
+Spain,High incidence area,since 27 Jul 2021
 Estonia,Not risk area,
 Ethiopia,Risk area,since 15 Jun 2020
 Finland,Not risk area,
 Fiji,High incidence area,since 11 Jul 2021
-France,Risk area (partially),"since 28 Feb 2021. The risk designation applies to the following regions: -French Guiana, since 21 Aug 2020; -Réunion, since 28 Feb 2021; -St. Martin, since 26 Aug 2020"
+France,Risk area (partially),"since 25 Jul 2021. The risk designation applies to the following regions: -French Guiana, since 21 Aug 2020; -Corsica, since 25 Jul 2021; -Martinique, since 25 Jul 2021; -Okzitanien, since 25 Jul 2021; -Provence-Alpes-Côte d'Azur, since 25 Jul 2021; -Réunion, since 28 Feb 2021; -St. Martin, since 26 Aug 2020"
 Micronesia,Not risk area,
 Gabon,Risk area,since 15 Jun 2020
 United Kingdom,High incidence area,since 07 Jul 2021
-Georgia,Risk area,since 13 Jun 2021
+Georgia,High incidence area,since 25 Jul 2021
 Ghana,Risk area,since 15 Jun 2020
 Guinea,Risk area,since 15 Jun 2020
 Gambia,Risk area,since 15 Jun 2020
@@ -78,7 +78,7 @@ Haiti,Risk area,since 15 Jun 2020
 Hungary,Not risk area,
 Indonesia,High incidence area,since 18 Jul 2021
 India,High incidence area,since 07 Jul 2021
-Ireland,Risk area (partially),"since 21 Mar 2021. The risk designation applies to the following regions: -Border, since 21 Mar 2021; -Dublin, since 21 Mar 2021; -Mid-East, since 21 Mar 2021; -Mid-West, since 11 Jul 2021; -Midland, since 11 Jul 2021"
+Ireland,Risk area,since 25 Jul 2021
 Iran,High incidence area,since 24 Jan 2021
 Iraq,Risk area,since 15 Jun 2020
 Iceland,Not risk area,
@@ -107,7 +107,7 @@ Lithuania,Not risk area,
 Luxembourg,Not risk area,
 Latvia,Not risk area,
 Morocco,Risk area,since 15 Jun 2020
-Monaco,Not risk area,
+Monaco,Risk area,since 25 Jul 2021
 Moldova,Not risk area,
 Madagascar,Risk area,since 15 Jun 2020
 Maldives,Risk area,since 18 Jul 2021
@@ -115,7 +115,7 @@ Mexico,Risk area,since 13 Jun 2021
 Marshall Islands,Not risk area,
 North Macedonia,Not risk area,
 Mali,Risk area,since 15 Jun 2020
-Malta,Not risk area,
+Malta,Risk area,since 25 Jul 2021
 Myanmar/Burma,Risk area,since 18 Jul 2021
 Montenegro,Not risk area,
 Mongolia,High incidence area,since 13 Jun 2021
@@ -129,7 +129,7 @@ Niger,Risk area,since 15 Jun 2020
 Nigeria,Risk area,since 15 Jun 2020
 Nicaragua,Risk area,since 15 Jun 2020
 Niue,Not risk area,
-Netherlands,Risk area (partially),"since 18 Jul 2021. The risk designation applies to the following regions: -Mainland Netherlands; -Sint Maarten, since 06 Jun 2021"
+Netherlands,High incidence area,since 27 Jul 2021
 Norway,Not risk area,
 Nepal,High incidence area,since 07 Jul 2021
 Nauru,Not risk area,
