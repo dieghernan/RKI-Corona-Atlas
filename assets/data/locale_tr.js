@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"25.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 21.08.2020'den beri<\/li><li>Korsika, 25.07.2021'den beri<\/li><li>Martinik, 25.07.2021'den beri<\/li><li>Okzitanien, 25.07.2021'den beri<\/li><li>Provence-Alpes-Côte d'Azur, 25.07.2021'den beri<\/li><li>Réunion, 28.02.2021'den beri<\/li><li>St. Martin, 26.08.2020'den beri<\/li><\/ul>"
+  "info":"25.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 21.08.2020'den beri<\/li><li>Korsika, 25.07.2021'den beri<\/li><li>Martinik, 25.07.2021'den beri<\/li><li>Oksitanya, 25.07.2021'den beri<\/li><li>Provence-Alpes-Côte d'Azur, 25.07.2021'den beri<\/li><li>Réunion, 28.02.2021'den beri<\/li><li>St. Martin, 26.08.2020'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",

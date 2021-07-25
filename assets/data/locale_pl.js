@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 25.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 21.08.2020<\/li><li>Korsyka, od 25.07.2021<\/li><li>Martynika, od 25.07.2021<\/li><li>Okzitanien, od 25.07.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 25.07.2021<\/li><li>Reunion, od 28.02.2021<\/li><li>St. Martin, od 26.08.2020<\/li><\/ul>"
+  "info":"od 25.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 21.08.2020<\/li><li>Korsyka, od 25.07.2021<\/li><li>Martynika, od 25.07.2021<\/li><li>Oksytania, od 25.07.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 25.07.2021<\/li><li>Reunion, od 28.02.2021<\/li><li>St. Martin, od 26.08.2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",

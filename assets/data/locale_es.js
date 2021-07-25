@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 25\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 21\/08\/2020<\/li><li>Córcega, desde el 25\/07\/2021<\/li><li>Martinica, desde el 25\/07\/2021<\/li><li>Okzitanien, desde el 25\/07\/2021<\/li><li>Provence-Alpes-Côte d'Azur, desde el 25\/07\/2021<\/li><li>Reunión, desde el 28\/02\/2021<\/li><li>St. Martin, desde el 26\/08\/2020<\/li><\/ul>"
+  "info":"desde el 25\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 21\/08\/2020<\/li><li>Córcega, desde el 25\/07\/2021<\/li><li>Martinica, desde el 25\/07\/2021<\/li><li>Occitania, desde el 25\/07\/2021<\/li><li>Provence-Alpes-Côte d'Azur, desde el 25\/07\/2021<\/li><li>Reunión, desde el 28\/02\/2021<\/li><li>St. Martin, desde el 26\/08\/2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",

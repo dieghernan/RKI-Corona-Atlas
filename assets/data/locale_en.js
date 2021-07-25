@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 25 Jul 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 21 Aug 2020<\/li><li>Corsica, since 25 Jul 2021<\/li><li>Martinique, since 25 Jul 2021<\/li><li>Okzitanien, since 25 Jul 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 25 Jul 2021<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
+  "info":"since 25 Jul 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 21 Aug 2020<\/li><li>Corsica, since 25 Jul 2021<\/li><li>Martinique, since 25 Jul 2021<\/li><li>Occitania, since 25 Jul 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 25 Jul 2021<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
