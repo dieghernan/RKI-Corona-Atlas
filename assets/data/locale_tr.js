@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":"23.05.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "ARE":{
   "name":"Birleşik Arap Emirlikleri",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsvana",
-  "info":"07.02.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
-  "info":"30.05.2021'den beri"
+  "info":""
  },
  "DZA":{
   "name":"Cezayir",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"31.01.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "LTU":{
   "name":"Litvanya",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":"07.02.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "MRT":{
   "name":"Moritanya",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malavi",
-  "info":"07.02.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "MYS":{
   "name":"Malezya",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibya",
-  "info":"20.06.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "NER":{
   "name":"Nijer",
@@ -670,7 +670,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esvatini",
-  "info":"31.01.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "SYC":{
   "name":"Seyşeller",
@@ -782,14 +782,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Güney Afrika",
-  "info":"13.01.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "ZMB":{
   "name":"Zambiya",
-  "info":"07.02.2021'den beri"
+  "info":"01.08.2021'den beri"
  },
  "ZWE":{
   "name":"Zimbabve",
-  "info":"07.02.2021'den beri"
+  "info":"01.08.2021'den beri"
  }
 };

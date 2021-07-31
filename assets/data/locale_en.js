@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":"since 23 May 2021"
+  "info":"since 01 Aug 2021"
  },
  "ARE":{
   "name":"United Arab Emirates",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"since 07 Feb 2021"
+  "info":"since 01 Aug 2021"
  },
  "CAF":{
   "name":"Central African Republic",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominican Republic",
-  "info":"since 30 May 2021"
+  "info":""
  },
  "DZA":{
   "name":"Algeria",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"since 31 Jan 2021"
+  "info":"since 01 Aug 2021"
  },
  "LTU":{
   "name":"Lithuania",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"since 07 Feb 2021"
+  "info":"since 01 Aug 2021"
  },
  "MRT":{
   "name":"Mauritania",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"since 07 Feb 2021"
+  "info":"since 01 Aug 2021"
  },
  "MYS":{
   "name":"Malaysia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"since 20 Jun 2021"
+  "info":"since 01 Aug 2021"
  },
  "NER":{
   "name":"Niger",
@@ -670,7 +670,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"since 31 Jan 2021"
+  "info":"since 01 Aug 2021"
  },
  "SYC":{
   "name":"Seychelles",
@@ -782,14 +782,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"South Africa",
-  "info":"since 13 Jan 2021"
+  "info":"since 01 Aug 2021"
  },
  "ZMB":{
   "name":"Zambia",
-  "info":"since 07 Feb 2021"
+  "info":"since 01 Aug 2021"
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"since 07 Feb 2021"
+  "info":"since 01 Aug 2021"
  }
 };

@@ -2,7 +2,7 @@
 Afganistán,Área de riesgo,desde el 21/02/2021
 Angola,Área de riesgo,desde el 15/06/2020
 Albania,No es área de riesgo,
-Andorra,Área de riesgo,desde el 23/05/2021
+Andorra,Área de alta incidencia,desde el 01/08/2021
 Emiratos Árabes Unidos,Área de riesgo,desde el 18/04/2021
 Argentina,Área de alta incidencia,desde el 18/04/2021
 Armenia,No es área de riesgo,
@@ -26,7 +26,7 @@ Brasil,Área de variante viral,desde el 19/01/2021
 Barbados,No es área de riesgo,
 Brunei,No es área de riesgo,
 Bhután,Área de riesgo,desde el 15/06/2020
-Botsuana,Área de variante viral,desde el 07/02/2021
+Botsuana,Área de alta incidencia,desde el 01/08/2021
 República Centro-africana,Área de riesgo,desde el 15/06/2020
 Canadá,No es área de riesgo,
 Suiza,No es área de riesgo,
@@ -47,7 +47,7 @@ Alemania,,
 Yibuti,Área de riesgo,desde el 15/06/2020
 Dominica,No es área de riesgo,
 Dinamarca,Área de riesgo (parcial),desde el 25/07/2021. A excepción de las siguientes regiones: -Groenlandia
-República Dominicana,Área de riesgo,desde el 30/05/2021
+República Dominicana,No es área de riesgo,
 Algeria,Área de riesgo,desde el 15/06/2020
 Ecuador,Área de alta incidencia,desde el 31/01/2021
 Egipto,Área de alta incidencia,desde el 24/01/2021
@@ -102,7 +102,7 @@ Libia,Área de alta incidencia,desde el 18/07/2021
 Santa Lucía,No es área de riesgo,
 Liechtenstein,No es área de riesgo,
 Sri Lanka,Área de riesgo,desde el 18/07/2021
-Lesoto,Área de variante viral,desde el 31/01/2021
+Lesoto,Área de alta incidencia,desde el 01/08/2021
 Lituania,No es área de riesgo,
 Luxemburgo,No es área de riesgo,
 Letonia,No es área de riesgo,
@@ -119,12 +119,12 @@ Malta,Área de riesgo,desde el 25/07/2021
 Myanmar/Burma,Área de riesgo,desde el 18/07/2021
 Montenegro,No es área de riesgo,
 Mongolia,Área de alta incidencia,desde el 13/06/2021
-Mozambique,Área de variante viral,desde el 07/02/2021
+Mozambique,Área de alta incidencia,desde el 01/08/2021
 Mauritania,Área de riesgo,desde el 15/06/2020
 Mauricio,No es área de riesgo,
-Malawi,Área de variante viral,desde el 07/02/2021
+Malawi,Área de alta incidencia,desde el 01/08/2021
 Malasia,Área de alta incidencia,desde el 13/06/2021
-Namibia,Área de variante viral,desde el 20/06/2021
+Namibia,Área de alta incidencia,desde el 01/08/2021
 Niger,Área de riesgo,desde el 15/06/2020
 Nigeria,Área de riesgo,desde el 15/06/2020
 Nicaragua,Área de riesgo,desde el 15/06/2020
@@ -166,7 +166,7 @@ Surinám,Área de alta incidencia,desde el 23/05/2021
 Eslovaquia,No es área de riesgo,
 Eslovenia,No es área de riesgo,
 Suecia,No es área de riesgo,
-Esuatini,Área de variante viral,desde el 31/01/2021
+Esuatini,Área de alta incidencia,desde el 01/08/2021
 Seychelles,Área de alta incidencia,desde el 14/02/2021
 Siria,Área de alta incidencia,desde el 31/01/2021
 Chad,Área de riesgo,desde el 15/06/2020
@@ -194,6 +194,6 @@ Vanuatu,No es área de riesgo,
 Samoa,No es área de riesgo,
 Kosovo,No es área de riesgo,
 Yemen,Área de riesgo,desde el 15/06/2020
-Suráfrica,Área de variante viral,desde el 13/01/2021
-Zambia,Área de variante viral,desde el 07/02/2021
-Zimbabue,Área de variante viral,desde el 07/02/2021
+Suráfrica,Área de alta incidencia,desde el 01/08/2021
+Zambia,Área de alta incidencia,desde el 01/08/2021
+Zimbabue,Área de alta incidencia,desde el 01/08/2021

@@ -2,7 +2,7 @@
 Afganistan,Obszar ryzyka,od 21.02.2021
 Angola,Obszar ryzyka,od 15.06.2020
 Albania,Nie jest to obszar ryzyka,
-Andora,Obszar ryzyka,od 23.05.2021
+Andora,Obszar o wysokiej częstości występowania,od 01.08.2021
 Zjednoczone Emiraty Arabskie,Obszar ryzyka,od 18.04.2021
 Argentyna,Obszar o wysokiej częstości występowania,od 18.04.2021
 Armenia,Nie jest to obszar ryzyka,
@@ -26,7 +26,7 @@ Brazylia,Obszar z niebezpiecznymi mutacjami,od 19.01.2021
 Barbados,Nie jest to obszar ryzyka,
 Brunei,Nie jest to obszar ryzyka,
 Bhutan,Obszar ryzyka,od 15.06.2020
-Botswana,Obszar z niebezpiecznymi mutacjami,od 07.02.2021
+Botswana,Obszar o wysokiej częstości występowania,od 01.08.2021
 Republika Środkowoafrykańska,Obszar ryzyka,od 15.06.2020
 Kanada,Nie jest to obszar ryzyka,
 Szwajcaria,Nie jest to obszar ryzyka,
@@ -47,7 +47,7 @@ Niemcy,,
 Dżibuti,Obszar ryzyka,od 15.06.2020
 Dominika,Nie jest to obszar ryzyka,
 Dania,Obszar ryzyka (częściowy),od 25.07.2021. Z wyjątkiem następujących regionów: -Grenlandia
-Dominikana,Obszar ryzyka,od 30.05.2021
+Dominikana,Nie jest to obszar ryzyka,
 Algieria,Obszar ryzyka,od 15.06.2020
 Ekwador,Obszar o wysokiej częstości występowania,od 31.01.2021
 Egipt,Obszar o wysokiej częstości występowania,od 24.01.2021
@@ -102,7 +102,7 @@ Libia,Obszar o wysokiej częstości występowania,od 18.07.2021
 Saint Lucia,Nie jest to obszar ryzyka,
 Liechtenstein,Nie jest to obszar ryzyka,
 Sri Lanka,Obszar ryzyka,od 18.07.2021
-Lesoto,Obszar z niebezpiecznymi mutacjami,od 31.01.2021
+Lesoto,Obszar o wysokiej częstości występowania,od 01.08.2021
 Litwa,Nie jest to obszar ryzyka,
 Luksemburg,Nie jest to obszar ryzyka,
 Łotwa,Nie jest to obszar ryzyka,
@@ -119,12 +119,12 @@ Malta,Obszar ryzyka,od 25.07.2021
 Myanmar/Burma,Obszar ryzyka,od 18.07.2021
 Czarnogóra,Nie jest to obszar ryzyka,
 Mongolia,Obszar o wysokiej częstości występowania,od 13.06.2021
-Mozambik,Obszar z niebezpiecznymi mutacjami,od 07.02.2021
+Mozambik,Obszar o wysokiej częstości występowania,od 01.08.2021
 Mauretania,Obszar ryzyka,od 15.06.2020
 Mauritius,Nie jest to obszar ryzyka,
-Malawi,Obszar z niebezpiecznymi mutacjami,od 07.02.2021
+Malawi,Obszar o wysokiej częstości występowania,od 01.08.2021
 Malezja,Obszar o wysokiej częstości występowania,od 13.06.2021
-Namibia,Obszar z niebezpiecznymi mutacjami,od 20.06.2021
+Namibia,Obszar o wysokiej częstości występowania,od 01.08.2021
 Niger,Obszar ryzyka,od 15.06.2020
 Nigeria,Obszar ryzyka,od 15.06.2020
 Nikaragua,Obszar ryzyka,od 15.06.2020
@@ -166,7 +166,7 @@ Surinam,Obszar o wysokiej częstości występowania,od 23.05.2021
 Słowacja,Nie jest to obszar ryzyka,
 Słowenia,Nie jest to obszar ryzyka,
 Szwecja,Nie jest to obszar ryzyka,
-Eswatini,Obszar z niebezpiecznymi mutacjami,od 31.01.2021
+Eswatini,Obszar o wysokiej częstości występowania,od 01.08.2021
 Seszele,Obszar o wysokiej częstości występowania,od 14.02.2021
 Syria,Obszar o wysokiej częstości występowania,od 31.01.2021
 Czad,Obszar ryzyka,od 15.06.2020
@@ -194,6 +194,6 @@ Vanuatu,Nie jest to obszar ryzyka,
 Samoa,Nie jest to obszar ryzyka,
 Kosowo,Nie jest to obszar ryzyka,
 Jemen,Obszar ryzyka,od 15.06.2020
-Republika Południowej Afryki,Obszar z niebezpiecznymi mutacjami,od 13.01.2021
-Zambia,Obszar z niebezpiecznymi mutacjami,od 07.02.2021
-Zimbabwe,Obszar z niebezpiecznymi mutacjami,od 07.02.2021
+Republika Południowej Afryki,Obszar o wysokiej częstości występowania,od 01.08.2021
+Zambia,Obszar o wysokiej częstości występowania,od 01.08.2021
+Zimbabwe,Obszar o wysokiej częstości występowania,od 01.08.2021

@@ -2,7 +2,7 @@
 Afghanistan,Zone à risque,depuis le 21/02/2021
 Angola,Zone à risque,depuis le 15/06/2020
 Albanie,Zone sans risque,
-Andorre,Zone à risque,depuis le 23/05/2021
+Andorre,Zone à forte incidence,depuis le 01/08/2021
 Émirats arabes unis,Zone à risque,depuis le 18/04/2021
 Argentine,Zone à forte incidence,depuis le 18/04/2021
 Arménie,Zone sans risque,
@@ -26,7 +26,7 @@ Brésil,Zone de variantes du virus,depuis le 19/01/2021
 Barbade,Zone sans risque,
 Brunei,Zone sans risque,
 Bhoutan,Zone à risque,depuis le 15/06/2020
-Botswana,Zone de variantes du virus,depuis le 07/02/2021
+Botswana,Zone à forte incidence,depuis le 01/08/2021
 République Centrafricaine,Zone à risque,depuis le 15/06/2020
 Canada,Zone sans risque,
 Suisse,Zone sans risque,
@@ -47,7 +47,7 @@ Allemagne,,
 Djibouti,Zone à risque,depuis le 15/06/2020
 Dominique,Zone sans risque,
 Danemark,Zone à risque (partiel),depuis le 25/07/2021. Les régions suivantes sont exclues: -Groënland
-République Dominicaine,Zone à risque,depuis le 30/05/2021
+République Dominicaine,Zone sans risque,
 Algérie,Zone à risque,depuis le 15/06/2020
 Équateur,Zone à forte incidence,depuis le 31/01/2021
 Égypte,Zone à forte incidence,depuis le 24/01/2021
@@ -102,7 +102,7 @@ Libye,Zone à forte incidence,depuis le 18/07/2021
 Sainte-Lucie,Zone sans risque,
 Liechtenstein,Zone sans risque,
 Sri Lanka,Zone à risque,depuis le 18/07/2021
-Lesotho,Zone de variantes du virus,depuis le 31/01/2021
+Lesotho,Zone à forte incidence,depuis le 01/08/2021
 Lituanie,Zone sans risque,
 Luxembourg,Zone sans risque,
 Lettonie,Zone sans risque,
@@ -119,12 +119,12 @@ Malte,Zone à risque,depuis le 25/07/2021
 Myanmar/Burma,Zone à risque,depuis le 18/07/2021
 Monténégro,Zone sans risque,
 Mongolie,Zone à forte incidence,depuis le 13/06/2021
-Mozambique,Zone de variantes du virus,depuis le 07/02/2021
+Mozambique,Zone à forte incidence,depuis le 01/08/2021
 Mauritanie,Zone à risque,depuis le 15/06/2020
 Maurice,Zone sans risque,
-Malawi,Zone de variantes du virus,depuis le 07/02/2021
+Malawi,Zone à forte incidence,depuis le 01/08/2021
 Malaisie,Zone à forte incidence,depuis le 13/06/2021
-Namibie,Zone de variantes du virus,depuis le 20/06/2021
+Namibie,Zone à forte incidence,depuis le 01/08/2021
 Niger,Zone à risque,depuis le 15/06/2020
 Nigeria,Zone à risque,depuis le 15/06/2020
 Nicaragua,Zone à risque,depuis le 15/06/2020
@@ -166,7 +166,7 @@ Surinam,Zone à forte incidence,depuis le 23/05/2021
 Slovaquie,Zone sans risque,
 Slovénie,Zone sans risque,
 Suède,Zone sans risque,
-Eswatini,Zone de variantes du virus,depuis le 31/01/2021
+Eswatini,Zone à forte incidence,depuis le 01/08/2021
 Seychelles,Zone à forte incidence,depuis le 14/02/2021
 Syrie,Zone à forte incidence,depuis le 31/01/2021
 Tchad,Zone à risque,depuis le 15/06/2020
@@ -194,6 +194,6 @@ Vanuatu,Zone sans risque,
 Samoa,Zone sans risque,
 Kosovo,Zone sans risque,
 Yémen,Zone à risque,depuis le 15/06/2020
-Afrique du Sud,Zone de variantes du virus,depuis le 13/01/2021
-Zambie,Zone de variantes du virus,depuis le 07/02/2021
-Zimbabwe,Zone de variantes du virus,depuis le 07/02/2021
+Afrique du Sud,Zone à forte incidence,depuis le 01/08/2021
+Zambie,Zone à forte incidence,depuis le 01/08/2021
+Zimbabwe,Zone à forte incidence,depuis le 01/08/2021

@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andora",
-  "info":"od 23.05.2021"
+  "info":"od 01.08.2021"
  },
  "ARE":{
   "name":"Zjednoczone Emiraty Arabskie",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"od 07.02.2021"
+  "info":"od 01.08.2021"
  },
  "CAF":{
   "name":"Republika Środkowoafrykańska",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominikana",
-  "info":"od 30.05.2021"
+  "info":""
  },
  "DZA":{
   "name":"Algieria",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"od 31.01.2021"
+  "info":"od 01.08.2021"
  },
  "LTU":{
   "name":"Litwa",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":"od 07.02.2021"
+  "info":"od 01.08.2021"
  },
  "MRT":{
   "name":"Mauretania",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"od 07.02.2021"
+  "info":"od 01.08.2021"
  },
  "MYS":{
   "name":"Malezja",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"od 20.06.2021"
+  "info":"od 01.08.2021"
  },
  "NER":{
   "name":"Niger",
@@ -670,7 +670,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"od 31.01.2021"
+  "info":"od 01.08.2021"
  },
  "SYC":{
   "name":"Seszele",
@@ -782,14 +782,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",
-  "info":"od 13.01.2021"
+  "info":"od 01.08.2021"
  },
  "ZMB":{
   "name":"Zambia",
-  "info":"od 07.02.2021"
+  "info":"od 01.08.2021"
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"od 07.02.2021"
+  "info":"od 01.08.2021"
  }
 };

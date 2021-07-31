@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorre",
-  "info":"depuis le 23\/05\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "ARE":{
   "name":"Émirats arabes unis",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"depuis le 07\/02\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "CAF":{
   "name":"République Centrafricaine",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"République Dominicaine",
-  "info":"depuis le 30\/05\/2021"
+  "info":""
  },
  "DZA":{
   "name":"Algérie",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"depuis le 31\/01\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "LTU":{
   "name":"Lituanie",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"depuis le 07\/02\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "MRT":{
   "name":"Mauritanie",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"depuis le 07\/02\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "MYS":{
   "name":"Malaisie",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibie",
-  "info":"depuis le 20\/06\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "NER":{
   "name":"Niger",
@@ -670,7 +670,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"depuis le 31\/01\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "SYC":{
   "name":"Seychelles",
@@ -782,14 +782,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Afrique du Sud",
-  "info":"depuis le 13\/01\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "ZMB":{
   "name":"Zambie",
-  "info":"depuis le 07\/02\/2021"
+  "info":"depuis le 01\/08\/2021"
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"depuis le 07\/02\/2021"
+  "info":"depuis le 01\/08\/2021"
  }
 };
