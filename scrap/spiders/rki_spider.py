@@ -61,16 +61,15 @@ class RKISpider(scrapy.Spider):
     NO_RISK = 0
     VARIANT = 1
     HI_INC = 2
-    RISK = 3
-    PARTIAL = 4
+    RISK = 3        # deprecated
+    PARTIAL = 4     # deprecated
     IGNORE = 5
 
     risk_labels = pd.read_csv(data_dir/"risk_level_code.csv", index_col="risk_level_code")["risk_level_en"]
-    risk_levels = ({'code': NO_RISK, 're': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': RISK, 're': "^(?=.*einfach)(?=.*(staat|region|gebiet)).*$"},
+    risk_levels = ({'code': NO_RISK, 're': "^(?=.*einfach)(?=.*(staat|region|gebiet)).*$"},
                    {'code': HI_INC, 're': "^(?=.*hochrisiko)(?=.*(staat|region|gebiet)).*$"},
                    {'code': VARIANT, 're': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
-    risk_priority = (RISK, HI_INC, VARIANT, NO_RISK)    # Used to resolve duplicates
+    risk_priority = (HI_INC, VARIANT, NO_RISK)    # Used to resolve duplicates
 
     separators = ("(", "inkl", "–", "-")
     deletable = ("(", ")", ":", "–")

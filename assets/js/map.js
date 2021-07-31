@@ -29,7 +29,7 @@ var levels = [
     L.layerGroup()
 ];
 var risk_labels = locale["risk_labels"];
-var risk_colors = ["#00FF00", "red", "chocolate", "orange", "yellow"];
+var risk_colors = ["#00FF00", "red", "chocolate"];
 
 // loading GeoJSON file
 $.getJSON("https://corona-atlas.de/assets/geo/country_shapes.geojson",function(data){
@@ -81,7 +81,7 @@ $.getJSON("https://corona-atlas.de/assets/geo/country_shapes.geojson",function(d
     // .addTo(map);
 });
 levels.forEach(lv => lv.addTo(map));
-var risk_order = [1, 2, 3, 4, 0];
+var risk_order = [1, 2, 0];
 
 var risk_layers = {};
 for (var i = 0; i < risk_order.length; i++){
