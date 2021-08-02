@@ -83,8 +83,6 @@ level0 <- all_shapes %>% filter(risk_level_code == 0,
                                 ISO3_CODE != "DEU")
 level1 <- all_shapes %>% filter(risk_level_code == 1)
 level2 <- all_shapes %>% filter(risk_level_code == 2)
-level3 <- all_shapes %>% filter(risk_level_code == 3)
-level4 <- all_shapes %>% filter(risk_level_code == 4)
 
 og_map <-
   tm_shape(tiles, raster.downsample = FALSE, bbox = all_shapes) +
@@ -96,12 +94,7 @@ og_map <-
   tm_shape(level1) +
   tm_fill(col = "red", alpha = .5) +
   tm_shape(level2) +
-  tm_fill(col = "chocolate", alpha = .5) +
-  tm_shape(level3) +
-  tm_fill(col = "orange", alpha = .5) +
-  tm_shape(level4) +
-  tm_fill(col = "yellow", alpha = .5) +
-  tm_layout(outer.margins = FALSE, frame = FALSE)
+  tm_fill(col = "chocolate", alpha = .5)
 
 
 tmap_save(og_map, "assets/img/og_corona_atlas.png", dpi = 90)
