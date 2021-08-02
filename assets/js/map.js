@@ -29,7 +29,7 @@ var levels = [
     L.layerGroup()
 ];
 var risk_labels = locale["risk_labels"];
-var risk_colors = ["#00FF00", "red", "chocolate"];
+var risk_colors = ["#00FF00", "red", "yellow"];
 
 // loading GeoJSON file
 $.getJSON("https://corona-atlas.de/assets/geo/country_shapes.geojson",function(data){

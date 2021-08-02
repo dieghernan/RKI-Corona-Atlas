@@ -94,7 +94,7 @@ og_map <-
   tm_shape(level1) +
   tm_fill(col = "red", alpha = .5) +
   tm_shape(level2) +
-  tm_fill(col = "chocolate", alpha = .5)
+  tm_fill(col = "yellow", alpha = .5)
 
 
 tmap_save(og_map, "assets/img/og_corona_atlas.png", dpi = 90)
