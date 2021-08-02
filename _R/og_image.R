@@ -90,7 +90,7 @@ og_map <-
   tm_shape(DEU) +
   tm_fill(col = "blue", alpha = .5) +
   tm_shape(level0) +
-  tm_fill(col = "#00FF00", alpha = .5) +
+  tm_fill(col = "yellow", alpha = .5) +
   tm_shape(level1) +
   tm_fill(col = "red", alpha = .5) +
   tm_shape(level2) +
