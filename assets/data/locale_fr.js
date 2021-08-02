@@ -1,12 +1,12 @@
-var locale = {'more_info': "Plus d'informations", 'risk_level': 'Niveau de risque', 'risk_labels': {0: 'Zone sans risque', 1: 'Zone de variantes du virus', 2: 'Zone à forte incidence', 3: 'Zone à risque', 4: 'Zone à risque (partiel)', 5: ''}};
+var locale = {'more_info': "Plus d'informations", 'risk_level': 'Niveau de risque', 'risk_labels': {0: 'Zone sans risque', 1: 'Zone de variantes du virus', 2: 'Zone à fort risque', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afghanistan",
-  "info":"depuis le 21\/02\/2021"
+  "info":""
  },
  "AGO":{
   "name":"Angola",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "ALB":{
   "name":"Albanie",
@@ -18,7 +18,7 @@ var info_rki = {
  },
  "ARE":{
   "name":"Émirats arabes unis",
-  "info":"depuis le 18\/04\/2021"
+  "info":""
  },
  "ARG":{
   "name":"Argentine",
@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "BEL":{
   "name":"Belgique",
@@ -54,15 +54,15 @@ var info_rki = {
  },
  "BEN":{
   "name":"Bénin",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "BGR":{
   "name":"Bulgarie",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahreïn",
-  "info":"depuis le 11\/07\/2021"
+  "info":""
  },
  "BHS":{
   "name":"Bahamas",
-  "info":"depuis le 25\/04\/2021"
+  "info":""
  },
  "BIH":{
   "name":"Bosnie-Herzégovine",
@@ -82,11 +82,11 @@ var info_rki = {
  },
  "BLR":{
   "name":"Bélarus",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "BLZ":{
   "name":"Belize",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "BOL":{
   "name":"Bolivie",
@@ -106,7 +106,7 @@ var info_rki = {
  },
  "BTN":{
   "name":"Bhoutan",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "BWA":{
   "name":"Botswana",
@@ -114,7 +114,7 @@ var info_rki = {
  },
  "CAF":{
   "name":"République Centrafricaine",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "CAN":{
   "name":"Canada",
@@ -134,19 +134,19 @@ var info_rki = {
  },
  "CIV":{
   "name":"Côte d'Ivoire",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "CMR":{
   "name":"Cameroun",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "COD":{
   "name":"République démocratique du Congo",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "COG":{
   "name":"Congo",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "COL":{
   "name":"Colombie",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Cap-Vert",
-  "info":"depuis le 20\/06\/2021"
+  "info":""
  },
  "CRI":{
   "name":"Costa Rica",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Djibouti",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "DMA":{
   "name":"Dominique",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danemark",
-  "info":"depuis le 25\/07\/2021. Les régions suivantes sont exclues:<ul><li>Groënland<\/li><\/ul>"
+  "info":""
  },
  "DOM":{
   "name":"République Dominicaine",
@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algérie",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "ECU":{
   "name":"Équateur",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Érythrée",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "ESP":{
   "name":"Espagne",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Éthiopie",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "FIN":{
   "name":"Finlande",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 25\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 21\/08\/2020<\/li><li>La Corse, depuis le 25\/07\/2021<\/li><li>Martinique, depuis le 25\/07\/2021<\/li><li>Occitanie, depuis le 25\/07\/2021<\/li><li>Provence-Alpes-Côte d'Azur, depuis le 25\/07\/2021<\/li><li>Réunion, Île de la, depuis le 28\/02\/2021<\/li><li>St. Martin, depuis le 26\/08\/2020<\/li><\/ul>"
+  "info":". Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française<\/li><li>La Corse<\/li><li>Martinique<\/li><li>Occitanie<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion, Île de la<\/li><li>St. Martin<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "GBR":{
   "name":"Royaume-Uni",
@@ -254,27 +254,27 @@ var info_rki = {
  },
  "GHA":{
   "name":"Ghana",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "GIN":{
   "name":"Guinée",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "GMB":{
   "name":"Gambie",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "GNB":{
   "name":"Guinée-Bissau",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "GNQ":{
   "name":"Guinée Équatoriale",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "GRC":{
   "name":"Grèce",
-  "info":"depuis le 18\/07\/2021"
+  "info":""
  },
  "GRD":{
   "name":"Grenade",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "GUY":{
   "name":"Guyana",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "HKG":{
   "name":"Hong-Kong",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "HRV":{
   "name":"Croatie",
-  "info":"depuis le 27\/06\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Zadar, depuis le 27\/06\/2021<\/li><\/ul>"
+  "info":". Le niveau de risque concerne les régions suivantes:<ul><li>Zadar<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haïti",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "HUN":{
   "name":"Hongrie",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlande",
-  "info":"depuis le 25\/07\/2021"
+  "info":""
  },
  "IRN":{
   "name":"Iran",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "ISL":{
   "name":"Islande",
@@ -354,15 +354,15 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakhstan",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "KEN":{
   "name":"Kenya",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "KGZ":{
   "name":"Kirghizistan",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "KHM":{
   "name":"Cambodge",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint-Kitts-et-Nevis",
-  "info":"depuis le 20\/06\/2021"
+  "info":""
  },
  "KOR":{
   "name":"Corée du Sud",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Libéria",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "LBY":{
   "name":"Libye",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"depuis le 18\/07\/2021"
+  "info":"depuis le 17\/07\/2021"
  },
  "LSO":{
   "name":"Lesotho",
@@ -430,11 +430,11 @@ var info_rki = {
  },
  "MAR":{
   "name":"Maroc",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "MCO":{
   "name":"Monaco",
-  "info":"depuis le 25\/07\/2021"
+  "info":""
  },
  "MDA":{
   "name":"Moldavie",
@@ -442,15 +442,15 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagascar",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "MDV":{
   "name":"Maldives",
-  "info":"depuis le 18\/07\/2021"
+  "info":"depuis le 17\/07\/2021"
  },
  "MEX":{
   "name":"Mexique",
-  "info":"depuis le 13\/06\/2021"
+  "info":""
  },
  "MHL":{
   "name":"Îles Marshall",
@@ -462,15 +462,15 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "MLT":{
   "name":"Malte",
-  "info":"depuis le 25\/07\/2021"
+  "info":""
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":"depuis le 18\/07\/2021"
+  "info":""
  },
  "MNE":{
   "name":"Monténégro",
@@ -486,7 +486,7 @@ var info_rki = {
  },
  "MRT":{
   "name":"Mauritanie",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "MUS":{
   "name":"Maurice",
@@ -506,15 +506,15 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "NGA":{
   "name":"Nigeria",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "NIU":{
   "name":"Nioue",
@@ -546,11 +546,11 @@ var info_rki = {
  },
  "PAK":{
   "name":"Pakistan",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "PAN":{
   "name":"Panama",
-  "info":"depuis le 28\/02\/2021"
+  "info":""
  },
  "PER":{
   "name":"Pérou",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Philippines",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "PLW":{
   "name":"Palaos",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papouasie-Nouvelle-Guinée",
-  "info":"depuis le 17\/06\/2020"
+  "info":""
  },
  "POL":{
   "name":"Pologne",
@@ -574,7 +574,7 @@ var info_rki = {
  },
  "PRK":{
   "name":"Corée du Nord",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "PRT":{
   "name":"Portugal",
@@ -602,7 +602,7 @@ var info_rki = {
  },
  "RWA":{
   "name":"Rwanda",
-  "info":"depuis le 27\/06\/2021"
+  "info":""
  },
  "SAU":{
   "name":"Arabie saoudite",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Sénégal",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "SGP":{
   "name":"Singapour",
@@ -626,11 +626,11 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "SLV":{
   "name":"El Salvador",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "SMR":{
   "name":"San Marin",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalie",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "SRB":{
   "name":"Serbie",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"Soudan du Sud",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "STP":{
   "name":"Sao Tomé-et-Principe",
@@ -682,27 +682,27 @@ var info_rki = {
  },
  "TCD":{
   "name":"Tchad",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "TGO":{
   "name":"Togo",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "THA":{
   "name":"Thaïlande",
-  "info":"depuis le 18\/07\/2021"
+  "info":""
  },
  "TJK":{
   "name":"Tadjikistan",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "TKM":{
   "name":"Turkménistan",
-  "info":"depuis le 17\/06\/2020"
+  "info":""
  },
  "TLS":{
   "name":"Timor-Leste",
-  "info":"depuis le 17\/06\/2020"
+  "info":""
  },
  "TON":{
   "name":"Tonga",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinité-et-Tobago",
-  "info":"depuis le 11\/07\/2021"
+  "info":""
  },
  "TUN":{
   "name":"Tunisie",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turquie",
-  "info":"depuis le 06\/06\/2021"
+  "info":""
  },
  "TUV":{
   "name":"Tuvalu",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UGA":{
   "name":"Ouganda",
-  "info":"depuis le 20\/06\/2021"
+  "info":""
  },
  "UKR":{
   "name":"Ukraine",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Ouzbékistan",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "VAT":{
   "name":"Vatican",
@@ -758,7 +758,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Vénézuela",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Yémen",
-  "info":"depuis le 15\/06\/2020"
+  "info":""
  },
  "ZAF":{
   "name":"Afrique du Sud",

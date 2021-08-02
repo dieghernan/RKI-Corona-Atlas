@@ -1,12 +1,12 @@
-var locale = {'more_info': 'More information', 'risk_level': 'Risk level', 'risk_labels': {0: 'Not risk area', 1: 'Variant of concern', 2: 'High incidence area', 3: 'Risk area', 4: 'Risk area (partially)', 5: ''}};
+var locale = {'more_info': 'More information', 'risk_level': 'Risk level', 'risk_labels': {0: 'Not risk area', 1: 'Variant of concern', 2: 'High risk area', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afghanistan",
-  "info":"since 21 Feb 2021"
+  "info":""
  },
  "AGO":{
   "name":"Angola",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "ALB":{
   "name":"Albania",
@@ -18,7 +18,7 @@ var info_rki = {
  },
  "ARE":{
   "name":"United Arab Emirates",
-  "info":"since 18 Apr 2021"
+  "info":""
  },
  "ARG":{
   "name":"Argentina",
@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "BEL":{
   "name":"Belgium",
@@ -54,15 +54,15 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "BGR":{
   "name":"Bulgaria",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrain",
-  "info":"since 11 Jul 2021"
+  "info":""
  },
  "BHS":{
   "name":"Bahamas",
-  "info":"since 25 Apr 2021"
+  "info":""
  },
  "BIH":{
   "name":"Bosnia and Herzegovina",
@@ -82,11 +82,11 @@ var info_rki = {
  },
  "BLR":{
   "name":"Belarus",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "BLZ":{
   "name":"Belize",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "BOL":{
   "name":"Bolivia",
@@ -106,7 +106,7 @@ var info_rki = {
  },
  "BTN":{
   "name":"Bhutan",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "BWA":{
   "name":"Botswana",
@@ -114,7 +114,7 @@ var info_rki = {
  },
  "CAF":{
   "name":"Central African Republic",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "CAN":{
   "name":"Canada",
@@ -134,19 +134,19 @@ var info_rki = {
  },
  "CIV":{
   "name":"Cote D'Ivoire",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "CMR":{
   "name":"Cameroon",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "COD":{
   "name":"Democratic Republic of The Congo",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "COG":{
   "name":"Congo",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "COL":{
   "name":"Colombia",
@@ -158,7 +158,7 @@ var info_rki = {
  },
  "CPV":{
   "name":"Cape Verde",
-  "info":"since 20 Jun 2021"
+  "info":""
  },
  "CRI":{
   "name":"Costa Rica",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Djibouti",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "DMA":{
   "name":"Dominica",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Denmark",
-  "info":"since 25 Jul 2021. The following regions are excluded:<ul><li>Greenland<\/li><\/ul>"
+  "info":""
  },
  "DOM":{
   "name":"Dominican Republic",
@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algeria",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "ECU":{
   "name":"Ecuador",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Eritrea",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "ESP":{
   "name":"Spain",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Ethiopia",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "FIN":{
   "name":"Finland",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 25 Jul 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 21 Aug 2020<\/li><li>Corsica, since 25 Jul 2021<\/li><li>Martinique, since 25 Jul 2021<\/li><li>Occitania, since 25 Jul 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 25 Jul 2021<\/li><li>Réunion, since 28 Feb 2021<\/li><li>St. Martin, since 26 Aug 2020<\/li><\/ul>"
+  "info":". The risk designation applies to the following regions:<ul><li>French Guiana<\/li><li>Corsica<\/li><li>Martinique<\/li><li>Occitania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion<\/li><li>St. Martin<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "GBR":{
   "name":"United Kingdom",
@@ -254,27 +254,27 @@ var info_rki = {
  },
  "GHA":{
   "name":"Ghana",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "GIN":{
   "name":"Guinea",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "GMB":{
   "name":"Gambia",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "GNB":{
   "name":"Guinea-Bissau",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "GNQ":{
   "name":"Equatorial Guinea",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "GRC":{
   "name":"Greece",
-  "info":"since 18 Jul 2021"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "GUY":{
   "name":"Guyana",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "HKG":{
   "name":"Hong Kong",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "HRV":{
   "name":"Croatia",
-  "info":"since 27 Jun 2021. The risk designation applies to the following regions:<ul><li>Zadar, since 27 Jun 2021<\/li><\/ul>"
+  "info":". The risk designation applies to the following regions:<ul><li>Zadar<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "HUN":{
   "name":"Hungary",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Ireland",
-  "info":"since 25 Jul 2021"
+  "info":""
  },
  "IRN":{
   "name":"Iran",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Iraq",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "ISL":{
   "name":"Iceland",
@@ -354,15 +354,15 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakhstan",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "KEN":{
   "name":"Kenya",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "KGZ":{
   "name":"Kyrgyzstan",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "KHM":{
   "name":"Cambodia",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts and Nevis",
-  "info":"since 20 Jun 2021"
+  "info":""
  },
  "KOR":{
   "name":"South Korea",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "LBY":{
   "name":"Libya",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"since 18 Jul 2021"
+  "info":"since 17 Jul 2021"
  },
  "LSO":{
   "name":"Lesotho",
@@ -430,11 +430,11 @@ var info_rki = {
  },
  "MAR":{
   "name":"Morocco",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "MCO":{
   "name":"Monaco",
-  "info":"since 25 Jul 2021"
+  "info":""
  },
  "MDA":{
   "name":"Moldova",
@@ -442,15 +442,15 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagascar",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "MDV":{
   "name":"Maldives",
-  "info":"since 18 Jul 2021"
+  "info":"since 17 Jul 2021"
  },
  "MEX":{
   "name":"Mexico",
-  "info":"since 13 Jun 2021"
+  "info":""
  },
  "MHL":{
   "name":"Marshall Islands",
@@ -462,15 +462,15 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "MLT":{
   "name":"Malta",
-  "info":"since 25 Jul 2021"
+  "info":""
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":"since 18 Jul 2021"
+  "info":""
  },
  "MNE":{
   "name":"Montenegro",
@@ -486,7 +486,7 @@ var info_rki = {
  },
  "MRT":{
   "name":"Mauritania",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "MUS":{
   "name":"Mauritius",
@@ -506,15 +506,15 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "NGA":{
   "name":"Nigeria",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "NIU":{
   "name":"Niue",
@@ -546,11 +546,11 @@ var info_rki = {
  },
  "PAK":{
   "name":"Pakistan",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "PAN":{
   "name":"Panama",
-  "info":"since 28 Feb 2021"
+  "info":""
  },
  "PER":{
   "name":"Peru",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Philippines",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua New Guinea",
-  "info":"since 17 Jun 2020"
+  "info":""
  },
  "POL":{
   "name":"Poland",
@@ -574,7 +574,7 @@ var info_rki = {
  },
  "PRK":{
   "name":"North Korea",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "PRT":{
   "name":"Portugal",
@@ -602,7 +602,7 @@ var info_rki = {
  },
  "RWA":{
   "name":"Rwanda",
-  "info":"since 27 Jun 2021"
+  "info":""
  },
  "SAU":{
   "name":"Saudi Arabia",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "SGP":{
   "name":"Singapore",
@@ -626,11 +626,11 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "SLV":{
   "name":"El Salvador",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "SMR":{
   "name":"San Marino",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "SRB":{
   "name":"Serbia",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"South Sudan",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "STP":{
   "name":"Sao Tome and Principe",
@@ -682,27 +682,27 @@ var info_rki = {
  },
  "TCD":{
   "name":"Chad",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "TGO":{
   "name":"Togo",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "THA":{
   "name":"Thailand",
-  "info":"since 18 Jul 2021"
+  "info":""
  },
  "TJK":{
   "name":"Tajikistan",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "TKM":{
   "name":"Turkmenistan",
-  "info":"since 17 Jun 2020"
+  "info":""
  },
  "TLS":{
   "name":"Timor-Leste",
-  "info":"since 17 Jun 2020"
+  "info":""
  },
  "TON":{
   "name":"Tonga",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad and Tobago",
-  "info":"since 11 Jul 2021"
+  "info":""
  },
  "TUN":{
   "name":"Tunisia",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turkey",
-  "info":"since 06 Jun 2021"
+  "info":""
  },
  "TUV":{
   "name":"Tuvalu",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":"since 20 Jun 2021"
+  "info":""
  },
  "UKR":{
   "name":"Ukraine",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistan",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "VAT":{
   "name":"Vatican City",
@@ -758,7 +758,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Venezuela",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Yemen",
-  "info":"since 15 Jun 2020"
+  "info":""
  },
  "ZAF":{
   "name":"South Africa",
