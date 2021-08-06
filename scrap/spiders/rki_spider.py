@@ -38,7 +38,7 @@ class RKISpider(scrapy.Spider):
              'COG': ('Kongo Rep',),
              'CZE': ('Tschechien',),
              'MKD': ('Nordmazedonien',),
-             'PRK': ('Korea (Volksrepublik)',),
+             'PRK': ('Korea (Volksrepublik)', 'Korea (Demokratische Volksrepublik)'),
              'PSE': ('Palästinensische Gebiete',),
              'SUR': ('Surinam',),
              'SYR': ('Syrische Arabische Republik',),
@@ -223,7 +223,7 @@ class RKISpider(scrapy.Spider):
 
                 for i_s, s in enumerate(states, 1):
                     iso3_found = None
-                    regions = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}[{i_s}]/ul/li/text()")
+                    regions = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}[{i_s}]/ul/li/.")
                     msg = s.get()[4:-5]     # Remove <li></li>
                     msg = msg.replace("<p>", "").replace("</p>", "").replace("\n", "")
 
@@ -237,15 +237,16 @@ class RKISpider(scrapy.Spider):
                         if search:
                             excluded_msg = search.group(1)
                             break
-                    if code == self.RISK:
+                    subregions = False
+                    if code == self.HI_INC:
                         if excluded_msg != msg_nolist:
-                            country_code = self.PARTIAL
+                            subregions = True
                             reg_excluded = True
                         elif len(regions) > 0:
-                            country_code = self.PARTIAL
+                            subregions = True
                             reg_excluded = False
                         if re.search(self.included_pattern, msg):
-                            country_code = self.PARTIAL
+                            subregions = True
                             reg_excluded = False
 
                     name_scraped, info_scraped = self.strip_country(msg)
@@ -296,7 +297,7 @@ class RKISpider(scrapy.Spider):
                         exc_err.append(reg_excluded)
                     country_regs = reg_df.query("ISO3_CODE == @iso3_found")
                     reg_code = self.NO_RISK if reg_excluded else code
-                    if country_code == self.PARTIAL:
+                    if subregions:
                         regions_found = len(regions) > 0
                         for _, cr in country_regs.iterrows():
                             if cr["NAME_DE"] in excluded_msg:
@@ -316,7 +317,8 @@ class RKISpider(scrapy.Spider):
                             no_regions.append(name_scraped)
 
                     for r in regions:
-                        name_sr, info_sr = self.strip_country(r.get(), separators=("(",))
+                        r_text = r.get()[4:]
+                        name_sr, info_sr = self.strip_country(r_text, separators=("(",))
                         reg_hit = country_regs.query("NAME_DE == @name_sr")
                         name_translate = {n: loc.gettext(name_sr) for n, loc in translate.items()}
                         name_translate["NAME_EN"] = name_sr
