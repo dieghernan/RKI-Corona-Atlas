@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Gwadelupa<\/li><li>Korsyka<\/li><li>Martynika<\/li><li>Oksytania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Reunion<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
+  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gwadelupa, od 08.08.2021<\/li><li>Korsyka, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Oksytania, od 08.08.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 08.08.2021<\/li><li>Reunion, od 08.08.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
+  "info":"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Aruba, od 27.07.2021<\/li><li>Bonaire, od 27.07.2021<\/li><li>Curaçao, od 27.07.2021<\/li><li>Saba, od 27.07.2021<\/li><li>Sint Eustatius, od 27.07.2021<\/li><li>Sint Maarten, od 27.07.2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
@@ -574,7 +574,7 @@ var info_rki = {
  },
  "PRK":{
   "name":"Korea Północna",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "PRT":{
   "name":"Portugalia",

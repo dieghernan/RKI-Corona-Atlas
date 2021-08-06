@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 08\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Guadeloupe<\/li><li>La Corse<\/li><li>Martinique<\/li><li>Occitanie<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion, Île de la<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
+  "info":"depuis le 08\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guadeloupe, depuis le 08\/08\/2021<\/li><li>La Corse, depuis le 08\/08\/2021<\/li><li>Martinique, depuis le 08\/08\/2021<\/li><li>Occitanie, depuis le 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, depuis le 08\/08\/2021<\/li><li>Réunion, Île de la, depuis le 08\/08\/2021<\/li><li>St. Barthélemy, depuis le 08\/08\/2021<\/li><li>St. Martin, depuis le 08\/08\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 27\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
+  "info":"depuis le 27\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Aruba, depuis le 27\/07\/2021<\/li><li>Bonaire, depuis le 27\/07\/2021<\/li><li>Curaçao, depuis le 27\/07\/2021<\/li><li>Saba, depuis le 27\/07\/2021<\/li><li>Sint Eustatius, depuis le 27\/07\/2021<\/li><li>Sint Maarten, depuis le 27\/07\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norvège",
@@ -574,7 +574,7 @@ var info_rki = {
  },
  "PRK":{
   "name":"Corée du Nord",
-  "info":""
+  "info":"depuis le 08\/08\/2021"
  },
  "PRT":{
   "name":"Portugal",

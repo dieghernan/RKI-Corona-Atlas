@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Guadalup<\/li><li>Korsika<\/li><li>Martinik<\/li><li>Oksitanya<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
+  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Guadalup, 08.08.2021'den beri<\/li><li>Korsika, 08.08.2021'den beri<\/li><li>Martinik, 08.08.2021'den beri<\/li><li>Oksitanya, 08.08.2021'den beri<\/li><li>Provence-Alpes-Côte d'Azur, 08.08.2021'den beri<\/li><li>Réunion, 08.08.2021'den beri<\/li><li>St. Barthélemy, 08.08.2021'den beri<\/li><li>St. Martin, 08.08.2021'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
+  "info":"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 27.07.2021'den beri<\/li><li>Bonaire, 27.07.2021'den beri<\/li><li>Curaçao, 27.07.2021'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>Sint Eustatius, 27.07.2021'den beri<\/li><li>Sint Maarten, 27.07.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -574,7 +574,7 @@ var info_rki = {
  },
  "PRK":{
   "name":"Kuzey Kore",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "PRT":{
   "name":"Portekiz",

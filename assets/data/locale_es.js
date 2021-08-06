@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Guadalupe<\/li><li>Córcega<\/li><li>Martinica<\/li><li>Occitania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Reunión<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
+  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guadalupe, desde el 08\/08\/2021<\/li><li>Córcega, desde el 08\/08\/2021<\/li><li>Martinica, desde el 08\/08\/2021<\/li><li>Occitania, desde el 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, desde el 08\/08\/2021<\/li><li>Reunión, desde el 08\/08\/2021<\/li><li>St. Barthélemy, desde el 08\/08\/2021<\/li><li>St. Martin, desde el 08\/08\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Países Bajos",
-  "info":"desde el 27\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
+  "info":"desde el 27\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Aruba, desde el 27\/07\/2021<\/li><li>Bonaire, desde el 27\/07\/2021<\/li><li>Curaçao, desde el 27\/07\/2021<\/li><li>Saba, desde el 27\/07\/2021<\/li><li>Sint Eustatius, desde el 27\/07\/2021<\/li><li>Sint Maarten, desde el 27\/07\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Noruega",
@@ -574,7 +574,7 @@ var info_rki = {
  },
  "PRK":{
   "name":"Corea del Norte",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "PRT":{
   "name":"Portugal",

@@ -142,7 +142,7 @@ var risk = {
  "PLW":0,
  "PNG":2,
  "POL":0,
- "PRK":0,
+ "PRK":2,
  "PRT":2,
  "PRY":2,
  "PSE":0,

@@ -573,8 +573,8 @@ var info_rki = {
   "info":""
  },
  "PRK":{
-  "name":"Korea (Volksrepublik)",
-  "info":""
+  "name":"Korea (Demokratische Volksrepublik)",
+  "info":" <strong>Hochrisikogebie<\/strong>t seit 8. August 2021"
  },
  "PRT":{
   "name":"Portugal",

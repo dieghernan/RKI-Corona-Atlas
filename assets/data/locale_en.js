@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Guadeloupe<\/li><li>Corsica<\/li><li>Martinique<\/li><li>Occitania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
+  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>Guadeloupe, since 08 Aug 2021<\/li><li>Corsica, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>Occitania, since 08 Aug 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 08 Aug 2021<\/li><li>Réunion, since 08 Aug 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 27 Jul 2021. The risk designation applies to the following regions:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
+  "info":"since 27 Jul 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 27 Jul 2021<\/li><li>Bonaire, since 27 Jul 2021<\/li><li>Curaçao, since 27 Jul 2021<\/li><li>Saba, since 27 Jul 2021<\/li><li>Sint Eustatius, since 27 Jul 2021<\/li><li>Sint Maarten, since 27 Jul 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
@@ -574,7 +574,7 @@ var info_rki = {
  },
  "PRK":{
   "name":"North Korea",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "PRT":{
   "name":"Portugal",
