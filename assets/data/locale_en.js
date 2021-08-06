@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "BGR":{
   "name":"Bulgaria",
@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algeria",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "ECU":{
   "name":"Ecuador",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":". The risk designation applies to the following regions:<ul><li>French Guiana<\/li><li>Corsica<\/li><li>Martinique<\/li><li>Occitania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion<\/li><li>St. Martin<\/li><\/ul>"
+  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Guadeloupe<\/li><li>Corsica<\/li><li>Martinique<\/li><li>Occitania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "HRV":{
   "name":"Croatia",
-  "info":". The risk designation applies to the following regions:<ul><li>Zadar<\/li><\/ul>"
+  "info":""
  },
  "HTI":{
   "name":"Haiti",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "HUN":{
   "name":"Hungary",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Iraq",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "ISL":{
   "name":"Iceland",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakhstan",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "KEN":{
   "name":"Kenya",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"since 17 Jul 2021"
+  "info":""
  },
  "LSO":{
   "name":"Lesotho",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Morocco",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "MCO":{
   "name":"Monaco",
@@ -446,11 +446,11 @@ var info_rki = {
  },
  "MDV":{
   "name":"Maldives",
-  "info":"since 17 Jul 2021"
+  "info":""
  },
  "MEX":{
   "name":"Mexico",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "MHL":{
   "name":"Marshall Islands",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "MNE":{
   "name":"Montenegro",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 27 Jul 2021"
+  "info":"since 27 Jul 2021. The risk designation applies to the following regions:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Philippines",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua New Guinea",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "POL":{
   "name":"Poland",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "SGP":{
   "name":"Singapore",
@@ -690,15 +690,15 @@ var info_rki = {
  },
  "THA":{
   "name":"Thailand",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "TJK":{
   "name":"Tajikistan",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "TKM":{
   "name":"Turkmenistan",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "TLS":{
   "name":"Timor-Leste",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad and Tobago",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "TUN":{
   "name":"Tunisia",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistan",
-  "info":""
+  "info":"since 08 Aug 2021"
  },
  "VAT":{
   "name":"Vatican City",

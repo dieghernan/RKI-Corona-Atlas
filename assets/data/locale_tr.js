@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladeş",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "BGR":{
   "name":"Bulgaristan",
@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Cezayir",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "ECU":{
   "name":"Ekvator",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":". Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası<\/li><li>Korsika<\/li><li>Martinik<\/li><li>Oksitanya<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion<\/li><li>St. Martin<\/li><\/ul>"
+  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Guadalup<\/li><li>Korsika<\/li><li>Martinik<\/li><li>Oksitanya<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Réunion<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "HRV":{
   "name":"Hırvatistan",
-  "info":". Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Zadar<\/li><\/ul>"
+  "info":""
  },
  "HTI":{
   "name":"Haiti",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "HUN":{
   "name":"Macaristan",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "ISL":{
   "name":"İzlanda",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakistan",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "KEN":{
   "name":"Kenya",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"17.07.2021'den beri"
+  "info":""
  },
  "LSO":{
   "name":"Lesoto",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Fas",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "MCO":{
   "name":"Monako",
@@ -446,11 +446,11 @@ var info_rki = {
  },
  "MDV":{
   "name":"Maldivler",
-  "info":"17.07.2021'den beri"
+  "info":""
  },
  "MEX":{
   "name":"Meksika",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "MHL":{
   "name":"Marşal Adaları",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "MNE":{
   "name":"Karadağ",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"27.07.2021'den beri"
+  "info":"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Filipinler",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua Yeni Gine",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "POL":{
   "name":"Polonya",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "SGP":{
   "name":"Singapur",
@@ -690,15 +690,15 @@ var info_rki = {
  },
  "THA":{
   "name":"Tayland",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "TJK":{
   "name":"Tacikistan",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "TKM":{
   "name":"Türkmenistan",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "TLS":{
   "name":"Timor-Leste",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad ve Tobago",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "TUN":{
   "name":"Tunus",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Özbekistan",
-  "info":""
+  "info":"08.08.2021'den beri"
  },
  "VAT":{
   "name":"Vatikan",

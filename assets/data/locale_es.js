@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "BGR":{
   "name":"Bulgaria",
@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algeria",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "ECU":{
   "name":"Ecuador",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":". El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa<\/li><li>Córcega<\/li><li>Martinica<\/li><li>Occitania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Reunión<\/li><li>St. Martin<\/li><\/ul>"
+  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Guadalupe<\/li><li>Córcega<\/li><li>Martinica<\/li><li>Occitania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Reunión<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "HRV":{
   "name":"Croacia",
-  "info":". El nivel de riesgo afecta a las siguientes regiones:<ul><li>Zadar<\/li><\/ul>"
+  "info":""
  },
  "HTI":{
   "name":"Haití",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "HUN":{
   "name":"Hungría",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Iraq",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "ISL":{
   "name":"Islandia",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazajistán",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "KEN":{
   "name":"Kenia",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"desde el 17\/07\/2021"
+  "info":""
  },
  "LSO":{
   "name":"Lesoto",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Marruecos",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "MCO":{
   "name":"Mónaco",
@@ -446,11 +446,11 @@ var info_rki = {
  },
  "MDV":{
   "name":"Islas Maldivas",
-  "info":"desde el 17\/07\/2021"
+  "info":""
  },
  "MEX":{
   "name":"México",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "MHL":{
   "name":"Islas Marshall",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "MNE":{
   "name":"Montenegro",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Países Bajos",
-  "info":"desde el 27\/07\/2021"
+  "info":"desde el 27\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
  },
  "NOR":{
   "name":"Noruega",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Filipinas",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papúa Nueva Guinea",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "POL":{
   "name":"Polonia",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "SGP":{
   "name":"Singapur",
@@ -690,15 +690,15 @@ var info_rki = {
  },
  "THA":{
   "name":"Tailandia",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "TJK":{
   "name":"Tadjikistán",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "TKM":{
   "name":"Turkmenistán",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "TLS":{
   "name":"Timor Oriental",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad y Tobago",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "TUN":{
   "name":"Tunez",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistán",
-  "info":""
+  "info":"desde el 08\/08\/2021"
  },
  "VAT":{
   "name":"Ciudad del Vaticano",

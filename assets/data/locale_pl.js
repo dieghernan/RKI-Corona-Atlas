@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesz",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "BGR":{
   "name":"Bułgaria",
@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algieria",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "ECU":{
   "name":"Ekwador",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":". Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska<\/li><li>Korsyka<\/li><li>Martynika<\/li><li>Oksytania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Reunion<\/li><li>St. Martin<\/li><\/ul>"
+  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li> seit 8. August 2021<\/li><li>Gwadelupa<\/li><li>Korsyka<\/li><li>Martynika<\/li><li>Oksytania<\/li><li>Provence-Alpes-Côte d'Azur<\/li><li>Reunion<\/li><li>St. Barthélemy<\/li><li>St. Martin<\/li><li>seit 8. August 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "HRV":{
   "name":"Chorwacja",
-  "info":". Poziom ryzyka dotyczy następujących regionów:<ul><li>Zadar<\/li><\/ul>"
+  "info":""
  },
  "HTI":{
   "name":"Haiti",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "HUN":{
   "name":"Węgry",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "ISL":{
   "name":"Islandia",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazachstan",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "KEN":{
   "name":"Kenia",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"od 17.07.2021"
+  "info":""
  },
  "LSO":{
   "name":"Lesoto",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Maroko",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "MCO":{
   "name":"Monako",
@@ -446,11 +446,11 @@ var info_rki = {
  },
  "MDV":{
   "name":"Malediwy",
-  "info":"od 17.07.2021"
+  "info":""
  },
  "MEX":{
   "name":"Meksyk",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "MHL":{
   "name":"Wyspy Marshalla",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "MNE":{
   "name":"Czarnogóra",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 27.07.2021"
+  "info":"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li> seit 27. Juli 2021<\/li><li>Aruba<\/li><li>Bonaire<\/li><li>Curaçao<\/li><li>Saba<\/li><li>Sint Eustatius<\/li><li>Sint Maarten<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Filipiny",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua-Nowa Gwinea",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "POL":{
   "name":"Polska",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "SGP":{
   "name":"Singapur",
@@ -690,15 +690,15 @@ var info_rki = {
  },
  "THA":{
   "name":"Tajlandia",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "TJK":{
   "name":"Tadżykistan",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "TKM":{
   "name":"Turkmenistan",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "TLS":{
   "name":"Timor Wschodni",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trynidad i Tobago",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "TUN":{
   "name":"Tunezja",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistan",
-  "info":""
+  "info":"od 08.08.2021"
  },
  "VAT":{
   "name":"Watykan",
