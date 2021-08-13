@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guadalupe, desde el 08\/08\/2021<\/li><li>Córcega, desde el 08\/08\/2021<\/li><li>Martinica, desde el 08\/08\/2021<\/li><li>Occitania, desde el 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, desde el 08\/08\/2021<\/li><li>Reunión, desde el 08\/08\/2021<\/li><li>St. Barthélemy, desde el 08\/08\/2021<\/li><li>St. Martin, desde el 08\/08\/2021<\/li><\/ul>"
+  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 15\/08\/2021<\/li><li>Polinesia Francesa, desde el 15\/08\/2021<\/li><li>Guadalupe, desde el 08\/08\/2021<\/li><li>Córcega, desde el 08\/08\/2021<\/li><li>Martinica, desde el 08\/08\/2021<\/li><li>Occitania, desde el 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, desde el 08\/08\/2021<\/li><li>Reunión, desde el 08\/08\/2021<\/li><li>St. Barthélemy, desde el 08\/08\/2021<\/li><li>St. Martin, desde el 08\/08\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Israel",
-  "info":""
+  "info":"desde el 15\/08\/2021"
  },
  "ITA":{
   "name":"Italia",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenia",
-  "info":""
+  "info":"desde el 15\/08\/2021"
  },
  "KGZ":{
   "name":"Kirgizstán",
@@ -474,7 +474,7 @@ var info_rki = {
  },
  "MNE":{
   "name":"Montenegro",
-  "info":""
+  "info":"desde el 15\/08\/2021"
  },
  "MNG":{
   "name":"Mongolia",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"desde el 07\/07\/2021"
+  "info":"desde el 07\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Algarve, desde el 07\/07\/2021<\/li><li>Lisboa, desde el 07\/07\/2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turquía",
-  "info":""
+  "info":"desde el 17\/08\/2021"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Estados Unidos",
-  "info":""
+  "info":"desde el 15\/08\/2021"
  },
  "UZB":{
   "name":"Uzbekistán",
@@ -762,7 +762,7 @@ var info_rki = {
  },
  "VNM":{
   "name":"Vietnam",
-  "info":""
+  "info":"desde el 15\/08\/2021"
  },
  "VUT":{
   "name":"Vanuatu",

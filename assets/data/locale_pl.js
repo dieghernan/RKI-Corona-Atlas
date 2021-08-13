@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gwadelupa, od 08.08.2021<\/li><li>Korsyka, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Oksytania, od 08.08.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 08.08.2021<\/li><li>Reunion, od 08.08.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
+  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Polinezja Francuska, od 15.08.2021<\/li><li>Gwadelupa, od 08.08.2021<\/li><li>Korsyka, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Oksytania, od 08.08.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 08.08.2021<\/li><li>Reunion, od 08.08.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Izrael",
-  "info":""
+  "info":"od 15.08.2021"
  },
  "ITA":{
   "name":"Włochy",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenia",
-  "info":""
+  "info":"od 15.08.2021"
  },
  "KGZ":{
   "name":"Kirgistan",
@@ -474,7 +474,7 @@ var info_rki = {
  },
  "MNE":{
   "name":"Czarnogóra",
-  "info":""
+  "info":"od 15.08.2021"
  },
  "MNG":{
   "name":"Mongolia",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugalia",
-  "info":"od 07.07.2021"
+  "info":"od 07.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Algarve, od 07.07.2021<\/li><li>Lizbona, od 07.07.2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paragwaj",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turcja",
-  "info":""
+  "info":"od 17.08.2021"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Stany Zjednoczone",
-  "info":""
+  "info":"od 15.08.2021"
  },
  "UZB":{
   "name":"Uzbekistan",
@@ -762,7 +762,7 @@ var info_rki = {
  },
  "VNM":{
   "name":"Vietnam",
-  "info":""
+  "info":"od 15.08.2021"
  },
  "VUT":{
   "name":"Vanuatu",

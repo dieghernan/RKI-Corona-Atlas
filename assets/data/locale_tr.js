@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Guadalup, 08.08.2021'den beri<\/li><li>Korsika, 08.08.2021'den beri<\/li><li>Martinik, 08.08.2021'den beri<\/li><li>Oksitanya, 08.08.2021'den beri<\/li><li>Provence-Alpes-Côte d'Azur, 08.08.2021'den beri<\/li><li>Réunion, 08.08.2021'den beri<\/li><li>St. Barthélemy, 08.08.2021'den beri<\/li><li>St. Martin, 08.08.2021'den beri<\/li><\/ul>"
+  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 15.08.2021'den beri<\/li><li>Fransız Polinezyası, 15.08.2021'den beri<\/li><li>Guadalup, 08.08.2021'den beri<\/li><li>Korsika, 08.08.2021'den beri<\/li><li>Martinik, 08.08.2021'den beri<\/li><li>Oksitanya, 08.08.2021'den beri<\/li><li>Provence-Alpes-Côte d'Azur, 08.08.2021'den beri<\/li><li>Réunion, 08.08.2021'den beri<\/li><li>St. Barthélemy, 08.08.2021'den beri<\/li><li>St. Martin, 08.08.2021'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"İsrail",
-  "info":""
+  "info":"15.08.2021'den beri"
  },
  "ITA":{
   "name":"İtalya",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenya",
-  "info":""
+  "info":"15.08.2021'den beri"
  },
  "KGZ":{
   "name":"Kırgızistan",
@@ -474,7 +474,7 @@ var info_rki = {
  },
  "MNE":{
   "name":"Karadağ",
-  "info":""
+  "info":"15.08.2021'den beri"
  },
  "MNG":{
   "name":"Moğolistan",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portekiz",
-  "info":"07.07.2021'den beri"
+  "info":"07.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Algarve, 07.07.2021'den beri<\/li><li>Lizbon, 07.07.2021'den beri<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Türkiye",
-  "info":""
+  "info":"17.08.2021'den beri"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Birleşik Devletler",
-  "info":""
+  "info":"15.08.2021'den beri"
  },
  "UZB":{
   "name":"Özbekistan",
@@ -762,7 +762,7 @@ var info_rki = {
  },
  "VNM":{
   "name":"Vietnam",
-  "info":""
+  "info":"15.08.2021'den beri"
  },
  "VUT":{
   "name":"Vanuatu",

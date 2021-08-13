@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>Guadeloupe, since 08 Aug 2021<\/li><li>Corsica, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>Occitania, since 08 Aug 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 08 Aug 2021<\/li><li>Réunion, since 08 Aug 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
+  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>French Polynesia, since 15 Aug 2021<\/li><li>Guadeloupe, since 08 Aug 2021<\/li><li>Corsica, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>Occitania, since 08 Aug 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 08 Aug 2021<\/li><li>Réunion, since 08 Aug 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Israel",
-  "info":""
+  "info":"since 15 Aug 2021"
  },
  "ITA":{
   "name":"Italy",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenya",
-  "info":""
+  "info":"since 15 Aug 2021"
  },
  "KGZ":{
   "name":"Kyrgyzstan",
@@ -474,7 +474,7 @@ var info_rki = {
  },
  "MNE":{
   "name":"Montenegro",
-  "info":""
+  "info":"since 15 Aug 2021"
  },
  "MNG":{
   "name":"Mongolia",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"since 07 Jul 2021"
+  "info":"since 07 Jul 2021. The risk designation applies to the following regions:<ul><li>Algarve, since 07 Jul 2021<\/li><li>Lisbon, since 07 Jul 2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turkey",
-  "info":""
+  "info":"since 17 Aug 2021"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "USA":{
   "name":"United States",
-  "info":""
+  "info":"since 15 Aug 2021"
  },
  "UZB":{
   "name":"Uzbekistan",
@@ -762,7 +762,7 @@ var info_rki = {
  },
  "VNM":{
   "name":"Vietnam",
-  "info":""
+  "info":"since 15 Aug 2021"
  },
  "VUT":{
   "name":"Vanuatu",

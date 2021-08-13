@@ -57,7 +57,7 @@ Estonia,Not risk area,
 Ethiopia,Not risk area,
 Finland,Not risk area,
 Fiji,High risk area,since 11 Jul 2021
-France,High risk area,"since 08 Aug 2021. The risk designation applies to the following regions: -Guadeloupe, since 08 Aug 2021; -Corsica, since 08 Aug 2021; -Martinique, since 08 Aug 2021; -Occitania, since 08 Aug 2021; -Provence-Alpes-Côte d'Azur, since 08 Aug 2021; -Réunion, since 08 Aug 2021; -St. Barthélemy, since 08 Aug 2021; -St. Martin, since 08 Aug 2021"
+France,High risk area,"since 08 Aug 2021. The risk designation applies to the following regions: -French Guiana, since 15 Aug 2021; -French Polynesia, since 15 Aug 2021; -Guadeloupe, since 08 Aug 2021; -Corsica, since 08 Aug 2021; -Martinique, since 08 Aug 2021; -Occitania, since 08 Aug 2021; -Provence-Alpes-Côte d'Azur, since 08 Aug 2021; -Réunion, since 08 Aug 2021; -St. Barthélemy, since 08 Aug 2021; -St. Martin, since 08 Aug 2021"
 Micronesia,Not risk area,
 Gabon,Not risk area,
 United Kingdom,High risk area,since 07 Jul 2021
@@ -82,13 +82,13 @@ Ireland,Not risk area,
 Iran,High risk area,since 24 Jan 2021
 Iraq,High risk area,since 08 Aug 2021
 Iceland,Not risk area,
-Israel,Not risk area,
+Israel,High risk area,since 15 Aug 2021
 Italy,Not risk area,
 Jamaica,Not risk area,
 Jordan,Not risk area,
 Japan,Not risk area,
 Kazakhstan,High risk area,since 08 Aug 2021
-Kenya,Not risk area,
+Kenya,High risk area,since 15 Aug 2021
 Kyrgyzstan,Not risk area,
 Cambodia,Not risk area,
 Kiribati,Not risk area,
@@ -117,7 +117,7 @@ North Macedonia,Not risk area,
 Mali,Not risk area,
 Malta,Not risk area,
 Myanmar/Burma,High risk area,since 08 Aug 2021
-Montenegro,Not risk area,
+Montenegro,High risk area,since 15 Aug 2021
 Mongolia,High risk area,since 13 Jun 2021
 Mozambique,High risk area,since 01 Aug 2021
 Mauritania,Not risk area,
@@ -143,7 +143,7 @@ Palau,Not risk area,
 Papua New Guinea,High risk area,since 08 Aug 2021
 Poland,Not risk area,
 North Korea,High risk area,since 08 Aug 2021
-Portugal,High risk area,since 07 Jul 2021
+Portugal,High risk area,"since 07 Jul 2021. The risk designation applies to the following regions: -Algarve, since 07 Jul 2021; -Lisbon, since 07 Jul 2021"
 Paraguay,High risk area,since 21 Mar 2021
 Palestine,Not risk area,
 Qatar,Not risk area,
@@ -178,18 +178,18 @@ Timor-Leste,Not risk area,
 Tonga,Not risk area,
 Trinidad and Tobago,High risk area,since 08 Aug 2021
 Tunisia,High risk area,since 25 Apr 2021
-Turkey,Not risk area,
+Turkey,High risk area,since 17 Aug 2021
 Tuvalu,Not risk area,
 United Republic of Tanzania,High risk area,since 14 Mar 2021
 Uganda,Not risk area,
 Ukraine,Not risk area,
 Uruguay,Variant of concern,since 06 Jun 2021
-United States,Not risk area,
+United States,High risk area,since 15 Aug 2021
 Uzbekistan,High risk area,since 08 Aug 2021
 Vatican City,Not risk area,
 Saint Vincent and The Grenadines,Not risk area,
 Venezuela,Not risk area,
-Vietnam,Not risk area,
+Vietnam,High risk area,since 15 Aug 2021
 Vanuatu,Not risk area,
 Samoa,Not risk area,
 Kosovo,Not risk area,
