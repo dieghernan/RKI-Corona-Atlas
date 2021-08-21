@@ -2,7 +2,7 @@
 Afganistán,No es área de riesgo,
 Angola,No es área de riesgo,
 Albania,No es área de riesgo,
-Andorra,Área de alto riesgo,desde el 01/08/2021
+Andorra,No es área de riesgo,
 Emiratos Árabes Unidos,No es área de riesgo,
 Argentina,Área de alto riesgo,desde el 18/04/2021
 Armenia,No es área de riesgo,
@@ -22,7 +22,7 @@ Bosnia y Herzegovina,No es área de riesgo,
 Bielorrusia,No es área de riesgo,
 Belice,No es área de riesgo,
 Bolivia,Área de alto riesgo,desde el 24/01/2021
-Brasil,Área de variante viral,desde el 19/01/2021
+Brasil,Área de alto riesgo,desde el 22/08/2021
 Barbados,No es área de riesgo,
 Brunei,No es área de riesgo,
 Bhután,No es área de riesgo,
@@ -45,14 +45,14 @@ Chipre,Área de alto riesgo,desde el 11/07/2021
 República Checa,No es área de riesgo,
 Alemania,,
 Yibuti,No es área de riesgo,
-Dominica,No es área de riesgo,
+Dominica,Área de alto riesgo,desde el 22/08/2021
 Dinamarca,No es área de riesgo,
 República Dominicana,No es área de riesgo,
 Algeria,Área de alto riesgo,desde el 08/08/2021
 Ecuador,Área de alto riesgo,desde el 31/01/2021
 Egipto,Área de alto riesgo,desde el 24/01/2021
 Eritrea,No es área de riesgo,
-España,Área de alto riesgo,desde el 27/07/2021
+España,Área de alto riesgo,desde el 27/07/2021. A excepción de las siguientes regiones: -Asturias; -Islas Canarias; -Castilla-La Mancha; -Cataluña; -Valencia
 Estonia,No es área de riesgo,
 Etiopía,No es área de riesgo,
 Finlandia,No es área de riesgo,
@@ -67,7 +67,7 @@ Guinea,No es área de riesgo,
 Gambia,No es área de riesgo,
 Guinea-Bissau,No es área de riesgo,
 Guinea Ecuatorial,No es área de riesgo,
-Grecia,No es área de riesgo,
+Grecia,Área de alto riesgo,"desde el 24/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Kreta, desde el 24/08/2021; -Südliche Ägäis, desde el 24/08/2021"
 Granada,No es área de riesgo,
 Guatemala,No es área de riesgo,
 Guyana,No es área de riesgo,
@@ -78,7 +78,7 @@ Haití,Área de alto riesgo,desde el 08/08/2021
 Hungría,No es área de riesgo,
 Indonesia,Área de alto riesgo,desde el 18/07/2021
 India,Área de alto riesgo,desde el 07/07/2021
-Irlanda,No es área de riesgo,
+Irlanda,Área de alto riesgo,"desde el 22/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Border, desde el 22/08/2021; -West, desde el 22/08/2021"
 Irán,Área de alto riesgo,desde el 24/01/2021
 Iraq,Área de alto riesgo,desde el 08/08/2021
 Islandia,No es área de riesgo,
@@ -113,7 +113,7 @@ Madagascar,No es área de riesgo,
 Islas Maldivas,No es área de riesgo,
 México,Área de alto riesgo,desde el 08/08/2021
 Islas Marshall,No es área de riesgo,
-Macedonia del Norte,No es área de riesgo,
+Macedonia del Norte,Área de alto riesgo,desde el 22/08/2021
 Mali,No es área de riesgo,
 Malta,No es área de riesgo,
 Myanmar/Burma,Área de alto riesgo,desde el 08/08/2021
@@ -183,7 +183,7 @@ Tuvalu,No es área de riesgo,
 República Unida de Tanzania,Área de alto riesgo,desde el 14/03/2021
 Uganda,No es área de riesgo,
 Ucrania,No es área de riesgo,
-Uruguay,Área de variante viral,desde el 06/06/2021
+Uruguay,No es área de riesgo,
 Estados Unidos,Área de alto riesgo,desde el 15/08/2021
 Uzbekistán,Área de alto riesgo,desde el 08/08/2021
 Ciudad del Vaticano,No es área de riesgo,
@@ -192,7 +192,7 @@ Venezuela,No es área de riesgo,
 Vietnam,Área de alto riesgo,desde el 15/08/2021
 Vanuatu,No es área de riesgo,
 Samoa,No es área de riesgo,
-Kosovo,No es área de riesgo,
+Kosovo,Área de alto riesgo,desde el 22/08/2021
 Yemen,No es área de riesgo,
 Suráfrica,Área de alto riesgo,desde el 01/08/2021
 Zambia,Área de alto riesgo,desde el 01/08/2021

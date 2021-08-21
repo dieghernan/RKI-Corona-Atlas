@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andora",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "ARE":{
   "name":"Zjednoczone Emiraty Arabskie",
@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brazylia",
-  "info":"od 19.01.2021"
+  "info":"od 22.08.2021"
  },
  "BRB":{
   "name":"Barbados",
@@ -186,7 +186,7 @@ var info_rki = {
  },
  "DMA":{
   "name":"Dominika",
-  "info":""
+  "info":"od 22.08.2021"
  },
  "DNK":{
   "name":"Dania",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Hiszpania",
-  "info":"od 27.07.2021"
+  "info":"od 27.07.2021. Z wyjątkiem następujących regionów:<ul><li>Asturias<\/li><li>Wyspy Kanaryjskie<\/li><li>Kastylia-La Mancha<\/li><li>Katalonia<\/li><li>Valencia<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":""
+  "info":"od 24.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Kreta, od 24.08.2021<\/li><li>Südliche Ägäis, od 24.08.2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlandia",
-  "info":""
+  "info":"od 22.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 22.08.2021<\/li><li>West, od 22.08.2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Macedonia Północna",
-  "info":""
+  "info":"od 22.08.2021"
  },
  "MLI":{
   "name":"Mali",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Urugwaj",
-  "info":"od 06.06.2021"
+  "info":""
  },
  "USA":{
   "name":"Stany Zjednoczone",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosowo",
-  "info":""
+  "info":"od 22.08.2021"
  },
  "YEM":{
   "name":"Jemen",

@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "ARE":{
   "name":"United Arab Emirates",
@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brazil",
-  "info":"since 19 Jan 2021"
+  "info":"since 22 Aug 2021"
  },
  "BRB":{
   "name":"Barbados",
@@ -186,7 +186,7 @@ var info_rki = {
  },
  "DMA":{
   "name":"Dominica",
-  "info":""
+  "info":"since 22 Aug 2021"
  },
  "DNK":{
   "name":"Denmark",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spain",
-  "info":"since 27 Jul 2021"
+  "info":"since 27 Jul 2021. The following regions are excluded:<ul><li>Asturias<\/li><li>Canary Islands<\/li><li>Castile-La Mancha<\/li><li>Catalonia<\/li><li>Valencia<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":""
+  "info":"since 24 Aug 2021. The risk designation applies to the following regions:<ul><li>Kreta, since 24 Aug 2021<\/li><li>Südliche Ägäis, since 24 Aug 2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Ireland",
-  "info":""
+  "info":"since 22 Aug 2021. The risk designation applies to the following regions:<ul><li>Border, since 22 Aug 2021<\/li><li>West, since 22 Aug 2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"North Macedonia",
-  "info":""
+  "info":"since 22 Aug 2021"
  },
  "MLI":{
   "name":"Mali",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":"since 06 Jun 2021"
+  "info":""
  },
  "USA":{
   "name":"United States",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":""
+  "info":"since 22 Aug 2021"
  },
  "YEM":{
   "name":"Yemen",

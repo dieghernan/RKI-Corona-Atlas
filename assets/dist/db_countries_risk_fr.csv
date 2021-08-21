@@ -2,7 +2,7 @@
 Afghanistan,Zone sans risque,
 Angola,Zone sans risque,
 Albanie,Zone sans risque,
-Andorre,Zone à fort risque,depuis le 01/08/2021
+Andorre,Zone sans risque,
 Émirats arabes unis,Zone sans risque,
 Argentine,Zone à fort risque,depuis le 18/04/2021
 Arménie,Zone sans risque,
@@ -22,7 +22,7 @@ Bosnie-Herzégovine,Zone sans risque,
 Bélarus,Zone sans risque,
 Belize,Zone sans risque,
 Bolivie,Zone à fort risque,depuis le 24/01/2021
-Brésil,Zone de variantes du virus,depuis le 19/01/2021
+Brésil,Zone à fort risque,depuis le 22/08/2021
 Barbade,Zone sans risque,
 Brunei,Zone sans risque,
 Bhoutan,Zone sans risque,
@@ -45,14 +45,14 @@ Chypre,Zone à fort risque,depuis le 11/07/2021
 Tchéquie,Zone sans risque,
 Allemagne,,
 Djibouti,Zone sans risque,
-Dominique,Zone sans risque,
+Dominique,Zone à fort risque,depuis le 22/08/2021
 Danemark,Zone sans risque,
 République Dominicaine,Zone sans risque,
 Algérie,Zone à fort risque,depuis le 08/08/2021
 Équateur,Zone à fort risque,depuis le 31/01/2021
 Égypte,Zone à fort risque,depuis le 24/01/2021
 Érythrée,Zone sans risque,
-Espagne,Zone à fort risque,depuis le 27/07/2021
+Espagne,Zone à fort risque,depuis le 27/07/2021. Les régions suivantes sont exclues: -Asturies; -Îles Canaries; -Castille-La Manche; -Catalogne; -Valence
 Estonie,Zone sans risque,
 Éthiopie,Zone sans risque,
 Finlande,Zone sans risque,
@@ -67,7 +67,7 @@ Guinée,Zone sans risque,
 Gambie,Zone sans risque,
 Guinée-Bissau,Zone sans risque,
 Guinée Équatoriale,Zone sans risque,
-Grèce,Zone sans risque,
+Grèce,Zone à fort risque,"depuis le 24/08/2021. Le niveau de risque concerne les régions suivantes: -Kreta, depuis le 24/08/2021; -Südliche Ägäis, depuis le 24/08/2021"
 Grenade,Zone sans risque,
 Guatemala,Zone sans risque,
 Guyana,Zone sans risque,
@@ -78,7 +78,7 @@ Haïti,Zone à fort risque,depuis le 08/08/2021
 Hongrie,Zone sans risque,
 Indonésie,Zone à fort risque,depuis le 18/07/2021
 Inde,Zone à fort risque,depuis le 07/07/2021
-Irlande,Zone sans risque,
+Irlande,Zone à fort risque,"depuis le 22/08/2021. Le niveau de risque concerne les régions suivantes: -Border, depuis le 22/08/2021; -West, depuis le 22/08/2021"
 Iran,Zone à fort risque,depuis le 24/01/2021
 Irak,Zone à fort risque,depuis le 08/08/2021
 Islande,Zone sans risque,
@@ -113,7 +113,7 @@ Madagascar,Zone sans risque,
 Maldives,Zone sans risque,
 Mexique,Zone à fort risque,depuis le 08/08/2021
 Îles Marshall,Zone sans risque,
-Macédoine du Nord,Zone sans risque,
+Macédoine du Nord,Zone à fort risque,depuis le 22/08/2021
 Mali,Zone sans risque,
 Malte,Zone sans risque,
 Myanmar/Burma,Zone à fort risque,depuis le 08/08/2021
@@ -183,7 +183,7 @@ Tuvalu,Zone sans risque,
 République unie de Tanzanie,Zone à fort risque,depuis le 14/03/2021
 Ouganda,Zone sans risque,
 Ukraine,Zone sans risque,
-Uruguay,Zone de variantes du virus,depuis le 06/06/2021
+Uruguay,Zone sans risque,
 États-Unis,Zone à fort risque,depuis le 15/08/2021
 Ouzbékistan,Zone à fort risque,depuis le 08/08/2021
 Vatican,Zone sans risque,
@@ -192,7 +192,7 @@ Vénézuela,Zone sans risque,
 Vietnam,Zone à fort risque,depuis le 15/08/2021
 Vanuatu,Zone sans risque,
 Samoa,Zone sans risque,
-Kosovo,Zone sans risque,
+Kosovo,Zone à fort risque,depuis le 22/08/2021
 Yémen,Zone sans risque,
 Afrique du Sud,Zone à fort risque,depuis le 01/08/2021
 Zambie,Zone à fort risque,depuis le 01/08/2021

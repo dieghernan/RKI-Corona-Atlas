@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "ARE":{
   "name":"Vereinigte Arabische Emirate",
@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brasilien",
-  "info":"Virusvariantengebiet seit 19. Januar 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021, Virusvariantengebiet vom 19. Januar 2021 bis 19. August 2021"
  },
  "BRB":{
   "name":"Barbados",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
@@ -186,7 +186,7 @@ var info_rki = {
  },
  "DMA":{
   "name":"Dominica",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
  },
  "DNK":{
   "name":"Dänemark",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":"inkl. der Balearen und Kanaren (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021; einfaches Risikogebiet vom 11. Juli 2021 bis 26. Juli 2021)"
+  "info":"inkl. der Balearen (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021; einfaches Risikogebiet vom 11. Juli 2021 bis 26. Juli 2021) mit Ausnahme der autonomen Gemeinschaften Asturien, Kastilien-La Mancha, Katalonien und Valencia sowie den Kanarischen Inseln (seit 22. August 2021)"
  },
  "EST":{
   "name":"Estland",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Griechenland",
-  "info":""
+  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Kreta (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><li>Südliche Ägäis (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irland",
-  "info":""
+  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Border (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><li>West (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Israel",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 15. August 2021"
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 15. August 2021) mit Ausnahme der Palästinensischen Gebiete"
  },
  "ITA":{
   "name":"Italien",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Nordmazedonien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
  },
  "MLI":{
   "name":"Mali",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":"Virusvariantengebiet seit 6. Juni 2021"
+  "info":""
  },
  "USA":{
   "name":"Vereinigte Staaten",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
  },
  "YEM":{
   "name":"Jemen",

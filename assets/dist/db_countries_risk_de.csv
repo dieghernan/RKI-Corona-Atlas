@@ -2,7 +2,7 @@
 Afghanistan,Kein Risikogebiet,
 Angola,Kein Risikogebiet,
 Albanien,Kein Risikogebiet,
-Andorra,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
+Andorra,Kein Risikogebiet,
 Vereinigte Arabische Emirate,Kein Risikogebiet,
 Argentinien,Hochrisikogebiet,Hochrisikogebiet seit 18. April 2021
 Armenien,Kein Risikogebiet,
@@ -22,11 +22,11 @@ Bosnien und Herzegowina,Kein Risikogebiet,
 Belarus,Kein Risikogebiet,
 Belize,Kein Risikogebiet,
 Bolivien,Hochrisikogebiet,Hochrisikogebiet seit 24. Januar 2021
-Brasilien,Virusvarianten-Gebiet,Virusvariantengebiet seit 19. Januar 2021
+Brasilien,Hochrisikogebiet,"Hochrisikogebiet seit 22. August 2021, Virusvariantengebiet vom 19. Januar 2021 bis 19. August 2021"
 Barbados,Kein Risikogebiet,
 Brunei,Kein Risikogebiet,
 Bhutan,Kein Risikogebiet,
-Botsuana,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021
+Botsuana,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
 Zentralafrikanische Republik,Kein Risikogebiet,
 Kanada,Kein Risikogebiet,
 Schweiz,Kein Risikogebiet,
@@ -45,14 +45,14 @@ Zypern,Hochrisikogebiet,Hochrisikogebiet seit 11. Juli 2021
 Tschechien,Kein Risikogebiet,
 Deutschland,,
 Dschibuti,Kein Risikogebiet,
-Dominica,Kein Risikogebiet,
+Dominica,Hochrisikogebiet,Hochrisikogebiet seit 22. August 2021
 Dänemark,Kein Risikogebiet,
 Dominikanische Republik,Kein Risikogebiet,
 Algerien,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Ecuador,Hochrisikogebiet,Hochrisikogebiet seit 31. Januar 2021
 Ägypten,Hochrisikogebiet,Hochrisikogebiet seit 24. Januar 2021
 Eritrea,Kein Risikogebiet,
-Spanien,Hochrisikogebiet,inkl. der Balearen und Kanaren (Hochrisikogebiet seit 27. Juli 2021; einfaches Risikogebiet vom 11. Juli 2021 bis 26. Juli 2021)
+Spanien,Hochrisikogebiet,"inkl. der Balearen (Hochrisikogebiet seit 27. Juli 2021; einfaches Risikogebiet vom 11. Juli 2021 bis 26. Juli 2021) mit Ausnahme der autonomen Gemeinschaften Asturien, Kastilien-La Mancha, Katalonien und Valencia sowie den Kanarischen Inseln (seit 22. August 2021)"
 Estland,Kein Risikogebiet,
 Äthiopien,Kein Risikogebiet,
 Finnland,Kein Risikogebiet,
@@ -67,7 +67,7 @@ Guinea,Kein Risikogebiet,
 Gambia,Kein Risikogebiet,
 Guinea-Bissau,Kein Risikogebiet,
 Äquatorialguinea,Kein Risikogebiet,
-Griechenland,Kein Risikogebiet,
+Griechenland,Hochrisikogebiet,- die folgenden Regionen gelten als Hochrisikogebiete: -Kreta (Hochrisikogebiet seit 24. August 2021); -Südliche Ägäis (Hochrisikogebiet seit 24. August 2021)
 Grenada,Kein Risikogebiet,
 Guatemala,Kein Risikogebiet,
 Guyana,Kein Risikogebiet,
@@ -78,11 +78,11 @@ Haiti,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Ungarn,Kein Risikogebiet,
 Indonesien,Hochrisikogebiet,Hochrisikogebiet seit 18. Juli 2021
 Indien,Hochrisikogebiet,Hochrisikogebiet seit 7. Juli 2021
-Irland,Kein Risikogebiet,
+Irland,Hochrisikogebiet,- die folgenden Regionen gelten als Hochrisikogebiete: -Border (Hochrisikogebiet seit 22. August 2021); -West (Hochrisikogebiet seit 22. August 2021)
 Iran,Hochrisikogebiet,Hochrisikogebiet seit 24. Januar 2021
 Irak,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Island,Kein Risikogebiet,
-Israel,Hochrisikogebiet,Hochrisikogebiet seit 15. August 2021
+Israel,Hochrisikogebiet,(Hochrisikogebiet seit 15. August 2021) mit Ausnahme der Palästinensischen Gebiete
 Italien,Kein Risikogebiet,
 Jamaika,Kein Risikogebiet,
 Jordanien,Kein Risikogebiet,
@@ -113,7 +113,7 @@ Madagaskar,Kein Risikogebiet,
 Malediven,Kein Risikogebiet,
 Mexiko,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Marshallinseln,Kein Risikogebiet,
-Nordmazedonien,Kein Risikogebiet,
+Nordmazedonien,Hochrisikogebiet,Hochrisikogebiet seit 22. August 2021
 Mali,Kein Risikogebiet,
 Malta,Kein Risikogebiet,
 Myanmar,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
@@ -183,7 +183,7 @@ Tuvalu,Kein Risikogebiet,
 Tansania,Hochrisikogebiet,Hochrisikogebiet seit 14. März 2021
 Uganda,Kein Risikogebiet,
 Ukraine,Kein Risikogebiet,
-Uruguay,Virusvarianten-Gebiet,Virusvariantengebiet seit 6. Juni 2021
+Uruguay,Kein Risikogebiet,
 Vereinigte Staaten,Hochrisikogebiet,von Amerika (Hochrisikogebiet seit 15. August 2021)
 Usbekistan,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Vatikanstadt,Kein Risikogebiet,
@@ -192,7 +192,7 @@ Venezuela,Kein Risikogebiet,
 Vietnam,Hochrisikogebiet,Hochrisikogebiet seit 15. August 2021
 Vanuatu,Kein Risikogebiet,
 Samoa,Kein Risikogebiet,
-Kosovo,Kein Risikogebiet,
+Kosovo,Hochrisikogebiet,Hochrisikogebiet seit 22. August 2021
 Jemen,Kein Risikogebiet,
 Südafrika,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 13. Januar 2021 – 31. Juli 2021
 Sambia,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021

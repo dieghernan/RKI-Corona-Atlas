@@ -2,7 +2,7 @@
 Afghanistan,Not risk area,
 Angola,Not risk area,
 Albania,Not risk area,
-Andorra,High risk area,since 01 Aug 2021
+Andorra,Not risk area,
 United Arab Emirates,Not risk area,
 Argentina,High risk area,since 18 Apr 2021
 Armenia,Not risk area,
@@ -22,7 +22,7 @@ Bosnia and Herzegovina,Not risk area,
 Belarus,Not risk area,
 Belize,Not risk area,
 Bolivia,High risk area,since 24 Jan 2021
-Brazil,Variant of concern,since 19 Jan 2021
+Brazil,High risk area,since 22 Aug 2021
 Barbados,Not risk area,
 Brunei,Not risk area,
 Bhutan,Not risk area,
@@ -45,14 +45,14 @@ Cyprus,High risk area,since 11 Jul 2021
 Czechia,Not risk area,
 Germany,,
 Djibouti,Not risk area,
-Dominica,Not risk area,
+Dominica,High risk area,since 22 Aug 2021
 Denmark,Not risk area,
 Dominican Republic,Not risk area,
 Algeria,High risk area,since 08 Aug 2021
 Ecuador,High risk area,since 31 Jan 2021
 Egypt,High risk area,since 24 Jan 2021
 Eritrea,Not risk area,
-Spain,High risk area,since 27 Jul 2021
+Spain,High risk area,since 27 Jul 2021. The following regions are excluded: -Asturias; -Canary Islands; -Castile-La Mancha; -Catalonia; -Valencia
 Estonia,Not risk area,
 Ethiopia,Not risk area,
 Finland,Not risk area,
@@ -67,7 +67,7 @@ Guinea,Not risk area,
 Gambia,Not risk area,
 Guinea-Bissau,Not risk area,
 Equatorial Guinea,Not risk area,
-Greece,Not risk area,
+Greece,High risk area,"since 24 Aug 2021. The risk designation applies to the following regions: -Kreta, since 24 Aug 2021; -Südliche Ägäis, since 24 Aug 2021"
 Grenada,Not risk area,
 Guatemala,Not risk area,
 Guyana,Not risk area,
@@ -78,7 +78,7 @@ Haiti,High risk area,since 08 Aug 2021
 Hungary,Not risk area,
 Indonesia,High risk area,since 18 Jul 2021
 India,High risk area,since 07 Jul 2021
-Ireland,Not risk area,
+Ireland,High risk area,"since 22 Aug 2021. The risk designation applies to the following regions: -Border, since 22 Aug 2021; -West, since 22 Aug 2021"
 Iran,High risk area,since 24 Jan 2021
 Iraq,High risk area,since 08 Aug 2021
 Iceland,Not risk area,
@@ -113,7 +113,7 @@ Madagascar,Not risk area,
 Maldives,Not risk area,
 Mexico,High risk area,since 08 Aug 2021
 Marshall Islands,Not risk area,
-North Macedonia,Not risk area,
+North Macedonia,High risk area,since 22 Aug 2021
 Mali,Not risk area,
 Malta,Not risk area,
 Myanmar/Burma,High risk area,since 08 Aug 2021
@@ -183,7 +183,7 @@ Tuvalu,Not risk area,
 United Republic of Tanzania,High risk area,since 14 Mar 2021
 Uganda,Not risk area,
 Ukraine,Not risk area,
-Uruguay,Variant of concern,since 06 Jun 2021
+Uruguay,Not risk area,
 United States,High risk area,since 15 Aug 2021
 Uzbekistan,High risk area,since 08 Aug 2021
 Vatican City,Not risk area,
@@ -192,7 +192,7 @@ Venezuela,Not risk area,
 Vietnam,High risk area,since 15 Aug 2021
 Vanuatu,Not risk area,
 Samoa,Not risk area,
-Kosovo,Not risk area,
+Kosovo,High risk area,since 22 Aug 2021
 Yemen,Not risk area,
 South Africa,High risk area,since 01 Aug 2021
 Zambia,High risk area,since 01 Aug 2021

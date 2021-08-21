@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":"01.08.2021'den beri"
+  "info":""
  },
  "ARE":{
   "name":"Birleşik Arap Emirlikleri",
@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brezilya",
-  "info":"19.01.2021'den beri"
+  "info":"22.08.2021'den beri"
  },
  "BRB":{
   "name":"Barbados",
@@ -186,7 +186,7 @@ var info_rki = {
  },
  "DMA":{
   "name":"Dominik",
-  "info":""
+  "info":"22.08.2021'den beri"
  },
  "DNK":{
   "name":"Danimarka",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"İspanya",
-  "info":"27.07.2021'den beri"
+  "info":"27.07.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Asturias<\/li><li>Kanarya Adaları<\/li><li>Kastilya-La Mancha<\/li><li>Katalonya<\/li><li>Valensiya<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonya",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Yunanistan",
-  "info":""
+  "info":"24.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kreta, 24.08.2021'den beri<\/li><li>Südliche Ägäis, 24.08.2021'den beri<\/li><\/ul>"
  },
  "GRD":{
   "name":"Granada",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"İrlanda",
-  "info":""
+  "info":"22.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 22.08.2021'den beri<\/li><li>West, 22.08.2021'den beri<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Kuzey Makedonya",
-  "info":""
+  "info":"22.08.2021'den beri"
  },
  "MLI":{
   "name":"Mali",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":"06.06.2021'den beri"
+  "info":""
  },
  "USA":{
   "name":"Birleşik Devletler",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosova",
-  "info":""
+  "info":"22.08.2021'den beri"
  },
  "YEM":{
   "name":"Yemen",

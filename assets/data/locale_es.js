@@ -14,7 +14,7 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":"desde el 01\/08\/2021"
+  "info":""
  },
  "ARE":{
   "name":"Emiratos Árabes Unidos",
@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brasil",
-  "info":"desde el 19\/01\/2021"
+  "info":"desde el 22\/08\/2021"
  },
  "BRB":{
   "name":"Barbados",
@@ -186,7 +186,7 @@ var info_rki = {
  },
  "DMA":{
   "name":"Dominica",
-  "info":""
+  "info":"desde el 22\/08\/2021"
  },
  "DNK":{
   "name":"Dinamarca",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"España",
-  "info":"desde el 27\/07\/2021"
+  "info":"desde el 27\/07\/2021. A excepción de las siguientes regiones:<ul><li>Asturias<\/li><li>Islas Canarias<\/li><li>Castilla-La Mancha<\/li><li>Cataluña<\/li><li>Valencia<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecia",
-  "info":""
+  "info":"desde el 24\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Kreta, desde el 24\/08\/2021<\/li><li>Südliche Ägäis, desde el 24\/08\/2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Granada",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlanda",
-  "info":""
+  "info":"desde el 22\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Border, desde el 22\/08\/2021<\/li><li>West, desde el 22\/08\/2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Irán",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Macedonia del Norte",
-  "info":""
+  "info":"desde el 22\/08\/2021"
  },
  "MLI":{
   "name":"Mali",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":"desde el 06\/06\/2021"
+  "info":""
  },
  "USA":{
   "name":"Estados Unidos",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":""
+  "info":"desde el 22\/08\/2021"
  },
  "YEM":{
   "name":"Yemen",
