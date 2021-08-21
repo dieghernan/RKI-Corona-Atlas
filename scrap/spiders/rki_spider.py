@@ -52,7 +52,7 @@ class RKISpider(scrapy.Spider):
                          'fallback': '%d %b %Y'}}
 
     h2_xpath = "//div[contains(@class, 'text')]/h2"
-    li_xpath = "//following-sibling::ul[1]/li"
+    li_xpath = "//following-sibling::*[position()=1]/li"
 
     excluded_tags = (r'ausgenommen', r'ausnahme')
     included_pattern = r"die folgenden .+ gelten .*als"
