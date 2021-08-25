@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brasilien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021, Virusvariantengebiet vom 19. Januar 2021 bis 19. August 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021, Virusvariantengebiet vom 19. Januar 2021 bis 21. August 2021"
  },
  "BRB":{
   "name":"Barbados",
