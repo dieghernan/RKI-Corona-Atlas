@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Chile",
-  "info":"since 03 Apr 2021"
+  "info":""
  },
  "CHN":{
   "name":"China",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spain",
-  "info":"since 27 Jul 2021. The following regions are excluded:<ul><li>Asturias<\/li><li>Canary Islands<\/li><li>Castile-La Mancha<\/li><li>Catalonia<\/li><li>Valencia<\/li><\/ul>"
+  "info":""
  },
  "EST":{
   "name":"Estonia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":"since 24 Aug 2021. The risk designation applies to the following regions:<ul><li>Kreta, since 24 Aug 2021<\/li><li>Südliche Ägäis, since 24 Aug 2021<\/li><\/ul>"
+  "info":"since 24 Aug 2021. The risk designation applies to the following regions:<ul><li>Kreta, since 24 Aug 2021<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, since 24 Aug 2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaica",
-  "info":""
+  "info":"since 29 Aug 2021"
  },
  "JOR":{
   "name":"Jordan",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts and Nevis",
-  "info":""
+  "info":"since 29 Aug 2021"
  },
  "KOR":{
   "name":"South Korea",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":""
+  "info":"since 29 Aug 2021"
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"since 07 Jul 2021. The risk designation applies to the following regions:<ul><li>Algarve, since 07 Jul 2021<\/li><li>Lisbon, since 07 Jul 2021<\/li><\/ul>"
+  "info":"since 07 Jul 2021. The risk designation applies to the following regions:<ul><li>Algarve, since 07 Jul 2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",

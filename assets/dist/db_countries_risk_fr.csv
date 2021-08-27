@@ -30,7 +30,7 @@ Botswana,Zone à fort risque,depuis le 01/08/2021
 République Centrafricaine,Zone sans risque,
 Canada,Zone sans risque,
 Suisse,Zone sans risque,
-Chili,Zone à fort risque,depuis le 03/04/2021
+Chili,Zone sans risque,
 Chine,Zone sans risque,
 Côte d'Ivoire,Zone sans risque,
 Cameroun,Zone sans risque,
@@ -52,7 +52,7 @@ Algérie,Zone à fort risque,depuis le 08/08/2021
 Équateur,Zone à fort risque,depuis le 31/01/2021
 Égypte,Zone à fort risque,depuis le 24/01/2021
 Érythrée,Zone sans risque,
-Espagne,Zone à fort risque,depuis le 27/07/2021. Les régions suivantes sont exclues: -Asturies; -Îles Canaries; -Castille-La Manche; -Catalogne; -Valence
+Espagne,Zone sans risque,
 Estonie,Zone sans risque,
 Éthiopie,Zone sans risque,
 Finlande,Zone sans risque,
@@ -67,7 +67,7 @@ Guinée,Zone sans risque,
 Gambie,Zone sans risque,
 Guinée-Bissau,Zone sans risque,
 Guinée Équatoriale,Zone sans risque,
-Grèce,Zone à fort risque,"depuis le 24/08/2021. Le niveau de risque concerne les régions suivantes: -Kreta, depuis le 24/08/2021; -Südliche Ägäis, depuis le 24/08/2021"
+Grèce,Zone à fort risque,"depuis le 24/08/2021. Le niveau de risque concerne les régions suivantes: -Kreta, depuis le 24/08/2021; -Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, depuis le 24/08/2021"
 Grenade,Zone sans risque,
 Guatemala,Zone sans risque,
 Guyana,Zone sans risque,
@@ -84,7 +84,7 @@ Irak,Zone à fort risque,depuis le 08/08/2021
 Islande,Zone sans risque,
 Israël,Zone à fort risque,depuis le 15/08/2021
 Italie,Zone sans risque,
-Jamaïque,Zone sans risque,
+Jamaïque,Zone à fort risque,depuis le 29/08/2021
 Jordanie,Zone sans risque,
 Japon,Zone sans risque,
 Kazakhstan,Zone à fort risque,depuis le 08/08/2021
@@ -92,14 +92,14 @@ Kenya,Zone à fort risque,depuis le 15/08/2021
 Kirghizistan,Zone sans risque,
 Cambodge,Zone sans risque,
 Kiribati,Zone sans risque,
-Saint-Kitts-et-Nevis,Zone sans risque,
+Saint-Kitts-et-Nevis,Zone à fort risque,depuis le 29/08/2021
 Corée du Sud,Zone sans risque,
 Koweït,Zone à fort risque,depuis le 21/03/2021
 Laos,Zone sans risque,
 Liban,Zone sans risque,
 Libéria,Zone sans risque,
 Libye,Zone à fort risque,depuis le 18/07/2021
-Sainte-Lucie,Zone sans risque,
+Sainte-Lucie,Zone à fort risque,depuis le 29/08/2021
 Liechtenstein,Zone sans risque,
 Sri Lanka,Zone sans risque,
 Lesotho,Zone à fort risque,depuis le 01/08/2021
@@ -143,7 +143,7 @@ Palaos,Zone sans risque,
 Papouasie-Nouvelle-Guinée,Zone à fort risque,depuis le 08/08/2021
 Pologne,Zone sans risque,
 Corée du Nord,Zone à fort risque,depuis le 08/08/2021
-Portugal,Zone à fort risque,"depuis le 07/07/2021. Le niveau de risque concerne les régions suivantes: -Algarve, depuis le 07/07/2021; -Lisbonne, depuis le 07/07/2021"
+Portugal,Zone à fort risque,"depuis le 07/07/2021. Le niveau de risque concerne les régions suivantes: -Algarve, depuis le 07/07/2021"
 Paraguay,Zone à fort risque,depuis le 21/03/2021
 Palestine,Zone sans risque,
 Qatar,Zone sans risque,

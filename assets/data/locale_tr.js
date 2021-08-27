@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Şili",
-  "info":"03.04.2021'den beri"
+  "info":""
  },
  "CHN":{
   "name":"Çin",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"İspanya",
-  "info":"27.07.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Asturias<\/li><li>Kanarya Adaları<\/li><li>Kastilya-La Mancha<\/li><li>Katalonya<\/li><li>Valensiya<\/li><\/ul>"
+  "info":""
  },
  "EST":{
   "name":"Estonya",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Yunanistan",
-  "info":"24.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kreta, 24.08.2021'den beri<\/li><li>Südliche Ägäis, 24.08.2021'den beri<\/li><\/ul>"
+  "info":"24.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kreta, 24.08.2021'den beri<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, 24.08.2021'den beri<\/li><\/ul>"
  },
  "GRD":{
   "name":"Granada",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaika",
-  "info":""
+  "info":"29.08.2021'den beri"
  },
  "JOR":{
   "name":"Ürdün",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Sen Kitts ve Nevis",
-  "info":""
+  "info":"29.08.2021'den beri"
  },
  "KOR":{
   "name":"Güney Kore",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Sen Lucia",
-  "info":""
+  "info":"29.08.2021'den beri"
  },
  "LIE":{
   "name":"Lihtenştayn",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portekiz",
-  "info":"07.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Algarve, 07.07.2021'den beri<\/li><li>Lizbon, 07.07.2021'den beri<\/li><\/ul>"
+  "info":"07.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Algarve, 07.07.2021'den beri<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",

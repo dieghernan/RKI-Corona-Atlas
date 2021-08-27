@@ -30,7 +30,7 @@ Botsuana,Área de alto riesgo,desde el 01/08/2021
 República Centro-africana,No es área de riesgo,
 Canadá,No es área de riesgo,
 Suiza,No es área de riesgo,
-Chile,Área de alto riesgo,desde el 03/04/2021
+Chile,No es área de riesgo,
 China,No es área de riesgo,
 Costa de Marfil,No es área de riesgo,
 Camerún,No es área de riesgo,
@@ -52,7 +52,7 @@ Algeria,Área de alto riesgo,desde el 08/08/2021
 Ecuador,Área de alto riesgo,desde el 31/01/2021
 Egipto,Área de alto riesgo,desde el 24/01/2021
 Eritrea,No es área de riesgo,
-España,Área de alto riesgo,desde el 27/07/2021. A excepción de las siguientes regiones: -Asturias; -Islas Canarias; -Castilla-La Mancha; -Cataluña; -Valencia
+España,No es área de riesgo,
 Estonia,No es área de riesgo,
 Etiopía,No es área de riesgo,
 Finlandia,No es área de riesgo,
@@ -67,7 +67,7 @@ Guinea,No es área de riesgo,
 Gambia,No es área de riesgo,
 Guinea-Bissau,No es área de riesgo,
 Guinea Ecuatorial,No es área de riesgo,
-Grecia,Área de alto riesgo,"desde el 24/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Kreta, desde el 24/08/2021; -Südliche Ägäis, desde el 24/08/2021"
+Grecia,Área de alto riesgo,"desde el 24/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Kreta, desde el 24/08/2021; -Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, desde el 24/08/2021"
 Granada,No es área de riesgo,
 Guatemala,No es área de riesgo,
 Guyana,No es área de riesgo,
@@ -84,7 +84,7 @@ Iraq,Área de alto riesgo,desde el 08/08/2021
 Islandia,No es área de riesgo,
 Israel,Área de alto riesgo,desde el 15/08/2021
 Italia,No es área de riesgo,
-Jamaica,No es área de riesgo,
+Jamaica,Área de alto riesgo,desde el 29/08/2021
 Jordania,No es área de riesgo,
 Japón,No es área de riesgo,
 Kazajistán,Área de alto riesgo,desde el 08/08/2021
@@ -92,14 +92,14 @@ Kenia,Área de alto riesgo,desde el 15/08/2021
 Kirgizstán,No es área de riesgo,
 Camboya,No es área de riesgo,
 Kiribati,No es área de riesgo,
-San Cristobo y Nevis,No es área de riesgo,
+San Cristobo y Nevis,Área de alto riesgo,desde el 29/08/2021
 Corea del Sur,No es área de riesgo,
 Kuwait,Área de alto riesgo,desde el 21/03/2021
 Laos,No es área de riesgo,
 Líbano,No es área de riesgo,
 Liberia,No es área de riesgo,
 Libia,Área de alto riesgo,desde el 18/07/2021
-Santa Lucía,No es área de riesgo,
+Santa Lucía,Área de alto riesgo,desde el 29/08/2021
 Liechtenstein,No es área de riesgo,
 Sri Lanka,No es área de riesgo,
 Lesoto,Área de alto riesgo,desde el 01/08/2021
@@ -143,7 +143,7 @@ Palau,No es área de riesgo,
 Papúa Nueva Guinea,Área de alto riesgo,desde el 08/08/2021
 Polonia,No es área de riesgo,
 Corea del Norte,Área de alto riesgo,desde el 08/08/2021
-Portugal,Área de alto riesgo,"desde el 07/07/2021. El nivel de riesgo afecta a las siguientes regiones: -Algarve, desde el 07/07/2021; -Lisboa, desde el 07/07/2021"
+Portugal,Área de alto riesgo,"desde el 07/07/2021. El nivel de riesgo afecta a las siguientes regiones: -Algarve, desde el 07/07/2021"
 Paraguay,Área de alto riesgo,desde el 21/03/2021
 Palestina,No es área de riesgo,
 Qatar,No es área de riesgo,

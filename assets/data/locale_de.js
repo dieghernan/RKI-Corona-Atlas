@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Chile",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. April 2021"
+  "info":""
  },
  "CHN":{
   "name":"China",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":"inkl. der Balearen (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021; einfaches Risikogebiet vom 11. Juli 2021 bis 26. Juli 2021) mit Ausnahme der autonomen Gemeinschaften Asturien, Kastilien-La Mancha, Katalonien und Valencia sowie den Kanarischen Inseln (seit 22. August 2021)"
+  "info":""
  },
  "EST":{
   "name":"Estland",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Griechenland",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Kreta (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><li>Südliche Ägäis (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><\/ul>"
+  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Kreta (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaika",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
  },
  "JOR":{
   "name":"Jordanien",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"St. Kitts und Nevis",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
  },
  "KOR":{
   "name":"Südkorea",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"St. Lucia",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 31. Januar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "LTU":{
   "name":"Litauen",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mosambik",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "MRT":{
   "name":"Mauretanien",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "MYS":{
   "name":"Malaysia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 20. Juni 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "NER":{
   "name":"Niger",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Algarve (<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021)<\/li><li>Lissabon (<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021)<\/li><\/ul>"
+  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Algarve (<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021)<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",
@@ -670,7 +670,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 31. Januar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "SYC":{
   "name":"Seychellen",
@@ -782,14 +782,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Südafrika",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 13. Januar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "ZMB":{
   "name":"Sambia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  },
  "ZWE":{
   "name":"Simbabwe",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
  }
 };

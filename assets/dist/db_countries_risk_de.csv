@@ -30,7 +30,7 @@ Botsuana,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
 Zentralafrikanische Republik,Kein Risikogebiet,
 Kanada,Kein Risikogebiet,
 Schweiz,Kein Risikogebiet,
-Chile,Hochrisikogebiet,Hochrisikogebiet seit 3. April 2021
+Chile,Kein Risikogebiet,
 China,Kein Risikogebiet,
 Côte d'Ivoire,Kein Risikogebiet,
 Kamerun,Kein Risikogebiet,
@@ -52,7 +52,7 @@ Algerien,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Ecuador,Hochrisikogebiet,Hochrisikogebiet seit 31. Januar 2021
 Ägypten,Hochrisikogebiet,Hochrisikogebiet seit 24. Januar 2021
 Eritrea,Kein Risikogebiet,
-Spanien,Hochrisikogebiet,"inkl. der Balearen (Hochrisikogebiet seit 27. Juli 2021; einfaches Risikogebiet vom 11. Juli 2021 bis 26. Juli 2021) mit Ausnahme der autonomen Gemeinschaften Asturien, Kastilien-La Mancha, Katalonien und Valencia sowie den Kanarischen Inseln (seit 22. August 2021)"
+Spanien,Kein Risikogebiet,
 Estland,Kein Risikogebiet,
 Äthiopien,Kein Risikogebiet,
 Finnland,Kein Risikogebiet,
@@ -67,7 +67,7 @@ Guinea,Kein Risikogebiet,
 Gambia,Kein Risikogebiet,
 Guinea-Bissau,Kein Risikogebiet,
 Äquatorialguinea,Kein Risikogebiet,
-Griechenland,Hochrisikogebiet,- die folgenden Regionen gelten als Hochrisikogebiete: -Kreta (Hochrisikogebiet seit 24. August 2021); -Südliche Ägäis (Hochrisikogebiet seit 24. August 2021)
+Griechenland,Hochrisikogebiet,"- die folgenden Regionen gelten als Hochrisikogebiete: -Kreta (Hochrisikogebiet seit 24. August 2021); -Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos (Hochrisikogebiet seit 24. August 2021)"
 Grenada,Kein Risikogebiet,
 Guatemala,Kein Risikogebiet,
 Guyana,Kein Risikogebiet,
@@ -84,7 +84,7 @@ Irak,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Island,Kein Risikogebiet,
 Israel,Hochrisikogebiet,(Hochrisikogebiet seit 15. August 2021) mit Ausnahme der Palästinensischen Gebiete
 Italien,Kein Risikogebiet,
-Jamaika,Kein Risikogebiet,
+Jamaika,Hochrisikogebiet,Hochrisikogebiet seit 29. August 2021
 Jordanien,Kein Risikogebiet,
 Japan,Kein Risikogebiet,
 Kasachstan,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
@@ -92,17 +92,17 @@ Kenia,Hochrisikogebiet,Hochrisikogebiet seit 15. August 2021
 Kirgisistan,Kein Risikogebiet,
 Kambodscha,Kein Risikogebiet,
 Kiribati,Kein Risikogebiet,
-St. Kitts und Nevis,Kein Risikogebiet,
+St. Kitts und Nevis,Hochrisikogebiet,Hochrisikogebiet seit 29. August 2021
 Südkorea,Kein Risikogebiet,
 Kuwait,Hochrisikogebiet,Hochrisikogebiet seit 21. März 2021
 Laos,Kein Risikogebiet,
 Libanon,Kein Risikogebiet,
 Liberia,Kein Risikogebiet,
 Libyen,Hochrisikogebiet,Hochrisikogebiet seit 18. Juli 2021
-St. Lucia,Kein Risikogebiet,
+St. Lucia,Hochrisikogebiet,Hochrisikogebiet seit 29. August 2021
 Liechtenstein,Kein Risikogebiet,
 Sri Lanka,Kein Risikogebiet,
-Lesotho,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 31. Januar 2021 – 31. Juli 2021
+Lesotho,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
 Litauen,Kein Risikogebiet,
 Luxemburg,Kein Risikogebiet,
 Lettland,Kein Risikogebiet,
@@ -119,12 +119,12 @@ Malta,Kein Risikogebiet,
 Myanmar,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Montenegro,Hochrisikogebiet,Hochrisikogebiet seit 15. August 2021
 Mongolei,Hochrisikogebiet,Hochrisikogebiet seit 13. Juni 2021
-Mosambik,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021
+Mosambik,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
 Mauretanien,Kein Risikogebiet,
 Mauritius,Kein Risikogebiet,
-Malawi,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021
+Malawi,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
 Malaysia,Hochrisikogebiet,Hochrisikogebiet seit 13. Juni 2021
-Namibia,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 20. Juni 2021 – 31. Juli 2021
+Namibia,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
 Niger,Kein Risikogebiet,
 Nigeria,Kein Risikogebiet,
 Nicaragua,Kein Risikogebiet,
@@ -143,7 +143,7 @@ Palau,Kein Risikogebiet,
 Papua-Neuguinea,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Polen,Kein Risikogebiet,
 Korea (Demokratische Volksrepublik),Hochrisikogebiet, Hochrisikogebiet seit 8. August 2021
-Portugal,Hochrisikogebiet,- die folgenden Regionen gelten als Hochrisikogebiete: -Algarve (Hochrisikogebiet seit 7. Juli 2021); -Lissabon (Hochrisikogebiet seit 7. Juli 2021)
+Portugal,Hochrisikogebiet,- die folgenden Regionen gelten als Hochrisikogebiete: -Algarve (Hochrisikogebiet seit 7. Juli 2021)
 Paraguay,Hochrisikogebiet,Hochrisikogebiet seit 21. März 2021
 Palästinensische Gebiete,Kein Risikogebiet,
 Katar,Kein Risikogebiet,
@@ -166,7 +166,7 @@ Surinam,Hochrisikogebiet, (Hochrisikogebiet seit 23. Mai 2021)
 Slowakei,Kein Risikogebiet,
 Slowenien,Kein Risikogebiet,
 Schweden,Kein Risikogebiet,
-Eswatini,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 31. Januar 2021 – 31. Juli 2021
+Eswatini,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
 Seychellen,Hochrisikogebiet,Hochrisikogebiet seit 14. Februar 2021
 Syrische Arabische Republik,Hochrisikogebiet,Hochrisikogebiet seit 31. Januar 2021
 Tschad,Kein Risikogebiet,
@@ -194,6 +194,6 @@ Vanuatu,Kein Risikogebiet,
 Samoa,Kein Risikogebiet,
 Kosovo,Hochrisikogebiet,Hochrisikogebiet seit 22. August 2021
 Jemen,Kein Risikogebiet,
-Südafrika,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 13. Januar 2021 – 31. Juli 2021
-Sambia,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021
-Simbabwe,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021; Virusvariantengebiet vom 7. Februar 2021 – 31. Juli 2021
+Südafrika,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
+Sambia,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021
+Simbabwe,Hochrisikogebiet,Hochrisikogebiet seit 1. August 2021

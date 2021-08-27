@@ -30,7 +30,7 @@ Botswana,High risk area,since 01 Aug 2021
 Central African Republic,Not risk area,
 Canada,Not risk area,
 Switzerland,Not risk area,
-Chile,High risk area,since 03 Apr 2021
+Chile,Not risk area,
 China,Not risk area,
 Cote D'Ivoire,Not risk area,
 Cameroon,Not risk area,
@@ -52,7 +52,7 @@ Algeria,High risk area,since 08 Aug 2021
 Ecuador,High risk area,since 31 Jan 2021
 Egypt,High risk area,since 24 Jan 2021
 Eritrea,Not risk area,
-Spain,High risk area,since 27 Jul 2021. The following regions are excluded: -Asturias; -Canary Islands; -Castile-La Mancha; -Catalonia; -Valencia
+Spain,Not risk area,
 Estonia,Not risk area,
 Ethiopia,Not risk area,
 Finland,Not risk area,
@@ -67,7 +67,7 @@ Guinea,Not risk area,
 Gambia,Not risk area,
 Guinea-Bissau,Not risk area,
 Equatorial Guinea,Not risk area,
-Greece,High risk area,"since 24 Aug 2021. The risk designation applies to the following regions: -Kreta, since 24 Aug 2021; -Südliche Ägäis, since 24 Aug 2021"
+Greece,High risk area,"since 24 Aug 2021. The risk designation applies to the following regions: -Kreta, since 24 Aug 2021; -Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, since 24 Aug 2021"
 Grenada,Not risk area,
 Guatemala,Not risk area,
 Guyana,Not risk area,
@@ -84,7 +84,7 @@ Iraq,High risk area,since 08 Aug 2021
 Iceland,Not risk area,
 Israel,High risk area,since 15 Aug 2021
 Italy,Not risk area,
-Jamaica,Not risk area,
+Jamaica,High risk area,since 29 Aug 2021
 Jordan,Not risk area,
 Japan,Not risk area,
 Kazakhstan,High risk area,since 08 Aug 2021
@@ -92,14 +92,14 @@ Kenya,High risk area,since 15 Aug 2021
 Kyrgyzstan,Not risk area,
 Cambodia,Not risk area,
 Kiribati,Not risk area,
-Saint Kitts and Nevis,Not risk area,
+Saint Kitts and Nevis,High risk area,since 29 Aug 2021
 South Korea,Not risk area,
 Kuwait,High risk area,since 21 Mar 2021
 Laos,Not risk area,
 Lebanon,Not risk area,
 Liberia,Not risk area,
 Libya,High risk area,since 18 Jul 2021
-Saint Lucia,Not risk area,
+Saint Lucia,High risk area,since 29 Aug 2021
 Liechtenstein,Not risk area,
 Sri Lanka,Not risk area,
 Lesotho,High risk area,since 01 Aug 2021
@@ -143,7 +143,7 @@ Palau,Not risk area,
 Papua New Guinea,High risk area,since 08 Aug 2021
 Poland,Not risk area,
 North Korea,High risk area,since 08 Aug 2021
-Portugal,High risk area,"since 07 Jul 2021. The risk designation applies to the following regions: -Algarve, since 07 Jul 2021; -Lisbon, since 07 Jul 2021"
+Portugal,High risk area,"since 07 Jul 2021. The risk designation applies to the following regions: -Algarve, since 07 Jul 2021"
 Paraguay,High risk area,since 21 Mar 2021
 Palestine,Not risk area,
 Qatar,Not risk area,

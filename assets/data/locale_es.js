@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Chile",
-  "info":"desde el 03\/04\/2021"
+  "info":""
  },
  "CHN":{
   "name":"China",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"España",
-  "info":"desde el 27\/07\/2021. A excepción de las siguientes regiones:<ul><li>Asturias<\/li><li>Islas Canarias<\/li><li>Castilla-La Mancha<\/li><li>Cataluña<\/li><li>Valencia<\/li><\/ul>"
+  "info":""
  },
  "EST":{
   "name":"Estonia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecia",
-  "info":"desde el 24\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Kreta, desde el 24\/08\/2021<\/li><li>Südliche Ägäis, desde el 24\/08\/2021<\/li><\/ul>"
+  "info":"desde el 24\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Kreta, desde el 24\/08\/2021<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, desde el 24\/08\/2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Granada",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaica",
-  "info":""
+  "info":"desde el 29\/08\/2021"
  },
  "JOR":{
   "name":"Jordania",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"San Cristobo y Nevis",
-  "info":""
+  "info":"desde el 29\/08\/2021"
  },
  "KOR":{
   "name":"Corea del Sur",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Santa Lucía",
-  "info":""
+  "info":"desde el 29\/08\/2021"
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"desde el 07\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Algarve, desde el 07\/07\/2021<\/li><li>Lisboa, desde el 07\/07\/2021<\/li><\/ul>"
+  "info":"desde el 07\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Algarve, desde el 07\/07\/2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",

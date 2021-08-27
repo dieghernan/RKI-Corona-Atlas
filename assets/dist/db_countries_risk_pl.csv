@@ -30,7 +30,7 @@ Botswana,Obszar wysokiego ryzyka,od 01.08.2021
 Republika Środkowoafrykańska,Nie jest to obszar ryzyka,
 Kanada,Nie jest to obszar ryzyka,
 Szwajcaria,Nie jest to obszar ryzyka,
-Chile,Obszar wysokiego ryzyka,od 03.04.2021
+Chile,Nie jest to obszar ryzyka,
 Chiny,Nie jest to obszar ryzyka,
 Wybrzeże Kości Słoniowej,Nie jest to obszar ryzyka,
 Kamerun,Nie jest to obszar ryzyka,
@@ -52,7 +52,7 @@ Algieria,Obszar wysokiego ryzyka,od 08.08.2021
 Ekwador,Obszar wysokiego ryzyka,od 31.01.2021
 Egipt,Obszar wysokiego ryzyka,od 24.01.2021
 Erytrea,Nie jest to obszar ryzyka,
-Hiszpania,Obszar wysokiego ryzyka,od 27.07.2021. Z wyjątkiem następujących regionów: -Asturias; -Wyspy Kanaryjskie; -Kastylia-La Mancha; -Katalonia; -Valencia
+Hiszpania,Nie jest to obszar ryzyka,
 Estonia,Nie jest to obszar ryzyka,
 Etiopia,Nie jest to obszar ryzyka,
 Finlandia,Nie jest to obszar ryzyka,
@@ -67,7 +67,7 @@ Gwinea,Nie jest to obszar ryzyka,
 Gambia,Nie jest to obszar ryzyka,
 Gwinea Bissau,Nie jest to obszar ryzyka,
 Gwinea Równikowa,Nie jest to obszar ryzyka,
-Grecja,Obszar wysokiego ryzyka,"od 24.08.2021. Poziom ryzyka dotyczy następujących regionów: -Kreta, od 24.08.2021; -Südliche Ägäis, od 24.08.2021"
+Grecja,Obszar wysokiego ryzyka,"od 24.08.2021. Poziom ryzyka dotyczy następujących regionów: -Kreta, od 24.08.2021; -Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, od 24.08.2021"
 Grenada,Nie jest to obszar ryzyka,
 Gwatemala,Nie jest to obszar ryzyka,
 Gujana,Nie jest to obszar ryzyka,
@@ -84,7 +84,7 @@ Irak,Obszar wysokiego ryzyka,od 08.08.2021
 Islandia,Nie jest to obszar ryzyka,
 Izrael,Obszar wysokiego ryzyka,od 15.08.2021
 Włochy,Nie jest to obszar ryzyka,
-Jamajka,Nie jest to obszar ryzyka,
+Jamajka,Obszar wysokiego ryzyka,od 29.08.2021
 Jordania,Nie jest to obszar ryzyka,
 Japonia,Nie jest to obszar ryzyka,
 Kazachstan,Obszar wysokiego ryzyka,od 08.08.2021
@@ -92,14 +92,14 @@ Kenia,Obszar wysokiego ryzyka,od 15.08.2021
 Kirgistan,Nie jest to obszar ryzyka,
 Kambodża,Nie jest to obszar ryzyka,
 Kiribati,Nie jest to obszar ryzyka,
-Saint Kitts i Nevis,Nie jest to obszar ryzyka,
+Saint Kitts i Nevis,Obszar wysokiego ryzyka,od 29.08.2021
 Korea Południowa,Nie jest to obszar ryzyka,
 Kuwejt,Obszar wysokiego ryzyka,od 21.03.2021
 Laos,Nie jest to obszar ryzyka,
 Liban,Nie jest to obszar ryzyka,
 Liberia,Nie jest to obszar ryzyka,
 Libia,Obszar wysokiego ryzyka,od 18.07.2021
-Saint Lucia,Nie jest to obszar ryzyka,
+Saint Lucia,Obszar wysokiego ryzyka,od 29.08.2021
 Liechtenstein,Nie jest to obszar ryzyka,
 Sri Lanka,Nie jest to obszar ryzyka,
 Lesoto,Obszar wysokiego ryzyka,od 01.08.2021
@@ -143,7 +143,7 @@ Palau,Nie jest to obszar ryzyka,
 Papua-Nowa Gwinea,Obszar wysokiego ryzyka,od 08.08.2021
 Polska,Nie jest to obszar ryzyka,
 Korea Północna,Obszar wysokiego ryzyka,od 08.08.2021
-Portugalia,Obszar wysokiego ryzyka,"od 07.07.2021. Poziom ryzyka dotyczy następujących regionów: -Algarve, od 07.07.2021; -Lizbona, od 07.07.2021"
+Portugalia,Obszar wysokiego ryzyka,"od 07.07.2021. Poziom ryzyka dotyczy następujących regionów: -Algarve, od 07.07.2021"
 Paragwaj,Obszar wysokiego ryzyka,od 21.03.2021
 Palestyna,Nie jest to obszar ryzyka,
 Katar,Nie jest to obszar ryzyka,
