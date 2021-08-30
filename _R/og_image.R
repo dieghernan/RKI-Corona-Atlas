@@ -88,14 +88,27 @@ og_map <-
   tm_shape(tiles, raster.downsample = FALSE, bbox = all_shapes) +
   tm_rgb() +
   tm_shape(DEU) +
-  tm_fill(col = "blue", alpha = .5) +
-  tm_shape(level0) +
-  tm_fill(col = "#00FF00", alpha = .5) +
-  tm_shape(level1) +
-  tm_fill(col = "red", alpha = .5) +
-  tm_shape(level2) +
-  tm_fill(col = "yellow", alpha = .5)
+  tm_fill(col = "blue", alpha = .5)
 
+# Fix #16
+if (nrow(level0) > 0) {
+  og_map <- og_map +
+    tm_shape(level0) +
+    tm_fill(col = "#00FF00", alpha = .5)
+}
+if (nrow(level1) > 0) {
+  og_map <- og_map +
+    tm_shape(level1) +
+    tm_fill(col = "red", alpha = .5)
+}
+
+if (nrow(level2) > 0) {
+  og_map <- og_map +
+    tm_shape(level2) +
+    tm_fill(col = "yellow", alpha = .5)
+}
+
+# End fix
 
 tmap_save(og_map, "assets/img/og_corona_atlas.png", dpi = 90)
 
