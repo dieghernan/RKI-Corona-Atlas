@@ -7,8 +7,8 @@
 		<description>Interactive map of the international COVID-19 risk areas as designated by the German authorities.</description>
 		<language>de-DE</language>
 		<copyright>(c) 2021, Diego & Rodrigo</copyright>	
-		<pubDate>Mon, 30 Aug 2021 10:11:09 +0200</pubDate>
-		<lastBuildDate>Mon, 30 Aug 2021 10:11:09 +0200</lastBuildDate>
+		<pubDate>Mon, 30 Aug 2021 10:28:32 +0200</pubDate>
+		<lastBuildDate>Mon, 30 Aug 2021 10:28:32 +0200</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://corona-atlas.de/rss.xml" rel="self" type="application/rss+xml" />
