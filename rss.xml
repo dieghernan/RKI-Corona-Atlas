@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Corona Atlas | Internationale COVID-19 Risikogebiete im Überblick</title>
+		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
+		<link>https://corona-atlas.de/</link>
+		<description>Interactive map of the international COVID-19 risk areas as designated by the German authorities.</description>
+		<language>de-DE</language>
+		<copyright>(c) 2021, Diego & Rodrigo</copyright>	
+		<pubDate>Mon, 30 Aug 2021 10:11:09 +0200</pubDate>
+		<lastBuildDate>Mon, 30 Aug 2021 10:11:09 +0200</lastBuildDate>
+		<category>blog</category>
+		<ttl>60</ttl>
+		<atom:link href="https://corona-atlas.de/rss.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<title>Corona Atlas | Internationale COVID-19 Risikogebiete im Überblick</title>
+			<url>https://corona-atlas.de/assets/img/og_corona_atlas.png</url>
+			<link>https://corona-atlas.de/</link>
+			<description>Interactive map of the international COVID-19 risk areas as designated by the German authorities.</description>
+		</image></channel>
+</rss>

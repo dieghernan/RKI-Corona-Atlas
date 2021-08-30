@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="de-DE"><head>
+   <meta charset="utf-8">
+    <!-- Chulapa Jekyll Theme - master dev -->
+    <!--  MIT License-->
+    <!-- Docs: https://dieghernan.github.io/chulapa -->
+    <!-- Repo: https://github.com/dieghernan/chulapa -->
+    <!-- Page build 2021-08-30 10:11:09 +0200 -->
+    <!--Google Structured Data-->
+    <script type="application/ld+json">
+        {
+      "@context": "https://schema.org",
+	  "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://corona-atlas.de/tr"
+      },
+      "headline": "Uluslararasi COVID-19 risk bölgeleri",
+      "image": "https://corona-atlas.de/assets/img/og_corona_atlas.png",
+      "datePublished": "2021-08-30T10:11:09+02:00",
+      "dateModified": "2021-08-30T10:11:09+02:00",
+      "author": {
+        "@type": "Person",
+        "name": "Diego & Rodrigo"
+      },
+       "publisher": {
+        "@type": "Organization",
+        "name": "Diego & Rodrigo",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://corona-atlas.de/assets/img/og_corona_atlas.png"
+        }
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Corona Atlas",
+        "item": "https://corona-atlas.de/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Uluslararasi COVID-19 risk bölgeleri"
+      }]
+    }
+    </script>
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Uluslararasi COVID-19 risk bölgeleri",
+    "description": "Alman hükümeti tarafından belirlendiği şekilde - İnteraktif harita Almanya tarafından belirlenen Dünya 
+çapındaki mevcut risk tanımlarını keşfetmenizi sağlar.
+Bir ülke ve bölgelerinden Almanya&#39;ya seyahat ile ilgili
+kısıtlamalar hakkında daha fazla bilgi için 
+o ülkeye tıklayın.
+"
+    }
+}
+</script><script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "@type" : "Person",
+  "homeLocation": {
+    "@type": "Place",
+    "name": "Berlin, Germany"
+    },
+  "description": "Publisher",
+  "name" : "Diego & Rodrigo",
+  "url" : "https://corona-atlas.de/"
+}
+</script>
+   <title>Uluslararasi COVID-19 risk bölgeleri | Corona Atlas</title>
+  <link rel="canonical" href="https://corona-atlas.de/tr">
+    <!-- Atom feed -->
+  <link href="https://corona-atlas.de/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed Corona Atlas" />
+    <!-- RSS 2.0 feed -->
+  <link href="https://corona-atlas.de/rss.xml" type="application/rss+xml" rel="alternate" title="RSS 2.0 feed Corona Atlas" />
+    <!-- Meta tags -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="author" content="Diego & Rodrigo" />
+   <meta name="copyright" content="Diego & Rodrigo" />
+   <meta name="description" content="Alman hükümeti tarafından belirlendiği şekilde - İnteraktif harita Almanya tarafından belirlenen Dünya 
+çapındaki mevcut risk t..."/>
+   <meta name="thumbnail" content="https://corona-atlas.de/assets/img/og_corona_atlas.png" />
+   <meta name="robots" content="index, follow"><meta name="keywords" content="germany,leaflet,maps,pyhton,r,robert-koch-institut"/>
+    <!-- OpenGraph -->
+   <meta property="og:title" content="Uluslararasi COVID-19 risk bölgeleri | Corona Atlas" />
+   <meta property="og:url" content="https://corona-atlas.de/tr" />
+   <meta property="og:type" content="website" />
+   <meta property="og:description" content="Alman hükümeti tarafından belirlendiği şekilde - İnteraktif harita Almanya tarafından belirlenen Dünya çapındaki mevcut risk tanımlarını keşfetmenizi sağlar. Bir ülke..." />
+   <meta property="og:locale" content="de-DE" />
+   <meta property="og:image" content="https://corona-atlas.de/assets/img/og_corona_atlas.png" />
+    <!-- Twitter Cards -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:site" content="@rodrihgh" />
+    <!-- start custom head snippets -->
+<!-- this script is inserted before the css stylesheet -->
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/header-attrs-2.7/header-attrs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/jquery-1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/navigation-1.1/tabsets.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/htmlwidgets-1.5.3/htmlwidgets.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-1.3.1/leaflet.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-1.3.1/leaflet-mod.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leafletfix-1.0.0/leafletfix.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/proj4-2.6.2/proj4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/Proj4Leaflet-1.0.1/proj4leaflet.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/rstudio_leaflet-1.3.1/rstudio_leaflet.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-binding-2.0.4.1/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-providers-1.9.0/leaflet-providers_1.9.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-providers-plugin-2.0.4.1/leaflet-providers-plugin.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-easybutton-1.3.1/easy-button.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-easybutton-1.3.1/easy-button.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/leaflet-easybutton-1.3.1/EasyButton-binding.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/core-js-2.5.3/shim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/react-17.0.0/react.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/react-17.0.0/react-dom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/reactwidget-1.0.0/react-tools.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/reactable-binding-0.2.3/reactable.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-rc/_R/plugins/lfx-search/lfx-search-prod-mod.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/lfx-search/lfx-search-prod-mod.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas/_R/plugins/lfx-search/lfx-search-bindings-mod.min.js"></script>
+<script src="assets/data/risk.js"></script>
+<!-- end custom head snippets -->
+<!-- CSS -->
+    <!-- Preconnect with Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Fontawesome-->
+    <!-- v5.13 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    <!-- Theme css (Bootstrap included) -->
+  <link rel="stylesheet" href="https://corona-atlas.de/assets/css/main.css" />
+    <!-- Highlighter -->
+  <link id="csshigh" rel="stylesheet" href="https://corona-atlas.de/assets/css/highlighter.css" />
+    <!-- Custom css -->
+  <link rel="stylesheet" href="https://corona-atlas.de/assets/css/custom.css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N81B7N0WSC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N81B7N0WSC');
+</script>
+<!-- start custom head snippets -->
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="./assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Corona Atlas">
+<meta name="application-name" content="Corona Atlas">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-config" content="./assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ecf6fe">
+<!-- end custom head snippets -->
+</head>
+<body class="d-flex flex-column">
+	<div class="navbar-chulapa-fab d-md-none">
+		<input type="checkbox" class="navbar-chulapa-fab-button d-none" id="navi-toggle">
+		<label for="navi-toggle" class="navbar-toggler p-1 m-0 text-center d-flex">
+			<span class="navbar-toggler-icon m-auto">&nbsp;</span>
+		</label>
+		<div class="navbar-chulapa-fab-background">&nbsp;</div>
+		<nav class="navbar-chulapa-fab-nav">
+			<ul class="navbar-nav text-center text-uppercase font-weight-light mt-0 mb-1 py-1">
+				<li class="nav-item">
+					<a class="nav-link px-3 navbar-brand mx-1 " href="https://corona-atlas.de/"><img src="https://corona-atlas.de/assets/img/corona-atlas-icon.svg" width="30" height="30" class="d-inline-block align-top rounded-lg text-center mr-1" alt="NavbarLogo">Corona Atlas</a>
+				</li><li class="nav-item dropdown my-0 py-1"><a class="nav-link dropdown-toggle px-3 py-1  active font-weight-bold " href="#" id="Language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+					<div class="dropdown-menu dropdown-menu-right text-center rounded-0 pr-4" aria-labelledby="Language"><a class="dropdown-item nav-link d-block px-3 small " href="https://corona-atlas.de/">Deutsch <img class="d-inline mb-1" src="https://flagcdn.com/16x12/de.png" width="16" height="12" alt="Germany"> </a><a class="dropdown-item nav-link d-block px-3 small " href="https://corona-atlas.de/en">English <img class="d-inline mb-1" src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="United Kingdom"> </a><a class="dropdown-item nav-link d-block px-3 small " href="https://corona-atlas.de/es">Español <img class="d-inline mb-1" src="https://flagcdn.com/16x12/es.png" width="16" height="12" alt="Spain"> </a><a class="dropdown-item nav-link d-block px-3 small " href="https://corona-atlas.de/fr">Français <img class="d-inline mb-1" src="https://flagcdn.com/16x12/fr.png" width="16" height="12" alt="France"> </a><a class="dropdown-item nav-link d-block px-3 small " href="https://corona-atlas.de/pl">Polski <img class="d-inline mb-1" src="https://flagcdn.com/16x12/pl.png" width="16" height="12" alt="Poland"> </a><a class="dropdown-item nav-link d-block px-3 small  active font-weight-bold " href="https://corona-atlas.de/tr">Türkçe <img class="d-inline mb-1" src="https://flagcdn.com/16x12/tr.png" width="16" height="12" alt="Turkey"> <span class="sr-only">(current)</span></a></div>
+				</li><li class="nav-item my-0 py-1">
+					<a class="nav-link px-3 py-1" href="https://corona-atlas.de/about">About</a>
+				</li></ul>
+		</nav>
+	</div>
+	<nav class="navbar navbar-expand sticky-top navbar-chulapa d-none d-md-block ">
+	<div class="container-fluid mx-md-2">
+			<a class="navbar-brand text-uppercase font-weight-light" href="https://corona-atlas.de/"><img src="https://corona-atlas.de/assets/img/corona-atlas-icon.svg" width="30" height="30" class="d-inline-block align-top rounded-lg mr-1" alt="NavbarLogo">Corona Atlas</a><ul class="navbar-nav ml-auto"><li class="nav-item mx-2 dropdown"><a class="nav-link text-uppercase font-weight-light dropdown-toggle  active font-weight-bold" href="#" id="Language2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Language2"><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/">Deutsch <img class="d-inline mb-1" src="https://flagcdn.com/16x12/de.png" width="16" height="12" alt="Germany"></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/en">English <img class="d-inline mb-1" src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="United Kingdom"></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/es">Español <img class="d-inline mb-1" src="https://flagcdn.com/16x12/es.png" width="16" height="12" alt="Spain"></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/fr">Français <img class="d-inline mb-1" src="https://flagcdn.com/16x12/fr.png" width="16" height="12" alt="France"></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/pl">Polski <img class="d-inline mb-1" src="https://flagcdn.com/16x12/pl.png" width="16" height="12" alt="Poland"></a><a class="dropdown-item text-uppercase font-weight-light  active font-weight-bold" href="https://corona-atlas.de/tr">Türkçe <img class="d-inline mb-1" src="https://flagcdn.com/16x12/tr.png" width="16" height="12" alt="Turkey"><span class="sr-only">(current)</span></a></div>
+					</li><li class="nav-item mx-2">
+						<a class="nav-link text-uppercase font-weight-light " href="https://corona-atlas.de/about">About</a>
+					</li></ul></div>
+</nav>	<header class="d-flex align-items-center hero-chulapa"><div class="container-lg py-4">
+   <h1>Uluslararasi COVID-19 risk bölgeleri</h1><hr class="my-3">
+   <p class="chulapa-subtitle">Alman hükümeti tarafından belirlendiği şekilde</p>
+ </div>
+</header>
+	<main class="container-lg pb-3 flex-fill">
+	 <div class="row my-1">
+<div class="col-lg-6 offset-lg-2 col small">
+ </div><div class="col-lg-2 col-3 text-right lead chulapaDateSocial">
+            <a  href="https://twitter.com/intent/tweet?url=https://corona-atlas.de/tr&text=Uluslararasi+COVID-19+risk+b%C3%B6lgeleri" title="Share on Twitter"><i class="fab fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+            <a  class="d-none d-sm-inline" href="https://www.facebook.com/sharer.php?u=https://corona-atlas.de/tr" title="Share on Facebook"><i class="fab fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+             <a  href="https://api.whatsapp.com/send?&text=Uluslararasi+COVID-19+risk+b%C3%B6lgeleri%20https://corona-atlas.de/tr" title="Share on Whatsapp"><i class="fab fa-whatsapp-square fa-lg" aria-hidden="true"></i></a>
+         <a  class="d-none d-sm-inline" href="https://www.linkedin.com/shareArticle?url=https://corona-atlas.de/tr&title=Uluslararasi+COVID-19+risk+b%C3%B6lgeleri" title="Share on LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+         </div></div>
+		<div class="row pt-2">
+			<aside class="col-lg-2 mt-lg-3 small"></aside>
+			<article class="col-lg-8 mt-3">
+			 <!-- Modify _R/index_tr.Rmd file instead -->
+<p class="text-right font-weight-bold">
+27.08.2021’de güncellendi
+</p>
+<h2 id="covid-19-risk-haritası">COVID-19 risk haritası</h2>
+<p>İnteraktif harita, Almanya tarafından belirlenen Dünya çapındaki mevcut
+risk tanımlarını keşfetmenizi sağlar. Bir ülke ve bölgelerinden
+Almanya’ya seyahat ile ilgili kısıtlamalar hakkında daha fazla bilgi
+için o ülkeye tıklayın.</p>
+<div id="leaflet" class="leaflet html-widget" style="width:100%;height:75vh;">
+</div>
+<script src="https://corona-atlas.de/assets/data/locale_tr.js"></script>
+<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<p>Tüm bilgiler doğrudan Robert Koch Enstitüsü’nden alınır ve garanti
+olmaksızın sağlanmaktadır. Dünya genelindeki risk alanları hakkında,
+eksiksiz ve güncel bir genel bakış için
+<a href="https://rki.de/risikogebiete">rki.de/risikogebiete</a> adresini ziyaret
+edin.</p>
+<p>Riskli bölgelere yönelik mevcut seyahat kısıtlamaları, <a href="https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers">Alman Federal
+Sağlık Bakanlığı’nın web
+sitesinde</a>
+yayınlanmaktadır.</p>
+<h2 id="veritabanı">Veritabanı</h2>
+<p>Ayrıca, veritabanından ülkelere ait bilgilere doğrudan erişebilirsiniz.</p>
+<div id="reactable" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="reactable">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Ülke/Bölge":["Afganistan","Angola","Arnavutluk","Andorra","Birleşik Arap Emirlikleri","Arjantin","Ermenistan","Antigua-Barbuda","Avustralya","Avusturya","Azerbaycan","Burundi","Belçika","Benin","Burkina Faso","Bangladeş","Bulgaristan","Bahreyn","Bahamalar","Bosna-Hersek","Beyaz Rusya","Belize","Bolivya","Brezilya","Barbados","Brunei","Butan","Botsvana","Orta Afrika Cumhuriyeti","Kanada","İsviçre","Şili","Çin","Fildişi Sahili","Kamerun","Kongo Demokratik Cumhuriyeti","Kongo","Kolombiya","Komorlar","Verde Burnu","Kosta Rika","Küba","Kıbrıs","Çekya","Almanya","Cibuti","Dominik","Danimarka","Dominik Cumhuriyeti","Cezayir","Ekvator","Mısır","Eritre","İspanya","Estonya","Etiyopya","Finlandiya","Fiji","Fransa","Mikronezya","Gabon","Birleşik Krallık","Gürcistan","Gana","Gine","Gambiya","Gine-Bissau","Ekvatoral Gine","Yunanistan","Granada","Guatemala","Guyana","Hong Kong","Honduras","Hırvatistan","Haiti","Macaristan","Endonezya","Hindistan","İrlanda","Iran","Irak","İzlanda","İsrail","İtalya","Jamaika","Ürdün","Japonya","Kazakistan","Kenya","Kırgızistan","Kamboçya","Kiribati","Sen Kitts ve Nevis","Güney Kore","Kuveyt","Laos","Lübnan","Liberya","Libya","Sen Lucia","Lihtenştayn","Sri Lanka","Lesoto","Litvanya","Lüksemburg","Latviya","Fas","Monako","Moldova","Madagaskar","Maldivler","Meksika","Marşal Adaları","Kuzey Makedonya","Mali","Malta","Myanmar/Burma","Karadağ","Moğolistan","Mozambik","Moritanya","Mauritius","Malavi","Malezya","Namibya","Nijer","Nijerya","Nikaragua","Nie","Hollanda","Norveç","Nepal","Nauru","Yeni Zelanda","Umman","Pakistan","Panama","Peru","Filipinler","Palau","Papua Yeni Gine","Polonya","Kuzey Kore","Portekiz","Paraguay","Filistin","Katar","Romanya","Rusya Federasyonu","Ruanda","Suudi Arabistan","Sudan","Senegal","Singapur","Solomon Adaları","Sierra Leone","El Salvador","San Marino","Somali","Sırbistan","Güney Sudan","Sao Tome ve Principe","Surinam","Slovakya","Slovenya","İsveç","Esvatini","Seyşeller","Suriye","Çad","Togo","Tayland","Tacikistan","Türkmenistan","Timor-Leste","Tonga","Trinidad ve Tobago","Tunus","Türkiye","Tuvalu","Tanzanya Birleşik Cumhuriyeti","Uganda","Ukrayna","Uruguay","Birleşik Devletler","Özbekistan","Vatikan","Saint Vincent ve Grenadinler","Venezuella","Vietnam","Vanuatu","Samoa","Kosova","Yemen","Güney Afrika","Zambiya","Zimbabve"],"Risk seviyesi":["Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge",null,"Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Risksiz Bölge","Yüksek riskli bölge","Risksiz Bölge","Yüksek riskli bölge","Yüksek riskli bölge","Yüksek riskli bölge"],"Detaylar":[null,null,null,null,null,"18.04.2021'den beri",null,null,null,null,null,null,null,null,null,"08.08.2021'den beri",null,null,null,null,null,null,"24.01.2021'den beri","22.08.2021'den beri",null,null,null,"01.08.2021'den beri",null,null,null,null,null,null,null,null,null,"24.01.2021'den beri",null,null,"09.05.2021'den beri","18.07.2021'den beri","11.07.2021'den beri",null,null,null,"22.08.2021'den beri",null,null,"08.08.2021'den beri","31.01.2021'den beri","24.01.2021'den beri",null,null,null,null,null,"11.07.2021'den beri","08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Fransız Guyanası, 15.08.2021'den beri; -Fransız Polinezyası, 15.08.2021'den beri; -Guadalup, 08.08.2021'den beri; -Korsika, 08.08.2021'den beri; -Martinik, 08.08.2021'den beri; -Oksitanya, 08.08.2021'den beri; -Provence-Alpes-Côte d'Azur, 08.08.2021'den beri; -Réunion, 08.08.2021'den beri; -St. Barthélemy, 08.08.2021'den beri; -St. Martin, 08.08.2021'den beri",null,null,"07.07.2021'den beri","25.07.2021'den beri",null,null,null,null,null,"24.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Kreta, 24.08.2021'den beri; -Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, 24.08.2021'den beri",null,null,null,null,"08.08.2021'den beri",null,"08.08.2021'den beri",null,"18.07.2021'den beri","07.07.2021'den beri","22.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Border, 22.08.2021'den beri; -West, 22.08.2021'den beri","24.01.2021'den beri","08.08.2021'den beri",null,"15.08.2021'den beri",null,"29.08.2021'den beri",null,null,"08.08.2021'den beri","15.08.2021'den beri",null,null,null,"29.08.2021'den beri",null,"21.03.2021'den beri",null,null,null,"18.07.2021'den beri","29.08.2021'den beri",null,null,"01.08.2021'den beri",null,null,null,"08.08.2021'den beri",null,null,null,null,"08.08.2021'den beri",null,"22.08.2021'den beri",null,null,"08.08.2021'den beri","15.08.2021'den beri","13.06.2021'den beri","01.08.2021'den beri",null,null,"01.08.2021'den beri","13.06.2021'den beri","01.08.2021'den beri",null,null,null,null,"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Aruba, 27.07.2021'den beri; -Bonaire, 27.07.2021'den beri; -Curaçao, 27.07.2021'den beri; -Saba, 27.07.2021'den beri; -Sint Eustatius, 27.07.2021'den beri; -Sint Maarten, 27.07.2021'den beri",null,"07.07.2021'den beri",null,null,"20.06.2021'den beri",null,null,"03.04.2021'den beri","08.08.2021'den beri",null,"08.08.2021'den beri",null,"08.08.2021'den beri","07.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Algarve, 07.07.2021'den beri","21.03.2021'den beri",null,null,null,"07.07.2021'den beri",null,null,"31.01.2021'den beri","08.08.2021'den beri",null,null,null,null,null,null,null,null,null,"23.05.2021'den beri",null,null,null,"01.08.2021'den beri","14.02.2021'den beri","31.01.2021'den beri",null,null,"08.08.2021'den beri","08.08.2021'den beri","08.08.2021'den beri",null,null,"08.08.2021'den beri","25.04.2021'den beri","17.08.2021'den beri",null,"14.03.2021'den beri",null,null,null,"15.08.2021'den beri","08.08.2021'den beri",null,null,null,"15.08.2021'den beri",null,null,"22.08.2021'den beri",null,"01.08.2021'den beri","01.08.2021'den beri","01.08.2021'den beri"]},"columns":[{"accessor":"Ülke/Bölge","name":"Ülke/Bölge","type":"character"},{"accessor":"Risk seviyesi","name":"Risk seviyesi","type":"character"},{"accessor":"Detaylar","name":"Detaylar","type":"character"}],"filterable":true,"searchable":true,"defaultPageSize":10,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"jump","showPageInfo":true,"minRows":1,"striped":true,"dataKey":"09a84f95cb362a87be84c2e47f9cd013","key":"09a84f95cb362a87be84c2e47f9cd013"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<p class="text-center my-5">
+<a href="assets/dist/db_countries_risk_tr.csv" class="btn btn-primary">Veritabanını
+İndir (CSV)</a>
+</p>
+</article>
+		</div>
+	</main><!-- Footer -->
+ <footer class="footer-chulapa text-center mt-0 pt-3">
+   <div class="container">
+     <div class="row">
+       <div class="col-xl-10 offset-xl-1"><div role="navigation" class="d-flex flex-wrap justify-content-center"><a href="mailto:info@corona-atlas.de?subject=Corona%20Atlas%20web%20contact" title="footerE-Mail" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span><span class="sr-only">E-Mail</span>
+            </a><a href="https://github.com/dieghernan/RKI-Corona-Atlas" title="footerGitHub" class="chulapa-footer-sociallink lead"><span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span><span class="sr-only">GitHub</span>
+            </a></div><p class="mt-2 mb-3">&copy; 2021 Diego & Rodrigo</p>
+          <!-- Do not remove this in order to give  attributions --><p class="small"><b>Academia</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p><p class="small">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p>
+          <!-- End  attributions -->
+       </div>
+     </div>
+ </div>
+</footer>
+<!-- Footer -->
+<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+	<script src="https://corona-atlas.de/assets/js/clipboardrouge.js"></script>
+	<!-- start custom scripts to be placed at the bottom of the page -->
+<!-- end custom bottom scripts -->
+	</body>

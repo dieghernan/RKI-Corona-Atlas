@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
+	<link href="https://corona-atlas.de/atom.xml" rel="self" type="application/atom+xml" />
+	<link href="https://corona-atlas.de/" rel="alternate" type="text/html" />
+	<updated>2021-08-30T10:11:09+02:00</updated>
+	<id>https://corona-atlas.de/atom.xml</id>
+	<title>Corona Atlas | Internationale COVID-19 Risikogebiete im Überblick</title>
+	<subtitle>Internationale COVID-19 Risikogebiete im Überblick</subtitle>
+	<author>
+		<name>Diego & Rodrigo</name>
+					
+	</author>
+	<rights>(c) 2021, Diego & Rodrigo</rights>
+	<icon>https://corona-atlas.de/assets/img/corona-atlas-icon.svg</icon>
+	<logo>https://corona-atlas.de/assets/img/og_corona_atlas.png</logo></feed>
