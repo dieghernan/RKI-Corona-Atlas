@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grèce",
-  "info":"depuis le 24\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Kreta, depuis le 24\/08\/2021<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, depuis le 24\/08\/2021<\/li><\/ul>"
+  "info":"depuis le 24\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Crète, depuis le 24\/08\/2021<\/li><li>Sud de l'Égée, depuis le 24\/08\/2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenade",

@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":"od 24.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Kreta, od 24.08.2021<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, od 24.08.2021<\/li><\/ul>"
+  "info":"od 24.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Kreta, od 24.08.2021<\/li><li>Wyspy Egejskie Południowe, od 24.08.2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",

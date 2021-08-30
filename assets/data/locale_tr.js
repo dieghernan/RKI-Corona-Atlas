@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Yunanistan",
-  "info":"24.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Kreta, 24.08.2021'den beri<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, 24.08.2021'den beri<\/li><\/ul>"
+  "info":"24.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Girit, 24.08.2021'den beri<\/li><li>Güney Ege, 24.08.2021'den beri<\/li><\/ul>"
  },
  "GRD":{
   "name":"Granada",

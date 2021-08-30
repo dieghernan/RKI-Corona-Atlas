@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":"since 24 Aug 2021. The risk designation applies to the following regions:<ul><li>Kreta, since 24 Aug 2021<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos, since 24 Aug 2021<\/li><\/ul>"
+  "info":"since 24 Aug 2021. The risk designation applies to the following regions:<ul><li>Crete, since 24 Aug 2021<\/li><li>South Aegean, since 24 Aug 2021<\/li><\/ul>"
  },
  "GRD":{
   "name":"Grenada",

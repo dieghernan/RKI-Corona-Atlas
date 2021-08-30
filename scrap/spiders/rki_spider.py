@@ -88,10 +88,10 @@ class RKISpider(scrapy.Spider):
                     sep_index = i
                     found = True
                     break
-                elif index != -1:
-                    sep_index = i + 1
-                    found = True
-                    break
+                #elif index != -1:
+                #    sep_index = i + 1
+                #    found = True
+                #    break
             if found:
                 break
 
@@ -318,7 +318,7 @@ class RKISpider(scrapy.Spider):
 
                     for r in regions:
                         r_text = r.get()[4:]
-                        name_sr, info_sr = self.strip_country(r_text, separators=("(",))
+                        name_sr, info_sr = self.strip_country(r_text, separators=("(", "-"))
                         reg_hit = country_regs.query("NAME_DE == @name_sr")
                         name_translate = {n: loc.gettext(name_sr) for n, loc in translate.items()}
                         name_translate["NAME_EN"] = name_sr
