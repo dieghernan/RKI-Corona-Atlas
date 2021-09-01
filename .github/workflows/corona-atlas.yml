@@ -8,6 +8,7 @@ on:
    paths:
      - _R/**
      - assets/data/**
+     - .github/workflows/**
  pull_request:
    branches:
      - master
