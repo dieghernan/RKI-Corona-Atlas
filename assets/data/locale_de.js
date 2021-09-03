@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albanien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
  },
  "AND":{
   "name":"Andorra",
@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Aserbaidschan",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
  },
  "BDI":{
   "name":"Burundi",
@@ -282,7 +282,7 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
  },
  "GUY":{
   "name":"Guyana",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Israel",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 15. August 2021) mit Ausnahme der Palästinensischen Gebiete"
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 15. August 2021) inklusive der Palästinensischen Gebiete (<strong>Hochrisikogebiet<\/strong> seit 5. September 2021)"
  },
  "ITA":{
   "name":"Italien",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japan",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
  },
  "KAZ":{
   "name":"Kasachstan",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwait",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 21. März 2021"
+  "info":""
  },
  "LAO":{
   "name":"Laos",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
  },
  "LSO":{
   "name":"Lesotho",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
  },
  "SSD":{
   "name":"Südsudan",

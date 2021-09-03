@@ -1,7 +1,7 @@
 ﻿Country/Region,Risk level,Details
 Afghanistan,Not risk area,
 Angola,Not risk area,
-Albania,Not risk area,
+Albania,High risk area,since 05 Sep 2021
 Andorra,Not risk area,
 United Arab Emirates,Not risk area,
 Argentina,High risk area,since 18 Apr 2021
@@ -9,7 +9,7 @@ Armenia,Not risk area,
 Antigua and Barbuda,Not risk area,
 Australia,Not risk area,
 Austria,Not risk area,
-Azerbaijan,Not risk area,
+Azerbaijan,High risk area,since 05 Sep 2021
 Burundi,Not risk area,
 Belgium,Not risk area,
 Benin,Not risk area,
@@ -69,7 +69,7 @@ Guinea-Bissau,Not risk area,
 Equatorial Guinea,Not risk area,
 Greece,High risk area,"since 24 Aug 2021. The risk designation applies to the following regions: -Crete, since 24 Aug 2021; -South Aegean, since 24 Aug 2021"
 Grenada,Not risk area,
-Guatemala,Not risk area,
+Guatemala,High risk area,since 05 Sep 2021
 Guyana,Not risk area,
 Hong Kong,Not risk area,
 Honduras,High risk area,since 08 Aug 2021
@@ -86,7 +86,7 @@ Israel,High risk area,since 15 Aug 2021
 Italy,Not risk area,
 Jamaica,High risk area,since 29 Aug 2021
 Jordan,Not risk area,
-Japan,Not risk area,
+Japan,High risk area,since 05 Sep 2021
 Kazakhstan,High risk area,since 08 Aug 2021
 Kenya,High risk area,since 15 Aug 2021
 Kyrgyzstan,Not risk area,
@@ -94,14 +94,14 @@ Cambodia,Not risk area,
 Kiribati,Not risk area,
 Saint Kitts and Nevis,High risk area,since 29 Aug 2021
 South Korea,Not risk area,
-Kuwait,High risk area,since 21 Mar 2021
+Kuwait,Not risk area,
 Laos,Not risk area,
 Lebanon,Not risk area,
 Liberia,Not risk area,
 Libya,High risk area,since 18 Jul 2021
 Saint Lucia,High risk area,since 29 Aug 2021
 Liechtenstein,Not risk area,
-Sri Lanka,Not risk area,
+Sri Lanka,High risk area,since 05 Sep 2021
 Lesotho,High risk area,since 01 Aug 2021
 Lithuania,Not risk area,
 Luxembourg,Not risk area,
@@ -159,7 +159,7 @@ Sierra Leone,Not risk area,
 El Salvador,Not risk area,
 San Marino,Not risk area,
 Somalia,Not risk area,
-Serbia,Not risk area,
+Serbia,High risk area,since 05 Sep 2021
 South Sudan,Not risk area,
 Sao Tome and Principe,Not risk area,
 Suriname,High risk area,since 23 May 2021

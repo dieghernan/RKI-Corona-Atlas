@@ -1,7 +1,7 @@
 ﻿Ülke/Bölge,Risk seviyesi,Detaylar
 Afganistan,Risksiz Bölge,
 Angola,Risksiz Bölge,
-Arnavutluk,Risksiz Bölge,
+Arnavutluk,Yüksek riskli bölge,05.09.2021'den beri
 Andorra,Risksiz Bölge,
 Birleşik Arap Emirlikleri,Risksiz Bölge,
 Arjantin,Yüksek riskli bölge,18.04.2021'den beri
@@ -9,7 +9,7 @@ Ermenistan,Risksiz Bölge,
 Antigua-Barbuda,Risksiz Bölge,
 Avustralya,Risksiz Bölge,
 Avusturya,Risksiz Bölge,
-Azerbaycan,Risksiz Bölge,
+Azerbaycan,Yüksek riskli bölge,05.09.2021'den beri
 Burundi,Risksiz Bölge,
 Belçika,Risksiz Bölge,
 Benin,Risksiz Bölge,
@@ -69,7 +69,7 @@ Gine-Bissau,Risksiz Bölge,
 Ekvatoral Gine,Risksiz Bölge,
 Yunanistan,Yüksek riskli bölge,"24.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Girit, 24.08.2021'den beri; -Güney Ege, 24.08.2021'den beri"
 Granada,Risksiz Bölge,
-Guatemala,Risksiz Bölge,
+Guatemala,Yüksek riskli bölge,05.09.2021'den beri
 Guyana,Risksiz Bölge,
 Hong Kong,Risksiz Bölge,
 Honduras,Yüksek riskli bölge,08.08.2021'den beri
@@ -86,7 +86,7 @@ Irak,Yüksek riskli bölge,08.08.2021'den beri
 İtalya,Risksiz Bölge,
 Jamaika,Yüksek riskli bölge,29.08.2021'den beri
 Ürdün,Risksiz Bölge,
-Japonya,Risksiz Bölge,
+Japonya,Yüksek riskli bölge,05.09.2021'den beri
 Kazakistan,Yüksek riskli bölge,08.08.2021'den beri
 Kenya,Yüksek riskli bölge,15.08.2021'den beri
 Kırgızistan,Risksiz Bölge,
@@ -94,14 +94,14 @@ Kamboçya,Risksiz Bölge,
 Kiribati,Risksiz Bölge,
 Sen Kitts ve Nevis,Yüksek riskli bölge,29.08.2021'den beri
 Güney Kore,Risksiz Bölge,
-Kuveyt,Yüksek riskli bölge,21.03.2021'den beri
+Kuveyt,Risksiz Bölge,
 Laos,Risksiz Bölge,
 Lübnan,Risksiz Bölge,
 Liberya,Risksiz Bölge,
 Libya,Yüksek riskli bölge,18.07.2021'den beri
 Sen Lucia,Yüksek riskli bölge,29.08.2021'den beri
 Lihtenştayn,Risksiz Bölge,
-Sri Lanka,Risksiz Bölge,
+Sri Lanka,Yüksek riskli bölge,05.09.2021'den beri
 Lesoto,Yüksek riskli bölge,01.08.2021'den beri
 Litvanya,Risksiz Bölge,
 Lüksemburg,Risksiz Bölge,
@@ -159,7 +159,7 @@ Sierra Leone,Risksiz Bölge,
 El Salvador,Risksiz Bölge,
 San Marino,Risksiz Bölge,
 Somali,Risksiz Bölge,
-Sırbistan,Risksiz Bölge,
+Sırbistan,Yüksek riskli bölge,05.09.2021'den beri
 Güney Sudan,Risksiz Bölge,
 Sao Tome ve Principe,Risksiz Bölge,
 Surinam,Yüksek riskli bölge,23.05.2021'den beri

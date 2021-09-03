@@ -1,7 +1,7 @@
 ﻿Pays/Région,Niveau de risque,Détails
 Afghanistan,Zone sans risque,
 Angola,Zone sans risque,
-Albanie,Zone sans risque,
+Albanie,Zone à fort risque,depuis le 05/09/2021
 Andorre,Zone sans risque,
 Émirats arabes unis,Zone sans risque,
 Argentine,Zone à fort risque,depuis le 18/04/2021
@@ -9,7 +9,7 @@ Arménie,Zone sans risque,
 Antigua-et-Barbuda,Zone sans risque,
 Australie,Zone sans risque,
 Autriche,Zone sans risque,
-Azerbaïdjan,Zone sans risque,
+Azerbaïdjan,Zone à fort risque,depuis le 05/09/2021
 Burundi,Zone sans risque,
 Belgique,Zone sans risque,
 Bénin,Zone sans risque,
@@ -69,7 +69,7 @@ Guinée-Bissau,Zone sans risque,
 Guinée Équatoriale,Zone sans risque,
 Grèce,Zone à fort risque,"depuis le 24/08/2021. Le niveau de risque concerne les régions suivantes: -Crète, depuis le 24/08/2021; -Sud de l'Égée, depuis le 24/08/2021"
 Grenade,Zone sans risque,
-Guatemala,Zone sans risque,
+Guatemala,Zone à fort risque,depuis le 05/09/2021
 Guyana,Zone sans risque,
 Hong-Kong,Zone sans risque,
 Honduras,Zone à fort risque,depuis le 08/08/2021
@@ -86,7 +86,7 @@ Israël,Zone à fort risque,depuis le 15/08/2021
 Italie,Zone sans risque,
 Jamaïque,Zone à fort risque,depuis le 29/08/2021
 Jordanie,Zone sans risque,
-Japon,Zone sans risque,
+Japon,Zone à fort risque,depuis le 05/09/2021
 Kazakhstan,Zone à fort risque,depuis le 08/08/2021
 Kenya,Zone à fort risque,depuis le 15/08/2021
 Kirghizistan,Zone sans risque,
@@ -94,14 +94,14 @@ Cambodge,Zone sans risque,
 Kiribati,Zone sans risque,
 Saint-Kitts-et-Nevis,Zone à fort risque,depuis le 29/08/2021
 Corée du Sud,Zone sans risque,
-Koweït,Zone à fort risque,depuis le 21/03/2021
+Koweït,Zone sans risque,
 Laos,Zone sans risque,
 Liban,Zone sans risque,
 Libéria,Zone sans risque,
 Libye,Zone à fort risque,depuis le 18/07/2021
 Sainte-Lucie,Zone à fort risque,depuis le 29/08/2021
 Liechtenstein,Zone sans risque,
-Sri Lanka,Zone sans risque,
+Sri Lanka,Zone à fort risque,depuis le 05/09/2021
 Lesotho,Zone à fort risque,depuis le 01/08/2021
 Lituanie,Zone sans risque,
 Luxembourg,Zone sans risque,
@@ -159,7 +159,7 @@ Sierra Leone,Zone sans risque,
 El Salvador,Zone sans risque,
 San Marin,Zone sans risque,
 Somalie,Zone sans risque,
-Serbie,Zone sans risque,
+Serbie,Zone à fort risque,depuis le 05/09/2021
 Soudan du Sud,Zone sans risque,
 Sao Tomé-et-Principe,Zone sans risque,
 Surinam,Zone à fort risque,depuis le 23/05/2021

@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albania",
-  "info":""
+  "info":"desde el 05\/09\/2021"
  },
  "AND":{
   "name":"Andorra",
@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbayán",
-  "info":""
+  "info":"desde el 05\/09\/2021"
  },
  "BDI":{
   "name":"Burundi",
@@ -282,7 +282,7 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":""
+  "info":"desde el 05\/09\/2021"
  },
  "GUY":{
   "name":"Guyana",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japón",
-  "info":""
+  "info":"desde el 05\/09\/2021"
  },
  "KAZ":{
   "name":"Kazajistán",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwait",
-  "info":"desde el 21\/03\/2021"
+  "info":""
  },
  "LAO":{
   "name":"Laos",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":""
+  "info":"desde el 05\/09\/2021"
  },
  "LSO":{
   "name":"Lesoto",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbia",
-  "info":""
+  "info":"desde el 05\/09\/2021"
  },
  "SSD":{
   "name":"Sudán del Sur",

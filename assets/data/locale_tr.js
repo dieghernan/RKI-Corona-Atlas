@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Arnavutluk",
-  "info":""
+  "info":"05.09.2021'den beri"
  },
  "AND":{
   "name":"Andorra",
@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbaycan",
-  "info":""
+  "info":"05.09.2021'den beri"
  },
  "BDI":{
   "name":"Burundi",
@@ -282,7 +282,7 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":""
+  "info":"05.09.2021'den beri"
  },
  "GUY":{
   "name":"Guyana",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japonya",
-  "info":""
+  "info":"05.09.2021'den beri"
  },
  "KAZ":{
   "name":"Kazakistan",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuveyt",
-  "info":"21.03.2021'den beri"
+  "info":""
  },
  "LAO":{
   "name":"Laos",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":""
+  "info":"05.09.2021'den beri"
  },
  "LSO":{
   "name":"Lesoto",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Sırbistan",
-  "info":""
+  "info":"05.09.2021'den beri"
  },
  "SSD":{
   "name":"Güney Sudan",
