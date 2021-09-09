@@ -584,10 +584,6 @@ var info_rki = {
   "name":"Paraguay",
   "info":"desde el 21\/03\/2021"
  },
- "PSE":{
-  "name":"Palestina",
-  "info":""
- },
  "QAT":{
   "name":"Qatar",
   "info":""

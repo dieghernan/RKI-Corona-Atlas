@@ -584,10 +584,6 @@ var info_rki = {
   "name":"Paraguay",
   "info":"<strong>Hochrisikogebiet<\/strong> seit 21. März 2021"
  },
- "PSE":{
-  "name":"Palästinensische Gebiete",
-  "info":""
- },
  "QAT":{
   "name":"Katar",
   "info":""
