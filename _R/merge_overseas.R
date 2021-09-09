@@ -13,7 +13,7 @@ library(jsonlite)
 library(leaflet.providers)
 library(leaflet.extras)
 
-old <- st_read("./assets/geo/country_shapes.geojson")
+old <- st_read("./_R/geojson/CNTR_RG_03M_2020_4326.geojson")
 
  cntries_shape <-
    gisco_get_countries(
@@ -57,11 +57,11 @@ old <- st_read("./assets/geo/country_shapes.geojson")
 
  geo_shapes = all_shapes %>% select(ISO3_CODE, geometry)
 
-# file.remove("./assets/geo/country_shapes.geojson")
+ file.remove("./assets/geo/country_shapes.geojson")
 
  st_write(
    geo_shapes,
-   "./assets/geo/country_shapes_new.geojson"
+   "./assets/geo/country_shapes.geojson"
  )
 
  # Check
