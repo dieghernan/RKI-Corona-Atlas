@@ -15,6 +15,22 @@ library(leaflet.extras)
 
 old <- st_read("./assets/geo/country_shapes.geojson")
 
+# PSE to ISR
+loc <- which(old$ISO3_CODE == "PSE")
+
+old[loc, ]$ISO3_CODE <- "ISR"
+
+new <- old %>%
+  group_by(ISO3_CODE) %>%
+  summarise(n = n()) %>%
+  select(ISO3_CODE)
+
+file.remove("./assets/geo/country_shapes.geojson")
+st_write(
+  new,
+  "./assets/geo/country_shapes.geojson"
+)
+
 # cntries_shape <-
 #   gisco_get_countries(
 #     year = 2020,

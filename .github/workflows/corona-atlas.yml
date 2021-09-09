@@ -18,7 +18,7 @@ on:
      - assets/data/**
  schedule:
    - cron: "0 5/6 * * *"
-
+ workflow_dispatch:
 jobs:
   corona-atlas:
     runs-on: ubuntu-latest
@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-          
+
       - uses: actions/cache@v2
         name: Cache Python dependencies
         with:
@@ -57,17 +57,17 @@ jobs:
           cat log/scrapy_report.txt
           diff log/data assets/data || echo '::set-output name=DATABASE::NEW'
         id: scrapy
-        
+
       - uses: r-lib/actions/setup-r@v1
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         name: Setup R
         with:
           r-version: '4.0.5'
-        
+
       - uses: r-lib/actions/setup-pandoc@master
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         name: Setup Pandoc
-        
+
       - uses: actions/cache@v2
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         name: Cache R dependencies
@@ -76,7 +76,7 @@ jobs:
           key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv2-
-            
+
       - name: Install libdunits
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         run: sudo apt-get install libudunits2-dev
@@ -122,4 +122,4 @@ jobs:
           git add -A
           git commit -m 'corona-atlas update' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
-          
+
