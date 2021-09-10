@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Argentina",
-  "info":"desde el 18\/04\/2021"
+  "info":""
  },
  "ARM":{
   "name":"Armenia",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnia y Herzegovina",
-  "info":""
+  "info":"desde el 12\/09\/2021"
  },
  "BLR":{
   "name":"Bielorrusia",
@@ -90,7 +90,7 @@ var info_rki = {
  },
  "BOL":{
   "name":"Bolivia",
-  "info":"desde el 24\/01\/2021"
+  "info":""
  },
  "BRA":{
   "name":"Brasil",
@@ -202,7 +202,7 @@ var info_rki = {
  },
  "ECU":{
   "name":"Ecuador",
-  "info":"desde el 31\/01\/2021"
+  "info":""
  },
  "EGY":{
   "name":"Egipto",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 15\/08\/2021<\/li><li>Polinesia Francesa, desde el 15\/08\/2021<\/li><li>Guadalupe, desde el 08\/08\/2021<\/li><li>Córcega, desde el 08\/08\/2021<\/li><li>Martinica, desde el 08\/08\/2021<\/li><li>Occitania, desde el 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, desde el 08\/08\/2021<\/li><li>Reunión, desde el 08\/08\/2021<\/li><li>St. Barthélemy, desde el 08\/08\/2021<\/li><li>St. Martin, desde el 08\/08\/2021<\/li><\/ul>"
+  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 15\/08\/2021<\/li><li>Polinesia Francesa, desde el 15\/08\/2021<\/li><li>Guadalupe, desde el 08\/08\/2021<\/li><li>Martinica, desde el 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, desde el 08\/08\/2021<\/li><li>St. Barthélemy, desde el 08\/08\/2021<\/li><li>St. Martin, desde el 08\/08\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -274,11 +274,11 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecia",
-  "info":"desde el 24\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Creta, desde el 24\/08\/2021<\/li><li>Egeo Meridional, desde el 24\/08\/2021<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Granada",
-  "info":""
+  "info":"desde el 12\/09\/2021"
  },
  "GTM":{
   "name":"Guatemala",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"desde el 01\/08\/2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -514,7 +514,7 @@ var info_rki = {
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":""
+  "info":"desde el 12\/09\/2021"
  },
  "NIU":{
   "name":"Niue",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Noruega",
-  "info":""
+  "info":"desde el 12\/09\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Oslo, desde el 12\/09\/2021<\/li><li>Viken, desde el 12\/09\/2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Omán",
-  "info":"desde el 20\/06\/2021"
+  "info":""
  },
  "PAK":{
   "name":"Pakistán",
@@ -554,7 +554,7 @@ var info_rki = {
  },
  "PER":{
   "name":"Perú",
-  "info":"desde el 03\/04\/2021"
+  "info":""
  },
  "PHL":{
   "name":"Filipinas",
@@ -582,7 +582,7 @@ var info_rki = {
  },
  "PRY":{
   "name":"Paraguay",
-  "info":"desde el 21\/03\/2021"
+  "info":""
  },
  "QAT":{
   "name":"Qatar",

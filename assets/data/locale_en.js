@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Argentina",
-  "info":"since 18 Apr 2021"
+  "info":""
  },
  "ARM":{
   "name":"Armenia",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnia and Herzegovina",
-  "info":""
+  "info":"since 12 Sep 2021"
  },
  "BLR":{
   "name":"Belarus",
@@ -90,7 +90,7 @@ var info_rki = {
  },
  "BOL":{
   "name":"Bolivia",
-  "info":"since 24 Jan 2021"
+  "info":""
  },
  "BRA":{
   "name":"Brazil",
@@ -202,7 +202,7 @@ var info_rki = {
  },
  "ECU":{
   "name":"Ecuador",
-  "info":"since 31 Jan 2021"
+  "info":""
  },
  "EGY":{
   "name":"Egypt",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>French Polynesia, since 15 Aug 2021<\/li><li>Guadeloupe, since 08 Aug 2021<\/li><li>Corsica, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>Occitania, since 08 Aug 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 08 Aug 2021<\/li><li>Réunion, since 08 Aug 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
+  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>French Polynesia, since 15 Aug 2021<\/li><li>Guadeloupe, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 08 Aug 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -274,11 +274,11 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":"since 24 Aug 2021. The risk designation applies to the following regions:<ul><li>Crete, since 24 Aug 2021<\/li><li>South Aegean, since 24 Aug 2021<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
-  "info":""
+  "info":"since 12 Sep 2021"
  },
  "GTM":{
   "name":"Guatemala",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -514,7 +514,7 @@ var info_rki = {
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":""
+  "info":"since 12 Sep 2021"
  },
  "NIU":{
   "name":"Niue",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norway",
-  "info":""
+  "info":"since 12 Sep 2021. The risk designation applies to the following regions:<ul><li>Oslo, since 12 Sep 2021<\/li><li>Viken, since 12 Sep 2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"since 20 Jun 2021"
+  "info":""
  },
  "PAK":{
   "name":"Pakistan",
@@ -554,7 +554,7 @@ var info_rki = {
  },
  "PER":{
   "name":"Peru",
-  "info":"since 03 Apr 2021"
+  "info":""
  },
  "PHL":{
   "name":"Philippines",
@@ -582,7 +582,7 @@ var info_rki = {
  },
  "PRY":{
   "name":"Paraguay",
-  "info":"since 21 Mar 2021"
+  "info":""
  },
  "QAT":{
   "name":"Qatar",

@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Argentyna",
-  "info":"od 18.04.2021"
+  "info":""
  },
  "ARM":{
   "name":"Armenia",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bośnia i Hercegowina",
-  "info":""
+  "info":"od 12.09.2021"
  },
  "BLR":{
   "name":"Białoruś",
@@ -90,7 +90,7 @@ var info_rki = {
  },
  "BOL":{
   "name":"Boliwia",
-  "info":"od 24.01.2021"
+  "info":""
  },
  "BRA":{
   "name":"Brazylia",
@@ -202,7 +202,7 @@ var info_rki = {
  },
  "ECU":{
   "name":"Ekwador",
-  "info":"od 31.01.2021"
+  "info":""
  },
  "EGY":{
   "name":"Egipt",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Polinezja Francuska, od 15.08.2021<\/li><li>Gwadelupa, od 08.08.2021<\/li><li>Korsyka, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Oksytania, od 08.08.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 08.08.2021<\/li><li>Reunion, od 08.08.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
+  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Polinezja Francuska, od 15.08.2021<\/li><li>Gwadelupa, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 08.08.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -274,11 +274,11 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":"od 24.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Kreta, od 24.08.2021<\/li><li>Wyspy Egejskie Południowe, od 24.08.2021<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
-  "info":""
+  "info":"od 12.09.2021"
  },
  "GTM":{
   "name":"Gwatemala",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -514,7 +514,7 @@ var info_rki = {
  },
  "NIC":{
   "name":"Nikaragua",
-  "info":""
+  "info":"od 12.09.2021"
  },
  "NIU":{
   "name":"Niue",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norwegia",
-  "info":""
+  "info":"od 12.09.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Oslo, od 12.09.2021<\/li><li>Viken, od 12.09.2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"od 20.06.2021"
+  "info":""
  },
  "PAK":{
   "name":"Pakistan",
@@ -554,7 +554,7 @@ var info_rki = {
  },
  "PER":{
   "name":"Peru",
-  "info":"od 03.04.2021"
+  "info":""
  },
  "PHL":{
   "name":"Filipiny",
@@ -582,7 +582,7 @@ var info_rki = {
  },
  "PRY":{
   "name":"Paragwaj",
-  "info":"od 21.03.2021"
+  "info":""
  },
  "QAT":{
   "name":"Katar",

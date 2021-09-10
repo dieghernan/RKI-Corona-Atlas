@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Argentine",
-  "info":"depuis le 18\/04\/2021"
+  "info":""
  },
  "ARM":{
   "name":"Arménie",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnie-Herzégovine",
-  "info":""
+  "info":"depuis le 12\/09\/2021"
  },
  "BLR":{
   "name":"Bélarus",
@@ -90,7 +90,7 @@ var info_rki = {
  },
  "BOL":{
   "name":"Bolivie",
-  "info":"depuis le 24\/01\/2021"
+  "info":""
  },
  "BRA":{
   "name":"Brésil",
@@ -202,7 +202,7 @@ var info_rki = {
  },
  "ECU":{
   "name":"Équateur",
-  "info":"depuis le 31\/01\/2021"
+  "info":""
  },
  "EGY":{
   "name":"Égypte",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 08\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 15\/08\/2021<\/li><li>Polynésie française, depuis le 15\/08\/2021<\/li><li>Guadeloupe, depuis le 08\/08\/2021<\/li><li>La Corse, depuis le 08\/08\/2021<\/li><li>Martinique, depuis le 08\/08\/2021<\/li><li>Occitanie, depuis le 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, depuis le 08\/08\/2021<\/li><li>Réunion, Île de la, depuis le 08\/08\/2021<\/li><li>St. Barthélemy, depuis le 08\/08\/2021<\/li><li>St. Martin, depuis le 08\/08\/2021<\/li><\/ul>"
+  "info":"depuis le 08\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 15\/08\/2021<\/li><li>Polynésie française, depuis le 15\/08\/2021<\/li><li>Guadeloupe, depuis le 08\/08\/2021<\/li><li>Martinique, depuis le 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, depuis le 08\/08\/2021<\/li><li>St. Barthélemy, depuis le 08\/08\/2021<\/li><li>St. Martin, depuis le 08\/08\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -274,11 +274,11 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grèce",
-  "info":"depuis le 24\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Crète, depuis le 24\/08\/2021<\/li><li>Sud de l'Égée, depuis le 24\/08\/2021<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Grenade",
-  "info":""
+  "info":"depuis le 12\/09\/2021"
  },
  "GTM":{
   "name":"Guatemala",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibie",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -514,7 +514,7 @@ var info_rki = {
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":""
+  "info":"depuis le 12\/09\/2021"
  },
  "NIU":{
   "name":"Nioue",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norvège",
-  "info":""
+  "info":"depuis le 12\/09\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Oslo, depuis le 12\/09\/2021<\/li><li>Viken, depuis le 12\/09\/2021<\/li><\/ul>"
  },
  "NPL":{
   "name":"Népal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"depuis le 20\/06\/2021"
+  "info":""
  },
  "PAK":{
   "name":"Pakistan",
@@ -554,7 +554,7 @@ var info_rki = {
  },
  "PER":{
   "name":"Pérou",
-  "info":"depuis le 03\/04\/2021"
+  "info":""
  },
  "PHL":{
   "name":"Philippines",
@@ -582,7 +582,7 @@ var info_rki = {
  },
  "PRY":{
   "name":"Paraguay",
-  "info":"depuis le 21\/03\/2021"
+  "info":""
  },
  "QAT":{
   "name":"Qatar",
