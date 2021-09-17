@@ -5,8 +5,8 @@ Albania,Obszar wysokiego ryzyka,od 05.09.2021
 Andora,Nie jest to obszar ryzyka,
 Zjednoczone Emiraty Arabskie,Nie jest to obszar ryzyka,
 Argentyna,Nie jest to obszar ryzyka,
-Armenia,Nie jest to obszar ryzyka,
-Antigua i Barbuda,Nie jest to obszar ryzyka,
+Armenia,Obszar wysokiego ryzyka,od 19.09.2021
+Antigua i Barbuda,Obszar wysokiego ryzyka,od 19.09.2021
 Australia,Nie jest to obszar ryzyka,
 Austria,Nie jest to obszar ryzyka,
 Azerbejdżan,Obszar wysokiego ryzyka,od 05.09.2021
@@ -14,19 +14,19 @@ Burundi,Nie jest to obszar ryzyka,
 Belgia,Nie jest to obszar ryzyka,
 Benin,Nie jest to obszar ryzyka,
 Burkina Faso,Nie jest to obszar ryzyka,
-Bangladesz,Obszar wysokiego ryzyka,od 08.08.2021
+Bangladesz,Nie jest to obszar ryzyka,
 Bułgaria,Nie jest to obszar ryzyka,
 Bahrajn,Nie jest to obszar ryzyka,
 Bahamy,Nie jest to obszar ryzyka,
 Bośnia i Hercegowina,Obszar wysokiego ryzyka,od 12.09.2021
 Białoruś,Nie jest to obszar ryzyka,
-Belize,Nie jest to obszar ryzyka,
+Belize,Obszar wysokiego ryzyka,od 19.09.2021
 Boliwia,Nie jest to obszar ryzyka,
-Brazylia,Obszar wysokiego ryzyka,od 22.08.2021
-Barbados,Nie jest to obszar ryzyka,
+Brazylia,Nie jest to obszar ryzyka,
+Barbados,Obszar wysokiego ryzyka,od 19.09.2021
 Brunei,Nie jest to obszar ryzyka,
 Bhutan,Nie jest to obszar ryzyka,
-Botswana,Obszar wysokiego ryzyka,od 01.08.2021
+Botswana,Nie jest to obszar ryzyka,
 Republika Środkowoafrykańska,Nie jest to obszar ryzyka,
 Kanada,Nie jest to obszar ryzyka,
 Szwajcaria,Nie jest to obszar ryzyka,
@@ -41,7 +41,7 @@ Komory,Nie jest to obszar ryzyka,
 Republika Zielonego Przylądka,Nie jest to obszar ryzyka,
 Kostaryka,Obszar wysokiego ryzyka,od 09.05.2021
 Kuba,Obszar wysokiego ryzyka,od 18.07.2021
-Cypr,Obszar wysokiego ryzyka,od 11.07.2021
+Cypr,Nie jest to obszar ryzyka,
 Czechy,Nie jest to obszar ryzyka,
 Niemcy,,
 Dżibuti,Nie jest to obszar ryzyka,
@@ -70,15 +70,15 @@ Gwinea Równikowa,Nie jest to obszar ryzyka,
 Grecja,Nie jest to obszar ryzyka,
 Grenada,Obszar wysokiego ryzyka,od 12.09.2021
 Gwatemala,Obszar wysokiego ryzyka,od 05.09.2021
-Gujana,Nie jest to obszar ryzyka,
+Gujana,Obszar wysokiego ryzyka,od 19.09.2021
 Hongkong,Nie jest to obszar ryzyka,
 Honduras,Obszar wysokiego ryzyka,od 08.08.2021
 Chorwacja,Nie jest to obszar ryzyka,
 Haiti,Obszar wysokiego ryzyka,od 08.08.2021
 Węgry,Nie jest to obszar ryzyka,
 Indonezja,Obszar wysokiego ryzyka,od 18.07.2021
-Indie,Obszar wysokiego ryzyka,od 07.07.2021
-Irlandia,Obszar wysokiego ryzyka,"od 22.08.2021. Poziom ryzyka dotyczy następujących regionów: -Border, od 22.08.2021; -West, od 22.08.2021"
+Indie,Nie jest to obszar ryzyka,
+Irlandia,Obszar wysokiego ryzyka,"od 22.08.2021. Poziom ryzyka dotyczy następujących regionów: -Border, od 22.08.2021"
 Iran,Obszar wysokiego ryzyka,od 24.01.2021
 Irak,Obszar wysokiego ryzyka,od 08.08.2021
 Islandia,Nie jest to obszar ryzyka,
@@ -102,13 +102,13 @@ Libia,Obszar wysokiego ryzyka,od 18.07.2021
 Saint Lucia,Obszar wysokiego ryzyka,od 29.08.2021
 Liechtenstein,Nie jest to obszar ryzyka,
 Sri Lanka,Obszar wysokiego ryzyka,od 05.09.2021
-Lesoto,Obszar wysokiego ryzyka,od 01.08.2021
+Lesoto,Nie jest to obszar ryzyka,
 Litwa,Nie jest to obszar ryzyka,
 Luksemburg,Nie jest to obszar ryzyka,
 Łotwa,Nie jest to obszar ryzyka,
 Maroko,Obszar wysokiego ryzyka,od 08.08.2021
 Monako,Nie jest to obszar ryzyka,
-Mołdawia,Nie jest to obszar ryzyka,
+Mołdawia,Obszar wysokiego ryzyka,od 19.09.2021
 Madagaskar,Nie jest to obszar ryzyka,
 Malediwy,Nie jest to obszar ryzyka,
 Meksyk,Obszar wysokiego ryzyka,od 08.08.2021
@@ -122,7 +122,7 @@ Mongolia,Obszar wysokiego ryzyka,od 13.06.2021
 Mozambik,Obszar wysokiego ryzyka,od 01.08.2021
 Mauretania,Nie jest to obszar ryzyka,
 Mauritius,Nie jest to obszar ryzyka,
-Malawi,Obszar wysokiego ryzyka,od 01.08.2021
+Malawi,Nie jest to obszar ryzyka,
 Malezja,Obszar wysokiego ryzyka,od 13.06.2021
 Namibia,Nie jest to obszar ryzyka,
 Niger,Nie jest to obszar ryzyka,
@@ -131,7 +131,7 @@ Nikaragua,Obszar wysokiego ryzyka,od 12.09.2021
 Niue,Nie jest to obszar ryzyka,
 Holandia,Obszar wysokiego ryzyka,"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów: -Aruba, od 27.07.2021; -Bonaire, od 27.07.2021; -Curaçao, od 27.07.2021; -Saba, od 27.07.2021; -Sint Eustatius, od 27.07.2021; -Sint Maarten, od 27.07.2021"
 Norwegia,Obszar wysokiego ryzyka,"od 12.09.2021. Poziom ryzyka dotyczy następujących regionów: -Oslo, od 12.09.2021; -Viken, od 12.09.2021"
-Nepal,Obszar wysokiego ryzyka,od 07.07.2021
+Nepal,Nie jest to obszar ryzyka,
 Nauru,Nie jest to obszar ryzyka,
 Nowa Zelandia,Nie jest to obszar ryzyka,
 Oman,Nie jest to obszar ryzyka,
@@ -143,7 +143,7 @@ Palau,Nie jest to obszar ryzyka,
 Papua-Nowa Gwinea,Obszar wysokiego ryzyka,od 08.08.2021
 Polska,Nie jest to obszar ryzyka,
 Korea Północna,Obszar wysokiego ryzyka,od 08.08.2021
-Portugalia,Obszar wysokiego ryzyka,"od 07.07.2021. Poziom ryzyka dotyczy następujących regionów: -Algarve, od 07.07.2021"
+Portugalia,Nie jest to obszar ryzyka,
 Paragwaj,Nie jest to obszar ryzyka,
 Katar,Nie jest to obszar ryzyka,
 Rumunia,Nie jest to obszar ryzyka,
@@ -165,7 +165,7 @@ Surinam,Obszar wysokiego ryzyka,od 23.05.2021
 Słowacja,Nie jest to obszar ryzyka,
 Słowenia,Nie jest to obszar ryzyka,
 Szwecja,Nie jest to obszar ryzyka,
-Eswatini,Obszar wysokiego ryzyka,od 01.08.2021
+Eswatini,Nie jest to obszar ryzyka,
 Seszele,Obszar wysokiego ryzyka,od 14.02.2021
 Syria,Obszar wysokiego ryzyka,od 31.01.2021
 Czad,Nie jest to obszar ryzyka,
@@ -187,12 +187,12 @@ Stany Zjednoczone,Obszar wysokiego ryzyka,od 15.08.2021
 Uzbekistan,Obszar wysokiego ryzyka,od 08.08.2021
 Watykan,Nie jest to obszar ryzyka,
 Saint Vincent i Grenadyny,Nie jest to obszar ryzyka,
-Wenezuela,Nie jest to obszar ryzyka,
+Wenezuela,Obszar wysokiego ryzyka,od 19.09.2021
 Vietnam,Obszar wysokiego ryzyka,od 15.08.2021
 Vanuatu,Nie jest to obszar ryzyka,
 Samoa,Nie jest to obszar ryzyka,
 Kosowo,Obszar wysokiego ryzyka,od 22.08.2021
 Jemen,Nie jest to obszar ryzyka,
-Republika Południowej Afryki,Obszar wysokiego ryzyka,od 01.08.2021
-Zambia,Obszar wysokiego ryzyka,od 01.08.2021
-Zimbabwe,Obszar wysokiego ryzyka,od 01.08.2021
+Republika Południowej Afryki,Nie jest to obszar ryzyka,
+Zambia,Nie jest to obszar ryzyka,
+Zimbabwe,Nie jest to obszar ryzyka,

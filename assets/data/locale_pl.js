@@ -26,11 +26,11 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenia",
-  "info":""
+  "info":"od 19.09.2021"
  },
  "ATG":{
   "name":"Antigua i Barbuda",
-  "info":""
+  "info":"od 19.09.2021"
  },
  "AUS":{
   "name":"Australia",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesz",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "BGR":{
   "name":"Bułgaria",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"od 19.09.2021"
  },
  "BOL":{
   "name":"Boliwia",
@@ -94,11 +94,11 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brazylia",
-  "info":"od 22.08.2021"
+  "info":""
  },
  "BRB":{
   "name":"Barbados",
-  "info":""
+  "info":"od 19.09.2021"
  },
  "BRN":{
   "name":"Brunei",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "CAF":{
   "name":"Republika Środkowoafrykańska",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cypr",
-  "info":"od 11.07.2021"
+  "info":""
  },
  "CZE":{
   "name":"Czechy",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Gujana",
-  "info":""
+  "info":"od 19.09.2021"
  },
  "HKG":{
   "name":"Hongkong",
@@ -314,11 +314,11 @@ var info_rki = {
  },
  "IND":{
   "name":"Indie",
-  "info":"od 07.07.2021"
+  "info":""
  },
  "IRL":{
   "name":"Irlandia",
-  "info":"od 22.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 22.08.2021<\/li><li>West, od 22.08.2021<\/li><\/ul>"
+  "info":"od 22.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 22.08.2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "LTU":{
   "name":"Litwa",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Mołdawia",
-  "info":""
+  "info":"od 19.09.2021"
  },
  "MDG":{
   "name":"Madagaskar",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "MYS":{
   "name":"Malezja",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"od 07.07.2021"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugalia",
-  "info":"od 07.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Algarve, od 07.07.2021<\/li><\/ul>"
+  "info":""
  },
  "PRY":{
   "name":"Paragwaj",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "SYC":{
   "name":"Seszele",
@@ -754,7 +754,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Wenezuela",
-  "info":""
+  "info":"od 19.09.2021"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,14 +778,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "ZMB":{
   "name":"Zambia",
-  "info":"od 01.08.2021"
+  "info":""
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"od 01.08.2021"
+  "info":""
  }
 };

@@ -26,11 +26,11 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenia",
-  "info":""
+  "info":"since 19 Sep 2021"
  },
  "ATG":{
   "name":"Antigua and Barbuda",
-  "info":""
+  "info":"since 19 Sep 2021"
  },
  "AUS":{
   "name":"Australia",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":"since 08 Aug 2021"
+  "info":""
  },
  "BGR":{
   "name":"Bulgaria",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"since 19 Sep 2021"
  },
  "BOL":{
   "name":"Bolivia",
@@ -94,11 +94,11 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brazil",
-  "info":"since 22 Aug 2021"
+  "info":""
  },
  "BRB":{
   "name":"Barbados",
-  "info":""
+  "info":"since 19 Sep 2021"
  },
  "BRN":{
   "name":"Brunei",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "CAF":{
   "name":"Central African Republic",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cyprus",
-  "info":"since 11 Jul 2021"
+  "info":""
  },
  "CZE":{
   "name":"Czechia",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"since 19 Sep 2021"
  },
  "HKG":{
   "name":"Hong Kong",
@@ -314,11 +314,11 @@ var info_rki = {
  },
  "IND":{
   "name":"India",
-  "info":"since 07 Jul 2021"
+  "info":""
  },
  "IRL":{
   "name":"Ireland",
-  "info":"since 22 Aug 2021. The risk designation applies to the following regions:<ul><li>Border, since 22 Aug 2021<\/li><li>West, since 22 Aug 2021<\/li><\/ul>"
+  "info":"since 22 Aug 2021. The risk designation applies to the following regions:<ul><li>Border, since 22 Aug 2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "LTU":{
   "name":"Lithuania",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldova",
-  "info":""
+  "info":"since 19 Sep 2021"
  },
  "MDG":{
   "name":"Madagascar",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "MYS":{
   "name":"Malaysia",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"since 07 Jul 2021"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"since 07 Jul 2021. The risk designation applies to the following regions:<ul><li>Algarve, since 07 Jul 2021<\/li><\/ul>"
+  "info":""
  },
  "PRY":{
   "name":"Paraguay",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychelles",
@@ -754,7 +754,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Venezuela",
-  "info":""
+  "info":"since 19 Sep 2021"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,14 +778,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"South Africa",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "ZMB":{
   "name":"Zambia",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"since 01 Aug 2021"
+  "info":""
  }
 };

@@ -26,11 +26,11 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
  },
  "ATG":{
   "name":"Antigua und Barbuda",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
  },
  "AUS":{
   "name":"Australien",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesch",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "BGR":{
   "name":"Bulgarien",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
  },
  "BOL":{
   "name":"Bolivien",
@@ -94,11 +94,11 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brasilien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021, Virusvariantengebiet vom 19. Januar 2021 bis 21. August 2021"
+  "info":""
  },
  "BRB":{
   "name":"Barbados",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
  },
  "BRN":{
   "name":"Brunei",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Zypern",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 11. Juli 2021"
+  "info":""
  },
  "CZE":{
   "name":"Tschechien",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
  },
  "HKG":{
   "name":"Hongkong",
@@ -314,11 +314,11 @@ var info_rki = {
  },
  "IND":{
   "name":"Indien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021"
+  "info":""
  },
  "IRL":{
   "name":"Irland",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Border (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><li>West (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><\/ul>"
+  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Border (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "LTU":{
   "name":"Litauen",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldau",
-  "info":""
+  "info":" Republik (<strong>Hochrisikogebiet<\/strong> seit 19. September 2021)"
  },
  "MDG":{
   "name":"Madagaskar",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "MYS":{
   "name":"Malaysia",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Algarve (<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021)<\/li><\/ul>"
+  "info":""
  },
  "PRY":{
   "name":"Paraguay",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychellen",
@@ -754,7 +754,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Venezuela",
-  "info":""
+  "info":" Bolivarische Republik (<strong>Hochrisikogebiet<\/strong> seit 19. September 2021)"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,14 +778,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Südafrika",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "ZMB":{
   "name":"Sambia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "ZWE":{
   "name":"Simbabwe",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  }
 };

@@ -26,11 +26,11 @@ var info_rki = {
  },
  "ARM":{
   "name":"Ermenistan",
-  "info":""
+  "info":"19.09.2021'den beri"
  },
  "ATG":{
   "name":"Antigua-Barbuda",
-  "info":""
+  "info":"19.09.2021'den beri"
  },
  "AUS":{
   "name":"Avustralya",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladeş",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "BGR":{
   "name":"Bulgaristan",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"19.09.2021'den beri"
  },
  "BOL":{
   "name":"Bolivya",
@@ -94,11 +94,11 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brezilya",
-  "info":"22.08.2021'den beri"
+  "info":""
  },
  "BRB":{
   "name":"Barbados",
-  "info":""
+  "info":"19.09.2021'den beri"
  },
  "BRN":{
   "name":"Brunei",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsvana",
-  "info":"01.08.2021'den beri"
+  "info":""
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Kıbrıs",
-  "info":"11.07.2021'den beri"
+  "info":""
  },
  "CZE":{
   "name":"Çekya",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"19.09.2021'den beri"
  },
  "HKG":{
   "name":"Hong Kong",
@@ -314,11 +314,11 @@ var info_rki = {
  },
  "IND":{
   "name":"Hindistan",
-  "info":"07.07.2021'den beri"
+  "info":""
  },
  "IRL":{
   "name":"İrlanda",
-  "info":"22.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 22.08.2021'den beri<\/li><li>West, 22.08.2021'den beri<\/li><\/ul>"
+  "info":"22.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 22.08.2021'den beri<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"01.08.2021'den beri"
+  "info":""
  },
  "LTU":{
   "name":"Litvanya",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldova",
-  "info":""
+  "info":"19.09.2021'den beri"
  },
  "MDG":{
   "name":"Madagaskar",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malavi",
-  "info":"01.08.2021'den beri"
+  "info":""
  },
  "MYS":{
   "name":"Malezya",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"07.07.2021'den beri"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portekiz",
-  "info":"07.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Algarve, 07.07.2021'den beri<\/li><\/ul>"
+  "info":""
  },
  "PRY":{
   "name":"Paraguay",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esvatini",
-  "info":"01.08.2021'den beri"
+  "info":""
  },
  "SYC":{
   "name":"Seyşeller",
@@ -754,7 +754,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Venezuella",
-  "info":""
+  "info":"19.09.2021'den beri"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,14 +778,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Güney Afrika",
-  "info":"01.08.2021'den beri"
+  "info":""
  },
  "ZMB":{
   "name":"Zambiya",
-  "info":"01.08.2021'den beri"
+  "info":""
  },
  "ZWE":{
   "name":"Zimbabve",
-  "info":"01.08.2021'den beri"
+  "info":""
  }
 };

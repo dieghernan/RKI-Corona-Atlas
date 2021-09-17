@@ -26,11 +26,11 @@ var info_rki = {
  },
  "ARM":{
   "name":"Arménie",
-  "info":""
+  "info":"depuis le 19\/09\/2021"
  },
  "ATG":{
   "name":"Antigua-et-Barbuda",
-  "info":""
+  "info":"depuis le 19\/09\/2021"
  },
  "AUS":{
   "name":"Australie",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":"depuis le 08\/08\/2021"
+  "info":""
  },
  "BGR":{
   "name":"Bulgarie",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"depuis le 19\/09\/2021"
  },
  "BOL":{
   "name":"Bolivie",
@@ -94,11 +94,11 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brésil",
-  "info":"depuis le 22\/08\/2021"
+  "info":""
  },
  "BRB":{
   "name":"Barbade",
-  "info":""
+  "info":"depuis le 19\/09\/2021"
  },
  "BRN":{
   "name":"Brunei",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  },
  "CAF":{
   "name":"République Centrafricaine",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Chypre",
-  "info":"depuis le 11\/07\/2021"
+  "info":""
  },
  "CZE":{
   "name":"Tchéquie",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"depuis le 19\/09\/2021"
  },
  "HKG":{
   "name":"Hong-Kong",
@@ -314,11 +314,11 @@ var info_rki = {
  },
  "IND":{
   "name":"Inde",
-  "info":"depuis le 07\/07\/2021"
+  "info":""
  },
  "IRL":{
   "name":"Irlande",
-  "info":"depuis le 22\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Border, depuis le 22\/08\/2021<\/li><li>West, depuis le 22\/08\/2021<\/li><\/ul>"
+  "info":"depuis le 22\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Border, depuis le 22\/08\/2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  },
  "LTU":{
   "name":"Lituanie",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldavie",
-  "info":""
+  "info":"depuis le 19\/09\/2021"
  },
  "MDG":{
   "name":"Madagascar",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  },
  "MYS":{
   "name":"Malaisie",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Népal",
-  "info":"depuis le 07\/07\/2021"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"depuis le 07\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Algarve, depuis le 07\/07\/2021<\/li><\/ul>"
+  "info":""
  },
  "PRY":{
   "name":"Paraguay",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychelles",
@@ -754,7 +754,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Vénézuela",
-  "info":""
+  "info":"depuis le 19\/09\/2021"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,14 +778,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Afrique du Sud",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  },
  "ZMB":{
   "name":"Zambie",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"depuis le 01\/08\/2021"
+  "info":""
  }
 };
