@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"od 26.09.2021"
  },
  "BEL":{
   "name":"Belgia",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Etiopia",
-  "info":""
+  "info":"od 26.09.2021"
  },
  "FIN":{
   "name":"Finlandia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Polinezja Francuska, od 15.08.2021<\/li><li>Gwadelupa, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Provence-Alpes-Côte d'Azur, od 08.08.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
+  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Polinezja Francuska, od 15.08.2021<\/li><li>Gwadelupa, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Nowa Kaledonia, od 26.09.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japonia",
-  "info":"od 05.09.2021"
+  "info":""
  },
  "KAZ":{
   "name":"Kazachstan",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "SGP":{
   "name":"Singapur",
@@ -658,7 +658,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Słowenia",
-  "info":""
+  "info":"od 26.09.2021"
  },
  "SWE":{
   "name":"Szwecja",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent i Grenadyny",
-  "info":""
+  "info":"od 26.09.2021"
  },
  "VEN":{
   "name":"Wenezuela",

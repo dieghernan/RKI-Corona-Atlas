@@ -10,7 +10,7 @@ Antigua und Barbuda,Hochrisikogebiet,Hochrisikogebiet seit 19. September 2021
 Australien,Kein Risikogebiet,
 Österreich,Kein Risikogebiet,
 Aserbaidschan,Hochrisikogebiet,Hochrisikogebiet seit 5. September 2021
-Burundi,Kein Risikogebiet,
+Burundi,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
 Belgien,Kein Risikogebiet,
 Benin,Kein Risikogebiet,
 Burkina Faso,Kein Risikogebiet,
@@ -54,10 +54,10 @@ Ecuador,Kein Risikogebiet,
 Eritrea,Kein Risikogebiet,
 Spanien,Kein Risikogebiet,
 Estland,Kein Risikogebiet,
-Äthiopien,Kein Risikogebiet,
+Äthiopien,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
 Finnland,Kein Risikogebiet,
 Fidschi,Hochrisikogebiet,Hochrisikogebiet seit 11. Juli 2021
-Frankreich,Hochrisikogebiet,– die folgenden Regionen und französischen Überseegebiete gelten als Hochrisikogebiete: -Provence-Alpes-Côte d'Azur (Hochrisikogebiet seit 8. August 2021); -Guadeloupe (Hochrisikogebiet seit 8. August 2021); -Martinique (Hochrisikogebiet seit 8. August 2021); -St. Barthélemy (Hochrisikogebiet seit 8. August 2021); -St. Martin (Hochrisikogebiet seit 8. August 2021); -Französisch-Guayana (Hochrisikogebiet seit 15. August 2021); -Französisch-Polynesien (Hochrisikogebiet seit 15. August 2021)
+Frankreich,Hochrisikogebiet,– die folgenden Regionen und französischen Überseegebiete gelten als Hochrisikogebiete: -Guadeloupe (Hochrisikogebiet seit 8. August 2021); -Martinique (Hochrisikogebiet seit 8. August 2021); -St. Barthélemy (Hochrisikogebiet seit 8. August 2021); -St. Martin (Hochrisikogebiet seit 8. August 2021); -Französisch-Guayana (Hochrisikogebiet seit 15. August 2021); -Französisch-Polynesien (Hochrisikogebiet seit 15. August 2021); -Neukaledonien (Hochrisikogebiet seit 26. September 2021)
 Mikronesien,Kein Risikogebiet,
 Gabun,Kein Risikogebiet,
 Vereinigtes Königreich,Hochrisikogebiet,Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Hochrisikogebiet seit 7. Juli 2021)
@@ -86,7 +86,7 @@ Israel,Hochrisikogebiet,(Hochrisikogebiet seit 15. August 2021) inklusive der Pa
 Italien,Kein Risikogebiet,
 Jamaika,Hochrisikogebiet,Hochrisikogebiet seit 29. August 2021
 Jordanien,Kein Risikogebiet,
-Japan,Hochrisikogebiet,Hochrisikogebiet seit 5. September 2021
+Japan,Kein Risikogebiet,
 Kasachstan,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Kenia,Hochrisikogebiet,Hochrisikogebiet seit 15. August 2021
 Kirgisistan,Kein Risikogebiet,
@@ -151,7 +151,7 @@ Russische Föderation,Hochrisikogebiet,Hochrisikogebiet seit 7. Juli 2021
 Ruanda,Kein Risikogebiet,
 Saudi-Arabien,Kein Risikogebiet,
 Sudan,Hochrisikogebiet,Hochrisikogebiet seit 31. Januar 2021
-Senegal,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
+Senegal,Kein Risikogebiet,
 Singapur,Kein Risikogebiet,
 Salomoninseln,Kein Risikogebiet,
 Sierra Leone,Kein Risikogebiet,
@@ -163,7 +163,7 @@ Südsudan,Kein Risikogebiet,
 São Tomé und Príncipe,Kein Risikogebiet,
 Surinam,Hochrisikogebiet, (Hochrisikogebiet seit 23. Mai 2021)
 Slowakei,Kein Risikogebiet,
-Slowenien,Kein Risikogebiet,
+Slowenien,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
 Schweden,Kein Risikogebiet,
 Eswatini,Kein Risikogebiet,
 Seychellen,Hochrisikogebiet,Hochrisikogebiet seit 14. Februar 2021
@@ -186,7 +186,7 @@ Uruguay,Kein Risikogebiet,
 Vereinigte Staaten,Hochrisikogebiet,von Amerika (Hochrisikogebiet seit 15. August 2021)
 Usbekistan,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Vatikanstadt,Kein Risikogebiet,
-Saint Vincent and The Grenadines,Kein Risikogebiet,
+St. Vincent und die Grenadinen,Hochrisikogebiet,(Hochrisikogebiet seit 26. September 2021)
 Venezuela,Hochrisikogebiet, Bolivarische Republik (Hochrisikogebiet seit 19. September 2021)
 Vietnam,Hochrisikogebiet,Hochrisikogebiet seit 15. August 2021
 Vanuatu,Kein Risikogebiet,

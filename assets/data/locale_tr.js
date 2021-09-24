@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"26.09.2021'den beri"
  },
  "BEL":{
   "name":"Belçika",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Etiyopya",
-  "info":""
+  "info":"26.09.2021'den beri"
  },
  "FIN":{
   "name":"Finlandiya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 15.08.2021'den beri<\/li><li>Fransız Polinezyası, 15.08.2021'den beri<\/li><li>Guadalup, 08.08.2021'den beri<\/li><li>Martinik, 08.08.2021'den beri<\/li><li>Provence-Alpes-Côte d'Azur, 08.08.2021'den beri<\/li><li>St. Barthélemy, 08.08.2021'den beri<\/li><li>St. Martin, 08.08.2021'den beri<\/li><\/ul>"
+  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 15.08.2021'den beri<\/li><li>Fransız Polinezyası, 15.08.2021'den beri<\/li><li>Guadalup, 08.08.2021'den beri<\/li><li>Martinik, 08.08.2021'den beri<\/li><li>Yeni Kaledonya, 26.09.2021'den beri<\/li><li>St. Barthélemy, 08.08.2021'den beri<\/li><li>St. Martin, 08.08.2021'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japonya",
-  "info":"05.09.2021'den beri"
+  "info":""
  },
  "KAZ":{
   "name":"Kazakistan",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "SGP":{
   "name":"Singapur",
@@ -658,7 +658,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovenya",
-  "info":""
+  "info":"26.09.2021'den beri"
  },
  "SWE":{
   "name":"İsveç",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent ve Grenadinler",
-  "info":""
+  "info":"26.09.2021'den beri"
  },
  "VEN":{
   "name":"Venezuella",

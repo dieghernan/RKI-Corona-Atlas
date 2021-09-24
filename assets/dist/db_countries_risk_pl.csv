@@ -10,7 +10,7 @@ Antigua i Barbuda,Obszar wysokiego ryzyka,od 19.09.2021
 Australia,Nie jest to obszar ryzyka,
 Austria,Nie jest to obszar ryzyka,
 Azerbejdżan,Obszar wysokiego ryzyka,od 05.09.2021
-Burundi,Nie jest to obszar ryzyka,
+Burundi,Obszar wysokiego ryzyka,od 26.09.2021
 Belgia,Nie jest to obszar ryzyka,
 Benin,Nie jest to obszar ryzyka,
 Burkina Faso,Nie jest to obszar ryzyka,
@@ -54,10 +54,10 @@ Egipt,Obszar wysokiego ryzyka,od 24.01.2021
 Erytrea,Nie jest to obszar ryzyka,
 Hiszpania,Nie jest to obszar ryzyka,
 Estonia,Nie jest to obszar ryzyka,
-Etiopia,Nie jest to obszar ryzyka,
+Etiopia,Obszar wysokiego ryzyka,od 26.09.2021
 Finlandia,Nie jest to obszar ryzyka,
 Fidżi,Obszar wysokiego ryzyka,od 11.07.2021
-Francja,Obszar wysokiego ryzyka,"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów: -Gujana Francuska, od 15.08.2021; -Polinezja Francuska, od 15.08.2021; -Gwadelupa, od 08.08.2021; -Martynika, od 08.08.2021; -Provence-Alpes-Côte d'Azur, od 08.08.2021; -St. Barthélemy, od 08.08.2021; -St. Martin, od 08.08.2021"
+Francja,Obszar wysokiego ryzyka,"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów: -Gujana Francuska, od 15.08.2021; -Polinezja Francuska, od 15.08.2021; -Gwadelupa, od 08.08.2021; -Martynika, od 08.08.2021; -Nowa Kaledonia, od 26.09.2021; -St. Barthélemy, od 08.08.2021; -St. Martin, od 08.08.2021"
 Mikronezja,Nie jest to obszar ryzyka,
 Gabon,Nie jest to obszar ryzyka,
 Wielka Brytania,Obszar wysokiego ryzyka,od 07.07.2021
@@ -86,7 +86,7 @@ Izrael,Obszar wysokiego ryzyka,od 15.08.2021
 Włochy,Nie jest to obszar ryzyka,
 Jamajka,Obszar wysokiego ryzyka,od 29.08.2021
 Jordania,Nie jest to obszar ryzyka,
-Japonia,Obszar wysokiego ryzyka,od 05.09.2021
+Japonia,Nie jest to obszar ryzyka,
 Kazachstan,Obszar wysokiego ryzyka,od 08.08.2021
 Kenia,Obszar wysokiego ryzyka,od 15.08.2021
 Kirgistan,Nie jest to obszar ryzyka,
@@ -151,7 +151,7 @@ Federacja Rosyjska,Obszar wysokiego ryzyka,od 07.07.2021
 Ruanda,Nie jest to obszar ryzyka,
 Arabia Saudyjska,Nie jest to obszar ryzyka,
 Sudan,Obszar wysokiego ryzyka,od 31.01.2021
-Senegal,Obszar wysokiego ryzyka,od 08.08.2021
+Senegal,Nie jest to obszar ryzyka,
 Singapur,Nie jest to obszar ryzyka,
 Wyspy Salomona,Nie jest to obszar ryzyka,
 Sierra Leone,Nie jest to obszar ryzyka,
@@ -163,7 +163,7 @@ Sudan Południowy,Nie jest to obszar ryzyka,
 Wyspy Świętego Tomasza i Książęca,Nie jest to obszar ryzyka,
 Surinam,Obszar wysokiego ryzyka,od 23.05.2021
 Słowacja,Nie jest to obszar ryzyka,
-Słowenia,Nie jest to obszar ryzyka,
+Słowenia,Obszar wysokiego ryzyka,od 26.09.2021
 Szwecja,Nie jest to obszar ryzyka,
 Eswatini,Nie jest to obszar ryzyka,
 Seszele,Obszar wysokiego ryzyka,od 14.02.2021
@@ -186,7 +186,7 @@ Urugwaj,Nie jest to obszar ryzyka,
 Stany Zjednoczone,Obszar wysokiego ryzyka,od 15.08.2021
 Uzbekistan,Obszar wysokiego ryzyka,od 08.08.2021
 Watykan,Nie jest to obszar ryzyka,
-Saint Vincent i Grenadyny,Nie jest to obszar ryzyka,
+Saint Vincent i Grenadyny,Obszar wysokiego ryzyka,od 26.09.2021
 Wenezuela,Obszar wysokiego ryzyka,od 19.09.2021
 Vietnam,Obszar wysokiego ryzyka,od 15.08.2021
 Vanuatu,Nie jest to obszar ryzyka,

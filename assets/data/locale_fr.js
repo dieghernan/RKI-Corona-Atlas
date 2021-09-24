@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"depuis le 26\/09\/2021"
  },
  "BEL":{
   "name":"Belgique",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Éthiopie",
-  "info":""
+  "info":"depuis le 26\/09\/2021"
  },
  "FIN":{
   "name":"Finlande",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 08\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 15\/08\/2021<\/li><li>Polynésie française, depuis le 15\/08\/2021<\/li><li>Guadeloupe, depuis le 08\/08\/2021<\/li><li>Martinique, depuis le 08\/08\/2021<\/li><li>Provence-Alpes-Côte d'Azur, depuis le 08\/08\/2021<\/li><li>St. Barthélemy, depuis le 08\/08\/2021<\/li><li>St. Martin, depuis le 08\/08\/2021<\/li><\/ul>"
+  "info":"depuis le 08\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 15\/08\/2021<\/li><li>Polynésie française, depuis le 15\/08\/2021<\/li><li>Guadeloupe, depuis le 08\/08\/2021<\/li><li>Martinique, depuis le 08\/08\/2021<\/li><li>Nouvelle-Calédonie, depuis le 26\/09\/2021<\/li><li>St. Barthélemy, depuis le 08\/08\/2021<\/li><li>St. Martin, depuis le 08\/08\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japon",
-  "info":"depuis le 05\/09\/2021"
+  "info":""
  },
  "KAZ":{
   "name":"Kazakhstan",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Sénégal",
-  "info":"depuis le 08\/08\/2021"
+  "info":""
  },
  "SGP":{
   "name":"Singapour",
@@ -658,7 +658,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovénie",
-  "info":""
+  "info":"depuis le 26\/09\/2021"
  },
  "SWE":{
   "name":"Suède",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint-Vincent-et-les-Grenadines",
-  "info":""
+  "info":"depuis le 26\/09\/2021"
  },
  "VEN":{
   "name":"Vénézuela",

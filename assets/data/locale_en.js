@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"since 26 Sep 2021"
  },
  "BEL":{
   "name":"Belgium",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Ethiopia",
-  "info":""
+  "info":"since 26 Sep 2021"
  },
  "FIN":{
   "name":"Finland",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>French Polynesia, since 15 Aug 2021<\/li><li>Guadeloupe, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>Provence-Alpes-Côte d'Azur, since 08 Aug 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
+  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>French Polynesia, since 15 Aug 2021<\/li><li>Guadeloupe, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>New Caledonia, since 26 Sep 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japan",
-  "info":"since 05 Sep 2021"
+  "info":""
  },
  "KAZ":{
   "name":"Kazakhstan",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":"since 08 Aug 2021"
+  "info":""
  },
  "SGP":{
   "name":"Singapore",
@@ -658,7 +658,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovenia",
-  "info":""
+  "info":"since 26 Sep 2021"
  },
  "SWE":{
   "name":"Sweden",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent and The Grenadines",
-  "info":""
+  "info":"since 26 Sep 2021"
  },
  "VEN":{
   "name":"Venezuela",

@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albanien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
+  "info":"<strong>Hochrisikogebie<\/strong>t seit 5. September 2021"
  },
  "AND":{
   "name":"Andorra",
@@ -42,11 +42,11 @@ var info_rki = {
  },
  "AZE":{
   "name":"Aserbaidschan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
+  "info":"<strong>Hochrisikogebie<\/strong>t seit 5. September 2021"
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 26. September 2021"
  },
  "BEL":{
   "name":"Belgien",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Äthiopien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 26. September 2021"
  },
  "FIN":{
   "name":"Finnland",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Frankreich",
-  "info":"– die folgenden Regionen und französischen Überseegebiete gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Provence-Alpes-Côte d'Azur (<strong>Hochrisikogebiet <\/strong>seit 8. August 2021)<\/li><li>Guadeloupe (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Martinique (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>St. Barthélemy (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>St. Martin (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Französisch-Guayana (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)<\/li><li>Französisch-Polynesien (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)<\/li><\/ul>"
+  "info":"– die folgenden Regionen und französischen Überseegebiete gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Guadeloupe (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Martinique (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>St. Barthélemy (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>St. Martin (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Französisch-Guayana (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)<\/li><li>Französisch-Polynesien (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)<\/li><li>Neukaledonien (<strong>Hochrisikogebiet<\/strong> seit 26. September 2021)<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronesien",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Israel",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 15. August 2021) inklusive der Palästinensischen Gebiete (<strong>Hochrisikogebiet<\/strong> seit 5. September 2021)"
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 15. August 2021) inklusive der Palästinensischen Gebiete (<strong>Hochrisikogebie<\/strong>t seit 5. September 2021)"
  },
  "ITA":{
   "name":"Italien",
@@ -350,7 +350,7 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
+  "info":""
  },
  "KAZ":{
   "name":"Kasachstan",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
+  "info":"<strong>Hochrisikogebie<\/strong>t seit 5. September 2021"
  },
  "LSO":{
   "name":"Lesotho",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "SGP":{
   "name":"Singapur",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
+  "info":"<strong>Hochrisikogebie<\/strong>t seit 5. September 2021"
  },
  "SSD":{
   "name":"Südsudan",
@@ -658,7 +658,7 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slowenien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 26. September 2021"
  },
  "SWE":{
   "name":"Schweden",
@@ -749,8 +749,8 @@ var info_rki = {
   "info":""
  },
  "VCT":{
-  "name":"Saint Vincent and The Grenadines",
-  "info":""
+  "name":"St. Vincent und die Grenadinen",
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 26. September 2021)"
  },
  "VEN":{
   "name":"Venezuela",
