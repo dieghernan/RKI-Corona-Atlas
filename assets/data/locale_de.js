@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"St. Vincent und die Grenadinen",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 26. September 2021)"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 26. September 2021"
  },
  "VEN":{
   "name":"Venezuela",
