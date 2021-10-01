@@ -82,7 +82,7 @@ var info_rki = {
  },
  "BLR":{
   "name":"Belarus",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. Oktober 2021"
  },
  "BLZ":{
   "name":"Belize",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Litauen",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. Oktober 2021"
  },
  "LUX":{
   "name":"Luxemburg",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mosambik",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauretanien",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "ROU":{
   "name":"Rumänien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. Oktober 2021"
  },
  "RUS":{
   "name":"Russische Föderation",
@@ -626,7 +626,7 @@ var info_rki = {
  },
  "SLV":{
   "name":"El Salvador",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. Oktober 2021"
  },
  "SMR":{
   "name":"San Marino",

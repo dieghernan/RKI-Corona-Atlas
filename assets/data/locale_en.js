@@ -82,7 +82,7 @@ var info_rki = {
  },
  "BLR":{
   "name":"Belarus",
-  "info":""
+  "info":"since 03 Oct 2021"
  },
  "BLZ":{
   "name":"Belize",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Lithuania",
-  "info":""
+  "info":"since 03 Oct 2021"
  },
  "LUX":{
   "name":"Luxembourg",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"since 01 Aug 2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauritania",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "ROU":{
   "name":"Romania",
-  "info":""
+  "info":"since 03 Oct 2021"
  },
  "RUS":{
   "name":"Russian Federation",
@@ -626,7 +626,7 @@ var info_rki = {
  },
  "SLV":{
   "name":"El Salvador",
-  "info":""
+  "info":"since 03 Oct 2021"
  },
  "SMR":{
   "name":"San Marino",
