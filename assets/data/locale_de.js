@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei Darussalam",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 10. Oktober 2021)"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 10. Oktober 2021"
  },
  "BTN":{
   "name":"Bhutan",
