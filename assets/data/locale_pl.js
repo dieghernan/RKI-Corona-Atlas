@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbejdżan",
-  "info":"od 05.09.2021"
+  "info":""
  },
  "BDI":{
   "name":"Burundi",
@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei",
-  "info":""
+  "info":"od 10.10.2021"
  },
  "BTN":{
   "name":"Bhutan",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Kolumbia",
-  "info":"od 24.01.2021"
+  "info":""
  },
  "COM":{
   "name":"Komory",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonia",
-  "info":""
+  "info":"od 10.10.2021"
  },
  "ETH":{
   "name":"Etiopia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 08.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Polinezja Francuska, od 15.08.2021<\/li><li>Gwadelupa, od 08.08.2021<\/li><li>Martynika, od 08.08.2021<\/li><li>Nowa Kaledonia, od 26.09.2021<\/li><li>St. Barthélemy, od 08.08.2021<\/li><li>St. Martin, od 08.08.2021<\/li><\/ul>"
+  "info":"od 15.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Nowa Kaledonia, od 26.09.2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonezja",
-  "info":"od 18.07.2021"
+  "info":""
  },
  "IND":{
   "name":"Indie",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazachstan",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "KEN":{
   "name":"Kenia",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Łotwa",
-  "info":""
+  "info":"od 10.10.2021"
  },
  "MAR":{
   "name":"Maroko",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norwegia",
-  "info":"od 12.09.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Oslo, od 12.09.2021<\/li><li>Viken, od 12.09.2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ukraina",
-  "info":""
+  "info":"od 10.10.2021"
  },
  "URY":{
   "name":"Urugwaj",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Jemen",
-  "info":""
+  "info":"od 10.10.2021"
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",

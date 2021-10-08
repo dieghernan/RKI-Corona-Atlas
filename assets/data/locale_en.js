@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbaijan",
-  "info":"since 05 Sep 2021"
+  "info":""
  },
  "BDI":{
   "name":"Burundi",
@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei",
-  "info":""
+  "info":"since 10 Oct 2021"
  },
  "BTN":{
   "name":"Bhutan",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Colombia",
-  "info":"since 24 Jan 2021"
+  "info":""
  },
  "COM":{
   "name":"Comoros",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonia",
-  "info":""
+  "info":"since 10 Oct 2021"
  },
  "ETH":{
   "name":"Ethiopia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 08 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>French Polynesia, since 15 Aug 2021<\/li><li>Guadeloupe, since 08 Aug 2021<\/li><li>Martinique, since 08 Aug 2021<\/li><li>New Caledonia, since 26 Sep 2021<\/li><li>St. Barthélemy, since 08 Aug 2021<\/li><li>St. Martin, since 08 Aug 2021<\/li><\/ul>"
+  "info":"since 15 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>New Caledonia, since 26 Sep 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonesia",
-  "info":"since 18 Jul 2021"
+  "info":""
  },
  "IND":{
   "name":"India",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakhstan",
-  "info":"since 08 Aug 2021"
+  "info":""
  },
  "KEN":{
   "name":"Kenya",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Latvia",
-  "info":""
+  "info":"since 10 Oct 2021"
  },
  "MAR":{
   "name":"Morocco",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norway",
-  "info":"since 12 Sep 2021. The risk designation applies to the following regions:<ul><li>Oslo, since 12 Sep 2021<\/li><li>Viken, since 12 Sep 2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ukraine",
-  "info":""
+  "info":"since 10 Oct 2021"
  },
  "URY":{
   "name":"Uruguay",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Yemen",
-  "info":""
+  "info":"since 10 Oct 2021"
  },
  "ZAF":{
   "name":"South Africa",

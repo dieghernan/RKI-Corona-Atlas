@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbaycan",
-  "info":"05.09.2021'den beri"
+  "info":""
  },
  "BDI":{
   "name":"Burundi",
@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei",
-  "info":""
+  "info":"10.10.2021'den beri"
  },
  "BTN":{
   "name":"Butan",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Kolombiya",
-  "info":"24.01.2021'den beri"
+  "info":""
  },
  "COM":{
   "name":"Komorlar",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonya",
-  "info":""
+  "info":"10.10.2021'den beri"
  },
  "ETH":{
   "name":"Etiyopya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"08.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 15.08.2021'den beri<\/li><li>Fransız Polinezyası, 15.08.2021'den beri<\/li><li>Guadalup, 08.08.2021'den beri<\/li><li>Martinik, 08.08.2021'den beri<\/li><li>Yeni Kaledonya, 26.09.2021'den beri<\/li><li>St. Barthélemy, 08.08.2021'den beri<\/li><li>St. Martin, 08.08.2021'den beri<\/li><\/ul>"
+  "info":"15.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 15.08.2021'den beri<\/li><li>Yeni Kaledonya, 26.09.2021'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Endonezya",
-  "info":"18.07.2021'den beri"
+  "info":""
  },
  "IND":{
   "name":"Hindistan",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakistan",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "KEN":{
   "name":"Kenya",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Latviya",
-  "info":""
+  "info":"10.10.2021'den beri"
  },
  "MAR":{
   "name":"Fas",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norveç",
-  "info":"12.09.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Oslo, 12.09.2021'den beri<\/li><li>Viken, 12.09.2021'den beri<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ukrayna",
-  "info":""
+  "info":"10.10.2021'den beri"
  },
  "URY":{
   "name":"Uruguay",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Yemen",
-  "info":""
+  "info":"10.10.2021'den beri"
  },
  "ZAF":{
   "name":"Güney Afrika",

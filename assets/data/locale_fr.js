@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbaïdjan",
-  "info":"depuis le 05\/09\/2021"
+  "info":""
  },
  "BDI":{
   "name":"Burundi",
@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei",
-  "info":""
+  "info":"depuis le 10\/10\/2021"
  },
  "BTN":{
   "name":"Bhoutan",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Colombie",
-  "info":"depuis le 24\/01\/2021"
+  "info":""
  },
  "COM":{
   "name":"Comores",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonie",
-  "info":""
+  "info":"depuis le 10\/10\/2021"
  },
  "ETH":{
   "name":"Éthiopie",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 08\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 15\/08\/2021<\/li><li>Polynésie française, depuis le 15\/08\/2021<\/li><li>Guadeloupe, depuis le 08\/08\/2021<\/li><li>Martinique, depuis le 08\/08\/2021<\/li><li>Nouvelle-Calédonie, depuis le 26\/09\/2021<\/li><li>St. Barthélemy, depuis le 08\/08\/2021<\/li><li>St. Martin, depuis le 08\/08\/2021<\/li><\/ul>"
+  "info":"depuis le 15\/08\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 15\/08\/2021<\/li><li>Nouvelle-Calédonie, depuis le 26\/09\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonésie",
-  "info":"depuis le 18\/07\/2021"
+  "info":""
  },
  "IND":{
   "name":"Inde",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakhstan",
-  "info":"depuis le 08\/08\/2021"
+  "info":""
  },
  "KEN":{
   "name":"Kenya",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Lettonie",
-  "info":""
+  "info":"depuis le 10\/10\/2021"
  },
  "MAR":{
   "name":"Maroc",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norvège",
-  "info":"depuis le 12\/09\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Oslo, depuis le 12\/09\/2021<\/li><li>Viken, depuis le 12\/09\/2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Népal",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ukraine",
-  "info":""
+  "info":"depuis le 10\/10\/2021"
  },
  "URY":{
   "name":"Uruguay",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Yémen",
-  "info":""
+  "info":"depuis le 10\/10\/2021"
  },
  "ZAF":{
   "name":"Afrique du Sud",

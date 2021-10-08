@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbayán",
-  "info":"desde el 05\/09\/2021"
+  "info":""
  },
  "BDI":{
   "name":"Burundi",
@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei",
-  "info":""
+  "info":"desde el 10\/10\/2021"
  },
  "BTN":{
   "name":"Bhután",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Colombia",
-  "info":"desde el 24\/01\/2021"
+  "info":""
  },
  "COM":{
   "name":"Comores, Islas",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonia",
-  "info":""
+  "info":"desde el 10\/10\/2021"
  },
  "ETH":{
   "name":"Etiopía",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 08\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 15\/08\/2021<\/li><li>Polinesia Francesa, desde el 15\/08\/2021<\/li><li>Guadalupe, desde el 08\/08\/2021<\/li><li>Martinica, desde el 08\/08\/2021<\/li><li>Nueva Caledonia, desde el 26\/09\/2021<\/li><li>St. Barthélemy, desde el 08\/08\/2021<\/li><li>St. Martin, desde el 08\/08\/2021<\/li><\/ul>"
+  "info":"desde el 15\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 15\/08\/2021<\/li><li>Nueva Caledonia, desde el 26\/09\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -310,7 +310,7 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonesia",
-  "info":"desde el 18\/07\/2021"
+  "info":""
  },
  "IND":{
   "name":"India",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazajistán",
-  "info":"desde el 08\/08\/2021"
+  "info":""
  },
  "KEN":{
   "name":"Kenia",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Letonia",
-  "info":""
+  "info":"desde el 10\/10\/2021"
  },
  "MAR":{
   "name":"Marruecos",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Noruega",
-  "info":"desde el 12\/09\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Oslo, desde el 12\/09\/2021<\/li><li>Viken, desde el 12\/09\/2021<\/li><\/ul>"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -730,7 +730,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ucrania",
-  "info":""
+  "info":"desde el 10\/10\/2021"
  },
  "URY":{
   "name":"Uruguay",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Yemen",
-  "info":""
+  "info":"desde el 10\/10\/2021"
  },
  "ZAF":{
   "name":"Suráfrica",

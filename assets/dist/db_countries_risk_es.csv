@@ -9,7 +9,7 @@ Armenia,Área de alto riesgo,desde el 19/09/2021
 Antigua y Barbuda,Área de alto riesgo,desde el 19/09/2021
 Australia,No es área de riesgo,
 Austria,No es área de riesgo,
-Azerbayán,Área de alto riesgo,desde el 05/09/2021
+Azerbayán,No es área de riesgo,
 Burundi,Área de alto riesgo,desde el 26/09/2021
 Bélgica,No es área de riesgo,
 Benín,No es área de riesgo,
@@ -24,7 +24,7 @@ Belice,Área de alto riesgo,desde el 19/09/2021
 Bolivia,No es área de riesgo,
 Brasil,No es área de riesgo,
 Barbados,Área de alto riesgo,desde el 19/09/2021
-Brunei,No es área de riesgo,
+Brunei,Área de alto riesgo,desde el 10/10/2021
 Bhután,No es área de riesgo,
 Botsuana,No es área de riesgo,
 República Centro-africana,No es área de riesgo,
@@ -36,7 +36,7 @@ Costa de Marfil,No es área de riesgo,
 Camerún,No es área de riesgo,
 República Democráctica del Congo,No es área de riesgo,
 Congo,No es área de riesgo,
-Colombia,Área de alto riesgo,desde el 24/01/2021
+Colombia,No es área de riesgo,
 "Comores, Islas",No es área de riesgo,
 Cabo Verde,No es área de riesgo,
 Costa Rica,Área de alto riesgo,desde el 09/05/2021
@@ -53,11 +53,11 @@ Ecuador,No es área de riesgo,
 Egipto,Área de alto riesgo,desde el 24/01/2021
 Eritrea,No es área de riesgo,
 España,No es área de riesgo,
-Estonia,No es área de riesgo,
+Estonia,Área de alto riesgo,desde el 10/10/2021
 Etiopía,Área de alto riesgo,desde el 26/09/2021
 Finlandia,No es área de riesgo,
 Fiyi,Área de alto riesgo,desde el 11/07/2021
-Francia,Área de alto riesgo,"desde el 08/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Guayana Francesa, desde el 15/08/2021; -Polinesia Francesa, desde el 15/08/2021; -Guadalupe, desde el 08/08/2021; -Martinica, desde el 08/08/2021; -Nueva Caledonia, desde el 26/09/2021; -St. Barthélemy, desde el 08/08/2021; -St. Martin, desde el 08/08/2021"
+Francia,Área de alto riesgo,"desde el 15/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Guayana Francesa, desde el 15/08/2021; -Nueva Caledonia, desde el 26/09/2021"
 Micronesia,No es área de riesgo,
 Gabón,No es área de riesgo,
 Reino Unido,Área de alto riesgo,desde el 07/07/2021
@@ -76,7 +76,7 @@ Honduras,Área de alto riesgo,desde el 08/08/2021
 Croacia,No es área de riesgo,
 Haití,Área de alto riesgo,desde el 08/08/2021
 Hungría,No es área de riesgo,
-Indonesia,Área de alto riesgo,desde el 18/07/2021
+Indonesia,No es área de riesgo,
 India,No es área de riesgo,
 Irlanda,Área de alto riesgo,"desde el 22/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Border, desde el 22/08/2021"
 Irán,Área de alto riesgo,desde el 24/01/2021
@@ -87,7 +87,7 @@ Italia,No es área de riesgo,
 Jamaica,Área de alto riesgo,desde el 29/08/2021
 Jordania,No es área de riesgo,
 Japón,No es área de riesgo,
-Kazajistán,Área de alto riesgo,desde el 08/08/2021
+Kazajistán,No es área de riesgo,
 Kenia,Área de alto riesgo,desde el 15/08/2021
 Kirgizstán,No es área de riesgo,
 Camboya,No es área de riesgo,
@@ -105,7 +105,7 @@ Sri Lanka,Área de alto riesgo,desde el 05/09/2021
 Lesoto,No es área de riesgo,
 Lituania,Área de alto riesgo,desde el 03/10/2021
 Luxemburgo,No es área de riesgo,
-Letonia,No es área de riesgo,
+Letonia,Área de alto riesgo,desde el 10/10/2021
 Marruecos,Área de alto riesgo,desde el 08/08/2021
 Mónaco,No es área de riesgo,
 Moldavia,Área de alto riesgo,desde el 19/09/2021
@@ -130,7 +130,7 @@ Nigeria,No es área de riesgo,
 Nicaragua,Área de alto riesgo,desde el 12/09/2021
 Niue,No es área de riesgo,
 Países Bajos,Área de alto riesgo,"desde el 27/07/2021. El nivel de riesgo afecta a las siguientes regiones: -Aruba, desde el 27/07/2021; -Bonaire, desde el 27/07/2021; -Curaçao, desde el 27/07/2021; -Saba, desde el 27/07/2021; -Sint Eustatius, desde el 27/07/2021; -Sint Maarten, desde el 27/07/2021"
-Noruega,Área de alto riesgo,"desde el 12/09/2021. El nivel de riesgo afecta a las siguientes regiones: -Oslo, desde el 12/09/2021; -Viken, desde el 12/09/2021"
+Noruega,No es área de riesgo,
 Nepal,No es área de riesgo,
 Nauru,No es área de riesgo,
 Nueva Zelanda,No es área de riesgo,
@@ -181,7 +181,7 @@ Turquía,Área de alto riesgo,desde el 17/08/2021
 Tuvalu,No es área de riesgo,
 República Unida de Tanzania,Área de alto riesgo,desde el 14/03/2021
 Uganda,No es área de riesgo,
-Ucrania,No es área de riesgo,
+Ucrania,Área de alto riesgo,desde el 10/10/2021
 Uruguay,No es área de riesgo,
 Estados Unidos,Área de alto riesgo,desde el 15/08/2021
 Uzbekistán,Área de alto riesgo,desde el 08/08/2021
@@ -192,7 +192,7 @@ Vietnam,Área de alto riesgo,desde el 15/08/2021
 Vanuatu,No es área de riesgo,
 Samoa,No es área de riesgo,
 Kosovo,Área de alto riesgo,desde el 22/08/2021
-Yemen,No es área de riesgo,
+Yemen,Área de alto riesgo,desde el 10/10/2021
 Suráfrica,No es área de riesgo,
 Zambia,No es área de riesgo,
 Zimbabue,No es área de riesgo,

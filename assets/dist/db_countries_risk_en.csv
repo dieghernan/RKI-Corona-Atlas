@@ -9,7 +9,7 @@ Armenia,High risk area,since 19 Sep 2021
 Antigua and Barbuda,High risk area,since 19 Sep 2021
 Australia,Not risk area,
 Austria,Not risk area,
-Azerbaijan,High risk area,since 05 Sep 2021
+Azerbaijan,Not risk area,
 Burundi,High risk area,since 26 Sep 2021
 Belgium,Not risk area,
 Benin,Not risk area,
@@ -24,7 +24,7 @@ Belize,High risk area,since 19 Sep 2021
 Bolivia,Not risk area,
 Brazil,Not risk area,
 Barbados,High risk area,since 19 Sep 2021
-Brunei,Not risk area,
+Brunei,High risk area,since 10 Oct 2021
 Bhutan,Not risk area,
 Botswana,Not risk area,
 Central African Republic,Not risk area,
@@ -36,7 +36,7 @@ Cote D'Ivoire,Not risk area,
 Cameroon,Not risk area,
 Democratic Republic of The Congo,Not risk area,
 Congo,Not risk area,
-Colombia,High risk area,since 24 Jan 2021
+Colombia,Not risk area,
 Comoros,Not risk area,
 Cape Verde,Not risk area,
 Costa Rica,High risk area,since 09 May 2021
@@ -53,11 +53,11 @@ Ecuador,Not risk area,
 Egypt,High risk area,since 24 Jan 2021
 Eritrea,Not risk area,
 Spain,Not risk area,
-Estonia,Not risk area,
+Estonia,High risk area,since 10 Oct 2021
 Ethiopia,High risk area,since 26 Sep 2021
 Finland,Not risk area,
 Fiji,High risk area,since 11 Jul 2021
-France,High risk area,"since 08 Aug 2021. The risk designation applies to the following regions: -French Guiana, since 15 Aug 2021; -French Polynesia, since 15 Aug 2021; -Guadeloupe, since 08 Aug 2021; -Martinique, since 08 Aug 2021; -New Caledonia, since 26 Sep 2021; -St. Barthélemy, since 08 Aug 2021; -St. Martin, since 08 Aug 2021"
+France,High risk area,"since 15 Aug 2021. The risk designation applies to the following regions: -French Guiana, since 15 Aug 2021; -New Caledonia, since 26 Sep 2021"
 Micronesia,Not risk area,
 Gabon,Not risk area,
 United Kingdom,High risk area,since 07 Jul 2021
@@ -76,7 +76,7 @@ Honduras,High risk area,since 08 Aug 2021
 Croatia,Not risk area,
 Haiti,High risk area,since 08 Aug 2021
 Hungary,Not risk area,
-Indonesia,High risk area,since 18 Jul 2021
+Indonesia,Not risk area,
 India,Not risk area,
 Ireland,High risk area,"since 22 Aug 2021. The risk designation applies to the following regions: -Border, since 22 Aug 2021"
 Iran,High risk area,since 24 Jan 2021
@@ -87,7 +87,7 @@ Italy,Not risk area,
 Jamaica,High risk area,since 29 Aug 2021
 Jordan,Not risk area,
 Japan,Not risk area,
-Kazakhstan,High risk area,since 08 Aug 2021
+Kazakhstan,Not risk area,
 Kenya,High risk area,since 15 Aug 2021
 Kyrgyzstan,Not risk area,
 Cambodia,Not risk area,
@@ -105,7 +105,7 @@ Sri Lanka,High risk area,since 05 Sep 2021
 Lesotho,Not risk area,
 Lithuania,High risk area,since 03 Oct 2021
 Luxembourg,Not risk area,
-Latvia,Not risk area,
+Latvia,High risk area,since 10 Oct 2021
 Morocco,High risk area,since 08 Aug 2021
 Monaco,Not risk area,
 Moldova,High risk area,since 19 Sep 2021
@@ -130,7 +130,7 @@ Nigeria,Not risk area,
 Nicaragua,High risk area,since 12 Sep 2021
 Niue,Not risk area,
 Netherlands,High risk area,"since 27 Jul 2021. The risk designation applies to the following regions: -Aruba, since 27 Jul 2021; -Bonaire, since 27 Jul 2021; -Curaçao, since 27 Jul 2021; -Saba, since 27 Jul 2021; -Sint Eustatius, since 27 Jul 2021; -Sint Maarten, since 27 Jul 2021"
-Norway,High risk area,"since 12 Sep 2021. The risk designation applies to the following regions: -Oslo, since 12 Sep 2021; -Viken, since 12 Sep 2021"
+Norway,Not risk area,
 Nepal,Not risk area,
 Nauru,Not risk area,
 New Zealand,Not risk area,
@@ -181,7 +181,7 @@ Turkey,High risk area,since 17 Aug 2021
 Tuvalu,Not risk area,
 United Republic of Tanzania,High risk area,since 14 Mar 2021
 Uganda,Not risk area,
-Ukraine,Not risk area,
+Ukraine,High risk area,since 10 Oct 2021
 Uruguay,Not risk area,
 United States,High risk area,since 15 Aug 2021
 Uzbekistan,High risk area,since 08 Aug 2021
@@ -192,7 +192,7 @@ Vietnam,High risk area,since 15 Aug 2021
 Vanuatu,Not risk area,
 Samoa,Not risk area,
 Kosovo,High risk area,since 22 Aug 2021
-Yemen,Not risk area,
+Yemen,High risk area,since 10 Oct 2021
 South Africa,Not risk area,
 Zambia,Not risk area,
 Zimbabwe,Not risk area,
