@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algerien",
-  "info":"<strong>Hochrisikogebie<\/strong>t seit 8. August 2021"
+  "info":""
  },
  "ECU":{
   "name":"Ecuador",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidschi",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 11. Juli 2021"
+  "info":""
  },
  "FRA":{
   "name":"Frankreich",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabun",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 17. Oktober 2021"
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"<strong>Hochrisikogebie<\/strong>t seit 5. September 2021"
+  "info":""
  },
  "LSO":{
   "name":"Lesotho",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Marokko",
-  "info":"<strong>Hochrisikogebie<\/strong>t seit 8. August 2021"
+  "info":""
  },
  "MCO":{
   "name":"Monaco",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"São Tomé und Príncipe",
-  "info":""
+  "info":"<strong>Hochrisikogebiet <\/strong>seit 17. Oktober 2021"
  },
  "SUR":{
   "name":"Surinam",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunesien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 25. April 2021"
+  "info":""
  },
  "TUR":{
   "name":"Türkei",

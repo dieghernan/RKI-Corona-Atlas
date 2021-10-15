@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algeria",
-  "info":"desde el 08\/08\/2021"
+  "info":""
  },
  "ECU":{
   "name":"Ecuador",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiyi",
-  "info":"desde el 11\/07\/2021"
+  "info":""
  },
  "FRA":{
   "name":"Francia",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabón",
-  "info":""
+  "info":"desde el 17\/10\/2021"
  },
  "GBR":{
   "name":"Reino Unido",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"desde el 05\/09\/2021"
+  "info":""
  },
  "LSO":{
   "name":"Lesoto",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Marruecos",
-  "info":"desde el 08\/08\/2021"
+  "info":""
  },
  "MCO":{
   "name":"Mónaco",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"Santo Tomé y Príncipe",
-  "info":""
+  "info":"desde el 17\/10\/2021"
  },
  "SUR":{
   "name":"Surinám",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunez",
-  "info":"desde el 25\/04\/2021"
+  "info":""
  },
  "TUR":{
   "name":"Turquía",

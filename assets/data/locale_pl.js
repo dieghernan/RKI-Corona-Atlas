@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algieria",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "ECU":{
   "name":"Ekwador",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidżi",
-  "info":"od 11.07.2021"
+  "info":""
  },
  "FRA":{
   "name":"Francja",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":""
+  "info":"od 17.10.2021"
  },
  "GBR":{
   "name":"Wielka Brytania",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"od 05.09.2021"
+  "info":""
  },
  "LSO":{
   "name":"Lesoto",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Maroko",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "MCO":{
   "name":"Monako",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"Wyspy Świętego Tomasza i Książęca",
-  "info":""
+  "info":"od 17.10.2021"
  },
  "SUR":{
   "name":"Surinam",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunezja",
-  "info":"od 25.04.2021"
+  "info":""
  },
  "TUR":{
   "name":"Turcja",

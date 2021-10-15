@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Cezayir",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "ECU":{
   "name":"Ekvator",
@@ -230,7 +230,7 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiji",
-  "info":"11.07.2021'den beri"
+  "info":""
  },
  "FRA":{
   "name":"Fransa",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":""
+  "info":"17.10.2021'den beri"
  },
  "GBR":{
   "name":"Birleşik Krallık",
@@ -410,7 +410,7 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":"05.09.2021'den beri"
+  "info":""
  },
  "LSO":{
   "name":"Lesoto",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Fas",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "MCO":{
   "name":"Monako",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"Sao Tome ve Principe",
-  "info":""
+  "info":"17.10.2021'den beri"
  },
  "SUR":{
   "name":"Surinam",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunus",
-  "info":"25.04.2021'den beri"
+  "info":""
  },
  "TUR":{
   "name":"Türkiye",
