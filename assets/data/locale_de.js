@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bulgarien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Oktober 2021"
  },
  "BHR":{
   "name":"Bahrain",
@@ -138,15 +138,15 @@ var info_rki = {
  },
  "CMR":{
   "name":"Kamerun",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Oktober 2021"
  },
  "COD":{
   "name":"Kongo DR",
   "info":""
  },
  "COG":{
-  "name":"Kongo Rep",
-  "info":""
+  "name":"Kongo",
+  "info":" Republik (<strong>Hochrisikogebiet<\/strong> seit 24. Oktober 2021)"
  },
  "COL":{
   "name":"Kolumbien",
@@ -294,11 +294,11 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "HRV":{
   "name":"Kroatien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Oktober 2021"
  },
  "HTI":{
   "name":"Haiti",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "ISL":{
   "name":"Island",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 15. August 2021"
+  "info":""
  },
  "KGZ":{
   "name":"Kirgisistan",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Lettland",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 10. Oktober 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 10. Oktober 2021"
  },
  "MAR":{
   "name":"Marokko",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Oktober 2021"
  },
  "SLB":{
   "name":"Salomoninseln",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"São Tomé und Príncipe",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 17. Oktober 2021"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 17. Oktober 2021"
  },
  "SUR":{
   "name":"Surinam",
@@ -770,7 +770,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
+  "info":""
  },
  "YEM":{
   "name":"Jemen",

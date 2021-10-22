@@ -15,7 +15,7 @@ Bélgica,No es área de riesgo,
 Benín,No es área de riesgo,
 Burquina Faso,No es área de riesgo,
 Bangladesh,No es área de riesgo,
-Bulgaria,No es área de riesgo,
+Bulgaria,Área de alto riesgo,desde el 24/10/2021
 Bahrein,No es área de riesgo,
 Bahamas,No es área de riesgo,
 Bosnia y Herzegovina,Área de alto riesgo,desde el 12/09/2021
@@ -33,9 +33,9 @@ Suiza,No es área de riesgo,
 Chile,No es área de riesgo,
 China,No es área de riesgo,
 Costa de Marfil,No es área de riesgo,
-Camerún,No es área de riesgo,
+Camerún,Área de alto riesgo,desde el 24/10/2021
 República Democráctica del Congo,No es área de riesgo,
-Congo,No es área de riesgo,
+Congo,Área de alto riesgo,desde el 24/10/2021
 Colombia,No es área de riesgo,
 "Comores, Islas",No es área de riesgo,
 Cabo Verde,No es área de riesgo,
@@ -72,15 +72,15 @@ Granada,Área de alto riesgo,desde el 12/09/2021
 Guatemala,Área de alto riesgo,desde el 05/09/2021
 Guyana,Área de alto riesgo,desde el 19/09/2021
 Hong Kong,No es área de riesgo,
-Honduras,Área de alto riesgo,desde el 08/08/2021
-Croacia,No es área de riesgo,
+Honduras,No es área de riesgo,
+Croacia,Área de alto riesgo,desde el 24/10/2021
 Haití,Área de alto riesgo,desde el 08/08/2021
 Hungría,No es área de riesgo,
 Indonesia,No es área de riesgo,
 India,No es área de riesgo,
 Irlanda,Área de alto riesgo,"desde el 22/08/2021. El nivel de riesgo afecta a las siguientes regiones: -Border, desde el 22/08/2021"
 Irán,Área de alto riesgo,desde el 24/01/2021
-Iraq,Área de alto riesgo,desde el 08/08/2021
+Iraq,No es área de riesgo,
 Islandia,No es área de riesgo,
 Israel,Área de alto riesgo,desde el 15/08/2021
 Italia,No es área de riesgo,
@@ -88,7 +88,7 @@ Jamaica,Área de alto riesgo,desde el 29/08/2021
 Jordania,No es área de riesgo,
 Japón,No es área de riesgo,
 Kazajistán,No es área de riesgo,
-Kenia,Área de alto riesgo,desde el 15/08/2021
+Kenia,No es área de riesgo,
 Kirgizstán,No es área de riesgo,
 Camboya,No es área de riesgo,
 Kiribati,No es área de riesgo,
@@ -152,7 +152,7 @@ Ruanda,No es área de riesgo,
 Arabia Saudí,No es área de riesgo,
 Sudán,Área de alto riesgo,desde el 31/01/2021
 Senegal,No es área de riesgo,
-Singapur,No es área de riesgo,
+Singapur,Área de alto riesgo,desde el 24/10/2021
 Islas Salomón,No es área de riesgo,
 Sierra Leona,No es área de riesgo,
 El Salvador,Área de alto riesgo,desde el 03/10/2021
@@ -191,7 +191,7 @@ Venezuela,Área de alto riesgo,desde el 19/09/2021
 Vietnam,Área de alto riesgo,desde el 15/08/2021
 Vanuatu,No es área de riesgo,
 Samoa,No es área de riesgo,
-Kosovo,Área de alto riesgo,desde el 22/08/2021
+Kosovo,No es área de riesgo,
 Yemen,Área de alto riesgo,desde el 10/10/2021
 Suráfrica,No es área de riesgo,
 Zambia,No es área de riesgo,

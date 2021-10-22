@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bulgaristan",
-  "info":""
+  "info":"24.10.2021'den beri"
  },
  "BHR":{
   "name":"Bahreyn",
@@ -138,7 +138,7 @@ var info_rki = {
  },
  "CMR":{
   "name":"Kamerun",
-  "info":""
+  "info":"24.10.2021'den beri"
  },
  "COD":{
   "name":"Kongo Demokratik Cumhuriyeti",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Kongo",
-  "info":""
+  "info":"24.10.2021'den beri"
  },
  "COL":{
   "name":"Kolombiya",
@@ -294,11 +294,11 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "HRV":{
   "name":"Hırvatistan",
-  "info":""
+  "info":"24.10.2021'den beri"
  },
  "HTI":{
   "name":"Haiti",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "ISL":{
   "name":"İzlanda",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenya",
-  "info":"15.08.2021'den beri"
+  "info":""
  },
  "KGZ":{
   "name":"Kırgızistan",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":""
+  "info":"24.10.2021'den beri"
  },
  "SLB":{
   "name":"Solomon Adaları",
@@ -770,7 +770,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosova",
-  "info":"22.08.2021'den beri"
+  "info":""
  },
  "YEM":{
   "name":"Yemen",
