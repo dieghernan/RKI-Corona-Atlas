@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Izrael",
-  "info":"od 15.08.2021"
+  "info":""
  },
  "ITA":{
   "name":"Włochy",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SVK":{
   "name":"Słowacja",
-  "info":""
+  "info":"od 31.10.2021"
  },
  "SVN":{
   "name":"Słowenia",

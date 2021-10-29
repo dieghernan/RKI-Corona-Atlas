@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Israel",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 15. August 2021) inklusive der Palästinensischen Gebiete (<strong>Hochrisikogebie<\/strong>t seit 5. September 2021)"
+  "info":""
  },
  "ITA":{
   "name":"Italien",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SVK":{
   "name":"Slowakei",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 31. Oktober 2021"
  },
  "SVN":{
   "name":"Slowenien",
