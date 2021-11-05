@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua-Barbuda",
-  "info":"19.09.2021'den beri"
+  "info":""
  },
  "AUS":{
   "name":"Avustralya",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Küba",
-  "info":"18.07.2021'den beri"
+  "info":""
  },
  "CYP":{
   "name":"Kıbrıs",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Granada",
-  "info":"12.09.2021'den beri"
+  "info":""
  },
  "GTM":{
   "name":"Guatemala",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaika",
-  "info":"29.08.2021'den beri"
+  "info":""
  },
  "JOR":{
   "name":"Ürdün",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Sen Lucia",
-  "info":"29.08.2021'den beri"
+  "info":""
  },
  "LIE":{
   "name":"Lihtenştayn",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":"08.08.2021'den beri"
+  "info":""
  },
  "MNE":{
   "name":"Karadağ",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 27.07.2021'den beri<\/li><li>Bonaire, 27.07.2021'den beri<\/li><li>Curaçao, 27.07.2021'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>Sint Eustatius, 27.07.2021'den beri<\/li><li>Sint Maarten, 27.07.2021'den beri<\/li><\/ul>"
+  "info":"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Bonaire, 27.07.2021'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>Sint Eustatius, 27.07.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",

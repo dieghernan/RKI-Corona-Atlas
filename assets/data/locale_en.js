@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua and Barbuda",
-  "info":"since 19 Sep 2021"
+  "info":""
  },
  "AUS":{
   "name":"Australia",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Cuba",
-  "info":"since 18 Jul 2021"
+  "info":""
  },
  "CYP":{
   "name":"Cyprus",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Grenada",
-  "info":"since 12 Sep 2021"
+  "info":""
  },
  "GTM":{
   "name":"Guatemala",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaica",
-  "info":"since 29 Aug 2021"
+  "info":""
  },
  "JOR":{
   "name":"Jordan",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":"since 29 Aug 2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":"since 08 Aug 2021"
+  "info":""
  },
  "MNE":{
   "name":"Montenegro",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 27 Jul 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 27 Jul 2021<\/li><li>Bonaire, since 27 Jul 2021<\/li><li>Curaçao, since 27 Jul 2021<\/li><li>Saba, since 27 Jul 2021<\/li><li>Sint Eustatius, since 27 Jul 2021<\/li><li>Sint Maarten, since 27 Jul 2021<\/li><\/ul>"
+  "info":"since 27 Jul 2021. The risk designation applies to the following regions:<ul><li>Bonaire, since 27 Jul 2021<\/li><li>Saba, since 27 Jul 2021<\/li><li>Sint Eustatius, since 27 Jul 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",

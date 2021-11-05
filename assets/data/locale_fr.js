@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua-et-Barbuda",
-  "info":"depuis le 19\/09\/2021"
+  "info":""
  },
  "AUS":{
   "name":"Australie",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Cuba",
-  "info":"depuis le 18\/07\/2021"
+  "info":""
  },
  "CYP":{
   "name":"Chypre",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Grenade",
-  "info":"depuis le 12\/09\/2021"
+  "info":""
  },
  "GTM":{
   "name":"Guatemala",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaïque",
-  "info":"depuis le 29\/08\/2021"
+  "info":""
  },
  "JOR":{
   "name":"Jordanie",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Sainte-Lucie",
-  "info":"depuis le 29\/08\/2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":"depuis le 08\/08\/2021"
+  "info":""
  },
  "MNE":{
   "name":"Monténégro",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 27\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Aruba, depuis le 27\/07\/2021<\/li><li>Bonaire, depuis le 27\/07\/2021<\/li><li>Curaçao, depuis le 27\/07\/2021<\/li><li>Saba, depuis le 27\/07\/2021<\/li><li>Sint Eustatius, depuis le 27\/07\/2021<\/li><li>Sint Maarten, depuis le 27\/07\/2021<\/li><\/ul>"
+  "info":"depuis le 27\/07\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Bonaire, depuis le 27\/07\/2021<\/li><li>Saba, depuis le 27\/07\/2021<\/li><li>Sint Eustatius, depuis le 27\/07\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norvège",

@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua und Barbuda",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
+  "info":""
  },
  "AUS":{
   "name":"Australien",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Kuba",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 18. Juli 2021"
+  "info":""
  },
  "CYP":{
   "name":"Zypern",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Grenada",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 12. September 2021"
+  "info":""
  },
  "GTM":{
   "name":"Guatemala",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaika",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
+  "info":""
  },
  "JOR":{
   "name":"Jordanien",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"St. Lucia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "MNE":{
   "name":"Montenegro",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"– die folgenden überseeischen Teile des Königreichs der Niederlande gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Aruba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Curaçao (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Bonaire (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Sint Eustatius (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Sint Maarten (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Saba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><\/ul>"
+  "info":"– die folgenden überseeischen Teile des Königreichs der Niederlande gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Bonaire (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Sint Eustatius (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Saba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegen",

@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua i Barbuda",
-  "info":"od 19.09.2021"
+  "info":""
  },
  "AUS":{
   "name":"Australia",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Kuba",
-  "info":"od 18.07.2021"
+  "info":""
  },
  "CYP":{
   "name":"Cypr",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Grenada",
-  "info":"od 12.09.2021"
+  "info":""
  },
  "GTM":{
   "name":"Gwatemala",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamajka",
-  "info":"od 29.08.2021"
+  "info":""
  },
  "JOR":{
   "name":"Jordania",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":"od 29.08.2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -470,7 +470,7 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar\/Burma",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "MNE":{
   "name":"Czarnogóra",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Aruba, od 27.07.2021<\/li><li>Bonaire, od 27.07.2021<\/li><li>Curaçao, od 27.07.2021<\/li><li>Saba, od 27.07.2021<\/li><li>Sint Eustatius, od 27.07.2021<\/li><li>Sint Maarten, od 27.07.2021<\/li><\/ul>"
+  "info":"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Bonaire, od 27.07.2021<\/li><li>Saba, od 27.07.2021<\/li><li>Sint Eustatius, od 27.07.2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
