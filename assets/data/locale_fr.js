@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Autriche",
-  "info":""
+  "info":"depuis le 14\/11\/2021. Les régions suivantes sont exclues:<ul><li>Jungholz<\/li><li>Mittelberg<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaïdjan",
@@ -174,7 +174,7 @@ var info_rki = {
  },
  "CZE":{
   "name":"Tchéquie",
-  "info":""
+  "info":"depuis le 14\/11\/2021"
  },
  "DEU":{
   "name":"Allemagne",
@@ -306,7 +306,7 @@ var info_rki = {
  },
  "HUN":{
   "name":"Hongrie",
-  "info":""
+  "info":"depuis le 14\/11\/2021"
  },
  "IDN":{
   "name":"Indonésie",
@@ -386,7 +386,7 @@ var info_rki = {
  },
  "LAO":{
   "name":"Laos",
-  "info":""
+  "info":"depuis le 14\/11\/2021"
  },
  "LBN":{
   "name":"Liban",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "USA":{
   "name":"États-Unis",
-  "info":"depuis le 15\/08\/2021"
+  "info":""
  },
  "UZB":{
   "name":"Ouzbékistan",

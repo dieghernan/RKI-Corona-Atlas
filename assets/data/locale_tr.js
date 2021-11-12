@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Avusturya",
-  "info":""
+  "info":"14.11.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Jungholz<\/li><li>Mittelberg<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaycan",
@@ -174,7 +174,7 @@ var info_rki = {
  },
  "CZE":{
   "name":"Çekya",
-  "info":""
+  "info":"14.11.2021'den beri"
  },
  "DEU":{
   "name":"Almanya",
@@ -306,7 +306,7 @@ var info_rki = {
  },
  "HUN":{
   "name":"Macaristan",
-  "info":""
+  "info":"14.11.2021'den beri"
  },
  "IDN":{
   "name":"Endonezya",
@@ -386,7 +386,7 @@ var info_rki = {
  },
  "LAO":{
   "name":"Laos",
-  "info":""
+  "info":"14.11.2021'den beri"
  },
  "LBN":{
   "name":"Lübnan",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Birleşik Devletler",
-  "info":"15.08.2021'den beri"
+  "info":""
  },
  "UZB":{
   "name":"Özbekistan",

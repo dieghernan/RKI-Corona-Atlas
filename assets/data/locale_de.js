@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Österreich",
-  "info":""
+  "info":"- mit Ausnahme der Gemeinden Mittelberg und Jungholz und dem Rißtal im Gemeindegebiet von Vomp und Eben am Achensee (<strong>Hochrisikogebiet<\/strong> seit 14. November 2021)"
  },
  "AZE":{
   "name":"Aserbaidschan",
@@ -173,8 +173,8 @@ var info_rki = {
   "info":""
  },
  "CZE":{
-  "name":"Tschechien",
-  "info":""
+  "name":"Tschechische Republik",
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 14. November 2021)"
  },
  "DEU":{
   "name":"Deutschland",
@@ -306,7 +306,7 @@ var info_rki = {
  },
  "HUN":{
   "name":"Ungarn",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 14. November 2021"
  },
  "IDN":{
   "name":"Indonesien",
@@ -386,7 +386,7 @@ var info_rki = {
  },
  "LAO":{
   "name":"Laos",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 14. November 2021"
  },
  "LBN":{
   "name":"Libanon",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Vereinigte Staaten",
-  "info":"von Amerika (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)"
+  "info":""
  },
  "UZB":{
   "name":"Usbekistan",
