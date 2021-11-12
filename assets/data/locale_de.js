@@ -174,7 +174,7 @@ var info_rki = {
  },
  "CZE":{
   "name":"Tschechische Republik",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 14. November 2021)"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 14. November 2021"
  },
  "DEU":{
   "name":"Deutschland",
