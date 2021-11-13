@@ -1,7 +1,7 @@
 # Corona Atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
 
 _Visit
-[our website](https://corona-atlas.de/)
+[our website][corona-atlas]
 or contact us directly
 [via mail](mailto:info@corona-atlas.de)._
 </br></br></br>
@@ -31,4 +31,6 @@ as its Jekyll theme.
 
 ## Current status
 
-![](/assets/img/og_corona_atlas.png)
+[![Corona Atlas](/assets/img/og_corona_atlas.png)][corona-atlas]
+
+[corona-atlas]: https://corona-atlas.de/
