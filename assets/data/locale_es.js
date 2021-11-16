@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":"desde el 14\/11\/2021. A excepción de las siguientes regiones:<ul><li>Jungholz<\/li><li>Mittelberg<\/li><\/ul>"
+  "info":"desde el 14\/11\/2021. A excepción de las siguientes regiones:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbayán",

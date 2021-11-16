@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Avusturya",
-  "info":"14.11.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Jungholz<\/li><li>Mittelberg<\/li><\/ul>"
+  "info":"14.11.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaycan",
