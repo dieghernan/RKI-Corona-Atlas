@@ -11,7 +11,7 @@ Avustralya,Risksiz Bölge,
 Avusturya,Yüksek riskli bölge,14.11.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
 Azerbaycan,Risksiz Bölge,
 Burundi,Yüksek riskli bölge,26.09.2021'den beri
-Belçika,Risksiz Bölge,
+Belçika,Yüksek riskli bölge,21.11.2021'den beri
 Benin,Risksiz Bölge,
 Burkina Faso,Risksiz Bölge,
 Bangladeş,Risksiz Bölge,
@@ -39,7 +39,7 @@ Kongo,Yüksek riskli bölge,24.10.2021'den beri
 Kolombiya,Risksiz Bölge,
 Komorlar,Risksiz Bölge,
 Verde Burnu,Risksiz Bölge,
-Kosta Rika,Yüksek riskli bölge,09.05.2021'den beri
+Kosta Rika,Risksiz Bölge,
 Küba,Risksiz Bölge,
 Kıbrıs,Risksiz Bölge,
 Çekya,Yüksek riskli bölge,14.11.2021'den beri
@@ -57,7 +57,7 @@ Estonya,Yüksek riskli bölge,10.10.2021'den beri
 Etiyopya,Yüksek riskli bölge,26.09.2021'den beri
 Finlandiya,Risksiz Bölge,
 Fiji,Risksiz Bölge,
-Fransa,Yüksek riskli bölge,"15.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Fransız Guyanası, 15.08.2021'den beri; -Yeni Kaledonya, 26.09.2021'den beri"
+Fransa,Risksiz Bölge,
 Mikronezya,Risksiz Bölge,
 Gabon,Yüksek riskli bölge,17.10.2021'den beri
 Birleşik Krallık,Yüksek riskli bölge,07.07.2021'den beri
@@ -67,10 +67,10 @@ Gine,Risksiz Bölge,
 Gambiya,Risksiz Bölge,
 Gine-Bissau,Risksiz Bölge,
 Ekvatoral Gine,Risksiz Bölge,
-Yunanistan,Risksiz Bölge,
+Yunanistan,Yüksek riskli bölge,21.11.2021'den beri
 Granada,Risksiz Bölge,
-Guatemala,Yüksek riskli bölge,05.09.2021'den beri
-Guyana,Yüksek riskli bölge,19.09.2021'den beri
+Guatemala,Risksiz Bölge,
+Guyana,Risksiz Bölge,
 Hong Kong,Risksiz Bölge,
 Honduras,Risksiz Bölge,
 Hırvatistan,Yüksek riskli bölge,24.10.2021'den beri
@@ -78,7 +78,7 @@ Haiti,Yüksek riskli bölge,08.08.2021'den beri
 Macaristan,Yüksek riskli bölge,14.11.2021'den beri
 Endonezya,Risksiz Bölge,
 Hindistan,Risksiz Bölge,
-İrlanda,Yüksek riskli bölge,"22.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Border, 22.08.2021'den beri"
+İrlanda,Yüksek riskli bölge,21.11.2021'den beri
 Iran,Yüksek riskli bölge,24.01.2021'den beri
 Irak,Risksiz Bölge,
 İzlanda,Risksiz Bölge,
@@ -129,7 +129,7 @@ Nijer,Risksiz Bölge,
 Nijerya,Risksiz Bölge,
 Nikaragua,Yüksek riskli bölge,12.09.2021'den beri
 Nie,Risksiz Bölge,
-Hollanda,Yüksek riskli bölge,"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Bonaire, 27.07.2021'den beri; -Saba, 27.07.2021'den beri; -Sint Eustatius, 27.07.2021'den beri"
+Hollanda,Yüksek riskli bölge,"21.11.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Bonaire, 27.07.2021'den beri; -Saba, 27.07.2021'den beri; -Sint Eustatius, 27.07.2021'den beri"
 Norveç,Risksiz Bölge,
 Nepal,Risksiz Bölge,
 Nauru,Risksiz Bölge,
@@ -161,7 +161,7 @@ Somali,Risksiz Bölge,
 Sırbistan,Yüksek riskli bölge,05.09.2021'den beri
 Güney Sudan,Risksiz Bölge,
 Sao Tome ve Principe,Yüksek riskli bölge,17.10.2021'den beri
-Surinam,Yüksek riskli bölge,23.05.2021'den beri
+Surinam,Risksiz Bölge,
 Slovakya,Yüksek riskli bölge,31.10.2021'den beri
 Slovenya,Yüksek riskli bölge,26.09.2021'den beri
 İsveç,Risksiz Bölge,

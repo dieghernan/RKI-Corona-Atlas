@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belçika",
-  "info":""
+  "info":"21.11.2021'den beri"
  },
  "BEN":{
   "name":"Benin",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Kosta Rika",
-  "info":"09.05.2021'den beri"
+  "info":""
  },
  "CUB":{
   "name":"Küba",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"15.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 15.08.2021'den beri<\/li><li>Yeni Kaledonya, 26.09.2021'den beri<\/li><\/ul>"
+  "info":""
  },
  "FSM":{
   "name":"Mikronezya",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Yunanistan",
-  "info":""
+  "info":"21.11.2021'den beri"
  },
  "GRD":{
   "name":"Granada",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":"05.09.2021'den beri"
+  "info":""
  },
  "GUY":{
   "name":"Guyana",
-  "info":"19.09.2021'den beri"
+  "info":""
  },
  "HKG":{
   "name":"Hong Kong",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"İrlanda",
-  "info":"22.08.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 22.08.2021'den beri<\/li><\/ul>"
+  "info":"21.11.2021'den beri"
  },
  "IRN":{
   "name":"Iran",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"27.07.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Bonaire, 27.07.2021'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>Sint Eustatius, 27.07.2021'den beri<\/li><\/ul>"
+  "info":"21.11.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Bonaire, 27.07.2021'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>Sint Eustatius, 27.07.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -650,7 +650,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":"23.05.2021'den beri"
+  "info":""
  },
  "SVK":{
   "name":"Slovakya",

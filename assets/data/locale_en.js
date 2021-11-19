@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgium",
-  "info":""
+  "info":"since 21 Nov 2021"
  },
  "BEN":{
   "name":"Benin",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Costa Rica",
-  "info":"since 09 May 2021"
+  "info":""
  },
  "CUB":{
   "name":"Cuba",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 15 Aug 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 15 Aug 2021<\/li><li>New Caledonia, since 26 Sep 2021<\/li><\/ul>"
+  "info":""
  },
  "FSM":{
   "name":"Micronesia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Greece",
-  "info":""
+  "info":"since 21 Nov 2021"
  },
  "GRD":{
   "name":"Grenada",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":"since 05 Sep 2021"
+  "info":""
  },
  "GUY":{
   "name":"Guyana",
-  "info":"since 19 Sep 2021"
+  "info":""
  },
  "HKG":{
   "name":"Hong Kong",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Ireland",
-  "info":"since 22 Aug 2021. The risk designation applies to the following regions:<ul><li>Border, since 22 Aug 2021<\/li><\/ul>"
+  "info":"since 21 Nov 2021"
  },
  "IRN":{
   "name":"Iran",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 27 Jul 2021. The risk designation applies to the following regions:<ul><li>Bonaire, since 27 Jul 2021<\/li><li>Saba, since 27 Jul 2021<\/li><li>Sint Eustatius, since 27 Jul 2021<\/li><\/ul>"
+  "info":"since 21 Nov 2021. The risk designation applies to the following regions:<ul><li>Bonaire, since 27 Jul 2021<\/li><li>Saba, since 27 Jul 2021<\/li><li>Sint Eustatius, since 27 Jul 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
@@ -650,7 +650,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Suriname",
-  "info":"since 23 May 2021"
+  "info":""
  },
  "SVK":{
   "name":"Slovakia",

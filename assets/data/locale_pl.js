@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgia",
-  "info":""
+  "info":"od 21.11.2021"
  },
  "BEN":{
   "name":"Benin",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Kostaryka",
-  "info":"od 09.05.2021"
+  "info":""
  },
  "CUB":{
   "name":"Kuba",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 15.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 15.08.2021<\/li><li>Nowa Kaledonia, od 26.09.2021<\/li><\/ul>"
+  "info":""
  },
  "FSM":{
   "name":"Mikronezja",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":""
+  "info":"od 21.11.2021"
  },
  "GRD":{
   "name":"Grenada",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Gwatemala",
-  "info":"od 05.09.2021"
+  "info":""
  },
  "GUY":{
   "name":"Gujana",
-  "info":"od 19.09.2021"
+  "info":""
  },
  "HKG":{
   "name":"Hongkong",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlandia",
-  "info":"od 22.08.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 22.08.2021<\/li><\/ul>"
+  "info":"od 21.11.2021"
  },
  "IRN":{
   "name":"Iran",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Bonaire, od 27.07.2021<\/li><li>Saba, od 27.07.2021<\/li><li>Sint Eustatius, od 27.07.2021<\/li><\/ul>"
+  "info":"od 21.11.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Bonaire, od 27.07.2021<\/li><li>Saba, od 27.07.2021<\/li><li>Sint Eustatius, od 27.07.2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
@@ -650,7 +650,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":"od 23.05.2021"
+  "info":""
  },
  "SVK":{
   "name":"Słowacja",

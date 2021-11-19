@@ -11,7 +11,7 @@ Australia,Not risk area,
 Austria,High risk area,since 14 Nov 2021. The following regions are excluded: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
 Azerbaijan,Not risk area,
 Burundi,High risk area,since 26 Sep 2021
-Belgium,Not risk area,
+Belgium,High risk area,since 21 Nov 2021
 Benin,Not risk area,
 Burkina Faso,Not risk area,
 Bangladesh,Not risk area,
@@ -39,7 +39,7 @@ Congo,High risk area,since 24 Oct 2021
 Colombia,Not risk area,
 Comoros,Not risk area,
 Cape Verde,Not risk area,
-Costa Rica,High risk area,since 09 May 2021
+Costa Rica,Not risk area,
 Cuba,Not risk area,
 Cyprus,Not risk area,
 Czechia,High risk area,since 14 Nov 2021
@@ -57,7 +57,7 @@ Estonia,High risk area,since 10 Oct 2021
 Ethiopia,High risk area,since 26 Sep 2021
 Finland,Not risk area,
 Fiji,Not risk area,
-France,High risk area,"since 15 Aug 2021. The risk designation applies to the following regions: -French Guiana, since 15 Aug 2021; -New Caledonia, since 26 Sep 2021"
+France,Not risk area,
 Micronesia,Not risk area,
 Gabon,High risk area,since 17 Oct 2021
 United Kingdom,High risk area,since 07 Jul 2021
@@ -67,10 +67,10 @@ Guinea,Not risk area,
 Gambia,Not risk area,
 Guinea-Bissau,Not risk area,
 Equatorial Guinea,Not risk area,
-Greece,Not risk area,
+Greece,High risk area,since 21 Nov 2021
 Grenada,Not risk area,
-Guatemala,High risk area,since 05 Sep 2021
-Guyana,High risk area,since 19 Sep 2021
+Guatemala,Not risk area,
+Guyana,Not risk area,
 Hong Kong,Not risk area,
 Honduras,Not risk area,
 Croatia,High risk area,since 24 Oct 2021
@@ -78,7 +78,7 @@ Haiti,High risk area,since 08 Aug 2021
 Hungary,High risk area,since 14 Nov 2021
 Indonesia,Not risk area,
 India,Not risk area,
-Ireland,High risk area,"since 22 Aug 2021. The risk designation applies to the following regions: -Border, since 22 Aug 2021"
+Ireland,High risk area,since 21 Nov 2021
 Iran,High risk area,since 24 Jan 2021
 Iraq,Not risk area,
 Iceland,Not risk area,
@@ -129,7 +129,7 @@ Niger,Not risk area,
 Nigeria,Not risk area,
 Nicaragua,High risk area,since 12 Sep 2021
 Niue,Not risk area,
-Netherlands,High risk area,"since 27 Jul 2021. The risk designation applies to the following regions: -Bonaire, since 27 Jul 2021; -Saba, since 27 Jul 2021; -Sint Eustatius, since 27 Jul 2021"
+Netherlands,High risk area,"since 21 Nov 2021. The risk designation applies to the following regions: -Bonaire, since 27 Jul 2021; -Saba, since 27 Jul 2021; -Sint Eustatius, since 27 Jul 2021"
 Norway,Not risk area,
 Nepal,Not risk area,
 Nauru,Not risk area,
@@ -161,7 +161,7 @@ Somalia,Not risk area,
 Serbia,High risk area,since 05 Sep 2021
 South Sudan,Not risk area,
 Sao Tome and Principe,High risk area,since 17 Oct 2021
-Suriname,High risk area,since 23 May 2021
+Suriname,Not risk area,
 Slovakia,High risk area,since 31 Oct 2021
 Slovenia,High risk area,since 26 Sep 2021
 Sweden,Not risk area,

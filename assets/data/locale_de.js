@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 21. November 2021"
  },
  "BEN":{
   "name":"Benin",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Costa Rica",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 9. Mai 2021"
+  "info":""
  },
  "CUB":{
   "name":"Kuba",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Frankreich",
-  "info":"– die folgenden Regionen und französischen Überseegebiete gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Französisch-Guayana (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)<\/li><li>Neukaledonien (<strong>Hochrisikogebiet<\/strong> seit 26. September 2021)<\/li><\/ul>"
+  "info":""
  },
  "FSM":{
   "name":"Mikronesien",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Griechenland",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 21. November 2021"
  },
  "GRD":{
   "name":"Grenada",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. September 2021"
+  "info":""
  },
  "GUY":{
   "name":"Guyana",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
+  "info":""
  },
  "HKG":{
   "name":"Hongkong",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irland",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Border (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><\/ul>"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 21. November 2021"
  },
  "IRN":{
   "name":"Iran",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"– die folgenden überseeischen Teile des Königreichs der Niederlande gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Bonaire (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Sint Eustatius (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Saba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><\/ul>"
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 21. November 2021) und die folgenden überseeischen Teile des Königreichs der Niederlande gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Bonaire (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Sint Eustatius (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Saba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegen",
@@ -650,7 +650,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":" (<strong>Hochrisikogebiet<\/strong> seit 23. Mai 2021)"
+  "info":""
  },
  "SVK":{
   "name":"Slowakei",

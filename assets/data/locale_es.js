@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Bélgica",
-  "info":""
+  "info":"desde el 21\/11\/2021"
  },
  "BEN":{
   "name":"Benín",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Costa Rica",
-  "info":"desde el 09\/05\/2021"
+  "info":""
  },
  "CUB":{
   "name":"Cuba",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 15\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 15\/08\/2021<\/li><li>Nueva Caledonia, desde el 26\/09\/2021<\/li><\/ul>"
+  "info":""
  },
  "FSM":{
   "name":"Micronesia",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecia",
-  "info":""
+  "info":"desde el 21\/11\/2021"
  },
  "GRD":{
   "name":"Granada",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":"desde el 05\/09\/2021"
+  "info":""
  },
  "GUY":{
   "name":"Guyana",
-  "info":"desde el 19\/09\/2021"
+  "info":""
  },
  "HKG":{
   "name":"Hong Kong",
@@ -318,7 +318,7 @@ var info_rki = {
  },
  "IRL":{
   "name":"Irlanda",
-  "info":"desde el 22\/08\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Border, desde el 22\/08\/2021<\/li><\/ul>"
+  "info":"desde el 21\/11\/2021"
  },
  "IRN":{
   "name":"Irán",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Países Bajos",
-  "info":"desde el 27\/07\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Bonaire, desde el 27\/07\/2021<\/li><li>Saba, desde el 27\/07\/2021<\/li><li>Sint Eustatius, desde el 27\/07\/2021<\/li><\/ul>"
+  "info":"desde el 21\/11\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Bonaire, desde el 27\/07\/2021<\/li><li>Saba, desde el 27\/07\/2021<\/li><li>Sint Eustatius, desde el 27\/07\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Noruega",
@@ -650,7 +650,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinám",
-  "info":"desde el 23\/05\/2021"
+  "info":""
  },
  "SVK":{
   "name":"Eslovaquia",

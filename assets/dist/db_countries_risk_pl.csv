@@ -11,7 +11,7 @@ Australia,Nie jest to obszar ryzyka,
 Austria,Obszar wysokiego ryzyka,od 14.11.2021. Z wyjątkiem następujących regionów: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
 Azerbejdżan,Nie jest to obszar ryzyka,
 Burundi,Obszar wysokiego ryzyka,od 26.09.2021
-Belgia,Nie jest to obszar ryzyka,
+Belgia,Obszar wysokiego ryzyka,od 21.11.2021
 Benin,Nie jest to obszar ryzyka,
 Burkina Faso,Nie jest to obszar ryzyka,
 Bangladesz,Nie jest to obszar ryzyka,
@@ -39,7 +39,7 @@ Kongo,Obszar wysokiego ryzyka,od 24.10.2021
 Kolumbia,Nie jest to obszar ryzyka,
 Komory,Nie jest to obszar ryzyka,
 Republika Zielonego Przylądka,Nie jest to obszar ryzyka,
-Kostaryka,Obszar wysokiego ryzyka,od 09.05.2021
+Kostaryka,Nie jest to obszar ryzyka,
 Kuba,Nie jest to obszar ryzyka,
 Cypr,Nie jest to obszar ryzyka,
 Czechy,Obszar wysokiego ryzyka,od 14.11.2021
@@ -57,7 +57,7 @@ Estonia,Obszar wysokiego ryzyka,od 10.10.2021
 Etiopia,Obszar wysokiego ryzyka,od 26.09.2021
 Finlandia,Nie jest to obszar ryzyka,
 Fidżi,Nie jest to obszar ryzyka,
-Francja,Obszar wysokiego ryzyka,"od 15.08.2021. Poziom ryzyka dotyczy następujących regionów: -Gujana Francuska, od 15.08.2021; -Nowa Kaledonia, od 26.09.2021"
+Francja,Nie jest to obszar ryzyka,
 Mikronezja,Nie jest to obszar ryzyka,
 Gabon,Obszar wysokiego ryzyka,od 17.10.2021
 Wielka Brytania,Obszar wysokiego ryzyka,od 07.07.2021
@@ -67,10 +67,10 @@ Gwinea,Nie jest to obszar ryzyka,
 Gambia,Nie jest to obszar ryzyka,
 Gwinea Bissau,Nie jest to obszar ryzyka,
 Gwinea Równikowa,Nie jest to obszar ryzyka,
-Grecja,Nie jest to obszar ryzyka,
+Grecja,Obszar wysokiego ryzyka,od 21.11.2021
 Grenada,Nie jest to obszar ryzyka,
-Gwatemala,Obszar wysokiego ryzyka,od 05.09.2021
-Gujana,Obszar wysokiego ryzyka,od 19.09.2021
+Gwatemala,Nie jest to obszar ryzyka,
+Gujana,Nie jest to obszar ryzyka,
 Hongkong,Nie jest to obszar ryzyka,
 Honduras,Nie jest to obszar ryzyka,
 Chorwacja,Obszar wysokiego ryzyka,od 24.10.2021
@@ -78,7 +78,7 @@ Haiti,Obszar wysokiego ryzyka,od 08.08.2021
 Węgry,Obszar wysokiego ryzyka,od 14.11.2021
 Indonezja,Nie jest to obszar ryzyka,
 Indie,Nie jest to obszar ryzyka,
-Irlandia,Obszar wysokiego ryzyka,"od 22.08.2021. Poziom ryzyka dotyczy następujących regionów: -Border, od 22.08.2021"
+Irlandia,Obszar wysokiego ryzyka,od 21.11.2021
 Iran,Obszar wysokiego ryzyka,od 24.01.2021
 Irak,Nie jest to obszar ryzyka,
 Islandia,Nie jest to obszar ryzyka,
@@ -129,7 +129,7 @@ Niger,Nie jest to obszar ryzyka,
 Nigeria,Nie jest to obszar ryzyka,
 Nikaragua,Obszar wysokiego ryzyka,od 12.09.2021
 Niue,Nie jest to obszar ryzyka,
-Holandia,Obszar wysokiego ryzyka,"od 27.07.2021. Poziom ryzyka dotyczy następujących regionów: -Bonaire, od 27.07.2021; -Saba, od 27.07.2021; -Sint Eustatius, od 27.07.2021"
+Holandia,Obszar wysokiego ryzyka,"od 21.11.2021. Poziom ryzyka dotyczy następujących regionów: -Bonaire, od 27.07.2021; -Saba, od 27.07.2021; -Sint Eustatius, od 27.07.2021"
 Norwegia,Nie jest to obszar ryzyka,
 Nepal,Nie jest to obszar ryzyka,
 Nauru,Nie jest to obszar ryzyka,
@@ -161,7 +161,7 @@ Somalia,Nie jest to obszar ryzyka,
 Serbia,Obszar wysokiego ryzyka,od 05.09.2021
 Sudan Południowy,Nie jest to obszar ryzyka,
 Wyspy Świętego Tomasza i Książęca,Obszar wysokiego ryzyka,od 17.10.2021
-Surinam,Obszar wysokiego ryzyka,od 23.05.2021
+Surinam,Nie jest to obszar ryzyka,
 Słowacja,Obszar wysokiego ryzyka,od 31.10.2021
 Słowenia,Obszar wysokiego ryzyka,od 26.09.2021
 Szwecja,Nie jest to obszar ryzyka,
