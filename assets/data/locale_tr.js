@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei",
-  "info":"10.10.2021'den beri"
+  "info":""
  },
  "BTN":{
   "name":"Butan",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsvana",
-  "info":""
+  "info":"28.11.2021'den beri"
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":"17.10.2021'den beri"
+  "info":""
  },
  "GBR":{
   "name":"Birleşik Krallık",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Sen Kitts ve Nevis",
-  "info":"29.08.2021'den beri"
+  "info":""
  },
  "KOR":{
   "name":"Güney Kore",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":""
+  "info":"28.11.2021'den beri"
  },
  "LTU":{
   "name":"Litvanya",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":""
+  "info":"28.11.2021'den beri"
  },
  "MRT":{
   "name":"Moritanya",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malavi",
-  "info":""
+  "info":"28.11.2021'den beri"
  },
  "MYS":{
   "name":"Malezya",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibya",
-  "info":""
+  "info":"28.11.2021'den beri"
  },
  "NER":{
   "name":"Nijer",
@@ -514,7 +514,7 @@ var info_rki = {
  },
  "NIC":{
   "name":"Nikaragua",
-  "info":"12.09.2021'den beri"
+  "info":""
  },
  "NIU":{
   "name":"Nie",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":"24.10.2021'den beri"
+  "info":""
  },
  "SLB":{
   "name":"Solomon Adaları",
@@ -626,7 +626,7 @@ var info_rki = {
  },
  "SLV":{
   "name":"El Salvador",
-  "info":"03.10.2021'den beri"
+  "info":""
  },
  "SMR":{
   "name":"San Marino",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"Sao Tome ve Principe",
-  "info":"17.10.2021'den beri"
+  "info":""
  },
  "SUR":{
   "name":"Surinam",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esvatini",
-  "info":""
+  "info":"28.11.2021'den beri"
  },
  "SYC":{
   "name":"Seyşeller",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Güney Afrika",
-  "info":""
+  "info":"28.11.2021'den beri"
  },
  "ZMB":{
   "name":"Zambiya",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabve",
-  "info":""
+  "info":"28.11.2021'den beri"
  }
 };

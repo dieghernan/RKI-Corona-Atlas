@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei Darussalam",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 10. Oktober 2021"
+  "info":""
  },
  "BTN":{
   "name":"Bhutan",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabun",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 17. Oktober 2021"
+  "info":""
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"St. Kitts und Nevis",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
+  "info":""
  },
  "KOR":{
   "name":"Südkorea",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  },
  "LTU":{
   "name":"Litauen",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mosambik",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  },
  "MRT":{
   "name":"Mauretanien",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  },
  "MYS":{
   "name":"Malaysia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  },
  "NER":{
   "name":"Niger",
@@ -514,7 +514,7 @@ var info_rki = {
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 12. September 2021"
+  "info":""
  },
  "NIU":{
   "name":"Niue",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Oktober 2021"
+  "info":""
  },
  "SLB":{
   "name":"Salomoninseln",
@@ -626,7 +626,7 @@ var info_rki = {
  },
  "SLV":{
   "name":"El Salvador",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. Oktober 2021"
+  "info":""
  },
  "SMR":{
   "name":"San Marino",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"São Tomé und Príncipe",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 17. Oktober 2021"
+  "info":""
  },
  "SUR":{
   "name":"Surinam",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  },
  "SYC":{
   "name":"Seychellen",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Südafrika",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  },
  "ZMB":{
   "name":"Sambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Simbabwe",
-  "info":""
+  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
  }
 };

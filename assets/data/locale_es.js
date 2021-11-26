@@ -102,7 +102,7 @@ var info_rki = {
  },
  "BRN":{
   "name":"Brunei",
-  "info":"desde el 10\/10\/2021"
+  "info":""
  },
  "BTN":{
   "name":"Bhután",
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  },
  "CAF":{
   "name":"República Centro-africana",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabón",
-  "info":"desde el 17\/10\/2021"
+  "info":""
  },
  "GBR":{
   "name":"Reino Unido",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"San Cristobo y Nevis",
-  "info":"desde el 29\/08\/2021"
+  "info":""
  },
  "KOR":{
   "name":"Corea del Sur",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  },
  "LTU":{
   "name":"Lituania",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  },
  "MRT":{
   "name":"Mauritania",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  },
  "MYS":{
   "name":"Malasia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  },
  "NER":{
   "name":"Niger",
@@ -514,7 +514,7 @@ var info_rki = {
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":"desde el 12\/09\/2021"
+  "info":""
  },
  "NIU":{
   "name":"Niue",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":"desde el 24\/10\/2021"
+  "info":""
  },
  "SLB":{
   "name":"Islas Salomón",
@@ -626,7 +626,7 @@ var info_rki = {
  },
  "SLV":{
   "name":"El Salvador",
-  "info":"desde el 03\/10\/2021"
+  "info":""
  },
  "SMR":{
   "name":"San Marino",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "STP":{
   "name":"Santo Tomé y Príncipe",
-  "info":"desde el 17\/10\/2021"
+  "info":""
  },
  "SUR":{
   "name":"Surinám",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esuatini",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  },
  "SYC":{
   "name":"Seychelles",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Suráfrica",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  },
  "ZMB":{
   "name":"Zambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabue",
-  "info":""
+  "info":"desde el 28\/11\/2021"
  }
 };

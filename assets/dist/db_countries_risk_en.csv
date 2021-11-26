@@ -24,9 +24,9 @@ Belize,High risk area,since 19 Sep 2021
 Bolivia,Not risk area,
 Brazil,Not risk area,
 Barbados,High risk area,since 19 Sep 2021
-Brunei,High risk area,since 10 Oct 2021
+Brunei,Not risk area,
 Bhutan,Not risk area,
-Botswana,Not risk area,
+Botswana,Variant of concern,since 28 Nov 2021
 Central African Republic,Not risk area,
 Canada,Not risk area,
 Switzerland,Not risk area,
@@ -59,7 +59,7 @@ Finland,Not risk area,
 Fiji,Not risk area,
 France,Not risk area,
 Micronesia,Not risk area,
-Gabon,High risk area,since 17 Oct 2021
+Gabon,Not risk area,
 United Kingdom,High risk area,since 07 Jul 2021
 Georgia,High risk area,since 25 Jul 2021
 Ghana,Not risk area,
@@ -92,7 +92,7 @@ Kenya,Not risk area,
 Kyrgyzstan,Not risk area,
 Cambodia,Not risk area,
 Kiribati,Not risk area,
-Saint Kitts and Nevis,High risk area,since 29 Aug 2021
+Saint Kitts and Nevis,Not risk area,
 South Korea,Not risk area,
 Kuwait,Not risk area,
 Laos,High risk area,since 14 Nov 2021
@@ -102,7 +102,7 @@ Libya,High risk area,since 18 Jul 2021
 Saint Lucia,Not risk area,
 Liechtenstein,Not risk area,
 Sri Lanka,Not risk area,
-Lesotho,Not risk area,
+Lesotho,Variant of concern,since 28 Nov 2021
 Lithuania,High risk area,since 03 Oct 2021
 Luxembourg,Not risk area,
 Latvia,High risk area,since 10 Oct 2021
@@ -119,15 +119,15 @@ Malta,Not risk area,
 Myanmar/Burma,Not risk area,
 Montenegro,High risk area,since 15 Aug 2021
 Mongolia,High risk area,since 13 Jun 2021
-Mozambique,Not risk area,
+Mozambique,Variant of concern,since 28 Nov 2021
 Mauritania,Not risk area,
 Mauritius,Not risk area,
-Malawi,Not risk area,
+Malawi,Variant of concern,since 28 Nov 2021
 Malaysia,High risk area,since 13 Jun 2021
-Namibia,Not risk area,
+Namibia,Variant of concern,since 28 Nov 2021
 Niger,Not risk area,
 Nigeria,Not risk area,
-Nicaragua,High risk area,since 12 Sep 2021
+Nicaragua,Not risk area,
 Niue,Not risk area,
 Netherlands,High risk area,"since 21 Nov 2021. The risk designation applies to the following regions: -Bonaire, since 27 Jul 2021; -Saba, since 27 Jul 2021; -Sint Eustatius, since 27 Jul 2021"
 Norway,Not risk area,
@@ -152,20 +152,20 @@ Rwanda,Not risk area,
 Saudi Arabia,Not risk area,
 Sudan,High risk area,since 31 Jan 2021
 Senegal,Not risk area,
-Singapore,High risk area,since 24 Oct 2021
+Singapore,Not risk area,
 Solomon Islands,Not risk area,
 Sierra Leone,Not risk area,
-El Salvador,High risk area,since 03 Oct 2021
+El Salvador,Not risk area,
 San Marino,Not risk area,
 Somalia,Not risk area,
 Serbia,High risk area,since 05 Sep 2021
 South Sudan,Not risk area,
-Sao Tome and Principe,High risk area,since 17 Oct 2021
+Sao Tome and Principe,Not risk area,
 Suriname,Not risk area,
 Slovakia,High risk area,since 31 Oct 2021
 Slovenia,High risk area,since 26 Sep 2021
 Sweden,Not risk area,
-Eswatini,Not risk area,
+Eswatini,Variant of concern,since 28 Nov 2021
 Seychelles,High risk area,since 14 Feb 2021
 Syria,High risk area,since 31 Jan 2021
 Chad,Not risk area,
@@ -193,6 +193,6 @@ Vanuatu,Not risk area,
 Samoa,Not risk area,
 Kosovo,Not risk area,
 Yemen,High risk area,since 10 Oct 2021
-South Africa,Not risk area,
+South Africa,Variant of concern,since 28 Nov 2021
 Zambia,Not risk area,
-Zimbabwe,Not risk area,
+Zimbabwe,Variant of concern,since 28 Nov 2021
