@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Switzerland",
-  "info":""
+  "info":"since 05 Dec 2021"
  },
  "CHL":{
   "name":"Chile",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordan",
-  "info":""
+  "info":"since 05 Dec 2021"
  },
  "JPN":{
   "name":"Japan",
@@ -406,7 +406,7 @@ var info_rki = {
  },
  "LIE":{
   "name":"Liechtenstein",
-  "info":""
+  "info":"since 05 Dec 2021"
  },
  "LKA":{
   "name":"Sri Lanka",
@@ -490,7 +490,7 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauritius",
-  "info":""
+  "info":"since 05 Dec 2021"
  },
  "MWI":{
   "name":"Malawi",
@@ -570,7 +570,7 @@ var info_rki = {
  },
  "POL":{
   "name":"Poland",
-  "info":""
+  "info":"since 05 Dec 2021"
  },
  "PRK":{
   "name":"North Korea",
@@ -686,7 +686,7 @@ var info_rki = {
  },
  "THA":{
   "name":"Thailand",
-  "info":"since 08 Aug 2021"
+  "info":""
  },
  "TJK":{
   "name":"Tajikistan",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistan",
-  "info":"since 08 Aug 2021"
+  "info":""
  },
  "VAT":{
   "name":"Vatican City",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent and The Grenadines",
-  "info":"since 26 Sep 2021"
+  "info":""
  },
  "VEN":{
   "name":"Venezuela",

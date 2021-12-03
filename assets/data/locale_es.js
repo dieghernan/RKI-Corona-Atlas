@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Suiza",
-  "info":""
+  "info":"desde el 05\/12\/2021"
  },
  "CHL":{
   "name":"Chile",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordania",
-  "info":""
+  "info":"desde el 05\/12\/2021"
  },
  "JPN":{
   "name":"Japón",
@@ -406,7 +406,7 @@ var info_rki = {
  },
  "LIE":{
   "name":"Liechtenstein",
-  "info":""
+  "info":"desde el 05\/12\/2021"
  },
  "LKA":{
   "name":"Sri Lanka",
@@ -490,7 +490,7 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauricio",
-  "info":""
+  "info":"desde el 05\/12\/2021"
  },
  "MWI":{
   "name":"Malawi",
@@ -570,7 +570,7 @@ var info_rki = {
  },
  "POL":{
   "name":"Polonia",
-  "info":""
+  "info":"desde el 05\/12\/2021"
  },
  "PRK":{
   "name":"Corea del Norte",
@@ -686,7 +686,7 @@ var info_rki = {
  },
  "THA":{
   "name":"Tailandia",
-  "info":"desde el 08\/08\/2021"
+  "info":""
  },
  "TJK":{
   "name":"Tadjikistán",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistán",
-  "info":"desde el 08\/08\/2021"
+  "info":""
  },
  "VAT":{
   "name":"Ciudad del Vaticano",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"San Vicente y las Granadinas",
-  "info":"desde el 26\/09\/2021"
+  "info":""
  },
  "VEN":{
   "name":"Venezuela",

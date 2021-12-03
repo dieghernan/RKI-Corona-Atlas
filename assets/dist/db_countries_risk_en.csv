@@ -29,7 +29,7 @@ Bhutan,Not risk area,
 Botswana,Variant of concern,since 28 Nov 2021
 Central African Republic,Not risk area,
 Canada,Not risk area,
-Switzerland,Not risk area,
+Switzerland,High risk area,since 05 Dec 2021
 Chile,Not risk area,
 China,Not risk area,
 Cote D'Ivoire,Not risk area,
@@ -85,7 +85,7 @@ Iceland,Not risk area,
 Israel,Not risk area,
 Italy,Not risk area,
 Jamaica,Not risk area,
-Jordan,Not risk area,
+Jordan,High risk area,since 05 Dec 2021
 Japan,Not risk area,
 Kazakhstan,Not risk area,
 Kenya,Not risk area,
@@ -100,7 +100,7 @@ Lebanon,Not risk area,
 Liberia,Not risk area,
 Libya,High risk area,since 18 Jul 2021
 Saint Lucia,Not risk area,
-Liechtenstein,Not risk area,
+Liechtenstein,High risk area,since 05 Dec 2021
 Sri Lanka,Not risk area,
 Lesotho,Variant of concern,since 28 Nov 2021
 Lithuania,High risk area,since 03 Oct 2021
@@ -121,7 +121,7 @@ Montenegro,High risk area,since 15 Aug 2021
 Mongolia,High risk area,since 13 Jun 2021
 Mozambique,Variant of concern,since 28 Nov 2021
 Mauritania,Not risk area,
-Mauritius,Not risk area,
+Mauritius,High risk area,since 05 Dec 2021
 Malawi,Variant of concern,since 28 Nov 2021
 Malaysia,High risk area,since 13 Jun 2021
 Namibia,Variant of concern,since 28 Nov 2021
@@ -141,7 +141,7 @@ Peru,Not risk area,
 Philippines,High risk area,since 08 Aug 2021
 Palau,Not risk area,
 Papua New Guinea,High risk area,since 08 Aug 2021
-Poland,Not risk area,
+Poland,High risk area,since 05 Dec 2021
 North Korea,High risk area,since 08 Aug 2021
 Portugal,Not risk area,
 Paraguay,Not risk area,
@@ -170,7 +170,7 @@ Seychelles,High risk area,since 14 Feb 2021
 Syria,High risk area,since 31 Jan 2021
 Chad,Not risk area,
 Togo,Not risk area,
-Thailand,High risk area,since 08 Aug 2021
+Thailand,Not risk area,
 Tajikistan,High risk area,since 08 Aug 2021
 Turkmenistan,High risk area,since 08 Aug 2021
 Timor-Leste,Not risk area,
@@ -184,9 +184,9 @@ Uganda,Not risk area,
 Ukraine,High risk area,since 10 Oct 2021
 Uruguay,Not risk area,
 United States,Not risk area,
-Uzbekistan,High risk area,since 08 Aug 2021
+Uzbekistan,Not risk area,
 Vatican City,Not risk area,
-Saint Vincent and The Grenadines,High risk area,since 26 Sep 2021
+Saint Vincent and The Grenadines,Not risk area,
 Venezuela,High risk area,since 19 Sep 2021
 Vietnam,High risk area,since 15 Aug 2021
 Vanuatu,Not risk area,

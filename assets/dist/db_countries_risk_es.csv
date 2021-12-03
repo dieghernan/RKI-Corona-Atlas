@@ -29,7 +29,7 @@ Bhután,No es área de riesgo,
 Botsuana,Área de variante viral,desde el 28/11/2021
 República Centro-africana,No es área de riesgo,
 Canadá,No es área de riesgo,
-Suiza,No es área de riesgo,
+Suiza,Área de alto riesgo,desde el 05/12/2021
 Chile,No es área de riesgo,
 China,No es área de riesgo,
 Costa de Marfil,No es área de riesgo,
@@ -85,7 +85,7 @@ Islandia,No es área de riesgo,
 Israel,No es área de riesgo,
 Italia,No es área de riesgo,
 Jamaica,No es área de riesgo,
-Jordania,No es área de riesgo,
+Jordania,Área de alto riesgo,desde el 05/12/2021
 Japón,No es área de riesgo,
 Kazajistán,No es área de riesgo,
 Kenia,No es área de riesgo,
@@ -100,7 +100,7 @@ Líbano,No es área de riesgo,
 Liberia,No es área de riesgo,
 Libia,Área de alto riesgo,desde el 18/07/2021
 Santa Lucía,No es área de riesgo,
-Liechtenstein,No es área de riesgo,
+Liechtenstein,Área de alto riesgo,desde el 05/12/2021
 Sri Lanka,No es área de riesgo,
 Lesoto,Área de variante viral,desde el 28/11/2021
 Lituania,Área de alto riesgo,desde el 03/10/2021
@@ -121,7 +121,7 @@ Montenegro,Área de alto riesgo,desde el 15/08/2021
 Mongolia,Área de alto riesgo,desde el 13/06/2021
 Mozambique,Área de variante viral,desde el 28/11/2021
 Mauritania,No es área de riesgo,
-Mauricio,No es área de riesgo,
+Mauricio,Área de alto riesgo,desde el 05/12/2021
 Malawi,Área de variante viral,desde el 28/11/2021
 Malasia,Área de alto riesgo,desde el 13/06/2021
 Namibia,Área de variante viral,desde el 28/11/2021
@@ -141,7 +141,7 @@ Perú,No es área de riesgo,
 Filipinas,Área de alto riesgo,desde el 08/08/2021
 Palau,No es área de riesgo,
 Papúa Nueva Guinea,Área de alto riesgo,desde el 08/08/2021
-Polonia,No es área de riesgo,
+Polonia,Área de alto riesgo,desde el 05/12/2021
 Corea del Norte,Área de alto riesgo,desde el 08/08/2021
 Portugal,No es área de riesgo,
 Paraguay,No es área de riesgo,
@@ -170,7 +170,7 @@ Seychelles,Área de alto riesgo,desde el 14/02/2021
 Siria,Área de alto riesgo,desde el 31/01/2021
 Chad,No es área de riesgo,
 Togo,No es área de riesgo,
-Tailandia,Área de alto riesgo,desde el 08/08/2021
+Tailandia,No es área de riesgo,
 Tadjikistán,Área de alto riesgo,desde el 08/08/2021
 Turkmenistán,Área de alto riesgo,desde el 08/08/2021
 Timor Oriental,No es área de riesgo,
@@ -184,9 +184,9 @@ Uganda,No es área de riesgo,
 Ucrania,Área de alto riesgo,desde el 10/10/2021
 Uruguay,No es área de riesgo,
 Estados Unidos,No es área de riesgo,
-Uzbekistán,Área de alto riesgo,desde el 08/08/2021
+Uzbekistán,No es área de riesgo,
 Ciudad del Vaticano,No es área de riesgo,
-San Vicente y las Granadinas,Área de alto riesgo,desde el 26/09/2021
+San Vicente y las Granadinas,No es área de riesgo,
 Venezuela,Área de alto riesgo,desde el 19/09/2021
 Vietnam,Área de alto riesgo,desde el 15/08/2021
 Vanuatu,No es área de riesgo,

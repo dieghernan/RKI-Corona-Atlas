@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Schweiz",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. Dezember 2021"
  },
  "CHL":{
   "name":"Chile",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordanien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. Dezember 2021"
  },
  "JPN":{
   "name":"Japan",
@@ -406,7 +406,7 @@ var info_rki = {
  },
  "LIE":{
   "name":"Liechtenstein",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. Dezember 2021"
  },
  "LKA":{
   "name":"Sri Lanka",
@@ -490,7 +490,7 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauritius",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. Dezember 2021"
  },
  "MWI":{
   "name":"Malawi",
@@ -570,7 +570,7 @@ var info_rki = {
  },
  "POL":{
   "name":"Polen",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. Dezember 2021"
  },
  "PRK":{
   "name":"Korea (Demokratische Volksrepublik)",
@@ -686,7 +686,7 @@ var info_rki = {
  },
  "THA":{
   "name":"Thailand",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "TJK":{
   "name":"Tadschikistan",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Usbekistan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "VAT":{
   "name":"Vatikanstadt",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"St. Vincent und die Grenadinen",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 26. September 2021"
+  "info":""
  },
  "VEN":{
   "name":"Venezuela",

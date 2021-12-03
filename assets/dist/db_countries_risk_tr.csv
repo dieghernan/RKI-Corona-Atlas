@@ -29,7 +29,7 @@ Butan,Risksiz Bölge,
 Botsvana,Virüs çeşidi bölgesi,28.11.2021'den beri
 Orta Afrika Cumhuriyeti,Risksiz Bölge,
 Kanada,Risksiz Bölge,
-İsviçre,Risksiz Bölge,
+İsviçre,Yüksek riskli bölge,05.12.2021'den beri
 Şili,Risksiz Bölge,
 Çin,Risksiz Bölge,
 Fildişi Sahili,Risksiz Bölge,
@@ -85,7 +85,7 @@ Irak,Risksiz Bölge,
 İsrail,Risksiz Bölge,
 İtalya,Risksiz Bölge,
 Jamaika,Risksiz Bölge,
-Ürdün,Risksiz Bölge,
+Ürdün,Yüksek riskli bölge,05.12.2021'den beri
 Japonya,Risksiz Bölge,
 Kazakistan,Risksiz Bölge,
 Kenya,Risksiz Bölge,
@@ -100,7 +100,7 @@ Lübnan,Risksiz Bölge,
 Liberya,Risksiz Bölge,
 Libya,Yüksek riskli bölge,18.07.2021'den beri
 Sen Lucia,Risksiz Bölge,
-Lihtenştayn,Risksiz Bölge,
+Lihtenştayn,Yüksek riskli bölge,05.12.2021'den beri
 Sri Lanka,Risksiz Bölge,
 Lesoto,Virüs çeşidi bölgesi,28.11.2021'den beri
 Litvanya,Yüksek riskli bölge,03.10.2021'den beri
@@ -121,7 +121,7 @@ Karadağ,Yüksek riskli bölge,15.08.2021'den beri
 Moğolistan,Yüksek riskli bölge,13.06.2021'den beri
 Mozambik,Virüs çeşidi bölgesi,28.11.2021'den beri
 Moritanya,Risksiz Bölge,
-Mauritius,Risksiz Bölge,
+Mauritius,Yüksek riskli bölge,05.12.2021'den beri
 Malavi,Virüs çeşidi bölgesi,28.11.2021'den beri
 Malezya,Yüksek riskli bölge,13.06.2021'den beri
 Namibya,Virüs çeşidi bölgesi,28.11.2021'den beri
@@ -141,7 +141,7 @@ Peru,Risksiz Bölge,
 Filipinler,Yüksek riskli bölge,08.08.2021'den beri
 Palau,Risksiz Bölge,
 Papua Yeni Gine,Yüksek riskli bölge,08.08.2021'den beri
-Polonya,Risksiz Bölge,
+Polonya,Yüksek riskli bölge,05.12.2021'den beri
 Kuzey Kore,Yüksek riskli bölge,08.08.2021'den beri
 Portekiz,Risksiz Bölge,
 Paraguay,Risksiz Bölge,
@@ -170,7 +170,7 @@ Seyşeller,Yüksek riskli bölge,14.02.2021'den beri
 Suriye,Yüksek riskli bölge,31.01.2021'den beri
 Çad,Risksiz Bölge,
 Togo,Risksiz Bölge,
-Tayland,Yüksek riskli bölge,08.08.2021'den beri
+Tayland,Risksiz Bölge,
 Tacikistan,Yüksek riskli bölge,08.08.2021'den beri
 Türkmenistan,Yüksek riskli bölge,08.08.2021'den beri
 Timor-Leste,Risksiz Bölge,
@@ -184,9 +184,9 @@ Uganda,Risksiz Bölge,
 Ukrayna,Yüksek riskli bölge,10.10.2021'den beri
 Uruguay,Risksiz Bölge,
 Birleşik Devletler,Risksiz Bölge,
-Özbekistan,Yüksek riskli bölge,08.08.2021'den beri
+Özbekistan,Risksiz Bölge,
 Vatikan,Risksiz Bölge,
-Saint Vincent ve Grenadinler,Yüksek riskli bölge,26.09.2021'den beri
+Saint Vincent ve Grenadinler,Risksiz Bölge,
 Venezuella,Yüksek riskli bölge,19.09.2021'den beri
 Vietnam,Yüksek riskli bölge,15.08.2021'den beri
 Vanuatu,Risksiz Bölge,

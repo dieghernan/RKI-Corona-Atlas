@@ -122,7 +122,7 @@ var info_rki = {
  },
  "CHE":{
   "name":"Szwajcaria",
-  "info":""
+  "info":"od 05.12.2021"
  },
  "CHL":{
   "name":"Chile",
@@ -346,7 +346,7 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordania",
-  "info":""
+  "info":"od 05.12.2021"
  },
  "JPN":{
   "name":"Japonia",
@@ -406,7 +406,7 @@ var info_rki = {
  },
  "LIE":{
   "name":"Liechtenstein",
-  "info":""
+  "info":"od 05.12.2021"
  },
  "LKA":{
   "name":"Sri Lanka",
@@ -490,7 +490,7 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauritius",
-  "info":""
+  "info":"od 05.12.2021"
  },
  "MWI":{
   "name":"Malawi",
@@ -570,7 +570,7 @@ var info_rki = {
  },
  "POL":{
   "name":"Polska",
-  "info":""
+  "info":"od 05.12.2021"
  },
  "PRK":{
   "name":"Korea Północna",
@@ -686,7 +686,7 @@ var info_rki = {
  },
  "THA":{
   "name":"Tajlandia",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "TJK":{
   "name":"Tadżykistan",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistan",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "VAT":{
   "name":"Watykan",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent i Grenadyny",
-  "info":"od 26.09.2021"
+  "info":""
  },
  "VEN":{
   "name":"Wenezuela",
