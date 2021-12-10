@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenia",
-  "info":"since 19 Sep 2021"
+  "info":""
  },
  "ATG":{
   "name":"Antigua and Barbuda",
@@ -322,7 +322,7 @@ var info_rki = {
  },
  "IRN":{
   "name":"Iran",
-  "info":"since 24 Jan 2021"
+  "info":""
  },
  "IRQ":{
   "name":"Iraq",
@@ -478,7 +478,7 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolia",
-  "info":"since 13 Jun 2021"
+  "info":""
  },
  "MOZ":{
   "name":"Mozambique",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Philippines",
-  "info":"since 08 Aug 2021"
+  "info":""
  },
  "PLW":{
   "name":"Palau",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "ROU":{
   "name":"Romania",
-  "info":"since 03 Oct 2021"
+  "info":""
  },
  "RUS":{
   "name":"Russian Federation",

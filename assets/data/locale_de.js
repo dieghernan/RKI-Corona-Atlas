@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
+  "info":""
  },
  "ATG":{
   "name":"Antigua und Barbuda",
@@ -322,7 +322,7 @@ var info_rki = {
  },
  "IRN":{
   "name":"Iran",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Januar 2021"
+  "info":""
  },
  "IRQ":{
   "name":"Irak",
@@ -478,7 +478,7 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolei",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 13. Juni 2021"
+  "info":""
  },
  "MOZ":{
   "name":"Mosambik",
@@ -558,7 +558,7 @@ var info_rki = {
  },
  "PHL":{
   "name":"Philippinen",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "PLW":{
   "name":"Palau",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "ROU":{
   "name":"Rumänien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. Oktober 2021"
+  "info":""
  },
  "RUS":{
   "name":"Russische Föderation",
