@@ -1,8 +1,8 @@
 ﻿Country/Region,Risk level,Details
 Afghanistan,Not risk area,
 Angola,Not risk area,
-Albania,High risk area,since 05 Sep 2021
-Andorra,Not risk area,
+Albania,Not risk area,
+Andorra,High risk area,since 19 Dec 2021
 United Arab Emirates,Not risk area,
 Argentina,Not risk area,
 Armenia,Not risk area,
@@ -15,7 +15,7 @@ Belgium,High risk area,since 21 Nov 2021
 Benin,Not risk area,
 Burkina Faso,Not risk area,
 Bangladesh,Not risk area,
-Bulgaria,High risk area,since 24 Oct 2021
+Bulgaria,Not risk area,
 Bahrain,Not risk area,
 Bahamas,Not risk area,
 Bosnia and Herzegovina,High risk area,since 12 Sep 2021
@@ -46,18 +46,18 @@ Czechia,High risk area,since 14 Nov 2021
 Germany,,
 Djibouti,Not risk area,
 Dominica,High risk area,since 22 Aug 2021
-Denmark,Not risk area,
+Denmark,High risk area,since 19 Dec 2021
 Dominican Republic,Not risk area,
 Algeria,Not risk area,
 Ecuador,Not risk area,
 Egypt,High risk area,since 24 Jan 2021
 Eritrea,Not risk area,
 Spain,Not risk area,
-Estonia,High risk area,since 10 Oct 2021
+Estonia,Not risk area,
 Ethiopia,High risk area,since 26 Sep 2021
 Finland,Not risk area,
 Fiji,Not risk area,
-France,Not risk area,
+France,High risk area,since 19 Dec 2021
 Micronesia,Not risk area,
 Gabon,Not risk area,
 United Kingdom,High risk area,since 07 Jul 2021
@@ -96,7 +96,7 @@ Saint Kitts and Nevis,Not risk area,
 South Korea,Not risk area,
 Kuwait,Not risk area,
 Laos,High risk area,since 14 Nov 2021
-Lebanon,Not risk area,
+Lebanon,High risk area,since 19 Dec 2021
 Liberia,Not risk area,
 Libya,High risk area,since 18 Jul 2021
 Saint Lucia,Not risk area,
@@ -105,15 +105,15 @@ Sri Lanka,Not risk area,
 Lesotho,Variant of concern,since 28 Nov 2021
 Lithuania,High risk area,since 03 Oct 2021
 Luxembourg,Not risk area,
-Latvia,High risk area,since 10 Oct 2021
+Latvia,Not risk area,
 Morocco,Not risk area,
 Monaco,Not risk area,
-Moldova,High risk area,since 19 Sep 2021
+Moldova,Not risk area,
 Madagascar,Not risk area,
 Maldives,Not risk area,
 Mexico,High risk area,since 08 Aug 2021
 Marshall Islands,Not risk area,
-North Macedonia,High risk area,since 22 Aug 2021
+North Macedonia,Not risk area,
 Mali,Not risk area,
 Malta,Not risk area,
 Myanmar/Burma,Not risk area,
@@ -130,7 +130,7 @@ Nigeria,Not risk area,
 Nicaragua,Not risk area,
 Niue,Not risk area,
 Netherlands,High risk area,"since 21 Nov 2021. The risk designation applies to the following regions: -Bonaire, since 27 Jul 2021; -Saba, since 27 Jul 2021; -Sint Eustatius, since 27 Jul 2021"
-Norway,Not risk area,
+Norway,High risk area,since 19 Dec 2021
 Nepal,Not risk area,
 Nauru,Not risk area,
 New Zealand,Not risk area,

@@ -1,8 +1,8 @@
 ﻿Land/Region,Risikoeinstufung,Details
 Afghanistan,Kein Risikogebiet,
 Angola,Kein Risikogebiet,
-Albanien,Hochrisikogebiet,Hochrisikogebiet seit 5. September 2021
-Andorra,Kein Risikogebiet,
+Albanien,Kein Risikogebiet,
+Andorra,Hochrisikogebiet,Hochrisikogebiet seit 19. Dezember 2021
 Vereinigte Arabische Emirate,Kein Risikogebiet,
 Argentinien,Kein Risikogebiet,
 Armenien,Kein Risikogebiet,
@@ -15,7 +15,7 @@ Belgien,Hochrisikogebiet,Hochrisikogebiet seit 21. November 2021
 Benin,Kein Risikogebiet,
 Burkina Faso,Kein Risikogebiet,
 Bangladesch,Kein Risikogebiet,
-Bulgarien,Hochrisikogebiet,Hochrisikogebiet seit 24. Oktober 2021
+Bulgarien,Kein Risikogebiet,
 Bahrain,Kein Risikogebiet,
 Bahamas,Kein Risikogebiet,
 Bosnien und Herzegowina,Hochrisikogebiet,Hochrisikogebiet seit 12. September 2021
@@ -46,18 +46,18 @@ Tschechische Republik,Hochrisikogebiet,Hochrisikogebiet seit 14. November 2021
 Deutschland,,
 Dschibuti,Kein Risikogebiet,
 Dominica,Hochrisikogebiet,Hochrisikogebiet seit 22. August 2021
-Dänemark,Kein Risikogebiet,
+Dänemark,Hochrisikogebiet,inklusive der Färöer und Grönland (Hochrisikogebiet seit 19. Dezember 2021) 
 Dominikanische Republik,Kein Risikogebiet,
 Algerien,Kein Risikogebiet,
 Ecuador,Kein Risikogebiet,
 Ägypten,Hochrisikogebiet,Hochrisikogebiet seit 24. Januar 2021
 Eritrea,Kein Risikogebiet,
 Spanien,Kein Risikogebiet,
-Estland,Hochrisikogebiet,Hochrisikogebiet seit 10. Oktober 2021
+Estland,Kein Risikogebiet,
 Äthiopien,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
 Finnland,Kein Risikogebiet,
 Fidschi,Kein Risikogebiet,
-Frankreich,Kein Risikogebiet,
+Frankreich,Hochrisikogebiet,inklusive des Übersee-Departements Réunion (Hochrisikogebiet seit 19. Dezember 2021) 
 Mikronesien,Kein Risikogebiet,
 Gabun,Kein Risikogebiet,
 Vereinigtes Königreich,Hochrisikogebiet,Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Hochrisikogebiet seit 7. Juli 2021)
@@ -96,7 +96,7 @@ St. Kitts und Nevis,Kein Risikogebiet,
 Südkorea,Kein Risikogebiet,
 Kuwait,Kein Risikogebiet,
 Laos,Hochrisikogebiet,Hochrisikogebiet seit 14. November 2021
-Libanon,Kein Risikogebiet,
+Libanon,Hochrisikogebiet,Hochrisikogebiet seit 19. Dezember 2021
 Liberia,Kein Risikogebiet,
 Libyen,Hochrisikogebiet,Hochrisikogebiet seit 18. Juli 2021
 St. Lucia,Kein Risikogebiet,
@@ -105,15 +105,15 @@ Sri Lanka,Kein Risikogebiet,
 Lesotho,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
 Litauen,Hochrisikogebiet,Hochrisikogebiet seit 3. Oktober 2021
 Luxemburg,Kein Risikogebiet,
-Lettland,Hochrisikogebiet,Hochrisikogebiet seit 10. Oktober 2021
+Lettland,Kein Risikogebiet,
 Marokko,Kein Risikogebiet,
 Monaco,Kein Risikogebiet,
-Moldau,Hochrisikogebiet, Republik (Hochrisikogebiet seit 19. September 2021)
+Moldau,Kein Risikogebiet,
 Madagaskar,Kein Risikogebiet,
 Malediven,Kein Risikogebiet,
 Mexiko,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Marshallinseln,Kein Risikogebiet,
-Nordmazedonien,Hochrisikogebiet,Hochrisikogebiet seit 22. August 2021
+Nordmazedonien,Kein Risikogebiet,
 Mali,Kein Risikogebiet,
 Malta,Kein Risikogebiet,
 Myanmar,Kein Risikogebiet,
@@ -130,7 +130,7 @@ Nigeria,Kein Risikogebiet,
 Nicaragua,Kein Risikogebiet,
 Niue,Kein Risikogebiet,
 Niederlande,Hochrisikogebiet,(Hochrisikogebiet seit 21. November 2021) und die folgenden überseeischen Teile des Königreichs der Niederlande gelten als Hochrisikogebiete: -Bonaire (Hochrisikogebiet seit 27. Juli 2021); -Sint Eustatius (Hochrisikogebiet seit 27. Juli 2021); -Saba (Hochrisikogebiet seit 27. Juli 2021)
-Norwegen,Kein Risikogebiet,
+Norwegen,Hochrisikogebiet,Hochrisikogebiet seit 19. Dezember 2021
 Nepal,Kein Risikogebiet,
 Nauru,Kein Risikogebiet,
 Neuseeland,Kein Risikogebiet,

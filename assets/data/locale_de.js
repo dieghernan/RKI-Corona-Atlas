@@ -10,11 +10,11 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albanien",
-  "info":"<strong>Hochrisikogebie<\/strong>t seit 5. September 2021"
+  "info":""
  },
  "AND":{
   "name":"Andorra",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021"
  },
  "ARE":{
   "name":"Vereinigte Arabische Emirate",
@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bulgarien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Oktober 2021"
+  "info":""
  },
  "BHR":{
   "name":"Bahrain",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dänemark",
-  "info":""
+  "info":"inklusive der Färöer und Grönland (<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021) "
  },
  "DOM":{
   "name":"Dominikanische Republik",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estland",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 10. Oktober 2021"
+  "info":""
  },
  "ETH":{
   "name":"Äthiopien",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Frankreich",
-  "info":""
+  "info":"inklusive des Übersee-Departements <span lang=\"fr\" xml:lang=\"fr\">Réunion<\/span> (<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021) "
  },
  "FSM":{
   "name":"Mikronesien",
@@ -390,7 +390,7 @@ var info_rki = {
  },
  "LBN":{
   "name":"Libanon",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021"
  },
  "LBR":{
   "name":"Liberia",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Lettland",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 10. Oktober 2021"
+  "info":""
  },
  "MAR":{
   "name":"Marokko",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldau",
-  "info":" Republik (<strong>Hochrisikogebiet<\/strong> seit 19. September 2021)"
+  "info":""
  },
  "MDG":{
   "name":"Madagaskar",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Nordmazedonien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
+  "info":""
  },
  "MLI":{
   "name":"Mali",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norwegen",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021"
  },
  "NPL":{
   "name":"Nepal",

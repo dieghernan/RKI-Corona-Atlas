@@ -10,11 +10,11 @@ var info_rki = {
  },
  "ALB":{
   "name":"Arnavutluk",
-  "info":"05.09.2021'den beri"
+  "info":""
  },
  "AND":{
   "name":"Andorra",
-  "info":""
+  "info":"19.12.2021'den beri"
  },
  "ARE":{
   "name":"Birleşik Arap Emirlikleri",
@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bulgaristan",
-  "info":"24.10.2021'den beri"
+  "info":""
  },
  "BHR":{
   "name":"Bahreyn",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danimarka",
-  "info":""
+  "info":"19.12.2021'den beri"
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonya",
-  "info":"10.10.2021'den beri"
+  "info":""
  },
  "ETH":{
   "name":"Etiyopya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":""
+  "info":"19.12.2021'den beri"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -390,7 +390,7 @@ var info_rki = {
  },
  "LBN":{
   "name":"Lübnan",
-  "info":""
+  "info":"19.12.2021'den beri"
  },
  "LBR":{
   "name":"Liberya",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Latviya",
-  "info":"10.10.2021'den beri"
+  "info":""
  },
  "MAR":{
   "name":"Fas",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldova",
-  "info":"19.09.2021'den beri"
+  "info":""
  },
  "MDG":{
   "name":"Madagaskar",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Kuzey Makedonya",
-  "info":"22.08.2021'den beri"
+  "info":""
  },
  "MLI":{
   "name":"Mali",
@@ -526,7 +526,7 @@ var info_rki = {
  },
  "NOR":{
   "name":"Norveç",
-  "info":""
+  "info":"19.12.2021'den beri"
  },
  "NPL":{
   "name":"Nepal",
