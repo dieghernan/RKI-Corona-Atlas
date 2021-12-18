@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Royaume-Uni",
-  "info":"depuis le 07\/07\/2021"
+  "info":"depuis le 20\/12\/2021"
  },
  "GEO":{
   "name":"Géorgie",

@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"United Kingdom",
-  "info":"since 07 Jul 2021"
+  "info":"since 20 Dec 2021"
  },
  "GEO":{
   "name":"Georgia",

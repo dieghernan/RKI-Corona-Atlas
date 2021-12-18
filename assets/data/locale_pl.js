@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Wielka Brytania",
-  "info":"od 07.07.2021"
+  "info":"od 20.12.2021"
  },
  "GEO":{
   "name":"Gruzja",

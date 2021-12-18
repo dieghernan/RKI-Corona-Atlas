@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Birleşik Krallık",
-  "info":"07.07.2021'den beri"
+  "info":"20.12.2021'den beri"
  },
  "GEO":{
   "name":"Gürcistan",

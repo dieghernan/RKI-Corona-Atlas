@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021)"
+  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (<strong>Virusvariantengebiet<\/strong> seit 20. Dezember 2021; Hochrisikogebiet bis 19. Dezember 2021)"
  },
  "GEO":{
   "name":"Georgien",

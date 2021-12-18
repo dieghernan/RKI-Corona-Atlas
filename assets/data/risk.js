@@ -60,7 +60,7 @@ var risk = {
  "FRA":2,
  "FSM":0,
  "GAB":0,
- "GBR":2,
+ "GBR":1,
  "GEO":2,
  "GHA":0,
  "GIN":0,
