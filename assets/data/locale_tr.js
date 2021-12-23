@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Avusturya",
-  "info":"14.11.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
+  "info":""
  },
  "AZE":{
   "name":"Azerbaycan",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosna-Hersek",
-  "info":"12.09.2021'den beri"
+  "info":""
  },
  "BLR":{
   "name":"Beyaz Rusya",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":"19.09.2021'den beri"
+  "info":""
  },
  "BOL":{
   "name":"Bolivya",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Kıbrıs",
-  "info":""
+  "info":"25.12.2021'den beri"
  },
  "CZE":{
   "name":"Çekya",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"İspanya",
-  "info":""
+  "info":"25.12.2021'den beri"
  },
  "EST":{
   "name":"Estonya",
@@ -226,7 +226,7 @@ var info_rki = {
  },
  "FIN":{
   "name":"Finlandiya",
-  "info":""
+  "info":"25.12.2021'den beri"
  },
  "FJI":{
   "name":"Fiji",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monako",
-  "info":""
+  "info":"25.12.2021'den beri"
  },
  "MDA":{
   "name":"Moldova",
@@ -498,7 +498,7 @@ var info_rki = {
  },
  "MYS":{
   "name":"Malezya",
-  "info":"13.06.2021'den beri"
+  "info":""
  },
  "NAM":{
   "name":"Namibya",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portekiz",
-  "info":""
+  "info":"25.12.2021'den beri"
  },
  "PRY":{
   "name":"Paraguay",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Sırbistan",
-  "info":"05.09.2021'den beri"
+  "info":""
  },
  "SSD":{
   "name":"Güney Sudan",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Birleşik Devletler",
-  "info":""
+  "info":"25.12.2021'den beri"
  },
  "UZB":{
   "name":"Özbekistan",

@@ -8,7 +8,7 @@ Argentine,Zone sans risque,
 Arménie,Zone sans risque,
 Antigua-et-Barbuda,Zone sans risque,
 Australie,Zone sans risque,
-Autriche,Zone à fort risque,depuis le 14/11/2021. Les régions suivantes sont exclues: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
+Autriche,Zone sans risque,
 Azerbaïdjan,Zone sans risque,
 Burundi,Zone à fort risque,depuis le 26/09/2021
 Belgique,Zone à fort risque,depuis le 21/11/2021
@@ -18,9 +18,9 @@ Bangladesh,Zone sans risque,
 Bulgarie,Zone sans risque,
 Bahreïn,Zone sans risque,
 Bahamas,Zone sans risque,
-Bosnie-Herzégovine,Zone à fort risque,depuis le 12/09/2021
+Bosnie-Herzégovine,Zone sans risque,
 Bélarus,Zone à fort risque,depuis le 03/10/2021
-Belize,Zone à fort risque,depuis le 19/09/2021
+Belize,Zone sans risque,
 Bolivie,Zone sans risque,
 Brésil,Zone sans risque,
 Barbade,Zone à fort risque,depuis le 19/09/2021
@@ -41,7 +41,7 @@ Comores,Zone sans risque,
 Cap-Vert,Zone sans risque,
 Costa Rica,Zone sans risque,
 Cuba,Zone sans risque,
-Chypre,Zone sans risque,
+Chypre,Zone à fort risque,depuis le 25/12/2021
 Tchéquie,Zone à fort risque,depuis le 14/11/2021
 Allemagne,,
 Djibouti,Zone sans risque,
@@ -52,10 +52,10 @@ Algérie,Zone sans risque,
 Équateur,Zone sans risque,
 Égypte,Zone à fort risque,depuis le 24/01/2021
 Érythrée,Zone sans risque,
-Espagne,Zone sans risque,
+Espagne,Zone à fort risque,depuis le 25/12/2021
 Estonie,Zone sans risque,
 Éthiopie,Zone à fort risque,depuis le 26/09/2021
-Finlande,Zone sans risque,
+Finlande,Zone à fort risque,depuis le 25/12/2021
 Fidji,Zone sans risque,
 France,Zone à fort risque,depuis le 19/12/2021
 Micronésie,Zone sans risque,
@@ -107,7 +107,7 @@ Lituanie,Zone à fort risque,depuis le 03/10/2021
 Luxembourg,Zone sans risque,
 Lettonie,Zone sans risque,
 Maroc,Zone sans risque,
-Monaco,Zone sans risque,
+Monaco,Zone à fort risque,depuis le 25/12/2021
 Moldavie,Zone sans risque,
 Madagascar,Zone sans risque,
 Maldives,Zone sans risque,
@@ -123,7 +123,7 @@ Mozambique,Zone de variantes du virus,depuis le 28/11/2021
 Mauritanie,Zone sans risque,
 Maurice,Zone à fort risque,depuis le 05/12/2021
 Malawi,Zone de variantes du virus,depuis le 28/11/2021
-Malaisie,Zone à fort risque,depuis le 13/06/2021
+Malaisie,Zone sans risque,
 Namibie,Zone de variantes du virus,depuis le 28/11/2021
 Niger,Zone sans risque,
 Nigeria,Zone sans risque,
@@ -143,7 +143,7 @@ Palaos,Zone sans risque,
 Papouasie-Nouvelle-Guinée,Zone à fort risque,depuis le 08/08/2021
 Pologne,Zone à fort risque,depuis le 05/12/2021
 Corée du Nord,Zone à fort risque,depuis le 08/08/2021
-Portugal,Zone sans risque,
+Portugal,Zone à fort risque,depuis le 25/12/2021
 Paraguay,Zone sans risque,
 Qatar,Zone sans risque,
 Roumanie,Zone sans risque,
@@ -158,7 +158,7 @@ Sierra Leone,Zone sans risque,
 El Salvador,Zone sans risque,
 San Marin,Zone sans risque,
 Somalie,Zone sans risque,
-Serbie,Zone à fort risque,depuis le 05/09/2021
+Serbie,Zone sans risque,
 Soudan du Sud,Zone sans risque,
 Sao Tomé-et-Principe,Zone sans risque,
 Surinam,Zone sans risque,
@@ -183,7 +183,7 @@ République unie de Tanzanie,Zone à fort risque,depuis le 14/03/2021
 Ouganda,Zone sans risque,
 Ukraine,Zone à fort risque,depuis le 10/10/2021
 Uruguay,Zone sans risque,
-États-Unis,Zone sans risque,
+États-Unis,Zone à fort risque,depuis le 25/12/2021
 Ouzbékistan,Zone sans risque,
 Vatican,Zone sans risque,
 Saint-Vincent-et-les-Grenadines,Zone sans risque,

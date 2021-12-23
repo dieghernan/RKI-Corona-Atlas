@@ -8,7 +8,7 @@ Argentina,No es área de riesgo,
 Armenia,No es área de riesgo,
 Antigua y Barbuda,No es área de riesgo,
 Australia,No es área de riesgo,
-Austria,Área de alto riesgo,desde el 14/11/2021. A excepción de las siguientes regiones: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
+Austria,No es área de riesgo,
 Azerbayán,No es área de riesgo,
 Burundi,Área de alto riesgo,desde el 26/09/2021
 Bélgica,Área de alto riesgo,desde el 21/11/2021
@@ -18,9 +18,9 @@ Bangladesh,No es área de riesgo,
 Bulgaria,No es área de riesgo,
 Bahrein,No es área de riesgo,
 Bahamas,No es área de riesgo,
-Bosnia y Herzegovina,Área de alto riesgo,desde el 12/09/2021
+Bosnia y Herzegovina,No es área de riesgo,
 Bielorrusia,Área de alto riesgo,desde el 03/10/2021
-Belice,Área de alto riesgo,desde el 19/09/2021
+Belice,No es área de riesgo,
 Bolivia,No es área de riesgo,
 Brasil,No es área de riesgo,
 Barbados,Área de alto riesgo,desde el 19/09/2021
@@ -41,7 +41,7 @@ Colombia,No es área de riesgo,
 Cabo Verde,No es área de riesgo,
 Costa Rica,No es área de riesgo,
 Cuba,No es área de riesgo,
-Chipre,No es área de riesgo,
+Chipre,Área de alto riesgo,desde el 25/12/2021
 República Checa,Área de alto riesgo,desde el 14/11/2021
 Alemania,,
 Yibuti,No es área de riesgo,
@@ -52,10 +52,10 @@ Algeria,No es área de riesgo,
 Ecuador,No es área de riesgo,
 Egipto,Área de alto riesgo,desde el 24/01/2021
 Eritrea,No es área de riesgo,
-España,No es área de riesgo,
+España,Área de alto riesgo,desde el 25/12/2021
 Estonia,No es área de riesgo,
 Etiopía,Área de alto riesgo,desde el 26/09/2021
-Finlandia,No es área de riesgo,
+Finlandia,Área de alto riesgo,desde el 25/12/2021
 Fiyi,No es área de riesgo,
 Francia,Área de alto riesgo,desde el 19/12/2021
 Micronesia,No es área de riesgo,
@@ -107,7 +107,7 @@ Lituania,Área de alto riesgo,desde el 03/10/2021
 Luxemburgo,No es área de riesgo,
 Letonia,No es área de riesgo,
 Marruecos,No es área de riesgo,
-Mónaco,No es área de riesgo,
+Mónaco,Área de alto riesgo,desde el 25/12/2021
 Moldavia,No es área de riesgo,
 Madagascar,No es área de riesgo,
 Islas Maldivas,No es área de riesgo,
@@ -123,7 +123,7 @@ Mozambique,Área de variante viral,desde el 28/11/2021
 Mauritania,No es área de riesgo,
 Mauricio,Área de alto riesgo,desde el 05/12/2021
 Malawi,Área de variante viral,desde el 28/11/2021
-Malasia,Área de alto riesgo,desde el 13/06/2021
+Malasia,No es área de riesgo,
 Namibia,Área de variante viral,desde el 28/11/2021
 Niger,No es área de riesgo,
 Nigeria,No es área de riesgo,
@@ -143,7 +143,7 @@ Palau,No es área de riesgo,
 Papúa Nueva Guinea,Área de alto riesgo,desde el 08/08/2021
 Polonia,Área de alto riesgo,desde el 05/12/2021
 Corea del Norte,Área de alto riesgo,desde el 08/08/2021
-Portugal,No es área de riesgo,
+Portugal,Área de alto riesgo,desde el 25/12/2021
 Paraguay,No es área de riesgo,
 Qatar,No es área de riesgo,
 Rumanía,No es área de riesgo,
@@ -158,7 +158,7 @@ Sierra Leona,No es área de riesgo,
 El Salvador,No es área de riesgo,
 San Marino,No es área de riesgo,
 Somalia,No es área de riesgo,
-Serbia,Área de alto riesgo,desde el 05/09/2021
+Serbia,No es área de riesgo,
 Sudán del Sur,No es área de riesgo,
 Santo Tomé y Príncipe,No es área de riesgo,
 Surinám,No es área de riesgo,
@@ -183,7 +183,7 @@ República Unida de Tanzania,Área de alto riesgo,desde el 14/03/2021
 Uganda,No es área de riesgo,
 Ucrania,Área de alto riesgo,desde el 10/10/2021
 Uruguay,No es área de riesgo,
-Estados Unidos,No es área de riesgo,
+Estados Unidos,Área de alto riesgo,desde el 25/12/2021
 Uzbekistán,No es área de riesgo,
 Ciudad del Vaticano,No es área de riesgo,
 San Vicente y las Granadinas,No es área de riesgo,

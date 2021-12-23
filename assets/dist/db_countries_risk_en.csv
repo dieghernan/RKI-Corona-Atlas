@@ -8,7 +8,7 @@ Argentina,Not risk area,
 Armenia,Not risk area,
 Antigua and Barbuda,Not risk area,
 Australia,Not risk area,
-Austria,High risk area,since 14 Nov 2021. The following regions are excluded: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
+Austria,Not risk area,
 Azerbaijan,Not risk area,
 Burundi,High risk area,since 26 Sep 2021
 Belgium,High risk area,since 21 Nov 2021
@@ -18,9 +18,9 @@ Bangladesh,Not risk area,
 Bulgaria,Not risk area,
 Bahrain,Not risk area,
 Bahamas,Not risk area,
-Bosnia and Herzegovina,High risk area,since 12 Sep 2021
+Bosnia and Herzegovina,Not risk area,
 Belarus,High risk area,since 03 Oct 2021
-Belize,High risk area,since 19 Sep 2021
+Belize,Not risk area,
 Bolivia,Not risk area,
 Brazil,Not risk area,
 Barbados,High risk area,since 19 Sep 2021
@@ -41,7 +41,7 @@ Comoros,Not risk area,
 Cape Verde,Not risk area,
 Costa Rica,Not risk area,
 Cuba,Not risk area,
-Cyprus,Not risk area,
+Cyprus,High risk area,since 25 Dec 2021
 Czechia,High risk area,since 14 Nov 2021
 Germany,,
 Djibouti,Not risk area,
@@ -52,10 +52,10 @@ Algeria,Not risk area,
 Ecuador,Not risk area,
 Egypt,High risk area,since 24 Jan 2021
 Eritrea,Not risk area,
-Spain,Not risk area,
+Spain,High risk area,since 25 Dec 2021
 Estonia,Not risk area,
 Ethiopia,High risk area,since 26 Sep 2021
-Finland,Not risk area,
+Finland,High risk area,since 25 Dec 2021
 Fiji,Not risk area,
 France,High risk area,since 19 Dec 2021
 Micronesia,Not risk area,
@@ -107,7 +107,7 @@ Lithuania,High risk area,since 03 Oct 2021
 Luxembourg,Not risk area,
 Latvia,Not risk area,
 Morocco,Not risk area,
-Monaco,Not risk area,
+Monaco,High risk area,since 25 Dec 2021
 Moldova,Not risk area,
 Madagascar,Not risk area,
 Maldives,Not risk area,
@@ -123,7 +123,7 @@ Mozambique,Variant of concern,since 28 Nov 2021
 Mauritania,Not risk area,
 Mauritius,High risk area,since 05 Dec 2021
 Malawi,Variant of concern,since 28 Nov 2021
-Malaysia,High risk area,since 13 Jun 2021
+Malaysia,Not risk area,
 Namibia,Variant of concern,since 28 Nov 2021
 Niger,Not risk area,
 Nigeria,Not risk area,
@@ -143,7 +143,7 @@ Palau,Not risk area,
 Papua New Guinea,High risk area,since 08 Aug 2021
 Poland,High risk area,since 05 Dec 2021
 North Korea,High risk area,since 08 Aug 2021
-Portugal,Not risk area,
+Portugal,High risk area,since 25 Dec 2021
 Paraguay,Not risk area,
 Qatar,Not risk area,
 Romania,Not risk area,
@@ -158,7 +158,7 @@ Sierra Leone,Not risk area,
 El Salvador,Not risk area,
 San Marino,Not risk area,
 Somalia,Not risk area,
-Serbia,High risk area,since 05 Sep 2021
+Serbia,Not risk area,
 South Sudan,Not risk area,
 Sao Tome and Principe,Not risk area,
 Suriname,Not risk area,
@@ -183,7 +183,7 @@ United Republic of Tanzania,High risk area,since 14 Mar 2021
 Uganda,Not risk area,
 Ukraine,High risk area,since 10 Oct 2021
 Uruguay,Not risk area,
-United States,Not risk area,
+United States,High risk area,since 25 Dec 2021
 Uzbekistan,Not risk area,
 Vatican City,Not risk area,
 Saint Vincent and The Grenadines,Not risk area,

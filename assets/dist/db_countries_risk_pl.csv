@@ -8,7 +8,7 @@ Argentyna,Nie jest to obszar ryzyka,
 Armenia,Nie jest to obszar ryzyka,
 Antigua i Barbuda,Nie jest to obszar ryzyka,
 Australia,Nie jest to obszar ryzyka,
-Austria,Obszar wysokiego ryzyka,od 14.11.2021. Z wyjątkiem następujących regionów: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
+Austria,Nie jest to obszar ryzyka,
 Azerbejdżan,Nie jest to obszar ryzyka,
 Burundi,Obszar wysokiego ryzyka,od 26.09.2021
 Belgia,Obszar wysokiego ryzyka,od 21.11.2021
@@ -18,9 +18,9 @@ Bangladesz,Nie jest to obszar ryzyka,
 Bułgaria,Nie jest to obszar ryzyka,
 Bahrajn,Nie jest to obszar ryzyka,
 Bahamy,Nie jest to obszar ryzyka,
-Bośnia i Hercegowina,Obszar wysokiego ryzyka,od 12.09.2021
+Bośnia i Hercegowina,Nie jest to obszar ryzyka,
 Białoruś,Obszar wysokiego ryzyka,od 03.10.2021
-Belize,Obszar wysokiego ryzyka,od 19.09.2021
+Belize,Nie jest to obszar ryzyka,
 Boliwia,Nie jest to obszar ryzyka,
 Brazylia,Nie jest to obszar ryzyka,
 Barbados,Obszar wysokiego ryzyka,od 19.09.2021
@@ -41,7 +41,7 @@ Komory,Nie jest to obszar ryzyka,
 Republika Zielonego Przylądka,Nie jest to obszar ryzyka,
 Kostaryka,Nie jest to obszar ryzyka,
 Kuba,Nie jest to obszar ryzyka,
-Cypr,Nie jest to obszar ryzyka,
+Cypr,Obszar wysokiego ryzyka,od 25.12.2021
 Czechy,Obszar wysokiego ryzyka,od 14.11.2021
 Niemcy,,
 Dżibuti,Nie jest to obszar ryzyka,
@@ -52,10 +52,10 @@ Algieria,Nie jest to obszar ryzyka,
 Ekwador,Nie jest to obszar ryzyka,
 Egipt,Obszar wysokiego ryzyka,od 24.01.2021
 Erytrea,Nie jest to obszar ryzyka,
-Hiszpania,Nie jest to obszar ryzyka,
+Hiszpania,Obszar wysokiego ryzyka,od 25.12.2021
 Estonia,Nie jest to obszar ryzyka,
 Etiopia,Obszar wysokiego ryzyka,od 26.09.2021
-Finlandia,Nie jest to obszar ryzyka,
+Finlandia,Obszar wysokiego ryzyka,od 25.12.2021
 Fidżi,Nie jest to obszar ryzyka,
 Francja,Obszar wysokiego ryzyka,od 19.12.2021
 Mikronezja,Nie jest to obszar ryzyka,
@@ -107,7 +107,7 @@ Litwa,Obszar wysokiego ryzyka,od 03.10.2021
 Luksemburg,Nie jest to obszar ryzyka,
 Łotwa,Nie jest to obszar ryzyka,
 Maroko,Nie jest to obszar ryzyka,
-Monako,Nie jest to obszar ryzyka,
+Monako,Obszar wysokiego ryzyka,od 25.12.2021
 Mołdawia,Nie jest to obszar ryzyka,
 Madagaskar,Nie jest to obszar ryzyka,
 Malediwy,Nie jest to obszar ryzyka,
@@ -123,7 +123,7 @@ Mozambik,Obszar z niebezpiecznymi mutacjami,od 28.11.2021
 Mauretania,Nie jest to obszar ryzyka,
 Mauritius,Obszar wysokiego ryzyka,od 05.12.2021
 Malawi,Obszar z niebezpiecznymi mutacjami,od 28.11.2021
-Malezja,Obszar wysokiego ryzyka,od 13.06.2021
+Malezja,Nie jest to obszar ryzyka,
 Namibia,Obszar z niebezpiecznymi mutacjami,od 28.11.2021
 Niger,Nie jest to obszar ryzyka,
 Nigeria,Nie jest to obszar ryzyka,
@@ -143,7 +143,7 @@ Palau,Nie jest to obszar ryzyka,
 Papua-Nowa Gwinea,Obszar wysokiego ryzyka,od 08.08.2021
 Polska,Obszar wysokiego ryzyka,od 05.12.2021
 Korea Północna,Obszar wysokiego ryzyka,od 08.08.2021
-Portugalia,Nie jest to obszar ryzyka,
+Portugalia,Obszar wysokiego ryzyka,od 25.12.2021
 Paragwaj,Nie jest to obszar ryzyka,
 Katar,Nie jest to obszar ryzyka,
 Rumunia,Nie jest to obszar ryzyka,
@@ -158,7 +158,7 @@ Sierra Leone,Nie jest to obszar ryzyka,
 Salwador,Nie jest to obszar ryzyka,
 San Marino,Nie jest to obszar ryzyka,
 Somalia,Nie jest to obszar ryzyka,
-Serbia,Obszar wysokiego ryzyka,od 05.09.2021
+Serbia,Nie jest to obszar ryzyka,
 Sudan Południowy,Nie jest to obszar ryzyka,
 Wyspy Świętego Tomasza i Książęca,Nie jest to obszar ryzyka,
 Surinam,Nie jest to obszar ryzyka,
@@ -183,7 +183,7 @@ Zjednoczona Republika Tanzanii,Obszar wysokiego ryzyka,od 14.03.2021
 Uganda,Nie jest to obszar ryzyka,
 Ukraina,Obszar wysokiego ryzyka,od 10.10.2021
 Urugwaj,Nie jest to obszar ryzyka,
-Stany Zjednoczone,Nie jest to obszar ryzyka,
+Stany Zjednoczone,Obszar wysokiego ryzyka,od 25.12.2021
 Uzbekistan,Nie jest to obszar ryzyka,
 Watykan,Nie jest to obszar ryzyka,
 Saint Vincent i Grenadyny,Nie jest to obszar ryzyka,

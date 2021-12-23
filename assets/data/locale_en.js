@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":"since 14 Nov 2021. The following regions are excluded:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
+  "info":""
  },
  "AZE":{
   "name":"Azerbaijan",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnia and Herzegovina",
-  "info":"since 12 Sep 2021"
+  "info":""
  },
  "BLR":{
   "name":"Belarus",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":"since 19 Sep 2021"
+  "info":""
  },
  "BOL":{
   "name":"Bolivia",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cyprus",
-  "info":""
+  "info":"since 25 Dec 2021"
  },
  "CZE":{
   "name":"Czechia",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spain",
-  "info":""
+  "info":"since 25 Dec 2021"
  },
  "EST":{
   "name":"Estonia",
@@ -226,7 +226,7 @@ var info_rki = {
  },
  "FIN":{
   "name":"Finland",
-  "info":""
+  "info":"since 25 Dec 2021"
  },
  "FJI":{
   "name":"Fiji",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monaco",
-  "info":""
+  "info":"since 25 Dec 2021"
  },
  "MDA":{
   "name":"Moldova",
@@ -498,7 +498,7 @@ var info_rki = {
  },
  "MYS":{
   "name":"Malaysia",
-  "info":"since 13 Jun 2021"
+  "info":""
  },
  "NAM":{
   "name":"Namibia",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":""
+  "info":"since 25 Dec 2021"
  },
  "PRY":{
   "name":"Paraguay",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbia",
-  "info":"since 05 Sep 2021"
+  "info":""
  },
  "SSD":{
   "name":"South Sudan",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "USA":{
   "name":"United States",
-  "info":""
+  "info":"since 25 Dec 2021"
  },
  "UZB":{
   "name":"Uzbekistan",

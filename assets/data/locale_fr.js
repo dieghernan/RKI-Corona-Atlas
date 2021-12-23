@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Autriche",
-  "info":"depuis le 14\/11\/2021. Les régions suivantes sont exclues:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
+  "info":""
  },
  "AZE":{
   "name":"Azerbaïdjan",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnie-Herzégovine",
-  "info":"depuis le 12\/09\/2021"
+  "info":""
  },
  "BLR":{
   "name":"Bélarus",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":"depuis le 19\/09\/2021"
+  "info":""
  },
  "BOL":{
   "name":"Bolivie",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Chypre",
-  "info":""
+  "info":"depuis le 25\/12\/2021"
  },
  "CZE":{
   "name":"Tchéquie",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Espagne",
-  "info":""
+  "info":"depuis le 25\/12\/2021"
  },
  "EST":{
   "name":"Estonie",
@@ -226,7 +226,7 @@ var info_rki = {
  },
  "FIN":{
   "name":"Finlande",
-  "info":""
+  "info":"depuis le 25\/12\/2021"
  },
  "FJI":{
   "name":"Fidji",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monaco",
-  "info":""
+  "info":"depuis le 25\/12\/2021"
  },
  "MDA":{
   "name":"Moldavie",
@@ -498,7 +498,7 @@ var info_rki = {
  },
  "MYS":{
   "name":"Malaisie",
-  "info":"depuis le 13\/06\/2021"
+  "info":""
  },
  "NAM":{
   "name":"Namibie",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":""
+  "info":"depuis le 25\/12\/2021"
  },
  "PRY":{
   "name":"Paraguay",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbie",
-  "info":"depuis le 05\/09\/2021"
+  "info":""
  },
  "SSD":{
   "name":"Soudan du Sud",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "USA":{
   "name":"États-Unis",
-  "info":""
+  "info":"depuis le 25\/12\/2021"
  },
  "UZB":{
   "name":"Ouzbékistan",

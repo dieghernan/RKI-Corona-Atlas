@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Österreich",
-  "info":"- mit Ausnahme der Gemeinden Mittelberg und Jungholz und dem Rißtal im Gemeindegebiet von Vomp und Eben am Achensee (<strong>Hochrisikogebiet<\/strong> seit 14. November 2021)"
+  "info":""
  },
  "AZE":{
   "name":"Aserbaidschan",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnien und Herzegowina",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 12. September 2021"
+  "info":""
  },
  "BLR":{
   "name":"Belarus",
@@ -86,7 +86,7 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. September 2021"
+  "info":""
  },
  "BOL":{
   "name":"Bolivien",
@@ -170,7 +170,7 @@ var info_rki = {
  },
  "CYP":{
   "name":"Zypern",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021"
  },
  "CZE":{
   "name":"Tschechische Republik",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":""
+  "info":"inkl. der Balearen und Kanarischen Inseln (<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021)"
  },
  "EST":{
   "name":"Estland",
@@ -226,7 +226,7 @@ var info_rki = {
  },
  "FIN":{
   "name":"Finnland",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021"
  },
  "FJI":{
   "name":"Fidschi",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monaco",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021"
  },
  "MDA":{
   "name":"Moldau",
@@ -498,7 +498,7 @@ var info_rki = {
  },
  "MYS":{
   "name":"Malaysia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 13. Juni 2021"
+  "info":""
  },
  "NAM":{
   "name":"Namibia",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":""
+  "info":"inkl. der Azoren und Madeira (<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021)"
  },
  "PRY":{
   "name":"Paraguay",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbien",
-  "info":"<strong>Hochrisikogebie<\/strong>t seit 5. September 2021"
+  "info":""
  },
  "SSD":{
   "name":"Südsudan",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "USA":{
   "name":"Vereinigte Staaten",
-  "info":""
+  "info":"von Amerika (<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021)"
  },
  "UZB":{
   "name":"Usbekistan",
