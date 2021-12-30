@@ -26,9 +26,9 @@ Brésil,Zone sans risque,
 Barbade,Zone à fort risque,depuis le 19/09/2021
 Brunei,Zone sans risque,
 Bhoutan,Zone sans risque,
-Botswana,Zone de variantes du virus,depuis le 28/11/2021
+Botswana,Zone sans risque,
 République Centrafricaine,Zone sans risque,
-Canada,Zone sans risque,
+Canada,Zone à fort risque,depuis le 01/01/2022
 Suisse,Zone à fort risque,depuis le 05/12/2021
 Chili,Zone sans risque,
 Chine,Zone sans risque,
@@ -60,7 +60,7 @@ Fidji,Zone sans risque,
 France,Zone à fort risque,depuis le 19/12/2021
 Micronésie,Zone sans risque,
 Gabon,Zone sans risque,
-Royaume-Uni,Zone de variantes du virus,depuis le 20/12/2021
+Royaume-Uni,Zone sans risque,
 Géorgie,Zone à fort risque,depuis le 25/07/2021
 Ghana,Zone sans risque,
 Guinée,Zone sans risque,
@@ -83,7 +83,7 @@ Iran,Zone sans risque,
 Irak,Zone sans risque,
 Islande,Zone sans risque,
 Israël,Zone sans risque,
-Italie,Zone sans risque,
+Italie,Zone à fort risque,depuis le 01/01/2022
 Jamaïque,Zone sans risque,
 Jordanie,Zone à fort risque,depuis le 05/12/2021
 Japon,Zone sans risque,
@@ -102,7 +102,7 @@ Libye,Zone à fort risque,depuis le 18/07/2021
 Sainte-Lucie,Zone sans risque,
 Liechtenstein,Zone à fort risque,depuis le 05/12/2021
 Sri Lanka,Zone sans risque,
-Lesotho,Zone de variantes du virus,depuis le 28/11/2021
+Lesotho,Zone sans risque,
 Lituanie,Zone à fort risque,depuis le 03/10/2021
 Luxembourg,Zone sans risque,
 Lettonie,Zone sans risque,
@@ -115,16 +115,16 @@ Mexique,Zone à fort risque,depuis le 08/08/2021
 Îles Marshall,Zone sans risque,
 Macédoine du Nord,Zone sans risque,
 Mali,Zone sans risque,
-Malte,Zone sans risque,
+Malte,Zone à fort risque,depuis le 01/01/2022
 Myanmar/Burma,Zone sans risque,
 Monténégro,Zone à fort risque,depuis le 15/08/2021
 Mongolie,Zone sans risque,
-Mozambique,Zone de variantes du virus,depuis le 28/11/2021
+Mozambique,Zone sans risque,
 Mauritanie,Zone sans risque,
-Maurice,Zone à fort risque,depuis le 05/12/2021
-Malawi,Zone de variantes du virus,depuis le 28/11/2021
+Maurice,Zone sans risque,
+Malawi,Zone sans risque,
 Malaisie,Zone sans risque,
-Namibie,Zone de variantes du virus,depuis le 28/11/2021
+Namibie,Zone sans risque,
 Niger,Zone sans risque,
 Nigeria,Zone sans risque,
 Nicaragua,Zone sans risque,
@@ -156,7 +156,7 @@ Singapour,Zone sans risque,
 Îles Salomon,Zone sans risque,
 Sierra Leone,Zone sans risque,
 El Salvador,Zone sans risque,
-San Marin,Zone sans risque,
+San Marin,Zone à fort risque,depuis le 01/01/2022
 Somalie,Zone sans risque,
 Serbie,Zone sans risque,
 Soudan du Sud,Zone sans risque,
@@ -165,7 +165,7 @@ Surinam,Zone sans risque,
 Slovaquie,Zone à fort risque,depuis le 31/10/2021
 Slovénie,Zone à fort risque,depuis le 26/09/2021
 Suède,Zone sans risque,
-Eswatini,Zone de variantes du virus,depuis le 28/11/2021
+Eswatini,Zone sans risque,
 Seychelles,Zone à fort risque,depuis le 14/02/2021
 Syrie,Zone à fort risque,depuis le 31/01/2021
 Tchad,Zone sans risque,
@@ -193,6 +193,6 @@ Vanuatu,Zone sans risque,
 Samoa,Zone sans risque,
 Kosovo,Zone sans risque,
 Yémen,Zone à fort risque,depuis le 10/10/2021
-Afrique du Sud,Zone de variantes du virus,depuis le 28/11/2021
+Afrique du Sud,Zone sans risque,
 Zambie,Zone sans risque,
-Zimbabwe,Zone de variantes du virus,depuis le 28/11/2021
+Zimbabwe,Zone sans risque,

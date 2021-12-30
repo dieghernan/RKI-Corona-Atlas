@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsvana",
-  "info":"28.11.2021'den beri"
+  "info":""
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Kanada",
-  "info":""
+  "info":"01.01.2022'den beri"
  },
  "CHE":{
   "name":"İsviçre",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Birleşik Krallık",
-  "info":"20.12.2021'den beri"
+  "info":""
  },
  "GEO":{
   "name":"Gürcistan",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"İtalya",
-  "info":""
+  "info":"01.01.2022'den beri"
  },
  "JAM":{
   "name":"Jamaika",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"28.11.2021'den beri"
+  "info":""
  },
  "LTU":{
   "name":"Litvanya",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"01.01.2022'den beri"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":"28.11.2021'den beri"
+  "info":""
  },
  "MRT":{
   "name":"Moritanya",
@@ -490,11 +490,11 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauritius",
-  "info":"05.12.2021'den beri"
+  "info":""
  },
  "MWI":{
   "name":"Malavi",
-  "info":"28.11.2021'den beri"
+  "info":""
  },
  "MYS":{
   "name":"Malezya",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibya",
-  "info":"28.11.2021'den beri"
+  "info":""
  },
  "NER":{
   "name":"Nijer",
@@ -630,7 +630,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marino",
-  "info":""
+  "info":"01.01.2022'den beri"
  },
  "SOM":{
   "name":"Somali",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esvatini",
-  "info":"28.11.2021'den beri"
+  "info":""
  },
  "SYC":{
   "name":"Seyşeller",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Güney Afrika",
-  "info":"28.11.2021'den beri"
+  "info":""
  },
  "ZMB":{
   "name":"Zambiya",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabve",
-  "info":"28.11.2021'den beri"
+  "info":""
  }
 };

@@ -26,9 +26,9 @@ Brasilien,Kein Risikogebiet,
 Barbados,Hochrisikogebiet,Hochrisikogebiet seit 19. September 2021
 Brunei Darussalam,Kein Risikogebiet,
 Bhutan,Kein Risikogebiet,
-Botsuana,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Botsuana,Kein Risikogebiet,
 Zentralafrikanische Republik,Kein Risikogebiet,
-Kanada,Kein Risikogebiet,
+Kanada,Hochrisikogebiet,Hochrisikogebiet seit 1. Januar 2022
 Schweiz,Hochrisikogebiet,Hochrisikogebiet seit 5. Dezember 2021
 Chile,Kein Risikogebiet,
 China,Kein Risikogebiet,
@@ -60,7 +60,7 @@ Fidschi,Kein Risikogebiet,
 Frankreich,Hochrisikogebiet,inklusive des Übersee-Departements Réunion (Hochrisikogebiet seit 19. Dezember 2021) 
 Mikronesien,Kein Risikogebiet,
 Gabun,Kein Risikogebiet,
-Vereinigtes Königreich,Virusvarianten-Gebiet,Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Virusvariantengebiet seit 20. Dezember 2021; Hochrisikogebiet bis 19. Dezember 2021)
+Vereinigtes Königreich,Kein Risikogebiet,
 Georgien,Hochrisikogebiet,Hochrisikogebiet seit 25. Juli 2021
 Ghana,Kein Risikogebiet,
 Guinea,Kein Risikogebiet,
@@ -83,7 +83,7 @@ Iran,Kein Risikogebiet,
 Irak,Kein Risikogebiet,
 Island,Kein Risikogebiet,
 Israel,Kein Risikogebiet,
-Italien,Kein Risikogebiet,
+Italien,Hochrisikogebiet,Hochrisikogebiet seit 1. Januar 2022
 Jamaika,Kein Risikogebiet,
 Jordanien,Hochrisikogebiet,Hochrisikogebiet seit 5. Dezember 2021
 Japan,Kein Risikogebiet,
@@ -102,7 +102,7 @@ Libyen,Hochrisikogebiet,Hochrisikogebiet seit 18. Juli 2021
 St. Lucia,Kein Risikogebiet,
 Liechtenstein,Hochrisikogebiet,Hochrisikogebiet seit 5. Dezember 2021
 Sri Lanka,Kein Risikogebiet,
-Lesotho,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Lesotho,Kein Risikogebiet,
 Litauen,Hochrisikogebiet,Hochrisikogebiet seit 3. Oktober 2021
 Luxemburg,Kein Risikogebiet,
 Lettland,Kein Risikogebiet,
@@ -115,16 +115,16 @@ Mexiko,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Marshallinseln,Kein Risikogebiet,
 Nordmazedonien,Kein Risikogebiet,
 Mali,Kein Risikogebiet,
-Malta,Kein Risikogebiet,
+Malta,Hochrisikogebiet,Hochrisikogebiet seit 1. Januar 2022
 Myanmar,Kein Risikogebiet,
 Montenegro,Hochrisikogebiet,Hochrisikogebiet seit 15. August 2021
 Mongolei,Kein Risikogebiet,
-Mosambik,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Mosambik,Kein Risikogebiet,
 Mauretanien,Kein Risikogebiet,
-Mauritius,Hochrisikogebiet,Hochrisikogebiet seit 5. Dezember 2021
-Malawi,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Mauritius,Kein Risikogebiet,
+Malawi,Kein Risikogebiet,
 Malaysia,Kein Risikogebiet,
-Namibia,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Namibia,Kein Risikogebiet,
 Niger,Kein Risikogebiet,
 Nigeria,Kein Risikogebiet,
 Nicaragua,Kein Risikogebiet,
@@ -156,7 +156,7 @@ Singapur,Kein Risikogebiet,
 Salomoninseln,Kein Risikogebiet,
 Sierra Leone,Kein Risikogebiet,
 El Salvador,Kein Risikogebiet,
-San Marino,Kein Risikogebiet,
+San Marino,Hochrisikogebiet,Hochrisikogebiet seit 1. Januar 2022
 Somalia,Kein Risikogebiet,
 Serbien,Kein Risikogebiet,
 Südsudan,Kein Risikogebiet,
@@ -165,7 +165,7 @@ Surinam,Kein Risikogebiet,
 Slowakei,Hochrisikogebiet,Hochrisikogebiet seit 31. Oktober 2021
 Slowenien,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
 Schweden,Kein Risikogebiet,
-Eswatini,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Eswatini,Kein Risikogebiet,
 Seychellen,Hochrisikogebiet,Hochrisikogebiet seit 14. Februar 2021
 Syrische Arabische Republik,Hochrisikogebiet,Hochrisikogebiet seit 31. Januar 2021
 Tschad,Kein Risikogebiet,
@@ -193,6 +193,6 @@ Vanuatu,Kein Risikogebiet,
 Samoa,Kein Risikogebiet,
 Kosovo,Kein Risikogebiet,
 Jemen,Hochrisikogebiet,Hochrisikogebiet seit 10. Oktober 2021
-Südafrika,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Südafrika,Kein Risikogebiet,
 Sambia,Kein Risikogebiet,
-Simbabwe,Virusvarianten-Gebiet,Virusvariantengebiet seit 28. November 2021
+Simbabwe,Kein Risikogebiet,

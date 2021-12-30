@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"since 28 Nov 2021"
+  "info":""
  },
  "CAF":{
   "name":"Central African Republic",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Canada",
-  "info":""
+  "info":"since 01 Jan 2022"
  },
  "CHE":{
   "name":"Switzerland",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"United Kingdom",
-  "info":"since 20 Dec 2021"
+  "info":""
  },
  "GEO":{
   "name":"Georgia",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italy",
-  "info":""
+  "info":"since 01 Jan 2022"
  },
  "JAM":{
   "name":"Jamaica",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"since 28 Nov 2021"
+  "info":""
  },
  "LTU":{
   "name":"Lithuania",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"since 01 Jan 2022"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"since 28 Nov 2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauritania",
@@ -490,11 +490,11 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauritius",
-  "info":"since 05 Dec 2021"
+  "info":""
  },
  "MWI":{
   "name":"Malawi",
-  "info":"since 28 Nov 2021"
+  "info":""
  },
  "MYS":{
   "name":"Malaysia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"since 28 Nov 2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -630,7 +630,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marino",
-  "info":""
+  "info":"since 01 Jan 2022"
  },
  "SOM":{
   "name":"Somalia",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"since 28 Nov 2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychelles",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"South Africa",
-  "info":"since 28 Nov 2021"
+  "info":""
  },
  "ZMB":{
   "name":"Zambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"since 28 Nov 2021"
+  "info":""
  }
 };

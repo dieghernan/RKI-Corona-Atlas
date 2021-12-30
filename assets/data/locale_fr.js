@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  },
  "CAF":{
   "name":"République Centrafricaine",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Canada",
-  "info":""
+  "info":"depuis le 01\/01\/2022"
  },
  "CHE":{
   "name":"Suisse",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Royaume-Uni",
-  "info":"depuis le 20\/12\/2021"
+  "info":""
  },
  "GEO":{
   "name":"Géorgie",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italie",
-  "info":""
+  "info":"depuis le 01\/01\/2022"
  },
  "JAM":{
   "name":"Jamaïque",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  },
  "LTU":{
   "name":"Lituanie",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malte",
-  "info":""
+  "info":"depuis le 01\/01\/2022"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauritanie",
@@ -490,11 +490,11 @@ var info_rki = {
  },
  "MUS":{
   "name":"Maurice",
-  "info":"depuis le 05\/12\/2021"
+  "info":""
  },
  "MWI":{
   "name":"Malawi",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  },
  "MYS":{
   "name":"Malaisie",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibie",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -630,7 +630,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marin",
-  "info":""
+  "info":"depuis le 01\/01\/2022"
  },
  "SOM":{
   "name":"Somalie",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychelles",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Afrique du Sud",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  },
  "ZMB":{
   "name":"Zambie",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"depuis le 28\/11\/2021"
+  "info":""
  }
 };

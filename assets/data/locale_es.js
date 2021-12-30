@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  },
  "CAF":{
   "name":"República Centro-africana",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Canadá",
-  "info":""
+  "info":"desde el 01\/01\/2022"
  },
  "CHE":{
   "name":"Suiza",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Reino Unido",
-  "info":"desde el 20\/12\/2021"
+  "info":""
  },
  "GEO":{
   "name":"Georgia",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italia",
-  "info":""
+  "info":"desde el 01\/01\/2022"
  },
  "JAM":{
   "name":"Jamaica",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  },
  "LTU":{
   "name":"Lituania",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"desde el 01\/01\/2022"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauritania",
@@ -490,11 +490,11 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauricio",
-  "info":"desde el 05\/12\/2021"
+  "info":""
  },
  "MWI":{
   "name":"Malawi",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  },
  "MYS":{
   "name":"Malasia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -630,7 +630,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marino",
-  "info":""
+  "info":"desde el 01\/01\/2022"
  },
  "SOM":{
   "name":"Somalia",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esuatini",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychelles",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Suráfrica",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  },
  "ZMB":{
   "name":"Zambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabue",
-  "info":"desde el 28\/11\/2021"
+  "info":""
  }
 };

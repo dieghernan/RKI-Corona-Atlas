@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Kanada",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. Januar 2022"
  },
  "CHE":{
   "name":"Schweiz",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (<strong>Virusvariantengebiet<\/strong> seit 20. Dezember 2021; Hochrisikogebiet bis 19. Dezember 2021)"
+  "info":""
  },
  "GEO":{
   "name":"Georgien",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italien",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. Januar 2022"
  },
  "JAM":{
   "name":"Jamaika",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  },
  "LTU":{
   "name":"Litauen",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. Januar 2022"
  },
  "MMR":{
   "name":"Myanmar",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mosambik",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauretanien",
@@ -490,11 +490,11 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauritius",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 5. Dezember 2021"
+  "info":""
  },
  "MWI":{
   "name":"Malawi",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  },
  "MYS":{
   "name":"Malaysia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -630,7 +630,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marino",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. Januar 2022"
  },
  "SOM":{
   "name":"Somalia",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychellen",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Südafrika",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  },
  "ZMB":{
   "name":"Sambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Simbabwe",
-  "info":"<strong>Virusvariantengebiet<\/strong> seit 28. November 2021"
+  "info":""
  }
 };

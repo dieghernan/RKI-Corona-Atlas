@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"od 28.11.2021"
+  "info":""
  },
  "CAF":{
   "name":"Republika Środkowoafrykańska",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Kanada",
-  "info":""
+  "info":"od 01.01.2022"
  },
  "CHE":{
   "name":"Szwajcaria",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Wielka Brytania",
-  "info":"od 20.12.2021"
+  "info":""
  },
  "GEO":{
   "name":"Gruzja",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Włochy",
-  "info":""
+  "info":"od 01.01.2022"
  },
  "JAM":{
   "name":"Jamajka",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"od 28.11.2021"
+  "info":""
  },
  "LTU":{
   "name":"Litwa",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":""
+  "info":"od 01.01.2022"
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":"od 28.11.2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauretania",
@@ -490,11 +490,11 @@ var info_rki = {
  },
  "MUS":{
   "name":"Mauritius",
-  "info":"od 05.12.2021"
+  "info":""
  },
  "MWI":{
   "name":"Malawi",
-  "info":"od 28.11.2021"
+  "info":""
  },
  "MYS":{
   "name":"Malezja",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"od 28.11.2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -630,7 +630,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marino",
-  "info":""
+  "info":"od 01.01.2022"
  },
  "SOM":{
   "name":"Somalia",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"od 28.11.2021"
+  "info":""
  },
  "SYC":{
   "name":"Seszele",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",
-  "info":"od 28.11.2021"
+  "info":""
  },
  "ZMB":{
   "name":"Zambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"od 28.11.2021"
+  "info":""
  }
 };
