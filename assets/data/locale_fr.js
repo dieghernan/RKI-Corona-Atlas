@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "CAF":{
   "name":"République Centrafricaine",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Royaume-Uni",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "GEO":{
   "name":"Géorgie",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "LTU":{
   "name":"Lituanie",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "MRT":{
   "name":"Mauritanie",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "MYS":{
   "name":"Malaisie",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibie",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "NER":{
   "name":"Niger",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "SYC":{
   "name":"Seychelles",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Afrique du Sud",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  },
  "ZMB":{
   "name":"Zambie",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":""
+  "info":"depuis le 04\/01\/2022"
  }
 };

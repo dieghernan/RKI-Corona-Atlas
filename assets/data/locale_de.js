@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":""
+  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022)"
  },
  "GEO":{
   "name":"Georgien",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  },
  "LTU":{
   "name":"Litauen",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mosambik",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  },
  "MRT":{
   "name":"Mauretanien",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  },
  "MYS":{
   "name":"Malaysia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  },
  "NER":{
   "name":"Niger",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  },
  "SYC":{
   "name":"Seychellen",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Südafrika",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  },
  "ZMB":{
   "name":"Sambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Simbabwe",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022"
  }
 };

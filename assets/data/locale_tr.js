@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsvana",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Birleşik Krallık",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "GEO":{
   "name":"Gürcistan",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "LTU":{
   "name":"Litvanya",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "MRT":{
   "name":"Moritanya",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malavi",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "MYS":{
   "name":"Malezya",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibya",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "NER":{
   "name":"Nijer",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esvatini",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "SYC":{
   "name":"Seyşeller",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Güney Afrika",
-  "info":""
+  "info":"04.01.2022'den beri"
  },
  "ZMB":{
   "name":"Zambiya",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabve",
-  "info":""
+  "info":"04.01.2022'den beri"
  }
 };

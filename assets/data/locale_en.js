@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "CAF":{
   "name":"Central African Republic",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"United Kingdom",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "GEO":{
   "name":"Georgia",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "LTU":{
   "name":"Lithuania",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "MRT":{
   "name":"Mauritania",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "MYS":{
   "name":"Malaysia",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "NER":{
   "name":"Niger",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "SYC":{
   "name":"Seychelles",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"South Africa",
-  "info":""
+  "info":"since 04 Jan 2022"
  },
  "ZMB":{
   "name":"Zambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":""
+  "info":"since 04 Jan 2022"
  }
 };

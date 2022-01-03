@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "CAF":{
   "name":"Republika Środkowoafrykańska",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Wielka Brytania",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "GEO":{
   "name":"Gruzja",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "LTU":{
   "name":"Litwa",
@@ -482,7 +482,7 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "MRT":{
   "name":"Mauretania",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "MYS":{
   "name":"Malezja",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "NER":{
   "name":"Niger",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "SYC":{
   "name":"Seszele",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",
-  "info":""
+  "info":"od 04.01.2022"
  },
  "ZMB":{
   "name":"Zambia",
@@ -786,6 +786,6 @@ var info_rki = {
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":""
+  "info":"od 04.01.2022"
  }
 };
