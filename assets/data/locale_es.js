@@ -6,7 +6,7 @@ var info_rki = {
  },
  "AGO":{
   "name":"Angola",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ALB":{
   "name":"Albania",
@@ -18,11 +18,11 @@ var info_rki = {
  },
  "ARE":{
   "name":"Emiratos Árabes Unidos",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ARG":{
   "name":"Argentina",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ARM":{
   "name":"Armenia",
@@ -34,7 +34,7 @@ var info_rki = {
  },
  "AUS":{
   "name":"Australia",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "AUT":{
   "name":"Austria",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrein",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "BHS":{
   "name":"Bahamas",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "BIH":{
   "name":"Bosnia y Herzegovina",
@@ -86,11 +86,11 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belice",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "BOL":{
   "name":"Bolivia",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "BRA":{
   "name":"Brasil",
@@ -134,7 +134,7 @@ var info_rki = {
  },
  "CIV":{
   "name":"Costa de Marfil",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "CMR":{
   "name":"Camerún",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Congo",
-  "info":"desde el 24\/10\/2021"
+  "info":"desde el 09\/01\/2022"
  },
  "COL":{
   "name":"Colombia",
@@ -154,11 +154,11 @@ var info_rki = {
  },
  "COM":{
   "name":"Comores, Islas",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "CPV":{
   "name":"Cabo Verde",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "CRI":{
   "name":"Costa Rica",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonia",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ETH":{
   "name":"Etiopía",
@@ -230,11 +230,11 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiyi",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 19\/12\/2021"
+  "info":"desde el 19\/12\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 09\/01\/2022<\/li><li>Guadalupe, desde el 09\/01\/2022<\/li><li>Martinica, desde el 09\/01\/2022<\/li><li>Mayotte, desde el 09\/01\/2022<\/li><li>Reunión, desde el 19\/12\/2021<\/li><li>St. Barthélemy, desde el 09\/01\/2022<\/li><li>St. Martin, desde el 09\/01\/2022<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabón",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "GBR":{
   "name":"Reino Unido",
@@ -254,11 +254,11 @@ var info_rki = {
  },
  "GHA":{
   "name":"Ghana",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "GIN":{
   "name":"Guinea",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "GMB":{
   "name":"Gambia",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Granada",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "GTM":{
   "name":"Guatemala",
@@ -330,11 +330,11 @@ var info_rki = {
  },
  "ISL":{
   "name":"Islandia",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ISR":{
   "name":"Israel",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ITA":{
   "name":"Italia",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaica",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "JOR":{
   "name":"Jordania",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenia",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "KGZ":{
   "name":"Kirgizstán",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwait",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "LAO":{
   "name":"Laos",
@@ -422,7 +422,7 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxemburgo",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "LVA":{
   "name":"Letonia",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "MLT":{
   "name":"Malta",
@@ -486,7 +486,7 @@ var info_rki = {
  },
  "MRT":{
   "name":"Mauritania",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "MUS":{
   "name":"Mauricio",
@@ -510,7 +510,7 @@ var info_rki = {
  },
  "NGA":{
   "name":"Nigeria",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "NIC":{
   "name":"Nicaragua",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Países Bajos",
-  "info":"desde el 21\/11\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Bonaire, desde el 27\/07\/2021<\/li><li>Saba, desde el 27\/07\/2021<\/li><li>Sint Eustatius, desde el 27\/07\/2021<\/li><\/ul>"
+  "info":"desde el 21\/11\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Aruba, desde el 09\/01\/2022<\/li><li>Bonaire, desde el 27\/07\/2021<\/li><li>Curasao, desde el 09\/01\/2022<\/li><li>Saba, desde el 27\/07\/2021<\/li><li>St. Eustatius, desde el 27\/07\/2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Noruega",
@@ -550,7 +550,7 @@ var info_rki = {
  },
  "PAN":{
   "name":"Panamá",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "PER":{
   "name":"Perú",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Qatar",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ROU":{
   "name":"Rumanía",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RWA":{
   "name":"Ruanda",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "SAU":{
   "name":"Arabia Saudí",
@@ -622,7 +622,7 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leona",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "SLV":{
   "name":"El Salvador",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"Sudán del Sur",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "STP":{
   "name":"Santo Tomé y Príncipe",
@@ -662,7 +662,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Suecia",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "SWZ":{
   "name":"Esuatini",
@@ -682,7 +682,7 @@ var info_rki = {
  },
  "TGO":{
   "name":"Togo",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "THA":{
   "name":"Tailandia",
@@ -726,15 +726,15 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "UKR":{
   "name":"Ucrania",
-  "info":"desde el 10\/10\/2021"
+  "info":""
  },
  "URY":{
   "name":"Uruguay",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "USA":{
   "name":"Estados Unidos",
@@ -782,7 +782,7 @@ var info_rki = {
  },
  "ZMB":{
   "name":"Zambia",
-  "info":""
+  "info":"desde el 09\/01\/2022"
  },
  "ZWE":{
   "name":"Zimbabue",

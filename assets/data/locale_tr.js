@@ -6,7 +6,7 @@ var info_rki = {
  },
  "AGO":{
   "name":"Angola",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ALB":{
   "name":"Arnavutluk",
@@ -18,11 +18,11 @@ var info_rki = {
  },
  "ARE":{
   "name":"Birleşik Arap Emirlikleri",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ARG":{
   "name":"Arjantin",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ARM":{
   "name":"Ermenistan",
@@ -34,7 +34,7 @@ var info_rki = {
  },
  "AUS":{
   "name":"Avustralya",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "AUT":{
   "name":"Avusturya",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahreyn",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "BHS":{
   "name":"Bahamalar",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "BIH":{
   "name":"Bosna-Hersek",
@@ -86,11 +86,11 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "BOL":{
   "name":"Bolivya",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "BRA":{
   "name":"Brezilya",
@@ -134,7 +134,7 @@ var info_rki = {
  },
  "CIV":{
   "name":"Fildişi Sahili",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "CMR":{
   "name":"Kamerun",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Kongo",
-  "info":"24.10.2021'den beri"
+  "info":"09.01.2022'den beri"
  },
  "COL":{
   "name":"Kolombiya",
@@ -154,11 +154,11 @@ var info_rki = {
  },
  "COM":{
   "name":"Komorlar",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "CPV":{
   "name":"Verde Burnu",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "CRI":{
   "name":"Kosta Rika",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonya",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ETH":{
   "name":"Etiyopya",
@@ -230,11 +230,11 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiji",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "FRA":{
   "name":"Fransa",
-  "info":"19.12.2021'den beri"
+  "info":"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 09.01.2022'den beri<\/li><li>Guadalup, 09.01.2022'den beri<\/li><li>Martinik, 09.01.2022'den beri<\/li><li>Mayotte, 09.01.2022'den beri<\/li><li>Réunion, 19.12.2021'den beri<\/li><li>St. Barthélemy, 09.01.2022'den beri<\/li><li>St. Martin, 09.01.2022'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "GBR":{
   "name":"Birleşik Krallık",
@@ -254,11 +254,11 @@ var info_rki = {
  },
  "GHA":{
   "name":"Gana",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "GIN":{
   "name":"Gine",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "GMB":{
   "name":"Gambiya",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Granada",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "GTM":{
   "name":"Guatemala",
@@ -330,11 +330,11 @@ var info_rki = {
  },
  "ISL":{
   "name":"İzlanda",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ISR":{
   "name":"İsrail",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ITA":{
   "name":"İtalya",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaika",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "JOR":{
   "name":"Ürdün",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenya",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "KGZ":{
   "name":"Kırgızistan",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuveyt",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "LAO":{
   "name":"Laos",
@@ -422,7 +422,7 @@ var info_rki = {
  },
  "LUX":{
   "name":"Lüksemburg",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "LVA":{
   "name":"Latviya",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "MLT":{
   "name":"Malta",
@@ -486,7 +486,7 @@ var info_rki = {
  },
  "MRT":{
   "name":"Moritanya",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "MUS":{
   "name":"Mauritius",
@@ -510,7 +510,7 @@ var info_rki = {
  },
  "NGA":{
   "name":"Nijerya",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "NIC":{
   "name":"Nikaragua",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"21.11.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Bonaire, 27.07.2021'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>Sint Eustatius, 27.07.2021'den beri<\/li><\/ul>"
+  "info":"21.11.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 09.01.2022'den beri<\/li><li>Bonaire, 27.07.2021'den beri<\/li><li>Curaçao, 09.01.2022'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>St. Eustatius, 27.07.2021'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -550,7 +550,7 @@ var info_rki = {
  },
  "PAN":{
   "name":"Panama",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "PER":{
   "name":"Peru",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ROU":{
   "name":"Romanya",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RWA":{
   "name":"Ruanda",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "SAU":{
   "name":"Suudi Arabistan",
@@ -622,7 +622,7 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "SLV":{
   "name":"El Salvador",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"Güney Sudan",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "STP":{
   "name":"Sao Tome ve Principe",
@@ -662,7 +662,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"İsveç",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "SWZ":{
   "name":"Esvatini",
@@ -682,7 +682,7 @@ var info_rki = {
  },
  "TGO":{
   "name":"Togo",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "THA":{
   "name":"Tayland",
@@ -726,15 +726,15 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "UKR":{
   "name":"Ukrayna",
-  "info":"10.10.2021'den beri"
+  "info":""
  },
  "URY":{
   "name":"Uruguay",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "USA":{
   "name":"Birleşik Devletler",
@@ -782,7 +782,7 @@ var info_rki = {
  },
  "ZMB":{
   "name":"Zambiya",
-  "info":""
+  "info":"09.01.2022'den beri"
  },
  "ZWE":{
   "name":"Zimbabve",

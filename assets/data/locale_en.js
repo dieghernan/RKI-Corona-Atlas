@@ -6,7 +6,7 @@ var info_rki = {
  },
  "AGO":{
   "name":"Angola",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ALB":{
   "name":"Albania",
@@ -18,11 +18,11 @@ var info_rki = {
  },
  "ARE":{
   "name":"United Arab Emirates",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ARG":{
   "name":"Argentina",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ARM":{
   "name":"Armenia",
@@ -34,7 +34,7 @@ var info_rki = {
  },
  "AUS":{
   "name":"Australia",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "AUT":{
   "name":"Austria",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrain",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "BHS":{
   "name":"Bahamas",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "BIH":{
   "name":"Bosnia and Herzegovina",
@@ -86,11 +86,11 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "BOL":{
   "name":"Bolivia",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "BRA":{
   "name":"Brazil",
@@ -134,7 +134,7 @@ var info_rki = {
  },
  "CIV":{
   "name":"Cote D'Ivoire",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "CMR":{
   "name":"Cameroon",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Congo",
-  "info":"since 24 Oct 2021"
+  "info":"since 09 Jan 2022"
  },
  "COL":{
   "name":"Colombia",
@@ -154,11 +154,11 @@ var info_rki = {
  },
  "COM":{
   "name":"Comoros",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "CPV":{
   "name":"Cape Verde",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "CRI":{
   "name":"Costa Rica",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonia",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ETH":{
   "name":"Ethiopia",
@@ -230,11 +230,11 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fiji",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "FRA":{
   "name":"France",
-  "info":"since 19 Dec 2021"
+  "info":"since 19 Dec 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 09 Jan 2022<\/li><li>Guadeloupe, since 09 Jan 2022<\/li><li>Martinique, since 09 Jan 2022<\/li><li>Mayotte, since 09 Jan 2022<\/li><li>Réunion, since 19 Dec 2021<\/li><li>St. Barthélemy, since 09 Jan 2022<\/li><li>St. Martin, since 09 Jan 2022<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "GBR":{
   "name":"United Kingdom",
@@ -254,11 +254,11 @@ var info_rki = {
  },
  "GHA":{
   "name":"Ghana",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "GIN":{
   "name":"Guinea",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "GMB":{
   "name":"Gambia",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Grenada",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "GTM":{
   "name":"Guatemala",
@@ -330,11 +330,11 @@ var info_rki = {
  },
  "ISL":{
   "name":"Iceland",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ISR":{
   "name":"Israel",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ITA":{
   "name":"Italy",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaica",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "JOR":{
   "name":"Jordan",
@@ -358,7 +358,7 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenya",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "KGZ":{
   "name":"Kyrgyzstan",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwait",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "LAO":{
   "name":"Laos",
@@ -422,7 +422,7 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxembourg",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "LVA":{
   "name":"Latvia",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "MLT":{
   "name":"Malta",
@@ -486,7 +486,7 @@ var info_rki = {
  },
  "MRT":{
   "name":"Mauritania",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "MUS":{
   "name":"Mauritius",
@@ -510,7 +510,7 @@ var info_rki = {
  },
  "NGA":{
   "name":"Nigeria",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "NIC":{
   "name":"Nicaragua",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 21 Nov 2021. The risk designation applies to the following regions:<ul><li>Bonaire, since 27 Jul 2021<\/li><li>Saba, since 27 Jul 2021<\/li><li>Sint Eustatius, since 27 Jul 2021<\/li><\/ul>"
+  "info":"since 21 Nov 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 09 Jan 2022<\/li><li>Bonaire, since 27 Jul 2021<\/li><li>Curaçao, since 09 Jan 2022<\/li><li>Saba, since 27 Jul 2021<\/li><li>St. Eustatius, since 27 Jul 2021<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
@@ -550,7 +550,7 @@ var info_rki = {
  },
  "PAN":{
   "name":"Panama",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "PER":{
   "name":"Peru",
@@ -586,7 +586,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Qatar",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ROU":{
   "name":"Romania",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RWA":{
   "name":"Rwanda",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "SAU":{
   "name":"Saudi Arabia",
@@ -622,7 +622,7 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "SLV":{
   "name":"El Salvador",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"South Sudan",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "STP":{
   "name":"Sao Tome and Principe",
@@ -662,7 +662,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Sweden",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "SWZ":{
   "name":"Eswatini",
@@ -682,7 +682,7 @@ var info_rki = {
  },
  "TGO":{
   "name":"Togo",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "THA":{
   "name":"Thailand",
@@ -726,15 +726,15 @@ var info_rki = {
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "UKR":{
   "name":"Ukraine",
-  "info":"since 10 Oct 2021"
+  "info":""
  },
  "URY":{
   "name":"Uruguay",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "USA":{
   "name":"United States",
@@ -782,7 +782,7 @@ var info_rki = {
  },
  "ZMB":{
   "name":"Zambia",
-  "info":""
+  "info":"since 09 Jan 2022"
  },
  "ZWE":{
   "name":"Zimbabwe",
