@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albania",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "AND":{
   "name":"Andora",
@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua i Barbuda",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "AUS":{
   "name":"Australia",
@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":""
+  "info":"od 16.01.2022. Z wyjątkiem następujących regionów:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbejdżan",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "BGD":{
   "name":"Bangladesz",
@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bułgaria",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "BHR":{
   "name":"Bahrajn",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bośnia i Hercegowina",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "BLR":{
   "name":"Białoruś",
@@ -114,7 +114,7 @@ var info_rki = {
  },
  "CAF":{
   "name":"Republika Środkowoafrykańska",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "CAN":{
   "name":"Kanada",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Kolumbia",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "COM":{
   "name":"Komory",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Kostaryka",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "CUB":{
   "name":"Kuba",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Dżibuti",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "DMA":{
   "name":"Dominika",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominikana",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "DZA":{
   "name":"Algieria",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Erytrea",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "ESP":{
   "name":"Hiszpania",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 19.12.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 09.01.2022<\/li><li>Gwadelupa, od 09.01.2022<\/li><li>Martynika, od 09.01.2022<\/li><li>Mayotte, od 09.01.2022<\/li><li>Reunion, od 19.12.2021<\/li><li>St. Barthélemy, od 09.01.2022<\/li><li>St. Martin, od 09.01.2022<\/li><\/ul>"
+  "info":"od 19.12.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 09.01.2022<\/li><li>Gwadelupa, od 09.01.2022<\/li><li>Martynika, od 09.01.2022<\/li><li>Mayotte, od 09.01.2022<\/li><li>Reunion, od 19.12.2021<\/li><li>St. Barthélemy, od 09.01.2022<\/li><li>St. Martin, od 09.01.2022<\/li><li>Saint Pierre i Miquelon, od 16.01.2022<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -262,15 +262,15 @@ var info_rki = {
  },
  "GMB":{
   "name":"Gambia",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "GNB":{
   "name":"Gwinea Bissau",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "GNQ":{
   "name":"Gwinea Równikowa",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "GRC":{
   "name":"Grecja",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Gujana",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "HKG":{
   "name":"Hongkong",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts i Nevis",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "KOR":{
   "name":"Korea Południowa",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "LBY":{
   "name":"Libia",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Łotwa",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "MAR":{
   "name":"Maroko",
@@ -442,7 +442,7 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagaskar",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "MDV":{
   "name":"Malediwy",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Macedonia Północna",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "MLI":{
   "name":"Mali",
@@ -506,7 +506,7 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "NGA":{
   "name":"Nigeria",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 21.11.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Aruba, od 09.01.2022<\/li><li>Bonaire, od 27.07.2021<\/li><li>Curaçao, od 09.01.2022<\/li><li>Saba, od 27.07.2021<\/li><li>St. Eustatius, od 27.07.2021<\/li><\/ul>"
+  "info":"od 21.11.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Aruba, od 09.01.2022<\/li><li>Bonaire, od 27.07.2021<\/li><li>Curaçao, od 09.01.2022<\/li><li>Saba, od 27.07.2021<\/li><li>St. Eustatius, od 27.07.2021<\/li><li>St. Martin, od 16.01.2022<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
@@ -554,11 +554,11 @@ var info_rki = {
  },
  "PER":{
   "name":"Peru",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "PHL":{
   "name":"Filipiny",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "PLW":{
   "name":"Palau",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "SGP":{
   "name":"Singapur",
@@ -634,11 +634,11 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "SRB":{
   "name":"Serbia",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "SSD":{
   "name":"Sudan Południowy",
@@ -646,11 +646,11 @@ var info_rki = {
  },
  "STP":{
   "name":"Wyspy Świętego Tomasza i Książęca",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "SUR":{
   "name":"Surinam",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "SVK":{
   "name":"Słowacja",
@@ -678,7 +678,7 @@ var info_rki = {
  },
  "TCD":{
   "name":"Czad",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "TGO":{
   "name":"Togo",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent i Grenadyny",
-  "info":""
+  "info":"od 16.01.2022"
  },
  "VEN":{
   "name":"Wenezuela",

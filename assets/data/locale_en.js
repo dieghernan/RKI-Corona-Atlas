@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albania",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "AND":{
   "name":"Andorra",
@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua and Barbuda",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "AUS":{
   "name":"Australia",
@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":""
+  "info":"since 16 Jan 2022. The following regions are excluded:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaijan",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "BGD":{
   "name":"Bangladesh",
@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bulgaria",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "BHR":{
   "name":"Bahrain",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnia and Herzegovina",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "BLR":{
   "name":"Belarus",
@@ -114,7 +114,7 @@ var info_rki = {
  },
  "CAF":{
   "name":"Central African Republic",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "CAN":{
   "name":"Canada",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Colombia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "COM":{
   "name":"Comoros",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Costa Rica",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "CUB":{
   "name":"Cuba",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Djibouti",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "DMA":{
   "name":"Dominica",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominican Republic",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "DZA":{
   "name":"Algeria",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Eritrea",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "ESP":{
   "name":"Spain",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 19 Dec 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 09 Jan 2022<\/li><li>Guadeloupe, since 09 Jan 2022<\/li><li>Martinique, since 09 Jan 2022<\/li><li>Mayotte, since 09 Jan 2022<\/li><li>Réunion, since 19 Dec 2021<\/li><li>St. Barthélemy, since 09 Jan 2022<\/li><li>St. Martin, since 09 Jan 2022<\/li><\/ul>"
+  "info":"since 19 Dec 2021. The risk designation applies to the following regions:<ul><li>French Guiana, since 09 Jan 2022<\/li><li>Guadeloupe, since 09 Jan 2022<\/li><li>Martinique, since 09 Jan 2022<\/li><li>Mayotte, since 09 Jan 2022<\/li><li>Réunion, since 19 Dec 2021<\/li><li>St. Barthélemy, since 09 Jan 2022<\/li><li>St. Martin, since 09 Jan 2022<\/li><li>Saint Pierre and Miquelon, since 16 Jan 2022<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -262,15 +262,15 @@ var info_rki = {
  },
  "GMB":{
   "name":"Gambia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "GNB":{
   "name":"Guinea-Bissau",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "GNQ":{
   "name":"Equatorial Guinea",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "GRC":{
   "name":"Greece",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "HKG":{
   "name":"Hong Kong",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts and Nevis",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "KOR":{
   "name":"South Korea",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "LBY":{
   "name":"Libya",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Latvia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "MAR":{
   "name":"Morocco",
@@ -442,7 +442,7 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagascar",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "MDV":{
   "name":"Maldives",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"North Macedonia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "MLI":{
   "name":"Mali",
@@ -506,7 +506,7 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "NGA":{
   "name":"Nigeria",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 21 Nov 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 09 Jan 2022<\/li><li>Bonaire, since 27 Jul 2021<\/li><li>Curaçao, since 09 Jan 2022<\/li><li>Saba, since 27 Jul 2021<\/li><li>St. Eustatius, since 27 Jul 2021<\/li><\/ul>"
+  "info":"since 21 Nov 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 09 Jan 2022<\/li><li>Bonaire, since 27 Jul 2021<\/li><li>Curaçao, since 09 Jan 2022<\/li><li>Saba, since 27 Jul 2021<\/li><li>St. Eustatius, since 27 Jul 2021<\/li><li>St. Martin, since 16 Jan 2022<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norway",
@@ -554,11 +554,11 @@ var info_rki = {
  },
  "PER":{
   "name":"Peru",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "PHL":{
   "name":"Philippines",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "PLW":{
   "name":"Palau",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "SGP":{
   "name":"Singapore",
@@ -634,11 +634,11 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "SRB":{
   "name":"Serbia",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "SSD":{
   "name":"South Sudan",
@@ -646,11 +646,11 @@ var info_rki = {
  },
  "STP":{
   "name":"Sao Tome and Principe",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "SUR":{
   "name":"Suriname",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "SVK":{
   "name":"Slovakia",
@@ -678,7 +678,7 @@ var info_rki = {
  },
  "TCD":{
   "name":"Chad",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "TGO":{
   "name":"Togo",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent and The Grenadines",
-  "info":""
+  "info":"since 16 Jan 2022"
  },
  "VEN":{
   "name":"Venezuela",

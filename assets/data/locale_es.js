@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albania",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "AND":{
   "name":"Andorra",
@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua y Barbuda",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "AUS":{
   "name":"Australia",
@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":""
+  "info":"desde el 16\/01\/2022. A excepción de las siguientes regiones:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbayán",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benín",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "BFA":{
   "name":"Burquina Faso",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "BGD":{
   "name":"Bangladesh",
@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bulgaria",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "BHR":{
   "name":"Bahrein",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnia y Herzegovina",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "BLR":{
   "name":"Bielorrusia",
@@ -114,7 +114,7 @@ var info_rki = {
  },
  "CAF":{
   "name":"República Centro-africana",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "CAN":{
   "name":"Canadá",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Colombia",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "COM":{
   "name":"Comores, Islas",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Costa Rica",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "CUB":{
   "name":"Cuba",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Yibuti",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "DMA":{
   "name":"Dominica",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"República Dominicana",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "DZA":{
   "name":"Algeria",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Eritrea",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "ESP":{
   "name":"España",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francia",
-  "info":"desde el 19\/12\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 09\/01\/2022<\/li><li>Guadalupe, desde el 09\/01\/2022<\/li><li>Martinica, desde el 09\/01\/2022<\/li><li>Mayotte, desde el 09\/01\/2022<\/li><li>Reunión, desde el 19\/12\/2021<\/li><li>St. Barthélemy, desde el 09\/01\/2022<\/li><li>St. Martin, desde el 09\/01\/2022<\/li><\/ul>"
+  "info":"desde el 19\/12\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Guayana Francesa, desde el 09\/01\/2022<\/li><li>Guadalupe, desde el 09\/01\/2022<\/li><li>Martinica, desde el 09\/01\/2022<\/li><li>Mayotte, desde el 09\/01\/2022<\/li><li>Reunión, desde el 19\/12\/2021<\/li><li>St. Barthélemy, desde el 09\/01\/2022<\/li><li>St. Martin, desde el 09\/01\/2022<\/li><li>San Pedro y Miquelon, desde el 16\/01\/2022<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -262,15 +262,15 @@ var info_rki = {
  },
  "GMB":{
   "name":"Gambia",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "GNB":{
   "name":"Guinea-Bissau",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "GNQ":{
   "name":"Guinea Ecuatorial",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "GRC":{
   "name":"Grecia",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "HKG":{
   "name":"Hong Kong",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"San Cristobo y Nevis",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "KOR":{
   "name":"Corea del Sur",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "LBY":{
   "name":"Libia",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Santa Lucía",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Letonia",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "MAR":{
   "name":"Marruecos",
@@ -442,7 +442,7 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagascar",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "MDV":{
   "name":"Islas Maldivas",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Macedonia del Norte",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "MLI":{
   "name":"Mali",
@@ -506,7 +506,7 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "NGA":{
   "name":"Nigeria",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Países Bajos",
-  "info":"desde el 21\/11\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Aruba, desde el 09\/01\/2022<\/li><li>Bonaire, desde el 27\/07\/2021<\/li><li>Curasao, desde el 09\/01\/2022<\/li><li>Saba, desde el 27\/07\/2021<\/li><li>St. Eustatius, desde el 27\/07\/2021<\/li><\/ul>"
+  "info":"desde el 21\/11\/2021. El nivel de riesgo afecta a las siguientes regiones:<ul><li>Aruba, desde el 09\/01\/2022<\/li><li>Bonaire, desde el 27\/07\/2021<\/li><li>Curaçao, desde el 09\/01\/2022<\/li><li>Saba, desde el 27\/07\/2021<\/li><li>St. Eustatius, desde el 27\/07\/2021<\/li><li>St. Martin, desde el 16\/01\/2022<\/li><\/ul>"
  },
  "NOR":{
   "name":"Noruega",
@@ -554,11 +554,11 @@ var info_rki = {
  },
  "PER":{
   "name":"Perú",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "PHL":{
   "name":"Filipinas",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "PLW":{
   "name":"Palau",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "SGP":{
   "name":"Singapur",
@@ -634,11 +634,11 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "SRB":{
   "name":"Serbia",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "SSD":{
   "name":"Sudán del Sur",
@@ -646,11 +646,11 @@ var info_rki = {
  },
  "STP":{
   "name":"Santo Tomé y Príncipe",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "SUR":{
   "name":"Surinám",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "SVK":{
   "name":"Eslovaquia",
@@ -678,7 +678,7 @@ var info_rki = {
  },
  "TCD":{
   "name":"Chad",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "TGO":{
   "name":"Togo",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"San Vicente y las Granadinas",
-  "info":""
+  "info":"desde el 16\/01\/2022"
  },
  "VEN":{
   "name":"Venezuela",

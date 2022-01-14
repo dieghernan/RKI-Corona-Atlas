@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Arnavutluk",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "AND":{
   "name":"Andorra",
@@ -30,7 +30,7 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua-Barbuda",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "AUS":{
   "name":"Avustralya",
@@ -38,7 +38,7 @@ var info_rki = {
  },
  "AUT":{
   "name":"Avusturya",
-  "info":""
+  "info":"16.01.2022'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
  },
  "AZE":{
   "name":"Azerbaycan",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "BGD":{
   "name":"Bangladeş",
@@ -66,7 +66,7 @@ var info_rki = {
  },
  "BGR":{
   "name":"Bulgaristan",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "BHR":{
   "name":"Bahreyn",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosna-Hersek",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "BLR":{
   "name":"Beyaz Rusya",
@@ -114,7 +114,7 @@ var info_rki = {
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "CAN":{
   "name":"Kanada",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Kolombiya",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "COM":{
   "name":"Komorlar",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Kosta Rika",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "CUB":{
   "name":"Küba",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Cibuti",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "DMA":{
   "name":"Dominik",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "DZA":{
   "name":"Cezayir",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Eritre",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "ESP":{
   "name":"İspanya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 09.01.2022'den beri<\/li><li>Guadalup, 09.01.2022'den beri<\/li><li>Martinik, 09.01.2022'den beri<\/li><li>Mayotte, 09.01.2022'den beri<\/li><li>Réunion, 19.12.2021'den beri<\/li><li>St. Barthélemy, 09.01.2022'den beri<\/li><li>St. Martin, 09.01.2022'den beri<\/li><\/ul>"
+  "info":"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 09.01.2022'den beri<\/li><li>Guadalup, 09.01.2022'den beri<\/li><li>Martinik, 09.01.2022'den beri<\/li><li>Mayotte, 09.01.2022'den beri<\/li><li>Réunion, 19.12.2021'den beri<\/li><li>St. Barthélemy, 09.01.2022'den beri<\/li><li>St. Martin, 09.01.2022'den beri<\/li><li>Sen Piyer ve Miquelon, 16.01.2022'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -262,15 +262,15 @@ var info_rki = {
  },
  "GMB":{
   "name":"Gambiya",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "GNB":{
   "name":"Gine-Bissau",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "GNQ":{
   "name":"Ekvatoral Gine",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "GRC":{
   "name":"Yunanistan",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "HKG":{
   "name":"Hong Kong",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Sen Kitts ve Nevis",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "KOR":{
   "name":"Güney Kore",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberya",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "LBY":{
   "name":"Libya",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Sen Lucia",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "LIE":{
   "name":"Lihtenştayn",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Latviya",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "MAR":{
   "name":"Fas",
@@ -442,7 +442,7 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagaskar",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "MDV":{
   "name":"Maldivler",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Kuzey Makedonya",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "MLI":{
   "name":"Mali",
@@ -506,7 +506,7 @@ var info_rki = {
  },
  "NER":{
   "name":"Nijer",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "NGA":{
   "name":"Nijerya",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"21.11.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 09.01.2022'den beri<\/li><li>Bonaire, 27.07.2021'den beri<\/li><li>Curaçao, 09.01.2022'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>St. Eustatius, 27.07.2021'den beri<\/li><\/ul>"
+  "info":"21.11.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 09.01.2022'den beri<\/li><li>Bonaire, 27.07.2021'den beri<\/li><li>Curaçao, 09.01.2022'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>St. Eustatius, 27.07.2021'den beri<\/li><li>St. Martin, 16.01.2022'den beri<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -554,11 +554,11 @@ var info_rki = {
  },
  "PER":{
   "name":"Peru",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "PHL":{
   "name":"Filipinler",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "PLW":{
   "name":"Palau",
@@ -610,7 +610,7 @@ var info_rki = {
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "SGP":{
   "name":"Singapur",
@@ -634,11 +634,11 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somali",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "SRB":{
   "name":"Sırbistan",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "SSD":{
   "name":"Güney Sudan",
@@ -646,11 +646,11 @@ var info_rki = {
  },
  "STP":{
   "name":"Sao Tome ve Principe",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "SUR":{
   "name":"Surinam",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "SVK":{
   "name":"Slovakya",
@@ -678,7 +678,7 @@ var info_rki = {
  },
  "TCD":{
   "name":"Çad",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "TGO":{
   "name":"Togo",
@@ -750,7 +750,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent ve Grenadinler",
-  "info":""
+  "info":"16.01.2022'den beri"
  },
  "VEN":{
   "name":"Venezuella",
