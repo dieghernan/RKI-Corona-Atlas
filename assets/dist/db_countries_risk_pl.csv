@@ -22,15 +22,15 @@ Bośnia i Hercegowina,Obszar wysokiego ryzyka,od 16.01.2022
 Białoruś,Obszar wysokiego ryzyka,od 03.10.2021
 Belize,Obszar wysokiego ryzyka,od 09.01.2022
 Boliwia,Obszar wysokiego ryzyka,od 09.01.2022
-Brazylia,Nie jest to obszar ryzyka,
+Brazylia,Obszar wysokiego ryzyka,od 23.01.2022
 Barbados,Obszar wysokiego ryzyka,od 19.09.2021
 Brunei,Nie jest to obszar ryzyka,
-Bhutan,Nie jest to obszar ryzyka,
+Bhutan,Obszar wysokiego ryzyka,od 23.01.2022
 Botswana,Obszar wysokiego ryzyka,od 04.01.2022
 Republika Środkowoafrykańska,Obszar wysokiego ryzyka,od 16.01.2022
 Kanada,Obszar wysokiego ryzyka,od 01.01.2022
 Szwajcaria,Obszar wysokiego ryzyka,od 05.12.2021
-Chile,Nie jest to obszar ryzyka,
+Chile,Obszar wysokiego ryzyka,od 23.01.2022
 Chiny,Nie jest to obszar ryzyka,
 Wybrzeże Kości Słoniowej,Obszar wysokiego ryzyka,od 09.01.2022
 Kamerun,Obszar wysokiego ryzyka,od 24.10.2021
@@ -48,8 +48,8 @@ Dżibuti,Obszar wysokiego ryzyka,od 16.01.2022
 Dominika,Obszar wysokiego ryzyka,od 22.08.2021
 Dania,Obszar wysokiego ryzyka,od 19.12.2021
 Dominikana,Obszar wysokiego ryzyka,od 16.01.2022
-Algieria,Nie jest to obszar ryzyka,
-Ekwador,Nie jest to obszar ryzyka,
+Algieria,Obszar wysokiego ryzyka,od 23.01.2022
+Ekwador,Obszar wysokiego ryzyka,od 23.01.2022
 Egipt,Obszar wysokiego ryzyka,od 24.01.2021
 Erytrea,Obszar wysokiego ryzyka,od 16.01.2022
 Hiszpania,Obszar wysokiego ryzyka,od 25.12.2021
@@ -77,7 +77,7 @@ Chorwacja,Obszar wysokiego ryzyka,od 24.10.2021
 Haiti,Obszar wysokiego ryzyka,od 08.08.2021
 Węgry,Obszar wysokiego ryzyka,od 14.11.2021
 Indonezja,Nie jest to obszar ryzyka,
-Indie,Nie jest to obszar ryzyka,
+Indie,Obszar wysokiego ryzyka,od 23.01.2022
 Irlandia,Obszar wysokiego ryzyka,od 21.11.2021
 Iran,Nie jest to obszar ryzyka,
 Irak,Nie jest to obszar ryzyka,
@@ -86,8 +86,8 @@ Izrael,Obszar wysokiego ryzyka,od 09.01.2022
 Włochy,Obszar wysokiego ryzyka,od 01.01.2022
 Jamajka,Obszar wysokiego ryzyka,od 09.01.2022
 Jordania,Obszar wysokiego ryzyka,od 05.12.2021
-Japonia,Nie jest to obszar ryzyka,
-Kazachstan,Nie jest to obszar ryzyka,
+Japonia,Obszar wysokiego ryzyka,od 23.01.2022
+Kazachstan,Obszar wysokiego ryzyka,od 23.01.2022
 Kenia,Obszar wysokiego ryzyka,od 09.01.2022
 Kirgistan,Nie jest to obszar ryzyka,
 Kambodża,Nie jest to obszar ryzyka,
@@ -106,11 +106,11 @@ Lesoto,Obszar wysokiego ryzyka,od 04.01.2022
 Litwa,Obszar wysokiego ryzyka,od 03.10.2021
 Luksemburg,Obszar wysokiego ryzyka,od 09.01.2022
 Łotwa,Obszar wysokiego ryzyka,od 16.01.2022
-Maroko,Nie jest to obszar ryzyka,
+Maroko,Obszar wysokiego ryzyka,od 23.01.2022
 Monako,Obszar wysokiego ryzyka,od 25.12.2021
-Mołdawia,Nie jest to obszar ryzyka,
+Mołdawia,Obszar wysokiego ryzyka,od 23.01.2022
 Madagaskar,Obszar wysokiego ryzyka,od 16.01.2022
-Malediwy,Nie jest to obszar ryzyka,
+Malediwy,Obszar wysokiego ryzyka,od 23.01.2022
 Meksyk,Obszar wysokiego ryzyka,od 08.08.2021
 Wyspy Marshalla,Nie jest to obszar ryzyka,
 Macedonia Północna,Obszar wysokiego ryzyka,od 16.01.2022
@@ -118,7 +118,7 @@ Mali,Obszar wysokiego ryzyka,od 09.01.2022
 Malta,Obszar wysokiego ryzyka,od 01.01.2022
 Myanmar/Burma,Nie jest to obszar ryzyka,
 Czarnogóra,Obszar wysokiego ryzyka,od 15.08.2021
-Mongolia,Nie jest to obszar ryzyka,
+Mongolia,Obszar wysokiego ryzyka,od 23.01.2022
 Mozambik,Obszar wysokiego ryzyka,od 04.01.2022
 Mauretania,Obszar wysokiego ryzyka,od 09.01.2022
 Mauritius,Nie jest to obszar ryzyka,
@@ -131,7 +131,7 @@ Nikaragua,Nie jest to obszar ryzyka,
 Niue,Nie jest to obszar ryzyka,
 Holandia,Obszar wysokiego ryzyka,"od 21.11.2021. Poziom ryzyka dotyczy następujących regionów: -Aruba, od 09.01.2022; -Bonaire, od 27.07.2021; -Curaçao, od 09.01.2022; -Saba, od 27.07.2021; -St. Eustatius, od 27.07.2021; -St. Martin, od 16.01.2022"
 Norwegia,Obszar wysokiego ryzyka,od 19.12.2021
-Nepal,Nie jest to obszar ryzyka,
+Nepal,Obszar wysokiego ryzyka,od 23.01.2022
 Nauru,Nie jest to obszar ryzyka,
 Nowa Zelandia,Nie jest to obszar ryzyka,
 Oman,Nie jest to obszar ryzyka,
@@ -144,12 +144,12 @@ Papua-Nowa Gwinea,Obszar wysokiego ryzyka,od 08.08.2021
 Polska,Obszar wysokiego ryzyka,od 05.12.2021
 Korea Północna,Obszar wysokiego ryzyka,od 08.08.2021
 Portugalia,Obszar wysokiego ryzyka,od 25.12.2021
-Paragwaj,Nie jest to obszar ryzyka,
+Paragwaj,Obszar wysokiego ryzyka,od 23.01.2022
 Katar,Obszar wysokiego ryzyka,od 09.01.2022
-Rumunia,Nie jest to obszar ryzyka,
+Rumunia,Obszar wysokiego ryzyka,od 23.01.2022
 Federacja Rosyjska,Obszar wysokiego ryzyka,od 07.07.2021
 Ruanda,Obszar wysokiego ryzyka,od 09.01.2022
-Arabia Saudyjska,Nie jest to obszar ryzyka,
+Arabia Saudyjska,Obszar wysokiego ryzyka,od 23.01.2022
 Sudan,Obszar wysokiego ryzyka,od 31.01.2021
 Senegal,Obszar wysokiego ryzyka,od 16.01.2022
 Singapur,Nie jest to obszar ryzyka,
@@ -176,7 +176,7 @@ Turkmenistan,Obszar wysokiego ryzyka,od 08.08.2021
 Timor Wschodni,Nie jest to obszar ryzyka,
 Tonga,Nie jest to obszar ryzyka,
 Trynidad i Tobago,Obszar wysokiego ryzyka,od 08.08.2021
-Tunezja,Nie jest to obszar ryzyka,
+Tunezja,Obszar wysokiego ryzyka,od 23.01.2022
 Turcja,Obszar wysokiego ryzyka,od 17.08.2021
 Tuvalu,Nie jest to obszar ryzyka,
 Zjednoczona Republika Tanzanii,Obszar wysokiego ryzyka,od 14.03.2021
@@ -184,14 +184,14 @@ Uganda,Obszar wysokiego ryzyka,od 09.01.2022
 Ukraina,Nie jest to obszar ryzyka,
 Urugwaj,Obszar wysokiego ryzyka,od 09.01.2022
 Stany Zjednoczone,Obszar wysokiego ryzyka,od 25.12.2021
-Uzbekistan,Nie jest to obszar ryzyka,
+Uzbekistan,Obszar wysokiego ryzyka,od 23.01.2022
 Watykan,Nie jest to obszar ryzyka,
 Saint Vincent i Grenadyny,Obszar wysokiego ryzyka,od 16.01.2022
 Wenezuela,Obszar wysokiego ryzyka,od 19.09.2021
 Vietnam,Obszar wysokiego ryzyka,od 15.08.2021
 Vanuatu,Nie jest to obszar ryzyka,
 Samoa,Nie jest to obszar ryzyka,
-Kosowo,Nie jest to obszar ryzyka,
+Kosowo,Obszar wysokiego ryzyka,od 23.01.2022
 Jemen,Obszar wysokiego ryzyka,od 10.10.2021
 Republika Południowej Afryki,Obszar wysokiego ryzyka,od 04.01.2022
 Zambia,Obszar wysokiego ryzyka,od 09.01.2022

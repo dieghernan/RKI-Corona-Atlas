@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brasil",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "BRB":{
   "name":"Barbados",
@@ -106,7 +106,7 @@ var info_rki = {
  },
  "BTN":{
   "name":"Bhután",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "BWA":{
   "name":"Botsuana",
@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Chile",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "CHN":{
   "name":"China",
@@ -198,11 +198,11 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algeria",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "ECU":{
   "name":"Ecuador",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "EGY":{
   "name":"Egipto",
@@ -314,7 +314,7 @@ var info_rki = {
  },
  "IND":{
   "name":"India",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "IRL":{
   "name":"Irlanda",
@@ -350,11 +350,11 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japón",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "KAZ":{
   "name":"Kazajistán",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "KEN":{
   "name":"Kenia",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Marruecos",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "MCO":{
   "name":"Mónaco",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldavia",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "MDG":{
   "name":"Madagascar",
@@ -446,7 +446,7 @@ var info_rki = {
  },
  "MDV":{
   "name":"Islas Maldivas",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "MEX":{
   "name":"México",
@@ -478,7 +478,7 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolia",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "MOZ":{
   "name":"Mozambique",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "NRU":{
   "name":"Nauru",
@@ -582,7 +582,7 @@ var info_rki = {
  },
  "PRY":{
   "name":"Paraguay",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "QAT":{
   "name":"Qatar",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "ROU":{
   "name":"Rumanía",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "RUS":{
   "name":"Federación Rusa",
@@ -602,7 +602,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Arabia Saudí",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "SDN":{
   "name":"Sudán",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunez",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "TUR":{
   "name":"Turquía",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistán",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "VAT":{
   "name":"Ciudad del Vaticano",
@@ -770,7 +770,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":""
+  "info":"desde el 23\/01\/2022"
  },
  "YEM":{
   "name":"Yemen",

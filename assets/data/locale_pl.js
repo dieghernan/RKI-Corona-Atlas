@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brazylia",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "BRB":{
   "name":"Barbados",
@@ -106,7 +106,7 @@ var info_rki = {
  },
  "BTN":{
   "name":"Bhutan",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "BWA":{
   "name":"Botswana",
@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Chile",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "CHN":{
   "name":"Chiny",
@@ -198,11 +198,11 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algieria",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "ECU":{
   "name":"Ekwador",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "EGY":{
   "name":"Egipt",
@@ -314,7 +314,7 @@ var info_rki = {
  },
  "IND":{
   "name":"Indie",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "IRL":{
   "name":"Irlandia",
@@ -350,11 +350,11 @@ var info_rki = {
  },
  "JPN":{
   "name":"Japonia",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "KAZ":{
   "name":"Kazachstan",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "KEN":{
   "name":"Kenia",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Maroko",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "MCO":{
   "name":"Monako",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Mołdawia",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "MDG":{
   "name":"Madagaskar",
@@ -446,7 +446,7 @@ var info_rki = {
  },
  "MDV":{
   "name":"Malediwy",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "MEX":{
   "name":"Meksyk",
@@ -478,7 +478,7 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolia",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "MOZ":{
   "name":"Mozambik",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "NRU":{
   "name":"Nauru",
@@ -582,7 +582,7 @@ var info_rki = {
  },
  "PRY":{
   "name":"Paragwaj",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "QAT":{
   "name":"Katar",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "ROU":{
   "name":"Rumunia",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "RUS":{
   "name":"Federacja Rosyjska",
@@ -602,7 +602,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Arabia Saudyjska",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "SDN":{
   "name":"Sudan",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunezja",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "TUR":{
   "name":"Turcja",
@@ -742,7 +742,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistan",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "VAT":{
   "name":"Watykan",
@@ -770,7 +770,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosowo",
-  "info":""
+  "info":"od 23.01.2022"
  },
  "YEM":{
   "name":"Jemen",
