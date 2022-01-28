@@ -2,11 +2,11 @@ var locale = {'more_info': 'Daha fazla bilgi', 'risk_level': 'Risk seviyesi', 'r
 var info_rki = {
  "AFG":{
   "name":"Afganistan",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "AGO":{
   "name":"Angola",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "ALB":{
   "name":"Arnavutluk",
@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":"26.09.2021'den beri"
+  "info":""
  },
  "BEL":{
   "name":"Belçika",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladeş",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "BGR":{
   "name":"Bulgaristan",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Küba",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "CYP":{
   "name":"Kıbrıs",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 09.01.2022'den beri<\/li><li>Guadalup, 09.01.2022'den beri<\/li><li>Martinik, 09.01.2022'den beri<\/li><li>Mayotte, 09.01.2022'den beri<\/li><li>Réunion, 19.12.2021'den beri<\/li><li>St. Barthélemy, 09.01.2022'den beri<\/li><li>St. Martin, 09.01.2022'den beri<\/li><li>Sen Piyer ve Miquelon, 16.01.2022'den beri<\/li><\/ul>"
+  "info":"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Fransız Guyanası, 09.01.2022'den beri<\/li><li>Guadalup, 09.01.2022'den beri<\/li><li>Martinik, 09.01.2022'den beri<\/li><li>Mayotte, 09.01.2022'den beri<\/li><li>Yeni Kaledonya, 30.01.2022'den beri<\/li><li>Réunion, 19.12.2021'den beri<\/li><li>St. Barthélemy, 09.01.2022'den beri<\/li><li>St. Martin, 09.01.2022'den beri<\/li><li>Sen Piyer ve Miquelon, 16.01.2022'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -282,7 +282,7 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "GUY":{
   "name":"Guyana",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "ISL":{
   "name":"İzlanda",
@@ -358,11 +358,11 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenya",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "KGZ":{
   "name":"Kırgızistan",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "KHM":{
   "name":"Kamboçya",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"04.01.2022'den beri"
+  "info":""
  },
  "LTU":{
   "name":"Litvanya",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malavi",
-  "info":"04.01.2022'den beri"
+  "info":""
  },
  "MYS":{
   "name":"Malezya",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibya",
-  "info":"04.01.2022'den beri"
+  "info":""
  },
  "NER":{
   "name":"Nijer",
@@ -542,11 +542,11 @@ var info_rki = {
  },
  "OMN":{
   "name":"Umman",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "PAK":{
   "name":"Pakistan",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "PAN":{
   "name":"Panama",
@@ -562,7 +562,7 @@ var info_rki = {
  },
  "PLW":{
   "name":"Palau",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "PNG":{
   "name":"Papua Yeni Gine",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RWA":{
   "name":"Ruanda",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "SAU":{
   "name":"Suudi Arabistan",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "SLB":{
   "name":"Solomon Adaları",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Esvatini",
-  "info":"04.01.2022'den beri"
+  "info":""
  },
  "SYC":{
   "name":"Seyşeller",
@@ -722,15 +722,15 @@ var info_rki = {
  },
  "TZA":{
   "name":"Tanzanya Birleşik Cumhuriyeti",
-  "info":"14.03.2021'den beri"
+  "info":""
  },
  "UGA":{
   "name":"Uganda",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "UKR":{
   "name":"Ukrayna",
-  "info":""
+  "info":"30.01.2022'den beri"
  },
  "URY":{
   "name":"Uruguay",
@@ -778,14 +778,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Güney Afrika",
-  "info":"04.01.2022'den beri"
+  "info":""
  },
  "ZMB":{
   "name":"Zambiya",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "ZWE":{
   "name":"Zimbabve",
-  "info":"04.01.2022'den beri"
+  "info":""
  }
 };

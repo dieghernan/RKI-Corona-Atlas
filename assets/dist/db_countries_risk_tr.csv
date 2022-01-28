@@ -1,6 +1,6 @@
 ﻿Ülke/Bölge,Risk seviyesi,Detaylar
-Afganistan,Risksiz Bölge,
-Angola,Yüksek riskli bölge,09.01.2022'den beri
+Afganistan,Yüksek riskli bölge,30.01.2022'den beri
+Angola,Risksiz Bölge,
 Arnavutluk,Yüksek riskli bölge,16.01.2022'den beri
 Andorra,Yüksek riskli bölge,19.12.2021'den beri
 Birleşik Arap Emirlikleri,Yüksek riskli bölge,09.01.2022'den beri
@@ -10,11 +10,11 @@ Antigua-Barbuda,Yüksek riskli bölge,16.01.2022'den beri
 Avustralya,Yüksek riskli bölge,09.01.2022'den beri
 Avusturya,Yüksek riskli bölge,16.01.2022'den beri. Aşağıdaki bölgeler dahil edilmemiştir: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
 Azerbaycan,Risksiz Bölge,
-Burundi,Yüksek riskli bölge,26.09.2021'den beri
+Burundi,Risksiz Bölge,
 Belçika,Yüksek riskli bölge,21.11.2021'den beri
 Benin,Yüksek riskli bölge,16.01.2022'den beri
 Burkina Faso,Yüksek riskli bölge,16.01.2022'den beri
-Bangladeş,Risksiz Bölge,
+Bangladeş,Yüksek riskli bölge,30.01.2022'den beri
 Bulgaristan,Yüksek riskli bölge,16.01.2022'den beri
 Bahreyn,Yüksek riskli bölge,09.01.2022'den beri
 Bahamalar,Yüksek riskli bölge,09.01.2022'den beri
@@ -40,7 +40,7 @@ Kolombiya,Yüksek riskli bölge,16.01.2022'den beri
 Komorlar,Yüksek riskli bölge,09.01.2022'den beri
 Verde Burnu,Yüksek riskli bölge,09.01.2022'den beri
 Kosta Rika,Yüksek riskli bölge,16.01.2022'den beri
-Küba,Risksiz Bölge,
+Küba,Yüksek riskli bölge,30.01.2022'den beri
 Kıbrıs,Yüksek riskli bölge,25.12.2021'den beri
 Çekya,Yüksek riskli bölge,14.11.2021'den beri
 Almanya,,
@@ -57,7 +57,7 @@ Estonya,Yüksek riskli bölge,09.01.2022'den beri
 Etiyopya,Yüksek riskli bölge,26.09.2021'den beri
 Finlandiya,Yüksek riskli bölge,25.12.2021'den beri
 Fiji,Yüksek riskli bölge,09.01.2022'den beri
-Fransa,Yüksek riskli bölge,"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Fransız Guyanası, 09.01.2022'den beri; -Guadalup, 09.01.2022'den beri; -Martinik, 09.01.2022'den beri; -Mayotte, 09.01.2022'den beri; -Réunion, 19.12.2021'den beri; -St. Barthélemy, 09.01.2022'den beri; -St. Martin, 09.01.2022'den beri; -Sen Piyer ve Miquelon, 16.01.2022'den beri"
+Fransa,Yüksek riskli bölge,"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar: -Fransız Guyanası, 09.01.2022'den beri; -Guadalup, 09.01.2022'den beri; -Martinik, 09.01.2022'den beri; -Mayotte, 09.01.2022'den beri; -Yeni Kaledonya, 30.01.2022'den beri; -Réunion, 19.12.2021'den beri; -St. Barthélemy, 09.01.2022'den beri; -St. Martin, 09.01.2022'den beri; -Sen Piyer ve Miquelon, 16.01.2022'den beri"
 Mikronezya,Risksiz Bölge,
 Gabon,Yüksek riskli bölge,09.01.2022'den beri
 Birleşik Krallık,Yüksek riskli bölge,04.01.2022'den beri
@@ -69,7 +69,7 @@ Gine-Bissau,Yüksek riskli bölge,16.01.2022'den beri
 Ekvatoral Gine,Yüksek riskli bölge,16.01.2022'den beri
 Yunanistan,Yüksek riskli bölge,21.11.2021'den beri
 Granada,Yüksek riskli bölge,09.01.2022'den beri
-Guatemala,Risksiz Bölge,
+Guatemala,Yüksek riskli bölge,30.01.2022'den beri
 Guyana,Yüksek riskli bölge,16.01.2022'den beri
 Hong Kong,Risksiz Bölge,
 Honduras,Risksiz Bölge,
@@ -80,7 +80,7 @@ Endonezya,Risksiz Bölge,
 Hindistan,Yüksek riskli bölge,23.01.2022'den beri
 İrlanda,Yüksek riskli bölge,21.11.2021'den beri
 Iran,Risksiz Bölge,
-Irak,Risksiz Bölge,
+Irak,Yüksek riskli bölge,30.01.2022'den beri
 İzlanda,Yüksek riskli bölge,09.01.2022'den beri
 İsrail,Yüksek riskli bölge,09.01.2022'den beri
 İtalya,Yüksek riskli bölge,01.01.2022'den beri
@@ -88,8 +88,8 @@ Jamaika,Yüksek riskli bölge,09.01.2022'den beri
 Ürdün,Yüksek riskli bölge,05.12.2021'den beri
 Japonya,Yüksek riskli bölge,23.01.2022'den beri
 Kazakistan,Yüksek riskli bölge,23.01.2022'den beri
-Kenya,Yüksek riskli bölge,09.01.2022'den beri
-Kırgızistan,Risksiz Bölge,
+Kenya,Risksiz Bölge,
+Kırgızistan,Yüksek riskli bölge,30.01.2022'den beri
 Kamboçya,Risksiz Bölge,
 Kiribati,Risksiz Bölge,
 Sen Kitts ve Nevis,Yüksek riskli bölge,16.01.2022'den beri
@@ -102,7 +102,7 @@ Libya,Yüksek riskli bölge,18.07.2021'den beri
 Sen Lucia,Yüksek riskli bölge,16.01.2022'den beri
 Lihtenştayn,Yüksek riskli bölge,05.12.2021'den beri
 Sri Lanka,Risksiz Bölge,
-Lesoto,Yüksek riskli bölge,04.01.2022'den beri
+Lesoto,Risksiz Bölge,
 Litvanya,Yüksek riskli bölge,03.10.2021'den beri
 Lüksemburg,Yüksek riskli bölge,09.01.2022'den beri
 Latviya,Yüksek riskli bölge,16.01.2022'den beri
@@ -122,9 +122,9 @@ Moğolistan,Yüksek riskli bölge,23.01.2022'den beri
 Mozambik,Yüksek riskli bölge,04.01.2022'den beri
 Moritanya,Yüksek riskli bölge,09.01.2022'den beri
 Mauritius,Risksiz Bölge,
-Malavi,Yüksek riskli bölge,04.01.2022'den beri
+Malavi,Risksiz Bölge,
 Malezya,Risksiz Bölge,
-Namibya,Yüksek riskli bölge,04.01.2022'den beri
+Namibya,Risksiz Bölge,
 Nijer,Yüksek riskli bölge,16.01.2022'den beri
 Nijerya,Yüksek riskli bölge,09.01.2022'den beri
 Nikaragua,Risksiz Bölge,
@@ -134,12 +134,12 @@ Norveç,Yüksek riskli bölge,19.12.2021'den beri
 Nepal,Yüksek riskli bölge,23.01.2022'den beri
 Nauru,Risksiz Bölge,
 Yeni Zelanda,Risksiz Bölge,
-Umman,Risksiz Bölge,
-Pakistan,Risksiz Bölge,
+Umman,Yüksek riskli bölge,30.01.2022'den beri
+Pakistan,Yüksek riskli bölge,30.01.2022'den beri
 Panama,Yüksek riskli bölge,09.01.2022'den beri
 Peru,Yüksek riskli bölge,16.01.2022'den beri
 Filipinler,Yüksek riskli bölge,16.01.2022'den beri
-Palau,Risksiz Bölge,
+Palau,Yüksek riskli bölge,30.01.2022'den beri
 Papua Yeni Gine,Yüksek riskli bölge,08.08.2021'den beri
 Polonya,Yüksek riskli bölge,05.12.2021'den beri
 Kuzey Kore,Yüksek riskli bölge,08.08.2021'den beri
@@ -148,11 +148,11 @@ Paraguay,Yüksek riskli bölge,23.01.2022'den beri
 Katar,Yüksek riskli bölge,09.01.2022'den beri
 Romanya,Yüksek riskli bölge,23.01.2022'den beri
 Rusya Federasyonu,Yüksek riskli bölge,07.07.2021'den beri
-Ruanda,Yüksek riskli bölge,09.01.2022'den beri
+Ruanda,Risksiz Bölge,
 Suudi Arabistan,Yüksek riskli bölge,23.01.2022'den beri
 Sudan,Yüksek riskli bölge,31.01.2021'den beri
 Senegal,Yüksek riskli bölge,16.01.2022'den beri
-Singapur,Risksiz Bölge,
+Singapur,Yüksek riskli bölge,30.01.2022'den beri
 Solomon Adaları,Risksiz Bölge,
 Sierra Leone,Yüksek riskli bölge,09.01.2022'den beri
 El Salvador,Risksiz Bölge,
@@ -165,7 +165,7 @@ Surinam,Yüksek riskli bölge,16.01.2022'den beri
 Slovakya,Yüksek riskli bölge,31.10.2021'den beri
 Slovenya,Yüksek riskli bölge,26.09.2021'den beri
 İsveç,Yüksek riskli bölge,09.01.2022'den beri
-Esvatini,Yüksek riskli bölge,04.01.2022'den beri
+Esvatini,Risksiz Bölge,
 Seyşeller,Yüksek riskli bölge,14.02.2021'den beri
 Suriye,Yüksek riskli bölge,31.01.2021'den beri
 Çad,Yüksek riskli bölge,16.01.2022'den beri
@@ -179,9 +179,9 @@ Trinidad ve Tobago,Yüksek riskli bölge,08.08.2021'den beri
 Tunus,Yüksek riskli bölge,23.01.2022'den beri
 Türkiye,Yüksek riskli bölge,17.08.2021'den beri
 Tuvalu,Risksiz Bölge,
-Tanzanya Birleşik Cumhuriyeti,Yüksek riskli bölge,14.03.2021'den beri
-Uganda,Yüksek riskli bölge,09.01.2022'den beri
-Ukrayna,Risksiz Bölge,
+Tanzanya Birleşik Cumhuriyeti,Risksiz Bölge,
+Uganda,Risksiz Bölge,
+Ukrayna,Yüksek riskli bölge,30.01.2022'den beri
 Uruguay,Yüksek riskli bölge,09.01.2022'den beri
 Birleşik Devletler,Yüksek riskli bölge,25.12.2021'den beri
 Özbekistan,Yüksek riskli bölge,23.01.2022'den beri
@@ -193,6 +193,6 @@ Vanuatu,Risksiz Bölge,
 Samoa,Risksiz Bölge,
 Kosova,Yüksek riskli bölge,23.01.2022'den beri
 Yemen,Yüksek riskli bölge,10.10.2021'den beri
-Güney Afrika,Yüksek riskli bölge,04.01.2022'den beri
-Zambiya,Yüksek riskli bölge,09.01.2022'den beri
-Zimbabve,Yüksek riskli bölge,04.01.2022'den beri
+Güney Afrika,Risksiz Bölge,
+Zambiya,Risksiz Bölge,
+Zimbabve,Risksiz Bölge,

@@ -2,11 +2,11 @@ var locale = {'more_info': 'Więcej informacji', 'risk_level': 'Poziom ryzyka', 
 var info_rki = {
  "AFG":{
   "name":"Afganistan",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "AGO":{
   "name":"Angola",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "ALB":{
   "name":"Albania",
@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":"od 26.09.2021"
+  "info":""
  },
  "BEL":{
   "name":"Belgia",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesz",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "BGR":{
   "name":"Bułgaria",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Kuba",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "CYP":{
   "name":"Cypr",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 19.12.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 09.01.2022<\/li><li>Gwadelupa, od 09.01.2022<\/li><li>Martynika, od 09.01.2022<\/li><li>Mayotte, od 09.01.2022<\/li><li>Reunion, od 19.12.2021<\/li><li>St. Barthélemy, od 09.01.2022<\/li><li>St. Martin, od 09.01.2022<\/li><li>Saint Pierre i Miquelon, od 16.01.2022<\/li><\/ul>"
+  "info":"od 19.12.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Gujana Francuska, od 09.01.2022<\/li><li>Gwadelupa, od 09.01.2022<\/li><li>Martynika, od 09.01.2022<\/li><li>Mayotte, od 09.01.2022<\/li><li>Nowa Kaledonia, od 30.01.2022<\/li><li>Reunion, od 19.12.2021<\/li><li>St. Barthélemy, od 09.01.2022<\/li><li>St. Martin, od 09.01.2022<\/li><li>Saint Pierre i Miquelon, od 16.01.2022<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -282,7 +282,7 @@ var info_rki = {
  },
  "GTM":{
   "name":"Gwatemala",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "GUY":{
   "name":"Gujana",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "ISL":{
   "name":"Islandia",
@@ -358,11 +358,11 @@ var info_rki = {
  },
  "KEN":{
   "name":"Kenia",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "KGZ":{
   "name":"Kirgistan",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "KHM":{
   "name":"Kambodża",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesoto",
-  "info":"od 04.01.2022"
+  "info":""
  },
  "LTU":{
   "name":"Litwa",
@@ -494,7 +494,7 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"od 04.01.2022"
+  "info":""
  },
  "MYS":{
   "name":"Malezja",
@@ -502,7 +502,7 @@ var info_rki = {
  },
  "NAM":{
   "name":"Namibia",
-  "info":"od 04.01.2022"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -542,11 +542,11 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "PAK":{
   "name":"Pakistan",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "PAN":{
   "name":"Panama",
@@ -562,7 +562,7 @@ var info_rki = {
  },
  "PLW":{
   "name":"Palau",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "PNG":{
   "name":"Papua-Nowa Gwinea",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RWA":{
   "name":"Ruanda",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "SAU":{
   "name":"Arabia Saudyjska",
@@ -614,7 +614,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "SLB":{
   "name":"Wyspy Salomona",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"od 04.01.2022"
+  "info":""
  },
  "SYC":{
   "name":"Seszele",
@@ -722,15 +722,15 @@ var info_rki = {
  },
  "TZA":{
   "name":"Zjednoczona Republika Tanzanii",
-  "info":"od 14.03.2021"
+  "info":""
  },
  "UGA":{
   "name":"Uganda",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "UKR":{
   "name":"Ukraina",
-  "info":""
+  "info":"od 30.01.2022"
  },
  "URY":{
   "name":"Urugwaj",
@@ -778,14 +778,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",
-  "info":"od 04.01.2022"
+  "info":""
  },
  "ZMB":{
   "name":"Zambia",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":"od 04.01.2022"
+  "info":""
  }
 };

@@ -1,6 +1,6 @@
 ﻿Land/Region,Risikoeinstufung,Details
-Afghanistan,Kein Risikogebiet,
-Angola,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
+Afghanistan,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
+Angola,Kein Risikogebiet,
 Albanien,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Andorra,Hochrisikogebiet,Hochrisikogebiet seit 19. Dezember 2021
 Vereinigte Arabische Emirate,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
@@ -10,11 +10,11 @@ Antigua und Barbuda,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Australien,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Österreich,Hochrisikogebiet,mit Ausnahme der Gemeinden Mittelberg und Jungholz und dem Rißtal im Gemeindegebiet von Vomp und Eben am Achensee (Hochrisikogebiet seit 16. Januar 2022)
 Aserbaidschan,Kein Risikogebiet,
-Burundi,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
+Burundi,Kein Risikogebiet,
 Belgien,Hochrisikogebiet,Hochrisikogebiet seit 21. November 2021
 Benin,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Burkina Faso,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
-Bangladesch,Kein Risikogebiet,
+Bangladesch,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Bulgarien,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Bahrain,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Bahamas,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
@@ -40,7 +40,7 @@ Kolumbien,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Komoren,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Cabo Verde,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Costa Rica,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
-Kuba,Kein Risikogebiet,
+Kuba,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Zypern,Hochrisikogebiet,Hochrisikogebiet seit 25. Dezember 2021
 Tschechische Republik,Hochrisikogebiet,Hochrisikogebiet seit 14. November 2021
 Deutschland,,
@@ -57,7 +57,7 @@ Estland,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Äthiopien,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
 Finnland,Hochrisikogebiet,Hochrisikogebiet seit 25. Dezember 2021
 Fidschi,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
-Frankreich,Hochrisikogebiet,(Hochrisikogebiet seit 19. Dezember 2021) und die folgenden Übersee-Departements und Überseegebiete gelten als Hochrisikogebiete: -Französisch-Guayana (Hochrisikogebiet seit 9. Januar 2022); -Guadeloupe (Hochrisikogebiet seit 9. Januar 2022); -Martinique (Hochrisikogebiet seit 9. Januar 2022); -Mayotte (Hochrisikogebiet seit 9. Januar 2022); -Réunion (Hochrisikogebiet seit 19. Dezember 2021); -St. Martin (Hochrisikogebiet seit 9. Januar 2022); -St. Barthélemy (Hochrisikogebiet seit 9. Januar 2022); -St. Pierre und Miquelon (Hochrisikogebiet seit 16. Januar 2022)
+Frankreich,Hochrisikogebiet,(Hochrisikogebiet seit 19. Dezember 2021) und die folgenden Übersee-Departements und Überseegebiete gelten als Hochrisikogebiete: -Französisch-Guayana (Hochrisikogebiet seit 9. Januar 2022); -Guadeloupe (Hochrisikogebiet seit 9. Januar 2022); -Martinique (Hochrisikogebiet seit 9. Januar 2022); -Mayotte (Hochrisikogebiet seit 9. Januar 2022); -Neukaledonien (Hochrisikogebiet seit 30. Januar 2022); -Réunion (Hochrisikogebiet seit 19. Dezember 2021); -St. Martin (Hochrisikogebiet seit 9. Januar 2022); -St. Barthélemy (Hochrisikogebiet seit 9. Januar 2022); -St. Pierre und Miquelon (Hochrisikogebiet seit 16. Januar 2022)
 Mikronesien,Kein Risikogebiet,
 Gabun,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Vereinigtes Königreich,Hochrisikogebiet,Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (Hochrisikogebiet seit 4. Januar 2022)
@@ -69,7 +69,7 @@ Guinea-Bissau,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Äquatorialguinea,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Griechenland,Hochrisikogebiet,Hochrisikogebiet seit 21. November 2021
 Grenada,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
-Guatemala,Kein Risikogebiet,
+Guatemala,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Guyana,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Hongkong,Kein Risikogebiet,
 Honduras,Kein Risikogebiet,
@@ -80,7 +80,7 @@ Indonesien,Kein Risikogebiet,
 Indien,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Irland,Hochrisikogebiet,Hochrisikogebiet seit 21. November 2021
 Iran,Kein Risikogebiet,
-Irak,Kein Risikogebiet,
+Irak,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Island,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Israel,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Italien,Hochrisikogebiet,Hochrisikogebiet seit 1. Januar 2022
@@ -88,8 +88,8 @@ Jamaika,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Jordanien,Hochrisikogebiet,Hochrisikogebiet seit 5. Dezember 2021
 Japan,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Kasachstan,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
-Kenia,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
-Kirgisistan,Kein Risikogebiet,
+Kenia,Kein Risikogebiet,
+Kirgisistan,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Kambodscha,Kein Risikogebiet,
 Kiribati,Kein Risikogebiet,
 St. Kitts und Nevis,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
@@ -102,7 +102,7 @@ Libyen,Hochrisikogebiet,Hochrisikogebiet seit 18. Juli 2021
 St. Lucia,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Liechtenstein,Hochrisikogebiet,Hochrisikogebiet seit 5. Dezember 2021
 Sri Lanka,Kein Risikogebiet,
-Lesotho,Hochrisikogebiet,Hochrisikogebiet seit 4. Januar 2022
+Lesotho,Kein Risikogebiet,
 Litauen,Hochrisikogebiet,Hochrisikogebiet seit 3. Oktober 2021
 Luxemburg,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Lettland,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
@@ -122,9 +122,9 @@ Mongolei,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Mosambik,Hochrisikogebiet,Hochrisikogebiet seit 4. Januar 2022
 Mauretanien,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Mauritius,Kein Risikogebiet,
-Malawi,Hochrisikogebiet,Hochrisikogebiet seit 4. Januar 2022
+Malawi,Kein Risikogebiet,
 Malaysia,Kein Risikogebiet,
-Namibia,Hochrisikogebiet,Hochrisikogebiet seit 4. Januar 2022
+Namibia,Kein Risikogebiet,
 Niger,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Nigeria,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Nicaragua,Kein Risikogebiet,
@@ -134,12 +134,12 @@ Norwegen,Hochrisikogebiet,Hochrisikogebiet seit 19. Dezember 2021
 Nepal,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Nauru,Kein Risikogebiet,
 Neuseeland,Kein Risikogebiet,
-Oman,Kein Risikogebiet,
-Pakistan,Kein Risikogebiet,
+Oman,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
+Pakistan,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Panama,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Peru,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
 Philippinen,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
-Palau,Kein Risikogebiet,
+Palau,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Papua-Neuguinea,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Polen,Hochrisikogebiet,Hochrisikogebiet seit 5. Dezember 2021
 Korea (Demokratische Volksrepublik),Hochrisikogebiet, Hochrisikogebiet seit 8. August 2021
@@ -148,11 +148,11 @@ Paraguay,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Katar,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Rumänien,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Russische Föderation,Hochrisikogebiet,Hochrisikogebiet seit 7. Juli 2021
-Ruanda,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
+Ruanda,Kein Risikogebiet,
 Saudi-Arabien,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Sudan,Hochrisikogebiet,Hochrisikogebiet seit 31. Januar 2021
 Senegal,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
-Singapur,Kein Risikogebiet,
+Singapur,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Salomoninseln,Kein Risikogebiet,
 Sierra Leone,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 El Salvador,Kein Risikogebiet,
@@ -165,7 +165,7 @@ Surinam,Hochrisikogebiet, (Hochrisikogebiet seit 16. Januar 2022)
 Slowakei,Hochrisikogebiet,Hochrisikogebiet seit 31. Oktober 2021
 Slowenien,Hochrisikogebiet,Hochrisikogebiet seit 26. September 2021
 Schweden,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
-Eswatini,Hochrisikogebiet,Hochrisikogebiet seit 4. Januar 2022
+Eswatini,Kein Risikogebiet,
 Seychellen,Hochrisikogebiet,Hochrisikogebiet seit 14. Februar 2021
 Syrische Arabische Republik,Hochrisikogebiet,Hochrisikogebiet seit 31. Januar 2021
 Tschad,Hochrisikogebiet,Hochrisikogebiet seit 16. Januar 2022
@@ -179,9 +179,9 @@ Trinidad und Tobago,Hochrisikogebiet,Hochrisikogebiet seit 8. August 2021
 Tunesien,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Türkei,Hochrisikogebiet,Hochrisikogebiet seit 17. August 2021
 Tuvalu,Kein Risikogebiet,
-Tansania,Hochrisikogebiet,Hochrisikogebiet seit 14. März 2021
-Uganda,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
-Ukraine,Kein Risikogebiet,
+Tansania,Kein Risikogebiet,
+Uganda,Kein Risikogebiet,
+Ukraine,Hochrisikogebiet,Hochrisikogebiet seit 30. Januar 2022
 Uruguay,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
 Vereinigte Staaten,Hochrisikogebiet,von Amerika (Hochrisikogebiet seit 25. Dezember 2021)
 Usbekistan,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
@@ -193,6 +193,6 @@ Vanuatu,Kein Risikogebiet,
 Samoa,Kein Risikogebiet,
 Kosovo,Hochrisikogebiet,Hochrisikogebiet seit 23. Januar 2022
 Jemen,Hochrisikogebiet,Hochrisikogebiet seit 10. Oktober 2021
-Südafrika,Hochrisikogebiet,Hochrisikogebiet seit 4. Januar 2022
-Sambia,Hochrisikogebiet,Hochrisikogebiet seit 9. Januar 2022
-Simbabwe,Hochrisikogebiet,Hochrisikogebiet seit 4. Januar 2022
+Südafrika,Kein Risikogebiet,
+Sambia,Kein Risikogebiet,
+Simbabwe,Kein Risikogebiet,
