@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenia",
-  "info":""
+  "info":"od 06.02.2022"
  },
  "ATG":{
   "name":"Antigua i Barbuda",
@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbejdżan",
-  "info":""
+  "info":"od 06.02.2022"
  },
  "BDI":{
   "name":"Burundi",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "BGD":{
   "name":"Bangladesz",
@@ -110,11 +110,11 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"od 04.01.2022"
+  "info":""
  },
  "CAF":{
   "name":"Republika Środkowoafrykańska",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "CAN":{
   "name":"Kanada",
@@ -134,11 +134,11 @@ var info_rki = {
  },
  "CIV":{
   "name":"Wybrzeże Kości Słoniowej",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "CMR":{
   "name":"Kamerun",
-  "info":"od 24.10.2021"
+  "info":""
  },
  "COD":{
   "name":"Demokratyczna Republika Konga",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Kongo",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "COL":{
   "name":"Kolumbia",
@@ -154,11 +154,11 @@ var info_rki = {
  },
  "COM":{
   "name":"Komory",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "CPV":{
   "name":"Republika Zielonego Przylądka",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "CRI":{
   "name":"Kostaryka",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Dżibuti",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "DMA":{
   "name":"Dominika",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Erytrea",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "ESP":{
   "name":"Hiszpania",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Etiopia",
-  "info":"od 26.09.2021"
+  "info":""
  },
  "FIN":{
   "name":"Finlandia",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "GBR":{
   "name":"Wielka Brytania",
@@ -254,23 +254,23 @@ var info_rki = {
  },
  "GHA":{
   "name":"Ghana",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "GIN":{
   "name":"Gwinea",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "GMB":{
   "name":"Gambia",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "GNB":{
   "name":"Gwinea Bissau",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "GNQ":{
   "name":"Gwinea Równikowa",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "GRC":{
   "name":"Grecja",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "LBY":{
   "name":"Libia",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "MLT":{
   "name":"Malta",
@@ -482,11 +482,11 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":"od 04.01.2022"
+  "info":""
  },
  "MRT":{
   "name":"Mauretania",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "MUS":{
   "name":"Mauritius",
@@ -506,11 +506,11 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "NGA":{
   "name":"Nigeria",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "NIC":{
   "name":"Nikaragua",
@@ -584,6 +584,10 @@ var info_rki = {
   "name":"Paragwaj",
   "info":"od 23.01.2022"
  },
+ "PSE":{
+  "name":"Palestyna",
+  "info":"od 06.02.2022"
+ },
  "QAT":{
   "name":"Katar",
   "info":"od 09.01.2022"
@@ -606,11 +610,11 @@ var info_rki = {
  },
  "SDN":{
   "name":"Sudan",
-  "info":"od 31.01.2021"
+  "info":""
  },
  "SEN":{
   "name":"Senegal",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "SGP":{
   "name":"Singapur",
@@ -622,7 +626,7 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "SLV":{
   "name":"Salwador",
@@ -634,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "SRB":{
   "name":"Serbia",
@@ -642,11 +646,11 @@ var info_rki = {
  },
  "SSD":{
   "name":"Sudan Południowy",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "STP":{
   "name":"Wyspy Świętego Tomasza i Książęca",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "SUR":{
   "name":"Surinam",
@@ -678,11 +682,11 @@ var info_rki = {
  },
  "TCD":{
   "name":"Czad",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "TGO":{
   "name":"Togo",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "THA":{
   "name":"Tajlandia",

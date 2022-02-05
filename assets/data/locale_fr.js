@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Arménie",
-  "info":""
+  "info":"depuis le 06\/02\/2022"
  },
  "ATG":{
   "name":"Antigua-et-Barbuda",
@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbaïdjan",
-  "info":""
+  "info":"depuis le 06\/02\/2022"
  },
  "BDI":{
   "name":"Burundi",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Bénin",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "BGD":{
   "name":"Bangladesh",
@@ -110,11 +110,11 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"depuis le 04\/01\/2022"
+  "info":""
  },
  "CAF":{
   "name":"République Centrafricaine",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "CAN":{
   "name":"Canada",
@@ -134,11 +134,11 @@ var info_rki = {
  },
  "CIV":{
   "name":"Côte d'Ivoire",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "CMR":{
   "name":"Cameroun",
-  "info":"depuis le 24\/10\/2021"
+  "info":""
  },
  "COD":{
   "name":"République démocratique du Congo",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Congo",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "COL":{
   "name":"Colombie",
@@ -154,11 +154,11 @@ var info_rki = {
  },
  "COM":{
   "name":"Comores",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "CPV":{
   "name":"Cap-Vert",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "CRI":{
   "name":"Costa Rica",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Djibouti",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "DMA":{
   "name":"Dominique",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Érythrée",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "ESP":{
   "name":"Espagne",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Éthiopie",
-  "info":"depuis le 26\/09\/2021"
+  "info":""
  },
  "FIN":{
   "name":"Finlande",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "GBR":{
   "name":"Royaume-Uni",
@@ -254,23 +254,23 @@ var info_rki = {
  },
  "GHA":{
   "name":"Ghana",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "GIN":{
   "name":"Guinée",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "GMB":{
   "name":"Gambie",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "GNB":{
   "name":"Guinée-Bissau",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "GNQ":{
   "name":"Guinée Équatoriale",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "GRC":{
   "name":"Grèce",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Libéria",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "LBY":{
   "name":"Libye",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "MLT":{
   "name":"Malte",
@@ -482,11 +482,11 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"depuis le 04\/01\/2022"
+  "info":""
  },
  "MRT":{
   "name":"Mauritanie",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "MUS":{
   "name":"Maurice",
@@ -506,11 +506,11 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "NGA":{
   "name":"Nigeria",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "NIC":{
   "name":"Nicaragua",
@@ -584,6 +584,10 @@ var info_rki = {
   "name":"Paraguay",
   "info":"depuis le 23\/01\/2022"
  },
+ "PSE":{
+  "name":"Palestine",
+  "info":"depuis le 06\/02\/2022"
+ },
  "QAT":{
   "name":"Qatar",
   "info":"depuis le 09\/01\/2022"
@@ -606,11 +610,11 @@ var info_rki = {
  },
  "SDN":{
   "name":"Soudan",
-  "info":"depuis le 31\/01\/2021"
+  "info":""
  },
  "SEN":{
   "name":"Sénégal",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "SGP":{
   "name":"Singapour",
@@ -622,7 +626,7 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "SLV":{
   "name":"El Salvador",
@@ -634,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalie",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "SRB":{
   "name":"Serbie",
@@ -642,11 +646,11 @@ var info_rki = {
  },
  "SSD":{
   "name":"Soudan du Sud",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "STP":{
   "name":"Sao Tomé-et-Principe",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "SUR":{
   "name":"Surinam",
@@ -678,11 +682,11 @@ var info_rki = {
  },
  "TCD":{
   "name":"Tchad",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "TGO":{
   "name":"Togo",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "THA":{
   "name":"Thaïlande",

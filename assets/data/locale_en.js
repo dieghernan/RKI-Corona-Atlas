@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenia",
-  "info":""
+  "info":"since 06 Feb 2022"
  },
  "ATG":{
   "name":"Antigua and Barbuda",
@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbaijan",
-  "info":""
+  "info":"since 06 Feb 2022"
  },
  "BDI":{
   "name":"Burundi",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "BGD":{
   "name":"Bangladesh",
@@ -110,11 +110,11 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botswana",
-  "info":"since 04 Jan 2022"
+  "info":""
  },
  "CAF":{
   "name":"Central African Republic",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "CAN":{
   "name":"Canada",
@@ -134,11 +134,11 @@ var info_rki = {
  },
  "CIV":{
   "name":"Cote D'Ivoire",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "CMR":{
   "name":"Cameroon",
-  "info":"since 24 Oct 2021"
+  "info":""
  },
  "COD":{
   "name":"Democratic Republic of The Congo",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Congo",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "COL":{
   "name":"Colombia",
@@ -154,11 +154,11 @@ var info_rki = {
  },
  "COM":{
   "name":"Comoros",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "CPV":{
   "name":"Cape Verde",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "CRI":{
   "name":"Costa Rica",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Djibouti",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "DMA":{
   "name":"Dominica",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Eritrea",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "ESP":{
   "name":"Spain",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Ethiopia",
-  "info":"since 26 Sep 2021"
+  "info":""
  },
  "FIN":{
   "name":"Finland",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "GBR":{
   "name":"United Kingdom",
@@ -254,23 +254,23 @@ var info_rki = {
  },
  "GHA":{
   "name":"Ghana",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "GIN":{
   "name":"Guinea",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "GMB":{
   "name":"Gambia",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "GNB":{
   "name":"Guinea-Bissau",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "GNQ":{
   "name":"Equatorial Guinea",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "GRC":{
   "name":"Greece",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "LBY":{
   "name":"Libya",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "MLT":{
   "name":"Malta",
@@ -482,11 +482,11 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambique",
-  "info":"since 04 Jan 2022"
+  "info":""
  },
  "MRT":{
   "name":"Mauritania",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "MUS":{
   "name":"Mauritius",
@@ -506,11 +506,11 @@ var info_rki = {
  },
  "NER":{
   "name":"Niger",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "NGA":{
   "name":"Nigeria",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "NIC":{
   "name":"Nicaragua",
@@ -584,6 +584,10 @@ var info_rki = {
   "name":"Paraguay",
   "info":"since 23 Jan 2022"
  },
+ "PSE":{
+  "name":"Palestine",
+  "info":"since 06 Feb 2022"
+ },
  "QAT":{
   "name":"Qatar",
   "info":"since 09 Jan 2022"
@@ -606,11 +610,11 @@ var info_rki = {
  },
  "SDN":{
   "name":"Sudan",
-  "info":"since 31 Jan 2021"
+  "info":""
  },
  "SEN":{
   "name":"Senegal",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "SGP":{
   "name":"Singapore",
@@ -622,7 +626,7 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "SLV":{
   "name":"El Salvador",
@@ -634,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "SRB":{
   "name":"Serbia",
@@ -642,11 +646,11 @@ var info_rki = {
  },
  "SSD":{
   "name":"South Sudan",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "STP":{
   "name":"Sao Tome and Principe",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "SUR":{
   "name":"Suriname",
@@ -678,11 +682,11 @@ var info_rki = {
  },
  "TCD":{
   "name":"Chad",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "TGO":{
   "name":"Togo",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "THA":{
   "name":"Thailand",

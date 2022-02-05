@@ -5,15 +5,15 @@ Albania,High risk area,since 16 Jan 2022
 Andorra,High risk area,since 19 Dec 2021
 United Arab Emirates,High risk area,since 09 Jan 2022
 Argentina,High risk area,since 09 Jan 2022
-Armenia,Not risk area,
+Armenia,High risk area,since 06 Feb 2022
 Antigua and Barbuda,High risk area,since 16 Jan 2022
 Australia,High risk area,since 09 Jan 2022
 Austria,High risk area,since 16 Jan 2022. The following regions are excluded: -Eben am Achensee; -Jungholz; -Mittelberg; -Rißtal
-Azerbaijan,Not risk area,
+Azerbaijan,High risk area,since 06 Feb 2022
 Burundi,Not risk area,
 Belgium,High risk area,since 21 Nov 2021
-Benin,High risk area,since 16 Jan 2022
-Burkina Faso,High risk area,since 16 Jan 2022
+Benin,Not risk area,
+Burkina Faso,Not risk area,
 Bangladesh,High risk area,since 30 Jan 2022
 Bulgaria,High risk area,since 16 Jan 2022
 Bahrain,High risk area,since 09 Jan 2022
@@ -26,47 +26,47 @@ Brazil,High risk area,since 23 Jan 2022
 Barbados,High risk area,since 19 Sep 2021
 Brunei,Not risk area,
 Bhutan,High risk area,since 23 Jan 2022
-Botswana,High risk area,since 04 Jan 2022
-Central African Republic,High risk area,since 16 Jan 2022
+Botswana,Not risk area,
+Central African Republic,Not risk area,
 Canada,High risk area,since 01 Jan 2022
 Switzerland,High risk area,since 05 Dec 2021
 Chile,High risk area,since 23 Jan 2022
 China,Not risk area,
-Cote D'Ivoire,High risk area,since 09 Jan 2022
-Cameroon,High risk area,since 24 Oct 2021
+Cote D'Ivoire,Not risk area,
+Cameroon,Not risk area,
 Democratic Republic of The Congo,Not risk area,
-Congo,High risk area,since 09 Jan 2022
+Congo,Not risk area,
 Colombia,High risk area,since 16 Jan 2022
-Comoros,High risk area,since 09 Jan 2022
-Cape Verde,High risk area,since 09 Jan 2022
+Comoros,Not risk area,
+Cape Verde,Not risk area,
 Costa Rica,High risk area,since 16 Jan 2022
 Cuba,High risk area,since 30 Jan 2022
 Cyprus,High risk area,since 25 Dec 2021
 Czechia,High risk area,since 14 Nov 2021
 Germany,,
-Djibouti,High risk area,since 16 Jan 2022
+Djibouti,Not risk area,
 Dominica,High risk area,since 22 Aug 2021
 Denmark,High risk area,since 19 Dec 2021
 Dominican Republic,High risk area,since 16 Jan 2022
 Algeria,High risk area,since 23 Jan 2022
 Ecuador,High risk area,since 23 Jan 2022
 Egypt,High risk area,since 24 Jan 2021
-Eritrea,High risk area,since 16 Jan 2022
+Eritrea,Not risk area,
 Spain,High risk area,since 25 Dec 2021
 Estonia,High risk area,since 09 Jan 2022
-Ethiopia,High risk area,since 26 Sep 2021
+Ethiopia,Not risk area,
 Finland,High risk area,since 25 Dec 2021
 Fiji,High risk area,since 09 Jan 2022
 France,High risk area,"since 19 Dec 2021. The risk designation applies to the following regions: -French Guiana, since 09 Jan 2022; -Guadeloupe, since 09 Jan 2022; -Martinique, since 09 Jan 2022; -Mayotte, since 09 Jan 2022; -New Caledonia, since 30 Jan 2022; -Réunion, since 19 Dec 2021; -St. Barthélemy, since 09 Jan 2022; -St. Martin, since 09 Jan 2022; -Saint Pierre and Miquelon, since 16 Jan 2022"
 Micronesia,Not risk area,
-Gabon,High risk area,since 09 Jan 2022
+Gabon,Not risk area,
 United Kingdom,High risk area,since 04 Jan 2022
 Georgia,High risk area,since 25 Jul 2021
-Ghana,High risk area,since 09 Jan 2022
-Guinea,High risk area,since 09 Jan 2022
-Gambia,High risk area,since 16 Jan 2022
-Guinea-Bissau,High risk area,since 16 Jan 2022
-Equatorial Guinea,High risk area,since 16 Jan 2022
+Ghana,Not risk area,
+Guinea,Not risk area,
+Gambia,Not risk area,
+Guinea-Bissau,Not risk area,
+Equatorial Guinea,Not risk area,
 Greece,High risk area,since 21 Nov 2021
 Grenada,High risk area,since 09 Jan 2022
 Guatemala,High risk area,since 30 Jan 2022
@@ -97,7 +97,7 @@ South Korea,Not risk area,
 Kuwait,High risk area,since 09 Jan 2022
 Laos,High risk area,since 14 Nov 2021
 Lebanon,High risk area,since 19 Dec 2021
-Liberia,High risk area,since 16 Jan 2022
+Liberia,Not risk area,
 Libya,High risk area,since 18 Jul 2021
 Saint Lucia,High risk area,since 16 Jan 2022
 Liechtenstein,High risk area,since 05 Dec 2021
@@ -114,19 +114,19 @@ Maldives,High risk area,since 23 Jan 2022
 Mexico,High risk area,since 08 Aug 2021
 Marshall Islands,Not risk area,
 North Macedonia,High risk area,since 16 Jan 2022
-Mali,High risk area,since 09 Jan 2022
+Mali,Not risk area,
 Malta,High risk area,since 01 Jan 2022
 Myanmar/Burma,Not risk area,
 Montenegro,High risk area,since 15 Aug 2021
 Mongolia,High risk area,since 23 Jan 2022
-Mozambique,High risk area,since 04 Jan 2022
-Mauritania,High risk area,since 09 Jan 2022
+Mozambique,Not risk area,
+Mauritania,Not risk area,
 Mauritius,Not risk area,
 Malawi,Not risk area,
 Malaysia,Not risk area,
 Namibia,Not risk area,
-Niger,High risk area,since 16 Jan 2022
-Nigeria,High risk area,since 09 Jan 2022
+Niger,Not risk area,
+Nigeria,Not risk area,
 Nicaragua,Not risk area,
 Niue,Not risk area,
 Netherlands,High risk area,"since 21 Nov 2021. The risk designation applies to the following regions: -Aruba, since 09 Jan 2022; -Bonaire, since 27 Jul 2021; -Curaçao, since 09 Jan 2022; -Saba, since 27 Jul 2021; -St. Eustatius, since 27 Jul 2021; -St. Martin, since 16 Jan 2022"
@@ -145,22 +145,23 @@ Poland,High risk area,since 05 Dec 2021
 North Korea,High risk area,since 08 Aug 2021
 Portugal,High risk area,since 25 Dec 2021
 Paraguay,High risk area,since 23 Jan 2022
+Palestine,High risk area,since 06 Feb 2022
 Qatar,High risk area,since 09 Jan 2022
 Romania,High risk area,since 23 Jan 2022
 Russian Federation,High risk area,since 07 Jul 2021
 Rwanda,Not risk area,
 Saudi Arabia,High risk area,since 23 Jan 2022
-Sudan,High risk area,since 31 Jan 2021
-Senegal,High risk area,since 16 Jan 2022
+Sudan,Not risk area,
+Senegal,Not risk area,
 Singapore,High risk area,since 30 Jan 2022
 Solomon Islands,Not risk area,
-Sierra Leone,High risk area,since 09 Jan 2022
+Sierra Leone,Not risk area,
 El Salvador,Not risk area,
 San Marino,High risk area,since 01 Jan 2022
-Somalia,High risk area,since 16 Jan 2022
+Somalia,Not risk area,
 Serbia,High risk area,since 16 Jan 2022
-South Sudan,High risk area,since 09 Jan 2022
-Sao Tome and Principe,High risk area,since 16 Jan 2022
+South Sudan,Not risk area,
+Sao Tome and Principe,Not risk area,
 Suriname,High risk area,since 16 Jan 2022
 Slovakia,High risk area,since 31 Oct 2021
 Slovenia,High risk area,since 26 Sep 2021
@@ -168,8 +169,8 @@ Sweden,High risk area,since 09 Jan 2022
 Eswatini,Not risk area,
 Seychelles,High risk area,since 14 Feb 2021
 Syria,High risk area,since 31 Jan 2021
-Chad,High risk area,since 16 Jan 2022
-Togo,High risk area,since 09 Jan 2022
+Chad,Not risk area,
+Togo,Not risk area,
 Thailand,Not risk area,
 Tajikistan,High risk area,since 08 Aug 2021
 Turkmenistan,High risk area,since 08 Aug 2021

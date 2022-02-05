@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Ermenistan",
-  "info":""
+  "info":"06.02.2022'den beri"
  },
  "ATG":{
   "name":"Antigua-Barbuda",
@@ -42,7 +42,7 @@ var info_rki = {
  },
  "AZE":{
   "name":"Azerbaycan",
-  "info":""
+  "info":"06.02.2022'den beri"
  },
  "BDI":{
   "name":"Burundi",
@@ -54,11 +54,11 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "BGD":{
   "name":"Bangladeş",
@@ -110,11 +110,11 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsvana",
-  "info":"04.01.2022'den beri"
+  "info":""
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "CAN":{
   "name":"Kanada",
@@ -134,11 +134,11 @@ var info_rki = {
  },
  "CIV":{
   "name":"Fildişi Sahili",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "CMR":{
   "name":"Kamerun",
-  "info":"24.10.2021'den beri"
+  "info":""
  },
  "COD":{
   "name":"Kongo Demokratik Cumhuriyeti",
@@ -146,7 +146,7 @@ var info_rki = {
  },
  "COG":{
   "name":"Kongo",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "COL":{
   "name":"Kolombiya",
@@ -154,11 +154,11 @@ var info_rki = {
  },
  "COM":{
   "name":"Komorlar",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "CPV":{
   "name":"Verde Burnu",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "CRI":{
   "name":"Kosta Rika",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Cibuti",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "DMA":{
   "name":"Dominik",
@@ -210,7 +210,7 @@ var info_rki = {
  },
  "ERI":{
   "name":"Eritre",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "ESP":{
   "name":"İspanya",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Etiyopya",
-  "info":"26.09.2021'den beri"
+  "info":""
  },
  "FIN":{
   "name":"Finlandiya",
@@ -242,7 +242,7 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "GBR":{
   "name":"Birleşik Krallık",
@@ -254,23 +254,23 @@ var info_rki = {
  },
  "GHA":{
   "name":"Gana",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "GIN":{
   "name":"Gine",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "GMB":{
   "name":"Gambiya",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "GNB":{
   "name":"Gine-Bissau",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "GNQ":{
   "name":"Ekvatoral Gine",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "GRC":{
   "name":"Yunanistan",
@@ -394,7 +394,7 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberya",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "LBY":{
   "name":"Libya",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "MLT":{
   "name":"Malta",
@@ -482,11 +482,11 @@ var info_rki = {
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":"04.01.2022'den beri"
+  "info":""
  },
  "MRT":{
   "name":"Moritanya",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "MUS":{
   "name":"Mauritius",
@@ -506,11 +506,11 @@ var info_rki = {
  },
  "NER":{
   "name":"Nijer",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "NGA":{
   "name":"Nijerya",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "NIC":{
   "name":"Nikaragua",
@@ -584,6 +584,10 @@ var info_rki = {
   "name":"Paraguay",
   "info":"23.01.2022'den beri"
  },
+ "PSE":{
+  "name":"Filistin",
+  "info":"06.02.2022'den beri"
+ },
  "QAT":{
   "name":"Katar",
   "info":"09.01.2022'den beri"
@@ -606,11 +610,11 @@ var info_rki = {
  },
  "SDN":{
   "name":"Sudan",
-  "info":"31.01.2021'den beri"
+  "info":""
  },
  "SEN":{
   "name":"Senegal",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "SGP":{
   "name":"Singapur",
@@ -622,7 +626,7 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "SLV":{
   "name":"El Salvador",
@@ -634,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somali",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "SRB":{
   "name":"Sırbistan",
@@ -642,11 +646,11 @@ var info_rki = {
  },
  "SSD":{
   "name":"Güney Sudan",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "STP":{
   "name":"Sao Tome ve Principe",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "SUR":{
   "name":"Surinam",
@@ -678,11 +682,11 @@ var info_rki = {
  },
  "TCD":{
   "name":"Çad",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "TGO":{
   "name":"Togo",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "THA":{
   "name":"Tayland",
