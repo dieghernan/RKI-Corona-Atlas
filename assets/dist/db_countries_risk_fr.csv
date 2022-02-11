@@ -17,7 +17,7 @@ Burkina Faso,Zone sans risque,
 Bangladesh,Zone à fort risque,depuis le 30/01/2022
 Bulgarie,Zone à fort risque,depuis le 16/01/2022
 Bahreïn,Zone à fort risque,depuis le 09/01/2022
-Bahamas,Zone à fort risque,depuis le 09/01/2022
+Bahamas,Zone sans risque,
 Bosnie-Herzégovine,Zone à fort risque,depuis le 16/01/2022
 Bélarus,Zone à fort risque,depuis le 03/10/2021
 Belize,Zone à fort risque,depuis le 09/01/2022
@@ -28,7 +28,7 @@ Brunei,Zone sans risque,
 Bhoutan,Zone à fort risque,depuis le 23/01/2022
 Botswana,Zone sans risque,
 République Centrafricaine,Zone sans risque,
-Canada,Zone à fort risque,depuis le 01/01/2022
+Canada,Zone sans risque,
 Suisse,Zone à fort risque,depuis le 05/12/2021
 Chili,Zone à fort risque,depuis le 23/01/2022
 Chine,Zone sans risque,
@@ -40,14 +40,14 @@ Colombie,Zone à fort risque,depuis le 16/01/2022
 Comores,Zone sans risque,
 Cap-Vert,Zone sans risque,
 Costa Rica,Zone à fort risque,depuis le 16/01/2022
-Cuba,Zone à fort risque,depuis le 30/01/2022
+Cuba,Zone sans risque,
 Chypre,Zone à fort risque,depuis le 25/12/2021
 Tchéquie,Zone à fort risque,depuis le 14/11/2021
 Allemagne,,
 Djibouti,Zone sans risque,
 Dominique,Zone à fort risque,depuis le 22/08/2021
 Danemark,Zone à fort risque,depuis le 19/12/2021
-République Dominicaine,Zone à fort risque,depuis le 16/01/2022
+République Dominicaine,Zone sans risque,
 Algérie,Zone à fort risque,depuis le 23/01/2022
 Équateur,Zone à fort risque,depuis le 23/01/2022
 Égypte,Zone à fort risque,depuis le 24/01/2021
@@ -79,20 +79,20 @@ Hongrie,Zone à fort risque,depuis le 14/11/2021
 Indonésie,Zone sans risque,
 Inde,Zone à fort risque,depuis le 23/01/2022
 Irlande,Zone à fort risque,depuis le 21/11/2021
-Iran,Zone sans risque,
+Iran,Zone à fort risque,depuis le 13/02/2022
 Irak,Zone à fort risque,depuis le 30/01/2022
 Islande,Zone à fort risque,depuis le 09/01/2022
 Israël,Zone à fort risque,depuis le 09/01/2022
 Italie,Zone à fort risque,depuis le 01/01/2022
-Jamaïque,Zone à fort risque,depuis le 09/01/2022
+Jamaïque,Zone sans risque,
 Jordanie,Zone à fort risque,depuis le 05/12/2021
 Japon,Zone à fort risque,depuis le 23/01/2022
 Kazakhstan,Zone à fort risque,depuis le 23/01/2022
 Kenya,Zone sans risque,
-Kirghizistan,Zone à fort risque,depuis le 30/01/2022
+Kirghizistan,Zone sans risque,
 Cambodge,Zone sans risque,
 Kiribati,Zone sans risque,
-Saint-Kitts-et-Nevis,Zone à fort risque,depuis le 16/01/2022
+Saint-Kitts-et-Nevis,Zone sans risque,
 Corée du Sud,Zone sans risque,
 Koweït,Zone à fort risque,depuis le 09/01/2022
 Laos,Zone à fort risque,depuis le 14/11/2021
@@ -115,7 +115,7 @@ Mexique,Zone à fort risque,depuis le 08/08/2021
 Îles Marshall,Zone sans risque,
 Macédoine du Nord,Zone à fort risque,depuis le 16/01/2022
 Mali,Zone sans risque,
-Malte,Zone à fort risque,depuis le 01/01/2022
+Malte,Zone sans risque,
 Myanmar/Burma,Zone sans risque,
 Monténégro,Zone à fort risque,depuis le 15/08/2021
 Mongolie,Zone à fort risque,depuis le 23/01/2022
@@ -187,7 +187,7 @@ Uruguay,Zone à fort risque,depuis le 09/01/2022
 États-Unis,Zone à fort risque,depuis le 25/12/2021
 Ouzbékistan,Zone à fort risque,depuis le 23/01/2022
 Vatican,Zone sans risque,
-Saint-Vincent-et-les-Grenadines,Zone à fort risque,depuis le 16/01/2022
+Saint-Vincent-et-les-Grenadines,Zone sans risque,
 Vénézuela,Zone à fort risque,depuis le 19/09/2021
 Vietnam,Zone à fort risque,depuis le 15/08/2021
 Vanuatu,Zone sans risque,

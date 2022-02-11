@@ -74,7 +74,7 @@ var info_rki = {
  },
  "BHS":{
   "name":"Bahamas",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022"
+  "info":""
  },
  "BIH":{
   "name":"Bosnien und Herzegowina",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Kanada",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. Januar 2022"
+  "info":""
  },
  "CHE":{
   "name":"Schweiz",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Kuba",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 30. Januar 2022"
+  "info":""
  },
  "CYP":{
   "name":"Zypern",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominikanische Republik",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 16. Januar 2022"
+  "info":""
  },
  "DZA":{
   "name":"Algerien",
@@ -322,7 +322,7 @@ var info_rki = {
  },
  "IRN":{
   "name":"Iran",
-  "info":""
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 13. Februar 2022"
  },
  "IRQ":{
   "name":"Irak",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaika",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022"
+  "info":""
  },
  "JOR":{
   "name":"Jordanien",
@@ -362,7 +362,7 @@ var info_rki = {
  },
  "KGZ":{
   "name":"Kirgisistan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 30. Januar 2022"
+  "info":""
  },
  "KHM":{
   "name":"Kambodscha",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"St. Kitts und Nevis",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 16. Januar 2022"
+  "info":""
  },
  "KOR":{
   "name":"Südkorea",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. Januar 2022"
+  "info":""
  },
  "MMR":{
   "name":"Myanmar",
@@ -754,7 +754,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"St. Vincent und die Grenadinen",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 16. Januar 2022"
+  "info":""
  },
  "VEN":{
   "name":"Venezuela",

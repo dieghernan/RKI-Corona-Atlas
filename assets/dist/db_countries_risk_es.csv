@@ -17,7 +17,7 @@ Burquina Faso,No es área de riesgo,
 Bangladesh,Área de alto riesgo,desde el 30/01/2022
 Bulgaria,Área de alto riesgo,desde el 16/01/2022
 Bahrein,Área de alto riesgo,desde el 09/01/2022
-Bahamas,Área de alto riesgo,desde el 09/01/2022
+Bahamas,No es área de riesgo,
 Bosnia y Herzegovina,Área de alto riesgo,desde el 16/01/2022
 Bielorrusia,Área de alto riesgo,desde el 03/10/2021
 Belice,Área de alto riesgo,desde el 09/01/2022
@@ -28,7 +28,7 @@ Brunei,No es área de riesgo,
 Bhután,Área de alto riesgo,desde el 23/01/2022
 Botsuana,No es área de riesgo,
 República Centro-africana,No es área de riesgo,
-Canadá,Área de alto riesgo,desde el 01/01/2022
+Canadá,No es área de riesgo,
 Suiza,Área de alto riesgo,desde el 05/12/2021
 Chile,Área de alto riesgo,desde el 23/01/2022
 China,No es área de riesgo,
@@ -40,14 +40,14 @@ Colombia,Área de alto riesgo,desde el 16/01/2022
 "Comores, Islas",No es área de riesgo,
 Cabo Verde,No es área de riesgo,
 Costa Rica,Área de alto riesgo,desde el 16/01/2022
-Cuba,Área de alto riesgo,desde el 30/01/2022
+Cuba,No es área de riesgo,
 Chipre,Área de alto riesgo,desde el 25/12/2021
 República Checa,Área de alto riesgo,desde el 14/11/2021
 Alemania,,
 Yibuti,No es área de riesgo,
 Dominica,Área de alto riesgo,desde el 22/08/2021
 Dinamarca,Área de alto riesgo,desde el 19/12/2021
-República Dominicana,Área de alto riesgo,desde el 16/01/2022
+República Dominicana,No es área de riesgo,
 Algeria,Área de alto riesgo,desde el 23/01/2022
 Ecuador,Área de alto riesgo,desde el 23/01/2022
 Egipto,Área de alto riesgo,desde el 24/01/2021
@@ -79,20 +79,20 @@ Hungría,Área de alto riesgo,desde el 14/11/2021
 Indonesia,No es área de riesgo,
 India,Área de alto riesgo,desde el 23/01/2022
 Irlanda,Área de alto riesgo,desde el 21/11/2021
-Irán,No es área de riesgo,
+Irán,Área de alto riesgo,desde el 13/02/2022
 Iraq,Área de alto riesgo,desde el 30/01/2022
 Islandia,Área de alto riesgo,desde el 09/01/2022
 Israel,Área de alto riesgo,desde el 09/01/2022
 Italia,Área de alto riesgo,desde el 01/01/2022
-Jamaica,Área de alto riesgo,desde el 09/01/2022
+Jamaica,No es área de riesgo,
 Jordania,Área de alto riesgo,desde el 05/12/2021
 Japón,Área de alto riesgo,desde el 23/01/2022
 Kazajistán,Área de alto riesgo,desde el 23/01/2022
 Kenia,No es área de riesgo,
-Kirgizstán,Área de alto riesgo,desde el 30/01/2022
+Kirgizstán,No es área de riesgo,
 Camboya,No es área de riesgo,
 Kiribati,No es área de riesgo,
-San Cristobo y Nevis,Área de alto riesgo,desde el 16/01/2022
+San Cristobo y Nevis,No es área de riesgo,
 Corea del Sur,No es área de riesgo,
 Kuwait,Área de alto riesgo,desde el 09/01/2022
 Laos,Área de alto riesgo,desde el 14/11/2021
@@ -115,7 +115,7 @@ México,Área de alto riesgo,desde el 08/08/2021
 Islas Marshall,No es área de riesgo,
 Macedonia del Norte,Área de alto riesgo,desde el 16/01/2022
 Mali,No es área de riesgo,
-Malta,Área de alto riesgo,desde el 01/01/2022
+Malta,No es área de riesgo,
 Myanmar/Burma,No es área de riesgo,
 Montenegro,Área de alto riesgo,desde el 15/08/2021
 Mongolia,Área de alto riesgo,desde el 23/01/2022
@@ -187,7 +187,7 @@ Uruguay,Área de alto riesgo,desde el 09/01/2022
 Estados Unidos,Área de alto riesgo,desde el 25/12/2021
 Uzbekistán,Área de alto riesgo,desde el 23/01/2022
 Ciudad del Vaticano,No es área de riesgo,
-San Vicente y las Granadinas,Área de alto riesgo,desde el 16/01/2022
+San Vicente y las Granadinas,No es área de riesgo,
 Venezuela,Área de alto riesgo,desde el 19/09/2021
 Vietnam,Área de alto riesgo,desde el 15/08/2021
 Vanuatu,No es área de riesgo,

@@ -74,7 +74,7 @@ var info_rki = {
  },
  "BHS":{
   "name":"Bahamas",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "BIH":{
   "name":"Bosnia and Herzegovina",
@@ -118,7 +118,7 @@ var info_rki = {
  },
  "CAN":{
   "name":"Canada",
-  "info":"since 01 Jan 2022"
+  "info":""
  },
  "CHE":{
   "name":"Switzerland",
@@ -166,7 +166,7 @@ var info_rki = {
  },
  "CUB":{
   "name":"Cuba",
-  "info":"since 30 Jan 2022"
+  "info":""
  },
  "CYP":{
   "name":"Cyprus",
@@ -194,7 +194,7 @@ var info_rki = {
  },
  "DOM":{
   "name":"Dominican Republic",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "DZA":{
   "name":"Algeria",
@@ -322,7 +322,7 @@ var info_rki = {
  },
  "IRN":{
   "name":"Iran",
-  "info":""
+  "info":"since 13 Feb 2022"
  },
  "IRQ":{
   "name":"Iraq",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaica",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "JOR":{
   "name":"Jordan",
@@ -362,7 +362,7 @@ var info_rki = {
  },
  "KGZ":{
   "name":"Kyrgyzstan",
-  "info":"since 30 Jan 2022"
+  "info":""
  },
  "KHM":{
   "name":"Cambodia",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts and Nevis",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "KOR":{
   "name":"South Korea",
@@ -466,7 +466,7 @@ var info_rki = {
  },
  "MLT":{
   "name":"Malta",
-  "info":"since 01 Jan 2022"
+  "info":""
  },
  "MMR":{
   "name":"Myanmar\/Burma",
@@ -754,7 +754,7 @@ var info_rki = {
  },
  "VCT":{
   "name":"Saint Vincent and The Grenadines",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "VEN":{
   "name":"Venezuela",
