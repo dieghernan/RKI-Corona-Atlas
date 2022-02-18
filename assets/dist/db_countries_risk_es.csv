@@ -1,9 +1,9 @@
 ﻿País/Región,Nivel de riesgo,Detalles
-Afganistán,Área de alto riesgo,desde el 30/01/2022
+Afganistán,No es área de riesgo,
 Angola,No es área de riesgo,
 Albania,Área de alto riesgo,desde el 16/01/2022
-Andorra,Área de alto riesgo,desde el 19/12/2021
-Emiratos Árabes Unidos,Área de alto riesgo,desde el 09/01/2022
+Andorra,No es área de riesgo,
+Emiratos Árabes Unidos,No es área de riesgo,
 Argentina,Área de alto riesgo,desde el 09/01/2022
 Armenia,Área de alto riesgo,desde el 06/02/2022
 Antigua y Barbuda,Área de alto riesgo,desde el 16/01/2022
@@ -48,19 +48,19 @@ Yibuti,No es área de riesgo,
 Dominica,Área de alto riesgo,desde el 22/08/2021
 Dinamarca,Área de alto riesgo,desde el 19/12/2021
 República Dominicana,No es área de riesgo,
-Algeria,Área de alto riesgo,desde el 23/01/2022
+Algeria,No es área de riesgo,
 Ecuador,Área de alto riesgo,desde el 23/01/2022
 Egipto,Área de alto riesgo,desde el 24/01/2021
 Eritrea,No es área de riesgo,
-España,Área de alto riesgo,desde el 25/12/2021
+España,No es área de riesgo,
 Estonia,Área de alto riesgo,desde el 09/01/2022
 Etiopía,No es área de riesgo,
 Finlandia,Área de alto riesgo,desde el 25/12/2021
-Fiyi,Área de alto riesgo,desde el 09/01/2022
-Francia,Área de alto riesgo,"desde el 19/12/2021. El nivel de riesgo afecta a las siguientes regiones: -Guayana Francesa, desde el 09/01/2022; -Guadalupe, desde el 09/01/2022; -Martinica, desde el 09/01/2022; -Mayotte, desde el 09/01/2022; -Nueva Caledonia, desde el 30/01/2022; -Reunión, desde el 19/12/2021; -St. Barthélemy, desde el 09/01/2022; -St. Martin, desde el 09/01/2022; -San Pedro y Miquelon, desde el 16/01/2022"
+Fiyi,No es área de riesgo,
+Francia,Área de alto riesgo,"desde el 19/12/2021. El nivel de riesgo afecta a las siguientes regiones: -Guadalupe, desde el 09/01/2022; -Martinica, desde el 09/01/2022; -Nueva Caledonia, desde el 30/01/2022; -Reunión, desde el 19/12/2021; -St. Barthélemy, desde el 09/01/2022; -St. Martin, desde el 09/01/2022"
 Micronesia,No es área de riesgo,
 Gabón,No es área de riesgo,
-Reino Unido,Área de alto riesgo,desde el 04/01/2022
+Reino Unido,No es área de riesgo,
 Georgia,Área de alto riesgo,desde el 25/07/2021
 Ghana,No es área de riesgo,
 Guinea,No es área de riesgo,
@@ -77,8 +77,8 @@ Croacia,Área de alto riesgo,desde el 24/10/2021
 Haití,Área de alto riesgo,desde el 08/08/2021
 Hungría,Área de alto riesgo,desde el 14/11/2021
 Indonesia,No es área de riesgo,
-India,Área de alto riesgo,desde el 23/01/2022
-Irlanda,Área de alto riesgo,desde el 21/11/2021
+India,No es área de riesgo,
+Irlanda,No es área de riesgo,
 Irán,Área de alto riesgo,desde el 13/02/2022
 Iraq,Área de alto riesgo,desde el 30/01/2022
 Islandia,Área de alto riesgo,desde el 09/01/2022
@@ -87,7 +87,7 @@ Italia,Área de alto riesgo,desde el 01/01/2022
 Jamaica,No es área de riesgo,
 Jordania,Área de alto riesgo,desde el 05/12/2021
 Japón,Área de alto riesgo,desde el 23/01/2022
-Kazajistán,Área de alto riesgo,desde el 23/01/2022
+Kazajistán,No es área de riesgo,
 Kenia,No es área de riesgo,
 Kirgizstán,No es área de riesgo,
 Camboya,No es área de riesgo,
@@ -95,7 +95,7 @@ Kiribati,No es área de riesgo,
 San Cristobo y Nevis,No es área de riesgo,
 Corea del Sur,No es área de riesgo,
 Kuwait,Área de alto riesgo,desde el 09/01/2022
-Laos,Área de alto riesgo,desde el 14/11/2021
+Laos,No es área de riesgo,
 Líbano,Área de alto riesgo,desde el 19/12/2021
 Liberia,No es área de riesgo,
 Libia,Área de alto riesgo,desde el 18/07/2021
@@ -106,7 +106,7 @@ Lesoto,No es área de riesgo,
 Lituania,Área de alto riesgo,desde el 03/10/2021
 Luxemburgo,Área de alto riesgo,desde el 09/01/2022
 Letonia,Área de alto riesgo,desde el 16/01/2022
-Marruecos,Área de alto riesgo,desde el 23/01/2022
+Marruecos,No es área de riesgo,
 Mónaco,Área de alto riesgo,desde el 25/12/2021
 Moldavia,Área de alto riesgo,desde el 23/01/2022
 Madagascar,Área de alto riesgo,desde el 16/01/2022
@@ -131,11 +131,11 @@ Nicaragua,No es área de riesgo,
 Niue,No es área de riesgo,
 Países Bajos,Área de alto riesgo,"desde el 21/11/2021. El nivel de riesgo afecta a las siguientes regiones: -Aruba, desde el 09/01/2022; -Bonaire, desde el 27/07/2021; -Curaçao, desde el 09/01/2022; -Saba, desde el 27/07/2021; -St. Eustatius, desde el 27/07/2021; -St. Martin, desde el 16/01/2022"
 Noruega,Área de alto riesgo,desde el 19/12/2021
-Nepal,Área de alto riesgo,desde el 23/01/2022
+Nepal,No es área de riesgo,
 Nauru,No es área de riesgo,
 Nueva Zelanda,No es área de riesgo,
 Omán,Área de alto riesgo,desde el 30/01/2022
-Pakistán,Área de alto riesgo,desde el 30/01/2022
+Pakistán,No es área de riesgo,
 Panamá,Área de alto riesgo,desde el 09/01/2022
 Perú,Área de alto riesgo,desde el 16/01/2022
 Filipinas,Área de alto riesgo,desde el 16/01/2022
@@ -146,11 +146,11 @@ Corea del Norte,Área de alto riesgo,desde el 08/08/2021
 Portugal,Área de alto riesgo,desde el 25/12/2021
 Paraguay,Área de alto riesgo,desde el 23/01/2022
 Palestina,Área de alto riesgo,desde el 06/02/2022
-Qatar,Área de alto riesgo,desde el 09/01/2022
+Qatar,No es área de riesgo,
 Rumanía,Área de alto riesgo,desde el 23/01/2022
 Federación Rusa,Área de alto riesgo,desde el 07/07/2021
 Ruanda,No es área de riesgo,
-Arabia Saudí,Área de alto riesgo,desde el 23/01/2022
+Arabia Saudí,No es área de riesgo,
 Sudán,No es área de riesgo,
 Senegal,No es área de riesgo,
 Singapur,Área de alto riesgo,desde el 30/01/2022
@@ -177,15 +177,15 @@ Turkmenistán,Área de alto riesgo,desde el 08/08/2021
 Timor Oriental,No es área de riesgo,
 Tonga,No es área de riesgo,
 Trinidad y Tobago,Área de alto riesgo,desde el 08/08/2021
-Tunez,Área de alto riesgo,desde el 23/01/2022
+Tunez,No es área de riesgo,
 Turquía,Área de alto riesgo,desde el 17/08/2021
 Tuvalu,No es área de riesgo,
 República Unida de Tanzania,No es área de riesgo,
 Uganda,No es área de riesgo,
 Ucrania,Área de alto riesgo,desde el 30/01/2022
 Uruguay,Área de alto riesgo,desde el 09/01/2022
-Estados Unidos,Área de alto riesgo,desde el 25/12/2021
-Uzbekistán,Área de alto riesgo,desde el 23/01/2022
+Estados Unidos,No es área de riesgo,
+Uzbekistán,No es área de riesgo,
 Ciudad del Vaticano,No es área de riesgo,
 San Vicente y las Granadinas,No es área de riesgo,
 Venezuela,Área de alto riesgo,desde el 19/09/2021

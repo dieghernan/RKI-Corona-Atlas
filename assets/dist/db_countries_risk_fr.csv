@@ -1,9 +1,9 @@
 ﻿Pays/Région,Niveau de risque,Détails
-Afghanistan,Zone à fort risque,depuis le 30/01/2022
+Afghanistan,Zone sans risque,
 Angola,Zone sans risque,
 Albanie,Zone à fort risque,depuis le 16/01/2022
-Andorre,Zone à fort risque,depuis le 19/12/2021
-Émirats arabes unis,Zone à fort risque,depuis le 09/01/2022
+Andorre,Zone sans risque,
+Émirats arabes unis,Zone sans risque,
 Argentine,Zone à fort risque,depuis le 09/01/2022
 Arménie,Zone à fort risque,depuis le 06/02/2022
 Antigua-et-Barbuda,Zone à fort risque,depuis le 16/01/2022
@@ -48,19 +48,19 @@ Djibouti,Zone sans risque,
 Dominique,Zone à fort risque,depuis le 22/08/2021
 Danemark,Zone à fort risque,depuis le 19/12/2021
 République Dominicaine,Zone sans risque,
-Algérie,Zone à fort risque,depuis le 23/01/2022
+Algérie,Zone sans risque,
 Équateur,Zone à fort risque,depuis le 23/01/2022
 Égypte,Zone à fort risque,depuis le 24/01/2021
 Érythrée,Zone sans risque,
-Espagne,Zone à fort risque,depuis le 25/12/2021
+Espagne,Zone sans risque,
 Estonie,Zone à fort risque,depuis le 09/01/2022
 Éthiopie,Zone sans risque,
 Finlande,Zone à fort risque,depuis le 25/12/2021
-Fidji,Zone à fort risque,depuis le 09/01/2022
-France,Zone à fort risque,"depuis le 19/12/2021. Le niveau de risque concerne les régions suivantes: -Guyane Française, depuis le 09/01/2022; -Guadeloupe, depuis le 09/01/2022; -Martinique, depuis le 09/01/2022; -Mayotte, depuis le 09/01/2022; -Nouvelle-Calédonie, depuis le 30/01/2022; -Réunion, Île de la, depuis le 19/12/2021; -St. Barthélemy, depuis le 09/01/2022; -St. Martin, depuis le 09/01/2022; -Saint-Pierre-et-Miquelon, depuis le 16/01/2022"
+Fidji,Zone sans risque,
+France,Zone à fort risque,"depuis le 19/12/2021. Le niveau de risque concerne les régions suivantes: -Guadeloupe, depuis le 09/01/2022; -Martinique, depuis le 09/01/2022; -Nouvelle-Calédonie, depuis le 30/01/2022; -Réunion, Île de la, depuis le 19/12/2021; -St. Barthélemy, depuis le 09/01/2022; -St. Martin, depuis le 09/01/2022"
 Micronésie,Zone sans risque,
 Gabon,Zone sans risque,
-Royaume-Uni,Zone à fort risque,depuis le 04/01/2022
+Royaume-Uni,Zone sans risque,
 Géorgie,Zone à fort risque,depuis le 25/07/2021
 Ghana,Zone sans risque,
 Guinée,Zone sans risque,
@@ -77,8 +77,8 @@ Croatie,Zone à fort risque,depuis le 24/10/2021
 Haïti,Zone à fort risque,depuis le 08/08/2021
 Hongrie,Zone à fort risque,depuis le 14/11/2021
 Indonésie,Zone sans risque,
-Inde,Zone à fort risque,depuis le 23/01/2022
-Irlande,Zone à fort risque,depuis le 21/11/2021
+Inde,Zone sans risque,
+Irlande,Zone sans risque,
 Iran,Zone à fort risque,depuis le 13/02/2022
 Irak,Zone à fort risque,depuis le 30/01/2022
 Islande,Zone à fort risque,depuis le 09/01/2022
@@ -87,7 +87,7 @@ Italie,Zone à fort risque,depuis le 01/01/2022
 Jamaïque,Zone sans risque,
 Jordanie,Zone à fort risque,depuis le 05/12/2021
 Japon,Zone à fort risque,depuis le 23/01/2022
-Kazakhstan,Zone à fort risque,depuis le 23/01/2022
+Kazakhstan,Zone sans risque,
 Kenya,Zone sans risque,
 Kirghizistan,Zone sans risque,
 Cambodge,Zone sans risque,
@@ -95,7 +95,7 @@ Kiribati,Zone sans risque,
 Saint-Kitts-et-Nevis,Zone sans risque,
 Corée du Sud,Zone sans risque,
 Koweït,Zone à fort risque,depuis le 09/01/2022
-Laos,Zone à fort risque,depuis le 14/11/2021
+Laos,Zone sans risque,
 Liban,Zone à fort risque,depuis le 19/12/2021
 Libéria,Zone sans risque,
 Libye,Zone à fort risque,depuis le 18/07/2021
@@ -106,7 +106,7 @@ Lesotho,Zone sans risque,
 Lituanie,Zone à fort risque,depuis le 03/10/2021
 Luxembourg,Zone à fort risque,depuis le 09/01/2022
 Lettonie,Zone à fort risque,depuis le 16/01/2022
-Maroc,Zone à fort risque,depuis le 23/01/2022
+Maroc,Zone sans risque,
 Monaco,Zone à fort risque,depuis le 25/12/2021
 Moldavie,Zone à fort risque,depuis le 23/01/2022
 Madagascar,Zone à fort risque,depuis le 16/01/2022
@@ -131,11 +131,11 @@ Nicaragua,Zone sans risque,
 Nioue,Zone sans risque,
 Pays-Bas,Zone à fort risque,"depuis le 21/11/2021. Le niveau de risque concerne les régions suivantes: -Aruba, depuis le 09/01/2022; -Bonaire, depuis le 27/07/2021; -Curaçao, depuis le 09/01/2022; -Saba, depuis le 27/07/2021; -St. Eustatius, depuis le 27/07/2021; -St. Martin, depuis le 16/01/2022"
 Norvège,Zone à fort risque,depuis le 19/12/2021
-Népal,Zone à fort risque,depuis le 23/01/2022
+Népal,Zone sans risque,
 Nauru,Zone sans risque,
 Nouvelle-Zélande,Zone sans risque,
 Oman,Zone à fort risque,depuis le 30/01/2022
-Pakistan,Zone à fort risque,depuis le 30/01/2022
+Pakistan,Zone sans risque,
 Panama,Zone à fort risque,depuis le 09/01/2022
 Pérou,Zone à fort risque,depuis le 16/01/2022
 Philippines,Zone à fort risque,depuis le 16/01/2022
@@ -146,11 +146,11 @@ Corée du Nord,Zone à fort risque,depuis le 08/08/2021
 Portugal,Zone à fort risque,depuis le 25/12/2021
 Paraguay,Zone à fort risque,depuis le 23/01/2022
 Palestine,Zone à fort risque,depuis le 06/02/2022
-Qatar,Zone à fort risque,depuis le 09/01/2022
+Qatar,Zone sans risque,
 Roumanie,Zone à fort risque,depuis le 23/01/2022
 Russie,Zone à fort risque,depuis le 07/07/2021
 Rwanda,Zone sans risque,
-Arabie saoudite,Zone à fort risque,depuis le 23/01/2022
+Arabie saoudite,Zone sans risque,
 Soudan,Zone sans risque,
 Sénégal,Zone sans risque,
 Singapour,Zone à fort risque,depuis le 30/01/2022
@@ -177,15 +177,15 @@ Turkménistan,Zone à fort risque,depuis le 08/08/2021
 Timor-Leste,Zone sans risque,
 Tonga,Zone sans risque,
 Trinité-et-Tobago,Zone à fort risque,depuis le 08/08/2021
-Tunisie,Zone à fort risque,depuis le 23/01/2022
+Tunisie,Zone sans risque,
 Turquie,Zone à fort risque,depuis le 17/08/2021
 Tuvalu,Zone sans risque,
 République unie de Tanzanie,Zone sans risque,
 Ouganda,Zone sans risque,
 Ukraine,Zone à fort risque,depuis le 30/01/2022
 Uruguay,Zone à fort risque,depuis le 09/01/2022
-États-Unis,Zone à fort risque,depuis le 25/12/2021
-Ouzbékistan,Zone à fort risque,depuis le 23/01/2022
+États-Unis,Zone sans risque,
+Ouzbékistan,Zone sans risque,
 Vatican,Zone sans risque,
 Saint-Vincent-et-les-Grenadines,Zone sans risque,
 Vénézuela,Zone à fort risque,depuis le 19/09/2021

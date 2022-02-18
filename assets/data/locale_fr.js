@@ -2,7 +2,7 @@ var locale = {'more_info': "Plus d'informations", 'risk_level': 'Niveau de risqu
 var info_rki = {
  "AFG":{
   "name":"Afghanistan",
-  "info":"depuis le 30\/01\/2022"
+  "info":""
  },
  "AGO":{
   "name":"Angola",
@@ -14,11 +14,11 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorre",
-  "info":"depuis le 19\/12\/2021"
+  "info":""
  },
  "ARE":{
   "name":"Émirats arabes unis",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "ARG":{
   "name":"Argentine",
@@ -198,7 +198,7 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algérie",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "ECU":{
   "name":"Équateur",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Espagne",
-  "info":"depuis le 25\/12\/2021"
+  "info":""
  },
  "EST":{
   "name":"Estonie",
@@ -230,11 +230,11 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidji",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 19\/12\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guyane Française, depuis le 09\/01\/2022<\/li><li>Guadeloupe, depuis le 09\/01\/2022<\/li><li>Martinique, depuis le 09\/01\/2022<\/li><li>Mayotte, depuis le 09\/01\/2022<\/li><li>Nouvelle-Calédonie, depuis le 30\/01\/2022<\/li><li>Réunion, Île de la, depuis le 19\/12\/2021<\/li><li>St. Barthélemy, depuis le 09\/01\/2022<\/li><li>St. Martin, depuis le 09\/01\/2022<\/li><li>Saint-Pierre-et-Miquelon, depuis le 16\/01\/2022<\/li><\/ul>"
+  "info":"depuis le 19\/12\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guadeloupe, depuis le 09\/01\/2022<\/li><li>Martinique, depuis le 09\/01\/2022<\/li><li>Nouvelle-Calédonie, depuis le 30\/01\/2022<\/li><li>Réunion, Île de la, depuis le 19\/12\/2021<\/li><li>St. Barthélemy, depuis le 09\/01\/2022<\/li><li>St. Martin, depuis le 09\/01\/2022<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Royaume-Uni",
-  "info":"depuis le 04\/01\/2022"
+  "info":""
  },
  "GEO":{
   "name":"Géorgie",
@@ -314,11 +314,11 @@ var info_rki = {
  },
  "IND":{
   "name":"Inde",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "IRL":{
   "name":"Irlande",
-  "info":"depuis le 21\/11\/2021"
+  "info":""
  },
  "IRN":{
   "name":"Iran",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakhstan",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "KEN":{
   "name":"Kenya",
@@ -386,7 +386,7 @@ var info_rki = {
  },
  "LAO":{
   "name":"Laos",
-  "info":"depuis le 14\/11\/2021"
+  "info":""
  },
  "LBN":{
   "name":"Liban",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Maroc",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "MCO":{
   "name":"Monaco",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Népal",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -546,7 +546,7 @@ var info_rki = {
  },
  "PAK":{
   "name":"Pakistan",
-  "info":"depuis le 30\/01\/2022"
+  "info":""
  },
  "PAN":{
   "name":"Panama",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Qatar",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "ROU":{
   "name":"Roumanie",
@@ -606,7 +606,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Arabie saoudite",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "SDN":{
   "name":"Soudan",
@@ -714,7 +714,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunisie",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "TUR":{
   "name":"Turquie",
@@ -742,11 +742,11 @@ var info_rki = {
  },
  "USA":{
   "name":"États-Unis",
-  "info":"depuis le 25\/12\/2021"
+  "info":""
  },
  "UZB":{
   "name":"Ouzbékistan",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "VAT":{
   "name":"Vatican",

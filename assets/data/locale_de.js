@@ -2,7 +2,7 @@ var locale = {'more_info': 'Mehr Info', 'risk_level': 'Risikoeinstufung', 'risk_
 var info_rki = {
  "AFG":{
   "name":"Afghanistan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 30. Januar 2022"
+  "info":""
  },
  "AGO":{
   "name":"Angola",
@@ -14,11 +14,11 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021"
+  "info":""
  },
  "ARE":{
   "name":"Vereinigte Arabische Emirate",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022"
+  "info":""
  },
  "ARG":{
   "name":"Argentinien",
@@ -94,7 +94,7 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brasilien",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
  },
  "BRB":{
   "name":"Barbados",
@@ -190,7 +190,7 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dänemark",
-  "info":"inklusive der Färöer und Grönland (<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021) "
+  "info":"inklusive der Färöer und Grönland (<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021)"
  },
  "DOM":{
   "name":"Dominikanische Republik",
@@ -198,11 +198,11 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algerien",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":""
  },
  "ECU":{
   "name":"Ecuador",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
  },
  "EGY":{
   "name":"Ägypten",
@@ -214,7 +214,7 @@ var info_rki = {
  },
  "ESP":{
   "name":"Spanien",
-  "info":"inkl. der Balearen und Kanarischen Inseln (<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021)"
+  "info":""
  },
  "EST":{
   "name":"Estland",
@@ -230,11 +230,11 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidschi",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022"
+  "info":""
  },
  "FRA":{
   "name":"Frankreich",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021) und die folgenden Übersee-Departements und Überseegebiete gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Französisch-Guayana (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Guadeloupe (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Martinique (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Mayotte (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Neukaledonien (<strong>Hochrisikogebiet<\/strong> seit 30. Januar 2022)<\/li><li>Réunion (<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021)<\/li><li>St. Martin (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>St. Barthélemy (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>St. Pierre und Miquelon (<strong>Hochrisikogebiet<\/strong> seit 16. Januar 2022)<\/li><\/ul>"
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021) und die folgenden Übersee-Departements und Überseegebiete gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Guadeloupe (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Martinique (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Neukaledonien (<strong>Hochrisikogebiet<\/strong> seit 30. Januar 2022)<\/li><li>Réunion (<strong>Hochrisikogebiet<\/strong> seit 19. Dezember 2021)<\/li><li>St. Martin (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>St. Barthélemy (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronesien",
@@ -246,7 +246,7 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (<strong>Hochrisikogebiet<\/strong> seit 4. Januar 2022)"
+  "info":""
  },
  "GEO":{
   "name":"Georgien",
@@ -314,11 +314,11 @@ var info_rki = {
  },
  "IND":{
   "name":"Indien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
+  "info":""
  },
  "IRL":{
   "name":"Irland",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 21. November 2021"
+  "info":""
  },
  "IRN":{
   "name":"Iran",
@@ -354,7 +354,7 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kasachstan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
+  "info":""
  },
  "KEN":{
   "name":"Kenia",
@@ -386,7 +386,7 @@ var info_rki = {
  },
  "LAO":{
   "name":"Laos",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 14. November 2021"
+  "info":""
  },
  "LBN":{
   "name":"Libanon",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Marokko",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
+  "info":""
  },
  "MCO":{
   "name":"Monaco",
@@ -438,7 +438,7 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldau",
-  "info":" Republik (<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022)"
+  "info":" Republik (<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022)"
  },
  "MDG":{
   "name":"Madagaskar",
@@ -446,7 +446,7 @@ var info_rki = {
  },
  "MDV":{
   "name":"Malediven",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
  },
  "MEX":{
   "name":"Mexiko",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 21. November 2021) und alle überseeischen Teile des Königreichs der Niederlande gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Aruba (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Bonaire (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Curaçao (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>St. Eustatius (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Saba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>St. Martin (<strong>Hochrisikogebiet<\/strong> seit 16. Januar 2022)<\/li><\/ul>"
+  "info":"(<strong>Hochrisikogebiet<\/strong> seit 21. November 2021) und alle überseeischen Teile des Königreichs der Niederlande gelten als <strong>Hochrisikogebiete<\/strong><ul><li>Aruba (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>Bonaire (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Curaçao (<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022)<\/li><li>St. Eustatius (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Saba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>St. Martin (<strong>Hochrisikogebiet<\/strong> seit 16. Januar 2022)<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegen",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -546,7 +546,7 @@ var info_rki = {
  },
  "PAK":{
   "name":"Pakistan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 30. Januar 2022"
+  "info":""
  },
  "PAN":{
   "name":"Panama",
@@ -578,7 +578,7 @@ var info_rki = {
  },
  "PRT":{
   "name":"Portugal",
-  "info":"inkl. der Azoren und Madeira (<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021)"
+  "info":"inkl. der Azoren und Madeira (<strong>Hochrisikogebiet <\/strong>seit 25. Dezember 2021)"
  },
  "PRY":{
   "name":"Paraguay",
@@ -590,11 +590,11 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 9. Januar 2022"
+  "info":""
  },
  "ROU":{
   "name":"Rumänien",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
  },
  "RUS":{
   "name":"Russische Föderation",
@@ -606,7 +606,7 @@ var info_rki = {
  },
  "SAU":{
   "name":"Saudi-Arabien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
+  "info":""
  },
  "SDN":{
   "name":"Sudan",
@@ -714,7 +714,7 @@ var info_rki = {
  },
  "TUN":{
   "name":"Tunesien",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":""
  },
  "TUR":{
   "name":"Türkei",
@@ -742,11 +742,11 @@ var info_rki = {
  },
  "USA":{
   "name":"Vereinigte Staaten",
-  "info":"von Amerika (<strong>Hochrisikogebiet<\/strong> seit 25. Dezember 2021)"
+  "info":""
  },
  "UZB":{
   "name":"Usbekistan",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":""
  },
  "VAT":{
   "name":"Vatikanstadt",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":"<strong>Hochrisikogebiet <\/strong>seit 23. Januar 2022"
+  "info":"<strong>Hochrisikogebiet<\/strong> seit 23. Januar 2022"
  },
  "YEM":{
   "name":"Jemen",
