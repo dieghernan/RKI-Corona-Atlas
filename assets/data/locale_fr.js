@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albanie",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "AND":{
   "name":"Andorre",
@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Argentine",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "ARM":{
   "name":"Arménie",
@@ -30,11 +30,11 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua-et-Barbuda",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "AUS":{
   "name":"Australie",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "AUT":{
   "name":"Autriche",
@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgique",
-  "info":"depuis le 21\/11\/2021"
+  "info":""
  },
  "BEN":{
   "name":"Bénin",
@@ -62,11 +62,11 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":"depuis le 30\/01\/2022"
+  "info":""
  },
  "BGR":{
   "name":"Bulgarie",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "BHR":{
   "name":"Bahreïn",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnie-Herzégovine",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "BLR":{
   "name":"Bélarus",
@@ -86,11 +86,11 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "BOL":{
   "name":"Bolivie",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "BRA":{
   "name":"Brésil",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Colombie",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "COM":{
   "name":"Comores",
@@ -202,7 +202,7 @@ var info_rki = {
  },
  "ECU":{
   "name":"Équateur",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "EGY":{
   "name":"Égypte",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"depuis le 19\/12\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Guadeloupe, depuis le 09\/01\/2022<\/li><li>Martinique, depuis le 09\/01\/2022<\/li><li>Nouvelle-Calédonie, depuis le 30\/01\/2022<\/li><li>Réunion, Île de la, depuis le 19\/12\/2021<\/li><li>St. Barthélemy, depuis le 09\/01\/2022<\/li><li>St. Martin, depuis le 09\/01\/2022<\/li><\/ul>"
+  "info":"depuis le 19\/12\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Martinique, depuis le 09\/01\/2022<\/li><li>Nouvelle-Calédonie, depuis le 30\/01\/2022<\/li><li>Réunion, Île de la, depuis le 19\/12\/2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronésie",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Grenade",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "GTM":{
   "name":"Guatemala",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "HKG":{
   "name":"Hong-Kong",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croatie",
-  "info":"depuis le 24\/10\/2021"
+  "info":""
  },
  "HTI":{
   "name":"Haïti",
@@ -306,7 +306,7 @@ var info_rki = {
  },
  "HUN":{
   "name":"Hongrie",
-  "info":"depuis le 14\/11\/2021"
+  "info":""
  },
  "IDN":{
   "name":"Indonésie",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":"depuis le 30\/01\/2022"
+  "info":""
  },
  "ISL":{
   "name":"Islande",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italie",
-  "info":"depuis le 01\/01\/2022"
+  "info":""
  },
  "JAM":{
   "name":"Jamaïque",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Sainte-Lucie",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -422,7 +422,7 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxembourg",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "LVA":{
   "name":"Lettonie",
@@ -438,11 +438,11 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldavie",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "MDG":{
   "name":"Madagascar",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "MDV":{
   "name":"Maldives",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Macédoine du Nord",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "MLI":{
   "name":"Mali",
@@ -474,7 +474,7 @@ var info_rki = {
  },
  "MNE":{
   "name":"Monténégro",
-  "info":"depuis le 15\/08\/2021"
+  "info":""
  },
  "MNG":{
   "name":"Mongolie",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Pays-Bas",
-  "info":"depuis le 21\/11\/2021. Le niveau de risque concerne les régions suivantes:<ul><li>Aruba, depuis le 09\/01\/2022<\/li><li>Bonaire, depuis le 27\/07\/2021<\/li><li>Curaçao, depuis le 09\/01\/2022<\/li><li>Saba, depuis le 27\/07\/2021<\/li><li>St. Eustatius, depuis le 27\/07\/2021<\/li><li>St. Martin, depuis le 16\/01\/2022<\/li><\/ul>"
+  "info":"depuis le 21\/11\/2021"
  },
  "NOR":{
   "name":"Norvège",
@@ -550,15 +550,15 @@ var info_rki = {
  },
  "PAN":{
   "name":"Panama",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "PER":{
   "name":"Pérou",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "PHL":{
   "name":"Philippines",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "PLW":{
   "name":"Palaos",
@@ -570,7 +570,7 @@ var info_rki = {
  },
  "POL":{
   "name":"Pologne",
-  "info":"depuis le 05\/12\/2021"
+  "info":""
  },
  "PRK":{
   "name":"Corée du Nord",
@@ -634,7 +634,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marin",
-  "info":"depuis le 01\/01\/2022"
+  "info":""
  },
  "SOM":{
   "name":"Somalie",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbie",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "SSD":{
   "name":"Soudan du Sud",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":"depuis le 16\/01\/2022"
+  "info":""
  },
  "SVK":{
   "name":"Slovaquie",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Suède",
-  "info":"depuis le 09\/01\/2022"
+  "info":""
  },
  "SWZ":{
   "name":"Eswatini",
@@ -674,7 +674,7 @@ var info_rki = {
  },
  "SYC":{
   "name":"Seychelles",
-  "info":"depuis le 14\/02\/2021"
+  "info":""
  },
  "SYR":{
   "name":"Syrie",
@@ -734,7 +734,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ukraine",
-  "info":"depuis le 30\/01\/2022"
+  "info":""
  },
  "URY":{
   "name":"Uruguay",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":"depuis le 23\/01\/2022"
+  "info":""
  },
  "YEM":{
   "name":"Yémen",

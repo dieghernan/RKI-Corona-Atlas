@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Arnavutluk",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "AND":{
   "name":"Andorra",
@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Arjantin",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "ARM":{
   "name":"Ermenistan",
@@ -30,11 +30,11 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua-Barbuda",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "AUS":{
   "name":"Avustralya",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "AUT":{
   "name":"Avusturya",
@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belçika",
-  "info":"21.11.2021'den beri"
+  "info":""
  },
  "BEN":{
   "name":"Benin",
@@ -62,11 +62,11 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladeş",
-  "info":"30.01.2022'den beri"
+  "info":""
  },
  "BGR":{
   "name":"Bulgaristan",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "BHR":{
   "name":"Bahreyn",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosna-Hersek",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "BLR":{
   "name":"Beyaz Rusya",
@@ -86,11 +86,11 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "BOL":{
   "name":"Bolivya",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "BRA":{
   "name":"Brezilya",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Kolombiya",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "COM":{
   "name":"Komorlar",
@@ -202,7 +202,7 @@ var info_rki = {
  },
  "ECU":{
   "name":"Ekvator",
-  "info":"23.01.2022'den beri"
+  "info":""
  },
  "EGY":{
   "name":"Mısır",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Guadalup, 09.01.2022'den beri<\/li><li>Martinik, 09.01.2022'den beri<\/li><li>Yeni Kaledonya, 30.01.2022'den beri<\/li><li>Réunion, 19.12.2021'den beri<\/li><li>St. Barthélemy, 09.01.2022'den beri<\/li><li>St. Martin, 09.01.2022'den beri<\/li><\/ul>"
+  "info":"19.12.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Martinik, 09.01.2022'den beri<\/li><li>Yeni Kaledonya, 30.01.2022'den beri<\/li><li>Réunion, 19.12.2021'den beri<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Granada",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "GTM":{
   "name":"Guatemala",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "HKG":{
   "name":"Hong Kong",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Hırvatistan",
-  "info":"24.10.2021'den beri"
+  "info":""
  },
  "HTI":{
   "name":"Haiti",
@@ -306,7 +306,7 @@ var info_rki = {
  },
  "HUN":{
   "name":"Macaristan",
-  "info":"14.11.2021'den beri"
+  "info":""
  },
  "IDN":{
   "name":"Endonezya",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Irak",
-  "info":"30.01.2022'den beri"
+  "info":""
  },
  "ISL":{
   "name":"İzlanda",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"İtalya",
-  "info":"01.01.2022'den beri"
+  "info":""
  },
  "JAM":{
   "name":"Jamaika",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Sen Lucia",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "LIE":{
   "name":"Lihtenştayn",
@@ -422,7 +422,7 @@ var info_rki = {
  },
  "LUX":{
   "name":"Lüksemburg",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "LVA":{
   "name":"Latviya",
@@ -438,11 +438,11 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldova",
-  "info":"23.01.2022'den beri"
+  "info":""
  },
  "MDG":{
   "name":"Madagaskar",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "MDV":{
   "name":"Maldivler",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Kuzey Makedonya",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "MLI":{
   "name":"Mali",
@@ -474,7 +474,7 @@ var info_rki = {
  },
  "MNE":{
   "name":"Karadağ",
-  "info":"15.08.2021'den beri"
+  "info":""
  },
  "MNG":{
   "name":"Moğolistan",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":"21.11.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Aruba, 09.01.2022'den beri<\/li><li>Bonaire, 27.07.2021'den beri<\/li><li>Curaçao, 09.01.2022'den beri<\/li><li>Saba, 27.07.2021'den beri<\/li><li>St. Eustatius, 27.07.2021'den beri<\/li><li>St. Martin, 16.01.2022'den beri<\/li><\/ul>"
+  "info":"21.11.2021'den beri"
  },
  "NOR":{
   "name":"Norveç",
@@ -550,15 +550,15 @@ var info_rki = {
  },
  "PAN":{
   "name":"Panama",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "PER":{
   "name":"Peru",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "PHL":{
   "name":"Filipinler",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "PLW":{
   "name":"Palau",
@@ -570,7 +570,7 @@ var info_rki = {
  },
  "POL":{
   "name":"Polonya",
-  "info":"05.12.2021'den beri"
+  "info":""
  },
  "PRK":{
   "name":"Kuzey Kore",
@@ -634,7 +634,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marino",
-  "info":"01.01.2022'den beri"
+  "info":""
  },
  "SOM":{
   "name":"Somali",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Sırbistan",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "SSD":{
   "name":"Güney Sudan",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":"16.01.2022'den beri"
+  "info":""
  },
  "SVK":{
   "name":"Slovakya",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"İsveç",
-  "info":"09.01.2022'den beri"
+  "info":""
  },
  "SWZ":{
   "name":"Esvatini",
@@ -674,7 +674,7 @@ var info_rki = {
  },
  "SYC":{
   "name":"Seyşeller",
-  "info":"14.02.2021'den beri"
+  "info":""
  },
  "SYR":{
   "name":"Suriye",
@@ -734,7 +734,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ukrayna",
-  "info":"30.01.2022'den beri"
+  "info":""
  },
  "URY":{
   "name":"Uruguay",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosova",
-  "info":"23.01.2022'den beri"
+  "info":""
  },
  "YEM":{
   "name":"Yemen",

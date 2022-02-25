@@ -10,7 +10,7 @@ var info_rki = {
  },
  "ALB":{
   "name":"Albania",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "AND":{
   "name":"Andorra",
@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Argentina",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "ARM":{
   "name":"Armenia",
@@ -30,11 +30,11 @@ var info_rki = {
  },
  "ATG":{
   "name":"Antigua and Barbuda",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "AUS":{
   "name":"Australia",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "AUT":{
   "name":"Austria",
@@ -50,7 +50,7 @@ var info_rki = {
  },
  "BEL":{
   "name":"Belgium",
-  "info":"since 21 Nov 2021"
+  "info":""
  },
  "BEN":{
   "name":"Benin",
@@ -62,11 +62,11 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesh",
-  "info":"since 30 Jan 2022"
+  "info":""
  },
  "BGR":{
   "name":"Bulgaria",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "BHR":{
   "name":"Bahrain",
@@ -78,7 +78,7 @@ var info_rki = {
  },
  "BIH":{
   "name":"Bosnia and Herzegovina",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "BLR":{
   "name":"Belarus",
@@ -86,11 +86,11 @@ var info_rki = {
  },
  "BLZ":{
   "name":"Belize",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "BOL":{
   "name":"Bolivia",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "BRA":{
   "name":"Brazil",
@@ -150,7 +150,7 @@ var info_rki = {
  },
  "COL":{
   "name":"Colombia",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "COM":{
   "name":"Comoros",
@@ -202,7 +202,7 @@ var info_rki = {
  },
  "ECU":{
   "name":"Ecuador",
-  "info":"since 23 Jan 2022"
+  "info":""
  },
  "EGY":{
   "name":"Egypt",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"France",
-  "info":"since 19 Dec 2021. The risk designation applies to the following regions:<ul><li>Guadeloupe, since 09 Jan 2022<\/li><li>Martinique, since 09 Jan 2022<\/li><li>New Caledonia, since 30 Jan 2022<\/li><li>Réunion, since 19 Dec 2021<\/li><li>St. Barthélemy, since 09 Jan 2022<\/li><li>St. Martin, since 09 Jan 2022<\/li><\/ul>"
+  "info":"since 19 Dec 2021. The risk designation applies to the following regions:<ul><li>Martinique, since 09 Jan 2022<\/li><li>New Caledonia, since 30 Jan 2022<\/li><li>Réunion, since 19 Dec 2021<\/li><\/ul>"
  },
  "FSM":{
   "name":"Micronesia",
@@ -278,7 +278,7 @@ var info_rki = {
  },
  "GRD":{
   "name":"Grenada",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "GTM":{
   "name":"Guatemala",
@@ -286,7 +286,7 @@ var info_rki = {
  },
  "GUY":{
   "name":"Guyana",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "HKG":{
   "name":"Hong Kong",
@@ -298,7 +298,7 @@ var info_rki = {
  },
  "HRV":{
   "name":"Croatia",
-  "info":"since 24 Oct 2021"
+  "info":""
  },
  "HTI":{
   "name":"Haiti",
@@ -306,7 +306,7 @@ var info_rki = {
  },
  "HUN":{
   "name":"Hungary",
-  "info":"since 14 Nov 2021"
+  "info":""
  },
  "IDN":{
   "name":"Indonesia",
@@ -326,7 +326,7 @@ var info_rki = {
  },
  "IRQ":{
   "name":"Iraq",
-  "info":"since 30 Jan 2022"
+  "info":""
  },
  "ISL":{
   "name":"Iceland",
@@ -338,7 +338,7 @@ var info_rki = {
  },
  "ITA":{
   "name":"Italy",
-  "info":"since 01 Jan 2022"
+  "info":""
  },
  "JAM":{
   "name":"Jamaica",
@@ -402,7 +402,7 @@ var info_rki = {
  },
  "LCA":{
   "name":"Saint Lucia",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -422,7 +422,7 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxembourg",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "LVA":{
   "name":"Latvia",
@@ -438,11 +438,11 @@ var info_rki = {
  },
  "MDA":{
   "name":"Moldova",
-  "info":"since 23 Jan 2022"
+  "info":""
  },
  "MDG":{
   "name":"Madagascar",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "MDV":{
   "name":"Maldives",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"North Macedonia",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "MLI":{
   "name":"Mali",
@@ -474,7 +474,7 @@ var info_rki = {
  },
  "MNE":{
   "name":"Montenegro",
-  "info":"since 15 Aug 2021"
+  "info":""
  },
  "MNG":{
   "name":"Mongolia",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Netherlands",
-  "info":"since 21 Nov 2021. The risk designation applies to the following regions:<ul><li>Aruba, since 09 Jan 2022<\/li><li>Bonaire, since 27 Jul 2021<\/li><li>Curaçao, since 09 Jan 2022<\/li><li>Saba, since 27 Jul 2021<\/li><li>St. Eustatius, since 27 Jul 2021<\/li><li>St. Martin, since 16 Jan 2022<\/li><\/ul>"
+  "info":"since 21 Nov 2021"
  },
  "NOR":{
   "name":"Norway",
@@ -550,15 +550,15 @@ var info_rki = {
  },
  "PAN":{
   "name":"Panama",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "PER":{
   "name":"Peru",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "PHL":{
   "name":"Philippines",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "PLW":{
   "name":"Palau",
@@ -570,7 +570,7 @@ var info_rki = {
  },
  "POL":{
   "name":"Poland",
-  "info":"since 05 Dec 2021"
+  "info":""
  },
  "PRK":{
   "name":"North Korea",
@@ -634,7 +634,7 @@ var info_rki = {
  },
  "SMR":{
   "name":"San Marino",
-  "info":"since 01 Jan 2022"
+  "info":""
  },
  "SOM":{
   "name":"Somalia",
@@ -642,7 +642,7 @@ var info_rki = {
  },
  "SRB":{
   "name":"Serbia",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "SSD":{
   "name":"South Sudan",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Suriname",
-  "info":"since 16 Jan 2022"
+  "info":""
  },
  "SVK":{
   "name":"Slovakia",
@@ -666,7 +666,7 @@ var info_rki = {
  },
  "SWE":{
   "name":"Sweden",
-  "info":"since 09 Jan 2022"
+  "info":""
  },
  "SWZ":{
   "name":"Eswatini",
@@ -674,7 +674,7 @@ var info_rki = {
  },
  "SYC":{
   "name":"Seychelles",
-  "info":"since 14 Feb 2021"
+  "info":""
  },
  "SYR":{
   "name":"Syria",
@@ -734,7 +734,7 @@ var info_rki = {
  },
  "UKR":{
   "name":"Ukraine",
-  "info":"since 30 Jan 2022"
+  "info":""
  },
  "URY":{
   "name":"Uruguay",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":"since 23 Jan 2022"
+  "info":""
  },
  "YEM":{
   "name":"Yemen",
