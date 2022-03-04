@@ -26,7 +26,7 @@ var info_rki = {
  },
  "ARM":{
   "name":"Armenia",
-  "info":"od 06.02.2022"
+  "info":""
  },
  "ATG":{
   "name":"Antigua i Barbuda",
@@ -38,11 +38,11 @@ var info_rki = {
  },
  "AUT":{
   "name":"Austria",
-  "info":"od 16.01.2022. Z wyjątkiem następujących regionów:<ul><li>Eben am Achensee<\/li><li>Jungholz<\/li><li>Mittelberg<\/li><li>Rißtal<\/li><\/ul>"
+  "info":""
  },
  "AZE":{
   "name":"Azerbejdżan",
-  "info":"od 06.02.2022"
+  "info":""
  },
  "BDI":{
   "name":"Burundi",
@@ -70,7 +70,7 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrajn",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "BHS":{
   "name":"Bahamy",
@@ -82,7 +82,7 @@ var info_rki = {
  },
  "BLR":{
   "name":"Białoruś",
-  "info":"od 03.10.2021"
+  "info":""
  },
  "BLZ":{
   "name":"Belize",
@@ -94,11 +94,11 @@ var info_rki = {
  },
  "BRA":{
   "name":"Brazylia",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "BRB":{
   "name":"Barbados",
-  "info":"od 19.09.2021"
+  "info":""
  },
  "BRN":{
   "name":"Brunei",
@@ -106,7 +106,7 @@ var info_rki = {
  },
  "BTN":{
   "name":"Bhutan",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "BWA":{
   "name":"Botswana",
@@ -122,11 +122,11 @@ var info_rki = {
  },
  "CHE":{
   "name":"Szwajcaria",
-  "info":"od 05.12.2021"
+  "info":""
  },
  "CHL":{
   "name":"Chile",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "CHN":{
   "name":"Chiny",
@@ -162,7 +162,7 @@ var info_rki = {
  },
  "CRI":{
   "name":"Kostaryka",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "CUB":{
   "name":"Kuba",
@@ -170,11 +170,11 @@ var info_rki = {
  },
  "CYP":{
   "name":"Cypr",
-  "info":"od 25.12.2021"
+  "info":""
  },
  "CZE":{
   "name":"Czechy",
-  "info":"od 14.11.2021"
+  "info":""
  },
  "DEU":{
   "name":"Niemcy",
@@ -186,11 +186,11 @@ var info_rki = {
  },
  "DMA":{
   "name":"Dominika",
-  "info":"od 22.08.2021"
+  "info":""
  },
  "DNK":{
   "name":"Dania",
-  "info":"od 19.12.2021"
+  "info":""
  },
  "DOM":{
   "name":"Dominikana",
@@ -206,7 +206,7 @@ var info_rki = {
  },
  "EGY":{
   "name":"Egipt",
-  "info":"od 24.01.2021"
+  "info":""
  },
  "ERI":{
   "name":"Erytrea",
@@ -218,7 +218,7 @@ var info_rki = {
  },
  "EST":{
   "name":"Estonia",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "ETH":{
   "name":"Etiopia",
@@ -226,7 +226,7 @@ var info_rki = {
  },
  "FIN":{
   "name":"Finlandia",
-  "info":"od 25.12.2021"
+  "info":""
  },
  "FJI":{
   "name":"Fidżi",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":"od 19.12.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Martynika, od 09.01.2022<\/li><li>Nowa Kaledonia, od 30.01.2022<\/li><li>Reunion, od 19.12.2021<\/li><\/ul>"
+  "info":""
  },
  "FSM":{
   "name":"Mikronezja",
@@ -250,7 +250,7 @@ var info_rki = {
  },
  "GEO":{
   "name":"Gruzja",
-  "info":"od 25.07.2021"
+  "info":""
  },
  "GHA":{
   "name":"Ghana",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Grecja",
-  "info":"od 21.11.2021"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
@@ -282,7 +282,7 @@ var info_rki = {
  },
  "GTM":{
   "name":"Gwatemala",
-  "info":"od 30.01.2022"
+  "info":""
  },
  "GUY":{
   "name":"Gujana",
@@ -302,7 +302,7 @@ var info_rki = {
  },
  "HTI":{
   "name":"Haiti",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "HUN":{
   "name":"Węgry",
@@ -322,7 +322,7 @@ var info_rki = {
  },
  "IRN":{
   "name":"Iran",
-  "info":"od 13.02.2022"
+  "info":""
  },
  "IRQ":{
   "name":"Irak",
@@ -330,11 +330,11 @@ var info_rki = {
  },
  "ISL":{
   "name":"Islandia",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "ISR":{
   "name":"Izrael",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "ITA":{
   "name":"Włochy",
@@ -346,11 +346,11 @@ var info_rki = {
  },
  "JOR":{
   "name":"Jordania",
-  "info":"od 05.12.2021"
+  "info":""
  },
  "JPN":{
   "name":"Japonia",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "KAZ":{
   "name":"Kazachstan",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwejt",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "LAO":{
   "name":"Laos",
@@ -390,7 +390,7 @@ var info_rki = {
  },
  "LBN":{
   "name":"Liban",
-  "info":"od 19.12.2021"
+  "info":""
  },
  "LBR":{
   "name":"Liberia",
@@ -398,7 +398,7 @@ var info_rki = {
  },
  "LBY":{
   "name":"Libia",
-  "info":"od 18.07.2021"
+  "info":""
  },
  "LCA":{
   "name":"Saint Lucia",
@@ -406,7 +406,7 @@ var info_rki = {
  },
  "LIE":{
   "name":"Liechtenstein",
-  "info":"od 05.12.2021"
+  "info":""
  },
  "LKA":{
   "name":"Sri Lanka",
@@ -418,7 +418,7 @@ var info_rki = {
  },
  "LTU":{
   "name":"Litwa",
-  "info":"od 03.10.2021"
+  "info":""
  },
  "LUX":{
   "name":"Luksemburg",
@@ -426,7 +426,7 @@ var info_rki = {
  },
  "LVA":{
   "name":"Łotwa",
-  "info":"od 16.01.2022"
+  "info":""
  },
  "MAR":{
   "name":"Maroko",
@@ -434,7 +434,7 @@ var info_rki = {
  },
  "MCO":{
   "name":"Monako",
-  "info":"od 25.12.2021"
+  "info":""
  },
  "MDA":{
   "name":"Mołdawia",
@@ -446,11 +446,11 @@ var info_rki = {
  },
  "MDV":{
   "name":"Malediwy",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "MEX":{
   "name":"Meksyk",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "MHL":{
   "name":"Wyspy Marshalla",
@@ -478,7 +478,7 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolia",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "MOZ":{
   "name":"Mozambik",
@@ -522,11 +522,11 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":"od 21.11.2021"
+  "info":""
  },
  "NOR":{
   "name":"Norwegia",
-  "info":"od 19.12.2021"
+  "info":""
  },
  "NPL":{
   "name":"Nepal",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"od 30.01.2022"
+  "info":""
  },
  "PAK":{
   "name":"Pakistan",
@@ -562,11 +562,11 @@ var info_rki = {
  },
  "PLW":{
   "name":"Palau",
-  "info":"od 30.01.2022"
+  "info":""
  },
  "PNG":{
   "name":"Papua-Nowa Gwinea",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "POL":{
   "name":"Polska",
@@ -574,19 +574,19 @@ var info_rki = {
  },
  "PRK":{
   "name":"Korea Północna",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "PRT":{
   "name":"Portugalia",
-  "info":"od 25.12.2021"
+  "info":""
  },
  "PRY":{
   "name":"Paragwaj",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "PSE":{
   "name":"Palestyna",
-  "info":"od 06.02.2022"
+  "info":""
  },
  "QAT":{
   "name":"Katar",
@@ -594,11 +594,11 @@ var info_rki = {
  },
  "ROU":{
   "name":"Rumunia",
-  "info":"od 23.01.2022"
+  "info":""
  },
  "RUS":{
   "name":"Federacja Rosyjska",
-  "info":"od 07.07.2021"
+  "info":""
  },
  "RWA":{
   "name":"Ruanda",
@@ -618,7 +618,7 @@ var info_rki = {
  },
  "SGP":{
   "name":"Singapur",
-  "info":"od 30.01.2022"
+  "info":""
  },
  "SLB":{
   "name":"Wyspy Salomona",
@@ -658,11 +658,11 @@ var info_rki = {
  },
  "SVK":{
   "name":"Słowacja",
-  "info":"od 31.10.2021"
+  "info":""
  },
  "SVN":{
   "name":"Słowenia",
-  "info":"od 26.09.2021"
+  "info":""
  },
  "SWE":{
   "name":"Szwecja",
@@ -678,7 +678,7 @@ var info_rki = {
  },
  "SYR":{
   "name":"Syria",
-  "info":"od 31.01.2021"
+  "info":""
  },
  "TCD":{
   "name":"Czad",
@@ -694,11 +694,11 @@ var info_rki = {
  },
  "TJK":{
   "name":"Tadżykistan",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "TKM":{
   "name":"Turkmenistan",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "TLS":{
   "name":"Timor Wschodni",
@@ -710,7 +710,7 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trynidad i Tobago",
-  "info":"od 08.08.2021"
+  "info":""
  },
  "TUN":{
   "name":"Tunezja",
@@ -718,7 +718,7 @@ var info_rki = {
  },
  "TUR":{
   "name":"Turcja",
-  "info":"od 17.08.2021"
+  "info":""
  },
  "TUV":{
   "name":"Tuvalu",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Urugwaj",
-  "info":"od 09.01.2022"
+  "info":""
  },
  "USA":{
   "name":"Stany Zjednoczone",
@@ -758,11 +758,11 @@ var info_rki = {
  },
  "VEN":{
   "name":"Wenezuela",
-  "info":"od 19.09.2021"
+  "info":""
  },
  "VNM":{
   "name":"Vietnam",
-  "info":"od 15.08.2021"
+  "info":""
  },
  "VUT":{
   "name":"Vanuatu",
@@ -778,7 +778,7 @@ var info_rki = {
  },
  "YEM":{
   "name":"Jemen",
-  "info":"od 10.10.2021"
+  "info":""
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",
