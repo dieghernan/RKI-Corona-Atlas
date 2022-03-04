@@ -364,7 +364,7 @@ class RKISpider(scrapy.Spider):
         reg_dict.update(regions_translated)
         reg_dict.update({"region": True, "NUTS_CODE": nuts_regions,
                          "risk_date": dates_regions, "INFO_DE": info_regions})
-        df_regions = pd.DataFrame(reg_dict)
+        df_regions = pd.DataFrame(reg_dict).astype({n: str for n in names})
         df_regions = df_regions.sort_values(["ISO3_CODE", "NAME_DE"])
 
         df_unknown = pd.DataFrame({"NAME_DE": name_err, "risk_level_code": risk_err, "INFO_DE": info_err,
