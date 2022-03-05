@@ -5,3 +5,4 @@
 project.Rproj
 __pycache__/
 *.py[cod]
+timelapse/data/
