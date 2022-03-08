@@ -21,6 +21,11 @@ jobs:
         with:
           pandoc-version: '2.7.3'
 
+      - name: Install libcurl
+        run: |
+          sudo apt-get update
+          sudo apt-get install libcurl4-openssl-dev
+
       - name: Restore R packages
         uses: r-lib/actions/setup-renv@v2
 
