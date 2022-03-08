@@ -90,7 +90,7 @@ jobs:
           
       - name: Install additional libraries for R
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
-        run: sudo apt-get update && install libcurl4-openssl-dev libudunits2-dev gdal-bin proj-bin libgdal-dev libproj-dev libharfbuzz-dev libfribidi-dev
+        run: sudo apt-get update && sudo apt-get install libcurl4-openssl-dev libudunits2-dev gdal-bin proj-bin libgdal-dev libproj-dev libharfbuzz-dev libfribidi-dev
           
 
       - name: Restore R packages
