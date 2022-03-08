@@ -21,13 +21,8 @@ jobs:
         with:
           pandoc-version: '2.7.3'
 
-      - name: Install additional libraries
-        run: |
-          sudo apt-get update
-          sudo apt-get install libcurl4-openssl-dev
-          sudo apt-get install libudunits2-dev
-          sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
-          sudo apt-get install libharfbuzz-dev libfribidi-dev
+      - name: Install additional libraries for R
+        run: sudo apt-get update && install libcurl4-openssl-dev libudunits2-dev gdal-bin proj-bin libgdal-dev libproj-dev libharfbuzz-dev libfribidi-dev
         
         
       - name: Restore R packages
