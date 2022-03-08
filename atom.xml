@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://corona-atlas.de/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://corona-atlas.de/" rel="alternate" type="text/html" />
-	<updated>2021-08-30T10:45:42+02:00</updated>
+	<updated>2022-03-08T10:40:14+01:00</updated>
 	<id>https://corona-atlas.de/atom.xml</id>
 	<title>Corona Atlas | Internationale COVID-19 Risikogebiete im Überblick</title>
 	<subtitle>Internationale COVID-19 Risikogebiete im Überblick</subtitle>
@@ -11,6 +11,6 @@
 		<name>Diego & Rodrigo</name>
 					
 	</author>
-	<rights>(c) 2021, Diego & Rodrigo</rights>
+	<rights>(c) 2022, Diego & Rodrigo</rights>
 	<icon>https://corona-atlas.de/assets/img/corona-atlas-icon.svg</icon>
 	<logo>https://corona-atlas.de/assets/img/og_corona_atlas.png</logo></feed>

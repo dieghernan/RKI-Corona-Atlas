@@ -22,7 +22,7 @@ var info_rki = {
  },
  "ARG":{
   "name":"Argentinien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 18. April 2021"
+  "info":""
  },
  "ARM":{
   "name":"Armenien",
@@ -62,7 +62,7 @@ var info_rki = {
  },
  "BGD":{
   "name":"Bangladesch",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "BGR":{
   "name":"Bulgarien",
@@ -90,18 +90,18 @@ var info_rki = {
  },
  "BOL":{
   "name":"Bolivien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Januar 2021"
+  "info":""
  },
  "BRA":{
   "name":"Brasilien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021, Virusvariantengebiet vom 19. Januar 2021 bis 21. August 2021"
+  "info":""
  },
  "BRB":{
   "name":"Barbados",
   "info":""
  },
  "BRN":{
-  "name":"Brunei",
+  "name":"Brunei Darussalam",
   "info":""
  },
  "BTN":{
@@ -110,7 +110,7 @@ var info_rki = {
  },
  "BWA":{
   "name":"Botsuana",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
@@ -145,12 +145,12 @@ var info_rki = {
   "info":""
  },
  "COG":{
-  "name":"Kongo Rep",
+  "name":"Kongo",
   "info":""
  },
  "COL":{
   "name":"Kolumbien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Januar 2021"
+  "info":""
  },
  "COM":{
   "name":"Komoren",
@@ -162,18 +162,18 @@ var info_rki = {
  },
  "CRI":{
   "name":"Costa Rica",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 9. Mai 2021"
+  "info":""
  },
  "CUB":{
   "name":"Kuba",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 18. Juli 2021"
+  "info":""
  },
  "CYP":{
   "name":"Zypern",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 11. Juli 2021"
+  "info":""
  },
  "CZE":{
-  "name":"Tschechien",
+  "name":"Tschechische Republik",
   "info":""
  },
  "DEU":{
@@ -186,7 +186,7 @@ var info_rki = {
  },
  "DMA":{
   "name":"Dominica",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
+  "info":""
  },
  "DNK":{
   "name":"Dänemark",
@@ -198,15 +198,15 @@ var info_rki = {
  },
  "DZA":{
   "name":"Algerien",
-  "info":"<strong>Hochrisikogebie<\/strong>t seit 8. August 2021"
+  "info":""
  },
  "ECU":{
   "name":"Ecuador",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 31. Januar 2021"
+  "info":""
  },
  "EGY":{
   "name":"Ägypten",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Januar 2021"
+  "info":""
  },
  "ERI":{
   "name":"Eritrea",
@@ -230,11 +230,11 @@ var info_rki = {
  },
  "FJI":{
   "name":"Fidschi",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 11. Juli 2021"
+  "info":""
  },
  "FRA":{
   "name":"Frankreich",
-  "info":"– die folgenden Regionen und französischen Überseegebiete gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Okzitanien (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Provence-Alpes-Côte d'Azur (<strong>Hochrisikogebiet <\/strong>seit 8. August 2021)<\/li><li>Korsika (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Guadeloupe (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Martinique (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Réunion (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>St. Barthélemy (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>St. Martin (<strong>Hochrisikogebiet<\/strong> seit 8. August 2021)<\/li><li>Französisch-Guayana (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)<\/li><li>Französisch-Polynesien (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)<\/li><\/ul>"
+  "info":""
  },
  "FSM":{
   "name":"Mikronesien",
@@ -246,11 +246,11 @@ var info_rki = {
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":"Großbritannien und Nordirland inkl. der Isle of Man sowie aller Kanalinseln und aller britischen Überseegebiete (<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021)"
+  "info":""
  },
  "GEO":{
   "name":"Georgien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 25. Juli 2021"
+  "info":""
  },
  "GHA":{
   "name":"Ghana",
@@ -274,7 +274,7 @@ var info_rki = {
  },
  "GRC":{
   "name":"Griechenland",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Kreta (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><li>Südliche Ägäis - darunter zählen Andros, Kalymnos, Karpathos-Kasos, Kea-Kythnos, Kos, Milos, Mykonos, Naxos, Paros, Rhodos, Syros, Thira und Tinos (<strong>Hochrisikogebiet<\/strong> seit 24. August 2021)<\/li><\/ul>"
+  "info":""
  },
  "GRD":{
   "name":"Grenada",
@@ -294,7 +294,7 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "HRV":{
   "name":"Kroatien",
@@ -302,7 +302,7 @@ var info_rki = {
  },
  "HTI":{
   "name":"Haiti",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "HUN":{
   "name":"Ungarn",
@@ -310,23 +310,23 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonesien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 18. Juli 2021"
+  "info":""
  },
  "IND":{
   "name":"Indien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021"
+  "info":""
  },
  "IRL":{
   "name":"Irland",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Border (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><li>West (<strong>Hochrisikogebiet<\/strong> seit 22. August 2021)<\/li><\/ul>"
+  "info":""
  },
  "IRN":{
   "name":"Iran",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 24. Januar 2021"
+  "info":""
  },
  "IRQ":{
   "name":"Irak",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "ISL":{
   "name":"Island",
@@ -334,7 +334,7 @@ var info_rki = {
  },
  "ISR":{
   "name":"Israel",
-  "info":"(<strong>Hochrisikogebiet<\/strong> seit 15. August 2021) mit Ausnahme der Palästinensischen Gebiete"
+  "info":""
  },
  "ITA":{
   "name":"Italien",
@@ -342,7 +342,7 @@ var info_rki = {
  },
  "JAM":{
   "name":"Jamaika",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
+  "info":""
  },
  "JOR":{
   "name":"Jordanien",
@@ -354,11 +354,11 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kasachstan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "KEN":{
   "name":"Kenia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 15. August 2021"
+  "info":""
  },
  "KGZ":{
   "name":"Kirgisistan",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"St. Kitts und Nevis",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
+  "info":""
  },
  "KOR":{
   "name":"Südkorea",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwait",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 21. März 2021"
+  "info":""
  },
  "LAO":{
   "name":"Laos",
@@ -398,11 +398,11 @@ var info_rki = {
  },
  "LBY":{
   "name":"Libyen",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 18. Juli 2021"
+  "info":""
  },
  "LCA":{
   "name":"St. Lucia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 29. August 2021"
+  "info":""
  },
  "LIE":{
   "name":"Liechtenstein",
@@ -414,7 +414,7 @@ var info_rki = {
  },
  "LSO":{
   "name":"Lesotho",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "LTU":{
   "name":"Litauen",
@@ -430,7 +430,7 @@ var info_rki = {
  },
  "MAR":{
   "name":"Marokko",
-  "info":"<strong>Hochrisikogebie<\/strong>t seit 8. August 2021"
+  "info":""
  },
  "MCO":{
   "name":"Monaco",
@@ -450,7 +450,7 @@ var info_rki = {
  },
  "MEX":{
   "name":"Mexiko",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "MHL":{
   "name":"Marshallinseln",
@@ -458,7 +458,7 @@ var info_rki = {
  },
  "MKD":{
   "name":"Nordmazedonien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
+  "info":""
  },
  "MLI":{
   "name":"Mali",
@@ -470,19 +470,19 @@ var info_rki = {
  },
  "MMR":{
   "name":"Myanmar",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "MNE":{
   "name":"Montenegro",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 15. August 2021"
+  "info":""
  },
  "MNG":{
   "name":"Mongolei",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 13. Juni 2021"
+  "info":""
  },
  "MOZ":{
   "name":"Mosambik",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "MRT":{
   "name":"Mauretanien",
@@ -494,15 +494,15 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "MYS":{
   "name":"Malaysia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 13. Juni 2021"
+  "info":""
  },
  "NAM":{
   "name":"Namibia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "NER":{
   "name":"Niger",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":"– die folgenden überseeischen Teile des Königreichs der Niederlande gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Aruba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Curaçao (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Bonaire (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Sint Eustatius (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Sint Maarten (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><li>Saba (<strong>Hochrisikogebiet<\/strong> seit 27. Juli 2021)<\/li><\/ul>"
+  "info":""
  },
  "NOR":{
   "name":"Norwegen",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021"
+  "info":""
  },
  "NRU":{
   "name":"Nauru",
@@ -542,7 +542,7 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 20. Juni 2021"
+  "info":""
  },
  "PAK":{
   "name":"Pakistan",
@@ -554,11 +554,11 @@ var info_rki = {
  },
  "PER":{
   "name":"Peru",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 3. April 2021"
+  "info":""
  },
  "PHL":{
   "name":"Philippinen",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua-Neuguinea",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "POL":{
   "name":"Polen",
@@ -574,15 +574,15 @@ var info_rki = {
  },
  "PRK":{
   "name":"Korea (Demokratische Volksrepublik)",
-  "info":" <strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "PRT":{
   "name":"Portugal",
-  "info":"- die folgenden Regionen gelten als <strong>Hochrisikogebiete<\/strong>:<ul><li>Algarve (<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021)<\/li><\/ul>"
+  "info":""
  },
  "PRY":{
   "name":"Paraguay",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 21. März 2021"
+  "info":""
  },
  "PSE":{
   "name":"Palästinensische Gebiete",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russische Föderation",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 7. Juli 2021"
+  "info":""
  },
  "RWA":{
   "name":"Ruanda",
@@ -610,11 +610,11 @@ var info_rki = {
  },
  "SDN":{
   "name":"Sudan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 31. Januar 2021"
+  "info":""
  },
  "SEN":{
   "name":"Senegal",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "SGP":{
   "name":"Singapur",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":" (<strong>Hochrisikogebiet<\/strong> seit 23. Mai 2021)"
+  "info":""
  },
  "SVK":{
   "name":"Slowakei",
@@ -670,15 +670,15 @@ var info_rki = {
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "SYC":{
   "name":"Seychellen",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 14. Februar 2021"
+  "info":""
  },
  "SYR":{
   "name":"Syrische Arabische Republik",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 31. Januar 2021"
+  "info":""
  },
  "TCD":{
   "name":"Tschad",
@@ -690,15 +690,15 @@ var info_rki = {
  },
  "THA":{
   "name":"Thailand",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "TJK":{
   "name":"Tadschikistan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "TKM":{
   "name":"Turkmenistan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "TLS":{
   "name":"Timor Leste",
@@ -710,15 +710,15 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad und Tobago",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "TUN":{
   "name":"Tunesien",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 25. April 2021"
+  "info":""
  },
  "TUR":{
   "name":"Türkei",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 17. August 2021"
+  "info":""
  },
  "TUV":{
   "name":"Tuvalu",
@@ -726,7 +726,7 @@ var info_rki = {
  },
  "TZA":{
   "name":"Tansania",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 14. März 2021"
+  "info":""
  },
  "UGA":{
   "name":"Uganda",
@@ -742,18 +742,18 @@ var info_rki = {
  },
  "USA":{
   "name":"Vereinigte Staaten",
-  "info":"von Amerika (<strong>Hochrisikogebiet<\/strong> seit 15. August 2021)"
+  "info":""
  },
  "UZB":{
   "name":"Usbekistan",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 8. August 2021"
+  "info":""
  },
  "VAT":{
   "name":"Vatikanstadt",
   "info":""
  },
  "VCT":{
-  "name":"Saint Vincent and The Grenadines",
+  "name":"St. Vincent und die Grenadinen",
   "info":""
  },
  "VEN":{
@@ -762,7 +762,7 @@ var info_rki = {
  },
  "VNM":{
   "name":"Vietnam",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 15. August 2021"
+  "info":""
  },
  "VUT":{
   "name":"Vanuatu",
@@ -774,7 +774,7 @@ var info_rki = {
  },
  "XKX":{
   "name":"Kosovo",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 22. August 2021"
+  "info":""
  },
  "YEM":{
   "name":"Jemen",
@@ -782,14 +782,14 @@ var info_rki = {
  },
  "ZAF":{
   "name":"Südafrika",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "ZMB":{
   "name":"Sambia",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  },
  "ZWE":{
   "name":"Simbabwe",
-  "info":"<strong>Hochrisikogebiet<\/strong> seit 1. August 2021"
+  "info":""
  }
 };
