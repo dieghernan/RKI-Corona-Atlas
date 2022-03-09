@@ -6,6 +6,8 @@ library(dplyr)
 library(readr)
 library(tidyr)
 library(ggplot2)
+library(sysfonts)
+library(showtext)
 
 
 # Import and tidy csv----
@@ -53,8 +55,19 @@ bck <- st_graticule() %>%
 
 
 # Plot loop ----
-files <- file.path("_R", "timelapse", paste0("D", dates, ".png"))
 
+# Font
+
+font_add("roboto",
+  regular = "assets/fonts/Roboto-Regular.ttf",
+  bold = "assets/fonts/Roboto-Bold.ttf",
+  italic = "assets/fonts/Roboto-Italic.ttf"
+)
+
+showtext_auto()
+
+
+files <- file.path("_R", "timelapse", paste0("D", dates, ".png"))
 
 alldates <- dates
 
@@ -99,18 +112,18 @@ for (i in seq_len(length(alldates))) {
     theme(
       plot.background = element_rect(fill = "white", color = NA),
       text = element_text(family = "roboto"),
-      plot.title = element_text(hjust = .5, face = "bold", size = 10),
-      plot.subtitle = element_text(hjust = .5, size = 5, face = "italic"),
-      plot.caption = element_text(size = 5, face = "italic"),
-      plot.margin = margin(0, 0, 0, 0),
-      legend.text = element_text(size = 4),
+      plot.title = element_text(hjust = .5, face = "bold", size = 50),
+      plot.subtitle = element_text(hjust = .5, size = 20, face = "italic"),
+      plot.caption = element_text(size = 12, face = "italic"),
+      plot.margin = margin(0, 10, 0, 10),
+      legend.text = element_text(size = 15),
       legend.position = "bottom",
       legend.margin = margin(b = 5, 0, 0, 0)
     ) +
     labs(
       title = "Corona Atlas",
       subtitle = as.character(d),
-      caption = "Data: Robert Koch Institut ",
+      caption = "Data: Robert Koch Institut   ",
       fill = ""
     ) +
     geom_sf(data = deu, fill = "blue", size = 0.01)
