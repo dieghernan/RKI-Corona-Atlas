@@ -363,6 +363,14 @@
         "withr"
       ]
     },
+    "gifski": {
+      "Package": "gifski",
+      "Version": "1.4.3-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "73d7566604b51f704a2f33b2efef470c",
+      "Requirements": []
+    },
     "giscoR": {
       "Package": "giscoR",
       "Version": "0.3.1",
@@ -620,6 +628,18 @@
         "Rcpp",
         "sf",
         "units"
+      ]
+    },
+    "magick": {
+      "Package": "magick",
+      "Version": "2.7.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "56fbad418aa50939ed8c3028126af8d7",
+      "Requirements": [
+        "Rcpp",
+        "curl",
+        "magrittr"
       ]
     },
     "magrittr": {
@@ -1065,6 +1085,26 @@
         "pillar",
         "pkgconfig",
         "rlang",
+        "vctrs"
+      ]
+    },
+    "tidyr": {
+      "Package": "tidyr",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d8b95b7fee945d7da6888cf7eb71a49c",
+      "Requirements": [
+        "cpp11",
+        "dplyr",
+        "ellipsis",
+        "glue",
+        "lifecycle",
+        "magrittr",
+        "purrr",
+        "rlang",
+        "tibble",
+        "tidyselect",
         "vctrs"
       ]
     },
