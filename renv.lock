@@ -630,18 +630,6 @@
         "units"
       ]
     },
-    "magick": {
-      "Package": "magick",
-      "Version": "2.7.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "56fbad418aa50939ed8c3028126af8d7",
-      "Requirements": [
-        "Rcpp",
-        "curl",
-        "magrittr"
-      ]
-    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.2",

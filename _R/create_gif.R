@@ -1,5 +1,4 @@
 
-library(magick)
 library(gifski)
 library(sf)
 library(dplyr)
@@ -69,7 +68,7 @@ showtext_auto()
 
 files <- file.path("_R", "timelapse", paste0("D", dates, ".png"))
 
-alldates <- dates
+alldates <- dates[1:31]
 
 for (i in seq_len(length(alldates))) {
   d <- alldates[i]
@@ -203,11 +202,20 @@ arrange_anim <- c(
   rep(allf[length(allf)], 28)
 )
 
-img_arrange <- image_read(arrange_anim)
 
-image_write_gif(img_arrange,
-  "assets/img/corona_atlas_timelapse.gif",
-  loop = TRUE,
-  progress = TRUE,
-  delay = 1 / 14
+
+gifski(arrange_anim, "assets/img/corona_atlas_timelapse.gif",
+  delay = 1 / 14,
+  width = 1000, height = 1000
 )
+
+
+# Old test with magick
+# img_arrange <- image_read(arrange_anim)
+#
+# image_write_gif(img_arrange,
+#   "assets/img/corona_atlas_timelapse.gif",
+#   loop = TRUE,
+#   progress = TRUE,
+#   delay = 1 / 14
+# )
