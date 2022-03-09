@@ -68,7 +68,7 @@ showtext_auto()
 
 files <- file.path("_R", "timelapse", paste0("D", dates, ".png"))
 
-alldates <- dates[1:31]
+alldates <- dates
 
 for (i in seq_len(length(alldates))) {
   d <- alldates[i]
