@@ -56,7 +56,7 @@ bck <- st_graticule() %>%
 files <- file.path("_R", "timelapse", paste0("D", dates, ".png"))
 
 
-alldates <- dates[1:10]
+alldates <- dates
 
 for (i in seq_len(length(alldates))) {
   d <- alldates[i]
