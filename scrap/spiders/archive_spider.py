@@ -54,6 +54,14 @@ class RKISpider(scrapy.Spider):
     h2_xpath = "//div[contains(@class, 'text')]/h2"
     li_xpath = "//following-sibling::ul[1]/li"
 
+    @classmethod
+    def get_risk_headers(cls, response):
+        return response.xpath(f"{cls.h2_xpath}/text()")
+
+    @classmethod
+    def get_states(cls, response, header_index):
+        return response.xpath(f"({cls.h2_xpath})[{header_index}]{cls.li_xpath}")
+
     regex_exclude = r'ausgenommen'
 
     NO_MATCH = -1
@@ -197,7 +205,7 @@ class RKISpider(scrapy.Spider):
         iso3_names = db_old[["ISO3_CODE", "NAME_DE"]]
         iso3_de_lut = iso3_names.set_index("NAME_DE")["ISO3_CODE"].to_dict()
 
-        risk_headers = response.xpath(f"{self.h2_xpath}/text()")
+        risk_headers = self.get_risk_headers(response)
         df_collector = {self.NO_RISK: None, self.RISK: None, self.HI_INC: None, self.VARIANT: None}
 
         for i_h, h in enumerate(risk_headers, 1):
@@ -213,7 +221,7 @@ class RKISpider(scrapy.Spider):
                 print(f"\t{h_text}")
                 date_ppt = "bis" if code == self.NO_RISK else "seit"
 
-                states = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}")
+                states = self.get_states(response, i_h)
 
                 risk_dates = []
 
