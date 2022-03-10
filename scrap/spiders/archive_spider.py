@@ -34,22 +34,25 @@ class RKISpider(scrapy.Spider):
     handle_httpstatus_list = [200, 404, 500]
 
     alias = {'BLR': ('Belarus',),
+             'BIH': ('Bosnia und Herzegowina',),
              'COD': ('Kongo DR',),
              'COG': ('Kongo Rep',),
              'CPV': ('Kap Verde',),
              'CZE': ('Tschechien',),
+             'KNA': ('Sankt Kitts und Nevis', 'Saint Kitts und Nevis'),
              'LCA': ('Lucia',),
              'MKD': ('Nordmazedonien',),
              'PRK': ('Korea (Volksrepublik)',),
-             'PSE': ('Palästinensische Gebiete',),
+             'PSE': ('Palästinensische Gebiete', 'Palästinensische  Gebiete',),
+             'SAU': ('Saudi Arabien',),
              'SSD': ('Süd-Sudan',),
              'SUR': ('Surinam',),
              'SYR': ('Syrische Arabische Republik',),
              'TLS': ('Timor Leste',),
              'TTO': ('Trinidad Tobago',),
-             'VAT': ('Vatikanstadt',),
-             'VCT': ('Vincent und die Grenadinen',),
-             'USA': ('USA ', ' USA')}
+             'VAT': ('Vatikanstadt', 'Vatikan'),
+             'VCT': ('Vincent und die Grenadinen', 'Saint Vincent and the Grenadines'),
+             'USA': ('USA ', ' USA', 'USA')}
 
     date_fmt = {'db': '%Y-%m-%d', 'de': {'dt': '%d.%m.%Y', 're': r'\d{1,2}\.\d{1,2}\.\d{4}'},
                 'risk': {'dt': '%d. %B %Y', 're': r'\d{1,2}\. +[äa-z]+ +\d{4}',
@@ -70,10 +73,11 @@ class RKISpider(scrapy.Spider):
     @classmethod
     def valid_header(cls, header_xpath):
         header = header_xpath.xpath("./text()").get()
-        if header:
-            return re.search(r"^.+:\s*$", header)
-        else:
-            return False
+        return header is not None
+        # if header:
+        #     return re.search(r"^.+:\s*$", header)
+        # else:
+        #     return False
 
     regex_exclude = r'ausgenommen'
 
@@ -91,7 +95,7 @@ class RKISpider(scrapy.Spider):
                    3: "Risk area",
                    4: "Partial risk area"}
     risk_levels = ({'code': NO_RISK, 're': "^(?=.*tage)(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': RISK, 're': "^(?=.*risiko)(?=.*gebiet)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': RISK, 're': "staaten"},
                    {'code': HI_INC, 're': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
                    {'code': VARIANT, 're': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
     risk_priority = (RISK, HI_INC, VARIANT, NO_RISK)    # Used to resolve duplicates
@@ -161,8 +165,8 @@ class RKISpider(scrapy.Spider):
 
     def start_requests(self):
         archive_dir = Path.cwd()/"timelapse/archive"
-        urls = filter_snapshots(archive_dir, first_date=20201001,
-                                last_date=20210115, period_days=1)
+        urls = filter_snapshots(archive_dir, first_date=20200801,
+                                last_date=20201112, period_days=1)
         for url in urls:
             out_dir = archive_dir/"parsed"/Path(url).stem
             out_dir.mkdir(parents=True, exist_ok=True)
@@ -224,15 +228,15 @@ class RKISpider(scrapy.Spider):
             if not self.valid_header(h):
                 continue
             h_text = h.xpath("./text()").get()
-            code = self.NO_MATCH
-            for rl in self.risk_levels:
-                if re.search(rl['re'], h_text, re.I):
-                    code = rl['code']
-                    break
+            code = self.RISK
+            # for rl in self.risk_levels:
+            #     if re.search(rl['re'], h_text, re.I):
+            #         code = rl['code']
+            #         break
 
             if code != self.NO_MATCH:
-                print(f"The following header has been assigned risk level '{self.risk_labels[code]}':")
-                print(f"\t{h_text}")
+                # print(f"The following header has been assigned risk level '{self.risk_labels[code]}':")
+                # print(f"\t{h_text}")
                 date_ppt = "bis" if code == self.NO_RISK else "seit"
 
                 states = self.get_states(response, i_h)
@@ -306,12 +310,14 @@ class RKISpider(scrapy.Spider):
                         risk_err.append(country_code)
                         exc_err.append(reg_excluded)
                 print(", ".join(name_states))
-                print()
+                # print()
 
                 df = pd.DataFrame({"ISO3_CODE": iso3_states, "risk_level_code": risk_states, "NAME_DE": name_states,
                                    "risk_date": risk_dates, "region": None, "REG_EXCLUDED": exc_states,
                                    "NUTS_CODE": None})
                 df_collector[code] = df
+                if len(df) > 0:
+                    break
             # else:
             #     print(f"The following header was not assigned a risk level:")
             #     print(f"\t{h_text}\n")
