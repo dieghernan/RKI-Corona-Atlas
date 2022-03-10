@@ -62,6 +62,10 @@ class RKISpider(scrapy.Spider):
     def get_states(cls, response, header_index):
         return response.xpath(f"({cls.h2_xpath})[{header_index}]{cls.li_xpath}")
 
+    @classmethod
+    def valid_header(cls, header):
+        return re.search(r"^\d\..+:\s*$", header)
+
     regex_exclude = r'ausgenommen'
 
     NO_MATCH = -1
@@ -210,6 +214,8 @@ class RKISpider(scrapy.Spider):
 
         for i_h, h in enumerate(risk_headers, 1):
             h_text = h.get()
+            if not self.valid_header(h_text):
+                continue
             code = self.NO_MATCH
             for rl in self.risk_levels:
                 if re.search(rl['re'], h_text, re.I):
