@@ -90,7 +90,7 @@ class RKISpider(scrapy.Spider):
                    2: "High risk area",
                    3: "Risk area",
                    4: "Partial risk area"}
-    risk_levels = ({'code': NO_RISK, 're': "^(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
+    risk_levels = ({'code': NO_RISK, 're': "^(?=.*tage)(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
                    {'code': RISK, 're': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
                    {'code': HI_INC, 're': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
                    {'code': VARIANT, 're': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
