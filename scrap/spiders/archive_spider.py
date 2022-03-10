@@ -1,4 +1,5 @@
 import sys
+import builtins
 import locale
 import re
 from datetime import datetime as dt
@@ -149,6 +150,7 @@ class RKISpider(scrapy.Spider):
                                  cb_kwargs={"out_dir": out_dir,
                                             "make_locals": False})
 
+    # noinspection PyUnboundLocalVariable
     def parse(self, response, out_dir=None, make_locals=True):
         if response.status in (404, 500):
             raise RuntimeError(f"Site {response.url} not found")
@@ -163,7 +165,13 @@ class RKISpider(scrapy.Spider):
             date_out = out_dir/date_fname
             log_out = open(out_dir/log_fname, "w", encoding="utf-8")
 
-        print(f"Scraping the following URL:\n# {response.url}\n", file=log_out)
+            with open(out_dir/'content.html', 'wb') as html_file:
+                html_file.write(response.body)
+
+            def print(*args, **kwargs):
+                return builtins.print(*args, file=log_out, **kwargs)
+
+        print(f"Scraping the following URL:\n# {response.url}\n")
 
         stand = response.xpath("//div[contains(@class, 'subheadline')]/p/text()")
         match = re.search(self.date_fmt['de']['re'], stand.get())
@@ -172,7 +180,7 @@ class RKISpider(scrapy.Spider):
 
         res_date = dt.strptime(match.group(), self.date_fmt['de']['dt']).date()
 
-        print(f"Data from {res_date} was found.\n", file=log_out)
+        print(f"Data from {res_date} was found.\n")
 
         country_lut = self.country_names(german=True, lookup=True)
 
@@ -201,8 +209,8 @@ class RKISpider(scrapy.Spider):
                     break
 
             if code != self.NO_MATCH:
-                print(f"The following header has been assigned risk level '{self.risk_labels[code]}':", file=log_out)
-                print(f"\t{h_text}", file=log_out)
+                print(f"The following header has been assigned risk level '{self.risk_labels[code]}':")
+                print(f"\t{h_text}")
                 date_ppt = "bis" if code == self.NO_RISK else "seit"
 
                 states = response.xpath(f"({self.h2_xpath})[{i_h}]{self.li_xpath}")
@@ -220,7 +228,6 @@ class RKISpider(scrapy.Spider):
                     state_text = s.xpath("./text()[normalize-space()]").get()
                     if state_text is None:
                         state_text = s.xpath("./p/text()[normalize-space()]").get()
-                    print(state_text, file=log_out)
                     regions = s.xpath(f"./ul/li/text()")
                     msg = state_text.replace("<p>", "").replace("</p>", "").replace("\n", "")
 
@@ -265,29 +272,30 @@ class RKISpider(scrapy.Spider):
                         risk_states.append(country_code)
                         exc_states.append(reg_excluded)
                         if len(regions) > 0:
-                            print(f"\t\t{len(regions)} regions detected for {name_scraped}", file=log_out)
+                            print(f"\t\t{len(regions)} regions detected for {name_scraped}")
                     else:
-                        print(f"Unidentified state: {name_scraped}", file=log_out)
-                        print(f"Risk level code:\n\t{country_code}", file=log_out)
-                        print(f"Info:\n\t{msg}\n", file=log_out)
+                        print(f"Unidentified state: {name_scraped}")
+                        print(f"Risk level code:\n\t{country_code}")
+                        print(f"Info:\n\t{msg}\n")
 
                         name_err.append(name_scraped)
                         info_err.append(msg)
                         dates_err.append(self.extract_date(msg, preposition=date_ppt))
                         risk_err.append(country_code)
                         exc_err.append(reg_excluded)
-                print(file=log_out)
+                print(", ".join(name_states))
+                print()
 
                 df = pd.DataFrame({"ISO3_CODE": iso3_states, "risk_level_code": risk_states, "NAME_DE": name_states,
                                    "risk_date": risk_dates, "region": None, "REG_EXCLUDED": exc_states,
                                    "NUTS_CODE": None})
                 df_collector[code] = df
             else:
-                print(f"The following header was not assigned a risk level:", file=log_out)
-                print(f"\t{h_text}\n", file=log_out)
+                print(f"The following header was not assigned a risk level:")
+                print(f"\t{h_text}\n")
 
         if all(df_c is None for df_c in df_collector.values()):
-            print("No regions detected. Exiting...", file=log_out)
+            print("No regions detected. Exiting...")
             return
 
         db_new = pd.concat([df_collector[i] for i in self.risk_priority])
@@ -300,13 +308,13 @@ class RKISpider(scrapy.Spider):
                                    "risk_date": dates_err, "REG_EXCLUDED": exc_err})
         df_unknown = df_unknown.assign(ISO3_CODE="ERROR", ERROR="UNKNOWN_AREA")
 
-        print(f"Process summary:", file=log_out)
-        print(f"\t- {len(db_curated)} states have been succesfully processed", file=log_out)
+        print(f"Process summary:")
+        print(f"\t- {len(db_curated)} states have been succesfully processed")
         for rval, rlabel in self.risk_labels.items():
             db_query = f"risk_level_code == {rval}"
-            print(f"\t\t* {len(db_curated.query(db_query))} states as\t'{rlabel}'", file=log_out)
-        print(f"\t- {len(df_duplicated)} states are duplicated", file=log_out)
-        print(f"\t- {len(df_unknown)} states could not be identified", file=log_out)
+            print(f"\t\t* {len(db_curated.query(db_query))} states as\t'{rlabel}'")
+        print(f"\t- {len(df_duplicated)} states are duplicated")
+        print(f"\t- {len(df_unknown)} states could not be identified")
 
         db_norisk = db_old.assign(risk_level_code=lambda x: x.where(x["ISO3_CODE"] == "DEU",
                                                                     self.NO_RISK)["risk_level_code"])
