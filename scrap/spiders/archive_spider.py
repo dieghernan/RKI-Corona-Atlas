@@ -55,20 +55,25 @@ class RKISpider(scrapy.Spider):
                 'risk': {'dt': '%d. %B %Y', 're': r'\d{1,2}\. +[äa-z]+ +\d{4}',
                          'fallback': '%d. %b %Y'}}
 
-    h2_xpath = "//div[contains(@class, 'text')]/h2"
+    h2_xpath = "//div[contains(@class, 'text')]/p"
+    # h2_xpath = "//div[contains(@class, 'text')]/h2"
     li_xpath = "//following-sibling::ul[1]/li"
 
     @classmethod
     def get_risk_headers(cls, response):
-        return response.xpath(f"{cls.h2_xpath}/text()")
+        return response.xpath(f"{cls.h2_xpath}")
 
     @classmethod
     def get_states(cls, response, header_index):
         return response.xpath(f"({cls.h2_xpath})[{header_index}]{cls.li_xpath}")
 
     @classmethod
-    def valid_header(cls, header):
-        return re.search(r"^\d\..+:\s*$", header)
+    def valid_header(cls, header_xpath):
+        header = header_xpath.xpath("./strong/text()").get()
+        if header:
+            return re.search(r"^\s*\d\..+:\s*$", header)
+        else:
+            return False
 
     regex_exclude = r'ausgenommen'
 
@@ -156,8 +161,8 @@ class RKISpider(scrapy.Spider):
 
     def start_requests(self):
         archive_dir = Path.cwd()/"timelapse/archive"
-        urls = filter_snapshots(archive_dir, first_date=20210215,
-                                last_date=20210425, period_days=1)
+        urls = filter_snapshots(archive_dir, first_date=20210115,
+                                last_date=20210219, period_days=1)
         for url in urls:
             out_dir = archive_dir/"parsed"/Path(url).stem
             out_dir.mkdir(parents=True, exist_ok=True)
@@ -217,9 +222,9 @@ class RKISpider(scrapy.Spider):
         df_collector = {self.NO_RISK: None, self.RISK: None, self.HI_INC: None, self.VARIANT: None}
 
         for i_h, h in enumerate(risk_headers, 1):
-            h_text = h.get()
-            if not self.valid_header(h_text):
+            if not self.valid_header(h):
                 continue
+            h_text = h.xpath("./strong/text()").get()
             code = self.NO_MATCH
             for rl in self.risk_levels:
                 if re.search(rl['re'], h_text, re.I):
