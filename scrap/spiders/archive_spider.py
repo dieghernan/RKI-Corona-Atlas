@@ -42,6 +42,7 @@ class RKISpider(scrapy.Spider):
              'MKD': ('Nordmazedonien',),
              'PRK': ('Korea (Volksrepublik)',),
              'PSE': ('Palästinensische Gebiete',),
+             'SSD': ('Süd-Sudan',),
              'SUR': ('Surinam',),
              'SYR': ('Syrische Arabische Republik',),
              'TLS': ('Timor Leste',),
