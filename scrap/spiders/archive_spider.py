@@ -69,9 +69,9 @@ class RKISpider(scrapy.Spider):
 
     @classmethod
     def valid_header(cls, header_xpath):
-        header = header_xpath.xpath("./strong/text()").get()
+        header = header_xpath.xpath("./text()").get()
         if header:
-            return re.search(r"^\s*\d\..+:\s*$", header)
+            return re.search(r"^.+:\s*$", header)
         else:
             return False
 
@@ -91,7 +91,7 @@ class RKISpider(scrapy.Spider):
                    3: "Risk area",
                    4: "Partial risk area"}
     risk_levels = ({'code': NO_RISK, 're': "^(?=.*tage)(?=.*risikogebiet)(?=.*kein)(?=.*(staat|region|gebiet)).*$"},
-                   {'code': RISK, 're': "^(?=.*risikogebiet)(?=.*(staat|region|gebiet)).*$"},
+                   {'code': RISK, 're': "^(?=.*risiko)(?=.*gebiet)(?=.*(staat|region|gebiet)).*$"},
                    {'code': HI_INC, 're': "^(?=.*hochinzidenz)(?=.*(staat|region|gebiet)).*$"},
                    {'code': VARIANT, 're': "^(?=.*virusvariant)(?=.*(staat|region|gebiet)).*$"},)
     risk_priority = (RISK, HI_INC, VARIANT, NO_RISK)    # Used to resolve duplicates
@@ -161,18 +161,17 @@ class RKISpider(scrapy.Spider):
 
     def start_requests(self):
         archive_dir = Path.cwd()/"timelapse/archive"
-        urls = filter_snapshots(archive_dir, first_date=20210115,
-                                last_date=20210219, period_days=1)
+        urls = filter_snapshots(archive_dir, first_date=20201001,
+                                last_date=20210115, period_days=1)
         for url in urls:
             out_dir = archive_dir/"parsed"/Path(url).stem
             out_dir.mkdir(parents=True, exist_ok=True)
 
             yield scrapy.Request(url=url, callback=self.parse,
-                                 cb_kwargs={"out_dir": out_dir,
-                                            "make_locals": False})
+                                 cb_kwargs={"out_dir": out_dir})
 
     # noinspection PyUnboundLocalVariable
-    def parse(self, response, out_dir=None, make_locals=True):
+    def parse(self, response, out_dir=None):
         if response.status in (404, 500):
             raise RuntimeError(f"Site {response.url} not found")
 
@@ -224,7 +223,7 @@ class RKISpider(scrapy.Spider):
         for i_h, h in enumerate(risk_headers, 1):
             if not self.valid_header(h):
                 continue
-            h_text = h.xpath("./strong/text()").get()
+            h_text = h.xpath("./text()").get()
             code = self.NO_MATCH
             for rl in self.risk_levels:
                 if re.search(rl['re'], h_text, re.I):
@@ -313,9 +312,9 @@ class RKISpider(scrapy.Spider):
                                    "risk_date": risk_dates, "region": None, "REG_EXCLUDED": exc_states,
                                    "NUTS_CODE": None})
                 df_collector[code] = df
-            else:
-                print(f"The following header was not assigned a risk level:")
-                print(f"\t{h_text}\n")
+            # else:
+            #     print(f"The following header was not assigned a risk level:")
+            #     print(f"\t{h_text}\n")
 
         if all(df_c is None for df_c in df_collector.values()):
             print("No regions detected. Exiting...")
