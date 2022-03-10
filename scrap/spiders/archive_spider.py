@@ -36,7 +36,9 @@ class RKISpider(scrapy.Spider):
     alias = {'BLR': ('Belarus',),
              'COD': ('Kongo DR',),
              'COG': ('Kongo Rep',),
+             'CPV': ('Kap Verde',),
              'CZE': ('Tschechien',),
+             'LCA': ('Lucia',),
              'MKD': ('Nordmazedonien',),
              'PRK': ('Korea (Volksrepublik)',),
              'PSE': ('Palästinensische Gebiete',),
@@ -45,6 +47,7 @@ class RKISpider(scrapy.Spider):
              'TLS': ('Timor Leste',),
              'TTO': ('Trinidad Tobago',),
              'VAT': ('Vatikanstadt',),
+             'VCT': ('Vincent und die Grenadinen',),
              'USA': ('USA ', ' USA')}
 
     date_fmt = {'db': '%Y-%m-%d', 'de': {'dt': '%d.%m.%Y', 're': r'\d{1,2}\.\d{1,2}\.\d{4}'},
