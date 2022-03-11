@@ -10,9 +10,9 @@ library(showtext)
 
 
 # Import and tidy csv----
-# TODO: Link to actual db
 
-db <- read_csv("_R/test_risk_date_countries.csv")
+
+db <- read_csv("timelapse/risk_date_countries.csv")
 n <- names(db)
 n[1] <- "date"
 names(db) <- n
