@@ -134,10 +134,10 @@ for (i in seq_len(length(alldates))) {
       scale_fill_manual(
         values = c(
           "#00FF00",
-          "chocolate",
-          "yellow",
-          "red",
           "orange",
+          "#ADFF2F",
+          "red",
+          "yellow",
           "blue"
         ),
         drop = FALSE
@@ -152,19 +152,19 @@ for (i in seq_len(length(alldates))) {
 
   if (nrow(partial) > 0) {
     base <- base +
-      geom_sf(data = partial, size = 0.01, fill = "yellow")
+      geom_sf(data = partial, size = 0.01, fill = "#ADFF2F")
   }
 
 
   if (nrow(risk) > 0) {
     base <- base +
-      geom_sf(data = risk, size = 0.01, fill = "orange")
+      geom_sf(data = risk, size = 0.01, fill = "yellow")
   }
 
 
   if (nrow(high) > 0) {
     base <- base +
-      geom_sf(data = high, size = 0.01, fill = "chocolate")
+      geom_sf(data = high, size = 0.01, fill = "orange")
   }
 
 
