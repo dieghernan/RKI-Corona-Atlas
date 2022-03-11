@@ -10,6 +10,7 @@ import gettext
 
 import scrapy
 import pandas as pd
+import w3lib.html
 
 try:
     locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
@@ -34,7 +35,8 @@ class RKISpider(scrapy.Spider):
     handle_httpstatus_list = [200, 404, 500]
 
     alias = {'BLR': ('Belarus',),
-             'BIH': ('Bosnia und Herzegowina',),
+             'BIH': ('Bosnia', 'Bosnien',),
+             'BRN': ('Brunei', 'Burnei'),
              'COD': ('Kongo DR',),
              'COG': ('Kongo Rep',),
              'CPV': ('Kap Verde',),
@@ -42,7 +44,7 @@ class RKISpider(scrapy.Spider):
              'KNA': ('Sankt Kitts und Nevis', 'Saint Kitts und Nevis'),
              'LCA': ('Lucia',),
              'MKD': ('Nordmazedonien',),
-             'PRK': ('Korea (Volksrepublik)',),
+             'PRK': ('Korea (Volksrepublik)', 'Nordkorea'),
              'PSE': ('Palästinensische Gebiete', 'Palästinensische  Gebiete',),
              'SAU': ('Saudi Arabien',),
              'SSD': ('Süd-Sudan',),
@@ -68,7 +70,8 @@ class RKISpider(scrapy.Spider):
 
     @classmethod
     def get_states(cls, response, header_index):
-        return response.xpath(f"({cls.h2_xpath})[{header_index}]{cls.li_xpath}")
+        # return response.xpath(f"({cls.h2_xpath})[{header_index}]{cls.li_xpath}")
+        return response.xpath("//div[contains(@class, 'text')]/ul/li")
 
     @classmethod
     def valid_header(cls, header_xpath):
@@ -131,7 +134,7 @@ class RKISpider(scrapy.Spider):
     def clean(cls, message):
         for d in cls.deletable:
             message = message.replace(d, '')
-        return message
+        return message.strip()
 
     @staticmethod
     def unwrap(message):
@@ -165,8 +168,8 @@ class RKISpider(scrapy.Spider):
 
     def start_requests(self):
         archive_dir = Path.cwd()/"timelapse/archive"
-        urls = filter_snapshots(archive_dir, first_date=20200801,
-                                last_date=20201112, period_days=1)
+        urls = filter_snapshots(archive_dir, first_date=20200101,
+                                last_date=20200731, period_days=1)
         for url in urls:
             out_dir = archive_dir/"parsed"/Path(url).stem
             out_dir.mkdir(parents=True, exist_ok=True)
@@ -252,8 +255,11 @@ class RKISpider(scrapy.Spider):
                 for i_s, s in enumerate(states, 1):
                     iso3_found = None
                     state_text = s.xpath("./text()[normalize-space()]").get()
-                    if state_text is None:
-                        state_text = s.xpath("./p/text()[normalize-space()]").get()
+                    for node in ('p/abbr', 'p', 'abbr'):
+                        if state_text is not None:
+                            break
+
+                        state_text = s.xpath(f"./{node}/text()[normalize-space()]").get()
                     regions = s.xpath(f"./ul/li/text()")
                     msg = state_text.replace("<p>", "").replace("</p>", "").replace("\n", "")
 
@@ -300,7 +306,7 @@ class RKISpider(scrapy.Spider):
                         if len(regions) > 0:
                             print(f"\t\t{len(regions)} regions detected for {name_scraped}")
                     else:
-                        print(f"Unidentified state: {name_scraped}")
+                        print(f"Unidentified state: '{name_scraped}'")
                         print(f"Risk level code:\n\t{country_code}")
                         print(f"Info:\n\t{msg}\n")
 
