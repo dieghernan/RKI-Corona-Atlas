@@ -128,7 +128,7 @@ for (i in seq_len(length(alldates))) {
     geom_sf(data = deu, fill = "blue", size = 0.01)
 
 
-  if (nrow(low) > 1) {
+  if (nrow(low) > 0) {
     base <- base +
       geom_sf(data = low, aes(fill = value), size = 0.01) +
       scale_fill_manual(
@@ -150,31 +150,31 @@ for (i in seq_len(length(alldates))) {
       ))
   }
 
-  if (nrow(partial) > 1) {
+  if (nrow(partial) > 0) {
     base <- base +
       geom_sf(data = partial, size = 0.01, fill = "yellow")
   }
 
 
-  if (nrow(risk) > 1) {
+  if (nrow(risk) > 0) {
     base <- base +
       geom_sf(data = risk, size = 0.01, fill = "orange")
   }
 
 
-  if (nrow(high) > 1) {
+  if (nrow(high) > 0) {
     base <- base +
       geom_sf(data = high, size = 0.01, fill = "chocolate")
   }
 
 
 
-  if (nrow(concern) > 1) {
+  if (nrow(concern) > 0) {
     base <- base +
       geom_sf(data = concern, size = 0.01, fill = "red")
   }
 
-  if (nrow(rest) > 1) {
+  if (nrow(rest) > 0) {
     base <- base +
       geom_sf(data = rest, size = 0.01, fill = "grey70")
   }
