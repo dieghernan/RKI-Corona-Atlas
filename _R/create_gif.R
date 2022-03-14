@@ -18,7 +18,10 @@ n[1] <- "date"
 names(db) <- n
 
 # Daily db
-daily <- data.frame(date = seq(min(db$date), max(db$date), 1)) %>%
+max <- max(db$date, Sys.Date()-1) # yesterday
+
+
+daily <- data.frame(date = seq(min(db$date), max, 1)) %>%
   left_join(db) %>%
   fill(everything())
 
