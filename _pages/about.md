@@ -47,6 +47,8 @@ Whether it is _Heimweh_ or _Fernweh_ what brought you here,
 we want you to help you count down the days until
 your next big journey. Stay safe.
 
+![corona-timelapse](/assets/img/corona_atlas_timelapse.gif)<i class="fas fa-link fa-lg"></i>_Read more about this animated chronology on [Diego's blog](https://dieghernan.github.io/202203_Corona-timelapse/)._
+
 ## About us
 
 ---
