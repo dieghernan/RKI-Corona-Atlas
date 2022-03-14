@@ -33,4 +33,8 @@ as its Jekyll theme.
 
 [![Corona Atlas](/assets/img/og_corona_atlas.png)][corona-atlas]
 
+## Time-lapse
+
+![Time-lapse](/assets/img/corona_atlas_timelapse.gif)
+
 [corona-atlas]: https://corona-atlas.de/
