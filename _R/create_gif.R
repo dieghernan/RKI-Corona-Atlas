@@ -66,7 +66,7 @@ font_add("roboto",
 showtext_auto()
 
 
-files <- file.path("_R", "timelapse", paste0("D", dates, ".png"))
+files <- file.path("timelapse", "frames", paste0("D", dates, ".png"))
 
 alldates <- dates
 
@@ -194,7 +194,7 @@ for (i in seq_len(length(alldates))) {
 # Animation----
 
 
-allf <- list.files("_R/timelapse", pattern = ".png$", full.names = TRUE)
+allf <- list.files("timelapse/frames", pattern = ".png$", full.names = TRUE)
 
 arrange_anim <- c(
   rep(allf[1], 7),
