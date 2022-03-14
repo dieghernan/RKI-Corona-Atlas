@@ -363,6 +363,14 @@
         "withr"
       ]
     },
+    "gifski": {
+      "Package": "gifski",
+      "Version": "1.4.3-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "73d7566604b51f704a2f33b2efef470c",
+      "Requirements": []
+    },
     "giscoR": {
       "Package": "giscoR",
       "Version": "0.3.1",
@@ -963,6 +971,27 @@
         "geometries"
       ]
     },
+    "showtext": {
+      "Package": "showtext",
+      "Version": "0.9-5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b588dee88e238bf811e27f12edee9433",
+      "Requirements": [
+        "showtextdb",
+        "sysfonts"
+      ]
+    },
+    "showtextdb": {
+      "Package": "showtextdb",
+      "Version": "3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c12e756cf947e58b0f2c2a520521a5a8",
+      "Requirements": [
+        "sysfonts"
+      ]
+    },
     "slippymath": {
       "Package": "slippymath",
       "Version": "0.3.1",
@@ -1020,6 +1049,14 @@
         "stringi"
       ]
     },
+    "sysfonts": {
+      "Package": "sysfonts",
+      "Version": "0.8.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d5e2db91a3aa1ac242a6edb6b2093eb5",
+      "Requirements": []
+    },
     "systemfonts": {
       "Package": "systemfonts",
       "Version": "1.0.4",
@@ -1065,6 +1102,26 @@
         "pillar",
         "pkgconfig",
         "rlang",
+        "vctrs"
+      ]
+    },
+    "tidyr": {
+      "Package": "tidyr",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d8b95b7fee945d7da6888cf7eb71a49c",
+      "Requirements": [
+        "cpp11",
+        "dplyr",
+        "ellipsis",
+        "glue",
+        "lifecycle",
+        "magrittr",
+        "purrr",
+        "rlang",
+        "tibble",
+        "tidyselect",
         "vctrs"
       ]
     },

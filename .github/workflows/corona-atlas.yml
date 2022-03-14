@@ -87,11 +87,11 @@ jobs:
             More details in the attachment.
           ignore_cert: true
           attachments: log/scrapy_report.txt,assets/data/db_scraped.csv
-          
+
       - name: Install additional libraries for R
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
-        run: sudo apt-get update && sudo apt-get install libcurl4-openssl-dev libudunits2-dev gdal-bin proj-bin libgdal-dev libproj-dev libharfbuzz-dev libfribidi-dev
-          
+        run: sudo apt-get update && sudo apt-get install libmagick++-dev libcurl4-openssl-dev libudunits2-dev gdal-bin proj-bin libgdal-dev libproj-dev libharfbuzz-dev libfribidi-dev
+
 
       - name: Restore R packages
         uses: r-lib/actions/setup-renv@v2

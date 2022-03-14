@@ -54,6 +54,10 @@ message("----Render og_image\n\n")
 source("_R/og_image.R")
 
 
+message("----Render gif\n\n")
+# Dinamic og image
+source("_R/create_gif.R")
+
 
 # rmarkdown::render("_R/nuts.Rmd", output_dir = "_pages/",
 #                   output_format = "md_document", quiet = TRUE)

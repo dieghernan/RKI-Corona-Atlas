@@ -23,8 +23,8 @@ jobs:
 
       - name: Install additional libraries for R
         run: sudo apt-get update && sudo apt-get install libcurl4-openssl-dev libudunits2-dev gdal-bin proj-bin libgdal-dev libproj-dev libharfbuzz-dev libfribidi-dev
-        
-        
+
+
       - name: Restore R packages
         uses: r-lib/actions/setup-renv@v2
 
