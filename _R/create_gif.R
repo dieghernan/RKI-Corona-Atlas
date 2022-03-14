@@ -133,7 +133,7 @@ for (i in seq_len(length(alldates))) {
       geom_sf(data = low, aes(fill = value), size = 0.01) +
       scale_fill_manual(
         values = c(
-          "#00FF00",
+          "#32CD32",
           "orange",
           "#ADFF2F",
           "red",
