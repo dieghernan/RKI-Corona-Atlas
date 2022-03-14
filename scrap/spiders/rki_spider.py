@@ -21,6 +21,8 @@ data_dir = assets / "data"
 db_path = data_dir/"db_scraped.csv"
 date_path = data_dir/"report_date.csv"
 
+timelapse_path = Path("timelapse/risk_date_countries.csv")
+
 de = gettext.translation('iso3166', pycountry.LOCALES_DIR, languages=['de'])
 
 names = ["NAME_DE", "NAME_EN", "NAME_ES", "NAME_FR", "NAME_PL", "NAME_TR"]
@@ -401,6 +403,9 @@ class RKISpider(scrapy.Spider):
 
         pd.DataFrame({"report_date": [res_date]}).to_csv(date_path, index=False, date_format=self.date_fmt['db'])
 
+        timelapse = update_timelapse(db_curated, res_date)
+        timelapse.to_csv(timelapse_path, date_format=self.date_fmt['db'])
+
         # Build local databases and jsons
         try:
             locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
@@ -511,3 +516,15 @@ class RKISpider(scrapy.Spider):
             return c_lut
         else:
             return countries
+
+
+def update_timelapse(risk_df, date_dt, date_format=RKISpider.date_fmt['db']):
+    risk_codes = risk_df[["ISO3_CODE", "risk_level_code"]]
+    risk_codes = risk_codes.set_index("ISO3_CODE").T.rename({"risk_level_code": date_dt}).astype(int)
+
+    tl_old = pd.read_csv(timelapse_path, index_col=0).astype(int)
+    tl_old.index = tl_old.index.map(lambda i: dt.strptime(i, date_format).date())
+    tl_old = pd.concat([tl_old, risk_codes])
+    timelapse = tl_old[~tl_old.index.duplicated(keep='last')].sort_index()
+
+    return timelapse
