@@ -17,7 +17,7 @@ output:
 
 <p class="text-right font-weight-bold">
 
-mis à jour le 01/03/2022
+mis à jour le 01/06/2022
 
 </p>
 
