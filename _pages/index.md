@@ -20,7 +20,7 @@ output:
 
 <p class="text-right font-weight-bold">
 
-Stand: 01.06.2022
+Stand: 07.01.2023
 
 </p>
 

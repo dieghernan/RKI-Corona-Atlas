@@ -21,7 +21,7 @@ output:
 
 <p class="text-right font-weight-bold">
 
-Actualizado el 01/06/2022
+Actualizado el 07/01/2023
 
 </p>
 
