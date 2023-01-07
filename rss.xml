@@ -6,9 +6,9 @@
 		<link>https://corona-atlas.de/</link>
 		<description>Interactive map of the international COVID-19 risk areas as designated by the German authorities.</description>
 		<language>de-DE</language>
-		<copyright>(c) 2022, Diego & Rodrigo</copyright>	
-		<pubDate>Tue, 08 Mar 2022 10:40:14 +0100</pubDate>
-		<lastBuildDate>Tue, 08 Mar 2022 10:40:14 +0100</lastBuildDate>
+		<copyright>(c) 2023, Diego & Rodrigo</copyright>	
+		<pubDate>Sat, 07 Jan 2023 12:56:11 +0100</pubDate>
+		<lastBuildDate>Sat, 07 Jan 2023 12:56:11 +0100</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://corona-atlas.de/rss.xml" rel="self" type="application/rss+xml" />

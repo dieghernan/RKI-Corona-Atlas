@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="de-DE"><head>
    <meta charset="utf-8">
-    <!-- Chulapa Jekyll Theme - master dev -->
+    <!-- Chulapa Jekyll Theme - v1.0.1.dev -->
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2022-03-08 10:40:14 +0100 -->
+    <!-- Page build 2023-01-07 12:56:11 +0100 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
         {
@@ -17,8 +17,8 @@
       },
       "headline": "Áreas internacionales de riesgo COVID-19",
       "image": "https://corona-atlas.de/assets/img/og_corona_atlas.png",
-      "datePublished": "2022-03-08T10:40:14+01:00",
-      "dateModified": "2022-03-08T10:40:14+01:00",
+      "datePublished": "2023-01-07T12:56:11+01:00",
+      "dateModified": "2023-01-07T12:56:11+01:00",
       "author": {
         "@type": "Person",
         "name": "Diego & Rodrigo"
@@ -26,6 +26,7 @@
        "publisher": {
         "@type": "Organization",
         "name": "Diego & Rodrigo",
+        "url": "https://corona-atlas.de/",
         "logo": {
           "@type": "ImageObject",
           "url": "https://corona-atlas.de/assets/img/og_corona_atlas.png"
@@ -79,29 +80,29 @@ su estado actual.
    <title>Áreas internacionales de riesgo COVID-19 | Corona Atlas</title>
   <link rel="canonical" href="https://corona-atlas.de/es">
     <!-- Atom feed -->
-  <link href="https://corona-atlas.de/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed Corona Atlas" />
+  <link href="https://corona-atlas.de/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed Corona Atlas" >
     <!-- RSS 2.0 feed -->
-  <link href="https://corona-atlas.de/rss.xml" type="application/rss+xml" rel="alternate" title="RSS 2.0 feed Corona Atlas" />
+  <link href="https://corona-atlas.de/rss.xml" type="application/rss+xml" rel="alternate" title="RSS 2.0 feed Corona Atlas" >
     <!-- Meta tags -->
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="author" content="Diego & Rodrigo" />
-   <meta name="copyright" content="Diego & Rodrigo" />
+   <meta name="author" content="Diego & Rodrigo" >
+   <meta name="copyright" content="Diego & Rodrigo" >
    <meta name="description" content="establecidas por el Gobierno de Alemania - En este mapa interactivo puedes explorar
 las áreas de riesgo internacionales fijadas
-por el gobierno alemán para t..."/>
-   <meta name="thumbnail" content="https://corona-atlas.de/assets/img/og_corona_atlas.png" />
-   <meta name="robots" content="index, follow"><meta name="keywords" content="germany,leaflet,maps,pyhton,r,robert-koch-institut"/>
+por el gobierno alemán para t...">
+   <meta name="thumbnail" content="https://corona-atlas.de/assets/img/og_corona_atlas.png" >
+   <meta name="robots" content="index, follow"><meta name="keywords" content="germany,leaflet,maps,pyhton,r,robert-koch-institut">
     <!-- OpenGraph -->
-   <meta property="og:title" content="Áreas internacionales de riesgo COVID-19 | Corona Atlas" />
-   <meta property="og:site_name" content="Corona Atlas | Internationale COVID-19 Risikogebiete im Überblick" />
-   <meta property="og:url" content="https://corona-atlas.de/es" />
-   <meta property="og:type" content="website" />
-   <meta property="og:description" content="establecidas por el Gobierno de Alemania - En este mapa interactivo puedes explorar las áreas de riesgo internacionales fijadas por..." />
-   <meta property="og:locale" content="de-DE" />
-   <meta property="og:image" content="https://corona-atlas.de/assets/img/og_corona_atlas.png" />
+   <meta property="og:title" content="Áreas internacionales de riesgo COVID-19 | Corona Atlas" >
+   <meta property="og:site_name" content="Corona Atlas | Internationale COVID-19 Risikogebiete im Überblick" >
+   <meta property="og:url" content="https://corona-atlas.de/es" >
+   <meta property="og:type" content="website" >
+   <meta property="og:description" content="establecidas por el Gobierno de Alemania - En este mapa interactivo puedes explorar las áreas de riesgo internacionales fijadas por..." >
+   <meta property="og:locale" content="de-DE" >
+   <meta property="og:image" content="https://corona-atlas.de/assets/img/og_corona_atlas.png" >
     <!-- Twitter Cards -->
    <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:site" content="@rodrihgh" />
+   <meta name="twitter:site" content="@rodrihgh" >
     <!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <script src="https://cdn.jsdelivr.net/gh/dieghernan/RKI-Corona-Atlas@v1.0.0-beta.1/_R/plugins/header-attrs-2.7/header-attrs.min.js"></script>
@@ -132,16 +133,19 @@ por el gobierno alemán para t..."/>
 <!-- end custom head snippets -->
 <!-- CSS -->
     <!-- Preconnect with Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fontawesome-->
-    <!-- v5.13 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    <!-- v6 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/js/chulapa_script.js" as="script" >
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/fonts/Chulapa/Chulapa-Bold_vmod.otf" as="font" type="font/otf" crossorigin>
     <!-- Theme css (Bootstrap included) -->
-  <link rel="stylesheet" href="https://corona-atlas.de/assets/css/main.css" />
+  <link rel="stylesheet" id="maincss" href="https://corona-atlas.de/assets/css/main.css" >
     <!-- Highlighter -->
-  <link id="csshigh" rel="stylesheet" href="https://corona-atlas.de/assets/css/highlighter.css" />
+  <link id="csshigh" rel="stylesheet" href="https://corona-atlas.de/assets/css/highlighter.css" >
     <!-- Custom css -->
-  <link rel="stylesheet" href="https://corona-atlas.de/assets/css/custom.css" />
+  <link rel="stylesheet" href="https://corona-atlas.de/assets/css/custom.css" >
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N81B7N0WSC"></script>
 <script>
@@ -164,14 +168,14 @@ por el gobierno alemán para t..."/>
 <meta name="theme-color" content="#ecf6fe">
 <!-- end custom head snippets -->
 </head>
-<body class="d-flex flex-column">
+<body class="d-flex flex-column" id="body">
 	<div class="navbar-chulapa-fab d-md-none">
 		<input type="checkbox" class="navbar-chulapa-fab-button d-none" id="navi-toggle">
 		<label for="navi-toggle" class="navbar-toggler p-1 m-0 text-center d-flex">
 			<span class="navbar-toggler-icon m-auto">&nbsp;</span>
 		</label>
 		<div class="navbar-chulapa-fab-background">&nbsp;</div>
-		<nav class="navbar-chulapa-fab-nav">
+		<nav class="navbar-chulapa-fab-nav" aria-label="alternative-navigation">
 			<ul class="navbar-nav text-center text-uppercase font-weight-light mt-0 mb-1 py-1">
 				<li class="nav-item">
 					<a class="nav-link px-3 navbar-brand mx-1 " href="https://corona-atlas.de/"><img src="https://corona-atlas.de/assets/img/corona-atlas-icon.svg" width="30" height="30" class="d-inline-block align-top rounded-lg text-center mr-1" alt="NavbarLogo">Corona Atlas</a>
@@ -182,7 +186,7 @@ por el gobierno alemán para t..."/>
 				</li></ul>
 		</nav>
 	</div>
-	<nav class="navbar navbar-expand sticky-top navbar-chulapa d-none d-md-block ">
+	<nav class="navbar navbar-expand sticky-top navbar-chulapa d-none d-md-block " aria-label="primary-navigation">
 	<div class="container-fluid mx-md-2">
 			<a class="navbar-brand text-uppercase font-weight-light" href="https://corona-atlas.de/"><img src="https://corona-atlas.de/assets/img/corona-atlas-icon.svg" width="30" height="30" class="d-inline-block align-top rounded-lg mr-1" alt="NavbarLogo">Corona Atlas</a><ul class="navbar-nav ml-auto"><li class="nav-item mx-2 dropdown"><a class="nav-link text-uppercase font-weight-light dropdown-toggle  active font-weight-bold" href="#" id="Language2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Language2"><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/">Deutsch <img class="d-inline mb-1" src="https://flagcdn.com/16x12/de.png" width="16" height="12" alt="Germany"></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/en">English <img class="d-inline mb-1" src="https://flagcdn.com/16x12/gb.png" width="16" height="12" alt="United Kingdom"></a><a class="dropdown-item text-uppercase font-weight-light  active font-weight-bold" href="https://corona-atlas.de/es">Español <img class="d-inline mb-1" src="https://flagcdn.com/16x12/es.png" width="16" height="12" alt="Spain"><span class="sr-only">(current)</span></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/fr">Français <img class="d-inline mb-1" src="https://flagcdn.com/16x12/fr.png" width="16" height="12" alt="France"></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/pl">Polski <img class="d-inline mb-1" src="https://flagcdn.com/16x12/pl.png" width="16" height="12" alt="Poland"></a><a class="dropdown-item text-uppercase font-weight-light " href="https://corona-atlas.de/tr">Türkçe <img class="d-inline mb-1" src="https://flagcdn.com/16x12/tr.png" width="16" height="12" alt="Turkey"></a></div>
@@ -196,19 +200,20 @@ por el gobierno alemán para t..."/>
 </header>
 	<main class="container-lg pb-3 flex-fill">
 <div class="row my-1">
-<div class="col-lg-6 offset-lg-2 col small">
- </div><div class="col-lg-2 col-3 text-right lead chulapaDateSocial">
-            <a  href="https://twitter.com/intent/tweet?url=https://corona-atlas.de/es&text=%C3%81reas+internacionales+de+riesgo+COVID-19&via=rodrihgh" title="Share on Twitter"><i class="fab fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-            <a  class="d-none d-sm-inline" href="https://www.facebook.com/sharer.php?u=https://corona-atlas.de/es" title="Share on Facebook"><i class="fab fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-             <a  href="https://api.whatsapp.com/send?&text=%C3%81reas+internacionales+de+riesgo+COVID-19%20https://corona-atlas.de/es" title="Share on Whatsapp"><i class="fab fa-whatsapp-square fa-lg" aria-hidden="true"></i></a>
-         <a  class="d-none d-sm-inline" href="https://www.linkedin.com/shareArticle?url=https://corona-atlas.de/es&title=%C3%81reas+internacionales+de+riesgo+COVID-19" title="Share on LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+<div class="col-lg-5 offset-lg-2 col small">
+ </div><div class="col-lg-3 col-sm-4 col-3 text-right lead chulapaDateSocial">
+            <a  href="https://twitter.com/intent/tweet?url=https://corona-atlas.de/es&text=%C3%81reas+internacionales+de+riesgo+COVID-19&via=rodrihgh" title="Share on Twitter" aria-label="Share on Twitter" ><i class="fab fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+            <a href="https://toot.kytta.dev/?text=%C3%81reas%20internacionales%20de%20riesgo%20COVID-19%20https://corona-atlas.de/es" title="Share on Mastodon" aria-label="Share on Mastodon"><i class="fa-brands fa-mastodon fa-lg" aria-hidden="true"></i></a>
+            <a  class="d-none d-sm-inline" href="https://www.facebook.com/sharer.php?u=https://corona-atlas.de/es" title="Share on Facebook" aria-label="Share on Facebook" ><i class="fab fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+             <a  class="d-none d-sm-inline" href="https://api.whatsapp.com/send?&text=%C3%81reas+internacionales+de+riesgo+COVID-19%20https://corona-atlas.de/es" title="Share on Whatsapp" aria-label="Share on Whatsapp" ><i class="fab fa-whatsapp-square fa-lg" aria-hidden="true"></i></a>
+         <a  class="d-none d-sm-inline" href="https://www.linkedin.com/shareArticle?url=https://corona-atlas.de/es&title=%C3%81reas+internacionales+de+riesgo+COVID-19" title="Share on LinkedIn" aria-label="Share on LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
          </div></div>
 		<div class="row pt-2">
 			<aside class="col-lg-2 mt-lg-3 small"></aside>
-			<article class="col-lg-8 mt-3">
+			<article id="maincontent" class="col-lg-8 mt-3">
 			 <!-- Modify _R/index_es.Rmd file instead -->
 <p class="text-right font-weight-bold">
-Actualizado el 01/03/2022
+Actualizado el 07/01/2023
 </p>
 <h2 id="mapa-de-áreas-de-riesgo">Mapa de áreas de riesgo</h2>
 <p>En este mapa interactivo puedes explorar las áreas de riesgo
@@ -235,7 +240,7 @@ base de datos.</p>
 <a href="assets/dist/db_countries_risk_es.csv" class="btn btn-primary">Descargar
 base de datos (CSV)</a>
 </p>
-</article>
+			</article>
 		</div>
 	</main><!-- Footer -->
  <footer class="footer-chulapa text-center mt-0 pt-3">
@@ -249,8 +254,9 @@ base de datos (CSV)</a>
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fab fa-github fa-stack-1x fa-inverse"></i>
               </span><span class="sr-only">GitHub</span>
-            </a></div><p class="mt-2 mb-3">&copy; 2022 Diego & Rodrigo</p>
-          <!-- Do not remove this in order to give  attributions --><p class="small"><b>Academia</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p><p class="small">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p>
+            </a></div><p class="mt-2 mb-3">&copy; 2023 Diego & Rodrigo</p>
+          <!-- Do not remove this in order to give  attributions -->
+         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>Academia</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p>
           <!-- End  attributions -->
        </div>
      </div>
@@ -261,8 +267,8 @@ base de datos (CSV)</a>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-	<script src="https://corona-atlas.de/assets/js/clipboardrouge.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/js/chulapa_script.js"></script>
 	<!-- start custom scripts to be placed at the bottom of the page -->
 <!-- end custom bottom scripts -->
 	</body>
+</html>
