@@ -18,7 +18,7 @@ n[1] <- "date"
 names(db) <- n
 
 # Daily db
-max <- max(db$date, Sys.Date()-1) # yesterday
+max <- max(db$date, Sys.Date() - 1) # yesterday
 
 
 daily <- data.frame(date = seq(min(db$date), max, 1)) %>%
@@ -108,8 +108,8 @@ for (i in seq_len(length(alldates))) {
 
   # Base map
   base <- ggplot() +
-    geom_sf(data = bck, fill = "lightblue", alpha = 0.4) +
-    geom_sf(data = world, fill = "grey70", size = 0.01) +
+    geom_sf(data = bck, fill = "lightblue", alpha = 0.4, linewidth = 0.1) +
+    geom_sf(data = world, fill = "grey70", linewidth = 0.01) +
     theme_minimal() +
     theme(
       plot.background = element_rect(fill = "white", color = NA),
@@ -128,12 +128,12 @@ for (i in seq_len(length(alldates))) {
       caption = "Data: Robert Koch Institut   ",
       fill = ""
     ) +
-    geom_sf(data = deu, fill = "blue", size = 0.01)
+    geom_sf(data = deu, fill = "blue", linewidth = 0.01)
 
 
   if (nrow(low) > 0) {
     base <- base +
-      geom_sf(data = low, aes(fill = value), size = 0.01) +
+      geom_sf(data = low, aes(fill = value), linewidth = 0.01) +
       scale_fill_manual(
         values = c(
           "#32CD32",
@@ -155,31 +155,31 @@ for (i in seq_len(length(alldates))) {
 
   if (nrow(partial) > 0) {
     base <- base +
-      geom_sf(data = partial, size = 0.01, fill = "#ADFF2F")
+      geom_sf(data = partial, linewidth = 0.01, fill = "#ADFF2F")
   }
 
 
   if (nrow(risk) > 0) {
     base <- base +
-      geom_sf(data = risk, size = 0.01, fill = "yellow")
+      geom_sf(data = risk, linewidth = 0.01, fill = "yellow")
   }
 
 
   if (nrow(high) > 0) {
     base <- base +
-      geom_sf(data = high, size = 0.01, fill = "orange")
+      geom_sf(data = high, linewidth = 0.01, fill = "orange")
   }
 
 
 
   if (nrow(concern) > 0) {
     base <- base +
-      geom_sf(data = concern, size = 0.01, fill = "red")
+      geom_sf(data = concern, linewidth = 0.01, fill = "red")
   }
 
   if (nrow(rest) > 0) {
     base <- base +
-      geom_sf(data = rest, size = 0.01, fill = "grey70")
+      geom_sf(data = rest, linewidth = 0.01, fill = "grey70")
   }
 
 

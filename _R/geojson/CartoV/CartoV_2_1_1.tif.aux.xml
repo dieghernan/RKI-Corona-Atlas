@@ -20,7 +20,7 @@
   <PAMRasterBand band="3">
     <Description>blue</Description>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">243</MDI>
+      <MDI key="STATISTICS_MAXIMUM">245</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
       <MDI key="STATISTICS_MINIMUM">120</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>

@@ -20,12 +20,10 @@ output:
 <!-- Modify _R/index_es.Rmd file instead -->
 
 ```{r, child='snippets/setup.Rmd'}
-
 ```
 
 ```{r load_table, echo=FALSE}
 db_table <- readr::read_csv("../assets/dist/db_countries_risk_en.csv")
-
 ```
 
 <p class="text-right font-weight-bold">Updated on `r format(date, format="%d %B %Y")`</p>
@@ -55,7 +53,6 @@ are published on
 You can also browse the countries directly on the database.
 
 ```{r, child='snippets/table.Rmd'}
-
 ```
 
 <p class="text-center my-5">

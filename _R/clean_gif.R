@@ -7,4 +7,3 @@ unlink(allf)
 # Create gif
 
 source("_R/create_gif.R")
-

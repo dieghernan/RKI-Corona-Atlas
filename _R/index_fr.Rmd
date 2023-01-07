@@ -14,12 +14,10 @@ output:
 ---
 
 ```{r, child='snippets/setup.Rmd'}
-
 ```
 
 ```{r load_table, echo=FALSE}
 db_table <- readr::read_csv("../assets/dist/db_countries_risk_fr.csv")
-
 ```
 
 <!-- Modify _R/index_fr.Rmd file instead -->
@@ -46,7 +44,7 @@ ainsi que celui de ses régions.
 ```{r echo=FALSE}
 knitr::asis_output(htmltools::htmlPreserve('
 <div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
-<script src="https://corona-atlas.de/assets/data/locale_fr.js"></script> 
+<script src="https://corona-atlas.de/assets/data/locale_fr.js"></script>
 <script src="https://corona-atlas.de/assets/js/map.js"></script>
 '))
 ```
@@ -64,7 +62,6 @@ Vous pouvez aussi télécharger les informations concernant
 toutes les zones définies comme étant à risque dans le monde depuis notre banque de donnée.
 
 ```{r, child='snippets/table.Rmd'}
-
 ```
 
 

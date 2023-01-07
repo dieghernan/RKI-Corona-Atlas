@@ -26,26 +26,26 @@ rmarkdown::render(
 
 message("----Render index_fr\n\n")
 rmarkdown::render(
- "_R/index_fr.Rmd",
- output_dir = "_pages/",
- output_format = "md_document",
- quiet = TRUE
+  "_R/index_fr.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
 )
 
 message("----Render index_pl\n\n")
 rmarkdown::render(
- "_R/index_pl.Rmd",
- output_dir = "_pages/",
- output_format = "md_document",
- quiet = TRUE
+  "_R/index_pl.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
 )
 
 message("----Render index_tr\n\n")
 rmarkdown::render(
- "_R/index_tr.Rmd",
- output_dir = "_pages/",
- output_format = "md_document",
- quiet = TRUE
+  "_R/index_tr.Rmd",
+  output_dir = "_pages/",
+  output_format = "md_document",
+  quiet = TRUE
 )
 
 

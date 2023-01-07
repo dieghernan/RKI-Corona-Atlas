@@ -20,12 +20,10 @@ output:
 <!-- Modify _R/index_es.Rmd file instead -->
 
 ```{r, child='snippets/setup.Rmd'}
-
 ```
 
 ```{r load_table, echo=FALSE}
 db_table <- readr::read_csv("../assets/dist/db_countries_risk_de.csv")
-
 ```
 
 <p class="text-right font-weight-bold">Stand: `r format(date, format="%d.%m.%Y")`</p>
@@ -66,7 +64,6 @@ und die dazugehörigen Informationen
 direkt in der Datenbank nachgeschlagen werden.
 
 ```{r, child='snippets/table.Rmd'}
-
 ```
 
 <p class="text-center my-5">

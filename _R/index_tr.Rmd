@@ -20,12 +20,10 @@ output:
 <!-- Modify _R/index_tr.Rmd file instead -->
 
 ```{r, child='snippets/setup.Rmd'}
-
 ```
 
 ```{r load_table, echo=FALSE}
 db_table <- readr::read_csv("../assets/dist/db_countries_risk_tr.csv")
-
 ```
 
 <p class="text-right font-weight-bold">`r format(date, format="%d.%m.%Y")`'de güncellendi</p>
@@ -57,7 +55,6 @@ Riskli bölgelere yönelik mevcut seyahat kısıtlamaları, [Alman
 Ayrıca, veritabanından ülkelere ait bilgilere doğrudan erişebilirsiniz.
 
 ```{r, child='snippets/table.Rmd'}
-
 ```
 
 <p class="text-center my-5">
