@@ -32,7 +32,7 @@ jobs:
         with:
           python-version: 3.8
 
-      - uses: actions/cache@v3.2.2
+      - uses: actions/cache@v3
         name: Cache Python dependencies
         with:
           path: ~/.cache/pip
@@ -60,7 +60,7 @@ jobs:
         if: github.event_name != 'schedule' || steps.scrapy.outputs.DATABASE == 'NEW'
         name: Setup R
         with:
-          r-version: '4.1.2'
+          r-version: '4.2.2'
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-pandoc@v2

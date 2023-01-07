@@ -9,5 +9,4 @@ reactable(
   striped = TRUE,
   paginationType = "jump"
 )
-
 ```

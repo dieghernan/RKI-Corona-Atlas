@@ -20,7 +20,6 @@ output:
 <!-- Modify _R/index_pl.Rmd file instead -->
 
 ```{r, child='snippets/setup.Rmd'}
-
 ```
 
 ```{r load_table, echo=FALSE}
@@ -55,7 +54,6 @@ Niemiec z zagranicy są opublikowane na
 Informacje dla danego kraju możesz również sprawdzić bezpośrednio w bazie danych.
 
 ```{r, child='snippets/table.Rmd'}
-
 ```
 
 <p class="text-center my-5">
