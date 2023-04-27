@@ -70,7 +70,7 @@ jobs:
           pandoc-version: '2.7.3'
 
       - name: Send mail
-        uses: dawidd6/action-send-mail@v3.4.1
+        uses: dawidd6/action-send-mail@v3.7.2
         if: steps.scrapy.outputs.DATABASE == 'NEW'
         with:
           server_address: smtp.ionos.de
